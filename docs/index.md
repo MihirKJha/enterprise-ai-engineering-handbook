@@ -1,3 +1,10 @@
+# 📘 Enterprise AI Engineering Handbook
+
+<p align="center">
+  <img src="assets/banners/handbook-banner.png"
+       alt="Enterprise AI Engineering Handbook">
+</p>
+
 # Enterprise AI Engineering Handbook
 
 > **A production-focused handbook for Backend Engineers, Cloud Engineers, Software Architects, and AI Engineers who want to design, build, deploy, and operate Enterprise AI systems.**

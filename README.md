@@ -1,5 +1,7 @@
 <p align="center">
-  <img src="assets/banners/handbook-banner.png" alt="Enterprise AI Engineering Handbook">
+  <img src="docs/assets/banners/handbook-banner.png"
+       alt="Enterprise AI Engineering Handbook"
+       width="100%">
 </p>
 
 <div align="center">
