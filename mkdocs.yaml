@@ -11,12 +11,15 @@ site_url: https://mihirkjha.github.io/enterprise-ai-engineering-handbook/
 repo_name: MihirJha/Enterprise-AI-Engineering-Handbook
 repo_url: https://github.com/MihirKJha/Enterprise-AI-Engineering-Handbook
 
+edit_uri: edit/main/docs/
+
 copyright: Copyright © 2026 Mihir Jha
 
 theme:
   name: material
   language: en
-
+  features:
+   - content.action.edit
   logo: assets/logos/favicon.png
   favicon: assets/logos/favicon.png
 
