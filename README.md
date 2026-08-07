@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/banners/handbook-banner.png" alt="Enterprise AI Engineering Handbook">
+</p>
+
 <div align="center">
 
 # 📘 Enterprise AI Engineering Handbook

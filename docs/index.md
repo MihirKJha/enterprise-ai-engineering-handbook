@@ -2,6 +2,8 @@
 
 > **A production-focused handbook for Backend Engineers, Cloud Engineers, Software Architects, and AI Engineers who want to design, build, deploy, and operate Enterprise AI systems.**
 
+![Enterprise AI Engineering Handbook](assets/banners/handbook-banner.png)
+
 ---
 
 # 👋 Welcome
