@@ -42,17 +42,11 @@ This module is designed as a progressive learning journey. We recommend studying
 
 | Chapter | Status |
 |---------|:------:|
-| [01. Introduction to Machine Learning](01-machine-learning-fundamentals.md) | ✅ |
-| 02. AI vs Machine Learning vs Deep Learning | 🚧 |
-| 03. Types of Machine Learning | 🚧 |
-| 04. Machine Learning Workflow | 🚧 |
-| 05. Data Preparation | 🚧 |
-| 06. Feature Engineering | 🚧 |
-| 07. Model Training | 🚧 |
-| 08. Model Evaluation | 🚧 |
-| 09. Model Optimization | 🚧 |
-| 10. Model Deployment | 🚧 |
-| 11. Production Machine Learning | 🚧 |
+| **[01. Introduction to Machine Learning](01-introduction-to-machine-learning.md)** | ✅ |
+| **[02. Machine Learning Fundamentals](02-machine-learning-fundamentals.md)** | ✅ |
+| **[03. Machine Learning Lifecycle](03-machine-learning-lifecycle.md)** | ✅ |
+| **[04. Machine Learning in Practice](04-machine-learning-in-practice.md)** | ✅ |
+| **[05. Machine Learning Ecosystem and Tools](05-machine-learning-ecosystem-and-tools.md)** | ✅ |
 
 ---
 
@@ -74,14 +68,6 @@ Some common enterprise applications include:
 - Predictive Analytics
 
 Throughout this module, you'll learn not only the underlying theory but also how these systems are architected, deployed, monitored, optimized, and scaled in real-world enterprise environments.
-
----
-
-!!! info "Module Status"
-
-    🚧 This module is currently under active development.
-
-    New chapters will be added regularly as part of the **Enterprise AI Engineering Handbook**.
 
 ---
 
