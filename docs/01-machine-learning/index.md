@@ -1,7 +1,7 @@
 # Part I — Machine Learning
 
 <p align="center">
-  <img src="assets/banners/machine-learning-banner.png"
+  <img src="../assets/banners/machine-learning-banner.png"
        alt="Machine Learning">
 </p>
 
