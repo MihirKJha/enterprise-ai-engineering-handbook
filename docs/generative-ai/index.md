@@ -1,10 +1,5 @@
 # Part I — Machine Learning
 
-<p align="center">
-  <img src="assets/banners/machine-learning-banner.png"
-       alt="Machine Learning">
-</p>
-
 > Build a strong foundation in Machine Learning and learn how production-ready ML systems are designed, trained, evaluated, and deployed in real-world enterprise environments.
 
 ---
