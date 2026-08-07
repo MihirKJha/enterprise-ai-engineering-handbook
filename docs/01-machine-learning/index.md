@@ -38,7 +38,7 @@ After completing this module, you will be able to:
 
 ## 🛣️ Recommended Learning Path
 
-This module is designed as a progressive learning journey. We recommend studying the chapters in the order presented, as each topic builds upon concepts introduced in previous chapters, gradually progressing from Machine Learning fundamentals to production-ready enterprise applications.
+This module is designed as a progressive learning journey. We recommend studying the chapters in the order presented, as each topic builds upon concepts introduced in previous chapters, gradually progressing from Machine Learning fundamentals to production-ready enterprise AI systems.
 
 | Chapter | Status |
 |---------|:------:|
@@ -47,6 +47,11 @@ This module is designed as a progressive learning journey. We recommend studying
 | **[03. Machine Learning Lifecycle](03-machine-learning-lifecycle.md)** | ✅ |
 | **[04. Machine Learning in Practice](04-machine-learning-in-practice.md)** | ✅ |
 | **[05. Machine Learning Ecosystem and Tools](05-machine-learning-ecosystem-and-tools.md)** | ✅ |
+| **[06. Regression Fundamentals](06-regression-fundamentals.md)** | ✅ |
+| **[07. Linear Regression](07-linear-regression.md)** | ✅ |
+| **[08. Nonlinear Regression](08-nonlinear-regression.md)** | ✅ |
+| **[09. Logistic Regression](09-logistic-regression.md)** | ✅ |
+| **[10. Regression Model Training and Evaluation](10-regression-model-training-and-evaluation.md)** | ✅ |
 
 ---
 
@@ -75,9 +80,9 @@ Throughout this module, you'll learn not only the underlying theory but also how
 
 Ready to begin your Machine Learning journey?
 
-➡️ Continue with **[01. Introduction to Machine Learning](01-machine-learning-fundamentals.md)**.
+➡️ Continue with **[01. Introduction to Machine Learning](01-introduction-to-machine-learning.md)** .
 
 ---
-
+Fixed issue in navigation
 > **Enterprise AI Engineering Handbook**  
 > *Building Production-Grade Enterprise AI Systems — One Chapter at a Time.*

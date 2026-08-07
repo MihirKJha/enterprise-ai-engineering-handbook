@@ -380,4 +380,4 @@ The next chapter explores how Machine Learning is applied in real-world enterpri
 
 ## ➡️ Next Chapter
 
-**[04. Machine Learning in Practice](04-machine-learning-in-practice.md)**
+*[04. Machine Learning in Practice](04-machine-learning-in-practice.md)*

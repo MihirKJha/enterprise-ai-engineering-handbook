@@ -294,4 +294,4 @@ Continue with the Machine Learning ecosystem to explore the tools, frameworks, a
 
 ## ➡️ Next Chapter
 
-**[05. Machine Learning Ecosystem and Tools](05-machine-learning-ecosystem-and-tools.md)**
+*[05. Machine Learning Ecosystem and Tools](05-machine-learning-ecosystem-and-tools.md)*

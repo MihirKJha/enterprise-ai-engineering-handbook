@@ -566,4 +566,4 @@ Continue with the Machine Learning lifecycle to understand how production-ready 
 
 ## ➡️ Next Chapter
 
-**[03. Machine Learning Lifecycle](03-machine-learning-lifecycle.md)**
+*[03. Machine Learning Lifecycle](03-machine-learning-lifecycle.md)*

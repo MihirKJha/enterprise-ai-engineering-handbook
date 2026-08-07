@@ -359,6 +359,6 @@ These concepts form the foundation for Deep Learning, Generative AI, Retrieval-A
 
 ---
 
-## ➡️ Next Module
+## ➡️ Next Chapter
 
-**[Part II — Deep Learning](../02-deep-learning/index.md)**
+*[06. Regression Fundamentals](06-regression-fundamentals.md)*
