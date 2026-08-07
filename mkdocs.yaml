@@ -1,0 +1,136 @@
+site_name: Enterprise AI Engineering Handbook
+site_description: >
+  A Production-Focused Handbook for Backend Engineers, Cloud Engineers,
+  Software Architects, and AI Engineers.
+
+site_author: Mihir Jha
+site_url: https://mihirjha.github.io/Enterprise-AI-Engineering-Handbook/
+
+repo_name: MihirJha/Enterprise-AI-Engineering-Handbook
+repo_url: https://github.com/MihirJha/Enterprise-AI-Engineering-Handbook
+
+copyright: Copyright © 2026 Mihir Jha
+
+theme:
+  name: material
+
+  language: en
+
+  logo: assets/logos/logo.png
+  favicon: assets/logos/favicon.png
+
+  palette:
+
+    - scheme: default
+      primary: blue
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    - scheme: slate
+      primary: blue
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+  features:
+
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.instant
+    - navigation.tracking
+    - navigation.footer
+
+    - search.highlight
+    - search.share
+    - search.suggest
+
+    - content.code.copy
+    - content.code.annotate
+
+    - toc.follow
+
+markdown_extensions:
+
+  - admonition
+  - tables
+  - footnotes
+  - attr_list
+  - md_in_html
+
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+
+plugins:
+
+  - search
+
+nav:
+
+  - Home: index.md
+
+  - Part I - Machine Learning:
+
+      - Overview: 01-machine-learning/README.md
+
+  - Part II - Deep Learning:
+
+      - Overview: 02-deep-learning/README.md
+
+  - Part III - Generative AI:
+
+      - Overview: 03-generative-ai/README.md
+
+  - Part IV - Prompt Engineering:
+
+      - Overview: 04-prompt-engineering/README.md
+
+  - Part V - Retrieval-Augmented Generation:
+
+      - Overview: 05-retrieval-augmented-generation/README.md
+
+  - Part VI - AI Agents:
+
+      - Overview: 06-ai-agents/README.md
+
+  - Part VII - Agentic AI:
+
+      - Overview: 07-agentic-ai/README.md
+
+  - Part VIII - AI System Design:
+
+      - Overview: 08-ai-system-design/README.md
+
+  - Part IX - MLOps:
+
+      - Overview: 09-mlops/README.md
+
+  - Part X - Cloud AI:
+
+      - Overview: 10-cloud-ai/README.md
+
+  - Part XI - Interview Preparation:
+
+      - Overview: 11-interview-preparation/README.md
+
+extra:
+
+  social:
+
+    - icon: fontawesome/brands/github
+      link: https://github.com/MihirJha
+
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/
+
+extra_css:
+
+  - stylesheets/extra.css
