@@ -139,9 +139,11 @@ Topics include:
 
 # Part VII — Agentic AI
 
+> 🚧 **Coming Soon**
+
 Build enterprise-grade autonomous AI systems.
 
-Topics include:
+Planned topics include:
 
 - Agentic Workflows
 - Multi-Agent Systems
@@ -163,9 +165,11 @@ Topics include:
 
 # Part VIII — AI System Design
 
+> 🚧 **Coming Soon**
+
 Learn how production AI systems are architected.
 
-Topics include:
+Planned Topics include:
 
 - AI Architecture
 - Scalability
@@ -179,9 +183,11 @@ Topics include:
 
 # Part IX — MLOps
 
+> 🚧 **Coming Soon**
+
 Learn how to deploy and operate Machine Learning systems.
 
-Topics include:
+Planned Topics include:
 
 - Experiment Tracking
 - Model Registry
@@ -195,9 +201,11 @@ Topics include:
 
 # Part X — Cloud AI
 
+> 🚧 **Coming Soon**
+
 Build cloud-native AI applications.
 
-Topics include:
+Planned Topics include:
 
 - AWS AI
 - Azure AI
@@ -211,9 +219,11 @@ Topics include:
 
 # Part XI — Interview Preparation
 
+> 🚧 **Coming Soon**
+
 Prepare for Enterprise AI interviews.
 
-Topics include:
+Planned Topics include:
 
 - AI Interview Questions
 - AI System Design Interviews
@@ -289,31 +299,51 @@ If you find an issue or would like to improve this handbook, please open an Issu
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
-**Mihir Jha**
+## Mihir Jha
 
-**Software Architect | AI Engineering | Multi-Cloud Solutions**
+**Software Architect | Enterprise AI Engineer | Cloud-Native & Multi-Cloud Solutions**
 
-Passionate about designing intelligent, scalable, and resilient applications that combine cloud-native architecture with modern Generative AI technologies.
+Passionate about designing intelligent, scalable, and resilient applications that combine **Cloud-Native Architecture**, **Generative AI**, and **Enterprise AI Engineering**.
 
-If you're interested in **Enterprise AI Engineering**, **Cloud Architecture**, **Large Language Models**, **RAG**, **AI Agents**, or **Production AI Systems**, feel free to explore the repository, share feedback, or connect with me.
+If you're interested in **Enterprise AI Engineering**, **Cloud Architecture**, **Large Language Models (LLMs)**, **Retrieval-Augmented Generation (RAG)**, **AI Agents**, **Agentic AI**, or **Production AI Systems**, feel free to explore this repository, share your feedback, or connect with me.
 
-## GitHub
+---
 
-**https://github.com/MihirKJha**
+## 🌐 Connect With Me
 
-## LinkedIn
+- 🌍 **Documentation Website**  
+  [Enterprise AI Engineering Handbook](https://mihirkjha.github.io/enterprise-ai-engineering-handbook/)
 
-**https://www.linkedin.com/in/mihirkrjha/**
+- 💻 **GitHub**  
+  [MihirKJha](https://github.com/MihirKJha)
 
-## Newsletter
+- 💼 **LinkedIn**  
+  [Mihir Jha](https://www.linkedin.com/in/mihirkrjha/)
 
-**Enterprise AI Engineering**
+- 📰 **Newsletter – Enterprise AI Engineering**  
+  [Read on LinkedIn](https://www.linkedin.com/newsletters/enterprise-ai-engineering-7479222208079319041/)
 
-**https://www.linkedin.com/newsletters/enterprise-ai-engineering-7479222208079319041/**
+---
 
-Sharing practical insights on Enterprise AI, Cloud Architecture, Backend Engineering, Large Language Models, RAG, AI Agents, and production-ready AI systems.
+## 📬 About the Newsletter
+
+**Enterprise AI Engineering** is a technical newsletter where I share practical, production-focused insights on:
+
+- Enterprise AI Engineering
+- Cloud Architecture
+- Backend Engineering
+- Large Language Models (LLMs)
+- Retrieval-Augmented Generation (RAG)
+- AI Agents & Agentic AI
+- MLOps & Cloud AI
+- Production-Ready AI Systems
+- AI System Design & Best Practices
+
+---
+
+⭐ **If you find this handbook useful, please consider giving it a ⭐ Star and sharing it with others.**
 
 
 ---

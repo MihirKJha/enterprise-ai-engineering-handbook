@@ -79,47 +79,47 @@ nav:
 
   - Part I - Machine Learning:
 
-      - Overview: 01-machine-learning/README.md
+      - Overview: 01-machine-learning/index.md
 
   - Part II - Deep Learning:
 
-      - Overview: 02-deep-learning/README.md
+      - Overview: 02-deep-learning/index.md
 
   - Part III - Generative AI:
 
-      - Overview: 03-generative-ai/README.md
+      - Overview: 03-generative-ai/index.md
 
   - Part IV - Prompt Engineering:
 
-      - Overview: 04-prompt-engineering/README.md
+      - Overview: 04-prompt-engineering/index.md
 
   - Part V - Retrieval-Augmented Generation:
 
-      - Overview: 05-retrieval-augmented-generation/README.md
+      - Overview: 05-retrieval-augmented-generation/index.md
 
   - Part VI - AI Agents:
 
-      - Overview: 06-ai-agents/README.md
+      - Overview: 06-ai-agents/index.md
 
   - Part VII - Agentic AI:
 
-      - Overview: 07-agentic-ai/README.md
+      - Overview: 07-agentic-ai/index.md
 
   - Part VIII - AI System Design:
 
-      - Overview: 08-ai-system-design/README.md
+      - Overview: 08-ai-system-design/index.md
 
   - Part IX - MLOps:
 
-      - Overview: 09-mlops/README.md
+      - Overview: 09-mlops/index.md
 
   - Part X - Cloud AI:
 
-      - Overview: 10-cloud-ai/README.md
+      - Overview: 10-cloud-ai/index.md
 
   - Part XI - Interview Preparation:
 
-      - Overview: 11-interview-preparation/README.md
+      - Overview: 11-interview-preparation/index.md
 
 extra:
 
