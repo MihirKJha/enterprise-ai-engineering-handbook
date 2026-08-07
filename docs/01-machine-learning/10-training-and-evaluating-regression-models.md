@@ -452,4 +452,4 @@ These concepts form the foundation for more advanced Machine Learning algorithms
 
  ➡️ Next Chapter
 
-*[10. Regression Model Training and Evaluation](10-regression-model-training-and-evaluation.md)*
+*[10. Classification Fundamentals ](11-classification-fundamentals.md)*

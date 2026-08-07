@@ -317,4 +317,4 @@ The next chapter explores how regression models are trained, optimized, and eval
 
 ## ➡️ Next Chapter
 
-*[10. Regression Model Training and Evaluation](10-regression-model-training-and-evaluation.md)*
+*[10. Training and Evaluation Regression Models](10-training-and-evaluating-regression-models)*

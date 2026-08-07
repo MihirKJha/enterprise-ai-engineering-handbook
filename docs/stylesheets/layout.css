@@ -75,9 +75,11 @@ Layout
 ========================================== */
 
 .md-typeset hr {
+    margin: 1.5rem 0;
+}
 
-    margin: 3rem 0;
-
+.md-typeset hr + h2 {
+    margin-top: 0.8rem;
 }
 
 /* ==========================================
