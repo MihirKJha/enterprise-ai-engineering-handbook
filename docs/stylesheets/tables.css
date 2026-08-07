@@ -1,0 +1,35 @@
+/*
+---------------------------------------------------------
+Tables
+---------------------------------------------------------
+*/
+
+.md-typeset table {
+
+    border-radius: 12px;
+
+    overflow: hidden;
+
+}
+
+.md-typeset th {
+
+    background: var(--md-primary-fg-color);
+
+    color: white;
+
+}
+
+.md-typeset td,
+
+.md-typeset th {
+
+    padding: .8rem;
+
+}
+
+.md-typeset tbody tr:hover {
+
+    background: rgba(0,0,0,.03);
+
+}

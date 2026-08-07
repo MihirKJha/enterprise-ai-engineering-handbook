@@ -1,0 +1,31 @@
+/*
+---------------------------------------------------------
+Layout
+---------------------------------------------------------
+*/
+
+/* Sidebar */
+
+.md-sidebar {
+    width: 320px;
+}
+
+/* Footer */
+
+.md-footer-meta {
+    padding: .5rem 0;
+}
+
+/* Images */
+
+.md-typeset img {
+    display: block;
+    margin: auto;
+    border-radius: 12px;
+}
+
+/* Horizontal Rule */
+
+.md-typeset hr {
+    margin: 2rem 0;
+}

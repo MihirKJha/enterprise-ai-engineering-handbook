@@ -14,10 +14,11 @@ Learn how to **design, build, deploy, and operate Enterprise AI systems** with r
 
 ---
 
-[![Documentation](https://img.shields.io/badge/Documentation-Handbook-blue)](#)
+[![Documentation](https://img.shields.io/badge/Documentation-Handbook-blue)](https://mihirkjha.github.io/enterprise-ai-engineering-handbook/)
+[![Website](https://img.shields.io/badge/Website-Live-success)](https://mihirkjha.github.io/enterprise-ai-engineering-handbook/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
-[![Made with Markdown](https://img.shields.io/badge/Made%20with-Markdown-000000)](#)
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Coming%20Soon-blueviolet)](#)
+[![Built with MkDocs](https://img.shields.io/badge/Built%20with-MkDocs-526CFE)](https://www.mkdocs.org/)
+[![Material for MkDocs](https://img.shields.io/badge/Theme-Material%20for%20MkDocs-4051B5)](https://squidfunk.github.io/mkdocs-material/)
 
 ⭐ **If you find this handbook useful, please consider giving it a star!**
 

@@ -1,0 +1,17 @@
+/*
+---------------------------------------------------------
+Admonitions
+---------------------------------------------------------
+*/
+
+.md-typeset .admonition {
+
+    border-radius: 12px;
+
+}
+
+.md-typeset details {
+
+    border-radius: 12px;
+
+}

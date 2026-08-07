@@ -1,19 +1,20 @@
 site_name: Enterprise AI Engineering Handbook
+
 site_description: >
-  A Production-Focused Handbook for Backend Engineers, Cloud Engineers,
-  Software Architects, and AI Engineers.
+  A Production-Focused Handbook for Backend Engineers,
+  Cloud Engineers, Software Architects, and AI Engineers.
 
 site_author: Mihir Jha
-site_url: https://mihirkjha.github.io/Enterprise-AI-Engineering-Handbook/
+
+site_url: https://mihirkjha.github.io/enterprise-ai-engineering-handbook/
 
 repo_name: MihirJha/Enterprise-AI-Engineering-Handbook
-repo_url: https://github.com/MihirkJha/Enterprise-AI-Engineering-Handbook
+repo_url: https://github.com/MihirKJha/Enterprise-AI-Engineering-Handbook
 
 copyright: Copyright © 2026 Mihir Jha
 
 theme:
   name: material
-
   language: en
 
   logo: assets/logos/favicon.png
@@ -37,40 +38,75 @@ theme:
 
   features:
 
+    # Navigation
     - navigation.tabs
     - navigation.sections
     - navigation.expand
-    - navigation.top
     - navigation.instant
     - navigation.tracking
+    - navigation.indexes
+    - navigation.path
+    - navigation.top
     - navigation.footer
 
+    # Search
     - search.highlight
     - search.share
     - search.suggest
 
+    # Content
     - content.code.copy
     - content.code.annotate
+    - content.tabs.link
+    - content.tooltips
 
+    # Table of Contents
     - toc.follow
 
 markdown_extensions:
 
+  # Core Markdown
   - admonition
-  - tables
-  - footnotes
   - attr_list
+  - def_list
+  - footnotes
   - md_in_html
+  - tables
+
+  - toc:
+      permalink: true
+
+  # PyMdown Extensions
 
   - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.highlight
+
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+
   - pymdownx.inlinehilite
+
   - pymdownx.tabbed:
       alternate_style: true
 
-plugins:
+  - pymdownx.emoji
 
+  - pymdownx.keys
+
+  - pymdownx.mark
+
+  - pymdownx.caret
+
+  - pymdownx.tilde
+
+plugins:
   - search
 
 nav:
@@ -78,59 +114,62 @@ nav:
   - Home: index.md
 
   - Part I - Machine Learning:
-
-      -ML Overview: 01-machine-learning/index.md
+      - ML Overview: 01-machine-learning/index.md
 
   - Part II - Deep Learning:
-
       - DL Overview: 02-deep-learning/index.md
 
   - Part III - Generative AI:
-
       - Gen AI Overview: 03-generative-ai/index.md
 
   - Part IV - Prompt Engineering:
-
       - Prompt Engineering Overview: 04-prompt-engineering/index.md
 
   - Part V - Retrieval-Augmented Generation:
-
       - RAG Overview: 05-retrieval-augmented-generation/index.md
 
   - Part VI - AI Agents:
-
       - AI Agents Overview: 06-ai-agents/index.md
 
   - Part VII - Agentic AI:
-
       - Agentic AI Overview: 07-agentic-ai/index.md
 
   - Part VIII - AI System Design:
-
       - AI System Design Overview: 08-ai-system-design/index.md
 
   - Part IX - MLOps:
-
       - MLOps Overview: 09-mlops/index.md
 
   - Part X - Cloud AI:
-
       - Cloud AI Overview: 10-cloud-ai/index.md
 
   - Part XI - Interview Preparation:
-
       - Interview Preparation Overview: 11-interview-preparation/index.md
+
+plugins:
+  - search
 
 extra:
 
   social:
 
     - icon: fontawesome/brands/github
-      link: https://github.com/MihirJha
+      link: https://github.com/MihirKJha
 
     - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/
+      link: https://www.linkedin.com/in/mihirkrjha/
 
 extra_css:
-
+  - stylesheets/typography.css
+  - stylesheets/layout.css
+  - stylesheets/code.css
+  - stylesheets/tables.css
+  - stylesheets/admonitions.css
+  - stylesheets/cards.css
+  - stylesheets/homepage.css
+  - stylesheets/custom.css
   - stylesheets/extra.css
+
+extra_javascript:
+  - https://unpkg.com/mermaid@11/dist/mermaid.min.js
+  - javascripts/mermaid.js
