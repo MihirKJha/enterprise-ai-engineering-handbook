@@ -66,7 +66,7 @@ This section includes:
 
 Follow the topics in the following order:
 
-1. Introduction to Machine Learning
+1. [01. Introduction to Machine Learning](01-machine-learning-fundamentals.md)
 2. AI vs Machine Learning vs Deep Learning
 3. Types of Machine Learning
 4. Machine Learning Workflow
