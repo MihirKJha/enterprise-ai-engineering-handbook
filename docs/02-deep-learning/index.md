@@ -2,7 +2,7 @@
 
 > Master Deep Learning fundamentals and learn how production-ready Deep Learning systems are designed, trained, optimized, deployed, and operated in modern enterprise environments.
 
-![Deep Learning Banner](../assets/images/deep-learning-banner.png)
+![Deep Learning Banner](../assets/banners/deep-learning-banner.png)
 
 ---
 

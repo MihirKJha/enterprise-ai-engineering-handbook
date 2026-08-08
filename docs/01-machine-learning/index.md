@@ -5,12 +5,6 @@
 
 ![Machine Learning Banner](../assets/banners/machine-learning-banner.png)
 
-<p align="center">
-  <img src="../assets/banners/machine-learning-banner.png"
-       alt="Machine Learning">
-</p>
-
-
 ---
 
 ## 📖 Overview
