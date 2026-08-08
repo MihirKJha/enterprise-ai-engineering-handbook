@@ -1,59 +1,58 @@
-# {{ AI System Design }}
+# Part VIII — AI Engineering Frameworks & Tooling
 
-![{{ MODULE NAME }} Banner](../assets/banners/{{ banner-image }}.png)
+> Master the modern frameworks, orchestration platforms, SDKs, and development tools used to build, evaluate, deploy, and operate production-ready Enterprise AI applications.
 
----
-
-## Overview
-
-{{ Module Name }} is a key part of the **Enterprise AI Engineering Handbook**. This section is designed to provide a structured, production-focused learning path that combines fundamental concepts with real-world engineering practices.
+![AI Engineering Frameworks & Tooling Banner](../assets/banners/ai-engineering-frameworks-banner.png)
 
 ---
 
-## 🚧 Coming Soon
+## 📖 Overview
 
-This module is currently under active development.
+Modern AI applications extend far beyond calling Large Language Models through APIs. Building production-ready Enterprise AI systems requires a rich ecosystem of frameworks, orchestration platforms, SDKs, evaluation tools, and development utilities that simplify the creation, deployment, and operation of intelligent applications.
 
-It will include comprehensive, production-oriented content with:
+This module provides a production-focused introduction to the AI engineering ecosystem, covering the industry's leading frameworks and tooling for developing LLM-powered applications, Retrieval-Augmented Generation (RAG) pipelines, AI Agents, Agentic AI systems, and enterprise AI platforms.
 
-- Clear conceptual explanations
-- Architecture diagrams
-- Hands-on code examples
-- Cloud implementation examples
-- Production best practices
-- Common pitfalls
-- Interview preparation
-- Real-world use cases
+Designed for software engineers, backend developers, cloud engineers, solution architects, and AI engineers, this module equips you with the practical knowledge required to select, integrate, and leverage the right frameworks for building scalable, maintainable, and production-ready AI systems.
 
 ---
 
-## What to Expect
+## 🎯 Learning Outcomes
 
-- 📘 Beginner to Advanced Learning Path
-- 🏗 Production-Ready Architectures
-- 💻 Practical Code Examples
-- ☁️ Multi-Cloud Implementations
-- 🤖 Enterprise AI Best Practices
-- 🎯 Interview-Oriented Coverage
+After completing this module, you will be able to:
 
----
-
-!!! info "Work in Progress"
-
-    This module is being developed chapter by chapter.
-    
-    New content will be published regularly as part of the Enterprise AI Engineering Handbook.
+- Understand the modern AI Engineering ecosystem
+- Compare popular AI orchestration frameworks
+- Build LLM applications using industry-standard SDKs
+- Develop RAG applications using specialized frameworks
+- Build AI Agents and Agentic AI systems using modern orchestration platforms
+- Understand workflow orchestration and execution models
+- Compare framework capabilities and trade-offs
+- Select the appropriate framework for different enterprise use cases
+- Design modular, maintainable, and scalable AI applications
+- Apply production best practices when building Enterprise AI systems
 
 ---
 
-## Stay Connected
+## 🚧 Module Status
 
-If you're interested in **Enterprise AI Engineering**, **Cloud Architecture**, **Large Language Models**, **RAG**, **AI Agents**, and **Production AI Systems**, consider:
+> **Status:** 🚧 **Under Active Development**
 
-- ⭐ Starring the GitHub repository
-- 🔗 Following the LinkedIn newsletter
-- 💬 Sharing feedback and suggestions
+The roadmap for this module has been finalized, and content is currently being developed.
+
+Each chapter will include:
+
+- 📖 Production-focused explanations
+- 🏗️ Enterprise architecture diagrams
+- 💻 Hands-on implementation examples
+- ⚡ Best practices & optimization techniques
+- ⚠️ Common pitfalls & troubleshooting guidance
+- ❓ Interview questions
+- 📝 Quick revision notes
+- 📚 References & further reading
+
+New chapters will be published regularly as the handbook evolves.
 
 ---
 
-> **Building Production-Grade Enterprise AI Systems — One Chapter at a Time.**
+> **Enterprise AI Engineering Handbook**  
+> *Building Production-Grade Enterprise AI Systems — One Chapter at a Time.*
