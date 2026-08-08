@@ -55,6 +55,7 @@ A[Dataset]
 --> D[Build Hierarchy]
 
 --> E[Dendrogram]
+
 ```
 
 ---
@@ -119,20 +120,14 @@ Although conceptually simple, divisive clustering is computationally more expens
 
 ```mermaid
 flowchart TD
+    A[Individual Points]
+    B[Merge Closest Clusters]
+    C[Larger Clusters]
+    D[Single Cluster]
 
-Individual Points
-
--->
-
-Merge Closest Clusters
-
--->
-
-Larger Clusters
-
--->
-
-Single Cluster
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ---

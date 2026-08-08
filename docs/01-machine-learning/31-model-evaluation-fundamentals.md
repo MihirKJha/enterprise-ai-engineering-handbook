@@ -55,6 +55,7 @@ A[Collect Data]
 --> E[Improve Model]
 
 --> F[Deploy]
+
 ```
 
 ---
@@ -115,6 +116,7 @@ Dataset
 Dataset
 
 --> Test Set
+
 ```
 
 ---
@@ -158,24 +160,16 @@ The following chapters explore each evaluation approach in detail.
 
 ```mermaid
 flowchart TD
+    A[Model Evaluation]
+    B[Classification]
+    C[Regression]
+    D[Unsupervised]
+    E[Model Validation]
 
-Model Evaluation
-
--->
-
-Classification
-
--->
-
-Regression
-
--->
-
-Unsupervised
-
--->
-
-Model Validation
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ---

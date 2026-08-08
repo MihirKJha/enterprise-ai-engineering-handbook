@@ -59,6 +59,7 @@ A[High-Dimensional Dataset]
 --> D[Reduced Feature Space]
 
 --> E[Machine Learning Model]
+
 ```
 
 ---
@@ -106,24 +107,16 @@ Characteristics:
 
 ```mermaid
 flowchart TD
+    A[Original Features]
+    B[PC1]
+    C[PC2]
+    D[PC3]
+    E[Reduced Dataset]
 
-Original Features
-
--->
-
-PC1
-
--->
-
-PC2
-
--->
-
-PC3
-
--->
-
-Reduced Dataset
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ---

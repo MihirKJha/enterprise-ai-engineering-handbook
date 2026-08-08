@@ -57,6 +57,7 @@ A[Raw Dataset]
 --> D[Feature Engineering]
 
 --> E[Classification / Regression Model]
+
 ```
 
 ---
@@ -124,24 +125,16 @@ The supervised model can now learn different behaviors for different customer gr
 
 ```mermaid
 flowchart TD
+    A[Customer Data]
+    B[K-Means]
+    C[Cluster Labels]
+    D[New Feature]
+    E[Prediction Model]
 
-Customer Data
-
--->
-
-K-Means
-
--->
-
-Cluster Labels
-
--->
-
-New Feature
-
--->
-
-Prediction Model
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ---
@@ -191,28 +184,18 @@ A typical workflow includes:
 
 ```mermaid
 flowchart LR
+    A[Dataset]
+    B[Feature Scaling]
+    C[Clustering]
+    D[Cluster Features]
+    E[Supervised Model]
+    F[Predictions]
 
-Dataset
-
--->
-
-Feature Scaling
-
--->
-
-Clustering
-
--->
-
-Cluster Features
-
--->
-
-Supervised Model
-
--->
-
-Predictions
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
 ```
 
 ---

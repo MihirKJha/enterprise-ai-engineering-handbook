@@ -55,6 +55,7 @@ A[Dataset]
 --> D[Expand Clusters]
 
 --> E[Detect Noise]
+
 ```
 
 ---
@@ -127,28 +128,18 @@ These observations are often treated as anomalies or outliers.
 
 ```mermaid
 flowchart TD
+    A[Dataset]
+    B[Find Core Points]
+    C[Expand Cluster]
+    D[Border Points]
+    E[Noise Detection]
+    F[Final Clusters]
 
-Dataset
-
--->
-
-Find Core Points
-
--->
-
-Expand Cluster
-
--->
-
-Border Points
-
--->
-
-Noise Detection
-
--->
-
-Final Clusters
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
 ```
 
 ---

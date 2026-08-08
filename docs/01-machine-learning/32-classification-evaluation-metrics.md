@@ -63,6 +63,7 @@ A[Train Classification Model]
 --> D[Compare Models]
 
 --> E[Select Best Model]
+
 ```
 
 ---
@@ -100,6 +101,7 @@ Training Data
 Test Data
 
 --> Evaluate Model
+
 ```
 
 ---
@@ -236,46 +238,24 @@ The F1 Score provides a balanced measure of classification performance. :content
 
 ```mermaid
 flowchart TD
+    A[Classification Problem]
+    B[Balanced Dataset]
+    C[Accuracy Classification Problem]
+    D[Need High Precision]
+    E[Precision Classification Problem]
+    F[Need High Recall]
+    G[Recall Classification Problem]
+    H[Need Balanced Performance]
+    I[F1 Score]
 
-Classification Problem
-
--->
-
-Balanced Dataset
-
--->
-
-Accuracy
-
-Classification Problem
-
--->
-
-Need High Precision
-
--->
-
-Precision
-
-Classification Problem
-
--->
-
-Need High Recall
-
--->
-
-Recall
-
-Classification Problem
-
--->
-
-Need Balanced Performance
-
--->
-
-F1 Score
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+    G --> H
+    H --> I
 ```
 
 ---

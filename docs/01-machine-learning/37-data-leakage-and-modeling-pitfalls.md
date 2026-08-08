@@ -46,28 +46,18 @@ Even a highly accurate model cannot be trusted if evaluation was affected by lea
 
 ```mermaid
 flowchart LR
+    A[Raw Data]
+    B[Train/Test Split]
+    C[Training Pipeline]
+    D[Cross Validation]
+    E[Final Test Evaluation]
+    F[Production]
 
-Raw Data
-
--->
-
-Train/Test Split
-
--->
-
-Training Pipeline
-
--->
-
-Cross Validation
-
--->
-
-Final Test Evaluation
-
--->
-
-Production
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
 ```
 
 ---
@@ -152,30 +142,16 @@ These mistakes often go unnoticed until production deployment. :contentReference
 
 ```mermaid
 flowchart TD
+    A[Feature Engineering]
+    B[Data Leakage Normalization]
+    C[Data Leakage Future Information]
+    D[Data Leakage Improper CV]
+    E[Data Leakage]
 
-Feature Engineering
-
--->
-
-Data Leakage
-
-Normalization
-
--->
-
-Data Leakage
-
-Future Information
-
--->
-
-Data Leakage
-
-Improper CV
-
--->
-
-Data Leakage
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ---

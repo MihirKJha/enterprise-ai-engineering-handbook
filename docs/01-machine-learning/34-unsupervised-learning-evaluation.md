@@ -56,6 +56,7 @@ A[Unlabelled Data]
 --> D[Visualization]
 
 --> E[Business Validation]
+
 ```
 
 ---
@@ -277,28 +278,18 @@ Stability testing is often used alongside internal evaluation metrics. :contentR
 
 ```mermaid
 flowchart TD
+    A[Clustering Model]
+    B[Internal Metrics]
+    C[External Metrics]
+    D[Visualization]
+    E[Business Validation]
+    F[Production]
 
-Clustering Model
-
--->
-
-Internal Metrics
-
--->
-
-External Metrics
-
--->
-
-Visualization
-
--->
-
-Business Validation
-
--->
-
-Production
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
 ```
 
 ---

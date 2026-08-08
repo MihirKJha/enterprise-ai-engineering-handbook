@@ -59,6 +59,7 @@ A[Dataset]
 E -->|No| C
 
 E -->|Yes| F[Final Clusters]
+
 ```
 
 ---
@@ -124,24 +125,16 @@ Repeat the assignment and update steps until the centroids no longer change sign
 
 ```mermaid
 flowchart TD
+    A[Initialize Centroids]
+    B[Assign Points]
+    C[Update Centroids]
+    D[Repeat Until Stable]
+    E[Final Clusters]
 
-Initialize Centroids
-
--->
-
-Assign Points
-
--->
-
-Update Centroids
-
--->
-
-Repeat Until Stable
-
--->
-
-Final Clusters
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ---

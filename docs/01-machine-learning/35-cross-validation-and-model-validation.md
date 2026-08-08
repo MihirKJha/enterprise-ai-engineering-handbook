@@ -68,6 +68,7 @@ Best Model
 Test Data
 
 --> Final Evaluation
+
 ```
 
 ---
@@ -90,30 +91,18 @@ The **test set should only be used once**, after model development is complete. 
 
 ```mermaid
 flowchart TD
+    A[Complete Dataset]
+    B[Training Set]
+    C[Validation Set]
+    D[Hyperparameter Tuning Complete Dataset]
+    E[Test Set]
+    F[Final Evaluation]
 
-Complete Dataset
-
--->
-
-Training Set
-
--->
-
-Validation Set
-
--->
-
-Hyperparameter Tuning
-
-Complete Dataset
-
--->
-
-Test Set
-
--->
-
-Final Evaluation
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
 ```
 
 ---
@@ -167,52 +156,20 @@ Typical values are **K = 5** or **K = 10**. :contentReference[oaicite:3]{index=3
 
 ```mermaid
 flowchart LR
+    A[Dataset]
+    B[Fold 1 Dataset]
+    C[Fold 2 Dataset]
+    D[Fold 3 Dataset]
+    E[Fold 4 Dataset]
+    F[Fold 5 Fold 1 --> Validation Fold 2 --> Training Fold 3 --> Training Fold 4 --> Training Fold 5 --> Training Repeat for all folds]
+    G[Average Performance]
 
-Dataset
-
--->
-
-Fold 1
-
-Dataset
-
--->
-
-Fold 2
-
-Dataset
-
--->
-
-Fold 3
-
-Dataset
-
--->
-
-Fold 4
-
-Dataset
-
--->
-
-Fold 5
-
-Fold 1 --> Validation
-
-Fold 2 --> Training
-
-Fold 3 --> Training
-
-Fold 4 --> Training
-
-Fold 5 --> Training
-
-Repeat for all folds
-
--->
-
-Average Performance
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
 ```
 
 ---
@@ -283,32 +240,20 @@ The test dataset should remain untouched until the final evaluation stage.
 
 ```mermaid
 flowchart TD
+    A[Training Data]
+    B[Model Training]
+    C[Validation]
+    D[Hyperparameter Tuning]
+    E[Final Model]
+    F[Test Data]
+    G[Production]
 
-Training Data
-
--->
-
-Model Training
-
--->
-
-Validation
-
--->
-
-Hyperparameter Tuning
-
--->
-
-Final Model
-
--->
-
-Test Data
-
--->
-
-Production
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
 ```
 
 ---

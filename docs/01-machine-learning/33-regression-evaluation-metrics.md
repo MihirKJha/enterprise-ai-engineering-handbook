@@ -54,6 +54,7 @@ A[Train Regression Model]
 --> D[Compare Models]
 
 --> E[Select Best Model]
+
 ```
 
 ---
@@ -176,46 +177,24 @@ Higher R² values generally indicate better model performance. :contentReference
 
 ```mermaid
 flowchart TD
+    A[Regression Problem]
+    B[Equal Error Importance]
+    C[MAE Regression Problem]
+    D[Large Errors Costly]
+    E[MSE Regression Problem]
+    F[Need Original Units]
+    G[RMSE Regression Problem]
+    H[Overall Model Fit]
+    I[R² Score]
 
-Regression Problem
-
--->
-
-Equal Error Importance
-
--->
-
-MAE
-
-Regression Problem
-
--->
-
-Large Errors Costly
-
--->
-
-MSE
-
-Regression Problem
-
--->
-
-Need Original Units
-
--->
-
-RMSE
-
-Regression Problem
-
--->
-
-Overall Model Fit
-
--->
-
-R² Score
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+    G --> H
+    H --> I
 ```
 
 ---

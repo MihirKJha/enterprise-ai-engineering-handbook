@@ -50,24 +50,16 @@ Rather than eliminating features directly, regularization constrains the model d
 
 ```mermaid
 flowchart LR
+    A[Training Data]
+    B[Regression Model]
+    C[Add Penalty Term]
+    D[Shrink Coefficients]
+    E[Better Generalization]
 
-Training Data
-
--->
-
-Regression Model
-
--->
-
-Add Penalty Term
-
--->
-
-Shrink Coefficients
-
--->
-
-Better Generalization
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ---
@@ -109,24 +101,16 @@ Regularization limits model complexity and improves robustness.
 
 ```mermaid
 flowchart LR
+    A[Complex Model]
+    B[Overfitting]
+    C[Regularization]
+    D[Simpler Model]
+    E[Better Generalization]
 
-Complex Model
-
--->
-
-Overfitting
-
--->
-
-Regularization
-
--->
-
-Simpler Model
-
--->
-
-Better Generalization
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ---
