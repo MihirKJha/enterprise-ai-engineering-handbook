@@ -1,11 +1,15 @@
 # Part I — Machine Learning
 
+> Build a strong foundation in Machine Learning and learn how production-ready ML systems are designed, trained, evaluated, deployed, and operated in modern enterprise environments.
+
+
+![Machine Learning Banner](../assets/banners/machine-learning-banner.png)
+
 <p align="center">
   <img src="../assets/banners/machine-learning-banner.png"
        alt="Machine Learning">
 </p>
 
-> Build a strong foundation in Machine Learning and learn how production-ready ML systems are designed, trained, evaluated, deployed, and operated in modern enterprise environments.
 
 ---
 
