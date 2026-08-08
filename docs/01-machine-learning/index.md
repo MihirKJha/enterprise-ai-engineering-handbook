@@ -51,7 +51,7 @@ This module is designed as a progressive learning journey. We recommend studying
 | **[07. Linear Regression](07-linear-regression.md)** | ✅ |
 | **[08. Nonlinear Regression](08-nonlinear-regression.md)** | ✅ |
 | **[09. Logistic Regression](09-logistic-regression.md)** | ✅ |
-| **[10. Regression Model Training and Evaluation](10-training-and-evaluating-regression-models)** | ✅ |
+| **[10. Regression Model Training and Evaluation](10-training-and-evaluating-regression-models.md)** | ✅ |
 | **[11. Classification Fundamentals](11-classification-fundamentals.md)** | ✅ |
 | **[12. Decision Trees](12-decision-trees.md)** | ✅ |
 | **[13. Regression Trees](13-regression-trees.md)** | ✅ |
