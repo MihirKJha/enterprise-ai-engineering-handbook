@@ -48,12 +48,16 @@ Build a strong foundation in Machine Learning.
 Topics include:
 
 - Machine Learning Fundamentals
+- Regression
+- Classification
 - Supervised Learning
 - Unsupervised Learning
+- Clustering
+- Dimensionality Reduction
 - Feature Engineering
-- Model Evaluation
-- Model Deployment
-- Production ML
+- Model Evaluation & Validation
+- Regularization Techniques
+- Production Machine Learning
 
 ---
 
@@ -63,17 +67,23 @@ Learn how modern neural networks power today's AI systems.
 
 Topics include:
 
-- Neural Networks
+- Neural Network Fundamentals
+- Deep Neural Networks
+- TensorFlow & Keras
+- PyTorch
 - CNNs
 - RNNs
-- LSTMs
-- Transformers
+- LSTMs & GRUs
+- Attention Mechanism
+- Transformer Architecture
 - Transfer Learning
+- Autoencoders
 - Model Optimization
+- Production Deep Learning
 
 ---
 
-# Part III — Generative AI
+# Part III — Foundation Models, Large Language Models & Generative AI
 
 Understand modern foundation models and Generative AI.
 
@@ -81,68 +91,92 @@ Topics include:
 
 - Foundation Models
 - Large Language Models (LLMs)
+- Hugging Face Ecosystem
 - Tokenization
 - Embeddings
-- Vector Representations
-- Fine-tuning
+- Fine-Tuning
+- PEFT
+- LoRA
 - Quantization
+- Diffusion Models
+- Generative Adversarial Networks (GANs)
+- Vision Transformers (ViT)
 - Multimodal AI
+- Production LLM Systems
 
 ---
 
-# Part IV — Prompt Engineering
+# Part IV — Prompt Engineering & RAG Fundamentals
 
-Learn to communicate effectively with Large Language Models.
+Learn how to effectively use Large Language Models and build Retrieval-Augmented Generation (RAG) applications.
 
 Topics include:
 
-- Prompt Design
+- Prompt Engineering Fundamentals
+- Prompt Design Patterns
 - Zero-shot Prompting
 - Few-shot Prompting
 - Chain of Thought
 - ReAct
 - Structured Outputs
-- Prompt Optimization
+- Function Calling
+- Tool Calling
+- Embeddings in Practice
+- Vector Databases
+- Chunking Strategies
+- Basic Retrieval
+- Basic RAG Pipeline
 
 ---
 
-# Part V — Retrieval-Augmented Generation (RAG)
+# Part V — Advanced Retrieval-Augmented Generation
 
-Build production-ready RAG applications.
+Build enterprise-grade Retrieval-Augmented Generation systems.
 
 Topics include:
 
-- Embeddings
-- Vector Databases
-- Chunking
-- Retrieval
 - Hybrid Search
+- Metadata Filtering
+- Parent-Child Retrieval
+- Multi-Vector Retrieval
+- Multi-Query Retrieval
+- Contextual Compression
 - Re-ranking
+- Graph RAG
+- SQL RAG
+- Knowledge Graphs
+- Agentic RAG
 - RAG Evaluation
-- Production RAG
+- Performance Optimization
+- Cost Optimization
+- Production RAG Architectures
 
 ---
 
 # Part VI — AI Agents
 
-Learn how intelligent AI agents work.
+Learn how intelligent AI agents are designed and deployed.
 
 Topics include:
 
 - Agent Fundamentals
+- Agent Architecture
 - Planning
 - Reasoning
-- Tool Calling
 - Memory
-- Communication
+- Tool Calling
+- Function Calling
+- Reflection
+- Self-Correction
+- Agent Evaluation
 - Observability
 - Security
-- Evaluation
 - Deployment
+- Model Context Protocol (MCP)
 
 ---
 
-# Part VII — Agentic AI
+# Part VII — Agentic AI & Multi-Agent Systems
 
 > 🚧 **Coming Soon**
 
@@ -150,85 +184,118 @@ Build enterprise-grade autonomous AI systems.
 
 Planned topics include:
 
-- Agentic Workflows
+- Agentic AI Fundamentals
 - Multi-Agent Systems
-- Planning Strategies
-- Reflection
-- Self-Correction
+- Supervisor Pattern
+- Hierarchical Agents
+- Swarm Intelligence
+- Collaborative Agents
 - Human-in-the-Loop
+- Long-Running Agents
 - Agentic RAG
-- AI Frameworks
-- Enterprise Use Cases
+- Enterprise Agent Platforms
 
 ### Protocols
 
-- Model Context Protocol (MCP)
 - Agent2Agent (A2A)
 - Future Agent Protocols
 
 ---
 
-# Part VIII — AI System Design
+# Part VIII — AI Engineering Frameworks & Tooling
 
 > 🚧 **Coming Soon**
 
-Learn how production AI systems are architected.
+Build enterprise AI applications using modern AI frameworks.
 
-Planned Topics include:
+Planned topics include:
 
-- AI Architecture
-- Scalability
-- Reliability
-- Distributed AI Systems
-- Enterprise Design Patterns
-- AI Infrastructure
-- Production Architectures
+- LangChain
+- LangGraph
+- LlamaIndex
+- Semantic Kernel
+- CrewAI
+- AutoGen
+- DSPy
+- Haystack
+- OpenAI SDK
+- Anthropic SDK
+- Google GenAI SDK
+- AI Framework Comparisons
 
 ---
 
-# Part IX — MLOps
+# Part IX — MLOps, LLMOps & AIOps
 
 > 🚧 **Coming Soon**
 
-Learn how to deploy and operate Machine Learning systems.
+Deploy, operate, monitor, and govern AI systems in production.
 
-Planned Topics include:
+Planned topics include:
 
 - Experiment Tracking
 - Model Registry
 - CI/CD
 - Feature Stores
+- Prompt Management
 - Model Serving
-- Monitoring
+- LLM Evaluation
+- AI Monitoring
+- Guardrails
 - Continuous Training
+- Continuous Fine-Tuning
+- AI Governance
 
 ---
 
-# Part X — Cloud AI
+# Part X — Cloud AI Engineering
 
 > 🚧 **Coming Soon**
 
 Build cloud-native AI applications.
 
-Planned Topics include:
+Planned topics include:
 
 - AWS AI
 - Azure AI
 - Google Cloud AI
+- AI Infrastructure
+- GPU Computing
 - Serverless AI
-- GPU Infrastructure
 - Enterprise AI Platforms
 - Cloud AI Architecture
+- Multi-Cloud AI
 
 ---
 
-# Part XI — Interview Preparation
+# Part XI — Enterprise AI Architecture & Design Patterns
+
+> 🚧 **Coming Soon**
+
+Design scalable, secure, and production-ready Enterprise AI systems.
+
+Planned topics include:
+
+- AI Architecture Patterns
+- AI System Design
+- Scalable AI Systems
+- Distributed AI
+- Event-Driven AI
+- AI Security
+- AI Reliability
+- AI Observability
+- AI Infrastructure
+- Enterprise Design Patterns
+
+---
+
+# Part XII — Interview Preparation
 
 > 🚧 **Coming Soon**
 
 Prepare for Enterprise AI interviews.
 
-Planned Topics include:
+Planned topics include:
 
 - AI Interview Questions
 - AI System Design Interviews
@@ -259,39 +326,47 @@ Every chapter includes:
 ---
 
 # 🚀 Recommended Learning Path
+```mermaid
+flowchart LR
 
-```text
-Part I     Machine Learning
-                │
-                ▼
-Part II    Deep Learning
-                │
-                ▼
-Part III   Generative AI
-                │
-                ▼
-Part IV    Prompt Engineering
-                │
-                ▼
-Part V     Retrieval-Augmented Generation (RAG)
-                │
-                ▼
-Part VI    AI Agents
-                │
-                ▼
-Part VII   Agentic AI
-                │
-                ▼
-Part VIII  AI System Design
-                │
-                ▼
-Part IX    MLOps
-                │
-                ▼
-Part X     Cloud AI
-                │
-                ▼
-Part XI    Interview Preparation
+subgraph F1["📚 Phase 1 — AI Foundations"]
+    ML["Machine Learning"]
+    DL["Deep Learning"]
+end
+
+subgraph F2["🧠 Phase 2 — Foundation Models"]
+    FM["Foundation Models & LLMs"]
+    PE["Prompt Engineering & RAG Fundamentals"]
+    AR["Advanced RAG"]
+end
+
+subgraph F3["🤖 Phase 3 — Intelligent AI Systems"]
+    AG["AI Agents"]
+    AA["Agentic AI"]
+end
+
+subgraph F4["⚙️ Phase 4 — Enterprise AI Engineering"]
+    FW["Frameworks & Tooling"]
+    OPS["MLOps / LLMOps"]
+    CLOUD["Cloud AI"]
+    ARCH["Enterprise AI Architecture"]
+end
+
+subgraph F5["🎯 Phase 5 — Career Preparation"]
+    INT["Interview Preparation"]
+end
+
+ML --> DL
+DL --> FM
+FM --> PE
+PE --> AR
+AR --> AG
+AG --> AA
+AA --> FW
+FW --> OPS
+OPS --> CLOUD
+CLOUD --> ARCH
+ARCH --> INT
 ```
 
 ---
