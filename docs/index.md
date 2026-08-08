@@ -325,48 +325,57 @@ Every chapter includes:
 
 ---
 
-# 🚀 Recommended Learning Path
+## 🚀 Recommended Learning Path
+
 ```mermaid
-flowchart LR
+%%{init: {
+  "flowchart": {
+    "nodeSpacing": 40,
+    "rankSpacing": 60,
+    "padding": 20
+  },
+  "themeVariables": {
+    "fontSize": "22px"
+  }
+}}%%
 
-subgraph F1["📚 Phase 1 — AI Foundations"]
-    ML["Machine Learning"]
-    DL["Deep Learning"]
-end
+flowchart TD
 
-subgraph F2["🧠 Phase 2 — Foundation Models"]
-    FM["Foundation Models & LLMs"]
-    PE["Prompt Engineering & RAG Fundamentals"]
-    AR["Advanced RAG"]
-end
+ML["📘 <b>Part I</b><br/><br/>Machine Learning"]
 
-subgraph F3["🤖 Phase 3 — Intelligent AI Systems"]
-    AG["AI Agents"]
-    AA["Agentic AI"]
-end
+DL["🧠 <b>Part II</b><br/><br/>Deep Learning"]
 
-subgraph F4["⚙️ Phase 4 — Enterprise AI Engineering"]
-    FW["Frameworks & Tooling"]
-    OPS["MLOps / LLMOps"]
-    CLOUD["Cloud AI"]
-    ARCH["Enterprise AI Architecture"]
-end
+FM["🤖 <b>Part III</b><br/><br/>Foundation Models<br/>LLMs & Generative AI"]
 
-subgraph F5["🎯 Phase 5 — Career Preparation"]
-    INT["Interview Preparation"]
-end
+PR["💬 <b>Part IV</b><br/><br/>Prompt Engineering<br/>& RAG Fundamentals"]
+
+AR["🔍 <b>Part V</b><br/><br/>Advanced RAG"]
+
+AG["🤖 <b>Part VI</b><br/><br/>AI Agents"]
+
+AA["🧩 <b>Part VII</b><br/><br/>Agentic AI &<br/>Multi-Agent Systems"]
+
+FW["🛠️ <b>Part VIII</b><br/><br/>AI Engineering<br/>Frameworks & Tooling"]
+
+OPS["⚙️ <b>Part IX</b><br/><br/>MLOps<br/>LLMOps & AIOps"]
+
+CA["☁️ <b>Part X</b><br/><br/>Cloud AI Engineering"]
+
+EA["🏛️ <b>Part XI</b><br/><br/>Enterprise AI Architecture<br/>& Design Patterns"]
+
+INT["🎯 <b>Part XII</b><br/><br/>Interview Preparation"]
 
 ML --> DL
 DL --> FM
-FM --> PE
-PE --> AR
+FM --> PR
+PR --> AR
 AR --> AG
 AG --> AA
 AA --> FW
 FW --> OPS
-OPS --> CLOUD
-CLOUD --> ARCH
-ARCH --> INT
+OPS --> CA
+CA --> EA
+EA --> INT
 ```
 
 ---
