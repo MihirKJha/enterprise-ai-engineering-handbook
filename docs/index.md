@@ -63,45 +63,57 @@ Topics include:
 
 # Part II — Deep Learning
 
-Learn how modern neural networks power today's AI systems.
+
+Master Deep Learning fundamentals and learn how modern neural networks are trained, optimized, evaluated, and applied to production AI systems.
 
 Topics include:
 
-- Neural Network Fundamentals
-- Deep Neural Networks
+- Deep Learning & Neural Network Fundamentals
+- Mathematical Foundations, Activation & Loss Functions
+- Forward Propagation, Backpropagation & Optimization
+- Regularization, Generalization & Hyperparameter Tuning
 - TensorFlow & Keras
-- PyTorch
-- CNNs
-- RNNs
-- LSTMs & GRUs
-- Attention Mechanism
-- Transformer Architecture
-- Transfer Learning
-- Autoencoders
-- Model Optimization
-- Production Deep Learning
+- PyTorch & GPU-Accelerated Training
+- Computer Vision & CNNs
+- Transfer Learning, ResNet & Vision Transformers
+- RNNs, LSTMs & GRUs
+- Attention Mechanism & Positional Encoding
+- Transformer Architecture & Applications
+- Autoencoders & Representation Learning
+- GANs & Diffusion Models
+- Reinforcement Learning & Deep Q Networks
+- Production Deep Learning Systems
 
 ---
 
 # Part III — Foundation Models, Large Language Models & Generative AI
 
-Understand modern foundation models and Generative AI.
+Understand modern Foundation Models, Large Language Models (LLMs), Generative AI, and the engineering workflows used to train, fine-tune, align, evaluate, and optimize them.
 
 Topics include:
 
-- Foundation Models
-- Large Language Models (LLMs)
-- Hugging Face Ecosystem
-- Tokenization
-- Embeddings
-- Fine-Tuning
-- PEFT
-- LoRA
-- Quantization
-- Diffusion Models
-- Generative Adversarial Networks (GANs)
-- Vision Transformers (ViT)
-- Multimodal AI
+- Generative AI Fundamentals
+- Language Understanding Fundamentals
+- Word Embeddings & Language Modeling
+- GPT & BERT Architectures
+- Foundation Models & Large Language Models
+- Hugging Face Transformers Ecosystem
+- LLM Data Preparation
+- Hugging Face Training Workflows
+- Transformer Fine-Tuning
+- Supervised Fine-Tuning (SFT)
+- Parameter-Efficient Fine-Tuning (PEFT)
+- LoRA & QLoRA
+- Model Quantization
+- LLM Generation Strategies
+- LLM Evaluation
+- Instruction Tuning
+- Reward Modeling
+- LLMs as Policies
+- Reinforcement Learning from Human Feedback (RLHF)
+- Proximal Policy Optimization (PPO)
+- Direct Preference Optimization (DPO)
+- Hugging Face TRL
 - Production LLM Systems
 
 ---

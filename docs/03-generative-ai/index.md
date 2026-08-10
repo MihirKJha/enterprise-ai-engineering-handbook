@@ -2,6 +2,8 @@
 
 > Learn how modern Foundation Models and Large Language Models (LLMs) evolved from Deep Learning and Transformer architectures, and how they are prepared, adapted, fine-tuned, evaluated, optimized, and aligned to build production-ready Generative AI systems.
 
+![Foundation Models, Large Language Models & Generative AI Banner](../assets/banners/gen-ai-banner.png)
+
 ---
 
 ## 📖 Overview
