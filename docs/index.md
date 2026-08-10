@@ -120,24 +120,28 @@ Topics include:
 
 # Part IV — Prompt Engineering & RAG Fundamentals
 
-Learn how to effectively use Large Language Models and build Retrieval-Augmented Generation (RAG) applications.
+Learn how to effectively interact with Large Language Models (LLMs), design reliable prompts, and build foundational Retrieval-Augmented Generation (RAG) applications for enterprise use cases.
 
 Topics include:
 
 - Prompt Engineering Fundamentals
-- Prompt Design Patterns
-- Zero-shot Prompting
-- Few-shot Prompting
-- Chain of Thought
-- ReAct
-- Structured Outputs
-- Function Calling
-- Tool Calling
-- Embeddings in Practice
-- Vector Databases
-- Chunking Strategies
-- Basic Retrieval
-- Basic RAG Pipeline
+- Advanced Prompt Engineering & Prompt Design Patterns
+- Zero-shot, One-shot & Few-shot Prompting
+- Chain-of-Thought & ReAct
+- Structured Outputs & Output Parsing
+- Function Calling & Tool Calling
+- Embeddings & Semantic Search
+- Document Processing & Vectorization
+- Document Chunking Strategies
+- Vector Database Fundamentals
+- Similarity Search
+- RAG Pipeline Components
+- Retrieval & Generation Pipelines
+- Building Foundational RAG Applications
+- RAG Evaluation Fundamentals
+- Enterprise Generative AI Application Architecture
+- Deploying AI Applications with Gradio
+- Deploying AI Applications with Flask
 
 ---
 
