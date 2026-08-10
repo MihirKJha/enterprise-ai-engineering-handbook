@@ -3,6 +3,7 @@
 > Learn how to effectively interact with Large Language Models (LLMs), design reliable prompts, and build foundational Retrieval-Augmented Generation (RAG) applications using enterprise knowledge.
 
 ![Prompt Engineering & RAG Fundamentals Banner](../assets/banners/rag-fundamentals-banner.png)
+
 ---
 
 ## 📖 Overview
@@ -13,7 +14,7 @@ This module introduces the core techniques required to build LLM-powered applica
 
 You'll learn how to design effective prompts, work with structured outputs and tool calling, understand embeddings and vector databases, process documents, perform similarity search, and assemble the components of a basic RAG pipeline.
 
-The module also introduces practical LLM application development and deployment concepts, including structured output parsing, RAG pipeline components, enterprise Generative AI application architecture, and deploying simple AI applications with Gradio.
+The module also introduces practical LLM application development and deployment concepts, including structured output parsing, RAG pipeline components, enterprise Generative AI application architecture, and deploying AI applications with Gradio and Flask.
 
 Frameworks such as LangChain and LlamaIndex may be used in selected implementation examples where they help explain a concept. Dedicated framework architecture, abstractions, comparisons, and selection are covered later in **Part VIII — AI Engineering Frameworks & Tooling**.
 
@@ -41,7 +42,9 @@ After completing this module, you will be able to:
 - Build a foundational RAG application
 - Evaluate basic RAG systems
 - Understand enterprise Generative AI application architecture
-- Deploy a simple AI application using Gradio
+- Build simple AI application interfaces using Gradio
+- Expose AI capabilities through Flask REST APIs
+- Understand the difference between AI UI layers and AI backend services
 
 ---
 
@@ -63,38 +66,43 @@ flowchart LR
     J --> K["Generation"]
     K --> L["RAG Application"]
     L --> M["RAG Evaluation"]
-    M --> N["Application Deployment"]
+    M --> N["Enterprise AI Architecture"]
+    N --> O["Gradio"]
+    O --> P["Flask API"]
 ```
 
-The objective is to move from **understanding LLM interaction** to **building a complete foundational RAG application**.
+The objective is to move from **understanding LLM interaction** to **building and exposing a complete foundational RAG application**.
 
 ---
 
 ## 🛣️ Recommended Learning Path
 
+The complete Part IV learning path is:
+
 | Chapter | Status |
 | --- | :---: |
-| **[01. Introduction to Prompt Engineering](01-introduction-to-prompt-engineering.md)** | 🚧 |
-| **[02. Prompt Engineering Fundamentals](02-prompt-engineering-fundamentals.md)** | 🚧 |
-| **[03. Advanced Prompt Engineering](03-advanced-prompt-engineering.md)** | 🚧 |
-| **[04. Prompt Design Patterns](04-prompt-design-patterns.md)** | 🚧 |
-| **[05. Zero-shot, One-shot & Few-shot Prompting](05-zero-one-few-shot-prompting.md)** | 🚧 |
-| **[06. Chain-of-Thought (CoT) Prompting](06-chain-of-thought-prompting.md)** | 🚧 |
-| **[07. ReAct Prompting](07-react-prompting.md)** | 🚧 |
-| **[08. Structured Outputs & Output Parsing](08-structured-outputs-and-output-parsing.md)** | 🚧 |
-| **[09. Function Calling & Tool Calling](09-function-calling-and-tool-calling.md)** | 🚧 |
-| **[10. Embeddings in Practice](10-embeddings-in-practice.md)** | 🚧 |
-| **[11. Document Processing & Vectorization](11-document-processing-and-vectorization.md)** | 🚧 |
-| **[12. Document Chunking Strategies](12-document-chunking-strategies.md)** | 🚧 |
-| **[13. Vector Database Fundamentals](13-vector-database-fundamentals.md)** | 🚧 |
-| **[14. Similarity Search Techniques](14-similarity-search-techniques.md)** | 🚧 |
-| **[15. RAG Pipeline Components](15-rag-pipeline-components.md)** | 🚧 |
-| **[16. Retrieval & Generation Pipeline](16-retrieval-and-generation-pipeline.md)** | 🚧 |
-| **[17. Vector Databases in RAG](17-vector-databases-in-rag.md)** | 🚧 |
-| **[18. Building Your First RAG Pipeline](18-building-your-first-rag-pipeline.md)** | 🚧 |
-| **[19. RAG Evaluation Fundamentals](19-rag-evaluation-fundamentals.md)** | 🚧 |
-| **[20. Enterprise Generative AI Application Architecture](20-enterprise-generative-ai-application-architecture.md)** | 🚧 |
-| **[21. Deploying AI Applications with Gradio](21-deploying-ai-applications-with-gradio.md)** | 🚧 |
+| **[01. Introduction to Prompt Engineering](01-introduction-to-prompt-engineering.md)** | ✅ |
+| **[02. Prompt Engineering Fundamentals](02-prompt-engineering-fundamentals.md)** | ✅ |
+| **[03. Advanced Prompt Engineering](03-advanced-prompt-engineering.md)** | ✅ |
+| **[04. Prompt Design Patterns](04-prompt-design-patterns.md)** | ✅ |
+| **[05. Zero-shot, One-shot & Few-shot Prompting](05-zero-one-few-shot-prompting.md)** | ✅ |
+| **[06. Chain-of-Thought (CoT) Prompting](06-chain-of-thought-prompting.md)** | ✅ |
+| **[07. ReAct Prompting](07-react-prompting.md)** | ✅ |
+| **[08. Structured Outputs & Output Parsing](08-structured-outputs-and-output-parsing.md)** | ✅ |
+| **[09. Function Calling & Tool Calling](09-function-calling-and-tool-calling.md)** | ✅ |
+| **[10. Embeddings in Practice](10-embeddings-in-practice.md)** | ✅ |
+| **[11. Document Processing & Vectorization](11-document-processing-and-vectorization.md)** | ✅ |
+| **[12. Document Chunking Strategies](12-document-chunking-strategies.md)** | ✅ |
+| **[13. Vector Database Fundamentals](13-vector-database-fundamentals.md)** | ✅ |
+| **[14. Similarity Search Techniques](14-similarity-search-techniques.md)** | ✅ |
+| **[15. RAG Pipeline Components](15-rag-pipeline-components.md)** | ✅ |
+| **[16. Retrieval & Generation Pipeline](16-retrieval-and-generation-pipeline.md)** | ✅ |
+| **[17. Vector Databases in RAG](17-vector-databases-in-rag.md)** | ✅ |
+| **[18. Building Your First RAG Pipeline](18-building-your-first-rag-pipeline.md)** | ✅ |
+| **[19. RAG Evaluation Fundamentals](19-rag-evaluation-fundamentals.md)** | ✅ |
+| **[20. Enterprise Generative AI Application Architecture](20-enterprise-generative-ai-application-architecture.md)** | ✅ |
+| **[21. Deploying AI Applications with Gradio](21-deploying-ai-applications-with-gradio.md)** | ✅ |
+| **[22. Deploying AI Applications with Flask](22-deploying-ai-applications-with-flask.md)** | ✅ |
 
 ---
 
@@ -133,13 +141,13 @@ A well-designed prompt can define:
 
 ```text
 Role
- ↓
+  ↓
 Task
- ↓
+  ↓
 Context
- ↓
+  ↓
 Constraints
- ↓
+  ↓
 Output Format
 ```
 
@@ -234,7 +242,7 @@ sequenceDiagram
     participant O as Observation
 
     U->>A: Request
-    A->>A: Reason about next action
+    A->>A: Determine next action
     A->>T: Execute action
     T->>O: Return result
     O->>A: Observation
@@ -646,23 +654,23 @@ A vector database provides the retrieval layer of a basic RAG architecture.
 ```text
                  RAG SYSTEM
                      │
-        ┌────────────┴────────────┐
-        ↓                         ↓
-   Knowledge Base             User Query
-        ↓                         ↓
-    Chunking                 Query Embedding
-        ↓                         ↓
-    Embeddings                    │
-        ↓                         │
-        └──────→ Vector DB ←──────┘
+       ┌─────────────┴─────────────┐
+       ↓                           ↓
+  Knowledge Base               User Query
+       ↓                           ↓
+   Chunking                  Query Embedding
+       ↓                           ↓
+   Embeddings                     │
+       ↓                           │
+       └──────→ Vector DB ←────────┘
                      ↓
               Similarity Search
                      ↓
-             Retrieved Context
+              Retrieved Context
                      ↓
-                   LLM
+                    LLM
                      ↓
-                Response
+                 Response
 ```
 
 The objective is to understand the role of the vector database rather than become dependent on a particular database technology.
@@ -755,9 +763,43 @@ Advanced enterprise architecture, agent orchestration, security, observability, 
 
 ---
 
+# Deploying AI Applications
+
+Part IV concludes by moving from AI concepts and RAG pipelines toward simple application delivery.
+
+There are two different deployment/application patterns covered in the final chapters:
+
+```mermaid
+flowchart LR
+    A["AI Capability"] --> B["Gradio"]
+    A --> C["Flask"]
+
+    B --> D["Interactive AI UI"]
+    C --> E["AI REST API"]
+
+    D --> F["Human User"]
+    E --> G["Enterprise Application"]
+```
+
+The important distinction is:
+
+```text
+Gradio
+  ↓
+Human-facing AI interface
+Prototype / Demo / Workbench
+
+Flask
+  ↓
+Programmatic AI interface
+REST API / Backend Service / AI Microservice
+```
+
+---
+
 # Deploying AI Applications with Gradio
 
-A simple AI application can expose the model pipeline through a user interface.
+A simple AI application can expose the model pipeline through an interactive user interface.
 
 ```mermaid
 flowchart LR
@@ -776,10 +818,111 @@ Model
  ↓
 Application Logic
  ↓
-User Interface
+Interactive AI Interface
 ```
 
-Gradio is used here as a lightweight deployment and demonstration mechanism.
+Gradio is particularly useful for:
+
+- AI prototypes
+- Interactive demonstrations
+- Chat interfaces
+- Model experimentation
+- RAG workbenches
+- Internal AI tools
+- Rapid validation of AI workflows
+
+Gradio is treated here as an application interface and deployment mechanism rather than as the subject of a dedicated framework track.
+
+---
+
+# Deploying AI Applications with Flask
+
+Flask provides a lightweight way to expose Python-based AI capabilities through REST APIs.
+
+A typical architecture is:
+
+```mermaid
+flowchart TD
+    A["Enterprise Client"] --> B["Flask API"]
+
+    B --> C["Application Service"]
+
+    C --> D["RAG Service"]
+    C --> E["LLM Provider"]
+    C --> F["Tool Services"]
+
+    D --> G["Embedding Provider"]
+    D --> H["Vector Database"]
+
+    D --> I["Enterprise Knowledge"]
+```
+
+The key architectural boundary is:
+
+```text
+HTTP Request
+     ↓
+Flask API
+     ↓
+Application Service
+     ↓
+AI Capability
+     ↓
+LLM / RAG / Tools
+```
+
+The Flask chapter focuses on:
+
+- REST APIs for AI applications
+- Request and response contracts
+- API versioning
+- Structured validation
+- RAG APIs
+- LLM APIs
+- Streaming responses
+- Error handling
+- Health and readiness endpoints
+- Authentication and authorization concepts
+- Observability
+- AI service testing
+- Docker deployment
+- Production WSGI serving
+- Flask as an AI microservice
+- Flask integration with enterprise applications
+
+Flask is therefore positioned as an **AI backend/API layer**, rather than as a generic web-development topic.
+
+---
+
+# Gradio vs Flask
+
+The distinction between the two deployment approaches is important.
+
+| Capability | Gradio | Flask |
+| --- | --- | --- |
+| Interactive AI UI | Excellent | Not primary purpose |
+| AI Prototype | Excellent | Possible |
+| Chat UI | Excellent | Requires frontend |
+| AI Workbench | Excellent | Not primary purpose |
+| REST API | Possible | Strong fit |
+| Backend Service | Limited focus | Strong fit |
+| AI Microservice | Possible | Strong fit |
+| Enterprise Integration | Moderate | Strong |
+| React / Mobile Integration | Possible | Natural |
+| API Versioning | Limited focus | Natural |
+
+A common enterprise architecture may use both:
+
+```mermaid
+flowchart TD
+    A["Shared AI Capability Layer"] --> B["Gradio"]
+    A --> C["Flask"]
+
+    B --> D["AI Engineer / Internal User"]
+    C --> E["Enterprise Application"]
+```
+
+The same AI capability can therefore be exposed through different interfaces without making the interface layer the AI capability itself.
 
 ---
 
@@ -849,6 +992,8 @@ Foundational LLM and RAG techniques can support:
 - Compliance Knowledge Assistants
 - Financial Knowledge Assistants
 - Internal AI Platforms
+- AI-powered application backends
+- Enterprise AI APIs
 
 A common pattern is:
 
@@ -868,10 +1013,12 @@ flowchart LR
 
 # 🧭 Part IV Scope
 
-Part IV intentionally focuses on the **foundations**.
+Part IV intentionally focuses on the **foundations of LLM application engineering**.
 
 ```text
 Prompt Engineering
+        ↓
+Advanced Prompting
         ↓
 Structured Outputs
         ↓
@@ -889,7 +1036,7 @@ Similarity Search
         ↓
 RAG Components
         ↓
-Basic Retrieval
+Retrieval
         ↓
 Generation
         ↓
@@ -897,7 +1044,226 @@ Foundational RAG
         ↓
 Basic Evaluation
         ↓
-Simple Application Deployment
+Enterprise AI Architecture
+        ↓
+Application Interfaces
+        ↓
+Gradio
+        ↓
+Flask AI APIs
+```
+
+The goal is to give engineers enough understanding to move from:
+
+```text
+LLM Interaction
+```
+
+to:
+
+```text
+Foundational Enterprise AI Application
+```
+
+without prematurely introducing the complexity of advanced retrieval, agentic systems, or framework-specific architecture.
+
+---
+
+# 🚧 What Is Intentionally Reserved for Later Parts?
+
+Part IV establishes the foundation.
+
+The following areas are intentionally handled in later Parts.
+
+### Part V — Advanced Retrieval-Augmented Generation
+
+```text
+Hybrid Search
+Metadata Filtering
+Parent-Child Retrieval
+Multi-Vector Retrieval
+Multi-Query Retrieval
+Contextual Compression
+Re-ranking
+Graph RAG
+SQL RAG
+Knowledge Graphs
+Agentic RAG
+Advanced RAG Evaluation
+Performance Optimization
+Cost Optimization
+Production RAG Architectures
+```
+
+### Part VI — AI Agents
+
+```text
+Agent Fundamentals
+Agent Architecture
+Planning
+Reasoning
+Memory
+Tool Calling
+Reflection
+Self-Correction
+Agent Evaluation
+Observability
+Security
+Deployment
+MCP
+```
+
+### Part VII — Agentic AI & Multi-Agent Systems
+
+```text
+Multi-Agent Systems
+Supervisor Pattern
+Hierarchical Agents
+Swarm Intelligence
+Collaborative Agents
+Human-in-the-Loop
+Long-Running Agents
+Agentic RAG
+A2A
+Future Agent Protocols
+```
+
+### Part VIII — AI Engineering Frameworks & Tooling
+
+```text
+LangChain
+LangGraph
+LlamaIndex
+Semantic Kernel
+CrewAI
+AutoGen
+DSPy
+Haystack
+OpenAI SDK
+Anthropic SDK
+Google GenAI SDK
+AI Framework Comparisons
+```
+
+This separation keeps Part IV focused and prevents the learning path from becoming framework-heavy too early.
+
+---
+
+# 📊 Part IV Architecture Summary
+
+The complete conceptual progression can be summarized as:
+
+```mermaid
+flowchart TD
+    A["Prompt Engineering"] --> B["Structured LLM Interaction"]
+
+    B --> C["Function / Tool Calling"]
+
+    C --> D["Embeddings"]
+
+    D --> E["Document Processing"]
+
+    E --> F["Chunking"]
+
+    F --> G["Vector Database"]
+
+    G --> H["Similarity Search"]
+
+    H --> I["Retrieval"]
+
+    I --> J["Context"]
+
+    J --> K["Generation"]
+
+    K --> L["RAG Application"]
+
+    L --> M["RAG Evaluation"]
+
+    M --> N["Enterprise AI Architecture"]
+
+    N --> O["Gradio UI"]
+
+    N --> P["Flask AI API"]
+```
+
+This represents the central learning journey of Part IV:
+
+> **From interacting with an LLM to building, evaluating, and exposing a foundational enterprise AI application.**
+
+---
+
+# 🧠 Production Perspective
+
+The most important lesson from Part IV is that an LLM application is not simply:
+
+```text
+Prompt
+  ↓
+LLM
+  ↓
+Answer
+```
+
+A production-oriented AI application increasingly looks like:
+
+```mermaid
+flowchart TD
+    A["User / Client"] --> B["Application Interface"]
+
+    B --> C["Validation"]
+    C --> D["Prompt / Application Logic"]
+
+    D --> E["Retrieval"]
+    D --> F["Tools"]
+    D --> G["LLM"]
+
+    E --> H["Enterprise Knowledge"]
+    H --> I["Vector Database"]
+
+    E --> G
+
+    G --> J["Structured Response"]
+
+    J --> K["Evaluation / Validation"]
+
+    K --> L["Application Response"]
+```
+
+This foundation prepares the reader for the more advanced production architectures introduced later in the handbook.
+
+---
+
+# 📚 Part IV Chapter Map
+
+```text
+01  Introduction to Prompt Engineering
+02  Prompt Engineering Fundamentals
+03  Advanced Prompt Engineering
+04  Prompt Design Patterns
+05  Zero-shot, One-shot & Few-shot Prompting
+06  Chain-of-Thought Prompting
+07  ReAct Prompting
+
+08  Structured Outputs & Output Parsing
+09  Function Calling & Tool Calling
+
+10  Embeddings in Practice
+11  Document Processing & Vectorization
+12  Document Chunking Strategies
+
+13  Vector Database Fundamentals
+14  Similarity Search Techniques
+
+15  RAG Pipeline Components
+16  Retrieval & Generation Pipeline
+17  Vector Databases in RAG
+18  Building Your First RAG Pipeline
+19  RAG Evaluation Fundamentals
+
+20  Enterprise Generative AI Application Architecture
+
+21  Deploying AI Applications with Gradio
+22  Deploying AI Applications with Flask
 ```
 
 ---
@@ -944,6 +1310,7 @@ Topics such as:
 - Advanced RAG Evaluation
 - Performance Optimization
 - Cost Optimization
+- Production RAG Architectures
 
 are intentionally reserved for **Part V**.
 
