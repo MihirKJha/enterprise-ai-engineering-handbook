@@ -321,8 +321,8 @@ DNN --> RNN
 CNN --> RESNET
 RNN --> LSTM
 
-RESNET --> ATT
-LSTM --> ATT
+RESNET -.-> ATT
+LSTM -.-> ATT
 
 ATT --> TRANS
 
@@ -334,3 +334,4 @@ LLM --> FM
 
 CV --> GEN
 FM --> GEN
+```

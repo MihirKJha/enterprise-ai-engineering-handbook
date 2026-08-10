@@ -108,9 +108,9 @@ The first part establishes the foundations of language understanding and languag
 | Chapter | Status |
 | --- | :---: |
 | **[01. Generative AI Fundamentals](01-generative-ai-fundamentals.md)** | ✅ |
-| **[02. Language Understanding Fundamentals](02-language-understanding-fundamentals.md)** | 🚧 |
-| **[03. Word Embeddings](03-word-embeddings.md)** | 🚧 |
-| **[04. Language Modeling](04-language-modeling.md)** | 🚧 |
+| **[02. Language Understanding Fundamentals](02-language-understanding-fundamentals.md)** | ✅ |
+| **[03. Word Embeddings](03-word-embeddings.md)** | ✅ |
+| **[04. Language Modeling](04-language-modeling.md)** | ✅ |
 
 This phase establishes the foundation required to understand how modern language models evolved.
 
@@ -132,8 +132,8 @@ Language Modeling
 
 | Chapter | Status |
 | --- | :---: |
-| **[05. Attention & Positional Encoding](05-attention-and-positional-encoding.md)** | 🚧 |
-| **[06. GPT & BERT Architecture](06-gpt-and-bert-architecture.md)** | 🚧 |
+| **[05. Attention & Positional Encoding](05-attention-and-positional-encoding.md)** | ✅ |
+| **[06. GPT & BERT Architecture](06-gpt-and-bert-architecture.md)** | ✅ |
 
 This phase connects the language-modeling foundations to modern Transformer-based architectures.
 
@@ -157,9 +157,9 @@ Modern LLMs
 
 | Chapter | Status |
 | --- | :---: |
-| **[07. Hugging Face & Transformers](07-huggingface-and-transformers.md)** | 🚧 |
-| **[08. LLM Data Preparation](08-llm-data-preparation.md)** | 🚧 |
-| **[09. Hugging Face Training Workflow](09-huggingface-training-workflow.md)** | 🚧 |
+| **[07. Hugging Face & Transformers](07-huggingface-and-transformers.md)** | ✅ |
+| **[08. LLM Data Preparation](08-llm-data-preparation.md)** | ✅ |
+| **[09. Hugging Face Training Workflow](09-huggingface-training-workflow.md)** | ✅ |
 
 This phase moves from theory into practical LLM engineering.
 
@@ -185,11 +185,11 @@ Model Artifacts
 
 | Chapter | Status |
 | --- | :---: |
-| **[10. Transformer Fine-Tuning Fundamentals](10-transformer-fine-tuning-fundamentals.md)** | 🚧 |
-| **[11. Supervised Fine-Tuning (SFT)](11-supervised-fine-tuning-sft.md)** | 🚧 |
-| **[12. Parameter-Efficient Fine-Tuning](12-parameter-efficient-fine-tuning.md)** | 🚧 |
-| **[13. LoRA & QLoRA](13-lora-and-qlora.md)** | 🚧 |
-| **[14. Model Quantization](14-model-quantization.md)** | 🚧 |
+| **[10. Transformer Fine-Tuning Fundamentals](10-transformer-fine-tuning-fundamentals.md)** | ✅ |
+| **[11. Supervised Fine-Tuning (SFT)](11-supervised-fine-tuning-sft.md)** | ✅ |
+| **[12. Parameter-Efficient Fine-Tuning](12-parameter-efficient-fine-tuning.md)** | ✅ |
+| **[13. LoRA & QLoRA](13-lora-and-qlora.md)** | ✅ |
+| **[14. Model Quantization](14-model-quantization.md)** | ✅ |
 
 This phase focuses on adapting pretrained Foundation Models for specialized tasks.
 
@@ -215,8 +215,8 @@ Efficient Model
 
 | Chapter | Status |
 | --- | :---: |
-| **[15. LLM Generation Strategies](15-llm-generation-strategies.md)** | 🚧 |
-| **[16. LLM Evaluation](16-llm-evaluation.md)** | 🚧 |
+| **[15. LLM Generation Strategies](15-llm-generation-strategies.md)** | ✅ |
+| **[16. LLM Evaluation](16-llm-evaluation.md)** | ✅ |
 
 Training a model is only one part of LLM engineering.
 
@@ -242,12 +242,12 @@ Topics include generation behavior, decoding strategies, and evaluating LLM outp
 
 | Chapter | Status |
 | --- | :---: |
-| **[17. Instruction Tuning](17-instruction-tuning.md)** | 🚧 |
-| **[18. Reward Modeling](18-reward-modeling.md)** | 🚧 |
-| **[19. LLMs as Policies](19-llms-as-policies.md)** | 🚧 |
-| **[20. Reinforcement Learning from Human Feedback](20-reinforcement-learning-from-human-feedback.md)** | 🚧 |
-| **[21. Proximal Policy Optimization (PPO)](21-proximal-policy-optimization-ppo.md)** | 🚧 |
-| **[22. Direct Preference Optimization (DPO)](22-direct-preference-optimization-dpo.md)** | 🚧 |
+| **[17. Instruction Tuning](17-instruction-tuning.md)** | ✅ |
+| **[18. Reward Modeling](18-reward-modeling.md)** | ✅ |
+| **[19. LLMs as Policies](19-llms-as-policies.md)** | ✅ |
+| **[20. Reinforcement Learning from Human Feedback](20-reinforcement-learning-from-human-feedback.md)** | ✅ |
+| **[21. Proximal Policy Optimization (PPO)](21-proximal-policy-optimization-ppo.md)** | ✅ |
+| **[22. Direct Preference Optimization (DPO)](22-direct-preference-optimization-dpo.md)** | ✅ |
 
 This phase explains how pretrained language models are adapted toward instruction following and human preferences.
 
@@ -277,7 +277,7 @@ DPO
 
 | Chapter | Status |
 | --- | :---: |
-| **[23. Hugging Face TRL Workflow](23-huggingface-trl-workflow.md)** | 🚧 |
+| **[23. Hugging Face TRL Workflow](23-huggingface-trl-workflow.md)** | ✅ |
 
 This phase connects the alignment concepts with practical implementation using the Hugging Face ecosystem.
 
