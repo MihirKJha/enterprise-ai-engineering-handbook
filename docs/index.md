@@ -147,25 +147,63 @@ Topics include:
 
 # Part V — Advanced Retrieval-Augmented Generation
 
-Build enterprise-grade Retrieval-Augmented Generation systems.
+Build enterprise-grade Retrieval-Augmented Generation (RAG) systems — from advanced retrieval strategies to production-ready, scalable, observable, secure, and resilient RAG architectures.
 
 Topics include:
 
-- Hybrid Search
-- Metadata Filtering
-- Parent-Child Retrieval
-- Multi-Vector Retrieval
+- Core Retrieval Engineering
+- VectorStore Retrieval
 - Multi-Query Retrieval
+- Self-Query Retrieval
+- Parent-Document Retrieval
+- Retriever Comparison
 - Contextual Compression
-- Re-ranking
+- Ensemble Retrieval
+- Multi-Vector Retrieval
+- Time-Weighted Retrieval
+- Hybrid Search
+- HyDE Retrieval
+- Router Retrieval
+- Multi-Stage Retrieval
+- Agentic Retrieval
+- Re-ranking Techniques
+- MMR & Diversity-Aware Retrieval
+- Metadata-Aware Retrieval
+- Advanced Query Rewriting
+- LlamaIndex Retrieval Engineering
+- LlamaIndex Indexes
+- Vector Index Retrieval
+- BM25 Retrieval
+- Document Summary Retrieval
+- Recursive Retrieval
+- Query Fusion
+- Auto-Merging Retrieval
+- FAISS Fundamentals
+- FAISS Indexes
+- HNSW & Vector Index Selection
+- FAISS vs ChromaDB vs Milvus
+- Advanced RAG Architecture
 - Graph RAG
+- Knowledge Graphs for RAG
 - SQL RAG
-- Knowledge Graphs
+- Multimodal RAG
 - Agentic RAG
-- RAG Evaluation
-- Performance Optimization
-- Cost Optimization
-- Production RAG Architectures
+- Prompt Assembly
+- Context Selection & Context Engineering
+- Response Validation
+- Citation & Source Attribution
+- Enterprise Response
+- RAG Evaluation & Benchmarking
+- RAG Observability
+- RAG Performance Optimization
+- RAG Cost Optimization
+- Production Retrieval Architecture
+- Building Production RAG Systems
+- RAG Deployment Patterns
+- RAG Caching Strategies
+- Multi-Tenant RAG
+- RAG Testing Frameworks
+- RAG Failure Patterns
 
 ---
 
