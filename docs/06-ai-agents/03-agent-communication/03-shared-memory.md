@@ -900,3 +900,6 @@ Modern AI platforms often use **messages for coordination** and **shared memory 
 **04-event-driven-agents.md**
 
 In the next note, we'll explore **Event-Driven Agents**, where AI agents react to business events rather than direct requests. You'll learn about event producers, event consumers, event buses, event sourcing, asynchronous workflows, and production implementations using Kafka, RabbitMQ, Redis Streams, AWS EventBridge, and Google Pub/Sub.
+
+> **Enterprise AI Engineering Handbook**  
+> *Building Production-Grade Enterprise AI Systems — One Chapter at a Time.*

@@ -1610,3 +1610,7 @@ The learning progression continues as follows:
 7. **Enterprise AI Agent Architecture** — End-to-end enterprise architecture integrating LLMs, tools, RAG, memory, governance, and deployment.
 
 Together, these notes provide a structured progression from foundational concepts to enterprise-grade AI Agent systems and prepare the transition into **Agentic AI** and **Multi-Agent Systems**.
+
+
+> **Enterprise AI Engineering Handbook**  
+> *Building Production-Grade Enterprise AI Systems — One Chapter at a Time.*

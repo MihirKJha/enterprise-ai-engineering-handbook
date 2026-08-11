@@ -1095,3 +1095,6 @@ No single defense is sufficient on its own.
 **03-tool-security.md**
 
 In the next note, you'll explore **Tool Security**, including secure tool calling, function permissions, allow lists, RBAC, ABAC, policy enforcement, sandboxing, tool validation, secure API integrations, human approval workflows, and production architectures for safely connecting AI agents to enterprise tools and external systems.
+
+ **Enterprise AI Engineering Handbook**  
+> *Building Production-Grade Enterprise AI Systems — One Chapter at a Time.*

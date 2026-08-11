@@ -654,3 +654,5 @@ Separating memory by responsibility improves scalability, reliability, and maint
 ---
 
 
+> **Enterprise AI Engineering Handbook**  
+> *Building Production-Grade Enterprise AI Systems — One Chapter at a Time.*

@@ -1030,3 +1030,6 @@ After completing this module, you should be able to:
 **04-agent-observability**
 
 In the next module, you'll explore **Agent Observability**, including logging, tracing, monitoring, metrics, debugging, cost tracking, alerting, and evaluation. You'll learn how enterprise AI teams monitor agent workflows, detect failures, analyze reasoning paths, measure LLM performance, and operate production AI systems with the same level of observability used for modern cloud-native microservices.
+
+> **Enterprise AI Engineering Handbook**  
+> *Building Production-Grade Enterprise AI Systems — One Chapter at a Time.*

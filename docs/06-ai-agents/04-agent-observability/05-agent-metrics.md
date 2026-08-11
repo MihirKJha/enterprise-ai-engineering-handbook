@@ -1123,3 +1123,7 @@ Operations teams use these dashboards to monitor both technical health and busin
 **06-agent-debugging.md**
 
 In the next note, we'll explore **Agent Debugging**, where you'll learn systematic techniques for diagnosing AI agent failures. Topics include prompt debugging, tool debugging, workflow debugging, memory debugging, RAG debugging, hallucination analysis, reasoning inspection, breakpoint debugging, replay debugging, root cause analysis, and production debugging workflows using LangSmith, LangFuse, OpenTelemetry, and enterprise observability platforms.
+
+
+> **Enterprise AI Engineering Handbook**  
+> *Building Production-Grade Enterprise AI Systems — One Chapter at a Time.*

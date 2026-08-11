@@ -995,3 +995,6 @@ This module consists of the following notes:
 **02-agent-logging.md**
 
 In the next note, you'll learn about **Agent Logging**, including structured logging, correlation IDs, prompt logging, tool execution logs, workflow logs, log aggregation, log retention, sensitive data masking, and production implementations using Python Logging, Loguru, OpenTelemetry Logs, Loki, Elasticsearch, and Grafana.
+
+> **Enterprise AI Engineering Handbook**  
+> *Building Production-Grade Enterprise AI Systems — One Chapter at a Time.*

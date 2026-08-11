@@ -690,3 +690,7 @@ The vector database stores embeddings, while metadata and retrieval strategies i
 **07-memory-storage-patterns.md**
 
 In the next note, we'll explore **Memory Storage Patterns** for enterprise AI agents, including centralized vs. distributed memory, relational databases, document databases, vector databases, graph databases, object storage, hybrid storage architectures, and guidelines for selecting the right storage technology based on scalability, latency, and retrieval requirements.
+
+
+> **Enterprise AI Engineering Handbook**  
+> *Building Production-Grade Enterprise AI Systems — One Chapter at a Time.*

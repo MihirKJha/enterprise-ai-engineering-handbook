@@ -209,24 +209,32 @@ Topics include:
 
 # Part VI — AI Agents
 
-Learn how intelligent AI agents are designed and deployed.
+Learn how intelligent AI Agents are designed, built, secured, deployed, and operated as production-grade enterprise systems.
 
 Topics include:
 
 - Agent Fundamentals
+- AI Assistants vs AI Workflows vs AI Agents
 - Agent Architecture
-- Planning
-- Reasoning
-- Memory
+- Agent Runtime & Execution
+- Planning & Task Decomposition
+- Agent Reasoning
+- Agent Memory
 - Tool Calling
 - Function Calling
-- Reflection
-- Self-Correction
+- Reflection & Self-Correction
+- Agent Authorization
+- Secrets Management
+- Data Privacy
+- Agent Sandboxing
+- Agent Guardrails
+- Agent Risk Management
+- Agent Scaling & Resilience
+- Agent Deployment
+- Production Agent Deployment
 - Agent Evaluation
-- Observability
-- Security
-- Deployment
-- Model Context Protocol (MCP)
+- Agent Observability
+- Production AI Agent Engineering
 
 ---
 

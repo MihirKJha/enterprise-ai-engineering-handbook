@@ -2071,3 +2071,8 @@ After completing this note, you will be able to:
 - Prepare for advanced topics such as LCEL, LangChain Agents, and Enterprise AI Agent Architecture.
 
 ---
+
+
+
+> **Enterprise AI Engineering Handbook**  
+> *Building Production-Grade Enterprise AI Systems — One Chapter at a Time.*

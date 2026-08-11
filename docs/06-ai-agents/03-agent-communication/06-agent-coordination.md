@@ -928,3 +928,6 @@ Without these capabilities, complex multi-agent workflows quickly become unrelia
 **07-agent-negotiation.md**
 
 In the next note, we'll explore **Agent Negotiation**, where multiple AI agents negotiate responsibilities, resources, priorities, and execution strategies. You'll learn negotiation protocols, bidding mechanisms, consensus building, conflict resolution strategies, contract-net protocol, and enterprise implementations used in autonomous multi-agent systems.
+
+> **Enterprise AI Engineering Handbook**  
+> *Building Production-Grade Enterprise AI Systems — One Chapter at a Time.*

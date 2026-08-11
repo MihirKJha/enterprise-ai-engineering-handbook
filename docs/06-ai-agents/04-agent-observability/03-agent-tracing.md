@@ -1056,3 +1056,7 @@ Without context propagation, each component generates isolated traces, making en
 **04-agent-monitoring.md**
 
 In the next note, you'll explore **Agent Monitoring**, where you'll learn how to continuously monitor AI agents in production. Topics include health checks, service availability, latency monitoring, workflow monitoring, LLM health, tool monitoring, RAG monitoring, dashboards, SLIs, SLOs, and production monitoring architectures using Prometheus, Grafana, CloudWatch, Azure Monitor, Google Cloud Monitoring, and AI-native monitoring platforms.
+
+> **Enterprise AI Engineering Handbook**  
+> *Building Production-Grade Enterprise AI Systems — One Chapter at a Time.*
+

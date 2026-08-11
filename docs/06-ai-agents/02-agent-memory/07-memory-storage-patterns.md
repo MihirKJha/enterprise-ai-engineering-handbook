@@ -835,3 +835,7 @@ Working Memory  Short-Term Memory  Long-Term Memory
 **08-memory-retrieval-patterns.md**
 
 In the next note, we'll explore **Memory Retrieval Patterns**, including exact lookup, semantic retrieval, hybrid retrieval, metadata filtering, recency-based retrieval, similarity search, and retrieval orchestration strategies used by production AI agents to efficiently access the right memory at the right time.
+
+
+> **Enterprise AI Engineering Handbook**  
+> *Building Production-Grade Enterprise AI Systems — One Chapter at a Time.*

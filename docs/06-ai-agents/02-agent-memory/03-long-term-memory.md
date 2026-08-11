@@ -696,3 +696,6 @@ Separating memory by purpose improves scalability, retrieval accuracy, and maint
 **04-working-memory.md**
 
 In the next note, we'll explore **Working Memory**, the temporary reasoning workspace used by AI agents during planning, tool execution, and decision-making. You'll learn how it differs from Short-Term and Long-Term Memory, how modern agent frameworks implement it, and why it is essential for complex multi-step workflows.
+
+> **Enterprise AI Engineering Handbook**  
+> *Building Production-Grade Enterprise AI Systems — One Chapter at a Time.*

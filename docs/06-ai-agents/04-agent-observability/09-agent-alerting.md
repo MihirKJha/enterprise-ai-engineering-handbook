@@ -1214,3 +1214,6 @@ After completing this module, you should be able to:
 **05-agent-security**
 
 In the next module, you'll explore **Agent Security**, where you'll learn how to secure enterprise AI agents against prompt injection, jailbreaks, malicious tool usage, data leakage, unauthorized access, insecure memory, supply chain attacks, and other AI-specific threats. You'll also study authentication, authorization, secrets management, guardrails, sandboxing, policy enforcement, and production security architectures for enterprise AI systems.
+
+> **Enterprise AI Engineering Handbook**  
+> *Building Production-Grade Enterprise AI Systems — One Chapter at a Time.*

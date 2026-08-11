@@ -682,3 +682,6 @@ This keeps prompts small while preserving essential information.
 **03-long-term-memory.md**
 
 In the next note, you'll learn how AI agents persist knowledge across multiple sessions using **Long-Term Memory**, including user profiles, preferences, historical interactions, semantic knowledge, storage architectures, and production implementations with relational databases, vector databases, and cloud storage.
+
+> **Enterprise AI Engineering Handbook**  
+> *Building Production-Grade Enterprise AI Systems — One Chapter at a Time.*

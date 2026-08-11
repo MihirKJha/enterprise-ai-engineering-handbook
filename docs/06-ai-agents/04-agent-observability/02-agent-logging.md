@@ -1092,3 +1092,6 @@ Choosing appropriate log levels reduces noise while preserving useful informatio
 **03-agent-tracing.md**
 
 In the next note, you'll explore **Agent Tracing**, where you'll learn how to follow an AI request across multiple agents, LLM calls, tools, retrievers, databases, and external APIs using distributed tracing. Topics include spans, traces, context propagation, OpenTelemetry, Jaeger, Tempo, LangSmith traces, LangFuse traces, and production tracing architectures for enterprise AI systems.
+
+> **Enterprise AI Engineering Handbook**  
+> *Building Production-Grade Enterprise AI Systems — One Chapter at a Time.*

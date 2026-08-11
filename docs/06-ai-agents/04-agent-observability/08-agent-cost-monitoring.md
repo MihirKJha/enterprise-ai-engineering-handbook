@@ -1109,3 +1109,6 @@ The goal is to maximize business value while minimizing operational costs.
 **09-agent-alerting.md**
 
 In the final note of this module, you'll learn about **Agent Alerting**, including alert rules, thresholds, anomaly detection, SLI/SLO-based alerting, AI-specific alerts (hallucination rate, token spikes, workflow failures, cost overruns), notification channels, incident response, escalation policies, Alertmanager, PagerDuty, Opsgenie, Slack integration, and production alerting architectures for enterprise AI systems.
+
+> **Enterprise AI Engineering Handbook**  
+> *Building Production-Grade Enterprise AI Systems — One Chapter at a Time.*

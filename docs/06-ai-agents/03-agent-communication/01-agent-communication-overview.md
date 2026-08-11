@@ -772,3 +772,8 @@ Large enterprise AI platforms almost always separate **business logic** from **c
 **02-message-passing.md**
 
 In the next note, we'll explore **Message Passing**, the most fundamental communication mechanism in multi-agent systems. You'll learn synchronous vs. asynchronous messaging, message structure, delivery guarantees, serialization formats, routing strategies, acknowledgments, retries, and production implementations using Kafka, RabbitMQ, Redis Streams, and cloud messaging services.
+
+
+> **Enterprise AI Engineering Handbook**  
+> *Building Production-Grade Enterprise AI Systems — One Chapter at a Time.*
+

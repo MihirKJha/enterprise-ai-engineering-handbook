@@ -960,3 +960,6 @@ Choose the broker based on throughput, durability, latency, and cloud ecosystem.
 **05-publish-subscribe-pattern.md**
 
 In the next note, we'll explore the **Publish–Subscribe (Pub/Sub) Pattern**, one of the most widely used communication patterns in enterprise AI systems. You'll learn about publishers, subscribers, topics, subscriptions, fan-out messaging, event routing, message filtering, durable subscriptions, and production implementations using Kafka Topics, RabbitMQ Exchanges, Redis Pub/Sub, AWS SNS, Azure Service Bus Topics, and Google Pub/Sub.
+
+> **Enterprise AI Engineering Handbook**  
+> *Building Production-Grade Enterprise AI Systems — One Chapter at a Time.*

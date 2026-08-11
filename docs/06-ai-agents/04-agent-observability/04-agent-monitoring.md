@@ -1115,3 +1115,6 @@ Operations teams use these dashboards to assess overall platform health.
 **05-agent-metrics.md**
 
 In the next note, we'll dive deep into **Agent Metrics**, including system metrics, business metrics, AI-specific metrics, LLM metrics, RAG metrics, workflow KPIs, token metrics, latency metrics, success rates, custom Prometheus metrics, and how to design production dashboards that measure both technical performance and business value.
+
+> **Enterprise AI Engineering Handbook**  
+> *Building Production-Grade Enterprise AI Systems — One Chapter at a Time.*

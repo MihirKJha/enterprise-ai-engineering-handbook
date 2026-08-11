@@ -698,3 +698,6 @@ Many production systems combine multiple storage technologies depending on retri
 **06-semantic-memory.md**
 
 In the next note, you'll learn about **Semantic Memory**, which stores facts, concepts, relationships, and domain knowledge. We'll explore how AI agents use vector databases, embeddings, and semantic retrieval to remember information independently of specific conversations or experiences.
+
+> **Enterprise AI Engineering Handbook**  
+> *Building Production-Grade Enterprise AI Systems — One Chapter at a Time.*

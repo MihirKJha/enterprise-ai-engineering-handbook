@@ -860,3 +860,6 @@ After completing this module, you should be able to:
 **03-agent-communication**
 
 In the next module, you'll explore how AI agents communicate with each other and external systems. Topics include message passing, event-driven communication, publish-subscribe architectures, shared memory, coordination protocols, and enterprise communication patterns for multi-agent systems.
+
+> **Enterprise AI Engineering Handbook**  
+> *Building Production-Grade Enterprise AI Systems — One Chapter at a Time.*

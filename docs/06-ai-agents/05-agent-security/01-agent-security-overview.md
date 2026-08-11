@@ -1093,3 +1093,6 @@ Production AI platforms combine identity management, authorization, policy enfor
 **02-prompt-injection.md**
 
 In the next note, you'll explore **Prompt Injection**, one of the most critical security threats in AI systems. You'll learn about direct and indirect prompt injection attacks, jailbreak techniques, prompt leakage, attack demonstrations, defense strategies, input validation, guardrails, secure prompt engineering, and production mitigation techniques used in enterprise AI platforms.
+
+ **Enterprise AI Engineering Handbook**  
+> *Building Production-Grade Enterprise AI Systems — One Chapter at a Time.*

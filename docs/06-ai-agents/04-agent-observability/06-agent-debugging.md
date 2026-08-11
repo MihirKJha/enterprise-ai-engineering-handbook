@@ -1047,3 +1047,7 @@ Replay debugging enables engineers to reproduce production issues without impact
 **07-agent-evaluation-metrics.md**
 
 In the next note, we'll explore **Agent Evaluation Metrics**, including offline evaluation, online evaluation, benchmark datasets, LLM evaluation metrics, RAG evaluation, agent success metrics, human evaluation, automated evaluation frameworks, LLM-as-a-Judge, and production evaluation platforms such as LangSmith, Ragas, DeepEval, Arize Phoenix, and TruLens.
+
+
+> **Enterprise AI Engineering Handbook**  
+> *Building Production-Grade Enterprise AI Systems — One Chapter at a Time.*

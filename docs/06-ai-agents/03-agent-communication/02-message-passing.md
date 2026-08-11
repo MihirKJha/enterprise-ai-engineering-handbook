@@ -912,4 +912,8 @@ Choosing the correct delivery guarantee is an important architectural decision.
 
 In the next note, we'll explore **Shared Memory**, a communication pattern where multiple AI agents collaborate through a common memory space instead of exchanging direct messages. You'll learn how shared state enables collaborative reasoning, planning, context sharing, workflow coordination, and production implementations using LangGraph State, Redis, distributed caches, and workflow engines.
 
+> **Enterprise AI Engineering Handbook**  
+> *Building Production-Grade Enterprise AI Systems — One Chapter at a Time.*
+
+
 

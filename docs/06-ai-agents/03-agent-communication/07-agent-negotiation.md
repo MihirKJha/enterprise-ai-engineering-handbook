@@ -962,3 +962,6 @@ Negotiation therefore becomes a **multi-criteria decision-making process** rathe
 **08-conflict-resolution.md**
 
 In the next note, we'll explore **Conflict Resolution**, where multiple AI agents resolve disagreements over task ownership, resource allocation, execution strategy, priorities, and shared state. You'll learn arbitration strategies, voting mechanisms, consensus algorithms, leader election, optimistic concurrency, distributed locking, and production conflict resolution patterns used in enterprise multi-agent systems.
+
+> **Enterprise AI Engineering Handbook**  
+> *Building Production-Grade Enterprise AI Systems — One Chapter at a Time.*

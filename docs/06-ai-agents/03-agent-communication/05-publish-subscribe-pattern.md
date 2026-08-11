@@ -885,3 +885,6 @@ Business-oriented topics remain stable even when services evolve.
 **06-agent-coordination.md**
 
 In the next note, we'll explore **Agent Coordination**, where multiple AI agents work together to achieve a shared objective. You'll learn about centralized vs. decentralized coordination, supervisor agents, task scheduling, dependency management, synchronization, workflow orchestration, and production coordination strategies used in enterprise multi-agent systems.
+
+> **Enterprise AI Engineering Handbook**  
+> *Building Production-Grade Enterprise AI Systems — One Chapter at a Time.*

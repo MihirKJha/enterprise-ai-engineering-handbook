@@ -734,3 +734,6 @@ A good AI agent separates these responsibilities instead of storing everything i
 **05-episodic-memory.md**
 
 In the next note, we'll explore **Episodic Memory**, which enables AI agents to remember previous experiences, completed tasks, successes, failures, and historical interactions. You'll learn how experience-based memory helps agents improve decision-making and supports adaptive behavior in enterprise AI systems.
+
+> **Enterprise AI Engineering Handbook**  
+> *Building Production-Grade Enterprise AI Systems — One Chapter at a Time.*

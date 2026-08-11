@@ -986,3 +986,6 @@ Each framework focuses on different aspects of AI quality.
 **08-agent-cost-monitoring.md**
 
 In the next note, we'll explore **Agent Cost Monitoring**, including token accounting, model pricing, inference cost, embedding cost, vector database cost, tool/API cost, cloud infrastructure cost, cost attribution, FinOps dashboards, budget alerts, and enterprise cost optimization strategies for operating AI agents at scale.
+
+> **Enterprise AI Engineering Handbook**  
+> *Building Production-Grade Enterprise AI Systems — One Chapter at a Time.*

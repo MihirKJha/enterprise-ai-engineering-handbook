@@ -8,7 +8,6 @@
 > **Note:** As conversations grow longer, AI agents accumulate large amounts of memory. Sending all stored information to the LLM quickly exceeds the context window, increases latency, and raises inference costs. Memory Compression techniques reduce the size of stored or retrieved memory while preserving the most important information required for reasoning and decision-making.
 
 ---
-
 # Overview
 
 Consider a customer support conversation that lasts several hours.
@@ -747,3 +746,7 @@ This significantly reduces token usage without sacrificing response quality.
 **10-memory-optimization.md**
 
 In the next note, we'll explore **Memory Optimization** techniques used in production AI agents, including memory caching, TTL policies, selective persistence, deduplication, memory indexing, adaptive retrieval, storage optimization, and performance tuning strategies for building scalable and cost-efficient enterprise AI systems.
+
+
+> **Enterprise AI Engineering Handbook**  
+> *Building Production-Grade Enterprise AI Systems — One Chapter at a Time.*

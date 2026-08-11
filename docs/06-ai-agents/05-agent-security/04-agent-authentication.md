@@ -1855,3 +1855,6 @@ Selecting the correct authentication mechanism depends on the type of identity.
 **05-agent-authorization.md**
 
 In the next note, you'll explore **Agent Authorization**, including **Role-Based Access Control (RBAC)**, **Attribute-Based Access Control (ABAC)**, policy enforcement, fine-grained permissions, tool authorization, document-level access, multi-tenant authorization, Open Policy Agent (OPA), policy-as-code, and enterprise authorization architectures for secure AI agents.
+
+ **Enterprise AI Engineering Handbook**  
+> *Building Production-Grade Enterprise AI Systems — One Chapter at a Time.*

@@ -806,3 +806,7 @@ This improves both quality and cost.
 **09-memory-compression.md**
 
 In the next note, we'll explore **Memory Compression**, including conversation summarization, semantic compression, context pruning, hierarchical memory, rolling summaries, and production techniques for reducing token usage while preserving important information in long-running AI agent conversations.
+
+
+> **Enterprise AI Engineering Handbook**  
+> *Building Production-Grade Enterprise AI Systems — One Chapter at a Time.*

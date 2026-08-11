@@ -1161,3 +1161,7 @@ Classifying tools by risk enables appropriate security controls without unnecess
 - OpenAI Agents SDK Documentation
 
 ---
+
+
+ **Enterprise AI Engineering Handbook**  
+> *Building Production-Grade Enterprise AI Systems — One Chapter at a Time.*
