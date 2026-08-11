@@ -114,17 +114,308 @@ plugins:
 
 nav:
   - Home: index.md
-  - Part I - Machine Learning: 01-machine-learning/index.md
-  - Part II - Deep Learning: 02-deep-learning/index.md
-  - Part III - Foundation Models, Large Language Models & Generative AI: 03-generative-ai/index.md
-  - Part IV - Prompt Engineering & RAG Fundamentals: 04-retrieval-augmented-generation/index.md
-  - Part V - Advanced Retrieval-Augmented Generation: 05-advanced-retrieval-augmented-generation/index.md
-  - Part VI - AI Agents: 06-ai-agents/index.md
+  - Part I - Machine Learning:
+    - 01-machine-learning/index.md
+    - 01-introduction-to-machine-learning: 01-machine-learning/01-introduction-to-machine-learning.md
+    - 02-machine-learning-fundamentals: 01-machine-learning/02-machine-learning-fundamentals.md
+    - 03-machine-learning-lifecycle: 01-machine-learning/03-machine-learning-lifecycle.md
+    - 04-machine-learning-in-practice: 01-machine-learning/04-machine-learning-in-practice.md
+    - 05-machine-learning-ecosystem-and-tools: 01-machine-learning/05-machine-learning-ecosystem-and-tools.md
+    - 06-regression-fundamentals: 01-machine-learning/06-regression-fundamentals.md
+    - 07-linear-regression: 01-machine-learning/07-linear-regression.md
+    - 08-nonlinear-regression: 01-machine-learning/08-nonlinear-regression.md
+    - 09-logistic-regression: 01-machine-learning/09-logistic-regression.md
+    - 10-training-and-evaluating-regression-models: 01-machine-learning/10-training-and-evaluating-regression-models.md
+    - 11-classification-fundamentals: 01-machine-learning/11-classification-fundamentals.md
+    - 12-decision-trees: 01-machine-learning/12-decision-trees.md
+    - 13-regression-trees: 01-machine-learning/13-regression-trees.md
+    - 14-support-vector-machines: 01-machine-learning/14-support-vector-machines.md
+    - 15-k-nearest-neighbors: 01-machine-learning/15-k-nearest-neighbors.md
+    - 16-classification-model-evaluation: 01-machine-learning/16-classification-model-evaluation.md
+    - 17-feature-scaling-and-data-preparation: 01-machine-learning/17-feature-scaling-and-data-preparation.md
+    - 18-bias-variance-tradeoff: 01-machine-learning/18-bias-variance-tradeoff.md
+    - 19-ensemble-learning: 01-machine-learning/19-ensemble-learning.md
+    - 20-building-production-classification-systems: 01-machine-learning/20-building-production-classification-systems.md
+    - 21-unsupervised-learning-fundamentals: 01-machine-learning/21-unsupervised-learning-fundamentals.md
+    - 22-clustering-fundamentals: 01-machine-learning/22-clustering-fundamentals.md
+    - 23-k-means-clustering: 01-machine-learning/23-k-means-clustering.md
+    - 24-density-based-clustering: 01-machine-learning/24-density-based-clustering.md
+    - 25-hierarchical-clustering: 01-machine-learning/25-hierarchical-clustering.md
+    - 26-dimensionality-reduction-fundamentals: 01-machine-learning/26-dimensionality-reduction-fundamentals.md
+    - 27-principal-component-analysis-pca: 01-machine-learning/27-principal-component-analysis-pca.md
+    - 28-t-sne-and-umap: 01-machine-learning/28-t-sne-and-umap.md
+    - 29-clustering-for-feature-engineering: 01-machine-learning/29-clustering-for-feature-engineering.md
+    - 30-building-production-unsupervised-learning-systems: 01-machine-learning/30-building-production-unsupervised-learning-systems.md
+    - 31-model-evaluation-fundamentals: 01-machine-learning/31-model-evaluation-fundamentals.md
+    - 32-classification-evaluation-metrics: 01-machine-learning/32-classification-evaluation-metrics.md
+    - 33-regression-evaluation-metrics: 01-machine-learning/33-regression-evaluation-metrics.md
+    - 34-unsupervised-learning-evaluation: 01-machine-learning/34-unsupervised-learning-evaluation.md
+    - 35-cross-validation-and-model-validation: 01-machine-learning/35-cross-validation-and-model-validation.md
+    - 36-regularization-techniques: 01-machine-learning/36-regularization-techniques.md
+    - 37-data-leakage-and-modeling-pitfalls: 01-machine-learning/37-data-leakage-and-modeling-pitfalls.md
+
+  - Part II - Deep Learning:
+    - 02-deep-learning/index.md
+    - 01-introduction-to-deep-learning: 02-deep-learning/01-introduction-to-deep-learning.md
+    - 02-neural-network-fundamentals: 02-deep-learning/02-neural-network-fundamentals.md
+    - 03-shallow-and-deep-neural-networks: 02-deep-learning/03-shallow-and-deep-neural-networks.md
+    - 04-linear-and-logistic-regression: 02-deep-learning/04-linear-and-logistic-regression.md
+    - 05-activation-functions-probabilities-and-threshold...: 02-deep-learning/05-activation-functions-probabilities-and-threshold....md
+    - 06-loss-functions-and-maximum-likelihood: 02-deep-learning/06-loss-functions-and-maximum-likelihood.md
+    - 07-forward-and-backpropagation: 02-deep-learning/07-forward-and-backpropagation.md
+    - 08-gradient-descent-and-mini-batch-training: 02-deep-learning/08-gradient-descent-and-mini-batch-training.md
+    - 09-weight-initialization-and-gradient-stability: 02-deep-learning/09-weight-initialization-and-gradient-stability.md
+    - 10-regularization-and-generalization: 02-deep-learning/10-regularization-and-generalization.md
+    - 11-advanced-optimization-techniques: 02-deep-learning/11-advanced-optimization-techniques.md
+    - 12-hyperparameter-tuning-and-training-strategies: 02-deep-learning/12-hyperparameter-tuning-and-training-strategies.md
+    - 13-tensorflow-and-keras-fundamentals: 02-deep-learning/13-tensorflow-and-keras-fundamentals.md
+    - 14-keras-sequential-and-functional-api: 02-deep-learning/14-keras-sequential-and-functional-api.md
+    - 15-custom-layers-models-and-training-loops: 02-deep-learning/15-custom-layers-models-and-training-loops.md
+    - 16-pytorch-fundamentals-and-tensors: 02-deep-learning/16-pytorch-fundamentals-and-tensors.md
+    - 17-pytorch-autograd-dataset-and-dataloader: 02-deep-learning/17-pytorch-autograd-dataset-and-dataloader.md
+    - 18-building-classification-and-regression-models: 02-deep-learning/18-building-classification-and-regression-models.md
+    - 19-convolutional-neural-networks: 02-deep-learning/19-convolutional-neural-networks.md
+    - 20-cnn-architecture-optimization-and-training: 02-deep-learning/20-cnn-architecture-optimization-and-training.md
+    - 21-transfer-learning-and-fine-tuning: 02-deep-learning/21-transfer-learning-and-fine-tuning.md
+    - 22-resnet-residual-connections-and-torchvision: 02-deep-learning/22-resnet-residual-connections-and-torchvision.md
+    - 23-vision-transformers-and-cnn-vit-hybrids: 02-deep-learning/23-vision-transformers-and-cnn-vit-hybrids.md
+    - 24-recurrent-neural-networks: 02-deep-learning/24-recurrent-neural-networks.md
+    - 25-lstm-and-gru: 02-deep-learning/25-lstm-and-gru.md
+    - 26-attention-and-positional-encoding: 02-deep-learning/26-attention-and-positional-encoding.md
+    - 27-transformer-architecture: 02-deep-learning/27-transformer-architecture.md
+    - 28-transformer-applications: 02-deep-learning/28-transformer-applications.md
+    - 29-autoencoders-and-representation-learning: 02-deep-learning/29-autoencoders-and-representation-learning.md
+    - 30-generative-adversarial-networks: 02-deep-learning/30-generative-adversarial-networks.md
+    - 31-diffusion-models: 02-deep-learning/31-diffusion-models.md
+    - 32-reinforcement-learning-fundamentals: 02-deep-learning/32-reinforcement-learning-fundamentals.md
+    - 33-markov-decision-processes-and-q-learning: 02-deep-learning/33-markov-decision-processes-and-q-learning.md
+    - 34-deep-reinforcement-learning-and-dqn: 02-deep-learning/34-deep-reinforcement-learning-and-dqn.md
+    - 35-gpu-accelerated-deep-learning: 02-deep-learning/35-gpu-accelerated-deep-learning.md
+    - 36-deep-learning-training-and-model-lifecycle: 02-deep-learning/36-deep-learning-training-and-model-lifecycle.md
+    - 37-building-production-deep-learning-systems: 02-deep-learning/37-building-production-deep-learning-systems.md
+  
+  - Part III - Foundation Models, Large Language Models & Generative AI:
+    - 03-generative-ai/index.md
+    - 01-generative-ai-fundamentals: 03-generative-ai/01-generative-ai-fundamentals.md
+    - 02-language-understanding-fundamentals: 03-generative-ai/02-language-understanding-fundamentals.md
+    - 03-word-embeddings: 03-generative-ai/03-word-embeddings.md
+    - 04-language-modeling: 03-generative-ai/04-language-modeling.md
+    - 05-attention-and-positional-encoding: 03-generative-ai/05-attention-and-positional-encoding.md
+    - 06-gpt-and-bert-architecture: 03-generative-ai/06-gpt-and-bert-architecture.md
+    - 07-huggingface-and-transformers: 03-generative-ai/07-huggingface-and-transformers.md
+    - 08-llm-data-preparation: 03-generative-ai/08-llm-data-preparation.md
+    - 09-huggingface-training-workflow: 03-generative-ai/09-huggingface-training-workflow.md
+    - 10-transformer-fine-tuning-fundamentals: 03-generative-ai/10-transformer-fine-tuning-fundamentals.md
+    - 11-supervised-fine-tuning-sft: 03-generative-ai/11-supervised-fine-tuning-sft.md
+    - 12-parameter-efficient-fine-tuning: 03-generative-ai/12-parameter-efficient-fine-tuning.md
+    - 13-lora-and-qlora: 03-generative-ai/13-lora-and-qlora.md
+    - 14-model-quantization: 03-generative-ai/14-model-quantization.md
+    - 15-llm-generation-strategies: 03-generative-ai/15-llm-generation-strategies.md
+    - 16-llm-evaluation: 03-generative-ai/16-llm-evaluation.md
+    - 17-instruction-tuning: 03-generative-ai/17-instruction-tuning.md
+    - 18-reward-modeling: 03-generative-ai/18-reward-modeling.md
+    - 19-llms-as-policies: 03-generative-ai/19-llms-as-policies.md
+    - 20-reinforcement-learning-from-human-feed...: 03-generative-ai/20-enterprise-generative-ai-application-architecture.md
+    - 21-proximal-policy-optimization-ppo: 03-generative-ai/21-proximal-policy-optimization-ppo.md
+    - 22-direct-preference-optimization-dpo: 03-generative-ai/22-direct-preference-optimization-dpo.md
+    - 23-huggingface-trl-workflow: 03-generative-ai/23-huggingface-trl-workflow.md
+  
+  - Part IV - Prompt Engineering & RAG Fundamentals:
+    - 04-retrieval-augmented-generation/index.md
+    - 01-introduction-to-prompt-engineering: 04-retrieval-augmented-generation/01-introduction-to-prompt-engineering.md
+    - 02-prompt-engineering-fundamentals: 04-retrieval-augmented-generation/02-prompt-engineering-fundamentals.md
+    - 03-advanced-prompt-engineering: 04-retrieval-augmented-generation/03-advanced-prompt-engineering.md
+    - 04-prompt-design-patterns: 04-retrieval-augmented-generation/04-prompt-design-patterns.md
+    - 05-zero-one-few-shot-prompting: 04-retrieval-augmented-generation/05-zero-one-few-shot-prompting.md
+    - 06-chain-of-thought-prompting: 04-retrieval-augmented-generation/06-chain-of-thought-prompting.md
+    - 07-react-prompting: 04-retrieval-augmented-generation/07-react-prompting.md
+    - 08-structured-outputs-and-output-parsing: 04-retrieval-augmented-generation/08-structured-outputs-and-output-parsing.md
+    - 09-function-calling-and-tool-calling: 04-retrieval-augmented-generation/09-function-calling-and-tool-calling.md
+    - 10-embeddings-in-practice: 04-retrieval-augmented-generation/10-embeddings-in-practice.md
+    - 11-document-processing-and-vectorization: 04-retrieval-augmented-generation/11-document-processing-and-vectorization.md
+    - 12-document-chunking-strategies: 04-retrieval-augmented-generation/12-document-chunking-strategies.md
+    - 13-vector-database-fundamentals: 04-retrieval-augmented-generation/13-vector-database-fundamentals.md
+    - 14-similarity-search-techniques: 04-retrieval-augmented-generation/14-similarity-search-techniques.md
+    - 15-rag-pipeline-components: 04-retrieval-augmented-generation/15-rag-pipeline-components.md
+    - 16-retrieval-and-generation-pipeline: 04-retrieval-augmented-generation/16-retrieval-and-generation-pipeline.md
+    - 17-vector-databases-in-rag: 04-retrieval-augmented-generation/17-vector-databases-in-rag.md
+    - 18-building-your-first-rag-pipeline: 04-retrieval-augmented-generation/18-building-your-first-rag-pipeline.md
+    - 19-rag-evaluation-fundamentals: 04-retrieval-augmented-generation/19-rag-evaluation-fundamentals.md
+    - 20-enterprise-generative-ai-application-archit...: 04-retrieval-augmented-generation/20-enterprise-generative-ai-application-architecture.md
+    - 21-deploying-ai-applications-with-gradio: 04-retrieval-augmented-generation/21-deploying-ai-applications-with-gradio.md
+    - 22-deploying-ai-applications-with-flask: 04-retrieval-augmented-generation/22-deploying-ai-applications-with-flask.md
+  
+  - Part V - Advanced Retrieval-Augmented Generation:
+    - 05-advanced-retrieval-augmented-generation/index.md
+
+    - Core Retrieval Engineering:
+        - 01-vectostore-retriever: 05-advanced-retrieval-augmented-generation/01-core-retrieval-engineering/01-vectostore-retriever.md
+        - 02-multi-query-retriever: 05-advanced-retrieval-augmented-generation/01-core-retrieval-engineering/02-multi-query-retriever.md
+        - 03-self-query-retriever: 05-advanced-retrieval-augmented-generation/01-core-retrieval-engineering/03-self-query-retriever.md
+        - 04-parent-document-retriever: 05-advanced-retrieval-augmented-generation/01-core-retrieval-engineering/04-parent-document-retriever.md
+        - 05-retriever-comparison: 05-advanced-retrieval-augmented-generation/01-core-retrieval-engineering/05-retriever-comparison.md
+
+    - Enterprise Retrieval Engineering:
+        - 01-contextual-compression-retriever: 05-advanced-retrieval-augmented-generation/02-enterprise-retrieval-engineering/01-contextual-compression-retriever.md
+        - 02-ensemble-retriever: 05-advanced-retrieval-augmented-generation/02-enterprise-retrieval-engineering/02-ensemble-retriever.md
+        - 03-multivector-retriever: 05-advanced-retrieval-augmented-generation/02-enterprise-retrieval-engineering/03-multivector-retriever.md
+        - 04-timeweighted-retriever: 05-advanced-retrieval-augmented-generation/02-enterprise-retrieval-engineering/04-timeweighted-retriever.md
+        - 05-hybrid-search-retriever: 05-advanced-retrieval-augmented-generation/02-enterprise-retrieval-engineering/05-hybrid-search-retriever.md
+        - 06-hyde-retriever: 05-advanced-retrieval-augmented-generation/02-enterprise-retrieval-engineering/06-hyde-retriever.md
+        - 07-router-retriever: 05-advanced-retrieval-augmented-generation/02-enterprise-retrieval-engineering/07-router-retriever.md
+        - 08-multi-stage-retrieval: 05-advanced-retrieval-augmented-generation/02-enterprise-retrieval-engineering/08-multi-stage-retrieval.md
+        - 09-agentic-retrieval: 05-advanced-retrieval-augmented-generation/02-enterprise-retrieval-engineering/09-agentic-retrieval.md
+        - 10-reranking-techniques: 05-advanced-retrieval-augmented-generation/02-enterprise-retrieval-engineering/10-reranking-techniques.md
+        - 11-mmr-and-diversity-aware-retrieval: 05-advanced-retrieval-augmented-generation/02-enterprise-retrieval-engineering/11-mmr-and-diversity-aware-retrieval.md
+        - 12-metadata-aware-retrieval: 05-advanced-retrieval-augmented-generation/02-enterprise-retrieval-engineering/12-metadata-aware-retrieval.md
+        - 13-advanced-query-rewriting: 05-advanced-retrieval-augmented-generation/02-enterprise-retrieval-engineering/13-advanced-query-rewriting.md
+
+    - LlamaIndex Retrieval Engineering:
+        - 01-llamaindex-retrievers-overview: 05-advanced-retrieval-augmented-generation/03-llamaindex-retrieval-engineering/01-llamaindex-retrievers-overview.md
+        - 02-llamaindex-indexes: 05-advanced-retrieval-augmented-generation/03-llamaindex-retrieval-engineering/02-llamaindex-indexes.md
+        - 03-vector-index-retriever: 05-advanced-retrieval-augmented-generation/03-llamaindex-retrieval-engineering/03-vector-index-retriever.md
+        - 04-bm25-retriever: 05-advanced-retrieval-augmented-generation/03-llamaindex-retrieval-engineering/04-bm25-retriever.md
+        - 05-document-summary-retriever: 05-advanced-retrieval-augmented-generation/03-llamaindex-retrieval-engineering/05-document-summary-retriever.md
+        - 06-recursive-retriever: 05-advanced-retrieval-augmented-generation/03-llamaindex-retrieval-engineering/06-recursive-retriever.md
+        - 07-query-fusion-retriever: 05-advanced-retrieval-augmented-generation/03-llamaindex-retrieval-engineering/07-query-fusion-retriever.md
+        - 08-auto-merging-retriever: 05-advanced-retrieval-augmented-generation/03-llamaindex-retrieval-engineering/08-auto-merging-retriever.md
+
+    - Vector Search Engineering:
+        - 01-faiss-fundamentals: 05-advanced-retrieval-augmented-generation/04-vector-search-engineering/01-faiss-fundamentals.md
+        - 02-faiss-indexes: 05-advanced-retrieval-augmented-generation/04-vector-search-engineering/02-faiss-indexes.md
+        - 03-ivf-and-hnsw: 05-advanced-retrieval-augmented-generation/04-vector-search-engineering/03-ivf-and-hnsw.md
+        - 04-faiss-vs-chromadb-vs-milvus: 05-advanced-retrieval-augmented-generation/04-vector-search-engineering/04-faiss-vs-chromadb-vs-milvus.md
+
+    - Advanced RAG Architecture:
+        - 01-advanced-rag-architecture: 05-advanced-retrieval-augmented-generation/05-advanced-rag-architecture/01-advanced-rag-architecture.md
+        - 02-graph-rag: 05-advanced-retrieval-augmented-generation/05-advanced-rag-architecture/02-graph-rag.md
+        - 03-knowledge-graphs-for-rag: 05-advanced-retrieval-augmented-generation/05-advanced-rag-architecture/03-knowledge-graphs-for-rag.md
+        - 04-sql-rag: 05-advanced-retrieval-augmented-generation/05-advanced-rag-architecture/04-sql-rag.md
+        - 05-multimodal-rag: 05-advanced-retrieval-augmented-generation/05-advanced-rag-architecture/05-multimodal-rag.md
+        - 06-agentic-rag: 05-advanced-retrieval-augmented-generation/05-advanced-rag-architecture/06-agentic-rag.md
+
+    - Production RAG Engineering:
+        - 01-prompt-assembly: 05-advanced-retrieval-augmented-generation/06-production-rag-engineering/01-prompt-assembly.md
+        - 02-context-selection-and-context-engineering: 05-advanced-retrieval-augmented-generation/06-production-rag-engineering/02-context-selection-and-context-engineering.md
+        - 03-response-validation: 05-advanced-retrieval-augmented-generation/06-production-rag-engineering/03-response-validation.md
+        - 04-citation-and-source-attribution: 05-advanced-retrieval-augmented-generation/06-production-rag-engineering/04-citation-and-source-attribution.md
+        - 05-enterprise-response: 05-advanced-retrieval-augmented-generation/06-production-rag-engineering/05-enterprise-response.md
+        - 06-rag-evaluation-and-benchmarking: 05-advanced-retrieval-augmented-generation/06-production-rag-engineering/06-rag-evaluation-and-benchmarking.md
+        - 07-rag-observability: 05-advanced-retrieval-augmented-generation/06-production-rag-engineering/07-rag-observability.md
+        - 08-rag-performance-optimization: 05-advanced-retrieval-augmented-generation/06-production-rag-engineering/08-rag-performance-optimization.md
+        - 09-rag-cost-optimization: 05-advanced-retrieval-augmented-generation/06-production-rag-engineering/09-rag-cost-optimization.md
+        - 10-production-retrieval-architecture: 05-advanced-retrieval-augmented-generation/06-production-rag-engineering/10-production-retrieval-architecture.md
+        - 11-building-production-rag-systems: 05-advanced-retrieval-augmented-generation/06-production-rag-engineering/11-building-production-rag-systems.md
+        - 12-rag-deployment-patterns: 05-advanced-retrieval-augmented-generation/06-production-rag-engineering/12-rag-deployment-patterns.md
+        - 13-rag-caching-strategies: 05-advanced-retrieval-augmented-generation/06-production-rag-engineering/13-rag-caching-strategies.md
+        - 14-multi-tenant-rag: 05-advanced-retrieval-augmented-generation/06-production-rag-engineering/14-multi-tenant-rag.md
+        - 15-rag-testing-frameworks: 05-advanced-retrieval-augmented-generation/06-production-rag-engineering/15-rag-testing-frameworks.md
+        - 16-rag-failure-patterns: 05-advanced-retrieval-augmented-generation/06-production-rag-engineering/16-rag-failure-patterns.md
+  
+  - Part VI - AI Agents:
+    - 06-ai-agents/index.md
+
+    - AI Agent Fundamentals:
+        - 01-ai-agent-fundamentals: 06-ai-agents/01-ai-agent-fundamentals/01-ai-agent-fundamentals.md
+        - 02-tool-calling-and-function-calling: 06-ai-agents/01-ai-agent-fundamentals/02-tool-calling-and-function-calling.md
+        - 03-building-and-orchestrating-tools: 06-ai-agents/01-ai-agent-fundamentals/03-building-and-orchestrating-tools.md
+        - 04-lcel-and-manual-tool-calling: 06-ai-agents/01-ai-agent-fundamentals/04-lcel-and-manual-tool-calling.md
+        - 05-langchain-built-in-agents: 06-ai-agents/01-ai-agent-fundamentals/05-langchain-built-in-agents.md
+        - 06-ai-agent-design-best-practices: 06-ai-agents/01-ai-agent-fundamentals/06-ai-agent-design-best-practices.md
+        - 07-enterprise-ai-agent-architecture: 06-ai-agents/01-ai-agent-fundamentals/07-enterprise-ai-agent-architecture.md
+        - 08-planning-and-task-decomposition: 06-ai-agents/01-ai-agent-fundamentals/08-planning-and-task-decomposition.md
+        - 09-agent-reasoning: 06-ai-agents/01-ai-agent-fundamentals/09-agent-reasoning.md
+        - 10-reflection-and-self-correction: 06-ai-agents/01-ai-agent-fundamentals/10-reflection-and-self-correction.md
+
+    - Agent Memory:
+        - 01-agent-memory-overview: 06-ai-agents/02-agent-memory/01-agent-memory-overview.md
+        - 02-short-term-memory: 06-ai-agents/02-agent-memory/02-short-term-memory.md
+        - 03-long-term-memory: 06-ai-agents/02-agent-memory/03-long-term-memory.md
+        - 04-working-memory: 06-ai-agents/02-agent-memory/04-working-memory.md
+        - 05-episodic-memory: 06-ai-agents/02-agent-memory/05-episodic-memory.md
+        - 06-semantic-memory: 06-ai-agents/02-agent-memory/06-semantic-memory.md
+        - 07-memory-storage-patterns: 06-ai-agents/02-agent-memory/07-memory-storage-patterns.md
+        - 08-memory-retrieval-patterns: 06-ai-agents/02-agent-memory/08-memory-retrieval-patterns.md
+        - 09-memory-compression: 06-ai-agents/02-agent-memory/09-memory-compression.md
+        - 10-memory-optimization: 06-ai-agents/02-agent-memory/10-memory-optimization.md
+
+    - Agent Communication:
+        - 01-agent-communication-overview: 06-ai-agents/03-agent-communication/01-agent-communication-overview.md
+        - 02-message-passing: 06-ai-agents/03-agent-communication/02-message-passing.md
+        - 03-shared-memory: 06-ai-agents/03-agent-communication/03-shared-memory.md
+        - 04-event-driven-agents: 06-ai-agents/03-agent-communication/04-event-driven-agents.md
+        - 05-publish-subscribe-pattern: 06-ai-agents/03-agent-communication/05-publish-subscribe-pattern.md
+        - 06-agent-coordination: 06-ai-agents/03-agent-communication/06-agent-coordination.md
+        - 07-agent-negotiation: 06-ai-agents/03-agent-communication/07-agent-negotiation.md
+        - 08-conflict-resolution: 06-ai-agents/03-agent-communication/08-conflict-resolution.md
+
+    - Agent Observability:
+        - 01-agent-observability-overview: 06-ai-agents/04-agent-observability/01-agent-observability-overview.md
+        - 02-agent-logging: 06-ai-agents/04-agent-observability/02-agent-logging.md
+        - 03-agent-tracing: 06-ai-agents/04-agent-observability/03-agent-tracing.md
+        - 04-agent-monitoring: 06-ai-agents/04-agent-observability/04-agent-monitoring.md
+        - 05-agent-metrics: 06-ai-agents/04-agent-observability/05-agent-metrics.md
+        - 06-agent-debugging: 06-ai-agents/04-agent-observability/06-agent-debugging.md
+        - 07-agent-evaluation-metrics: 06-ai-agents/04-agent-observability/07-agent-evaluation-metrics.md
+        - 08-agent-cost-monitoring: 06-ai-agents/04-agent-observability/08-agent-cost-monitoring.md
+        - 09-agent-alerting: 06-ai-agents/04-agent-observability/09-agent-alerting.md
+        - 10-agent-evaluation: 06-ai-agents/04-agent-observability/10-agent-evaluation.md
+
+    - Agent Security:
+        - 01-agent-security-overview: 06-ai-agents/05-agent-security/01-agent-security-overview.md
+        - 02-prompt-injection: 06-ai-agents/05-agent-security/02-prompt-injection.md
+        - 03-tool-security: 06-ai-agents/05-agent-security/03-tool-security.md
+        - 04-agent-authentication: 06-ai-agents/05-agent-security/04-agent-authentication.md
+        - 05-agent-authorization: 06-ai-agents/05-agent-security/05-agent-authorization.md
+        - 06-secrets-management: 06-ai-agents/05-agent-security/06-secrets-management.md
+        - 07-data-privacy: 06-ai-agents/05-agent-security/07-data-privacy.md
+        - 08-agent-sandboxing: 06-ai-agents/05-agent-security/08-agent-sandboxing.md
+        - 09-agent-guardrails: 06-ai-agents/05-agent-security/09-agent-guardrails.md
+        - 10-agent-risk-management: 06-ai-agents/05-agent-security/10-agent-risk-management.md
+
+    - Agent Deployment:
+        - 01-agent-deployment-overview: 06-ai-agents/06-agent-deployment/01-agent-deployment-overview.md
+        - 02-agent-runtime-and-execution: 06-ai-agents/06-agent-deployment/02-agent-runtime-and-execution.md
+        - 03-agent-scaling-and-resilience: 06-ai-agents/06-agent-deployment/03-agent-scaling-and-resilience.md
+        - 04-production-agent-deployment: 06-ai-agents/06-agent-deployment/04-production-agent-deployment.md
+  
   - Part VII - Agentic AI & Multi-Agent Systems: 07-agentic-ai/index.md
-  - Part VIII - AI Engineering Frameworks & Tooling: 08-ai-engineering-frameworks/index.md
+  
+  - Part VIII - AI Engineering Frameworks & Tooling:
+    - 08-ai-engineering-frameworks/index.md
+    - 01-langchain-fundamentals: 08-ai-engineering-frameworks/01-langchain-fundamentals.md
+    - 02-langchain-models-and-prompts: 08-ai-engineering-frameworks/02-langchain-models-and-prompts.md
+    - 03-langchain-tools-and-function-calling: 08-ai-engineering-frameworks/03-langchain-tools-and-function-calling.md
+    - 04-langchain-retrieval-and-rag: 08-ai-engineering-frameworks/04-langchain-retrieval-and-rag.md
+    - 05-langchain-memory-and-state: 08-ai-engineering-frameworks/05-langchain-memory-and-state.md
+    - 06-langchain-agents: 08-ai-engineering-frameworks/06-langchain-agents.md
+    - 07-langchain-production-patterns: 08-ai-engineering-frameworks/07-langchain-production-patterns.md
+    - 08-langchain-limitations-and-tradeoffs: 08-ai-engineering-frameworks/08-langchain-limitations-and-tradeoffs.md
+    - 09-llamaindex-fundamentals: 08-ai-engineering-frameworks/09-llamaindex-fundamentals.md
+    - 10-llamaindex-data-and-document-ingestion: 08-ai-engineering-frameworks/10-llamaindex-data-and-document-ingestion.md
+    - 11-llamaindex-indexes-and-retrieval: 08-ai-engineering-frameworks/11-llamaindex-indexes-and-retrieval.md
+    - 12-llamaindex-rag-pipelines: 08-ai-engineering-frameworks/12-llamaindex-rag-pipelines.md
+    - 13-llamaindex-agents-and-tools: 08-ai-engineering-frameworks/13-llamaindex-agents-and-tools.md
+    - 14-llamaindex-workflows: 08-ai-engineering-frameworks/14-llamaindex-workflows.md
+    - 15-llamaindex-production-patterns: 08-ai-engineering-frameworks/15-llamaindex-production-patterns.md
+    - 16-llamaindex-limitations-and-tradeoffs: 08-ai-engineering-frameworks/16-llamaindex-limitations-and-tradeoffs.md
+    - 17-langgraph-fundamentals: 08-ai-engineering-frameworks/17-langgraph-fundamentals.md
+    - 18-graph-based-agent-architecture: 08-ai-engineering-frameworks/18-graph-based-agent-architecture.md
+    - 19-langgraph-state-and-checkpointing: 08-ai-engineering-frameworks/19-langgraph-state-and-checkpointing.md
+    - 20-langgraph-nodes-edges-and-routing: 08-ai-engineering-frameworks/20-langgraph-nodes-edges-and-routing.md
+    - 21-langgraph-human-in-the-loop: 08-ai-engineering-frameworks/21-langgraph-human-in-the-loop.md
+    - 22-langgraph-tool-execution: 08-ai-engineering-frameworks/22-langgraph-tool-execution.md
+    - 23-langgraph-agent-workflows: 08-ai-engineering-frameworks/23-langgraph-agent-workflows.md
+    - 24-langgraph-memory-and-persistence: 08-ai-engineering-frameworks/24-langgraph-memory-and-persistence.md
+    - 25-langgraph-production-patterns: 08-ai-engineering-frameworks/25-langgraph-production-patterns.md
+    - 26-langgraph-limitations-and-tradeoffs: 08-ai-engineering-frameworks/26-langgraph-limitations-and-tradeoffs.md
+  
   - Part IX - MLOps, LLMOps & AIOps: 09-mlops/index.md
+  
   - Part X - Cloud AI Engineering: 10-cloud-ai-engineering/index.md
+  
   - Part XI - Enterprise AI Architecture & Design Patterns: 11-enterprise-ai-architecture/index.md
+  
   - Part XII - Interview Preparation: 12-interview-preparation/index.md
 
 plugins:
