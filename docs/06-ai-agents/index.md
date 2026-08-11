@@ -192,9 +192,9 @@ This section establishes the foundation for understanding how AI Agents work and
 | **[05. LangChain Built-in Agents](01-ai-agent-fundamentals/05-langchain-built-in-agents.md)** | ✅ |
 | **[06. AI Agent Design Best Practices](01-ai-agent-fundamentals/06-ai-agent-design-best-practices.md)** | ✅ |
 | **[07. Enterprise AI Agent Architecture](01-ai-agent-fundamentals/07-enterprise-ai-agent-architecture.md)** | ✅ |
-| **[08. Planning & Task Decomposition](01-ai-agent-fundamentals/08-planning-and-task-decomposition.md)** | 🚧 |
-| **[09. Agent Reasoning](01-ai-agent-fundamentals/09-agent-reasoning.md)** | 🚧 |
-| **[10. Reflection & Self-Correction](01-ai-agent-fundamentals/10-reflection-and-self-correction.md)** | 🚧 |
+| **[08. Planning & Task Decomposition](01-ai-agent-fundamentals/08-planning-and-task-decomposition.md)** | ✅ |
+| **[09. Agent Reasoning](01-ai-agent-fundamentals/09-agent-reasoning.md)** | ✅ |
+| **[10. Reflection & Self-Correction](01-ai-agent-fundamentals/10-reflection-and-self-correction.md)** | ✅ |
 
 ---
 
@@ -486,7 +486,7 @@ This makes observability a core architectural capability.
 | **[07. Agent Evaluation Metrics](04-agent-observability/07-agent-evaluation-metrics.md)** | ✅ |
 | **[08. Agent Cost Monitoring](04-agent-observability/08-agent-cost-monitoring.md)** | ✅ |
 | **[09. Agent Alerting](04-agent-observability/09-agent-alerting.md)** | ✅ |
-| **[10. Agent Evaluation](04-agent-observability/10-agent-evaluation.md)** | 🚧 |
+| **[10. Agent Evaluation](04-agent-observability/10-agent-evaluation.md)** | ✅ |
 
 ---
 
@@ -655,10 +655,10 @@ This section focuses on the runtime and deployment engineering required to move 
 
 | Chapter | Status |
 | --- | :---: |
-| **[01. Agent Deployment Overview](06-agent-deployment/01-agent-deployment-overview.md)** | 🚧 |
-| **[02. Agent Runtime & Execution](06-agent-deployment/02-agent-runtime-and-execution.md)** | 🚧 |
-| **[03. Agent Scaling & Resilience](06-agent-deployment/03-agent-scaling-and-resilience.md)** | 🚧 |
-| **[04. Production Agent Deployment](06-agent-deployment/04-production-agent-deployment.md)** | 🚧 |
+| **[01. Agent Deployment Overview](06-agent-deployment/01-agent-deployment-overview.md)** | ✅ |
+| **[02. Agent Runtime & Execution](06-agent-deployment/02-agent-runtime-and-execution.md)** | ✅ |
+| **[03. Agent Scaling & Resilience](06-agent-deployment/03-agent-scaling-and-resilience.md)** | ✅ |
+| **[04. Production Agent Deployment](06-agent-deployment/04-production-agent-deployment.md)** | ✅ |
 
 ---
 
