@@ -2,6 +2,7 @@
 
 > Learn how intelligent AI Agents are designed, built, deployed, and operated to solve complex tasks using reasoning, planning, memory, tool integration, communication, observability, and security in enterprise environments.
 
+![AI Agents Banner](../assets/banners/ai-agents-banner.png)
 ---
 
 ## 📖 Overview
