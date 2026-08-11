@@ -259,14 +259,13 @@ Planned topics include:
 
 ### Protocols
 
+- Model Context Protocol (MCP) 
 - Agent2Agent (A2A)
 - Future Agent Protocols
 
 ---
 
 # Part VIII — AI Engineering Frameworks & Tooling
-
-> 🚧 **Coming Soon**
 
 Build enterprise AI applications using modern AI frameworks.
 
