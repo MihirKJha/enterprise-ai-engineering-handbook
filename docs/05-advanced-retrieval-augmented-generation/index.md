@@ -1605,13 +1605,13 @@ Operate at Scale
 # 🧭 Chapter Navigation
 
 **Previous Section:**  
-[05. Advanced RAG Architecture](../05-advanced-rag-architecture/01-advanced-rag-architecture.md)
+[04. Retrieval Augmented Generation](../04-retrieval-augmented-generation/index.md)
 
 **Current Section:**  
-**06. Production RAG Engineering**
+**05. Advanced Retrieval Augmented generation**
 
 **Next Section:**  
-[07. AI Agents / Agentic AI](../07-agentic-ai/)
+[06. AI Agents ](../06-ai-agents/index.md)
 
 ---
 
@@ -1619,7 +1619,7 @@ Operate at Scale
 
 Begin with:
 
-**[01. Prompt Assembly](01-prompt-assembly.md)**
+**[01. Vectorstore Retriever](01-vectorstore-retriever.md)**
 
 Then progress sequentially through:
 
