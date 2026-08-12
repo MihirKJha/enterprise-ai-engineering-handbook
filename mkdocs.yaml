@@ -382,7 +382,40 @@ nav:
     
   - Part VII - Agentic AI & Multi-Agent Systems: 07-agentic-ai/index.md
   
-  - Part VIII - AI Engineering Frameworks & Tooling: 08-ai-engineering-frameworks/index.md
+  - Part VIII - AI Engineering Frameworks & Tooling:
+    - 08-ai-engineering-frameworks/index.md
+
+    - LangChain:
+        - 01-langchain-fundamentals: 08-ai-engineering-frameworks/01-langchain-fundamentals.md
+        - 02-langchain-models-and-prompts: 08-ai-engineering-frameworks/02-langchain-models-and-prompts.md
+        - 03-langchain-tools-and-function-calling: 08-ai-engineering-frameworks/03-langchain-tools-and-function-calling.md
+        - 04-langchain-retrieval-and-rag: 08-ai-engineering-frameworks/04-langchain-retrieval-and-rag.md
+        - 05-langchain-memory-and-state: 08-ai-engineering-frameworks/05-langchain-memory-and-state.md
+        - 06-langchain-agents: 08-ai-engineering-frameworks/06-langchain-agents.md
+        - 07-langchain-production-patterns: 08-ai-engineering-frameworks/07-langchain-production-patterns.md
+        - 08-langchain-limitations-and-tradeoffs: 08-ai-engineering-frameworks/08-langchain-limitations-and-tradeoffs.md
+
+    - LlamaIndex:
+        - 01-llamaindex-fundamentals: 08-ai-engineering-frameworks/09-llamaindex-fundamentals.md
+        - 02-llamaindex-data-and-document-ingestion: 08-ai-engineering-frameworks/10-llamaindex-data-and-document-ingestion.md
+        - 03-llamaindex-indexes-and-retrieval: 08-ai-engineering-frameworks/11-llamaindex-indexes-and-retrieval.md
+        - 04-llamaindex-rag-pipelines: 08-ai-engineering-frameworks/12-llamaindex-rag-pipelines.md
+        - 05-llamaindex-agents-and-tools: 08-ai-engineering-frameworks/13-llamaindex-agents-and-tools.md
+        - 06-llamaindex-workflows: 08-ai-engineering-frameworks/14-llamaindex-workflows.md
+        - 07-llamaindex-production-patterns: 08-ai-engineering-frameworks/15-llamaindex-production-patterns.md
+        - 08-llamaindex-limitations-and-tradeoffs: 08-ai-engineering-frameworks/16-llamaindex-limitations-and-tradeoffs.md
+
+    - LangGraph:
+        - 01-langgraph-fundamentals: 08-ai-engineering-frameworks/17-langgraph-fundamentals.md
+        - 02-graph-based-agent-architecture: 08-ai-engineering-frameworks/18-graph-based-agent-architecture.md
+        - 03-langgraph-state-and-checkpointing: 08-ai-engineering-frameworks/19-langgraph-state-and-checkpointing.md
+        - 04-langgraph-nodes-edges-and-routing: 08-ai-engineering-frameworks/20-langgraph-nodes-edges-and-routing.md
+        - 05-langgraph-human-in-the-loop: 08-ai-engineering-frameworks/21-langgraph-human-in-the-loop.md
+        - 06-langgraph-tool-execution: 08-ai-engineering-frameworks/22-langgraph-tool-execution.md
+        - 07-langgraph-agent-workflows: 08-ai-engineering-frameworks/23-langgraph-agent-workflows.md
+        - 08-langgraph-memory-and-persistence: 08-ai-engineering-frameworks/24-langgraph-memory-and-persistence.md
+        - 09-langgraph-production-patterns: 08-ai-engineering-frameworks/25-langgraph-production-patterns.md
+        - 10-langgraph-limitations-and-tradeoffs: 08-ai-engineering-frameworks/26-langgraph-limitations-and-tradeoffs.md
   
   - Part IX - MLOps, LLMOps & AIOps: 09-mlops/index.md
   
