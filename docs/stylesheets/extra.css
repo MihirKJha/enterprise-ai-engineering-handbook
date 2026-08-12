@@ -1,108 +1,196 @@
 /* =========================================================
-   Enterprise AI Engineering Handbook
-   Sidebar Navigation Hierarchy
+   ENTERPRISE AI ENGINEERING HANDBOOK
+   PRIMARY SIDEBAR NAVIGATION HIERARCHY
    ========================================================= */
 
-/* ---------------------------------------------------------
-   SECTION HEADINGS
+
+/* =========================================================
+   LEVEL 1 — PART
    Example:
-   Core Retrieval Engineering
-   Enterprise Retrieval Engineering
-   LlamaIndex Retrieval Engineering
-   --------------------------------------------------------- */
-
-.md-sidebar--primary .md-nav__item--nested > .md-nav__link {
-  font-weight: 700;
-  font-size: 0.78rem;
-  color: var(--md-primary-fg-color);
-
-  margin-top: 0.45rem;
-  margin-bottom: 0.15rem;
-
-  padding: 0.45rem 0.55rem;
-
-  border-radius: 0.35rem;
-}
-
-
-/* ---------------------------------------------------------
-   SECTION HOVER
-   --------------------------------------------------------- */
-
-.md-sidebar--primary .md-nav__item--nested > .md-nav__link:hover {
-  background-color: var(--md-default-fg-color--lightest);
-}
-
-
-/* ---------------------------------------------------------
-   CHAPTER LINKS
-   --------------------------------------------------------- */
+   Part I - Machine Learning
+   Part II - Deep Learning
+   ========================================================= */
 
 .md-sidebar--primary
-.md-nav__item--nested
-.md-nav__item
+.md-nav--primary
+> .md-nav__list
+> .md-nav__item
+> .md-nav__link {
+
+  font-size: 1rem;
+  font-weight: 800;
+  line-height: 1.25;
+
+  color: #1565c0;
+
+  padding: 0.55rem 0.65rem;
+
+  margin-bottom: 0.8rem;
+
+  border-left: 3px solid #1565c0;
+
+  border-radius: 0 0.35rem 0.35rem 0;
+
+}
+
+
+/* Part hover */
+
+.md-sidebar--primary
+.md-nav--primary
+> .md-nav__list
+> .md-nav__item
+> .md-nav__link:hover {
+
+  background-color: rgba(21, 101, 192, 0.08);
+
+}
+
+
+/* =========================================================
+   LEVEL 2 — SECTION
+   Example:
+   Machine Learning Fundamentals
+   Regression
+   Classification
+   ========================================================= */
+
+.md-sidebar--primary
+.md-nav--primary
+> .md-nav__list
+> .md-nav__item
+> .md-nav
+> .md-nav__list
+> .md-nav__item
+> .md-nav__link {
+
+  font-size: 0.82rem;
+  font-weight: 700;
+  line-height: 1.35;
+
+  color: #1976a3;
+
+  padding: 0.42rem 0.45rem;
+
+  margin-top: 0.35rem;
+  margin-bottom: 0.15rem;
+
+  border-radius: 0.3rem;
+
+}
+
+
+/* Section hover */
+
+.md-sidebar--primary
+.md-nav--primary
+> .md-nav__list
+> .md-nav__item
+> .md-nav
+> .md-nav__list
+> .md-nav__item
+> .md-nav__link:hover {
+
+  background-color: rgba(25, 118, 163, 0.08);
+
+}
+
+
+/* =========================================================
+   LEVEL 3 — CHAPTER
+   Example:
+   01-Introduction to Machine Learning
+   02-Linear Regression
+   ========================================================= */
+
+.md-sidebar--primary
+.md-nav--primary
+> .md-nav__list
+> .md-nav__item
+> .md-nav
+> .md-nav__list
+> .md-nav__item
+> .md-nav
+> .md-nav__list
+> .md-nav__item
 > .md-nav__link {
 
   font-size: 0.72rem;
-  font-weight: 400;
+  font-weight: 450;
+  line-height: 1.4;
 
-  padding-top: 0.20rem;
-  padding-bottom: 0.20rem;
-  padding-left: 0.75rem;
+  color: #424242;
+
+  padding: 0.24rem 0.45rem 0.24rem 0.85rem;
+
+  margin: 0.05rem 0;
 
   border-radius: 0.25rem;
+
 }
 
 
-/* ---------------------------------------------------------
-   CHAPTER HOVER
-   --------------------------------------------------------- */
+/* Chapter hover */
 
 .md-sidebar--primary
-.md-nav__item--nested
-.md-nav__item
+.md-nav--primary
+> .md-nav__list
+> .md-nav__item
+> .md-nav
+> .md-nav__list
+> .md-nav__item
+> .md-nav
+> .md-nav__list
+> .md-nav__item
 > .md-nav__link:hover {
 
-  background-color: var(--md-default-fg-color--lightest);
+  color: #1565c0;
+
+  background-color: rgba(21, 101, 192, 0.06);
+
 }
 
 
-/* ---------------------------------------------------------
+/* =========================================================
    ACTIVE CHAPTER
-   --------------------------------------------------------- */
+   ========================================================= */
 
 .md-sidebar--primary
 .md-nav__link--active {
 
-  font-weight: 600;
+  color: #1565c0 !important;
 
-  background-color: var(--md-primary-fg-color--lightest);
+  font-weight: 650 !important;
 
-  border-left: 3px solid var(--md-primary-fg-color);
+  background-color: rgba(21, 101, 192, 0.08);
 
-  padding-left: calc(0.75rem - 3px);
+  border-left: 3px solid #1565c0;
+
 }
 
 
-/* ---------------------------------------------------------
-   SECTION EXPAND/COLLAPSE ICON
-   --------------------------------------------------------- */
+/* =========================================================
+   EXPAND / COLLAPSE ICONS
+   ========================================================= */
 
 .md-sidebar--primary
 .md-nav__item--nested
 > .md-nav__link
 .md-nav__icon {
 
-  color: var(--md-primary-fg-color);
+  color: #1976a3;
+
 }
 
 
-/* ---------------------------------------------------------
-   SPACING BETWEEN SECTIONS
-   --------------------------------------------------------- */
+/* =========================================================
+   SECTION SPACING
+   ========================================================= */
 
 .md-sidebar--primary
+.md-nav--primary
 .md-nav__item--nested {
 
-  margin-bottom: 0.35rem;
+  margin-bottom: 0.2rem;
+
 }
