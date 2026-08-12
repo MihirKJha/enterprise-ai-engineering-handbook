@@ -46,3 +46,53 @@
 
   background-color: rgba(21, 101, 192, 0.06);
 }
+
+
+/* =========================================================
+   TOP PART NAVIGATION
+   Horizontal scrolling for long Part names
+   ========================================================= */
+
+@media screen and (min-width: 60em) {
+
+  .md-tabs {
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    white-space: nowrap;
+
+    scrollbar-width: thin;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .md-tabs__list {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+
+    width: max-content !important;
+    min-width: max-content !important;
+
+    margin: 0 !important;
+  }
+
+  .md-tabs__item {
+    flex: 0 0 auto !important;
+    white-space: nowrap;
+  }
+
+  .md-tabs__link {
+    white-space: nowrap !important;
+  }
+
+  .md-tabs::-webkit-scrollbar {
+    height: 4px;
+  }
+
+  .md-tabs::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .md-tabs::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.35);
+    border-radius: 4px;
+  }
+}
