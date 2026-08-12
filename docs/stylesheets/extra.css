@@ -1,21 +1,108 @@
-/*
----------------------------------------------------------
-Enterprise AI Engineering Handbook
-Global Stylesheet Loader
-Author: Mihir Jha
----------------------------------------------------------
-*/
+/* =========================================================
+   Enterprise AI Engineering Handbook
+   Sidebar Navigation Hierarchy
+   ========================================================= */
 
-/*
-Future custom global overrides can be added here.
+/* ---------------------------------------------------------
+   SECTION HEADINGS
+   Example:
+   Core Retrieval Engineering
+   Enterprise Retrieval Engineering
+   LlamaIndex Retrieval Engineering
+   --------------------------------------------------------- */
 
-The majority of styles are organized into dedicated files:
-- typography.css
-- layout.css
-- code.css
-- tables.css
-- admonitions.css
-- cards.css
-- homepage.css
-- custom.css
-*/
+.md-sidebar--primary .md-nav__item--nested > .md-nav__link {
+  font-weight: 700;
+  font-size: 0.78rem;
+  color: var(--md-primary-fg-color);
+
+  margin-top: 0.45rem;
+  margin-bottom: 0.15rem;
+
+  padding: 0.45rem 0.55rem;
+
+  border-radius: 0.35rem;
+}
+
+
+/* ---------------------------------------------------------
+   SECTION HOVER
+   --------------------------------------------------------- */
+
+.md-sidebar--primary .md-nav__item--nested > .md-nav__link:hover {
+  background-color: var(--md-default-fg-color--lightest);
+}
+
+
+/* ---------------------------------------------------------
+   CHAPTER LINKS
+   --------------------------------------------------------- */
+
+.md-sidebar--primary
+.md-nav__item--nested
+.md-nav__item
+> .md-nav__link {
+
+  font-size: 0.72rem;
+  font-weight: 400;
+
+  padding-top: 0.20rem;
+  padding-bottom: 0.20rem;
+  padding-left: 0.75rem;
+
+  border-radius: 0.25rem;
+}
+
+
+/* ---------------------------------------------------------
+   CHAPTER HOVER
+   --------------------------------------------------------- */
+
+.md-sidebar--primary
+.md-nav__item--nested
+.md-nav__item
+> .md-nav__link:hover {
+
+  background-color: var(--md-default-fg-color--lightest);
+}
+
+
+/* ---------------------------------------------------------
+   ACTIVE CHAPTER
+   --------------------------------------------------------- */
+
+.md-sidebar--primary
+.md-nav__link--active {
+
+  font-weight: 600;
+
+  background-color: var(--md-primary-fg-color--lightest);
+
+  border-left: 3px solid var(--md-primary-fg-color);
+
+  padding-left: calc(0.75rem - 3px);
+}
+
+
+/* ---------------------------------------------------------
+   SECTION EXPAND/COLLAPSE ICON
+   --------------------------------------------------------- */
+
+.md-sidebar--primary
+.md-nav__item--nested
+> .md-nav__link
+.md-nav__icon {
+
+  color: var(--md-primary-fg-color);
+}
+
+
+/* ---------------------------------------------------------
+   SPACING BETWEEN SECTIONS
+   --------------------------------------------------------- */
+
+.md-sidebar--primary
+.md-nav__item--nested {
+
+  margin-bottom: 0.35rem;
+}
