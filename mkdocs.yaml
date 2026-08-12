@@ -313,8 +313,73 @@ nav:
         - 16-rag-failure-patterns: 05-advanced-retrieval-augmented-generation/06-production-rag-engineering/16-rag-failure-patterns.md
   
   
-  - Part VI - AI Agents: 06-ai-agents/index.md
-  
+  - Part VI - AI Agents:
+    - 06-ai-agents/index.md
+
+    - AI Agent Fundamentals:
+        - 01-ai-agent-fundamentals: 06-ai-agents/01-ai-agent-fundamentals/01-ai-agent-fundamentals.md
+        - 02-tool-calling-and-function-calling: 06-ai-agents/01-ai-agent-fundamentals/02-tool-calling-and-function-calling.md
+        - 03-building-and-orchestrating-tools: 06-ai-agents/01-ai-agent-fundamentals/03-building-and-orchestrating-tools.md
+        - 04-lcel-and-manual-tool-calling: 06-ai-agents/01-ai-agent-fundamentals/04-lcel-and-manual-tool-calling.md
+        - 05-langchain-built-in-agents: 06-ai-agents/01-ai-agent-fundamentals/05-langchain-built-in-agents.md
+        - 06-ai-agent-design-best-practices: 06-ai-agents/01-ai-agent-fundamentals/06-ai-agent-design-best-practices.md
+        - 07-enterprise-ai-agent-architecture: 06-ai-agents/01-ai-agent-fundamentals/07-enterprise-ai-agent-architecture.md
+        - 08-planning-and-task-decomposition: 06-ai-agents/01-ai-agent-fundamentals/08-planning-and-task-decomposition.md
+        - 09-agent-reasoning: 06-ai-agents/01-ai-agent-fundamentals/09-agent-reasoning.md
+        - 10-reflection-and-self-correction: 06-ai-agents/01-ai-agent-fundamentals/10-reflection-and-self-correction.md
+
+    - Agent Memory:
+        - 01-agent-memory-overview: 06-ai-agents/02-agent-memory/01-agent-memory-overview.md
+        - 02-short-term-memory: 06-ai-agents/02-agent-memory/02-short-term-memory.md
+        - 03-long-term-memory: 06-ai-agents/02-agent-memory/03-long-term-memory.md
+        - 04-working-memory: 06-ai-agents/02-agent-memory/04-working-memory.md
+        - 05-episodic-memory: 06-ai-agents/02-agent-memory/05-episodic-memory.md
+        - 06-semantic-memory: 06-ai-agents/02-agent-memory/06-semantic-memory.md
+        - 07-memory-storage-patterns: 06-ai-agents/02-agent-memory/07-memory-storage-patterns.md
+        - 08-memory-retrieval-patterns: 06-ai-agents/02-agent-memory/08-memory-retrieval-patterns.md
+        - 09-memory-compression: 06-ai-agents/02-agent-memory/09-memory-compression.md
+        - 10-memory-optimization: 06-ai-agents/02-agent-memory/10-memory-optimization.md
+
+    - Agent Communication:
+        - 01-agent-communication-overview: 06-ai-agents/03-agent-communication/01-agent-communication-overview.md
+        - 02-message-passing: 06-ai-agents/03-agent-communication/02-message-passing.md
+        - 03-shared-memory: 06-ai-agents/03-agent-communication/03-shared-memory.md
+        - 04-event-driven-agents: 06-ai-agents/03-agent-communication/04-event-driven-agents.md
+        - 05-publish-subscribe-pattern: 06-ai-agents/03-agent-communication/05-publish-subscribe-pattern.md
+        - 06-agent-coordination: 06-ai-agents/03-agent-communication/06-agent-coordination.md
+        - 07-agent-negotiation: 06-ai-agents/03-agent-communication/07-agent-negotiation.md
+        - 08-conflict-resolution: 06-ai-agents/03-agent-communication/08-conflict-resolution.md
+
+    - Agent Observability:
+        - 01-agent-observability-overview: 06-ai-agents/04-agent-observability/01-agent-observability-overview.md
+        - 02-agent-logging: 06-ai-agents/04-agent-observability/02-agent-logging.md
+        - 03-agent-tracing: 06-ai-agents/04-agent-observability/03-agent-tracing.md
+        - 04-agent-monitoring: 06-ai-agents/04-agent-observability/04-agent-monitoring.md
+        - 05-agent-metrics: 06-ai-agents/04-agent-observability/05-agent-metrics.md
+        - 06-agent-debugging: 06-ai-agents/04-agent-observability/06-agent-debugging.md
+        - 07-agent-evaluation-metrics: 06-ai-agents/04-agent-observability/07-agent-evaluation-metrics.md
+        - 08-agent-cost-monitoring: 06-ai-agents/04-agent-observability/08-agent-cost-monitoring.md
+        - 09-agent-alerting: 06-ai-agents/04-agent-observability/09-agent-alerting.md
+        - 10-agent-evaluation: 06-ai-agents/04-agent-observability/10-agent-evaluation.md
+
+    - Agent Security:
+        - 01-agent-security-overview: 06-ai-agents/05-agent-security/01-agent-security-overview.md
+        - 02-prompt-injection: 06-ai-agents/05-agent-security/02-prompt-injection.md
+        - 03-tool-security: 06-ai-agents/05-agent-security/03-tool-security.md
+        - 04-agent-authentication: 06-ai-agents/05-agent-security/04-agent-authentication.md
+        - 05-agent-authorization: 06-ai-agents/05-agent-security/05-agent-authorization.md
+        - 06-secrets-management: 06-ai-agents/05-agent-security/06-secrets-management.md
+        - 07-data-privacy: 06-ai-agents/05-agent-security/07-data-privacy.md
+        - 08-agent-sandboxing: 06-ai-agents/05-agent-security/08-agent-sandboxing.md
+        - 09-agent-guardrails: 06-ai-agents/05-agent-security/09-agent-guardrails.md
+        - 10-agent-risk-management: 06-ai-agents/05-agent-security/10-agent-risk-management.md
+
+    - Agent Deployment:
+        - 01-agent-deployment-overview: 06-ai-agents/06-agent-deployment/01-agent-deployment-overview.md
+        - 02-agent-runtime-and-execution: 06-ai-agents/06-agent-deployment/02-agent-runtime-and-execution.md
+        - 03-agent-scaling-and-resilience: 06-ai-agents/06-agent-deployment/03-agent-scaling-and-resilience.md
+        - 04-production-agent-deployment: 06-ai-agents/06-agent-deployment/04-production-agent-deployment.md
+    
   - Part VII - Agentic AI & Multi-Agent Systems: 07-agentic-ai/index.md
   
   - Part VIII - AI Engineering Frameworks & Tooling: 08-ai-engineering-frameworks/index.md
