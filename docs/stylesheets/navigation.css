@@ -1,261 +1,127 @@
 /* ============================================================
-   ENTERPRISE AI ENGINEERING HANDBOOK
-   Navigation Customization
-   ============================================================ */
-
-
-/* ------------------------------------------------------------
-   TOP NAVIGATION TABS
-   Show compact labels:
-   Home | Part I | Part II | ... | Part XII
-
-   The full names remain unchanged in the left sidebar.
-   ------------------------------------------------------------ */
-
-/* Home */
-.md-tabs__item:nth-child(1) .md-tabs__link {
-    font-size: 0;
-}
-
-.md-tabs__item:nth-child(1) .md-tabs__link::after {
-    content: "Home";
-    font-size: 0.75rem;
-}
-
-
-/* Part I */
-.md-tabs__item:nth-child(2) .md-tabs__link {
-    font-size: 0;
-}
-
-.md-tabs__item:nth-child(2) .md-tabs__link::after {
-    content: "Part I";
-    font-size: 0.75rem;
-}
-
-
-/* Part II */
-.md-tabs__item:nth-child(3) .md-tabs__link {
-    font-size: 0;
-}
-
-.md-tabs__item:nth-child(3) .md-tabs__link::after {
-    content: "Part II";
-    font-size: 0.75rem;
-}
-
-
-/* Part III */
-.md-tabs__item:nth-child(4) .md-tabs__link {
-    font-size: 0;
-}
-
-.md-tabs__item:nth-child(4) .md-tabs__link::after {
-    content: "Part III";
-    font-size: 0.75rem;
-}
-
-
-/* Part IV */
-.md-tabs__item:nth-child(5) .md-tabs__link {
-    font-size: 0;
-}
-
-.md-tabs__item:nth-child(5) .md-tabs__link::after {
-    content: "Part IV";
-    font-size: 0.75rem;
-}
-
-
-/* Part V */
-.md-tabs__item:nth-child(6) .md-tabs__link {
-    font-size: 0;
-}
-
-.md-tabs__item:nth-child(6) .md-tabs__link::after {
-    content: "Part V";
-    font-size: 0.75rem;
-}
-
-
-/* Part VI */
-.md-tabs__item:nth-child(7) .md-tabs__link {
-    font-size: 0;
-}
-
-.md-tabs__item:nth-child(7) .md-tabs__link::after {
-    content: "Part VI";
-    font-size: 0.75rem;
-}
-
-
-/* Part VII */
-.md-tabs__item:nth-child(8) .md-tabs__link {
-    font-size: 0;
-}
-
-.md-tabs__item:nth-child(8) .md-tabs__link::after {
-    content: "Part VII";
-    font-size: 0.75rem;
-}
-
-
-/* Part VIII */
-.md-tabs__item:nth-child(9) .md-tabs__link {
-    font-size: 0;
-}
-
-.md-tabs__item:nth-child(9) .md-tabs__link::after {
-    content: "Part VIII";
-    font-size: 0.75rem;
-}
-
-
-/* Part IX */
-.md-tabs__item:nth-child(10) .md-tabs__link {
-    font-size: 0;
-}
-
-.md-tabs__item:nth-child(10) .md-tabs__link::after {
-    content: "Part IX";
-    font-size: 0.75rem;
-}
-
-
-/* Part X */
-.md-tabs__item:nth-child(11) .md-tabs__link {
-    font-size: 0;
-}
-
-.md-tabs__item:nth-child(11) .md-tabs__link::after {
-    content: "Part X";
-    font-size: 0.75rem;
-}
-
-
-/* Part XI */
-.md-tabs__item:nth-child(12) .md-tabs__link {
-    font-size: 0;
-}
-
-.md-tabs__item:nth-child(12) .md-tabs__link::after {
-    content: "Part XI";
-    font-size: 0.75rem;
-}
-
-
-/* Part XII */
-.md-tabs__item:nth-child(13) .md-tabs__link {
-    font-size: 0;
-}
-
-.md-tabs__item:nth-child(13) .md-tabs__link::after {
-    content: "Part XII";
-    font-size: 0.75rem;
-}
-
-
-/* ------------------------------------------------------------
-   KEEP TOP TABS ON A SINGLE HORIZONTAL ROW
-   ------------------------------------------------------------ */
-
-.md-tabs__list {
-    display: flex;
-    flex-wrap: nowrap;
-    white-space: nowrap;
-}
-
-.md-tabs__item {
-    flex-shrink: 0;
-}
-
-
-/* ------------------------------------------------------------
-   SLIGHTLY REDUCE TAB SPACING
-   Gives all 12 Parts more room on desktop screens.
-   ------------------------------------------------------------ */
-
-.md-tabs__link {
-    padding-left: 0.55rem;
-    padding-right: 0.55rem;
-}
-
-
-/* ------------------------------------------------------------
-   MOBILE
-   Let Material handle horizontal navigation naturally.
-   ------------------------------------------------------------ */
-
-@media screen and (max-width: 76.1875em) {
-    .md-tabs__list {
-        overflow-x: auto;
-        scrollbar-width: thin;
-    }
-
-    .md-tabs__item {
-        flex-shrink: 0;
-    }
-}
-
-
-/* ============================================================
    SIDEBAR COLLAPSE
    ============================================================ */
 
-/* Sidebar toggle button */
-.sidebar-toggle {
-    position: fixed;
-    left: 0;
-    top: 50%;
-    z-index: 100;
-    
-    width: 28px;
-    height: 56px;
-    
-    border: 1px solid var(--md-default-fg-color--lightest);
-    border-left: none;
-    border-radius: 0 6px 6px 0;
-    
-    background: var(--md-default-bg-color);
-    color: var(--md-default-fg-color);
-    
-    cursor: pointer;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
-}
+@media screen and (min-width: 76.25em) {
 
-/* Hide toggle on mobile */
-@media screen and (max-width: 76.1875em) {
-    .sidebar-toggle {
-        display: none;
+    /* --------------------------------------------------------
+       COLLAPSED STATE
+       Completely remove the primary sidebar from layout
+       -------------------------------------------------------- */
+
+    body.sidebar-collapsed .md-sidebar--primary {
+        display: none !important;
+        width: 0 !important;
+        min-width: 0 !important;
+        max-width: 0 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        visibility: hidden !important;
     }
+
+
+    /* --------------------------------------------------------
+       Remove the sidebar column from Material's grid
+       -------------------------------------------------------- */
+
+    body.sidebar-collapsed .md-main__inner {
+        grid-template-columns: minmax(0, 1fr) !important;
+    }
+
+
+    /* --------------------------------------------------------
+       Make content use the available width
+       -------------------------------------------------------- */
+
+    body.sidebar-collapsed .md-content {
+        max-width: none !important;
+        width: 100% !important;
+    }
+
+
+    body.sidebar-collapsed .md-content__inner {
+        max-width: none !important;
+    }
+
+
+    /* --------------------------------------------------------
+       Keep right-side Table of Contents
+       -------------------------------------------------------- */
+
+    body.sidebar-collapsed .md-sidebar--secondary {
+        display: block;
+    }
+
+
+    /* --------------------------------------------------------
+       Toggle button
+       -------------------------------------------------------- */
+
+    .sidebar-toggle {
+        position: fixed;
+
+        left: 0;
+        top: 50%;
+
+        transform: translateY(-50%);
+
+        z-index: 1000;
+
+        width: 30px;
+        height: 60px;
+
+        padding: 0;
+
+        border: 1px solid var(
+            --md-default-fg-color--lightest
+        );
+
+        border-left: none;
+
+        border-radius: 0 7px 7px 0;
+
+        background: var(--md-default-bg-color);
+
+        color: var(--md-default-fg-color);
+
+        cursor: pointer;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        box-shadow: var(--md-shadow-z1);
+
+        transition:
+            background-color 0.2s ease,
+            color 0.2s ease;
+    }
+
+
+    .sidebar-toggle:hover {
+        background: var(--md-primary-fg-color);
+        color: var(--md-primary-bg-color);
+    }
+
+
+    .sidebar-toggle__icon {
+        font-size: 1.3rem;
+        font-weight: 600;
+        line-height: 1;
+    }
+
 }
 
 
-/* ============================================================
-   COLLAPSED SIDEBAR
-   ============================================================ */
+/* ------------------------------------------------------------
+   MOBILE / TABLET
+   Material handles navigation itself
+   ------------------------------------------------------------ */
 
-body.sidebar-collapsed .md-sidebar--primary {
-    transform: translateX(-100%);
-}
+@media screen and (max-width: 76.1875em) {
 
-body.sidebar-collapsed .md-main {
-    margin-left: 0;
-}
+    .sidebar-toggle {
+        display: none !important;
+    }
 
-
-/* Smooth transition */
-.md-sidebar--primary {
-    transition: transform 0.25s ease;
-}
-
-
-/* Keep content transition smooth */
-.md-main {
-    transition: margin-left 0.25s ease;
 }
