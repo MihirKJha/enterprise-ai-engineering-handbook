@@ -1,5 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
 
+    /*
+     * Create sidebar toggle
+     */
+
     const button = document.createElement("button");
 
     button.className = "sidebar-toggle";
@@ -19,6 +23,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
     document.body.appendChild(button);
 
+
+    /*
+     * Toggle sidebar
+     */
 
     button.addEventListener("click", function () {
 

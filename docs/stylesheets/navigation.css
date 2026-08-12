@@ -1,63 +1,339 @@
 /* ============================================================
-   SIDEBAR COLLAPSE
+   ENTERPRISE AI ENGINEERING HANDBOOK
+   navigation.css
+
+   Responsibilities:
+   1. Compact top navigation tabs
+   2. Full names in left navigation
+   3. Desktop sidebar collapse / expand
+   4. Responsive behavior
    ============================================================ */
 
-@media screen and (min-width: 76.25em) {
+
+/* ============================================================
+   1. COMPACT TOP NAVIGATION
+   ------------------------------------------------------------
+   Actual nav labels remain unchanged in mkdocs.yml.
+
+   Top navigation displays:
+   Home | Part I | Part II | Part III | ... | Part XII
+
+   Left sidebar continues to display the complete names.
+   ============================================================ */
+
+
+/* Home */
+
+.md-tabs__item:nth-child(1) .md-tabs__link {
+    font-size: 0;
+}
+
+.md-tabs__item:nth-child(1) .md-tabs__link::after {
+    content: "Home";
+    font-size: 0.75rem;
+}
+
+
+/* Part I */
+
+.md-tabs__item:nth-child(2) .md-tabs__link {
+    font-size: 0;
+}
+
+.md-tabs__item:nth-child(2) .md-tabs__link::after {
+    content: "Part I";
+    font-size: 0.75rem;
+}
+
+
+/* Part II */
+
+.md-tabs__item:nth-child(3) .md-tabs__link {
+    font-size: 0;
+}
+
+.md-tabs__item:nth-child(3) .md-tabs__link::after {
+    content: "Part II";
+    font-size: 0.75rem;
+}
+
+
+/* Part III */
+
+.md-tabs__item:nth-child(4) .md-tabs__link {
+    font-size: 0;
+}
+
+.md-tabs__item:nth-child(4) .md-tabs__link::after {
+    content: "Part III";
+    font-size: 0.75rem;
+}
+
+
+/* Part IV */
+
+.md-tabs__item:nth-child(5) .md-tabs__link {
+    font-size: 0;
+}
+
+.md-tabs__item:nth-child(5) .md-tabs__link::after {
+    content: "Part IV";
+    font-size: 0.75rem;
+}
+
+
+/* Part V */
+
+.md-tabs__item:nth-child(6) .md-tabs__link {
+    font-size: 0;
+}
+
+.md-tabs__item:nth-child(6) .md-tabs__link::after {
+    content: "Part V";
+    font-size: 0.75rem;
+}
+
+
+/* Part VI */
+
+.md-tabs__item:nth-child(7) .md-tabs__link {
+    font-size: 0;
+}
+
+.md-tabs__item:nth-child(7) .md-tabs__link::after {
+    content: "Part VI";
+    font-size: 0.75rem;
+}
+
+
+/* Part VII */
+
+.md-tabs__item:nth-child(8) .md-tabs__link {
+    font-size: 0;
+}
+
+.md-tabs__item:nth-child(8) .md-tabs__link::after {
+    content: "Part VII";
+    font-size: 0.75rem;
+}
+
+
+/* Part VIII */
+
+.md-tabs__item:nth-child(9) .md-tabs__link {
+    font-size: 0;
+}
+
+.md-tabs__item:nth-child(9) .md-tabs__link::after {
+    content: "Part VIII";
+    font-size: 0.75rem;
+}
+
+
+/* Part IX */
+
+.md-tabs__item:nth-child(10) .md-tabs__link {
+    font-size: 0;
+}
+
+.md-tabs__item:nth-child(10) .md-tabs__link::after {
+    content: "Part IX";
+    font-size: 0.75rem;
+}
+
+
+/* Part X */
+
+.md-tabs__item:nth-child(11) .md-tabs__link {
+    font-size: 0;
+}
+
+.md-tabs__item:nth-child(11) .md-tabs__link::after {
+    content: "Part X";
+    font-size: 0.75rem;
+}
+
+
+/* Part XI */
+
+.md-tabs__item:nth-child(12) .md-tabs__link {
+    font-size: 0;
+}
+
+.md-tabs__item:nth-child(12) .md-tabs__link::after {
+    content: "Part XI";
+    font-size: 0.75rem;
+}
+
+
+/* Part XII */
+
+.md-tabs__item:nth-child(13) .md-tabs__link {
+    font-size: 0;
+}
+
+.md-tabs__item:nth-child(13) .md-tabs__link::after {
+    content: "Part XII";
+    font-size: 0.75rem;
+}
+
+
+/* ------------------------------------------------------------
+   Keep tabs on one horizontal line
+   ------------------------------------------------------------ */
+
+.md-tabs__list {
+    display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+}
+
+.md-tabs__item {
+    flex-shrink: 0;
+}
+
+
+/* Compact horizontal spacing */
+
+.md-tabs__link {
+    padding-left: 0.55rem;
+    padding-right: 0.55rem;
+}
+
+
+/* ============================================================
+   2. SIDEBAR
+   ------------------------------------------------------------
+   IMPORTANT:
+   We do NOT change the text in the sidebar.
+
+   MkDocs continues using the complete labels from nav:.
+
+   Example:
+
+   Part I - Machine Learning
+   Part II - Deep Learning
+   Part III - Foundation Models, Large Language Models &
+   Generative AI
+   ============================================================ */
+
+
+/* ============================================================
+   3. DESKTOP SIDEBAR COLLAPSE
+   ============================================================ */
+
+@media screen and (min-width: 60em) {
+
+
+    /* --------------------------------------------------------
+       NORMAL / EXPANDED STATE
+
+       Sidebar | Content | TOC
+       -------------------------------------------------------- */
+
+    body:not(.sidebar-collapsed) .md-main__inner {
+
+        grid-template-columns:
+            minmax(0, 12.1rem)
+            minmax(0, 1fr)
+            minmax(0, 12.1rem);
+
+    }
+
 
     /* --------------------------------------------------------
        COLLAPSED STATE
-       Completely remove the primary sidebar from layout
+
+       Content | TOC
+
+       Primary sidebar is completely removed.
        -------------------------------------------------------- */
 
     body.sidebar-collapsed .md-sidebar--primary {
+
         display: none !important;
+
         width: 0 !important;
         min-width: 0 !important;
         max-width: 0 !important;
+
         margin: 0 !important;
         padding: 0 !important;
+
         visibility: hidden !important;
+
     }
 
 
     /* --------------------------------------------------------
-       Remove the sidebar column from Material's grid
+       Rebuild Material's main grid
+
+       Before:
+
+       Sidebar | Content | TOC
+
+       After:
+
+       Content | TOC
        -------------------------------------------------------- */
 
     body.sidebar-collapsed .md-main__inner {
-        grid-template-columns: minmax(0, 1fr) !important;
+
+        display: grid !important;
+
+        grid-template-columns:
+            minmax(0, 1fr)
+            minmax(0, 12.1rem) !important;
+
+        column-gap: 2rem;
+
     }
 
 
     /* --------------------------------------------------------
-       Make content use the available width
+       CONTENT → FIRST COLUMN
        -------------------------------------------------------- */
 
     body.sidebar-collapsed .md-content {
-        max-width: none !important;
+
+        grid-column: 1 !important;
+        grid-row: 1 !important;
+
         width: 100% !important;
+        max-width: none !important;
+
     }
 
 
     body.sidebar-collapsed .md-content__inner {
+
         max-width: none !important;
+
     }
 
 
     /* --------------------------------------------------------
-       Keep right-side Table of Contents
+       TABLE OF CONTENTS → SECOND COLUMN
        -------------------------------------------------------- */
 
     body.sidebar-collapsed .md-sidebar--secondary {
-        display: block;
+
+        display: block !important;
+
+        grid-column: 2 !important;
+        grid-row: 1 !important;
+
+        width: 100% !important;
+
     }
 
 
     /* --------------------------------------------------------
-       Toggle button
+       SIDEBAR TOGGLE BUTTON
        -------------------------------------------------------- */
 
     .sidebar-toggle {
+
         position: fixed;
 
         left: 0;
@@ -67,61 +343,108 @@
 
         z-index: 1000;
 
-        width: 30px;
-        height: 60px;
+        width: 28px;
+        height: 58px;
 
         padding: 0;
 
-        border: 1px solid var(
-            --md-default-fg-color--lightest
-        );
+        border: 1px solid
+            var(--md-default-fg-color--lightest);
 
         border-left: none;
 
         border-radius: 0 7px 7px 0;
 
-        background: var(--md-default-bg-color);
+        background:
+            var(--md-default-bg-color);
 
-        color: var(--md-default-fg-color);
+        color:
+            var(--md-default-fg-color);
 
         cursor: pointer;
 
         display: flex;
+
         align-items: center;
         justify-content: center;
 
-        box-shadow: var(--md-shadow-z1);
+        box-shadow:
+            var(--md-shadow-z1);
 
         transition:
             background-color 0.2s ease,
-            color 0.2s ease;
+            color 0.2s ease,
+            box-shadow 0.2s ease;
+
     }
 
+
+    /* --------------------------------------------------------
+       Toggle hover
+       -------------------------------------------------------- */
 
     .sidebar-toggle:hover {
-        background: var(--md-primary-fg-color);
-        color: var(--md-primary-bg-color);
+
+        background:
+            var(--md-primary-fg-color);
+
+        color:
+            var(--md-primary-bg-color);
+
+        box-shadow:
+            var(--md-shadow-z2);
+
     }
 
 
+    /* --------------------------------------------------------
+       Toggle icon
+       -------------------------------------------------------- */
+
     .sidebar-toggle__icon {
-        font-size: 1.3rem;
+
+        font-size: 1.25rem;
+
         font-weight: 600;
+
         line-height: 1;
+
     }
 
 }
 
 
-/* ------------------------------------------------------------
-   MOBILE / TABLET
-   Material handles navigation itself
-   ------------------------------------------------------------ */
+/* ============================================================
+   4. MOBILE / TABLET
+   ------------------------------------------------------------
+   Material's native navigation drawer handles smaller
+   screens, so our desktop toggle is disabled.
+   ============================================================ */
 
-@media screen and (max-width: 76.1875em) {
+@media screen and (max-width: 59.9375em) {
 
     .sidebar-toggle {
+
         display: none !important;
+
+    }
+
+}
+
+
+/* ============================================================
+   5. CONTENT WIDTH
+   ------------------------------------------------------------
+   Give the handbook a professional maximum reading width
+   without unnecessarily restricting the collapsed layout.
+   ============================================================ */
+
+@media screen and (min-width: 76.25em) {
+
+    .md-grid {
+
+        max-width: 1600px;
+
     }
 
 }
