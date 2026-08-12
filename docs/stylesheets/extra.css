@@ -1,48 +1,48 @@
 /* =========================================================
-   LEVEL 3 — CHAPTER
+   TOP PART NAVIGATION
+   Horizontal scrolling for long Part names
    ========================================================= */
 
-.md-sidebar--primary
-.md-nav--primary
-> .md-nav__list
-> .md-nav__item
-> .md-nav
-> .md-nav__list
-> .md-nav__item
-> .md-nav
-> .md-nav__list
-> .md-nav__item
-> .md-nav__link {
+@media screen and (min-width: 60em) {
 
-  font-size: 0.78rem;
-  font-weight: 500;
-  line-height: 1.4;
+  .md-tabs {
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    white-space: nowrap;
 
-  color: #374151;
+    scrollbar-width: thin;
+    -webkit-overflow-scrolling: touch;
+  }
 
-  padding: 0.28rem 0.45rem 0.28rem 0.9rem;
+  .md-tabs__list {
+    display: flex !important;
+    flex-wrap: nowrap !important;
 
-  margin: 0.05rem 0;
+    width: max-content !important;
+    min-width: max-content !important;
 
-  border-radius: 0.25rem;
-}
+    margin: 0 !important;
+  }
 
+  .md-tabs__item {
+    flex: 0 0 auto !important;
+    white-space: nowrap;
+  }
 
-/* Chapter hover */
+  .md-tabs__link {
+    white-space: nowrap !important;
+  }
 
-.md-sidebar--primary
-.md-nav--primary
-> .md-nav__list
-> .md-nav__item
-> .md-nav
-> .md-nav__list
-> .md-nav__item
-> .md-nav
-> .md-nav__list
-> .md-nav__item
-> .md-nav__link:hover {
+  .md-tabs::-webkit-scrollbar {
+    height: 4px;
+  }
 
-  color: #1565c0;
+  .md-tabs::-webkit-scrollbar-track {
+    background: transparent;
+  }
 
-  background-color: rgba(21, 101, 192, 0.06);
+  .md-tabs::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.35);
+    border-radius: 4px;
+  }
 }
