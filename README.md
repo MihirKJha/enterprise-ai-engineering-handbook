@@ -381,6 +381,30 @@ Every contribution and every star helps this handbook reach more engineers world
 
 <div align="center">
 
+## License & Copyright
+
+### Handbook Content
+
+The Enterprise AI Engineering Handbook content, including original
+text, diagrams, architecture illustrations, and editorial material,
+is copyrighted by Mihir Jha.
+
+Copyright © 2026 Mihir Jha. All rights reserved.
+
+See [COPYRIGHT.md](COPYRIGHT.md) for permitted usage.
+
+### Code
+
+Code examples explicitly identified as Apache-2.0 licensed are
+available under the Apache License, Version 2.0.
+
+See [LICENSE-CODE](LICENSE-CODE).
+
+The Apache-2.0 license does not apply to the handbook text,
+diagrams, illustrations, or other editorial content unless
+explicitly stated.
+
+
 ## 🚀 Building Production-Grade Enterprise AI Systems, One Chapter at a Time.
 
 **Happy Learning!**

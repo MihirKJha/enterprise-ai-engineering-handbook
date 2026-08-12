@@ -1,0 +1,338 @@
+# Contributing to the Enterprise AI Engineering Handbook
+
+Thank you for your interest in contributing to the **Enterprise AI Engineering Handbook**.
+
+The goal of this project is to build a practical, production-oriented resource for software engineers, backend engineers, cloud engineers, technical leads, and architects learning how to design and build enterprise AI systems.
+
+Contributions that improve the technical accuracy, clarity, and usefulness of the handbook are welcome.
+
+---
+
+## 1. What You Can Contribute
+
+We welcome contributions such as:
+
+* Technical corrections
+* Typographical and grammatical corrections
+* Broken-link fixes
+* Mermaid diagram fixes
+* Documentation improvements
+* Clarifications
+* Better technical examples
+* Additional references
+* Improvements to code examples
+* Updates for changed APIs or libraries
+* Improvements to architecture diagrams
+* Suggestions for missing topics
+
+For substantial changes, please open an Issue first so that the proposed direction can be discussed before significant work is done.
+
+---
+
+## 2. Types of Contributions
+
+### Documentation
+
+Documentation contributions may include:
+
+* Clarifying an explanation
+* Correcting technical information
+* Improving examples
+* Improving chapter structure
+* Fixing formatting
+* Improving diagrams
+
+### Code
+
+Code contributions may include:
+
+* Bug fixes
+* Example improvements
+* Updated dependencies
+* Better error handling
+* Improved test coverage
+* Improvements to example implementations
+
+Code that is explicitly identified as Apache-2.0 licensed remains subject to the Apache License, Version 2.0.
+
+See:
+
+`LICENSE-CODE`
+
+---
+
+## 3. Before You Start
+
+Before making a contribution:
+
+1. Search existing Issues and Pull Requests.
+2. Check whether the topic has already been discussed.
+3. For substantial changes, open an Issue first.
+4. Explain the problem you are trying to solve.
+5. Keep contributions focused and technically justified.
+
+Small corrections can generally be submitted directly through a Pull Request.
+
+---
+
+## 4. Pull Request Process
+
+The preferred contribution workflow is:
+
+```text
+Fork
+  ↓
+Create a branch
+  ↓
+Make your changes
+  ↓
+Test your changes
+  ↓
+Commit
+  ↓
+Open Pull Request
+  ↓
+Review
+  ↓
+Changes requested / approved
+  ↓
+Merge
+```
+
+Please do not commit directly to the main branch.
+
+---
+
+## 5. Branch Naming
+
+Use descriptive branch names.
+
+Examples:
+
+```text
+docs/fix-rag-explanation
+docs/update-embeddings
+docs/fix-mermaid-diagram
+feature/example-rag-evaluation
+fix/broken-link
+```
+
+---
+
+## 6. Commit Messages
+
+Use concise and meaningful commit messages.
+
+Examples:
+
+```text
+docs: clarify hybrid retrieval
+docs: fix RAG architecture diagram
+fix: correct broken reference link
+feat: add Spring Boot RAG example
+refactor: simplify retrieval example
+```
+
+---
+
+## 7. Documentation Guidelines
+
+When contributing to the handbook:
+
+* Prefer clear technical explanations.
+* Explain concepts before implementation details.
+* Include architecture context where useful.
+* Explain important trade-offs.
+* Avoid unnecessary marketing language.
+* Avoid unsupported technical claims.
+* Prefer production-oriented examples.
+* Keep terminology consistent.
+* Use diagrams where they improve understanding.
+* Preserve the existing handbook structure and formatting.
+
+The handbook is intended for engineers and architects, so contributions should favor practical engineering understanding over superficial explanations.
+
+---
+
+## 8. Mermaid Diagrams
+
+When modifying Mermaid diagrams:
+
+* Verify Mermaid syntax.
+* Keep diagrams readable.
+* Avoid unnecessarily complex diagrams.
+* Use consistent terminology.
+* Prefer architecture clarity over visual complexity.
+* Make sure the diagram remains understandable in both light and dark themes.
+
+---
+
+## 9. Code Contributions
+
+Code examples should:
+
+* Be runnable whenever practical.
+* Follow the conventions of the relevant language/framework.
+* Avoid unnecessary dependencies.
+* Include appropriate error handling.
+* Avoid hard-coded credentials or secrets.
+* Include configuration examples where necessary.
+* Avoid committing API keys, passwords, tokens, or other secrets.
+
+Never commit:
+
+```text
+API keys
+Passwords
+Private keys
+Cloud credentials
+Access tokens
+Personal information
+Production secrets
+```
+
+---
+
+## 10. Testing
+
+Before submitting a Pull Request:
+
+* Build the MkDocs site locally.
+* Check changed pages.
+* Check Mermaid diagrams.
+* Check links.
+* Run relevant tests for code examples.
+* Verify that the changes do not introduce broken navigation or formatting.
+
+For MkDocs, a typical local check is:
+
+```bash
+mkdocs build --strict
+```
+
+If the project uses additional validation or tests, run those as well.
+
+---
+
+## 11. Content Quality
+
+The handbook follows a production-oriented engineering philosophy.
+
+Where appropriate, contributors should consider:
+
+* Scalability
+* Reliability
+* Security
+* Observability
+* Performance
+* Cost
+* Maintainability
+* Failure handling
+* Testing
+* Deployment
+* Governance
+
+Technical recommendations should explain important trade-offs rather than presenting one technology as universally correct.
+
+---
+
+## 12. Original Work
+
+By submitting a contribution, you confirm that:
+
+* You created the contribution yourself, or
+* You have the necessary rights and permissions to submit it.
+
+Do not copy substantial text, diagrams, code, images, or other material from third-party sources unless the material is appropriately licensed and its license permits the proposed use.
+
+When using third-party material, provide appropriate attribution and licensing information.
+
+---
+
+## 13. Copyright and Contributions
+
+The handbook's original text, diagrams, illustrations, frameworks, and editorial content are copyrighted by Mihir Jha unless otherwise stated.
+
+See:
+
+`COPYRIGHT.md`
+
+Contributing a Pull Request does not automatically transfer copyright ownership of your contribution to Mihir Jha.
+
+However, by submitting a contribution, you grant the project the permissions necessary to review, modify, incorporate, publish, and maintain the contribution as part of the Enterprise AI Engineering Handbook, subject to the project's contribution terms and applicable law.
+
+For substantial contributions or contributions intended for commercial products, additional written contribution terms may be required.
+
+---
+
+## 14. Review Process
+
+All Pull Requests are subject to review.
+
+A Pull Request may be:
+
+* Accepted
+* Accepted with changes
+* Returned for clarification
+* Declined
+
+Reasons for requesting changes may include:
+
+* Technical inaccuracies
+* Unsupported claims
+* Poor clarity
+* Inconsistent terminology
+* Licensing concerns
+* Copyright concerns
+* Security concerns
+* Duplication
+* Scope outside the handbook's goals
+
+Maintainers have final responsibility for the structure and editorial direction of the handbook.
+
+---
+
+## 15. Editorial Direction
+
+The handbook is intentionally opinionated in areas such as:
+
+* Production AI engineering
+* Enterprise architecture
+* Backend integration
+* Cloud architecture
+* AI system design
+* Reliability
+* Security
+* Evaluation
+* Observability
+
+A contribution may be technically correct but still not be merged if it does not fit the handbook's editorial direction.
+
+---
+
+## 16. Questions and Discussions
+
+For questions, suggestions, or larger proposed changes:
+
+1. Open a GitHub Issue, or
+2. Use GitHub Discussions if enabled.
+
+Please avoid opening a Pull Request for a large change without first discussing the proposed direction.
+
+---
+
+## 17. Code of Conduct
+
+Contributors are expected to communicate respectfully and professionally.
+
+Harassment, discrimination, personal attacks, spam, and intentionally disruptive behavior are not acceptable.
+
+A formal `CODE_OF_CONDUCT.md` may be added as the community grows.
+
+---
+
+## 18. Thank You
+
+Every useful correction, improvement, example, and discussion helps make the Enterprise AI Engineering Handbook better.
+
+Thank you for contributing.

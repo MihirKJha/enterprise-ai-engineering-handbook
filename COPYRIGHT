@@ -1,0 +1,93 @@
+# Copyright & Usage
+
+Copyright © 2026 Mihir Jha. All rights reserved.
+
+## Handbook Content
+
+Unless otherwise stated, the following materials in this repository are original content created by Mihir Jha and are protected by applicable copyright law:
+
+* Handbook text
+* Chapter content
+* Original explanations
+* Architecture explanations
+* Architecture diagrams
+* Mermaid diagrams
+* Infographics
+* Tables
+* Original frameworks
+* Checklists
+* Editorial content
+* Original illustrations
+* Other original educational materials
+
+These materials are **not licensed under the Apache License, Version 2.0**, unless a specific file or section explicitly states otherwise.
+
+## Permitted Use
+
+You may:
+
+* Read the handbook for personal, educational, or professional purposes.
+* Link to individual handbook pages.
+* Share links to the handbook.
+* Reference the handbook in your own work.
+* Quote reasonable portions of the handbook with appropriate attribution and a link to the original source, subject to applicable law.
+* Report errors or suggest improvements through GitHub Issues or Pull Requests, subject to the contribution terms of this repository.
+
+## Restricted Use
+
+Without prior written permission, you may not:
+
+* Republish substantial portions of the handbook.
+* Reproduce the handbook as a separate book, website, course, or publication.
+* Redistribute substantial portions of the handbook commercially.
+* Sell or sublicense the handbook content.
+* Copy substantial portions of the original diagrams or illustrations.
+* Reproduce the handbook's original frameworks, tables, or structured educational materials as a competing publication.
+* Present the original handbook content or diagrams as your own.
+* Create a substantially similar commercial publication based primarily on the handbook content.
+
+Nothing in this document limits rights that cannot legally be restricted under applicable law.
+
+## Code
+
+Source code and code examples that are explicitly identified as being licensed under the Apache License, Version 2.0 are governed by that license.
+
+See:
+
+`LICENSE-CODE`
+
+The Apache License, Version 2.0 does not apply to the handbook text, original diagrams, illustrations, or other editorial content unless explicitly stated otherwise.
+
+## Third-Party Content
+
+Third-party materials, including documentation excerpts, trademarks, logos, images, libraries, code, datasets, and other external materials, remain subject to their respective licenses, copyrights, and terms of use.
+
+Nothing in this document grants permission to use third-party materials beyond the permissions provided by their respective owners.
+
+## Contributions
+
+Contributions to this project are subject to the contribution terms described in:
+
+`CONTRIBUTING.md`
+
+By submitting a contribution, contributors must have the necessary rights to submit the material and must agree to the applicable contribution terms before the contribution is incorporated into the handbook.
+
+## Attribution
+
+When referencing this handbook, please use appropriate attribution and link to the original handbook or relevant chapter.
+
+Suggested attribution:
+
+> Mihir Jha, *Enterprise AI Engineering Handbook*, [relevant chapter URL].
+
+## Commercial Use and Permissions
+
+Commercial reuse, republication, redistribution, licensing, translation, or incorporation of substantial portions of the handbook content requires prior written permission unless otherwise permitted by applicable law.
+
+For permissions not covered by this document, please contact the copyright owner.
+
+## Copyright Notice
+
+Copyright © 2026 Mihir Jha. All rights reserved.
+
+This copyright notice applies to original handbook content unless otherwise stated.

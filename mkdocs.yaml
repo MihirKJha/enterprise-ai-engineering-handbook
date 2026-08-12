@@ -463,7 +463,10 @@ nav:
   - Part XI - Enterprise AI Architecture & Design Patterns: 11-enterprise-ai-architecture/index.md
   
   - Part XII - Interview Preparation: 12-interview-preparation/index.md
-
+  
+  - Legal:
+   - Copyright & Usage: copyright.md
+   
 plugins:
   - search
 
