@@ -194,8 +194,32 @@ nav:
     - 36-deep-learning-training-and-model-lifecycle: 02-deep-learning/36-deep-learning-training-and-model-lifecycle.md
     - 37-building-production-deep-learning-systems: 02-deep-learning/37-building-production-deep-learning-systems.md
     
-  - Part III - Foundation Models, Large Language Models & Generative AI: 03-generative-ai/index.md
-  
+  - Part III - Foundation Models, Large Language Models & Generative AI:
+    - 03-generative-ai/index.md
+    - 01-generative-ai-fundamentals: 03-generative-ai/01-generative-ai-fundamentals.md
+    - 02-language-understanding-fundamentals: 03-generative-ai/02-language-understanding-fundamentals.md
+    - 03-word-embeddings: 03-generative-ai/03-word-embeddings.md
+    - 04-language-modeling: 03-generative-ai/04-language-modeling.md
+    - 05-attention-and-positional-encoding: 03-generative-ai/05-attention-and-positional-encoding.md
+    - 06-gpt-and-bert-architecture: 03-generative-ai/06-gpt-and-bert-architecture.md
+    - 07-huggingface-and-transformers: 03-generative-ai/07-huggingface-and-transformers.md
+    - 08-llm-data-preparation: 03-generative-ai/08-llm-data-preparation.md
+    - 09-huggingface-training-workflow: 03-generative-ai/09-huggingface-training-workflow.md
+    - 10-transformer-fine-tuning-fundamentals: 03-generative-ai/10-transformer-fine-tuning-fundamentals.md
+    - 11-supervised-fine-tuning-sft: 03-generative-ai/11-supervised-fine-tuning-sft.md
+    - 12-parameter-efficient-fine-tuning: 03-generative-ai/12-parameter-efficient-fine-tuning.md
+    - 13-lora-and-qlora: 03-generative-ai/13-lora-and-qlora.md
+    - 14-model-quantization: 03-generative-ai/14-model-quantization.md
+    - 15-llm-generation-strategies: 03-generative-ai/15-llm-generation-strategies.md
+    - 16-llm-evaluation: 03-generative-ai/16-llm-evaluation.md
+    - 17-instruction-tuning: 03-generative-ai/17-instruction-tuning.md
+    - 18-reward-modeling: 03-generative-ai/18-reward-modeling.md
+    - 19-llms-as-policies: 03-generative-ai/19-llms-as-policies.md
+    - 20-reinforcement-learning-from-human-feedback: 03-generative-ai/20-reinforcement-learning-from-human-feedback.md
+    - 21-proximal-policy-optimization-ppo: 03-generative-ai/21-proximal-policy-optimization-ppo.md
+    - 22-direct-preference-optimization-dpo: 03-generative-ai/22-direct-preference-optimization-dpo.md
+    - 23-huggingface-trl-workflow: 03-generative-ai/23-huggingface-trl-workflow.md
+    
   - Part IV - Prompt Engineering & RAG Fundamentals: 04-retrieval-augmented-generation/index.md
   
   - Part V - Advanced Retrieval-Augmented Generation: 05-advanced-retrieval-augmented-generation/index.md
