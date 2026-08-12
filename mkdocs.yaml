@@ -42,6 +42,7 @@ theme:
   features:
 
     # Navigation
+    - navigation.tabs
     - navigation.instant
     - navigation.tracking
     - navigation.indexes
@@ -486,6 +487,7 @@ extra_css:
   - stylesheets/homepage.css
   - stylesheets/custom.css
   - stylesheets/extra.css
+  - stylesheets/navigation.css
 
 extra_javascript:
   - https://unpkg.com/mermaid@11/dist/mermaid.min.js

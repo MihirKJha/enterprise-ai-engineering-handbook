@@ -1,0 +1,198 @@
+/* ============================================================
+   ENTERPRISE AI ENGINEERING HANDBOOK
+   Navigation Customization
+   ============================================================ */
+
+
+/* ------------------------------------------------------------
+   TOP NAVIGATION TABS
+   Show compact labels:
+   Home | Part I | Part II | ... | Part XII
+
+   The full names remain unchanged in the left sidebar.
+   ------------------------------------------------------------ */
+
+/* Home */
+.md-tabs__item:nth-child(1) .md-tabs__link {
+    font-size: 0;
+}
+
+.md-tabs__item:nth-child(1) .md-tabs__link::after {
+    content: "Home";
+    font-size: 0.75rem;
+}
+
+
+/* Part I */
+.md-tabs__item:nth-child(2) .md-tabs__link {
+    font-size: 0;
+}
+
+.md-tabs__item:nth-child(2) .md-tabs__link::after {
+    content: "Part I";
+    font-size: 0.75rem;
+}
+
+
+/* Part II */
+.md-tabs__item:nth-child(3) .md-tabs__link {
+    font-size: 0;
+}
+
+.md-tabs__item:nth-child(3) .md-tabs__link::after {
+    content: "Part II";
+    font-size: 0.75rem;
+}
+
+
+/* Part III */
+.md-tabs__item:nth-child(4) .md-tabs__link {
+    font-size: 0;
+}
+
+.md-tabs__item:nth-child(4) .md-tabs__link::after {
+    content: "Part III";
+    font-size: 0.75rem;
+}
+
+
+/* Part IV */
+.md-tabs__item:nth-child(5) .md-tabs__link {
+    font-size: 0;
+}
+
+.md-tabs__item:nth-child(5) .md-tabs__link::after {
+    content: "Part IV";
+    font-size: 0.75rem;
+}
+
+
+/* Part V */
+.md-tabs__item:nth-child(6) .md-tabs__link {
+    font-size: 0;
+}
+
+.md-tabs__item:nth-child(6) .md-tabs__link::after {
+    content: "Part V";
+    font-size: 0.75rem;
+}
+
+
+/* Part VI */
+.md-tabs__item:nth-child(7) .md-tabs__link {
+    font-size: 0;
+}
+
+.md-tabs__item:nth-child(7) .md-tabs__link::after {
+    content: "Part VI";
+    font-size: 0.75rem;
+}
+
+
+/* Part VII */
+.md-tabs__item:nth-child(8) .md-tabs__link {
+    font-size: 0;
+}
+
+.md-tabs__item:nth-child(8) .md-tabs__link::after {
+    content: "Part VII";
+    font-size: 0.75rem;
+}
+
+
+/* Part VIII */
+.md-tabs__item:nth-child(9) .md-tabs__link {
+    font-size: 0;
+}
+
+.md-tabs__item:nth-child(9) .md-tabs__link::after {
+    content: "Part VIII";
+    font-size: 0.75rem;
+}
+
+
+/* Part IX */
+.md-tabs__item:nth-child(10) .md-tabs__link {
+    font-size: 0;
+}
+
+.md-tabs__item:nth-child(10) .md-tabs__link::after {
+    content: "Part IX";
+    font-size: 0.75rem;
+}
+
+
+/* Part X */
+.md-tabs__item:nth-child(11) .md-tabs__link {
+    font-size: 0;
+}
+
+.md-tabs__item:nth-child(11) .md-tabs__link::after {
+    content: "Part X";
+    font-size: 0.75rem;
+}
+
+
+/* Part XI */
+.md-tabs__item:nth-child(12) .md-tabs__link {
+    font-size: 0;
+}
+
+.md-tabs__item:nth-child(12) .md-tabs__link::after {
+    content: "Part XI";
+    font-size: 0.75rem;
+}
+
+
+/* Part XII */
+.md-tabs__item:nth-child(13) .md-tabs__link {
+    font-size: 0;
+}
+
+.md-tabs__item:nth-child(13) .md-tabs__link::after {
+    content: "Part XII";
+    font-size: 0.75rem;
+}
+
+
+/* ------------------------------------------------------------
+   KEEP TOP TABS ON A SINGLE HORIZONTAL ROW
+   ------------------------------------------------------------ */
+
+.md-tabs__list {
+    display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+}
+
+.md-tabs__item {
+    flex-shrink: 0;
+}
+
+
+/* ------------------------------------------------------------
+   SLIGHTLY REDUCE TAB SPACING
+   Gives all 12 Parts more room on desktop screens.
+   ------------------------------------------------------------ */
+
+.md-tabs__link {
+    padding-left: 0.55rem;
+    padding-right: 0.55rem;
+}
+
+
+/* ------------------------------------------------------------
+   MOBILE
+   Let Material handle horizontal navigation naturally.
+   ------------------------------------------------------------ */
+
+@media screen and (max-width: 76.1875em) {
+    .md-tabs__list {
+        overflow-x: auto;
+        scrollbar-width: thin;
+    }
+
+    .md-tabs__item {
+        flex-shrink: 0;
+    }
+}
