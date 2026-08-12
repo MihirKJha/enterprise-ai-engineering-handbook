@@ -154,8 +154,46 @@ nav:
     - 36-regularization-techniques: 01-machine-learning/36-regularization-techniques.md
     - 37-data-leakage-and-modeling-pitfalls: 01-machine-learning/37-data-leakage-and-modeling-pitfalls.md
 
-  - Part II - Deep Learning: 02-deep-learning/index.md
-  
+  - Part II - Deep Learning:
+    - 02-deep-learning/index.md
+    - 01-introduction-to-deep-learning: 02-deep-learning/01-introduction-to-deep-learning.md
+    - 02-neural-network-fundamentals: 02-deep-learning/02-neural-network-fundamentals.md
+    - 03-shallow-and-deep-neural-networks: 02-deep-learning/03-shallow-and-deep-neural-networks.md
+    - 04-linear-and-logistic-regression: 02-deep-learning/04-linear-and-logistic-regression.md
+    - 05-activation-functions-probabilities-and-thresholding: 02-deep-learning/05-activation-functions-probabilities-and-thresholding.md
+    - 06-loss-functions-and-maximum-likelihood: 02-deep-learning/06-loss-functions-and-maximum-likelihood.md
+    - 07-forward-and-backpropagation: 02-deep-learning/07-forward-and-backpropagation.md
+    - 08-gradient-descent-and-mini-batch-training: 02-deep-learning/08-gradient-descent-and-mini-batch-training.md
+    - 09-weight-initialization-and-gradient-stability: 02-deep-learning/09-weight-initialization-and-gradient-stability.md
+    - 10-regularization-and-generalization: 02-deep-learning/10-regularization-and-generalization.md
+    - 11-advanced-optimization-techniques: 02-deep-learning/11-advanced-optimization-techniques.md
+    - 12-hyperparameter-tuning-and-training-strategies: 02-deep-learning/12-hyperparameter-tuning-and-training-strategies.md
+    - 13-tensorflow-and-keras-fundamentals: 02-deep-learning/13-tensorflow-and-keras-fundamentals.md
+    - 14-keras-sequential-and-functional-api: 02-deep-learning/14-keras-sequential-and-functional-api.md
+    - 15-custom-layers-models-and-training-loops: 02-deep-learning/15-custom-layers-models-and-training-loops.md
+    - 16-pytorch-fundamentals-and-tensors: 02-deep-learning/16-pytorch-fundamentals-and-tensors.md
+    - 17-pytorch-autograd-dataset-and-dataloader: 02-deep-learning/17-pytorch-autograd-dataset-and-dataloader.md
+    - 18-building-classification-and-regression-models: 02-deep-learning/18-building-classification-and-regression-models.md
+    - 19-convolutional-neural-networks: 02-deep-learning/19-convolutional-neural-networks.md
+    - 20-cnn-architecture-optimization-and-training: 02-deep-learning/20-cnn-architecture-optimization-and-training.md
+    - 21-transfer-learning-and-fine-tuning: 02-deep-learning/21-transfer-learning-and-fine-tuning.md
+    - 22-resnet-residual-connections-and-torchvision: 02-deep-learning/22-resnet-residual-connections-and-torchvision.md
+    - 23-vision-transformers-and-cnn-vit-hybrids: 02-deep-learning/23-vision-transformers-and-cnn-vit-hybrids.md
+    - 24-recurrent-neural-networks: 02-deep-learning/24-recurrent-neural-networks.md
+    - 25-lstm-and-gru: 02-deep-learning/25-lstm-and-gru.md
+    - 26-attention-and-positional-encoding: 02-deep-learning/26-attention-and-positional-encoding.md
+    - 27-transformer-architecture: 02-deep-learning/27-transformer-architecture.md
+    - 28-transformer-applications: 02-deep-learning/28-transformer-applications.md
+    - 29-autoencoders-and-representation-learning: 02-deep-learning/29-autoencoders-and-representation-learning.md
+    - 30-generative-adversarial-networks: 02-deep-learning/30-generative-adversarial-networks.md
+    - 31-diffusion-models: 02-deep-learning/31-diffusion-models.md
+    - 32-reinforcement-learning-fundamentals: 02-deep-learning/32-reinforcement-learning-fundamentals.md
+    - 33-markov-decision-processes-and-q-learning: 02-deep-learning/33-markov-decision-processes-and-q-learning.md
+    - 34-deep-reinforcement-learning-and-dqn: 02-deep-learning/34-deep-reinforcement-learning-and-dqn.md
+    - 35-gpu-accelerated-deep-learning: 02-deep-learning/35-gpu-accelerated-deep-learning.md
+    - 36-deep-learning-training-and-model-lifecycle: 02-deep-learning/36-deep-learning-training-and-model-lifecycle.md
+    - 37-building-production-deep-learning-systems: 02-deep-learning/37-building-production-deep-learning-systems.md
+    
   - Part III - Foundation Models, Large Language Models & Generative AI: 03-generative-ai/index.md
   
   - Part IV - Prompt Engineering & RAG Fundamentals: 04-retrieval-augmented-generation/index.md
