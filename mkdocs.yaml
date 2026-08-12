@@ -464,8 +464,7 @@ nav:
   
   - Part XII - Interview Preparation: 12-interview-preparation/index.md
   
-  - Legal:
-    - Copyright & Usage: COPYRIGHT.md
+  - Legal: COPYRIGHT.md
    
 plugins:
   - search
