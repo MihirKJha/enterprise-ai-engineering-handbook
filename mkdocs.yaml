@@ -245,7 +245,73 @@ nav:
     - 21-deploying-ai-applications-with-gradio: 04-retrieval-augmented-generation/21-deploying-ai-applications-with-gradio.md
     - 22-deploying-ai-applications-with-flask: 04-retrieval-augmented-generation/22-deploying-ai-applications-with-flask.md
     
-  - Part V - Advanced Retrieval-Augmented Generation: 05-advanced-retrieval-augmented-generation/index.md
+  - Part V - Advanced Retrieval-Augmented Generation:
+    - 05-advanced-retrieval-augmented-generation/index.md
+
+    - Core Retrieval Engineering:
+        - 01-vectostore-retriever: 05-advanced-retrieval-augmented-generation/01-core-retrieval-engineering/01-vectostore-retriever.md
+        - 02-multi-query-retriever: 05-advanced-retrieval-augmented-generation/01-core-retrieval-engineering/02-multi-query-retriever.md
+        - 03-self-query-retriever: 05-advanced-retrieval-augmented-generation/01-core-retrieval-engineering/03-self-query-retriever.md
+        - 04-parent-document-retriever: 05-advanced-retrieval-augmented-generation/01-core-retrieval-engineering/04-parent-document-retriever.md
+        - 05-retriever-comparison: 05-advanced-retrieval-augmented-generation/01-core-retrieval-engineering/05-retriever-comparison.md
+
+    - Enterprise Retrieval Engineering:
+        - 01-contextual-compression-retriever: 05-advanced-retrieval-augmented-generation/02-enterprise-retrieval-engineering/01-contextual-compression-retriever.md
+        - 02-ensemble-retriever: 05-advanced-retrieval-augmented-generation/02-enterprise-retrieval-engineering/02-ensemble-retriever.md
+        - 03-multivector-retriever: 05-advanced-retrieval-augmented-generation/02-enterprise-retrieval-engineering/03-multivector-retriever.md
+        - 04-timeweighted-retriever: 05-advanced-retrieval-augmented-generation/02-enterprise-retrieval-engineering/04-timeweighted-retriever.md
+        - 05-hybrid-search-retriever: 05-advanced-retrieval-augmented-generation/02-enterprise-retrieval-engineering/05-hybrid-search-retriever.md
+        - 06-hyde-retriever: 05-advanced-retrieval-augmented-generation/02-enterprise-retrieval-engineering/06-hyde-retriever.md
+        - 07-router-retriever: 05-advanced-retrieval-augmented-generation/02-enterprise-retrieval-engineering/07-router-retriever.md
+        - 08-multi-stage-retrieval: 05-advanced-retrieval-augmented-generation/02-enterprise-retrieval-engineering/08-multi-stage-retrieval.md
+        - 09-agentic-retrieval: 05-advanced-retrieval-augmented-generation/02-enterprise-retrieval-engineering/09-agentic-retrieval.md
+        - 10-reranking-techniques: 05-advanced-retrieval-augmented-generation/02-enterprise-retrieval-engineering/10-reranking-techniques.md
+        - 11-mmr-and-diversity-aware-retrieval: 05-advanced-retrieval-augmented-generation/02-enterprise-retrieval-engineering/11-mmr-and-diversity-aware-retrieval.md
+        - 12-metadata-aware-retrieval: 05-advanced-retrieval-augmented-generation/02-enterprise-retrieval-engineering/12-metadata-aware-retrieval.md
+        - 13-advanced-query-rewriting: 05-advanced-retrieval-augmented-generation/02-enterprise-retrieval-engineering/13-advanced-query-rewriting.md
+
+    - LlamaIndex Retrieval Engineering:
+        - 01-llamaindex-retrievers-overview: 05-advanced-retrieval-augmented-generation/03-llamaindex-retrieval-engineering/01-llamaindex-retrievers-overview.md
+        - 02-llamaindex-indexes: 05-advanced-retrieval-augmented-generation/03-llamaindex-retrieval-engineering/02-llamaindex-indexes.md
+        - 03-vector-index-retriever: 05-advanced-retrieval-augmented-generation/03-llamaindex-retrieval-engineering/03-vector-index-retriever.md
+        - 04-bm25-retriever: 05-advanced-retrieval-augmented-generation/03-llamaindex-retrieval-engineering/04-bm25-retriever.md
+        - 05-document-summary-retriever: 05-advanced-retrieval-augmented-generation/03-llamaindex-retrieval-engineering/05-document-summary-retriever.md
+        - 06-recursive-retriever: 05-advanced-retrieval-augmented-generation/03-llamaindex-retrieval-engineering/06-recursive-retriever.md
+        - 07-query-fusion-retriever: 05-advanced-retrieval-augmented-generation/03-llamaindex-retrieval-engineering/07-query-fusion-retriever.md
+        - 08-auto-merging-retriever: 05-advanced-retrieval-augmented-generation/03-llamaindex-retrieval-engineering/08-auto-merging-retriever.md
+
+    - Vector Search Engineering:
+        - 01-faiss-fundamentals: 05-advanced-retrieval-augmented-generation/04-vector-search-engineering/01-faiss-fundamentals.md
+        - 02-faiss-indexes: 05-advanced-retrieval-augmented-generation/04-vector-search-engineering/02-faiss-indexes.md
+        - 03-ivf-and-hnsw: 05-advanced-retrieval-augmented-generation/04-vector-search-engineering/03-ivf-and-hnsw.md
+        - 04-faiss-vs-chromadb-vs-milvus: 05-advanced-retrieval-augmented-generation/04-vector-search-engineering/04-faiss-vs-chromadb-vs-milvus.md
+
+    - Advanced RAG Architecture:
+        - 01-advanced-rag-architecture: 05-advanced-retrieval-augmented-generation/05-advanced-rag-architecture/01-advanced-rag-architecture.md
+        - 02-graph-rag: 05-advanced-retrieval-augmented-generation/05-advanced-rag-architecture/02-graph-rag.md
+        - 03-knowledge-graphs-for-rag: 05-advanced-retrieval-augmented-generation/05-advanced-rag-architecture/03-knowledge-graphs-for-rag.md
+        - 04-sql-rag: 05-advanced-retrieval-augmented-generation/05-advanced-rag-architecture/04-sql-rag.md
+        - 05-multimodal-rag: 05-advanced-retrieval-augmented-generation/05-advanced-rag-architecture/05-multimodal-rag.md
+        - 06-agentic-rag: 05-advanced-retrieval-augmented-generation/05-advanced-rag-architecture/06-agentic-rag.md
+
+    - Production RAG Engineering:
+        - 01-prompt-assembly: 05-advanced-retrieval-augmented-generation/06-production-rag-engineering/01-prompt-assembly.md
+        - 02-context-selection-and-context-engineering: 05-advanced-retrieval-augmented-generation/06-production-rag-engineering/02-context-selection-and-context-engineering.md
+        - 03-response-validation: 05-advanced-retrieval-augmented-generation/06-production-rag-engineering/03-response-validation.md
+        - 04-citation-and-source-attribution: 05-advanced-retrieval-augmented-generation/06-production-rag-engineering/04-citation-and-source-attribution.md
+        - 05-enterprise-response: 05-advanced-retrieval-augmented-generation/06-production-rag-engineering/05-enterprise-response.md
+        - 06-rag-evaluation-and-benchmarking: 05-advanced-retrieval-augmented-generation/06-production-rag-engineering/06-rag-evaluation-and-benchmarking.md
+        - 07-rag-observability: 05-advanced-retrieval-augmented-generation/06-production-rag-engineering/07-rag-observability.md
+        - 08-rag-performance-optimization: 05-advanced-retrieval-augmented-generation/06-production-rag-engineering/08-rag-performance-optimization.md
+        - 09-rag-cost-optimization: 05-advanced-retrieval-augmented-generation/06-production-rag-engineering/09-rag-cost-optimization.md
+        - 10-production-retrieval-architecture: 05-advanced-retrieval-augmented-generation/06-production-rag-engineering/10-production-retrieval-architecture.md
+        - 11-building-production-rag-systems: 05-advanced-retrieval-augmented-generation/06-production-rag-engineering/11-building-production-rag-systems.md
+        - 12-rag-deployment-patterns: 05-advanced-retrieval-augmented-generation/06-production-rag-engineering/12-rag-deployment-patterns.md
+        - 13-rag-caching-strategies: 05-advanced-retrieval-augmented-generation/06-production-rag-engineering/13-rag-caching-strategies.md
+        - 14-multi-tenant-rag: 05-advanced-retrieval-augmented-generation/06-production-rag-engineering/14-multi-tenant-rag.md
+        - 15-rag-testing-frameworks: 05-advanced-retrieval-augmented-generation/06-production-rag-engineering/15-rag-testing-frameworks.md
+        - 16-rag-failure-patterns: 05-advanced-retrieval-augmented-generation/06-production-rag-engineering/16-rag-failure-patterns.md
+  
   
   - Part VI - AI Agents: 06-ai-agents/index.md
   
