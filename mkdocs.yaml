@@ -114,86 +114,111 @@ plugins:
 
 nav:
   - Home: index.md
+
   - Part I - Machine Learning:
     - 01-machine-learning/index.md
-    - 01-introduction-to-machine-learning: 01-machine-learning/01-introduction-to-machine-learning.md
-    - 02-machine-learning-fundamentals: 01-machine-learning/02-machine-learning-fundamentals.md
-    - 03-machine-learning-lifecycle: 01-machine-learning/03-machine-learning-lifecycle.md
-    - 04-machine-learning-in-practice: 01-machine-learning/04-machine-learning-in-practice.md
-    - 05-machine-learning-ecosystem-and-tools: 01-machine-learning/05-machine-learning-ecosystem-and-tools.md
-    - 06-regression-fundamentals: 01-machine-learning/06-regression-fundamentals.md
-    - 07-linear-regression: 01-machine-learning/07-linear-regression.md
-    - 08-nonlinear-regression: 01-machine-learning/08-nonlinear-regression.md
-    - 09-logistic-regression: 01-machine-learning/09-logistic-regression.md
-    - 10-training-and-evaluating-regression-models: 01-machine-learning/10-training-and-evaluating-regression-models.md
-    - 11-classification-fundamentals: 01-machine-learning/11-classification-fundamentals.md
-    - 12-decision-trees: 01-machine-learning/12-decision-trees.md
-    - 13-regression-trees: 01-machine-learning/13-regression-trees.md
-    - 14-support-vector-machines: 01-machine-learning/14-support-vector-machines.md
-    - 15-k-nearest-neighbors: 01-machine-learning/15-k-nearest-neighbors.md
-    - 16-classification-model-evaluation: 01-machine-learning/16-classification-model-evaluation.md
-    - 17-feature-scaling-and-data-preparation: 01-machine-learning/17-feature-scaling-and-data-preparation.md
-    - 18-bias-variance-tradeoff: 01-machine-learning/18-bias-variance-tradeoff.md
-    - 19-ensemble-learning: 01-machine-learning/19-ensemble-learning.md
-    - 20-building-production-classification-systems: 01-machine-learning/20-building-production-classification-systems.md
-    - 21-unsupervised-learning-fundamentals: 01-machine-learning/21-unsupervised-learning-fundamentals.md
-    - 22-clustering-fundamentals: 01-machine-learning/22-clustering-fundamentals.md
-    - 23-k-means-clustering: 01-machine-learning/23-k-means-clustering.md
-    - 24-density-based-clustering: 01-machine-learning/24-density-based-clustering.md
-    - 25-hierarchical-clustering: 01-machine-learning/25-hierarchical-clustering.md
-    - 26-dimensionality-reduction-fundamentals: 01-machine-learning/26-dimensionality-reduction-fundamentals.md
-    - 27-principal-component-analysis-pca: 01-machine-learning/27-principal-component-analysis-pca.md
-    - 28-t-sne-and-umap: 01-machine-learning/28-t-sne-and-umap.md
-    - 29-clustering-for-feature-engineering: 01-machine-learning/29-clustering-for-feature-engineering.md
-    - 30-building-production-unsupervised-learning-systems: 01-machine-learning/30-building-production-unsupervised-learning-systems.md
-    - 31-model-evaluation-fundamentals: 01-machine-learning/31-model-evaluation-fundamentals.md
-    - 32-classification-evaluation-metrics: 01-machine-learning/32-classification-evaluation-metrics.md
-    - 33-regression-evaluation-metrics: 01-machine-learning/33-regression-evaluation-metrics.md
-    - 34-unsupervised-learning-evaluation: 01-machine-learning/34-unsupervised-learning-evaluation.md
-    - 35-cross-validation-and-model-validation: 01-machine-learning/35-cross-validation-and-model-validation.md
-    - 36-regularization-techniques: 01-machine-learning/36-regularization-techniques.md
-    - 37-data-leakage-and-modeling-pitfalls: 01-machine-learning/37-data-leakage-and-modeling-pitfalls.md
 
+    - Machine Learning Fundamentals:
+        - 01-Introduction to Machine Learning: 01-machine-learning/01-introduction-to-machine-learning.md
+        - 02-Machine Learning Fundamentals: 01-machine-learning/02-machine-learning-fundamentals.md
+        - 03-Machine Learning Lifecycle: 01-machine-learning/03-machine-learning-lifecycle.md
+        - 04-Machine Learning in Practice: 01-machine-learning/04-machine-learning-in-practice.md
+        - 05-Machine Learning Ecosystem and Tools: 01-machine-learning/05-machine-learning-ecosystem-and-tools.md
+
+    - Regression:
+        - 01-Regression Fundamentals: 01-machine-learning/06-regression-fundamentals.md
+        - 02-Linear Regression: 01-machine-learning/07-linear-regression.md
+        - 03-Nonlinear Regression: 01-machine-learning/08-nonlinear-regression.md
+        - 04-Logistic Regression: 01-machine-learning/09-logistic-regression.md
+        - 05-Training and Evaluating Regression Models: 01-machine-learning/10-training-and-evaluating-regression-models.md
+
+    - Classification:
+        - 01-Classification Fundamentals: 01-machine-learning/11-classification-fundamentals.md
+        - 02-Decision Trees: 01-machine-learning/12-decision-trees.md
+        - 03-Regression Trees: 01-machine-learning/13-regression-trees.md
+        - 04-Support Vector Machines: 01-machine-learning/14-support-vector-machines.md
+        - 05-K-Nearest Neighbors: 01-machine-learning/15-k-nearest-neighbors.md
+        - 06-Classification Model Evaluation: 01-machine-learning/16-classification-model-evaluation.md
+        - 07-Feature Scaling and Data Preparation: 01-machine-learning/17-feature-scaling-and-data-preparation.md
+        - 08-Bias-Variance Tradeoff: 01-machine-learning/18-bias-variance-tradeoff.md
+        - 09-Ensemble Learning: 01-machine-learning/19-ensemble-learning.md
+        - 10-Building Production Classification Systems: 01-machine-learning/20-building-production-classification-systems.md
+
+    - Unsupervised Learning:
+        - 01-Unsupervised Learning Fundamentals: 01-machine-learning/21-unsupervised-learning-fundamentals.md
+        - 02-Clustering Fundamentals: 01-machine-learning/22-clustering-fundamentals.md
+        - 03-K-Means Clustering: 01-machine-learning/23-k-means-clustering.md
+        - 04-Density-Based Clustering: 01-machine-learning/24-density-based-clustering.md
+        - 05-Hierarchical Clustering: 01-machine-learning/25-hierarchical-clustering.md
+        - 06-Dimensionality Reduction Fundamentals: 01-machine-learning/26-dimensionality-reduction-fundamentals.md
+        - 07-Principal Component Analysis (PCA): 01-machine-learning/27-principal-component-analysis-pca.md
+        - 08-t-SNE and UMAP: 01-machine-learning/28-t-sne-and-umap.md
+        - 09-Clustering for Feature Engineering: 01-machine-learning/29-clustering-for-feature-engineering.md
+        - 10-Building Production Unsupervised Learning Systems: 01-machine-learning/30-building-production-unsupervised-learning-systems.md
+
+    - Model Evaluation & Generalization:
+        - 01-Model Evaluation Fundamentals: 01-machine-learning/31-model-evaluation-fundamentals.md
+        - 02-Classification Evaluation Metrics: 01-machine-learning/32-classification-evaluation-metrics.md
+        - 03-Regression Evaluation Metrics: 01-machine-learning/33-regression-evaluation-metrics.md
+        - 04-Unsupervised Learning Evaluation: 01-machine-learning/34-unsupervised-learning-evaluation.md
+        - 05-Cross-Validation and Model Validation: 01-machine-learning/35-cross-validation-and-model-validation.md
+        - 06-Regularization Techniques: 01-machine-learning/36-regularization-techniques.md
+        - 07-Data Leakage and Modeling Pitfalls: 01-machine-learning/37-data-leakage-and-modeling-pitfalls.md
+  
   - Part II - Deep Learning:
     - 02-deep-learning/index.md
-    - 01-introduction-to-deep-learning: 02-deep-learning/01-introduction-to-deep-learning.md
-    - 02-neural-network-fundamentals: 02-deep-learning/02-neural-network-fundamentals.md
-    - 03-shallow-and-deep-neural-networks: 02-deep-learning/03-shallow-and-deep-neural-networks.md
-    - 04-linear-and-logistic-regression: 02-deep-learning/04-linear-and-logistic-regression.md
-    - 05-activation-functions-probabilities-and-thresholding: 02-deep-learning/05-activation-functions-probabilities-and-thresholding.md
-    - 06-loss-functions-and-maximum-likelihood: 02-deep-learning/06-loss-functions-and-maximum-likelihood.md
-    - 07-forward-and-backpropagation: 02-deep-learning/07-forward-and-backpropagation.md
-    - 08-gradient-descent-and-mini-batch-training: 02-deep-learning/08-gradient-descent-and-mini-batch-training.md
-    - 09-weight-initialization-and-gradient-stability: 02-deep-learning/09-weight-initialization-and-gradient-stability.md
-    - 10-regularization-and-generalization: 02-deep-learning/10-regularization-and-generalization.md
-    - 11-advanced-optimization-techniques: 02-deep-learning/11-advanced-optimization-techniques.md
-    - 12-hyperparameter-tuning-and-training-strategies: 02-deep-learning/12-hyperparameter-tuning-and-training-strategies.md
-    - 13-tensorflow-and-keras-fundamentals: 02-deep-learning/13-tensorflow-and-keras-fundamentals.md
-    - 14-keras-sequential-and-functional-api: 02-deep-learning/14-keras-sequential-and-functional-api.md
-    - 15-custom-layers-models-and-training-loops: 02-deep-learning/15-custom-layers-models-and-training-loops.md
-    - 16-pytorch-fundamentals-and-tensors: 02-deep-learning/16-pytorch-fundamentals-and-tensors.md
-    - 17-pytorch-autograd-dataset-and-dataloader: 02-deep-learning/17-pytorch-autograd-dataset-and-dataloader.md
-    - 18-building-classification-and-regression-models: 02-deep-learning/18-building-classification-and-regression-models.md
-    - 19-convolutional-neural-networks: 02-deep-learning/19-convolutional-neural-networks.md
-    - 20-cnn-architecture-optimization-and-training: 02-deep-learning/20-cnn-architecture-optimization-and-training.md
-    - 21-transfer-learning-and-fine-tuning: 02-deep-learning/21-transfer-learning-and-fine-tuning.md
-    - 22-resnet-residual-connections-and-torchvision: 02-deep-learning/22-resnet-residual-connections-and-torchvision.md
-    - 23-vision-transformers-and-cnn-vit-hybrids: 02-deep-learning/23-vision-transformers-and-cnn-vit-hybrids.md
-    - 24-recurrent-neural-networks: 02-deep-learning/24-recurrent-neural-networks.md
-    - 25-lstm-and-gru: 02-deep-learning/25-lstm-and-gru.md
-    - 26-attention-and-positional-encoding: 02-deep-learning/26-attention-and-positional-encoding.md
-    - 27-transformer-architecture: 02-deep-learning/27-transformer-architecture.md
-    - 28-transformer-applications: 02-deep-learning/28-transformer-applications.md
-    - 29-autoencoders-and-representation-learning: 02-deep-learning/29-autoencoders-and-representation-learning.md
-    - 30-generative-adversarial-networks: 02-deep-learning/30-generative-adversarial-networks.md
-    - 31-diffusion-models: 02-deep-learning/31-diffusion-models.md
-    - 32-reinforcement-learning-fundamentals: 02-deep-learning/32-reinforcement-learning-fundamentals.md
-    - 33-markov-decision-processes-and-q-learning: 02-deep-learning/33-markov-decision-processes-and-q-learning.md
-    - 34-deep-reinforcement-learning-and-dqn: 02-deep-learning/34-deep-reinforcement-learning-and-dqn.md
-    - 35-gpu-accelerated-deep-learning: 02-deep-learning/35-gpu-accelerated-deep-learning.md
-    - 36-deep-learning-training-and-model-lifecycle: 02-deep-learning/36-deep-learning-training-and-model-lifecycle.md
-    - 37-building-production-deep-learning-systems: 02-deep-learning/37-building-production-deep-learning-systems.md
-    
+
+    - Deep Learning Fundamentals:
+        - 01-Introduction to Deep Learning: 02-deep-learning/01-introduction-to-deep-learning.md
+        - 02-Neural Network Fundamentals: 02-deep-learning/02-neural-network-fundamentals.md
+        - 03-Shallow and Deep Neural Networks: 02-deep-learning/03-shallow-and-deep-neural-networks.md
+        - 04-Linear and Logistic Regression: 02-deep-learning/04-linear-and-logistic-regression.md
+        - 05-Activation Functions, Probabilities and Thresholding: 02-deep-learning/05-activation-functions-probabilities-and-thresholding.md
+        - 06-Loss Functions and Maximum Likelihood: 02-deep-learning/06-loss-functions-and-maximum-likelihood.md
+        - 07-Forward and Backpropagation: 02-deep-learning/07-forward-and-backpropagation.md
+        - 08-Gradient Descent and Mini-Batch Training: 02-deep-learning/08-gradient-descent-and-mini-batch-training.md
+        - 09-Weight Initialization and Gradient Stability: 02-deep-learning/09-weight-initialization-and-gradient-stability.md
+        - 10-Regularization and Generalization: 02-deep-learning/10-regularization-and-generalization.md
+        - 11-Advanced Optimization Techniques: 02-deep-learning/11-advanced-optimization-techniques.md
+        - 12-Hyperparameter Tuning and Training Strategies: 02-deep-learning/12-hyperparameter-tuning-and-training-strategies.md
+
+    - Deep Learning Frameworks:
+        - 01-TensorFlow and Keras Fundamentals: 02-deep-learning/13-tensorflow-and-keras-fundamentals.md
+        - 02-Keras Sequential and Functional API: 02-deep-learning/14-keras-sequential-and-functional-api.md
+        - 03-Custom Layers, Models and Training Loops: 02-deep-learning/15-custom-layers-models-and-training-loops.md
+        - 04-PyTorch Fundamentals and Tensors: 02-deep-learning/16-pytorch-fundamentals-and-tensors.md
+        - 05-PyTorch Autograd, Dataset and DataLoader: 02-deep-learning/17-pytorch-autograd-dataset-and-dataloader.md
+        - 06-Building Classification and Regression Models: 02-deep-learning/18-building-classification-and-regression-models.md
+
+    - Computer Vision & CNNs:
+        - 01-Convolutional Neural Networks: 02-deep-learning/19-convolutional-neural-networks.md
+        - 02-CNN Architecture, Optimization and Training: 02-deep-learning/20-cnn-architecture-optimization-and-training.md
+        - 03-Transfer Learning and Fine-Tuning: 02-deep-learning/21-transfer-learning-and-fine-tuning.md
+        - 04-ResNet, Residual Connections and Torchvision: 02-deep-learning/22-resnet-residual-connections-and-torchvision.md
+        - 05-Vision Transformers and CNN-ViT Hybrids: 02-deep-learning/23-vision-transformers-and-cnn-vit-hybrids.md
+
+    - Sequence Models & Transformers:
+        - 01-Recurrent Neural Networks: 02-deep-learning/24-recurrent-neural-networks.md
+        - 02-LSTM and GRU: 02-deep-learning/25-lstm-and-gru.md
+        - 03-Attention and Positional Encoding: 02-deep-learning/26-attention-and-positional-encoding.md
+        - 04-Transformer Architecture: 02-deep-learning/27-transformer-architecture.md
+        - 05-Transformer Applications: 02-deep-learning/28-transformer-applications.md
+
+    - Generative Deep Learning:
+        - 01-Autoencoders and Representation Learning: 02-deep-learning/29-autoencoders-and-representation-learning.md
+        - 02-Generative Adversarial Networks: 02-deep-learning/30-generative-adversarial-networks.md
+        - 03-Diffusion Models: 02-deep-learning/31-diffusion-models.md
+
+    - Reinforcement Learning:
+        - 01-Reinforcement Learning Fundamentals: 02-deep-learning/32-reinforcement-learning-fundamentals.md
+        - 02-Markov Decision Processes and Q-Learning: 02-deep-learning/33-markov-decision-processes-and-q-learning.md
+        - 03-Deep Reinforcement Learning and DQN: 02-deep-learning/34-deep-reinforcement-learning-and-dqn.md
+
+    - Production Deep Learning:
+        - 01-GPU-Accelerated Deep Learning: 02-deep-learning/35-gpu-accelerated-deep-learning.md
+        - 02-Deep Learning Training and Model Lifecycle: 02-deep-learning/36-deep-learning-training-and-model-lifecycle.md
+        - 03-Building Production Deep Learning Systems: 02-deep-learning/37-building-production-deep-learning-systems.md   
+  
   - Part III - Foundation Models, Large Language Models & Generative AI:
     - 03-generative-ai/index.md
 
