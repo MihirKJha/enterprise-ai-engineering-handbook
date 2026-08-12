@@ -220,8 +220,31 @@ nav:
     - 22-direct-preference-optimization-dpo: 03-generative-ai/22-direct-preference-optimization-dpo.md
     - 23-huggingface-trl-workflow: 03-generative-ai/23-huggingface-trl-workflow.md
     
-  - Part IV - Prompt Engineering & RAG Fundamentals: 04-retrieval-augmented-generation/index.md
-  
+  - Part IV - Prompt Engineering & RAG Fundamentals:
+    - 04-retrieval-augmented-generation/index.md
+    - 01-introduction-to-prompt-engineering: 04-retrieval-augmented-generation/01-introduction-to-prompt-engineering.md
+    - 02-prompt-engineering-fundamentals: 04-retrieval-augmented-generation/02-prompt-engineering-fundamentals.md
+    - 03-advanced-prompt-engineering: 04-retrieval-augmented-generation/03-advanced-prompt-engineering.md
+    - 04-prompt-design-patterns: 04-retrieval-augmented-generation/04-prompt-design-patterns.md
+    - 05-zero-one-few-shot-prompting: 04-retrieval-augmented-generation/05-zero-one-few-shot-prompting.md
+    - 06-chain-of-thought-prompting: 04-retrieval-augmented-generation/06-chain-of-thought-prompting.md
+    - 07-react-prompting: 04-retrieval-augmented-generation/07-react-prompting.md
+    - 08-structured-outputs-and-output-parsing: 04-retrieval-augmented-generation/08-structured-outputs-and-output-parsing.md
+    - 09-function-calling-and-tool-calling: 04-retrieval-augmented-generation/09-function-calling-and-tool-calling.md
+    - 10-embeddings-in-practice: 04-retrieval-augmented-generation/10-embeddings-in-practice.md
+    - 11-document-processing-and-vectorization: 04-retrieval-augmented-generation/11-document-processing-and-vectorization.md
+    - 12-document-chunking-strategies: 04-retrieval-augmented-generation/12-document-chunking-strategies.md
+    - 13-vector-database-fundamentals: 04-retrieval-augmented-generation/13-vector-database-fundamentals.md
+    - 14-similarity-search-techniques: 04-retrieval-augmented-generation/14-similarity-search-techniques.md
+    - 15-rag-pipeline-components: 04-retrieval-augmented-generation/15-rag-pipeline-components.md
+    - 16-retrieval-and-generation-pipeline: 04-retrieval-augmented-generation/16-retrieval-and-generation-pipeline.md
+    - 17-vector-databases-in-rag: 04-retrieval-augmented-generation/17-vector-databases-in-rag.md
+    - 18-building-your-first-rag-pipeline: 04-retrieval-augmented-generation/18-building-your-first-rag-pipeline.md
+    - 19-rag-evaluation-fundamentals: 04-retrieval-augmented-generation/19-rag-evaluation-fundamentals.md
+    - 20-enterprise-generative-ai-application-architecture: 04-retrieval-augmented-generation/20-enterprise-generative-ai-application-architecture.md
+    - 21-deploying-ai-applications-with-gradio: 04-retrieval-augmented-generation/21-deploying-ai-applications-with-gradio.md
+    - 22-deploying-ai-applications-with-flask: 04-retrieval-augmented-generation/22-deploying-ai-applications-with-flask.md
+    
   - Part V - Advanced Retrieval-Augmented Generation: 05-advanced-retrieval-augmented-generation/index.md
   
   - Part VI - AI Agents: 06-ai-agents/index.md
