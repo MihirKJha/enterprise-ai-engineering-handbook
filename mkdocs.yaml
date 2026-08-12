@@ -488,6 +488,7 @@ extra_css:
   - stylesheets/custom.css
   - stylesheets/extra.css
   - stylesheets/navigation.css
+  - stylesheets/reader.css
 
 extra_javascript:
   - https://unpkg.com/mermaid@11/dist/mermaid.min.js
