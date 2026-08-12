@@ -448,3 +448,18 @@
     }
 
 }
+
+/* ============================================================
+   6. Collapsed Width
+   ------------------------------------------------------------
+   Give collapsed content a little breathing room
+   ============================================================ */
+
+@media screen and (min-width: 60em) {
+
+    body.sidebar-collapsed .md-content__inner {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+}
