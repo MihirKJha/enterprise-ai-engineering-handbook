@@ -3,7 +3,7 @@
 {% block extrahead %}
   {{ super() }}
 
-  {% if page and page.ancestors %}
+  {% if page %}
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -13,16 +13,18 @@
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "{{ config.site_url }}"
+        "item": {{ config.site_url | tojson }}
       }
+
       {% for ancestor in page.ancestors %}
       ,{
         "@type": "ListItem",
         "position": {{ loop.index + 1 }},
         "name": {{ ancestor.title | tojson }},
-        "item": "{{ ancestor.url | url }}"
+        "item": {{ (config.site_url ~ ancestor.url) | tojson }}
       }
       {% endfor %}
+
       ,{
         "@type": "ListItem",
         "position": {{ page.ancestors | length + 2 }},
