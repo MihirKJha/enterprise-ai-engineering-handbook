@@ -22,6 +22,7 @@ theme:
    - content.action.edit
   logo: assets/logos/favicon.png
   favicon: assets/logos/favicon.png
+  custom_dir: overrides
 
   palette:
 
@@ -462,9 +463,7 @@ nav:
   
   - Part XI - Enterprise AI Architecture & Design Patterns: 11-enterprise-ai-architecture/index.md
   
-  - Part XII - Interview Preparation: 12-interview-preparation/index.md
-  
-  - Legal: legal/index.md
+  - Part XII - Interview Preparation: 12-interview-preparation/index.md  
    
 plugins:
   - search
