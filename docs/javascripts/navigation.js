@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     /*
      * ============================================================
-     * FIND MKDOCS PRIMARY SIDEBAR
+     * FIND PRIMARY SIDEBAR
      * ============================================================
      */
 
@@ -38,24 +38,18 @@ document.addEventListener("DOMContentLoaded", function () {
 
     /*
      * ============================================================
-     * POSITION BUTTON AT ACTUAL SIDEBAR EDGE
+     * POSITION TOGGLE
      * ============================================================
      */
 
     function positionToggle() {
 
-        /*
-         * If sidebar cannot be found, don't do anything.
-         */
-
         if (!sidebar) {
             return;
         }
 
-
         /*
-         * If sidebar is collapsed,
-         * move button to viewport edge.
+         * If collapsed, keep button at viewport edge.
          */
 
         if (
@@ -63,28 +57,38 @@ document.addEventListener("DOMContentLoaded", function () {
                 "sidebar-collapsed"
             )
         ) {
-
             button.style.left = "0px";
-
             return;
         }
 
 
         /*
-         * Get the REAL right edge of the sidebar.
+         * Get sidebar position.
          */
 
-        const sidebarRect =
+        const rect =
             sidebar.getBoundingClientRect();
 
 
         /*
-         * Position button exactly at
-         * sidebar's right edge.
+         * Use the actual right edge.
          */
 
-        button.style.left =
-            `${sidebarRect.right}px`;
+        if (rect.width > 0 && rect.right > 0) {
+
+            button.style.left =
+                `${rect.right}px`;
+
+        } else {
+
+            /*
+             * Fallback if sidebar is temporarily
+             * hidden during animation.
+             */
+
+            button.style.left =
+                `${sidebar.offsetWidth}px`;
+        }
     }
 
 
@@ -99,7 +103,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     /*
      * ============================================================
-     * KEEP POSITION CORRECT WHEN WINDOW CHANGES
+     * WINDOW RESIZE
      * ============================================================
      */
 
@@ -130,6 +134,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if (collapsed) {
 
+            /*
+             * ----------------------------------------------------
+             * COLLAPSED
+             * ----------------------------------------------------
+             */
+
             icon.textContent = "›";
 
             button.setAttribute(
@@ -143,12 +153,18 @@ document.addEventListener("DOMContentLoaded", function () {
             );
 
             /*
-             * Move button to viewport edge.
+             * Immediately move button to left edge.
              */
 
             button.style.left = "0px";
 
         } else {
+
+            /*
+             * ----------------------------------------------------
+             * EXPANDED
+             * ----------------------------------------------------
+             */
 
             icon.textContent = "‹";
 
@@ -162,11 +178,34 @@ document.addEventListener("DOMContentLoaded", function () {
                 "Collapse navigation sidebar"
             );
 
+
             /*
-             * Recalculate actual sidebar edge.
+             * Wait until the sidebar has started
+             * expanding before measuring it.
              */
 
-            positionToggle();
+            requestAnimationFrame(function () {
+
+                requestAnimationFrame(function () {
+
+                    positionToggle();
+
+                });
+
+            });
+
+
+            /*
+             * Extra safety for Material's sidebar
+             * transition.
+             */
+
+            setTimeout(function () {
+
+                positionToggle();
+
+            }, 350);
+
         }
 
     });
