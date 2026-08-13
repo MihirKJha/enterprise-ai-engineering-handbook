@@ -340,34 +340,14 @@
     
 
 /* ============================================================
-   SIDEBAR COLLAPSE BUTTON
-   ============================================================ 
-*/
+   SIDEBAR TOGGLE
+   ============================================================ */
 
 .sidebar-toggle {
-    position: fixed !important;
-
-    /* Attach directly to the right edge of the sidebar */
-    left: 330px !important;
-    right: auto !important;
-
-    top: 50% !important;
-
-    /* Remove any inherited horizontal offset */
-    margin: 0 !important;
-
-    transform: translateY(-50%) !important;
-
-    z-index: 1000 !important;
-
-    width: 38px;
-    height: 58px;
-
     display: flex;
+
     align-items: center;
     justify-content: center;
-
-    padding: 0;
 
     border: 1px solid #d8dee4;
     border-left: none;
@@ -381,55 +361,42 @@
 
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 
-    transition:
-        left 0.25s ease,
-        background-color 0.2s ease,
-        color 0.2s ease,
-        box-shadow 0.2s ease;
+    box-sizing: border-box;
 }
 
 
-/* ============================================================
-   HOVER
-   ============================================================ */
+/* Icon */
+
+.sidebar-toggle__icon {
+    font-size: 22px;
+    line-height: 1;
+}
+
+
+/* Hover */
 
 .sidebar-toggle:hover {
-    background: #f6f8fa !important;
-    color: #0969da !important;
-
+    background: #f0f6fc;
+    color: #0969da;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.14);
 }
 
 
-/* ============================================================
-   COLLAPSED STATE
-   ============================================================ */
-
-body.sidebar-collapsed .sidebar-toggle {
-    left: 0 !important;
-    right: auto !important;
-}
-
-
-/* ============================================================
-   DARK MODE
-   ============================================================ */
+/* Dark mode */
 
 [data-md-color-scheme="slate"] .sidebar-toggle {
-    background: #21262d !important;
-    color: #c9d1d9 !important;
+    background: #21262d;
+    color: #c9d1d9;
     border-color: #30363d;
 }
 
 [data-md-color-scheme="slate"] .sidebar-toggle:hover {
-    background: #30363d !important;
-    color: #58a6ff !important;
+    background: #30363d;
+    color: #58a6ff;
 }
 
 
-/* ============================================================
-   MOBILE / TABLET
-   ============================================================ */
+/* Mobile */
 
 @media screen and (max-width: 59.9375em) {
 

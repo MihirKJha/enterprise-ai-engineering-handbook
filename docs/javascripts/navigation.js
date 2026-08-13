@@ -25,7 +25,82 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     /*
+     * ============================================================
+     * Button positioning
+     * ============================================================
+     */
+
+    button.style.setProperty(
+        "position",
+        "fixed",
+        "important"
+    );
+
+    button.style.setProperty(
+        "left",
+        "330px",
+        "important"
+    );
+
+    button.style.setProperty(
+        "right",
+        "auto",
+        "important"
+    );
+
+    button.style.setProperty(
+        "top",
+        "50%",
+        "important"
+    );
+
+    button.style.setProperty(
+        "bottom",
+        "auto",
+        "important"
+    );
+
+    button.style.setProperty(
+        "transform",
+        "translateY(-50%)",
+        "important"
+    );
+
+    button.style.setProperty(
+        "width",
+        "38px",
+        "important"
+    );
+
+    button.style.setProperty(
+        "height",
+        "58px",
+        "important"
+    );
+
+    button.style.setProperty(
+        "margin",
+        "0",
+        "important"
+    );
+
+    button.style.setProperty(
+        "padding",
+        "0",
+        "important"
+    );
+
+    button.style.setProperty(
+        "z-index",
+        "9999",
+        "important"
+    );
+
+
+    /*
+     * ============================================================
      * Toggle sidebar
+     * ============================================================
      */
 
     button.addEventListener("click", function () {
@@ -43,6 +118,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if (collapsed) {
 
+            /*
+             * Move button to viewport edge
+             */
+
+            button.style.setProperty(
+                "left",
+                "0",
+                "important"
+            );
+
             icon.textContent = "›";
 
             button.setAttribute(
@@ -56,6 +141,16 @@ document.addEventListener("DOMContentLoaded", function () {
             );
 
         } else {
+
+            /*
+             * Move button back to sidebar edge
+             */
+
+            button.style.setProperty(
+                "left",
+                "330px",
+                "important"
+            );
 
             icon.textContent = "‹";
 
