@@ -339,97 +339,102 @@
     }
     
 
-   /* ============================================================
+/* ============================================================
    SIDEBAR COLLAPSE BUTTON
-   ============================================================ */
+   ============================================================ 
+*/
 
-    .sidebar-toggle {
-        position: fixed !important;
+.sidebar-toggle {
+    position: fixed !important;
 
-        /* Attach directly to the sidebar's right edge */
-        left: 330px !important;
+    /* Attach directly to the right edge of the sidebar */
+    left: 330px !important;
+    right: auto !important;
 
-        top: 50%;
+    top: 50% !important;
 
-        transform: translateY(-50%);
+    /* Remove any inherited horizontal offset */
+    margin: 0 !important;
 
-        z-index: 1000;
+    transform: translateY(-50%) !important;
 
-        width: 38px;
-        height: 58px;
+    z-index: 1000 !important;
 
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    width: 38px;
+    height: 58px;
 
-        padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-        border: 1px solid #d8dee4;
-        border-left: none;
+    padding: 0;
 
-        border-radius: 0 8px 8px 0;
+    border: 1px solid #d8dee4;
+    border-left: none;
 
-        background: #ffffff;
-        color: #57606a;
+    border-radius: 0 8px 8px 0;
 
-        cursor: pointer;
+    background: #ffffff;
+    color: #57606a;
 
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    cursor: pointer;
 
-        transition:
-            left 0.25s ease,
-            background-color 0.2s ease,
-            color 0.2s ease;
-    }
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 
-
-    /* Hover */
-    .sidebar-toggle:hover {
-        background: #f6f8fa;
-        color: #0969da;
-    }
-
-
-    /* ============================================================
-    COLLAPSED STATE
-    ============================================================ */
-
-    body.sidebar-collapsed .sidebar-toggle {
-        left: 0 !important;
-    }
-    
-
-
-
-    /* ============================================================
-    DARK MODE
-    ============================================================ */
-
-    [data-md-color-scheme="slate"] .sidebar-toggle {
-        background: #21262d;
-        color: #c9d1d9;
-        border-color: #30363d;
-    }
-
-    [data-md-color-scheme="slate"] .sidebar-toggle:hover {
-        background: #30363d;
-        color: #58a6ff;
-    }
+    transition:
+        left 0.25s ease,
+        background-color 0.2s ease,
+        color 0.2s ease,
+        box-shadow 0.2s ease;
+}
 
 
 /* ============================================================
-   4. MOBILE / TABLET
-   ------------------------------------------------------------
-   Material's native navigation drawer handles smaller
-   screens, so our desktop toggle is disabled.
+   HOVER
+   ============================================================ */
+
+.sidebar-toggle:hover {
+    background: #f6f8fa !important;
+    color: #0969da !important;
+
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.14);
+}
+
+
+/* ============================================================
+   COLLAPSED STATE
+   ============================================================ */
+
+body.sidebar-collapsed .sidebar-toggle {
+    left: 0 !important;
+    right: auto !important;
+}
+
+
+/* ============================================================
+   DARK MODE
+   ============================================================ */
+
+[data-md-color-scheme="slate"] .sidebar-toggle {
+    background: #21262d !important;
+    color: #c9d1d9 !important;
+    border-color: #30363d;
+}
+
+[data-md-color-scheme="slate"] .sidebar-toggle:hover {
+    background: #30363d !important;
+    color: #58a6ff !important;
+}
+
+
+/* ============================================================
+   MOBILE / TABLET
    ============================================================ */
 
 @media screen and (max-width: 59.9375em) {
 
     .sidebar-toggle {
-
         display: none !important;
-
     }
 
 }
