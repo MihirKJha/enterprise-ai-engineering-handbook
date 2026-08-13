@@ -116,7 +116,7 @@ markdown_extensions:
 
 plugins:
   - search
-  - search
+  - social
 
 nav:
   - Home: index.md
