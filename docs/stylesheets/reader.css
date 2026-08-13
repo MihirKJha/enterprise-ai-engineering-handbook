@@ -431,3 +431,73 @@
 }
 
 
+/* ============================================================
+   ACTIVE NAVIGATION HIGHLIGHT
+   ------------------------------------------------------------
+   Visual only — does not change navigation behaviour
+   ============================================================ */
+
+/* LEFT SIDEBAR — active page */
+.md-sidebar--primary .md-nav__link--active {
+    background: #eef3f8;
+    color: #0969da;
+    font-weight: 600;
+    border-radius: 6px;
+}
+
+
+/* LEFT SIDEBAR — hover */
+.md-sidebar--primary .md-nav__link:hover {
+    background: #f6f8fa;
+    border-radius: 6px;
+}
+
+
+/* RIGHT OUTLINE — active heading */
+.md-sidebar--secondary .md-nav__link--active {
+    background: #f6f8fa;
+    color: #0969da;
+    font-weight: 600;
+    border-radius: 6px;
+}
+
+
+/* RIGHT OUTLINE — hover */
+.md-sidebar--secondary .md-nav__link:hover {
+    background: #f6f8fa;
+    border-radius: 6px;
+}
+
+
+/* ============================================================
+   DARK MODE
+   ============================================================ */
+
+/* LEFT SIDEBAR */
+[data-md-color-scheme="slate"]
+.md-sidebar--primary .md-nav__link--active {
+    background: #30363d;
+    color: #58a6ff;
+}
+
+
+/* LEFT SIDEBAR — hover */
+[data-md-color-scheme="slate"]
+.md-sidebar--primary .md-nav__link:hover {
+    background: #21262d;
+}
+
+
+/* RIGHT OUTLINE */
+[data-md-color-scheme="slate"]
+.md-sidebar--secondary .md-nav__link--active {
+    background: #21262d;
+    color: #58a6ff;
+}
+
+
+/* RIGHT OUTLINE — hover */
+[data-md-color-scheme="slate"]
+.md-sidebar--secondary .md-nav__link:hover {
+    background: #30363d;
+}
