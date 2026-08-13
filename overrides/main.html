@@ -98,4 +98,34 @@
   </script>
   {% endif %}
 
+
+  <!-- =========================================================
+       TechArticle Structured Data
+       ========================================================= -->
+  {% if page %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "@id": {{ (config.site_url ~ page.url) | tojson }},
+    "headline": {{ page.title | tojson }},
+    "description": {{ (page.meta.description or config.site_description) | tojson }},
+    "url": {{ (config.site_url ~ page.url) | tojson }},
+    "author": {
+      "@id": "https://mihirkjha.com/#person"
+    },
+    "publisher": {
+      "@id": "https://enterpriseai.handbook.mihirkjha.com/#website"
+    },
+    "isPartOf": {
+      "@id": "https://enterpriseai.handbook.mihirkjha.com/#website"
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": {{ (config.site_url ~ page.url) | tojson }}
+    }
+  }
+  </script>
+  {% endif %}
+
 {% endblock %}
