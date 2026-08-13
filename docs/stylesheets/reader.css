@@ -454,8 +454,9 @@
 
 
 /* RIGHT OUTLINE — active heading */
+
 .md-sidebar--secondary .md-nav__link--active {
-    background: #f6f8fa;
+    background: #eef3f8;
     color: #0969da;
     font-weight: 600;
     border-radius: 6px;
