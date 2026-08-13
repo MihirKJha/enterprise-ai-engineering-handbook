@@ -338,57 +338,81 @@
 
     }
 
-
-    /* --------------------------------------------------------
-       SIDEBAR TOGGLE BUTTON
-       -------------------------------------------------------- */
+    /* ============================================================
+   SIDEBAR COLLAPSE BUTTON
+   ============================================================ */
 
     .sidebar-toggle {
-
         position: fixed;
 
-        left: 0;
-        top: 50%;
+        /* Right edge of left sidebar */
+        left: 320px;
 
+        top: 50%;
         transform: translateY(-50%);
 
         z-index: 1000;
 
-        width: 28px;
+        width: 38px;
         height: 58px;
 
-        padding: 0;
-
-        border: 1px solid
-            var(--md-default-fg-color--lightest);
-
-        border-left: none;
-
-        border-radius: 0 7px 7px 0;
-
-        background:
-            var(--md-default-bg-color);
-
-        color:
-            var(--md-default-fg-color);
-
-        cursor: pointer;
-
         display: flex;
-
         align-items: center;
         justify-content: center;
 
-        box-shadow:
-            var(--md-shadow-z1);
+        padding: 0;
+
+        border: 1px solid #d8dee4;
+        border-left: none;
+
+        border-radius: 0 8px 8px 0;
+
+        background: #ffffff;
+
+        color: #57606a;
+
+        cursor: pointer;
+
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 
         transition:
+            left 0.25s ease,
             background-color 0.2s ease,
             color 0.2s ease,
             box-shadow 0.2s ease;
-
     }
 
+
+    /* Hover */
+    .sidebar-toggle:hover {
+        background: #f6f8fa;
+        color: #0969da;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+    }
+    
+    /* ============================================================
+   DARK MODE
+   ============================================================ */
+
+    [data-md-color-scheme="slate"] .sidebar-toggle {
+        background: #21262d;
+
+        color: #c9d1d9;
+
+        border-color: #30363d;
+
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+    }
+
+    [data-md-color-scheme="slate"] .sidebar-toggle:hover {
+        background: #30363d;
+
+        color: #58a6ff;
+    }
+
+    body.sidebar-collapsed .sidebar-toggle {
+    left: 320px;
+    }
 
     /* --------------------------------------------------------
        Toggle hover
