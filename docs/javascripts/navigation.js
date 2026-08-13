@@ -1,7 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
 
     /*
-     * Create sidebar toggle
+     * ============================================================
+     * CREATE SIDEBAR TOGGLE
+     * ============================================================
      */
 
     const button = document.createElement("button");
@@ -26,80 +28,90 @@ document.addEventListener("DOMContentLoaded", function () {
 
     /*
      * ============================================================
-     * Button positioning
+     * FIND MKDOCS PRIMARY SIDEBAR
      * ============================================================
      */
 
-    button.style.setProperty(
-        "position",
-        "fixed",
-        "important"
-    );
+    const sidebar =
+        document.querySelector(".md-sidebar--primary");
 
-    button.style.setProperty(
-        "left",
-        "330px",
-        "important"
-    );
 
-    button.style.setProperty(
-        "right",
-        "auto",
-        "important"
-    );
+    /*
+     * ============================================================
+     * POSITION BUTTON AT ACTUAL SIDEBAR EDGE
+     * ============================================================
+     */
 
-    button.style.setProperty(
-        "top",
-        "50%",
-        "important"
-    );
+    function positionToggle() {
 
-    button.style.setProperty(
-        "bottom",
-        "auto",
-        "important"
-    );
+        /*
+         * If sidebar cannot be found, don't do anything.
+         */
 
-    button.style.setProperty(
-        "transform",
-        "translateY(-50%)",
-        "important"
-    );
+        if (!sidebar) {
+            return;
+        }
 
-    button.style.setProperty(
-        "width",
-        "38px",
-        "important"
-    );
 
-    button.style.setProperty(
-        "height",
-        "58px",
-        "important"
-    );
+        /*
+         * If sidebar is collapsed,
+         * move button to viewport edge.
+         */
 
-    button.style.setProperty(
-        "margin",
-        "0",
-        "important"
-    );
+        if (
+            document.body.classList.contains(
+                "sidebar-collapsed"
+            )
+        ) {
 
-    button.style.setProperty(
-        "padding",
-        "0",
-        "important"
-    );
+            button.style.left = "0px";
 
-    button.style.setProperty(
-        "z-index",
-        "9999",
-        "important"
+            return;
+        }
+
+
+        /*
+         * Get the REAL right edge of the sidebar.
+         */
+
+        const sidebarRect =
+            sidebar.getBoundingClientRect();
+
+
+        /*
+         * Position button exactly at
+         * sidebar's right edge.
+         */
+
+        button.style.left =
+            `${sidebarRect.right}px`;
+    }
+
+
+    /*
+     * ============================================================
+     * INITIAL POSITION
+     * ============================================================
+     */
+
+    positionToggle();
+
+
+    /*
+     * ============================================================
+     * KEEP POSITION CORRECT WHEN WINDOW CHANGES
+     * ============================================================
+     */
+
+    window.addEventListener(
+        "resize",
+        positionToggle
     );
 
 
     /*
      * ============================================================
-     * Toggle sidebar
+     * TOGGLE SIDEBAR
      * ============================================================
      */
 
@@ -118,16 +130,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if (collapsed) {
 
-            /*
-             * Move button to viewport edge
-             */
-
-            button.style.setProperty(
-                "left",
-                "0",
-                "important"
-            );
-
             icon.textContent = "›";
 
             button.setAttribute(
@@ -140,17 +142,13 @@ document.addEventListener("DOMContentLoaded", function () {
                 "Expand navigation sidebar"
             );
 
-        } else {
-
             /*
-             * Move button back to sidebar edge
+             * Move button to viewport edge.
              */
 
-            button.style.setProperty(
-                "left",
-                "330px",
-                "important"
-            );
+            button.style.left = "0px";
+
+        } else {
 
             icon.textContent = "‹";
 
@@ -164,6 +162,11 @@ document.addEventListener("DOMContentLoaded", function () {
                 "Collapse navigation sidebar"
             );
 
+            /*
+             * Recalculate actual sidebar edge.
+             */
+
+            positionToggle();
         }
 
     });

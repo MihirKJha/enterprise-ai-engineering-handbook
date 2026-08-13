@@ -344,59 +344,98 @@
    ============================================================ */
 
 .sidebar-toggle {
-    display: flex;
+    position: fixed !important;
 
-    align-items: center;
-    justify-content: center;
+    top: 50% !important;
 
-    border: 1px solid #d8dee4;
-    border-left: none;
+    right: auto !important;
+    bottom: auto !important;
 
-    border-radius: 0 8px 8px 0;
+    margin: 0 !important;
+    padding: 0 !important;
 
-    background: #ffffff;
-    color: #57606a;
+    transform: translateY(-50%) !important;
 
-    cursor: pointer;
+    z-index: 9999 !important;
 
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    width: 38px !important;
+    min-width: 38px !important;
+    max-width: 38px !important;
 
-    box-sizing: border-box;
+    height: 58px !important;
+
+    display: flex !important;
+
+    align-items: center !important;
+    justify-content: center !important;
+
+    box-sizing: border-box !important;
+
+    border: 1px solid #d8dee4 !important;
+    border-left: none !important;
+
+    border-radius: 0 8px 8px 0 !important;
+
+    background: #ffffff !important;
+
+    color: #57606a !important;
+
+    cursor: pointer !important;
+
+    box-shadow:
+        0 2px 8px rgba(0, 0, 0, 0.08) !important;
+
+    transition:
+        background-color 0.2s ease,
+        color 0.2s ease,
+        box-shadow 0.2s ease !important;
 }
 
 
-/* Icon */
+/* ============================================================
+   ICON
+   ============================================================ */
 
 .sidebar-toggle__icon {
-    font-size: 22px;
-    line-height: 1;
+    font-size: 22px !important;
+    line-height: 1 !important;
 }
 
 
-/* Hover */
+/* ============================================================
+   HOVER
+   ============================================================ */
 
 .sidebar-toggle:hover {
-    background: #f0f6fc;
-    color: #0969da;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.14);
+    background: #f0f6fc !important;
+    color: #0969da !important;
+
+    box-shadow:
+        0 3px 10px rgba(0, 0, 0, 0.14) !important;
 }
 
 
-/* Dark mode */
+/* ============================================================
+   DARK MODE
+   ============================================================ */
 
-[data-md-color-scheme="slate"] .sidebar-toggle {
-    background: #21262d;
-    color: #c9d1d9;
-    border-color: #30363d;
+[data-md-color-scheme="slate"]
+.sidebar-toggle {
+    background: #21262d !important;
+    color: #c9d1d9 !important;
+    border-color: #30363d !important;
 }
 
-[data-md-color-scheme="slate"] .sidebar-toggle:hover {
-    background: #30363d;
-    color: #58a6ff;
+[data-md-color-scheme="slate"]
+.sidebar-toggle:hover {
+    background: #30363d !important;
+    color: #58a6ff !important;
 }
 
 
-/* Mobile */
+/* ============================================================
+   MOBILE / TABLET
+   ============================================================ */
 
 @media screen and (max-width: 59.9375em) {
 
