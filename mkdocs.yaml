@@ -11,6 +11,9 @@ site_url: https://mihirkjha.github.io/enterprise-ai-engineering-handbook/
 repo_name: MihirJha/Enterprise-AI-Engineering-Handbook
 repo_url: https://github.com/MihirKJha/Enterprise-AI-Engineering-Handbook
 
+hooks:
+  - hooks/normalize_headings.py
+
 edit_uri: edit/main/docs/
 
 copyright: Copyright © 2026 Mihir Jha
