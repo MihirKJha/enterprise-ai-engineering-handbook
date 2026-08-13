@@ -1,3 +1,12 @@
+---
+title: Regression Trees
+description: >
+  Learn how regression trees predict continuous values by recursively
+  splitting data to minimize prediction error, including split selection,
+  mean squared error, prediction behavior, training, and Scikit-Learn
+  implementation.
+---
+
 # 13. Regression Trees
 
 > Learn how Regression Trees extend Decision Trees to predict continuous numerical values by recursively splitting data to minimize prediction error.

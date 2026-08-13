@@ -11,6 +11,9 @@ site_url: https://enterpriseai.handbook.mihirkjha.com/
 repo_name: MihirJha/Enterprise-AI-Engineering-Handbook
 repo_url: https://github.com/MihirKJha/Enterprise-AI-Engineering-Handbook
 
+search:
+  boost: 1.2
+  
 hooks:
   - hooks/normalize_headings.py
 
@@ -113,6 +116,7 @@ markdown_extensions:
 
 plugins:
   - search
+  - social
 
 nav:
   - Home: index.md
