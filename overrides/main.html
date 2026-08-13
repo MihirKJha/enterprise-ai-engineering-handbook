@@ -16,12 +16,20 @@
         "item": {{ config.site_url | tojson }}
       }
 
-      {% for ancestor in page.ancestors %}
+      {% for ancestor in page.ancestors | reverse %}
+        {% set ancestor_url = ancestor.url %}
+
+        {% if (not ancestor_url or ancestor_url == "/") and ancestor.children %}
+          {% set ancestor_url = ancestor.children[0].url %}
+        {% endif %}
+
       ,{
         "@type": "ListItem",
         "position": {{ loop.index + 1 }},
-        "name": {{ ancestor.title | tojson }},
-        "item": {{ (config.site_url ~ ancestor.url) | tojson }}
+        "name": {{ ancestor.title | tojson }}
+        {% if ancestor_url and ancestor_url != "/" %}
+        ,"item": {{ ancestor_url | url | tojson }}
+        {% endif %}
       }
       {% endfor %}
 
