@@ -3,6 +3,61 @@
 {% block extrahead %}
   {{ super() }}
 
+  <!-- =========================================================
+       WebSite Structured Data
+       ========================================================= -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "https://enterpriseai.handbook.mihirkjha.com/#website",
+    "name": "Enterprise AI Engineering Handbook",
+    "url": {{ config.site_url | tojson }},
+    "description": {{ config.site_description | tojson }},
+    "publisher": {
+      "@id": "https://mihirkjha.com/#person"
+    }
+  }
+  </script>
+
+
+  <!-- =========================================================
+       Person Structured Data
+       ========================================================= -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": "https://mihirkjha.com/#person",
+    "name": "Mihir Jha",
+    "url": "https://mihirkjha.com/",
+    "sameAs": [
+      "https://github.com/MihirKJha",
+      "https://www.linkedin.com/in/mihirkrjha/"
+    ],
+    "knowsAbout": [
+      "Enterprise AI Engineering",
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Deep Learning",
+      "Large Language Models",
+      "Generative AI",
+      "Retrieval-Augmented Generation",
+      "AI Agents",
+      "Agentic AI",
+      "Cloud AI",
+      "MLOps",
+      "LLMOps",
+      "Backend Engineering",
+      "Cloud Architecture"
+    ]
+  }
+  </script>
+
+
+  <!-- =========================================================
+       BreadcrumbList Structured Data
+       ========================================================= -->
   {% if page %}
   <script type="application/ld+json">
   {
@@ -42,4 +97,5 @@
   }
   </script>
   {% endif %}
+
 {% endblock %}
