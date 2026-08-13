@@ -242,3 +242,190 @@
     }
 
 }
+
+
+/* ============================================================
+   CHAPTER OUTLINE
+   ============================================================ */
+
+.md-sidebar--secondary .md-nav__title {
+    font-size: 0 !important;
+}
+
+.md-sidebar--secondary .md-nav__title::after {
+    content: "CHAPTER OUTLINE";
+
+    display: block;
+
+    font-size: 0.78rem;
+    font-weight: 700;
+
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: #57606a;
+}
+
+[data-md-color-scheme="slate"]
+.md-sidebar--secondary .md-nav__title::after {
+    color: #c9d1d9;
+}
+
+/* ============================================================
+   OUTLINE PANEL
+   ============================================================ */
+
+.md-sidebar--secondary .md-sidebar__inner {
+    padding: 0.25rem 0.75rem 1rem;
+}
+
+
+.md-sidebar--secondary .md-nav {
+    border-left: 2px solid #e5e7eb;
+    padding-left: 0.75rem;
+}
+
+/* ============================================================
+   OUTLINE LINKS
+   ============================================================ */
+
+.md-sidebar--secondary .md-nav__link {
+    font-size: 0.86rem;
+
+    line-height: 1.4;
+
+    padding: 0.28rem 0.45rem;
+
+    margin: 0.05rem 0;
+
+    border-radius: 6px;
+
+    color: #24292f;
+}
+
+.md-sidebar--secondary .md-nav__link {
+    white-space: normal;
+    overflow-wrap: break-word;
+}
+
+
+/* ============================================================
+   ACTIVE OUTLINE ITEM
+   ============================================================ */
+
+.md-sidebar--secondary
+.md-nav__link--active {
+    background: #f0f2f4;
+
+    color: #0969da;
+
+    font-weight: 600;
+}
+
+[data-md-color-scheme="slate"]
+.md-sidebar--secondary
+.md-nav__link--active {
+    background: #30363d;
+
+    color: #58a6ff;
+
+    font-weight: 600;
+}
+
+/* ============================================================
+   NESTED OUTLINE ITEMS
+   ============================================================ */
+
+.md-sidebar--secondary
+.md-nav .md-nav {
+    margin-left: 0.65rem;
+    padding-left: 0.65rem;
+}
+
+.md-sidebar--secondary
+.md-nav .md-nav .md-nav__link {
+    font-size: 0.82rem;
+
+    color: #57606a;
+
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+
+[data-md-color-scheme="slate"]
+.md-sidebar--secondary
+.md-nav .md-nav .md-nav__link {
+    color: #8b949e;
+}
+
+/* ============================================================
+   OUTLINE SCROLLBAR
+   ============================================================ */
+
+.md-sidebar--secondary
+.md-sidebar__scrollwrap {
+    scrollbar-width: thin;
+    scrollbar-color: #c1c7cd transparent;
+}
+
+[data-md-color-scheme="slate"]
+.md-sidebar--secondary
+.md-sidebar__scrollwrap {
+    scrollbar-color: #484f58 transparent;
+}
+
+@media screen and (min-width: 76.25em) {
+
+    .md-sidebar--secondary {
+        width: 16rem;
+    }
+
+    .md-sidebar--secondary
+    .md-sidebar__scrollwrap {
+        width: 16rem;
+    }
+
+}
+
+@media screen and (min-width: 60em) {
+
+    .md-sidebar--secondary
+    .md-sidebar__inner {
+        padding-top: 0.35rem;
+    }
+
+}
+
+/* ============================================================
+   DARK MODE — GITHUB-INSPIRED OUTLINE
+   ============================================================ */
+
+[data-md-color-scheme="slate"]
+.md-sidebar--secondary .md-nav {
+    border-left-color: #30363d;
+}
+
+[data-md-color-scheme="slate"]
+.md-sidebar--secondary .md-nav__link {
+    color: #c9d1d9;
+}
+
+[data-md-color-scheme="slate"]
+.md-sidebar--secondary
+.md-nav .md-nav .md-nav__link {
+    color: #8b949e;
+}
+
+[data-md-color-scheme="slate"]
+.md-sidebar--secondary
+.md-nav__link:hover {
+    color: #f0f6fc;
+    background: #21262d;
+}
+
+[data-md-color-scheme="slate"]
+.md-sidebar--secondary
+.md-nav__link--active {
+    color: #58a6ff;
+    background: #30363d;
+}
