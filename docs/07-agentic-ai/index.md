@@ -1,3 +1,11 @@
+---
+title: Agentic AI & Multi-Agent Systems
+description: >
+  Explore agentic AI architectures, multi-agent collaboration, orchestration,
+  planning, communication, memory, coordination, governance, and enterprise
+  multi-agent system design.
+---
+
 # Part VII — Agentic AI & Multi-Agent Systems
 
 > Design, orchestrate, and deploy autonomous AI systems that collaborate, reason, plan, and execute complex workflows across enterprise environments.

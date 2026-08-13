@@ -1,3 +1,11 @@
+---
+title: Enterprise AI Architecture & Design Patterns
+description: >
+  Learn how to architect production-grade enterprise AI platforms using
+  microservices, AI gateways, RAG, agents, security, governance,
+  observability, scalability, and cloud architecture patterns.
+---
+
 # Part XI — Enterprise AI Architecture & Design Patterns
 
 > Master the principles, architecture patterns, and best practices required to design scalable, secure, resilient, and production-ready Enterprise AI systems.

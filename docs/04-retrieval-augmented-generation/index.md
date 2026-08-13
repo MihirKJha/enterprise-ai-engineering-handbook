@@ -1,3 +1,11 @@
+---
+title: Prompt Engineering & RAG Fundamentals
+description: >
+  Learn prompt engineering, embeddings, vector search, RAG pipelines,
+  retrieval and generation, evaluation, and the foundations of enterprise
+  generative AI applications.
+---
+
 # Part IV — Prompt Engineering & RAG Fundamentals
 
 > Learn how to effectively interact with Large Language Models (LLMs), design reliable prompts, and build foundational Retrieval-Augmented Generation (RAG) applications using enterprise knowledge.

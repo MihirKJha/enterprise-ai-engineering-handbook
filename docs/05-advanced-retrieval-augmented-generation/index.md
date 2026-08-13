@@ -1,3 +1,11 @@
+---
+title: Advanced Retrieval-Augmented Generation
+description: >
+  Explore advanced and production-oriented RAG retrieval techniques including
+  hybrid search, multi-query retrieval, parent-child retrieval, reranking,
+  contextual compression, agentic retrieval, and retrieval optimization.
+---
+
 # Part V — Advanced Retrieval-Augmented Generation
 
 > Master enterprise-grade Retrieval-Augmented Generation (RAG) by progressing from advanced retrieval techniques to scalable, observable, evaluated, and production-ready AI systems.

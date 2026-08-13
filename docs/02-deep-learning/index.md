@@ -1,3 +1,11 @@
+---
+title: Deep Learning
+description: >
+  Explore deep learning foundations, neural networks, CNNs, transformers,
+  generative models, reinforcement learning, training optimization, and
+  production deep learning systems.
+---
+
 # Part II — Deep Learning
 
 > Master Deep Learning fundamentals and learn how production-ready Deep Learning systems are designed, trained, optimized, evaluated, deployed, and operated in modern enterprise environments.

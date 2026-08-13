@@ -1,3 +1,12 @@
+---
+title: Enterprise AI Architecture & Design Patterns
+description: >
+  Learn how to architect production-grade enterprise AI platforms using
+  microservices, AI gateways, RAG, agents, security, governance,
+  observability, scalability, and cloud architecture patterns.
+---
+
+
 # Part XII — AI Engineering Interview Preparation
 
 > Prepare for technical interviews with a structured, production-focused approach covering Machine Learning, Generative AI, RAG, AI Agents, Cloud AI, System Design, and Enterprise AI Engineering.

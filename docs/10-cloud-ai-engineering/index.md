@@ -1,3 +1,12 @@
+---
+title: Cloud AI Engineering
+description: >
+  Learn how to design, deploy, secure, scale, monitor, and optimize AI
+  systems across AWS, Azure, and Google Cloud using cloud-native AI
+  architecture and production engineering practices.
+---
+
+
 # Part X — Cloud AI Engineering
 
 > Learn how to design, build, deploy, and operate production-ready AI applications using managed AI services across AWS, Microsoft Azure, and Google Cloud Platform.

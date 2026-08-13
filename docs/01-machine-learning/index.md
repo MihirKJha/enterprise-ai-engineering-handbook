@@ -1,3 +1,12 @@
+---
+title: Enterprise AI Engineering Handbook
+description: >
+  A production-focused handbook for backend engineers, cloud engineers,
+  AI engineers, and software architects building enterprise AI systems
+  across machine learning, LLMs, RAG, AI agents, cloud AI, MLOps, and
+  enterprise architecture.
+---
+
 # Part I — Machine Learning
 
 > Build a strong foundation in Machine Learning and learn how production-ready ML systems are designed, trained, evaluated, deployed, and operated in modern enterprise environments.

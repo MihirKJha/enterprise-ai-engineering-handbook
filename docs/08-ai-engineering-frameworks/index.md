@@ -1,3 +1,14 @@
+---
+title: AI Engineering Frameworks & Tooling
+description: >
+  Explore the modern AI engineering ecosystem through frameworks, SDKs,
+  orchestration tools, retrieval and agent platforms, and production
+  engineering patterns, including LangChain, LlamaIndex, LangGraph,
+  Semantic Kernel, CrewAI, AutoGen, Haystack, DSPy, OpenAI SDK,
+  Anthropic SDK, and Google GenAI SDK.
+---
+
+
 # Part VIII — AI Engineering Frameworks & Tooling
 
 > Master the modern frameworks, orchestration platforms, SDKs, and development tools used to build, evaluate, deploy, and operate production-ready Enterprise AI applications.

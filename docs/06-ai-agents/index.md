@@ -1,3 +1,11 @@
+---
+title: AI Agents
+description: >
+  Learn how AI agents use reasoning, planning, tools, memory, communication,
+  observability, security, and deployment patterns to execute complex tasks
+  in enterprise AI systems.
+---
+
 # Part VI — AI Agents
 
 > Learn how intelligent AI Agents are designed, built, deployed, and operated to solve complex tasks using reasoning, planning, memory, tool integration, communication, observability, and security in enterprise environments.

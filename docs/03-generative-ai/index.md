@@ -1,3 +1,12 @@
+---
+title: Foundation Models, LLMs & Generative AI
+description: >
+  Understand foundation models, large language models, transformers,
+  embeddings, fine-tuning, alignment, quantization, and modern generative AI
+  techniques used in enterprise applications.
+---
+
+
 # Part III — Foundation Models, Large Language Models & Generative AI
 
 > Learn how modern Foundation Models and Large Language Models (LLMs) evolved from Deep Learning and Transformer architectures, and how they are prepared, adapted, fine-tuned, evaluated, optimized, and aligned to build production-ready Generative AI systems.
