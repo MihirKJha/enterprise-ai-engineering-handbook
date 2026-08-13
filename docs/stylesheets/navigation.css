@@ -345,7 +345,7 @@
 */
 
 .sidebar-toggle {
-    position: fixed !important;
+    position: absolute !important;
 
     /* Attach directly to the right edge of the sidebar */
     left: 330px !important;
