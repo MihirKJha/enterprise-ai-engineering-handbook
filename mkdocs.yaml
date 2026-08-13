@@ -26,6 +26,7 @@ theme:
   language: en
   features:
    - content.action.edit
+   - navigation.path
   logo: assets/logos/favicon.png
   favicon: assets/logos/favicon.png
   custom_dir: overrides
