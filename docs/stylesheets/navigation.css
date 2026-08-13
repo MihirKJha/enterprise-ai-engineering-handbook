@@ -337,18 +337,20 @@
         width: 100% !important;
 
     }
+    
 
-    /* ============================================================
+   /* ============================================================
    SIDEBAR COLLAPSE BUTTON
    ============================================================ */
 
     .sidebar-toggle {
-        position: fixed;
+        position: fixed !important;
 
-        /* Right edge of left sidebar */
-        left: 320px;
+        /* Attach directly to the sidebar's right edge */
+        left: 330px !important;
 
         top: 50%;
+
         transform: translateY(-50%);
 
         z-index: 1000;
@@ -368,7 +370,6 @@
         border-radius: 0 8px 8px 0;
 
         background: #ffffff;
-
         color: #57606a;
 
         cursor: pointer;
@@ -378,8 +379,7 @@
         transition:
             left 0.25s ease,
             background-color 0.2s ease,
-            color 0.2s ease,
-            box-shadow 0.2s ease;
+            color 0.2s ease;
     }
 
 
@@ -387,66 +387,34 @@
     .sidebar-toggle:hover {
         background: #f6f8fa;
         color: #0969da;
-        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+    }
+
+
+    /* ============================================================
+    COLLAPSED STATE
+    ============================================================ */
+
+    body.sidebar-collapsed .sidebar-toggle {
+        left: 0 !important;
     }
     
+
+
+
     /* ============================================================
-   DARK MODE
-   ============================================================ */
+    DARK MODE
+    ============================================================ */
 
     [data-md-color-scheme="slate"] .sidebar-toggle {
         background: #21262d;
-
         color: #c9d1d9;
-
         border-color: #30363d;
-
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
     }
 
     [data-md-color-scheme="slate"] .sidebar-toggle:hover {
         background: #30363d;
-
         color: #58a6ff;
     }
-
-    body.sidebar-collapsed .sidebar-toggle {
-    left: 320px;
-    }
-
-    /* --------------------------------------------------------
-       Toggle hover
-       -------------------------------------------------------- */
-
-    .sidebar-toggle:hover {
-
-        background:
-            var(--md-primary-fg-color);
-
-        color:
-            var(--md-primary-bg-color);
-
-        box-shadow:
-            var(--md-shadow-z2);
-
-    }
-
-
-    /* --------------------------------------------------------
-       Toggle icon
-       -------------------------------------------------------- */
-
-    .sidebar-toggle__icon {
-
-        font-size: 1.25rem;
-
-        font-weight: 600;
-
-        line-height: 1;
-
-    }
-
-}
 
 
 /* ============================================================
