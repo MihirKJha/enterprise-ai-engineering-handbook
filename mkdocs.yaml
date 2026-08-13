@@ -116,7 +116,7 @@ markdown_extensions:
 
 plugins:
   - search
-  - social
+  - search
 
 nav:
   - Home: index.md
@@ -472,9 +472,6 @@ nav:
   
   - Part XII - Interview Preparation: 12-interview-preparation/index.md  
    
-plugins:
-  - search
-
 extra:
 
   social:
