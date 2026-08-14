@@ -1,3 +1,12 @@
+---
+title: Support Vector Machines (SVM)
+description: >
+  Learn how Support Vector Machines classify data using maximum-margin
+  hyperplanes, support vectors, kernel functions, soft margins, and the C
+  parameter, including linear and nonlinear SVMs, Support Vector Regression,
+  and Scikit-Learn implementation.
+---
+
 # 14. Support Vector Machines (SVM)
 
 > Learn how Support Vector Machines (SVMs) classify data by finding the optimal decision boundary with the maximum margin, making them one of the most powerful supervised learning algorithms for both classification and regression.

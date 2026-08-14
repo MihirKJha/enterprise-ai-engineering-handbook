@@ -1,3 +1,12 @@
+---
+title: Classification Fundamentals
+description: >
+  Learn the fundamentals of classification in supervised Machine Learning,
+  including binary and multi-class classification, common classification
+  algorithms, One-vs-All (OvA), One-vs-One (OvO), and real-world enterprise
+  applications.
+---
+
 # 11. Classification Fundamentals
 
 > Learn the fundamentals of classification in supervised Machine Learning, understand how classification models predict categorical outcomes, and explore the strategies used to solve binary and multi-class problems.

@@ -1,3 +1,12 @@
+---
+title: Density-Based Clustering
+description: >
+  Learn how Density-Based Clustering discovers arbitrary-shaped clusters from
+  unlabeled data, including DBSCAN core, border, and noise points, epsilon and
+  MinPts parameters, HDBSCAN for varying densities, clustering evaluation,
+  Scikit-Learn implementation, and enterprise applications.
+---
+
 # 24. Density-Based Clustering
 
 > Learn how Density-Based Clustering discovers clusters of arbitrary shapes, identifies noise and outliers, and overcomes many limitations of partition-based clustering algorithms such as K-Means.

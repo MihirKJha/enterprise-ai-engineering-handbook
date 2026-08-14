@@ -1,3 +1,12 @@
+---
+title: Feature Scaling and Data Preparation
+description: >
+  Learn how data preparation and feature scaling improve Machine Learning
+  models, including data cleaning, train-test splitting, Standardization,
+  Normalization, preprocessing techniques, data leakage prevention, and
+  Scikit-Learn preprocessing pipelines.
+---
+
 # 17. Feature Scaling and Data Preparation
 
 > Learn how proper data preparation and feature scaling improve Machine Learning model performance by ensuring features contribute fairly during training and prediction.

@@ -1,3 +1,11 @@
+---
+title: Decision Trees
+description: >
+  Learn how Decision Trees classify and predict data through recursive
+  partitioning, including tree structure, Entropy, Information Gain, Gini
+  Impurity, stopping criteria, pruning, and Scikit-Learn implementation.
+---
+
 # 12. Decision Trees
 
 > Learn how Decision Trees classify data by recursively splitting datasets into smaller, purer groups, making them one of the most interpretable and widely used Machine Learning algorithms.

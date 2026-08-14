@@ -1,3 +1,12 @@
+---
+title: Model Evaluation Fundamentals
+description: >
+  Learn the fundamentals of Machine Learning model evaluation, including
+  training, validation, and test datasets, generalization, model comparison,
+  performance assessment, and evaluation strategies for building reliable
+  production AI systems.
+---
+
 # 31. Model Evaluation Fundamentals
 
 > Learn why model evaluation is essential in Machine Learning, understand how to measure model performance on unseen data, and explore the evaluation strategies used to build reliable production AI systems.

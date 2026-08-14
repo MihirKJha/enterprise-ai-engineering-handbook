@@ -1,3 +1,12 @@
+---
+title: Principal Component Analysis (PCA)
+description: >
+  Learn how Principal Component Analysis (PCA) performs linear dimensionality
+  reduction by transforming correlated features into uncorrelated principal
+  components, including explained variance, component selection, feature
+  extraction, Scikit-Learn implementation, and enterprise applications.
+---
+
 # 27. Principal Component Analysis (PCA)
 
 > Learn how Principal Component Analysis (PCA) transforms high-dimensional datasets into a smaller set of informative features, enabling efficient visualization, noise reduction, and improved Machine Learning performance.

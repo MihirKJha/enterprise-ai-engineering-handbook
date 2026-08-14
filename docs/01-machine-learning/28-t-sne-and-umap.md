@@ -1,3 +1,12 @@
+---
+title: t-SNE and UMAP
+description: >
+  Learn how t-SNE and UMAP perform nonlinear dimensionality reduction to
+  visualize high-dimensional data, including local and global structure,
+  embedding visualization, comparison with PCA, Scikit-Learn and UMAP
+  implementation, and enterprise applications.
+---
+
 # 28. t-SNE and UMAP
 
 > Learn how t-SNE and UMAP transform high-dimensional datasets into low-dimensional representations, enabling intuitive visualization of complex data while preserving meaningful relationships between observations.

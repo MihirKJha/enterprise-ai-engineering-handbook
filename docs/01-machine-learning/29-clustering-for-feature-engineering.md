@@ -1,3 +1,13 @@
+---
+title: Clustering for Feature Engineering
+description: >
+  Learn how clustering can be used for feature engineering by generating
+  cluster labels, centroid distances, density-based features, and other
+  engineered features to improve classification and regression models,
+  including clustering pipelines, real-world applications, and production
+  Machine Learning best practices.
+---
+
 # 29. Clustering for Feature Engineering
 
 > Learn how clustering can be used to create meaningful features, improve predictive models, and enhance Machine Learning performance by uncovering hidden patterns within unlabeled data.

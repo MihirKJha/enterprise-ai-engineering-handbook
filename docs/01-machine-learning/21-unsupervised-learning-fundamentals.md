@@ -1,3 +1,12 @@
+---
+title: Unsupervised Learning Fundamentals
+description: >
+  Learn the fundamentals of Unsupervised Learning, including how algorithms
+  discover hidden patterns in unlabeled data through clustering, dimensionality
+  reduction, association rule learning, and anomaly detection, with real-world
+  enterprise applications.
+---
+
 # 21. Unsupervised Learning Fundamentals
 
 > Learn the fundamentals of Unsupervised Learning, understand how machines discover hidden patterns without labelled data, and explore the real-world applications that make it an essential branch of Machine Learning.

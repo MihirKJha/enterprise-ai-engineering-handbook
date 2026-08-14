@@ -1,3 +1,12 @@
+---
+title: Building Production Unsupervised Learning Systems
+description: >
+  Learn how to design, deploy, monitor, and maintain production unsupervised
+  learning systems using clustering, dimensionality reduction, anomaly
+  detection, data pipelines, model monitoring, drift detection, retraining,
+  and enterprise MLOps best practices.
+---
+
 # 30. Building Production Unsupervised Learning Systems
 
 > Learn how Unsupervised Learning models are designed, deployed, monitored, and maintained in enterprise environments, enabling organizations to discover hidden patterns, detect anomalies, and generate business insights at scale.

@@ -1,3 +1,12 @@
+---
+title: Regularization Techniques
+description: >
+  Learn how Regularization Techniques reduce overfitting and improve Machine
+  Learning generalization using Ridge Regression (L2) and Lasso Regression
+  (L1), including regularization strength, feature selection, model validation,
+  and production Machine Learning applications.
+---
+
 # 36. Regularization Techniques
 
 > Learn how Regularization reduces overfitting by penalizing complex models, understand the differences between Ridge (L2) and Lasso (L1) Regression, and explore how regularization improves model generalization in production Machine Learning systems.

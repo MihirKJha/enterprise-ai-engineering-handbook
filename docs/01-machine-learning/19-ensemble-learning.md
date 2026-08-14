@@ -1,3 +1,12 @@
+---
+title: Ensemble Learning
+description: >
+  Learn how Ensemble Learning combines multiple Machine Learning models to
+  improve accuracy and generalization, including Bagging, Random Forest,
+  Boosting, AdaBoost, Gradient Boosting, XGBoost, LightGBM, CatBoost, and
+  production applications for structured data.
+---
+
 # 19. Ensemble Learning
 
 > Learn how Ensemble Learning combines multiple Machine Learning models to improve prediction accuracy, reduce bias and variance, and build highly robust production-ready AI systems.

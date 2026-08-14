@@ -1,3 +1,12 @@
+---
+title: Dimensionality Reduction Fundamentals
+description: >
+  Learn the fundamentals of Dimensionality Reduction, including the Curse of
+  Dimensionality, Feature Selection and Feature Extraction, and techniques
+  such as PCA, t-SNE, UMAP, and Autoencoders for simplifying high-dimensional
+  data while preserving meaningful information for Machine Learning.
+---
+
 # 26. Dimensionality Reduction Fundamentals
 
 > Learn why Dimensionality Reduction is essential in Machine Learning, understand the challenges of high-dimensional data, and explore the techniques used to simplify datasets while preserving meaningful information.

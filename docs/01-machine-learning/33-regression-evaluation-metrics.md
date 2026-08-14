@@ -1,3 +1,13 @@
+---
+title: Regression Evaluation Metrics
+description: >
+  Learn how to evaluate regression models using Mean Absolute Error (MAE),
+  Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and R² Score,
+  including metric interpretation, model comparison, business-focused metric
+  selection, Scikit-Learn implementation, and production Machine Learning
+  best practices.
+---
+
 # 33. Regression Evaluation Metrics
 
 > Learn how regression models are evaluated using metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and R² Score, and understand how to select the appropriate metric for real-world Machine Learning applications.

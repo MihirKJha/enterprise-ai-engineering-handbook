@@ -1,3 +1,12 @@
+---
+title: Machine Learning Ecosystem and Tools
+description: >
+  Explore the Machine Learning ecosystem, including Python and other
+  programming languages, data processing and visualization tools,
+  Scikit-Learn, Deep Learning frameworks, NLP, computer vision, Generative AI,
+  and the tools used to build production-ready ML systems.
+---
+
 # 05. Machine Learning Ecosystem and Tools
 
 > Explore the ecosystem of programming languages, libraries, frameworks, and platforms that power modern Machine Learning solutions, from data processing to production deployment.

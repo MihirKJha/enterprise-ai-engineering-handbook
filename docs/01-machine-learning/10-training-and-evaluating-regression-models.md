@@ -1,3 +1,11 @@
+---
+title: Regression Model Training and Evaluation
+description: >
+  Learn how regression models are trained and optimized using train-test
+  splitting, feature scaling, cost functions, Gradient Descent, Stochastic
+  Gradient Descent, and evaluation metrics such as MAE, MSE, RMSE, and R².
+---
+
 # 10. Regression Model Training and Evaluation
 
 > Learn how regression models are trained, optimized, and evaluated using cost functions, optimization algorithms, and performance metrics to build accurate and reliable Machine Learning solutions.

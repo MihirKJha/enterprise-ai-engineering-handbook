@@ -1,3 +1,12 @@
+---
+title: Regression Fundamentals
+description: >
+  Learn the fundamentals of regression for predicting continuous numerical
+  values, including simple and multiple regression, linear and nonlinear
+  regression, real-world applications, and regression modeling in enterprise
+  Machine Learning.
+---
+
 # 06. Regression Fundamentals
 
 > Learn the fundamentals of regression, understand how it models relationships between variables, and discover how regression techniques are used to solve real-world prediction problems across industries.

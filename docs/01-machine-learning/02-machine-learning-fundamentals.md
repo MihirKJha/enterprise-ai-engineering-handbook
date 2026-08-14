@@ -1,3 +1,13 @@
+---
+title: Machine Learning Fundamentals
+description: >
+  Learn the four major Machine Learning paradigms—supervised, unsupervised,
+  semi-supervised, and reinforcement learning—along with core techniques,
+  real-world applications, and how to choose the right approach for
+  enterprise AI problems.
+---
+
+
 # 02. Machine Learning Fundamentals
 
 > Understand the fundamental learning paradigms and core Machine Learning techniques that form the foundation of modern intelligent systems.

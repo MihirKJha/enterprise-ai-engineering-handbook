@@ -1,3 +1,12 @@
+---
+title: Clustering Fundamentals
+description: >
+  Learn the fundamentals of clustering in Unsupervised Learning, including
+  how similarity and distance measures group unlabeled data, major clustering
+  approaches such as K-Means, DBSCAN, hierarchical clustering, and Gaussian
+  mixture models, evaluation techniques, and real-world enterprise applications.
+---
+
 # 22. Clustering Fundamentals
 
 > Learn the fundamental concepts of clustering, understand how similar data points are grouped together, and explore the major clustering techniques used in modern Machine Learning and enterprise AI systems.

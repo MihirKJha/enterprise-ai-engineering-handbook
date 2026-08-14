@@ -1,3 +1,12 @@
+---
+title: K-Nearest Neighbors (K-NN)
+description: >
+  Learn how K-Nearest Neighbors (K-NN) makes classification and regression
+  predictions using distance-based similarity, including nearest neighbors,
+  distance metrics, K selection, feature scaling, Weighted K-NN, and
+  Scikit-Learn implementation.
+---
+
 # 15. K-Nearest Neighbors (K-NN)
 
 > Learn how the K-Nearest Neighbors (K-NN) algorithm makes predictions by finding the most similar data points, making it one of the simplest yet highly effective supervised Machine Learning algorithms.

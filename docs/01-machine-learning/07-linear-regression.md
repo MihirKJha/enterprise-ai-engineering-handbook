@@ -1,3 +1,12 @@
+---
+title: Linear Regression
+description: >
+  Learn how Linear Regression models relationships between variables to predict
+  continuous values, including simple and multiple regression, best-fit lines,
+  Ordinary Least Squares (OLS), residuals, regression assumptions, and
+  Scikit-Learn implementation.
+---
+
 # 07. Linear Regression
 
 > Learn one of the most fundamental Machine Learning algorithms used to model relationships between variables and predict continuous numerical values using a best-fit linear equation.

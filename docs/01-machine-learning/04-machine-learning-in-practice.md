@@ -1,3 +1,13 @@
+---
+title: Machine Learning in Practice
+description: >
+  Learn how Machine Learning projects are executed in real-world organizations,
+  including the role of Machine Learning engineers, enterprise AI workflows,
+  cross-functional collaboration, production deployment, monitoring, and the
+  evolution toward modern AI engineering.
+---
+
+
 # 04. Machine Learning in Practice
 
 > Explore how Machine Learning projects are executed in real-world organizations, understand the responsibilities of Machine Learning engineers, and learn how modern AI teams build production-ready intelligent systems.

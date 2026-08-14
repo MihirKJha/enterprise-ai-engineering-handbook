@@ -1,3 +1,13 @@
+---
+title: Unsupervised Learning Evaluation
+description: >
+  Learn how to evaluate unsupervised learning models using Silhouette Score,
+  Davies-Bouldin Index, Inertia, Adjusted Rand Index (ARI), Normalized Mutual
+  Information (NMI), clustering stability, dimensionality reduction metrics,
+  visualization, and business validation for production Machine Learning
+  systems.
+---
+
 # 34. Unsupervised Learning Evaluation
 
 > Learn how to evaluate clustering and dimensionality reduction models using internal metrics, external metrics, stability analysis, and visualization techniques to assess the quality of patterns discovered from unlabeled data.

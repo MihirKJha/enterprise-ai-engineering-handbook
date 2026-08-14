@@ -1,3 +1,12 @@
+---
+title: Bias-Variance Trade-off
+description: >
+  Learn how bias and variance affect Machine Learning model performance,
+  including underfitting, overfitting, model complexity, weak and strong
+  learners, and how bagging and boosting improve generalization and
+  predictive performance.
+---
+
 # 18. Bias-Variance Trade-off
 
 > Learn how model complexity affects prediction performance by understanding the relationship between bias, variance, underfitting, overfitting, and how ensemble learning techniques help build more accurate and generalizable Machine Learning models.

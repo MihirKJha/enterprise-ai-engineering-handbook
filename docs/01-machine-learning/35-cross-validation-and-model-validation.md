@@ -1,3 +1,12 @@
+---
+title: Cross-Validation and Model Validation
+description: >
+  Learn how cross-validation and model validation improve Machine Learning
+  generalization, including training, validation, and test datasets, K-Fold
+  Cross-Validation, Stratified K-Fold, hyperparameter tuning, data leakage,
+  data snooping, and production model validation best practices.
+---
+
 # 35. Cross-Validation and Model Validation
 
 > Learn how model validation ensures reliable performance on unseen data, understand cross-validation techniques, and explore best practices for preventing overfitting and data leakage in production Machine Learning systems.

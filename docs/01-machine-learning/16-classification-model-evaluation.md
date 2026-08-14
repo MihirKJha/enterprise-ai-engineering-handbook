@@ -1,3 +1,12 @@
+---
+title: Classification Model Evaluation
+description: >
+  Learn how to evaluate classification models using Confusion Matrix,
+  Accuracy, Precision, Recall, F1 Score, ROC Curve, and AUC, including metric
+  selection for imbalanced datasets, business objectives, and production
+  Machine Learning systems.
+---
+
 # 16. Classification Model Evaluation
 
 > Learn how to evaluate classification models using industry-standard performance metrics and understand when to use each metric for building reliable and production-ready Machine Learning systems.

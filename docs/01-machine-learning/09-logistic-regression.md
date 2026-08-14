@@ -1,3 +1,12 @@
+---
+title: Logistic Regression
+description: >
+  Learn how Logistic Regression solves binary classification problems using
+  probability estimation, the Sigmoid Function, decision boundaries, and
+  classification thresholds, including Scikit-Learn implementation and
+  enterprise applications.
+---
+
 # 09. Logistic Regression
 
 > Learn how Logistic Regression solves binary classification problems by estimating probabilities and making intelligent decisions based on data.

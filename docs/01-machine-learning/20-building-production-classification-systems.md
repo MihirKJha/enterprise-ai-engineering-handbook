@@ -1,3 +1,11 @@
+---
+title: Building Production Classification Systems
+description: >
+  Learn how to build scalable and reliable production classification systems,
+  including algorithm selection, ML pipelines, deployment patterns, model
+  monitoring, retraining, MLOps practices, and enterprise AI engineering.
+---
+
 # 20. Building Production Classification Systems
 
 > Learn how classification models are transformed from research prototypes into scalable, reliable, and maintainable production systems using MLOps, monitoring, and enterprise AI engineering best practices.

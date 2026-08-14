@@ -1,3 +1,11 @@
+---
+title: Introduction to Machine Learning
+description: >
+  Learn what Machine Learning is, how it differs from traditional programming,
+  why it matters, where it fits within Artificial Intelligence, and how it is
+  applied across real-world and enterprise systems.
+---
+
 # 01. Introduction to Machine Learning
 
 > Discover what Machine Learning is, why it has become one of the most transformative technologies of the modern era, and how it powers intelligent applications across industries.

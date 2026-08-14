@@ -1,3 +1,12 @@
+---
+title: Regularization Techniques
+description: >
+  Learn how Regularization Techniques reduce overfitting and improve Machine
+  Learning generalization using Ridge Regression (L2) and Lasso Regression
+  (L1), including regularization strength, feature selection, model validation,
+  and production Machine Learning applications.
+---
+
 # 37. Data Leakage and Modeling Pitfalls
 
 > Learn how data leakage, improper validation, and common modeling mistakes can produce misleading Machine Learning results, and discover the best practices for building reliable, production-ready AI systems.

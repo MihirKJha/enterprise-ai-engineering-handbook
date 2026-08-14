@@ -1,3 +1,12 @@
+---
+title: Machine Learning Lifecycle
+description: >
+  Learn the Machine Learning lifecycle from problem definition and data
+  collection through data preparation, model development, evaluation,
+  deployment, monitoring, and continuous improvement in production
+  environments.
+---
+
 # 03. Machine Learning Lifecycle
 
 > Learn how Machine Learning solutions are designed, developed, deployed, monitored, and continuously improved in real-world production environments.

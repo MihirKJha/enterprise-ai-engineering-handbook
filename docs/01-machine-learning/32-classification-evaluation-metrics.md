@@ -1,3 +1,12 @@
+---
+title: Classification Evaluation Metrics
+description: >
+  Learn how to evaluate classification models using Accuracy, Confusion Matrix,
+  Precision, Recall, and F1 Score, including binary and multi-class evaluation,
+  metric selection based on business requirements, Scikit-Learn implementation,
+  and production Machine Learning best practices.
+---
+
 # 32. Classification Evaluation Metrics
 
 > Learn how classification models are evaluated using performance metrics such as Accuracy, Confusion Matrix, Precision, Recall, and F1 Score, and understand when each metric should be used in real-world Machine Learning applications.

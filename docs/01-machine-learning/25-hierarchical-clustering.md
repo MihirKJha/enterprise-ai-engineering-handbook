@@ -1,3 +1,12 @@
+---
+title: Hierarchical Clustering
+description: >
+  Learn how Hierarchical Clustering builds nested groups of similar
+  observations using agglomerative and divisive approaches, including
+  dendrograms, linkage methods, cluster selection, Scikit-Learn implementation,
+  and real-world enterprise applications.
+---
+
 # 25. Hierarchical Clustering
 
 > Learn how Hierarchical Clustering builds nested groups of similar observations, understand dendrograms, and explore how hierarchical relationships help discover natural structures within complex datasets.

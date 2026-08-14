@@ -1,3 +1,12 @@
+---
+title: Nonlinear Regression
+description: >
+  Learn how Nonlinear Regression models complex relationships using curved,
+  exponential, logarithmic, power, and polynomial functions, including
+  Polynomial Regression, model selection, overfitting considerations, and
+  real-world Machine Learning applications.
+---
+
 # 08. Nonlinear Regression
 
 > Learn how Nonlinear Regression models complex relationships between variables when a straight line is not sufficient to accurately represent real-world data.

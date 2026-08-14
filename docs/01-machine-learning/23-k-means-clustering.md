@@ -1,3 +1,13 @@
+---
+title: K-Means Clustering
+description: >
+  Learn how K-Means Clustering groups unlabeled data into distinct clusters
+  using centroids and iterative distance-based optimization, including cluster
+  assignment, centroid updates, choosing the optimal number of clusters with
+  the Elbow Method and Silhouette Score, Scikit-Learn implementation, and
+  enterprise applications.
+---
+
 # 23. K-Means Clustering
 
 > Learn how K-Means Clustering groups similar data points into clusters, understand how centroids are formed, and explore one of the most widely used unsupervised learning algorithms for customer segmentation, pattern discovery, and data exploration.
