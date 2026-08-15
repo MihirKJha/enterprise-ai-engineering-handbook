@@ -1,3 +1,13 @@
+---
+title: Shallow and Deep Neural Networks
+description: >
+  Learn the differences between shallow and deep neural networks, including
+  network depth and width, model capacity, hierarchical representation
+  learning, parameter growth, function composition, vanishing and exploding
+  gradients, overfitting, Keras and PyTorch implementations, and production
+  architecture considerations.
+---
+
 # 03. Shallow and Deep Neural Networks
 
 > Understand how neural networks evolve from simple shallow architectures to deep neural networks, how depth and width affect model capacity, why deep networks learn hierarchical representations, and how to choose an appropriate architecture for real-world problems.

@@ -1,3 +1,14 @@
+---
+title: TensorFlow and Keras Fundamentals for Deep Learning
+description: >
+  Learn TensorFlow and Keras fundamentals for Deep Learning, including tensors,
+  tensor shapes and data types, tensor operations, Keras layers and models,
+  Sequential and Functional APIs, model training and evaluation, tf.data input
+  pipelines, callbacks, checkpointing, GPU acceleration, trainable parameters,
+  classification and regression models, and production-oriented Deep Learning
+  workflows.
+---
+
 # 13. TensorFlow and Keras Fundamentals
 
 > Learn the foundations of TensorFlow and Keras, understand tensors, computation, models, layers, datasets, training, evaluation, GPU acceleration, and the complete workflow for building Deep Learning models.

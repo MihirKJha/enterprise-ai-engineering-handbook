@@ -1,3 +1,13 @@
+---
+title: Advanced Optimization Techniques for Deep Learning
+description: >
+  Learn advanced Deep Learning optimization techniques including Momentum,
+  RMSProp, Adam, AdamW, learning-rate scheduling, warmup, cosine decay,
+  Reduce-on-Plateau, One-Cycle learning rates, gradient clipping, optimizer
+  state, batch-size optimization, mixed precision, and production training
+  strategies using TensorFlow, Keras, and PyTorch.
+---
+
 # 11. Advanced Optimization Techniques
 
 > Move beyond basic Gradient Descent and learn the optimization techniques used to train modern Deep Learning models efficiently, including Momentum, RMSProp, Adam, AdamW, learning-rate scheduling, warmup, cosine decay, gradient clipping, adaptive optimization, and practical optimizer-selection strategies.

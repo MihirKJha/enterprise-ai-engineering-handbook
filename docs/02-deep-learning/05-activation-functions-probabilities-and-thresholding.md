@@ -1,3 +1,13 @@
+---
+title: Activation Functions, Probabilities and Thresholding
+description: >
+  Learn how activation functions introduce non-linearity in neural networks,
+  including Sigmoid, Tanh, ReLU, Leaky ReLU, ELU, GELU, and Softmax, along with
+  logits, probabilities, classification thresholds, multi-class and multi-label
+  classification, gradient behavior, numerical stability, Keras and PyTorch
+  implementations, and production Deep Learning applications.
+---
+
 # 05. Activation Functions, Probabilities and Thresholding
 
 > Understand how activation functions introduce non-linearity into neural networks, how raw model outputs become probabilities, and how probability thresholds convert model scores into practical classification decisions.

@@ -1,3 +1,14 @@
+---
+title: Weight Initialization and Gradient Stability
+description: >
+  Learn how weight initialization affects neural network training, gradient
+  flow, activation stability, and convergence, including zero and random
+  initialization, Xavier (Glorot), He (Kaiming), and LeCun initialization,
+  vanishing and exploding gradients, fan-in and fan-out, variance preservation,
+  gradient clipping, normalization, residual connections, and production
+  Deep Learning debugging with Keras and PyTorch.
+---
+
 # 09. Weight Initialization and Gradient Stability
 
 > Understand how neural networks initialize their parameters, why initialization matters for successful training, and how poor initialization can lead to vanishing gradients, exploding gradients, unstable activations, and slow convergence.

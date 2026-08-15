@@ -1,3 +1,12 @@
+---
+title: Introduction to Deep Learning
+description: >
+  Learn the fundamentals of Deep Learning, including neural networks,
+  representation learning, feature learning, major Deep Learning architectures,
+  training workflows, learning paradigms, Transfer Learning, Deep Learning
+  frameworks, enterprise applications, and production AI engineering.
+---
+
 # 01. Introduction to Deep Learning
 
 > Discover what Deep Learning is, why it has become one of the most important technologies in modern Artificial Intelligence, and how it powers intelligent applications across industries.

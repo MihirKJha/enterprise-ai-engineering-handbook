@@ -1,3 +1,13 @@
+---
+title: Neural Network Fundamentals
+description: >
+  Learn the fundamentals of Artificial Neural Networks, including artificial
+  neurons, weights, biases, activation functions, neural network layers,
+  Multi-Layer Perceptrons, forward propagation, matrix representations,
+  model capacity, backpropagation, and building neural networks with Keras
+  and PyTorch for Deep Learning and enterprise AI systems.
+---
+
 # 02. Neural Network Fundamentals
 
 > Understand the fundamental building blocks of Deep Learning, from artificial neurons and learnable parameters to layers, forward propagation, mathematical representations, and the foundations required to build modern neural network architectures.

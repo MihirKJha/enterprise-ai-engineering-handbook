@@ -1,3 +1,13 @@
+---
+title: Forward and Backpropagation
+description: >
+  Learn how neural networks perform forward propagation and backpropagation,
+  including weighted sums, activations, computational graphs, the Chain Rule,
+  gradient computation, automatic differentiation, PyTorch autograd,
+  TensorFlow GradientTape, vanishing and exploding gradients, and the
+  production Deep Learning training workflow.
+---
+
 # 07. Forward and Backpropagation
 
 > Understand how neural networks transform inputs into predictions through forward propagation and learn from errors through backpropagation, forming the mathematical foundation of gradient-based Deep Learning.

@@ -1,3 +1,13 @@
+---
+title: Linear and Logistic Regression
+description: >
+  Learn Linear Regression and Logistic Regression from a Machine Learning and
+  Deep Learning perspective, including linear transformations, coefficients,
+  residuals, Ordinary Least Squares, Mean Squared Error, sigmoid activation,
+  logits, probability thresholds, decision boundaries, Binary Cross-Entropy,
+  Keras and PyTorch implementations, and enterprise AI applications.
+---
+
 # 04. Linear and Logistic Regression
 
 > Understand Linear Regression and Logistic Regression from both a Machine Learning and Deep Learning perspective, including their mathematical foundations, model architecture, probability interpretation, decision boundaries, training process, and implementations using Keras and PyTorch.

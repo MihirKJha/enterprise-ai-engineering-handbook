@@ -1,3 +1,13 @@
+---
+title: Regularization and Generalization in Deep Learning
+description: >
+  Learn how Deep Learning models prevent overfitting and improve generalization
+  using L1 and L2 regularization, weight decay, Dropout, Early Stopping,
+  Data Augmentation, Label Smoothing, normalization, Transfer Learning,
+  and other regularization techniques, with practical Keras and PyTorch
+  examples and production Deep Learning strategies.
+---
+
 # 10. Regularization and Generalization
 
 > Learn how Deep Learning models can memorize training data, why overfitting occurs, and how regularization techniques such as L1/L2 penalties, Dropout, Early Stopping, Data Augmentation, and normalization help neural networks generalize to unseen data.

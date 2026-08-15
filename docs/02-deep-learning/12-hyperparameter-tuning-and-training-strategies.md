@@ -1,3 +1,14 @@
+---
+title: Hyperparameter Tuning and Training Strategies for Deep Learning
+description: >
+  Learn how to tune Deep Learning hyperparameters systematically, including
+  learning rate, batch size, optimizers, weight decay, dropout, architecture
+  settings, Grid Search, Random Search, Bayesian Optimization, Hyperband,
+  Early Stopping, validation strategies, experiment tracking, reproducibility,
+  multi-fidelity optimization, and production-oriented training strategies
+  using TensorFlow, Keras, and PyTorch.
+---
+
 # 12. Hyperparameter Tuning and Training Strategies
 
 > Learn how to systematically tune Deep Learning models, design reliable training experiments, select effective hyperparameters, diagnose training behavior, and build reproducible training strategies for production-grade neural networks.

@@ -1,3 +1,13 @@
+---
+title: Loss Functions and Maximum Likelihood
+description: >
+  Learn how loss functions measure prediction error and guide neural network
+  optimization, including MSE, MAE, Huber Loss, Binary Cross-Entropy,
+  Categorical Cross-Entropy, Negative Log-Likelihood, Maximum Likelihood
+  Estimation, logits, probabilities, numerical stability, and TensorFlow,
+  Keras, and PyTorch implementations for production Deep Learning systems.
+---
+
 # 06. Loss Functions and Maximum Likelihood
 
 > Understand how neural networks measure prediction error, how loss functions guide learning, and how Maximum Likelihood Estimation connects probability, cross-entropy, and model optimization.

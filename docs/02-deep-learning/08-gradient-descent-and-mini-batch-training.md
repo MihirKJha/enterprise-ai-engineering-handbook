@@ -1,3 +1,13 @@
+---
+title: Gradient Descent and Mini-Batch Training
+description: >
+  Learn how Gradient Descent optimizes neural network parameters, including
+  learning rate, Batch Gradient Descent, Stochastic Gradient Descent (SGD),
+  Mini-Batch Gradient Descent, batch size, epochs, iterations, gradient noise,
+  convergence, learning-rate scheduling, gradient accumulation, GPU
+  optimization, and production Deep Learning training workflows.
+---
+
 # 08. Gradient Descent and Mini-Batch Training
 
 > Understand how neural networks use gradients to optimize model parameters, how Gradient Descent works mathematically, and why mini-batch training is the standard approach for training Deep Learning models efficiently at scale.
