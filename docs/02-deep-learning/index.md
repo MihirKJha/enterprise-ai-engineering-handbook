@@ -4,6 +4,8 @@ description: >
   Explore deep learning foundations, neural networks, CNNs, transformers,
   generative models, reinforcement learning, training optimization, and
   production deep learning systems.
+hide:
+  - toc
 ---
 
 # Part II — Deep Learning

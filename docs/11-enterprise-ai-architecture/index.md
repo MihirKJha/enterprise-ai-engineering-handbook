@@ -4,6 +4,8 @@ description: >
   Learn how to architect production-grade enterprise AI platforms using
   microservices, AI gateways, RAG, agents, security, governance,
   observability, scalability, and cloud architecture patterns.
+hide:
+  - toc  
 ---
 
 # Part XI — Enterprise AI Architecture & Design Patterns

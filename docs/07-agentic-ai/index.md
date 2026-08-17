@@ -4,6 +4,8 @@ description: >
   Explore agentic AI architectures, multi-agent collaboration, orchestration,
   planning, communication, memory, coordination, governance, and enterprise
   multi-agent system design.
+hide:
+  - toc  
 ---
 
 # Part VII — Agentic AI & Multi-Agent Systems

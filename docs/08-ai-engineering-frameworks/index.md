@@ -6,6 +6,8 @@ description: >
   engineering patterns, including LangChain, LlamaIndex, LangGraph,
   Semantic Kernel, CrewAI, AutoGen, Haystack, DSPy, OpenAI SDK,
   Anthropic SDK, and Google GenAI SDK.
+hide:
+  - toc  
 ---
 
 

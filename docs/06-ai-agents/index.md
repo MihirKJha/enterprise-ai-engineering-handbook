@@ -4,6 +4,8 @@ description: >
   Learn how AI agents use reasoning, planning, tools, memory, communication,
   observability, security, and deployment patterns to execute complex tasks
   in enterprise AI systems.
+hide:
+  - toc  
 ---
 
 # Part VI — AI Agents

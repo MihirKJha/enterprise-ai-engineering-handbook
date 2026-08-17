@@ -4,6 +4,8 @@ description: >
   Understand foundation models, large language models, transformers,
   embeddings, fine-tuning, alignment, quantization, and modern generative AI
   techniques used in enterprise applications.
+hide:
+  - toc
 ---
 
 

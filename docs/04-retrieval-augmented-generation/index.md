@@ -4,6 +4,8 @@ description: >
   Learn prompt engineering, embeddings, vector search, RAG pipelines,
   retrieval and generation, evaluation, and the foundations of enterprise
   generative AI applications.
+hide:
+  - toc  
 ---
 
 # Part IV — Prompt Engineering & RAG Fundamentals

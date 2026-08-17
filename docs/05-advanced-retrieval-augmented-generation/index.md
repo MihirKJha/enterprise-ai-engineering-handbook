@@ -4,6 +4,8 @@ description: >
   Explore advanced and production-oriented RAG retrieval techniques including
   hybrid search, multi-query retrieval, parent-child retrieval, reranking,
   contextual compression, agentic retrieval, and retrieval optimization.
+hide:
+  - toc  
 ---
 
 # Part V — Advanced Retrieval-Augmented Generation
