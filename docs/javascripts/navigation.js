@@ -263,7 +263,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         wrapper.innerHTML = `
             <div class="current-article-label__caption">
-                CURRENT ARTICLE
+                CURRENT CHAPTER
             </div>
             <div class="current-article-label__title">
                 ${articleTitle}
