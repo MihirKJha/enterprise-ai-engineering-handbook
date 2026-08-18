@@ -1,3 +1,14 @@
+---
+title: LlamaIndex Vector Index Retriever: Semantic Search for RAG
+description: >
+  Learn how the LlamaIndex Vector Index Retriever performs semantic search
+  using embeddings and vector similarity, including VectorStoreIndex,
+  Top-K retrieval, similarity thresholds, metadata filtering, hybrid
+  retrieval, re-ranking, MMR, multi-query retrieval, retrieval evaluation,
+  security, observability, and production RAG architecture.
+---
+
+
 # Vector Index Retriever
 
 ## 📖 Overview

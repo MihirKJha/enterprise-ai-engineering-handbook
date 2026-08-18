@@ -1,3 +1,12 @@
+---
+title: LlamaIndex Document Summary Retriever: Document-Level Retrieval for RAG
+description: >
+  Learn how the LlamaIndex Document Summary Retriever enables document-level
+  retrieval using DocumentSummaryIndex, summary-based search, hierarchical
+  retrieval, embedding and LLM retrieval modes, document routing, chunk-level
+  retrieval, re-ranking, evaluation, security, and production RAG architecture.
+---
+
 # Document Summary Retriever
 
 ## 📖 Overview

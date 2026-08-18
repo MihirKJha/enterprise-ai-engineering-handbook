@@ -1,3 +1,13 @@
+---
+title: LlamaIndex Recursive Retriever: Hierarchical and Graph-Based Retrieval for RAG
+description: >
+  Learn how the LlamaIndex Recursive Retriever follows relationships between
+  nodes to implement small-to-big retrieval, parent-child retrieval,
+  summary-to-source retrieval, multi-representation retrieval, table retrieval,
+  recursive traversal, and production-grade hierarchical RAG architectures.
+---
+
+
 # Recursive Retriever
 
 ## 📖 Overview

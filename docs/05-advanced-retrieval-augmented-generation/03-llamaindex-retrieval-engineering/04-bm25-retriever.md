@@ -1,3 +1,14 @@
+---
+title: BM25 Retriever for Enterprise RAG and Hybrid Search
+description: >
+  Learn how BM25 lexical retrieval ranks documents using term frequency,
+  inverse document frequency, and document-length normalization. Explore
+  BM25 parameters, inverted indexes, exact-match retrieval, BM25 vs vector
+  search, hybrid retrieval with Reciprocal Rank Fusion, LlamaIndex
+  integration, metadata filtering, re-ranking, evaluation, tuning,
+  observability, and production enterprise RAG architectures.
+---
+
 # BM25 Retriever
 
 ## 📖 Overview

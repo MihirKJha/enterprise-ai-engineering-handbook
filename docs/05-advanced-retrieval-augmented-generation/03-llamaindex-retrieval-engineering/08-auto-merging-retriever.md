@@ -1,3 +1,13 @@
+---
+title: LlamaIndex Auto-Merging Retriever: Hierarchical Context Reconstruction for RAG
+description: >
+  Learn how the LlamaIndex Auto-Merging Retriever dynamically combines
+  fine-grained leaf nodes into larger parent contexts, including hierarchical
+  retrieval, parent-child relationships, merge thresholds, small-to-big
+  retrieval, recursive merging, hybrid search, re-ranking, contextual
+  compression, and production-ready RAG architectures.
+---
+
 # Auto-Merging Retriever
 
 ## 📖 Overview

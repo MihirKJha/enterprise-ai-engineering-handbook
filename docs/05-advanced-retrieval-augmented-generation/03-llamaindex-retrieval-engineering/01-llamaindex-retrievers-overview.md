@@ -1,3 +1,13 @@
+---
+title: LlamaIndex Retrievers: Architecture and Enterprise RAG
+description: >
+  Learn how LlamaIndex retrievers work in Retrieval-Augmented Generation
+  (RAG), including Documents, Nodes, Indexes, VectorStoreIndex, BM25 and
+  keyword retrieval, recursive retrieval, query fusion, auto-merging,
+  metadata filtering, re-ranking, MMR, retrieval evaluation, and
+  framework-agnostic enterprise RAG architecture.
+---
+
 # LlamaIndex Retrievers Overview
 
 ## 📖 Overview
