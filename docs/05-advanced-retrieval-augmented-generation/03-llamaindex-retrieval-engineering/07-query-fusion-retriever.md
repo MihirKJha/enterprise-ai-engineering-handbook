@@ -1,10 +1,10 @@
 ---
-title: LlamaIndex Query Fusion Retriever: Multi-Query and Hybrid Retrieval for RAG
+title: "LlamaIndex Query Fusion Retriever: Multi-Query and Hybrid Retrieval for RAG"
 description: >
-  Learn how the LlamaIndex Query Fusion Retriever combines multiple query
+  "Learn how the LlamaIndex Query Fusion Retriever combines multiple query
   perspectives and retrieval strategies to improve recall, including
   multi-query retrieval, Reciprocal Rank Fusion, vector and BM25 hybrid
-  retrieval, re-ranking, MMR, and production RAG architectures.
+  retrieval, re-ranking, MMR, and production RAG architectures."
 ---
 # Query Fusion Retriever
 

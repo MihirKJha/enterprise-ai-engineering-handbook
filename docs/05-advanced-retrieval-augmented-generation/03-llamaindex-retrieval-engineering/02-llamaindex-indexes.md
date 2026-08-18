@@ -1,11 +1,11 @@
 ---
-title: LlamaIndex Indexes: Vector, Keyword, Summary and Graph Retrieval
+title: "LlamaIndex Indexes: Vector, Keyword, Summary and Graph Retrieval"
 description: >
-  Learn how LlamaIndex indexes organize documents and nodes for enterprise
+  "Learn how LlamaIndex indexes organize documents and nodes for enterprise
   RAG, including VectorStoreIndex, SummaryIndex, keyword and graph-oriented
   indexes, embeddings, metadata, persistence, multi-index routing, index
   versioning, incremental indexing, evaluation, security, and production
-  index lifecycle management.
+  index lifecycle management."
 ---
 # LlamaIndex Indexes
 
