@@ -7,7 +7,6 @@ description: >
   metadata filtering, re-ranking, MMR, retrieval evaluation, and
   framework-agnostic enterprise RAG architecture.
 ---
-
 # LlamaIndex Retrievers Overview
 
 ## 📖 Overview

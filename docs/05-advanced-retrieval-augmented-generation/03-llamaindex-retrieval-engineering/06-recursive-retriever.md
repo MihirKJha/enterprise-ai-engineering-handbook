@@ -7,7 +7,6 @@ description: >
   recursive traversal, and production-grade hierarchical RAG architectures.
 ---
 
-
 # Recursive Retriever
 
 ## 📖 Overview

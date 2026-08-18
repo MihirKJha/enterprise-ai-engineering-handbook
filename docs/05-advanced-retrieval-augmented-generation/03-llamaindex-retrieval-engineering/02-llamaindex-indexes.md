@@ -7,8 +7,6 @@ description: >
   versioning, incremental indexing, evaluation, security, and production
   index lifecycle management.
 ---
-
-
 # LlamaIndex Indexes
 
 ## 📖 Overview

@@ -6,7 +6,6 @@ description: >
   retrieval, embedding and LLM retrieval modes, document routing, chunk-level
   retrieval, re-ranking, evaluation, security, and production RAG architecture.
 ---
-
 # Document Summary Retriever
 
 ## 📖 Overview

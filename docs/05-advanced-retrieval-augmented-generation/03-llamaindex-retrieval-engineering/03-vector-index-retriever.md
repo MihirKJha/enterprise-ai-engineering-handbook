@@ -7,8 +7,6 @@ description: >
   retrieval, re-ranking, MMR, multi-query retrieval, retrieval evaluation,
   security, observability, and production RAG architecture.
 ---
-
-
 # Vector Index Retriever
 
 ## 📖 Overview

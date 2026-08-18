@@ -6,7 +6,6 @@ description: >
   multi-query retrieval, Reciprocal Rank Fusion, vector and BM25 hybrid
   retrieval, re-ranking, MMR, and production RAG architectures.
 ---
-
 # Query Fusion Retriever
 
 ## 📖 Overview

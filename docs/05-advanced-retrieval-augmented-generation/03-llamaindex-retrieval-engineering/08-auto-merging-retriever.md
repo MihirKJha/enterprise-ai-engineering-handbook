@@ -7,7 +7,6 @@ description: >
   retrieval, recursive merging, hybrid search, re-ranking, contextual
   compression, and production-ready RAG architectures.
 ---
-
 # Auto-Merging Retriever
 
 ## 📖 Overview

@@ -8,7 +8,6 @@ description: >
   integration, metadata filtering, re-ranking, evaluation, tuning,
   observability, and production enterprise RAG architectures.
 ---
-
 # BM25 Retriever
 
 ## 📖 Overview
