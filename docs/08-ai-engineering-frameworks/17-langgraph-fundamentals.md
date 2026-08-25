@@ -183,11 +183,11 @@ END
 Conceptually:
 
 ```text
-                 Graph
-                   │
-        ┌──────────┼──────────┐
-        ↓          ↓          ↓
-      State      Nodes      Edges
+           Graph
+             │
+  ┌──────────┼──────────┐
+  ↓          ↓          ↓
+State      Nodes      Edges
 ```
 
 ---
@@ -196,6 +196,18 @@ Conceptually:
 
 A graph can be represented as:
 
+```mermaid
+flowchart LR
+    START([START]) --> A[Node A]
+    A --> B[Node B]
+    B --> C[Node C]
+    C --> END([END])
+
+    State[(Shared State)]
+    State -.-> A
+    State -.-> B
+    State -.-> C
+```
 ```text
 Graph
  ├── State
@@ -469,11 +481,11 @@ A sequential graph is:
 ```text
 START
  ↓
-A
+ A
  ↓
-B
+ B
  ↓
-C
+ C
  ↓
 END
 ```
