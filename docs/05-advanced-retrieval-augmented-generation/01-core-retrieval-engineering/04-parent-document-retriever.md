@@ -265,7 +265,7 @@ The parent is returned as context.
 
 ---
 
-# 4. Basic Architecture
+# 4. Architecture
 
 ```mermaid
 flowchart LR
@@ -303,6 +303,70 @@ Parent Store
     ↓
 Parent documents
 ```
+
+## 🧩 Parent Document Retriever Architecture
+
+Parent Document Retrieval solves a fundamental conflict:
+
+    Small Chunks
+    =
+    Better retrieval precision
+
+    Large Chunks
+    =
+    Better context
+
+The solution is a two-level architecture.
+
+    Original Document
+           │
+           ▼
+    Large Parent Chunks
+           │
+           ▼
+    Small Child Chunks
+           │
+           ▼
+    Embedding + Vector Store
+
+### Retrieval Flow
+
+    User Query
+         ↓
+    Embed Query
+         ↓
+    Retrieve Child Chunks
+         ↓
+    Find Parent IDs
+         ↓
+    Load Parent Documents
+         ↓
+    Return Larger Context
+
+### Storage Model
+
+                     ┌──────────────┐
+                     │ Vector Store │
+                     │ Child Chunks │
+                     └──────┬───────┘
+                            │ Parent ID
+                            ▼
+                     ┌───────────────┐
+                     │ Document Store│
+                     │ Parent Chunks │
+                     └───────────────┘
+
+### Key Insight
+
+The child chunk is optimized for:
+
+    Matching
+
+The parent document is optimized for:
+
+    Context
+
+This is why Parent Document Retrieval is a strong pattern for enterprise RAG over long technical documents.
 
 ---
 

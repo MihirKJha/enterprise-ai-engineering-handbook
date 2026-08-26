@@ -92,7 +92,9 @@ This enables semantic search even when the query and document use different word
 
 ---
 
-# 2. Traditional Search vs Vector Search
+# 2. Important Differences
+
+### 🗄️Traditional Search vs Vector Search
 
 Traditional keyword search may look for:
 
@@ -110,6 +112,197 @@ annual leave days
 ```
 
 These phrases may have different words but similar meaning.
+
+
+### 🗄️ Vector Databases vs Traditional Databases
+
+Traditional databases and vector databases solve different data retrieval problems.
+
+| Capability | Traditional Database | Vector Database |
+|---|---|---|
+| Data representation | Tables, rows, columns | High-dimensional vectors |
+| Primary query model | SQL and structured predicates | Similarity and nearest-neighbor search |
+| Common indexes | B-tree, hash indexes | ANN indexes |
+| Primary strength | Transactions and structured data | Semantic similarity |
+| Typical AI use | Application state and business data | Retrieval and similarity search |
+
+### Conceptual Difference
+
+    Traditional Database
+
+    Query
+      ↓
+    WHERE condition
+      ↓
+    Exact / Structured Match
+      ↓
+    Result
+
+
+    Vector Database
+
+    Query
+      ↓
+    Embedding
+      ↓
+    Similarity Search
+      ↓
+    Nearest Neighbors
+
+### Architecture Insight
+
+A vector database usually complements rather than replaces a traditional database.
+
+    Application
+        │
+        ├── Traditional Database
+        │      ↓
+        │   Transactions
+        │   Structured Data
+        │
+        └── Vector Database
+               ↓
+            Semantic Retrieval
+            Similarity Search
+
+---
+### 📚 Vector Library vs Vector Database
+
+Not every technology capable of vector search is a full database.
+
+### Vector Library
+
+A vector library primarily provides:
+
+- Vector indexing
+- Similarity search
+- Nearest-neighbor algorithms
+
+Typical architecture:
+
+    Application
+        ↓
+    Vector Library
+        ↓
+    Vector Index
+
+The application may need to manage:
+
+- Persistence
+- Metadata
+- Document storage
+- Lifecycle management
+- Infrastructure
+
+### Vector Database
+
+A vector database typically provides:
+
+- Vector storage
+- Persistence
+- CRUD operations
+- Metadata
+- Filtering
+- Index management
+- Query APIs
+
+Typical architecture:
+
+    Application
+        ↓
+    Vector Database
+        ↓
+    Collection / Namespace
+        ↓
+    Vector Index
+        ↓
+    Persistent Storage
+
+### Key Distinction
+
+    Vector Library
+    =
+    Vector Search Capability
+
+
+    Vector Database
+    =
+    Vector Search
+    +
+    Storage
+    +
+    Data Management
+    +
+    Operational Capabilities
+
+### Engineering Perspective
+
+Use a vector library when you want greater control over indexing and storage architecture.
+
+Use a vector database when you need an integrated system for storing, managing, and querying vectors.
+
+---
+### ⚖️ Dedicated Vector Database vs Database with Vector Search
+
+Organizations commonly choose between two approaches.
+
+### Dedicated Vector Database
+
+A dedicated vector database is designed primarily for:
+
+- High-dimensional vector storage
+- ANN search
+- Similarity retrieval
+- Vector indexing at scale
+
+Architecture:
+
+    Application
+         ↓
+    Dedicated Vector Database
+         ↓
+    Vector Index
+         ↓
+    Similarity Search
+
+### Database with Vector Search
+
+An existing database platform can also provide vector search capabilities.
+
+Architecture:
+
+    Application
+         ↓
+    Existing Database
+         ├── Structured Data
+         ├── Metadata
+         └── Vector Search
+
+### Comparison
+
+| Factor | Dedicated Vector Database | Database with Vector Search |
+|---|---|---|
+| Vector specialization | High | Varies |
+| Infrastructure simplicity | Additional system | Often simpler |
+| Structured data integration | Separate concern | Often strong |
+| Vector scale | Often optimized for large workloads | Depends on implementation |
+| Operational model | Specialized | Integrated with existing platform |
+
+### Architecture Decision
+
+Choose based on:
+
+- Vector dataset size
+- Query volume
+- Latency requirements
+- Existing infrastructure
+- Operational complexity
+- Structured data requirements
+- Team expertise
+
+> The correct choice is an architecture decision, not simply a database feature comparison.
+
+---
 
 ---
 
@@ -252,6 +445,62 @@ Efficient similarity search
 ```
 
 A vector database may use one or more vector indexing algorithms internally.
+
+---
+
+### 🌍 Vector Database Use Cases Beyond RAG
+
+RAG is one important application of vector retrieval, but vector databases support many similarity-based workloads.
+
+### Recommendation Systems
+
+    User Preferences
+           ↓
+    User Embedding
+           ↓
+    Similarity Search
+           ↓
+    Recommended Items
+
+### Image and Multimedia Retrieval
+
+    Image / Video / Audio
+             ↓
+        Embedding Model
+             ↓
+        Vector Database
+             ↓
+        Similarity Search
+             ↓
+        Related Content
+
+### Other Applications
+
+- Recommendation systems
+- Image retrieval
+- Video retrieval
+- Audio similarity
+- Anomaly detection
+- Knowledge discovery
+- Entity similarity
+- Social network analysis
+- Knowledge graph applications
+
+### Key Insight
+
+The general pattern is:
+
+    Data
+      ↓
+    Embedding
+      ↓
+    Vector Index
+      ↓
+    Similarity Search
+      ↓
+    Related Items
+
+RAG is a specialized application of this broader similarity-retrieval pattern.
 
 ---
 

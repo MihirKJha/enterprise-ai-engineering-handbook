@@ -14,6 +14,7 @@ description: >
 
 **BM25** is a classical lexical information-retrieval algorithm that ranks documents based on how well their terms match the user's query.
 
+
 Unlike dense vector retrieval, which represents text as embeddings, BM25 works directly with the **words and terms present in the query and documents**.
 
 The fundamental flow is:
@@ -92,6 +93,107 @@ After completing this chapter, you will be able to:
 - Design production lexical retrieval pipelines
 
 ---
+This will give readers the high-level map before they enter individual chapters.
+
+---
+
+# 0. 🧠 BM25 Foundations: From TF-IDF to BM25
+
+BM25 belongs to the family of sparse keyword retrieval algorithms.
+
+## TF-IDF Foundation
+
+TF-IDF combines:
+
+- **Term Frequency (TF)** — how frequently a term appears in a document
+- **Inverse Document Frequency (IDF)** — how rare the term is across the corpus
+
+Conceptually:
+
+    TF-IDF Score
+    =
+    Term Importance in Document
+    ×
+    Term Rarity in Corpus
+
+## Why BM25 Improves on Basic TF-IDF
+
+BM25 introduces two important improvements:
+
+### 1. Term Frequency Saturation
+
+Repeated occurrences of the same word should not increase relevance indefinitely.
+
+    First few occurrences → useful signal
+
+    Too many repetitions → diminishing benefit
+
+### 2. Document Length Normalization
+
+Long documents naturally contain more terms.
+
+Without normalization:
+
+    Long Document
+         ↓
+    More keyword occurrences
+         ↓
+    Artificially high score
+
+BM25 adjusts scoring to reduce this bias.
+
+## Important Parameters
+
+| Parameter | Typical Value | Purpose |
+|-----------|---------------|---------|
+| `k1` | ~1.2 | Controls term-frequency saturation |
+| `b` | ~0.75 | Controls document-length normalization |
+
+## Practical Interpretation
+
+    Higher k1
+        ↓
+    Repeated term frequency matters more
+
+    Lower k1
+        ↓
+    Term frequency saturates faster
+
+    Higher b
+        ↓
+    More document-length normalization
+
+    Lower b
+        ↓
+    Less document-length normalization
+
+## When BM25 Is Strong
+
+- Technical documentation
+- Legal documents
+- Product identifiers
+- Error codes
+- API names
+- Acronyms
+- Exact terminology
+
+## Important Limitation
+
+BM25 understands:
+
+    Words and frequencies
+
+but not semantic meaning.
+
+Therefore:
+
+    BM25
+    +
+    Vector Retrieval
+    =
+    Hybrid Retrieval
+
+is often stronger than either approach alone.
 
 # 1. What Is Lexical Retrieval?
 

@@ -1314,6 +1314,34 @@ Treat generated queries and filters as untrusted intermediate data.
 
 Measure latency and cost alongside retrieval quality.
 
+
+## 🎯 Advanced Retriever Decision Matrix
+
+| Requirement | LlamaIndex | LangChain / Generic Pattern |
+|---|---|---|
+| Semantic search | Vector Index Retriever | VectorStore Retriever |
+| Exact terminology | BM25 Retriever | BM25 / keyword retriever |
+| Multiple query perspectives | Query Fusion Retriever | MultiQueryRetriever |
+| Metadata-aware retrieval | Metadata filters | SelfQueryRetriever |
+| Small chunks + large context | Auto-Merging Retriever | ParentDocumentRetriever |
+| Follow references between nodes | Recursive Retriever | Custom graph / reference traversal |
+| Retrieve whole relevant documents | Document Summary Retriever | Custom document-level retrieval |
+| Relevance + diversity | MMR / postprocessing | MMR search |
+| Dense + sparse retrieval | Hybrid retrieval | Ensemble / hybrid retrieval |
+| Improve candidate ranking | Re-ranker | Re-ranker |
+| Complex retrieval selection | Router / Agentic retrieval | Router / Agentic retrieval |
+
+### Selection Principle
+
+```text
+Do not ask:
+
+"What is the best retriever?"
+
+Ask:
+
+"What retrieval failure am I trying to solve?"
+
 ---
 
 # 29. Recommended Evolution Path

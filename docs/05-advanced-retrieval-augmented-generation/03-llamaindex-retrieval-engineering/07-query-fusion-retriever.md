@@ -812,6 +812,126 @@ LlamaIndex exposes a distribution-based score option through its fusion implemen
 
 ---
 
+# 🔀 Query Fusion Strategies in short
+
+Query fusion combines results from:
+
+- Multiple query variations
+- Multiple retrievers
+- Multiple ranking strategies
+
+The goal is to improve:
+
+    Recall
+    +
+    Robustness
+    +
+    Coverage
+
+## Retrieval Flow
+
+    Original Query
+          │
+          ├── Query Variation 1 ──→ Retriever
+          │
+          ├── Query Variation 2 ──→ Retriever
+          │
+          ├── Query Variation 3 ──→ Retriever
+          │
+          └── Original Query ─────→ Retriever
+                                      ↓
+                                 Ranked Results
+                                      ↓
+                                  Fusion
+                                      ↓
+                                Final Ranking
+
+---
+
+## 1. Reciprocal Rank Fusion (RRF)
+
+RRF combines ranked lists based on document position.
+
+    RRF Score(d)
+    =
+    Σ 1 / (rank_i(d) + k)
+
+Where:
+
+- `rank_i(d)` = rank of document `d` in result list `i`
+- `k` = smoothing constant, commonly around `60`
+
+### Why RRF Is Powerful
+
+RRF does not depend on raw scores being comparable.
+
+It asks:
+
+> Does this document consistently rank highly across multiple retrieval strategies?
+
+### Best Use
+
+- Production hybrid retrieval
+- Combining BM25 + vector search
+- Combining multiple query variations
+- Combining retrievers with incompatible score scales
+
+### Recommendation
+
+    If unsure which fusion strategy to use:
+    Start with RRF
+
+---
+
+## 2. Relative Score Fusion
+
+Scores are normalized relative to the strongest score.
+
+Conceptually:
+
+    normalized_score
+    =
+    original_score / maximum_score
+
+### Best Use
+
+When:
+
+- Retrieval scores are meaningful
+- Score magnitudes should be preserved
+- Results come from comparable retrieval systems
+
+---
+
+## 3. Distribution-Based Score Fusion
+
+Uses the statistical distribution of scores.
+
+Possible techniques:
+
+- Z-score normalization
+- Percentile normalization
+- Distribution-aware scaling
+
+### Best Use
+
+When:
+
+- Score distributions vary significantly
+- Multiple retrieval systems produce very different score ranges
+- More sophisticated ranking normalization is required
+
+---
+
+## Fusion Strategy Comparison
+
+| Strategy | Strength | Weakness | Best Use |
+|---|---|---|---|
+| RRF | Robust, simple | Ignores score magnitude | Default production choice |
+| Relative Score | Preserves relative confidence | Depends on score comparability | Similar scoring systems |
+| Distribution-Based | Handles score distributions | More complex | Advanced retrieval pipelines |
+---
+
 # 24. Query Fusion with One Retriever
 
 Query fusion does not require multiple retrieval technologies.

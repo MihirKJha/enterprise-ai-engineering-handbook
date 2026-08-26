@@ -90,6 +90,42 @@ Testing
 Failure Engineering
 ```
 
+## 🧭 Advanced Retriever Capability Map
+
+Advanced retrievers extend basic vector similarity search by solving
+specific retrieval problems.
+
+| Retrieval Problem | Advanced Technique |
+|---|---|
+| Need semantic understanding | Vector Retriever |
+| Need exact terminology | BM25 / Keyword Retrieval |
+| Need both semantic + keyword matching | Hybrid / Ensemble Retrieval |
+| Need diverse results | MMR |
+| Query wording is ambiguous | Multi-Query Retrieval |
+| Query requires metadata constraints | Self-Query Retrieval |
+| Small chunks lose context | Parent Document Retrieval |
+| Long documents require hierarchical context | Auto-Merging Retrieval |
+| Information is connected through references | Recursive Retrieval |
+| Multiple retrieval strategies are needed | Query Fusion |
+| Results contain too much irrelevant context | Contextual Compression |
+| Initial retrieval ranking is weak | Re-ranking |
+
+### Core Mental Model
+
+```text
+Retrieval Problem
+       ↓
+Choose Retrieval Strategy
+       ↓
+Retrieve Candidates
+       ↓
+Fuse / Filter / Re-rank
+       ↓
+Select Context
+       ↓
+LLM
+```
+
 ---
 
 ## 🎯 Learning Outcomes

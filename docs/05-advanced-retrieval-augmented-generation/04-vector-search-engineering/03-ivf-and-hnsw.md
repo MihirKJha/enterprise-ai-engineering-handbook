@@ -810,6 +810,63 @@ Unlike IVF, HNSW does not partition the vector space into independent cells.
 
 ---
 
+### ⚙️ HNSW Tuning Parameters
+
+HNSW performance depends on both index construction and query-time configuration.
+
+### `ef_search`
+
+Controls how many candidate nodes are explored during search.
+
+    Higher ef_search
+            ↓
+    Higher Recall
+            +
+    Higher Latency
+
+### `ef_construction`
+
+Controls the search effort used while building the graph.
+
+    Higher ef_construction
+            ↓
+    Better Index Quality
+            +
+    Longer Index Construction
+
+### `max_neighbors`
+
+Controls the maximum number of graph connections maintained by a node.
+
+    Higher max_neighbors
+            ↓
+    Denser Graph
+            ↓
+    Potentially Better Search
+            +
+    Higher Memory Usage
+
+### Production Trade-Off
+
+    Higher Recall
+          ↑
+          │
+          │      More Search Effort
+          │            ↗
+          │
+          └──────────────────→ Latency
+
+Tune HNSW parameters based on:
+
+- Recall targets
+- Query latency SLA
+- Dataset size
+- Memory budget
+- Index build time
+- Query volume
+
+---
+
 # 🏔️ 26. Why "Hierarchical"?
 
 HNSW contains multiple graph layers.

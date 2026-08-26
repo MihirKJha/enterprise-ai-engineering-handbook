@@ -527,6 +527,71 @@ index.as_retriever(
 
 The current implementation exposes `DocumentSummaryIndexEmbeddingRetriever` and `DocumentSummaryIndexLLMRetriever`. :contentReference[oaicite:3]{index=3}
 
+## 🔍 Two Document Summary Retrieval Strategies
+
+LlamaIndex supports two major approaches for retrieving documents through document-level summaries.
+
+### 1. LLM-Based Summary Retrieval
+
+    User Query
+        ↓
+    LLM analyzes query
+        ↓
+    Compare against document summaries
+        ↓
+    Select relevant documents
+        ↓
+    Return original document content
+
+**Advantages**
+
+- Strong semantic reasoning
+- Can interpret complex queries
+- Useful for nuanced document selection
+
+**Trade-offs**
+
+- Higher latency
+- Higher LLM cost
+
+---
+
+### 2. Embedding-Based Summary Retrieval
+
+    User Query
+        ↓
+    Query Embedding
+        ↓
+    Compare with Summary Embeddings
+        ↓
+    Select relevant documents
+        ↓
+    Return original document content
+
+**Advantages**
+
+- Faster
+- Lower cost
+- More scalable
+
+**Trade-offs**
+
+- Less reasoning capability than an LLM-based retriever
+
+---
+
+## Key Distinction
+
+    Summaries are used for retrieval
+
+    Original documents are returned as context
+
+The summary is a retrieval representation, not necessarily the final context returned to the LLM.
+
+| Retriever | Selection Method | Cost | Speed |
+|---|---|---|---|
+| LLM Retriever | LLM reasoning | Higher | Lower |
+| Embedding Retriever | Vector similarity | Lower | Higher |
 ---
 
 # 15. Embedding-Based Summary Retrieval
