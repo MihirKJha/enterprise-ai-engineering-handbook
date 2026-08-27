@@ -1,3 +1,36 @@
+---
+title: "AI Agent Episodic Memory: Learning from Experiences, Successes, and Failures"
+description: "Learn how AI Agent Episodic Memory enables agents to remember previous tasks, experiences, successes, failures, workflow history, user feedback, and historical events using MongoDB, vector databases, semantic retrieval, experience evaluation, and production-ready enterprise AI architectures."
+keywords:
+  - AI Agent Episodic Memory
+  - Episodic Memory
+  - Agent Memory
+  - AI Agent Memory
+  - AI Agents
+  - Agentic AI
+  - Experience-Based Memory
+  - AI Agent Experiences
+  - Historical Agent Memory
+  - Agent Learning from Experience
+  - Workflow History
+  - Task History
+  - AI Agent Failures
+  - AI Agent Successes
+  - User Feedback Memory
+  - Adaptive AI Agents
+  - Continuous Learning
+  - Experience Retrieval
+  - Semantic Experience Retrieval
+  - MongoDB Agent Memory
+  - Vector Database Memory
+  - Event-Based Memory
+  - Enterprise AI Agents
+  - Production AI Systems
+  - AI Agent Decision Making
+  - AI Agent Architecture
+  - Enterprise AI Architecture
+---
+
 # 05. Episodic Memory
 
 > **Category:** Agent Memory

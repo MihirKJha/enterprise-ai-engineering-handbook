@@ -1,3 +1,193 @@
+---
+title: "AI Agent Scaling and Resilience: Autoscaling, Reliability, Backpressure, and Production Architecture"
+description: "Learn how to design scalable and resilient AI agent systems using horizontal scaling, asynchronous workers, queues, autoscaling, backpressure, admission control, rate limiting, caching, retries, circuit breakers, bulkheads, checkpointing, dead-letter queues, provider failover, workload isolation, and production reliability patterns."
+keywords:
+  - AI Agent Scaling
+  - AI Agent Scalability
+  - Agent Scaling and Resilience
+  - AI Agent Resilience
+  - Scalable AI Agents
+  - Resilient AI Agents
+  - Production AI Agent Architecture
+  - Enterprise AI Agent Architecture
+  - AI Agent Reliability
+  - Production AI Systems
+  - Enterprise AI Systems
+  - Production AI Engineering
+  - Enterprise AI Engineering
+  - Agent Runtime Scaling
+  - Agent Runtime Resilience
+  - Horizontal Scaling
+  - Horizontal Agent Scaling
+  - Agent Autoscaling
+  - AI Agent Autoscaling
+  - Cloud-Native AI Agents
+  - Stateless Agent Services
+  - Stateful Agent Services
+  - External State Management
+  - Agent State Store
+  - Agent Worker Architecture
+  - Worker-Based Agent Execution
+  - Agent Workers
+  - Asynchronous Agent Execution
+  - Long-Running AI Agents
+  - Queue-Based Agent Architecture
+  - Agent Task Queue
+  - Message Queue
+  - Queue Depth Autoscaling
+  - Queue Age
+  - Concurrent Agent Tasks
+  - Agent Concurrency
+  - Concurrency Limits
+  - Workload Scaling
+  - Agent Workload Amplification
+  - Model Scaling
+  - Model Provider Capacity
+  - Model Rate Limiting
+  - LLM Rate Limiting
+  - Requests Per Minute
+  - Tokens Per Minute
+  - Concurrent Model Requests
+  - Per-Tenant Limits
+  - Model Provider Failover
+  - AI Model Failover
+  - Multi-Provider Architecture
+  - Provider Fallback
+  - Model Compatibility
+  - AI Model Latency
+  - AI Model Cost
+  - Tool Scaling
+  - AI Agent Tool Scaling
+  - Tool Gateway Scaling
+  - Tool Gateway
+  - Enterprise Tool APIs
+  - Downstream Dependency Scaling
+  - API Rate Limiting
+  - Connection Pooling
+  - Database Connection Pooling
+  - Connection Limits
+  - Cache Architecture
+  - AI Agent Caching
+  - Model Response Caching
+  - Tool Result Caching
+  - Retrieval Caching
+  - Cache Privacy
+  - Tenant-Aware Caching
+  - Cache Stampede
+  - Request Coalescing
+  - Stale While Revalidate
+  - Jittered Refresh
+  - Backpressure
+  - Agent Backpressure
+  - Admission Control
+  - Agent Admission Control
+  - Load Shedding
+  - AI Workload Protection
+  - Capacity Management
+  - Tenant Quotas
+  - Fair Scheduling
+  - Multi-Tenant AI Agents
+  - Tenant Isolation
+  - Tenant Resource Quotas
+  - Workload Isolation
+  - Bulkhead Pattern
+  - Bulkhead Isolation
+  - Failure Domains
+  - AI Agent Failure Domains
+  - Agent Resilience Patterns
+  - Production Reliability Patterns
+  - Fault-Tolerant AI Agents
+  - High Availability AI Agents
+  - Graceful Degradation
+  - Failure Containment
+  - Dependency Failure Handling
+  - Retry Strategy
+  - Bounded Retries
+  - Error-Aware Retries
+  - Exponential Backoff
+  - Retry with Jitter
+  - Circuit Breaker
+  - AI Agent Circuit Breaker
+  - Fallback Strategy
+  - Idempotency
+  - Idempotent Tool Execution
+  - Side Effect Protection
+  - Checkpointing
+  - Agent Checkpointing
+  - Execution Checkpointing
+  - Checkpoint Recovery
+  - Agent Recovery
+  - Long-Running Agent Recovery
+  - Dead-Letter Queue
+  - DLQ
+  - Failed Agent Tasks
+  - Task Recovery
+  - Agent Cancellation
+  - Graceful Shutdown
+  - Agent Execution Limits
+  - Agent Step Limits
+  - Maximum Agent Steps
+  - Token Limits
+  - Token Budgets
+  - Tool Call Limits
+  - Runtime Limits
+  - Resource Limits
+  - AI Agent Cost Controls
+  - Agent Budget Controls
+  - Runaway Agent Prevention
+  - Resource Exhaustion Protection
+  - Agent Rate Limiting
+  - API Gateway Rate Limiting
+  - Agent Observability
+  - AI Agent Monitoring
+  - Agent Metrics
+  - Queue Monitoring
+  - Task Latency
+  - Queue Latency
+  - Queue Depth
+  - Worker Utilization
+  - Model Latency
+  - Tool Latency
+  - Error Rate
+  - Failure Rate
+  - Cost Monitoring
+  - OpenTelemetry
+  - Distributed Tracing
+  - Agent Execution Tracing
+  - Scaling Signals
+  - Agent-Specific Autoscaling
+  - Kubernetes AI Agents
+  - Kubernetes Autoscaling
+  - Containerized AI Agents
+  - Cloud AI Scaling
+  - Cloud-Native Agent Architecture
+  - Autoscaling Policies
+  - Scaling Control Plane
+  - Agent Control Plane
+  - Agent Configuration
+  - Scaling Policies
+  - Worker Limits
+  - Model Limits
+  - Tool Limits
+  - Risk Policies
+  - Capability-Based Interfaces
+  - ModelProvider
+  - MemoryProvider
+  - ToolProvider
+  - StateStore
+  - CheckpointStore
+  - PolicyProvider
+  - RateLimitProvider
+  - Cloud-Independent AI Architecture
+  - Java AI Agent Architecture
+  - Spring Boot AI Agents
+  - Enterprise Agent Platform
+  - Agent Deployment Architecture
+  - Controlled Autonomy
+  - AI Agent Governance
+  - Enterprise AI Architecture
+---
+
 # Agent Scaling & Resilience
 
 > Build AI Agents that can handle increasing workloads, recover from failures, maintain availability, and operate reliably under production conditions.

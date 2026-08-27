@@ -1,3 +1,41 @@
+---
+title: "AI Agent Negotiation: Task Allocation, Contract Net Protocol, and Multi-Agent Decision Making"
+description: "Learn how AI Agent Negotiation enables multiple agents to negotiate task ownership, priorities, resources, costs, workloads, and execution strategies using capability-based selection, load balancing, cost optimization, Contract Net Protocol, consensus, voting, peer-to-peer negotiation, and production enterprise multi-agent architectures."
+keywords:
+  - AI Agent Negotiation
+  - Agent Negotiation
+  - Multi-Agent Negotiation
+  - AI Agent Communication
+  - Multi-Agent Systems
+  - Agentic AI
+  - AI Agents
+  - Autonomous AI Agents
+  - Multi-Agent Decision Making
+  - Task Allocation
+  - Agent Task Allocation
+  - Task Ownership
+  - Capability-Based Negotiation
+  - Cost-Based Negotiation
+  - Load-Based Negotiation
+  - Priority-Based Negotiation
+  - Contract Net Protocol
+  - Agent Bidding
+  - Proposal Evaluation
+  - Agent Selection
+  - Peer-to-Peer Negotiation
+  - Coordinator-Based Negotiation
+  - Distributed AI Agents
+  - Consensus
+  - Multi-Agent Voting
+  - Resource Allocation
+  - AI Workload Balancing
+  - Agent Coordination
+  - Negotiation Engine
+  - Enterprise AI Agents
+  - Production AI Systems
+  - Enterprise AI Architecture
+---
+
 # 07. Agent Negotiation
 
 > **Category:** Agent Communication

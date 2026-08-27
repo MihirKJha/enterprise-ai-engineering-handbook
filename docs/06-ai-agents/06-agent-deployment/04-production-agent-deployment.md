@@ -1,3 +1,174 @@
+---
+title: "Production AI Agent Deployment: Architecture, Kubernetes, Scaling, Reliability, and Enterprise Operations"
+description: "Learn how to deploy production-ready AI agents using cloud-native architecture, API gateways, synchronous and asynchronous runtimes, workers, queues, Kubernetes, autoscaling, state management, checkpointing, security, observability, deployment strategies, disaster recovery, and enterprise AI operations."
+keywords:
+  - Production AI Agent Deployment
+  - AI Agent Deployment
+  - AI Agent Deployment Architecture
+  - Enterprise AI Agent Deployment
+  - Production AI Agent Architecture
+  - Agent Deployment Architecture
+  - Enterprise Agent Architecture
+  - AI Agent Production Architecture
+  - Production AI Systems
+  - Enterprise AI Systems
+  - Enterprise AI Architecture
+  - Production AI Engineering
+  - Enterprise AI Engineering
+  - AI Agent Runtime
+  - Agent Runtime Architecture
+  - Agent Service Architecture
+  - AI Agent API
+  - API Gateway
+  - AI Gateway
+  - Agent API Gateway
+  - API Ingress
+  - Agent Authentication
+  - AI Agent Authorization
+  - Controlled Agent Access
+  - Multi-Tenant AI Agents
+  - Tenant Isolation
+  - Synchronous Agent Execution
+  - Asynchronous Agent Execution
+  - Long-Running AI Agents
+  - Agent Worker Architecture
+  - Agent Workers
+  - Worker-Based Agent Execution
+  - Background Agent Processing
+  - Queue-Based Agent Architecture
+  - Agent Task Queue
+  - Durable Task Queues
+  - Agent Checkpointing
+  - Execution Checkpointing
+  - Agent State Recovery
+  - Long-Running Agent Recovery
+  - External State Management
+  - Agent State Store
+  - Session State
+  - Execution State
+  - Agent Memory Architecture
+  - Stateless Agent Service
+  - Stateful Agent Service
+  - Disposable Agent Runtime
+  - Horizontal Scaling
+  - AI Agent Scaling
+  - Agent Autoscaling
+  - Kubernetes AI Agents
+  - Kubernetes Agent Deployment
+  - Agent Deployment on Kubernetes
+  - Kubernetes Autoscaling
+  - Queue Depth Autoscaling
+  - Containerized AI Agents
+  - Containerized Agent Deployment
+  - Docker AI Agents
+  - Serverless AI Agents
+  - Cloud-Native AI Agents
+  - Cloud AI Deployment
+  - Hybrid AI Deployment
+  - Load Balancing
+  - Agent Health Checks
+  - Liveness Probe
+  - Readiness Probe
+  - Dependency Health
+  - Model Provider Architecture
+  - AI Model Routing
+  - Model Provider Failover
+  - AI Model Failover
+  - Model Timeout
+  - Model Rate Limiting
+  - Tool Gateway
+  - AI Agent Tool Gateway
+  - Controlled Tool Execution
+  - Tool Authorization
+  - Enterprise Tool Integration
+  - Secrets Management
+  - Workload Identity
+  - Least Privilege
+  - Secure Agent Deployment
+  - Production AI Security
+  - AI Agent Guardrails
+  - AI Agent Risk Management
+  - Policy Enforcement
+  - Network Segmentation
+  - Private Model Connectivity
+  - Environment Separation
+  - Development Environment
+  - Staging Environment
+  - Production Environment
+  - AI Agent CI/CD
+  - Agent Deployment Pipeline
+  - Infrastructure as Code
+  - AI Deployment Automation
+  - Agent Versioning
+  - Model Versioning
+  - Prompt Versioning
+  - Tool Versioning
+  - Policy Versioning
+  - Configuration Management
+  - AI Deployment Strategies
+  - Rolling Deployment
+  - Blue-Green Deployment
+  - Canary Deployment
+  - Shadow Deployment
+  - Feature Flags
+  - Deployment Rollback
+  - Reversible Deployment
+  - Behavioral Validation
+  - Production Readiness
+  - AI Agent Reliability
+  - Production Reliability Patterns
+  - Agent Failure Handling
+  - Retry Strategy
+  - Error-Aware Retries
+  - Exponential Backoff
+  - Circuit Breaker
+  - Idempotency
+  - Idempotent Agent Tools
+  - Side Effect Protection
+  - Dead-Letter Queue
+  - DLQ
+  - Graceful Shutdown
+  - Agent Cancellation
+  - Failure Recovery
+  - Disaster Recovery
+  - AI Agent Disaster Recovery
+  - Multi-Region AI Deployment
+  - High Availability AI Agents
+  - Backup and Recovery
+  - Agent Observability
+  - AI Agent Monitoring
+  - Agent Logs
+  - Agent Metrics
+  - Distributed Tracing
+  - AI Agent Tracing
+  - OpenTelemetry
+  - Agent Execution Trace
+  - Model Call Monitoring
+  - Tool Call Monitoring
+  - Policy Monitoring
+  - Task Success Rate
+  - Agent Quality Monitoring
+  - Behavioral Monitoring
+  - Audit Logging
+  - AI Agent Auditability
+  - Cost Management
+  - AI Agent Cost Controls
+  - Token Budget
+  - Resource Limits
+  - Agent Step Limits
+  - Tool Call Limits
+  - Runtime Limits
+  - Production Distributed Systems
+  - Distributed System Failure Modes
+  - Enterprise Agent Platform
+  - Agent Operations
+  - Agentic AI Operations
+  - AI Agent DevOps
+  - Controlled Autonomy
+  - Agent Governance
+  - Enterprise AI Governance
+---
+
 # Production Agent Deployment
 
 > Design and deploy AI Agents as secure, scalable, observable, resilient, and production-ready enterprise services using modern cloud-native deployment practices.

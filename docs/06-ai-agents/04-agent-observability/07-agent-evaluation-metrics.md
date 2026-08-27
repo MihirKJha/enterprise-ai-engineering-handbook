@@ -1,3 +1,56 @@
+---
+title: "AI Agent Evaluation Metrics: Measuring Quality, Correctness, RAG Performance, and Production AI Reliability"
+description: "Learn how AI Agent Evaluation Metrics measure correctness, accuracy, relevance, faithfulness, helpfulness, safety, hallucination rate, task success, RAG quality, offline and online evaluation, human review, LLM-as-a-Judge, benchmark datasets, regression testing, CI/CD evaluation, and production enterprise AI quality."
+keywords:
+  - AI Agent Evaluation Metrics
+  - Agent Evaluation Metrics
+  - AI Agent Evaluation
+  - AI Evaluation
+  - LLM Evaluation
+  - Agentic AI
+  - AI Agents
+  - Enterprise AI Evaluation
+  - Production AI Evaluation
+  - AI Quality Metrics
+  - Answer Quality
+  - AI Correctness
+  - AI Accuracy
+  - AI Relevance
+  - AI Faithfulness
+  - AI Helpfulness
+  - AI Safety Evaluation
+  - Hallucination Rate
+  - Task Success Rate
+  - Workflow Evaluation
+  - Agent Workflow Evaluation
+  - Offline Evaluation
+  - Online Evaluation
+  - Human Evaluation
+  - Automated Evaluation
+  - LLM as a Judge
+  - Benchmark Datasets
+  - AI Benchmarking
+  - AI Regression Testing
+  - Prompt Evaluation
+  - RAG Evaluation
+  - RAG Metrics
+  - Context Precision
+  - Context Recall
+  - Answer Relevancy
+  - Retrieval Quality
+  - LangSmith Evaluation
+  - Ragas
+  - DeepEval
+  - TruLens
+  - Arize Phoenix
+  - Promptfoo
+  - OpenAI Evals
+  - AI Evaluation CI CD
+  - Enterprise AI Agents
+  - Production AI Systems
+  - Enterprise AI Architecture
+---
+
 # 07. Agent Evaluation Metrics
 
 > **Category:** Agent Observability

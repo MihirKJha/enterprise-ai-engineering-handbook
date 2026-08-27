@@ -1,3 +1,59 @@
+---
+title: "AI Agent Security Architecture: Zero Trust, Defense in Depth, and Enterprise AI Protection"
+description: "Learn how to design secure enterprise AI systems using Zero Trust, defense in depth, authentication, authorization, prompt validation, guardrails, memory security, RAG access control, tool authorization, policy enforcement, secrets management, audit logging, and layered security controls for production-ready AI agents."
+keywords:
+  - AI Agent Security Architecture
+  - Enterprise AI Security Architecture
+  - AI Agent Security
+  - Agent Security
+  - AI Security
+  - Secure AI Architecture
+  - Enterprise AI Security
+  - AI Agents
+  - Agentic AI
+  - Zero Trust AI
+  - Zero Trust Architecture
+  - Defense in Depth
+  - Secure by Default
+  - CIA Triad
+  - AI Threat Landscape
+  - AI Attack Surfaces
+  - Prompt Injection
+  - Prompt Validation
+  - AI Guardrails
+  - Memory Security
+  - RAG Security
+  - Retrieval Security
+  - Vector Database Security
+  - Document-Level Permissions
+  - Tenant Isolation
+  - AI Agent Authentication
+  - AI Agent Authorization
+  - RBAC
+  - ABAC
+  - Least Privilege
+  - Tool Authorization
+  - Secure Tool Execution
+  - Policy Enforcement
+  - Open Policy Agent
+  - OPA
+  - Secrets Management
+  - AWS Secrets Manager
+  - Azure Key Vault
+  - HashiCorp Vault
+  - Audit Logging
+  - AI Security Monitoring
+  - OpenTelemetry
+  - SIEM
+  - Multi-Agent Security
+  - Secure Agent Communication
+  - Enterprise RAG Security
+  - Production AI Security
+  - Enterprise AI Systems
+  - Production AI Systems
+  - Enterprise AI Architecture
+---
+
 # Secrets Management for AI Agents
 
 > Secrets management protects credentials, API keys, tokens, certificates, connection strings, and other sensitive configuration used by AI Agents and the tools and services they invoke.

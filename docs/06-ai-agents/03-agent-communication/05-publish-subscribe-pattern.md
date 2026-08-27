@@ -1,3 +1,40 @@
+---
+title: "Publish-Subscribe Pattern for AI Agents: Fan-Out Messaging and Event-Driven Communication"
+description: "Learn how the Publish-Subscribe pattern enables AI agents to communicate through topics, publishers, and subscribers using fan-out messaging, asynchronous event distribution, Kafka, RabbitMQ, Redis Pub/Sub, AWS SNS, Azure Service Bus, Google Pub/Sub, schema versioning, idempotent consumers, and scalable enterprise AI architectures."
+keywords:
+  - Publish Subscribe Pattern
+  - Pub Sub Pattern
+  - AI Agent Communication
+  - Agent Communication
+  - AI Agents
+  - Agentic AI
+  - Multi-Agent Systems
+  - Event-Driven AI
+  - Event-Driven Architecture
+  - Fan-Out Messaging
+  - Event Distribution
+  - Asynchronous Messaging
+  - Publishers
+  - Subscribers
+  - Topics
+  - Topic-Based Messaging
+  - Apache Kafka
+  - Kafka Topics
+  - RabbitMQ
+  - Redis Pub Sub
+  - AWS SNS
+  - Azure Service Bus Topics
+  - Google Pub Sub
+  - Event Streaming
+  - Idempotent Consumers
+  - Event Schema Versioning
+  - Correlation IDs
+  - Dead Letter Queue
+  - Enterprise AI Agents
+  - Production AI Systems
+  - Enterprise AI Architecture
+---
+
 # 05. Publish-Subscribe Pattern
 
 > **Category:** Agent Communication

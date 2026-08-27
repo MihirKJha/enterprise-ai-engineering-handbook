@@ -1,3 +1,41 @@
+---
+title: "AI Agent Conflict Resolution: Arbitration, Consensus, Distributed Locking, and Multi-Agent Coordination"
+description: "Learn how AI Agent Conflict Resolution detects and resolves task, resource, decision, priority, and state conflicts using arbitration, voting, consensus, leader election, distributed locking, optimistic concurrency, retries, compensation, and production-ready enterprise multi-agent architectures."
+keywords:
+  - AI Agent Conflict Resolution
+  - Agent Conflict Resolution
+  - Multi-Agent Conflict Resolution
+  - AI Agent Communication
+  - Multi-Agent Systems
+  - Agentic AI
+  - AI Agents
+  - Agent Coordination
+  - Conflict Detection
+  - Task Ownership Conflict
+  - Resource Conflict
+  - Decision Conflict
+  - Priority Conflict
+  - State Conflict
+  - Agent Arbitration
+  - Multi-Agent Voting
+  - Consensus Algorithms
+  - Leader Election
+  - Distributed Locking
+  - Distributed Locks
+  - Redis Locks
+  - Optimistic Concurrency
+  - Shared State Management
+  - Race Conditions
+  - Idempotent Workflows
+  - Workflow Retry
+  - Workflow Compensation
+  - Distributed Coordination
+  - Conflict Resolution Engine
+  - Enterprise AI Agents
+  - Production AI Systems
+  - Enterprise AI Architecture
+---
+
 # 08. Conflict Resolution
 
 > **Category:** Agent Communication

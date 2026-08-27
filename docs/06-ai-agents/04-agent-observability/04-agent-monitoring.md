@@ -1,3 +1,51 @@
+---
+title: "AI Agent Monitoring: Metrics, Health Checks, Alerts, and Production AI Operations"
+description: "Learn how AI Agent Monitoring continuously tracks agent health, workflow performance, LLM latency, RAG pipelines, memory retrieval, tool calls, token usage, infrastructure, SLIs, SLOs, SLAs, dashboards, alerts, Prometheus, Grafana, OpenTelemetry, and production-ready enterprise AI operations."
+keywords:
+  - AI Agent Monitoring
+  - Agent Monitoring
+  - AI Monitoring
+  - AI Agents
+  - Agentic AI
+  - Enterprise AI Monitoring
+  - Production AI Monitoring
+  - AI Agent Health
+  - Agent Health Monitoring
+  - Workflow Monitoring
+  - AI Workflow Monitoring
+  - LLM Monitoring
+  - LLM Latency Monitoring
+  - RAG Monitoring
+  - Retrieval Monitoring
+  - Memory Monitoring
+  - Tool Monitoring
+  - AI Agent Metrics
+  - Token Usage Monitoring
+  - AI Cost Monitoring
+  - Infrastructure Monitoring
+  - Health Checks
+  - Liveness Checks
+  - Readiness Checks
+  - Dependency Checks
+  - SLIs
+  - SLOs
+  - SLAs
+  - Prometheus
+  - Grafana
+  - OpenTelemetry
+  - Alerting
+  - AI Monitoring Dashboard
+  - CloudWatch
+  - Azure Monitor
+  - Google Cloud Monitoring
+  - LangSmith
+  - LangFuse
+  - Arize Phoenix
+  - Enterprise AI Agents
+  - Production AI Systems
+  - Enterprise AI Architecture
+---
+
 # 04. Agent Monitoring
 
 > **Category:** Agent Observability

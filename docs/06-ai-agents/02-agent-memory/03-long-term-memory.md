@@ -1,3 +1,38 @@
+---
+title: "AI Agent Long-Term Memory: Persistent Context and Personalized AI Systems"
+description: "Learn how AI agents use Long-Term Memory to retain user preferences, profiles, historical interactions, episodic experiences, semantic knowledge, and enterprise context across sessions using PostgreSQL, MongoDB, vector databases, object storage, memory lifecycle management, security, privacy, and production-ready AI architectures."
+keywords:
+  - AI Agent Long-Term Memory
+  - Long-Term Memory
+  - Agent Memory
+  - AI Agent Memory
+  - Persistent AI Memory
+  - LLM Long-Term Memory
+  - Stateful AI Agents
+  - User Profile Memory
+  - User Preferences
+  - Episodic Memory
+  - Semantic Memory
+  - Historical Agent Memory
+  - Persistent Context
+  - AI Personalization
+  - Memory Lifecycle
+  - Memory Retrieval
+  - PostgreSQL Agent Memory
+  - MongoDB Agent Memory
+  - Vector Database Memory
+  - Enterprise AI Memory
+  - AI Agent State Management
+  - Persistent Agent Memory
+  - Memory Architecture
+  - Enterprise AI Agents
+  - Production AI Systems
+  - AI Agent Security
+  - AI Privacy
+  - AI Governance
+  - Enterprise AI Architecture
+---
+
 # 03. Long-Term Memory
 
 > **Category:** Agent Memory

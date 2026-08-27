@@ -1,3 +1,58 @@
+---
+title: "Prompt Injection: Defending AI Agents Against Direct and Indirect Instruction Attacks"
+description: "Learn how Prompt Injection attacks manipulate AI agents through malicious user inputs, retrieved documents, websites, emails, PDFs, and external content, including direct injection, indirect injection, prompt leakage, jailbreaks, instruction override, RAG security, guardrails, policy enforcement, tool authorization, Zero Trust, and enterprise AI defense architectures."
+keywords:
+  - Prompt Injection
+  - AI Prompt Injection
+  - LLM Prompt Injection
+  - AI Agent Security
+  - Agent Security
+  - AI Security
+  - Enterprise AI Security
+  - Direct Prompt Injection
+  - Indirect Prompt Injection
+  - Prompt Leakage
+  - Jailbreak Attacks
+  - Instruction Override
+  - Context Poisoning
+  - Malicious Prompts
+  - Prompt Security
+  - Prompt Guardrails
+  - AI Guardrails
+  - RAG Security
+  - RAG Prompt Injection
+  - Retrieval Security
+  - Context Sanitization
+  - Document Sanitization
+  - Input Validation
+  - Output Validation
+  - Tool Authorization
+  - Secure Tool Calling
+  - RBAC
+  - ABAC
+  - Policy Enforcement
+  - Open Policy Agent
+  - OPA
+  - Zero Trust AI
+  - Zero Trust Architecture
+  - AI Agent Authentication
+  - Human in the Loop
+  - AI Audit Logging
+  - Sensitive Data Protection
+  - Enterprise RAG
+  - Multi-Agent Security
+  - AI Agent Communication Security
+  - NeMo Guardrails
+  - Guardrails AI
+  - LangChain Guardrails
+  - LangGraph Security
+  - Microsoft Prompt Shields
+  - Azure AI Content Safety
+  - OWASP LLM Security
+  - Production AI Systems
+  - Enterprise AI Architecture
+---
+
 # 02. Prompt Injection
 
 > **Category:** Agent Security

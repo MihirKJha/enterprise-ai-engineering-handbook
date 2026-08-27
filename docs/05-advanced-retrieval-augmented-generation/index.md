@@ -1,9 +1,151 @@
 ---
-title: Advanced Retrieval-Augmented Generation
-description: >
-  Explore advanced and production-oriented RAG retrieval techniques including
-  hybrid search, multi-query retrieval, parent-child retrieval, reranking,
-  contextual compression, agentic retrieval, and retrieval optimization.
+title: "Advanced Retrieval-Augmented Generation: Enterprise Retrieval, Reranking, and Production RAG"
+description: "Learn how to design advanced and production-ready RAG systems using hybrid search, multi-query retrieval, metadata-aware retrieval, parent-child retrieval, contextual compression, reranking, Graph RAG, SQL RAG, multimodal RAG, Agentic RAG, evaluation, observability, caching, multi-tenancy, and enterprise retrieval architecture."
+keywords:
+  - Advanced Retrieval-Augmented Generation
+  - Advanced RAG
+  - Enterprise RAG
+  - Production RAG
+  - RAG Architecture
+  - Enterprise RAG Architecture
+  - Production RAG Architecture
+  - Retrieval Engineering
+  - Enterprise Retrieval Engineering
+  - Advanced Retrieval
+  - RAG Retrieval
+  - Retrieval-Augmented Generation
+  - Retrieval Strategies
+  - Retrieval Pipeline
+  - Enterprise Retrieval Pipeline
+  - Production Retrieval Pipeline
+  - Vector Retrieval
+  - Vector Search
+  - Semantic Search
+  - Keyword Retrieval
+  - BM25
+  - Hybrid Search
+  - Hybrid Retrieval
+  - Ensemble Retrieval
+  - Ensemble Search
+  - Multi-Query Retrieval
+  - Query Expansion
+  - Advanced Query Rewriting
+  - Query Rewriting
+  - Self-Query Retrieval
+  - Metadata-Aware Retrieval
+  - Metadata Filtering
+  - Parent Document Retrieval
+  - Parent-Child Retrieval
+  - Child Chunk Retrieval
+  - Hierarchical Retrieval
+  - Auto-Merging Retrieval
+  - Recursive Retrieval
+  - Query Fusion
+  - Retrieval Fusion
+  - Router Retrieval
+  - Multi-Stage Retrieval
+  - Contextual Compression
+  - Context Compression
+  - Context Engineering
+  - Context Selection
+  - RAG Context Selection
+  - Re-ranking
+  - Reranking
+  - RAG Reranking
+  - Retrieval Reranking
+  - Cross-Encoder Reranking
+  - Candidate Generation
+  - Candidate Ranking
+  - Recall and Precision
+  - Retrieval Precision
+  - Retrieval Recall
+  - MMR
+  - Maximal Marginal Relevance
+  - Diversity-Aware Retrieval
+  - Diverse Retrieval Results
+  - Time-Weighted Retrieval
+  - HyDE
+  - Hypothetical Document Embeddings
+  - Retrieval Optimization
+  - Advanced Retriever Patterns
+  - Enterprise Retriever Patterns
+  - LlamaIndex Retrieval
+  - LlamaIndex Retrievers
+  - LlamaIndex Indexes
+  - Vector Index Retriever
+  - BM25 Retriever
+  - Document Summary Retriever
+  - Recursive Retriever
+  - Query Fusion Retriever
+  - FAISS
+  - Vector Index
+  - HNSW
+  - HNSW Vector Search
+  - Vector Search Technologies
+  - Advanced RAG Architecture
+  - Graph RAG
+  - Graph Retrieval
+  - Knowledge Graph RAG
+  - Knowledge Graphs for RAG
+  - Entity Extraction
+  - Relationship Extraction
+  - Relevant Subgraph Retrieval
+  - SQL RAG
+  - Text-to-SQL
+  - Natural Language to SQL
+  - SQL Generation
+  - SQL Validation
+  - Structured Data Retrieval
+  - Multimodal RAG
+  - Multimodal Retrieval
+  - Image Retrieval
+  - Table Retrieval
+  - PDF Retrieval
+  - Multimodal Context
+  - Agentic RAG
+  - Retrieval Planning
+  - Adaptive Retrieval
+  - Intelligent Retrieval
+  - Retrieval Strategy Selection
+  - Retrieval Evaluation
+  - RAG Evaluation
+  - RAG Benchmarking
+  - Retrieval Quality
+  - RAG Observability
+  - RAG Monitoring
+  - Retrieval Observability
+  - RAG Tracing
+  - Retrieval Metrics
+  - RAG Performance Optimization
+  - Retrieval Performance
+  - RAG Cost Optimization
+  - Production RAG Engineering
+  - Prompt Assembly
+  - Context Engineering
+  - Response Validation
+  - Citation and Source Attribution
+  - RAG Citations
+  - Enterprise Response
+  - Grounded Generation
+  - RAG Response Quality
+  - Production Retrieval Architecture
+  - Building Production RAG Systems
+  - RAG Deployment Patterns
+  - RAG Caching
+  - RAG Caching Strategies
+  - Retrieval Caching
+  - Multi-Tenant RAG
+  - Tenant Isolation
+  - Enterprise AI Multi-Tenancy
+  - RAG Testing
+  - RAG Testing Frameworks
+  - RAG Failure Patterns
+  - Retrieval Failure Engineering
+  - Production AI Systems
+  - Enterprise AI Systems
+  - Enterprise AI Architecture
+  - Production AI Engineering
+  - Enterprise AI Engineering
 hide:
   - toc  
 ---

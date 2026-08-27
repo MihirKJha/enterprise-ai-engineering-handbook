@@ -1,3 +1,37 @@
+---
+title: "AI Agent Semantic Memory: Knowledge Retrieval, Vector Databases, and Enterprise RAG"
+description: "Learn how AI Agent Semantic Memory stores facts, concepts, relationships, and domain knowledge using embeddings, vector databases, semantic retrieval, metadata filtering, knowledge graphs, reranking, and RAG pipelines for production-ready enterprise AI systems."
+keywords:
+  - AI Agent Semantic Memory
+  - Semantic Memory
+  - Agent Memory
+  - AI Agent Memory
+  - AI Agents
+  - Agentic AI
+  - Semantic Retrieval
+  - Knowledge Retrieval
+  - Enterprise Knowledge
+  - Domain Knowledge
+  - Vector Databases
+  - Vector Search
+  - Embeddings
+  - Semantic Search
+  - RAG
+  - Retrieval Augmented Generation
+  - Enterprise RAG
+  - Knowledge Graphs
+  - Metadata Filtering
+  - AI Retrievers
+  - Reranking
+  - ChromaDB
+  - LlamaIndex
+  - LangChain
+  - Enterprise Knowledge Assistant
+  - Production AI Systems
+  - AI Agent Architecture
+  - Enterprise AI Architecture
+---
+
 # 06. Semantic Memory
 
 > **Category:** Agent Memory

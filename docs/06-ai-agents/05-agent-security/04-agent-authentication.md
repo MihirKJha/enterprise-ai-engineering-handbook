@@ -1,3 +1,62 @@
+---
+title: "AI Agent Authentication: Identity Verification and Machine Identity for Enterprise AI Systems"
+description: "Learn how AI Agent Authentication verifies the identity of users, AI agents, microservices, tools, APIs, and cloud services using OAuth 2.0, OpenID Connect, JWT, Mutual TLS, Service Accounts, SSO, SPIFFE/SPIRE, Identity Providers, Zero Trust, and secure machine-to-machine authentication for production-ready enterprise AI systems."
+keywords:
+  - AI Agent Authentication
+  - Agent Authentication
+  - AI Authentication
+  - Enterprise AI Security
+  - AI Agent Security
+  - AI Agents
+  - Agentic AI
+  - Identity Verification
+  - Digital Identity
+  - Machine Identity
+  - AI Agent Identity
+  - Service Identity
+  - Authentication vs Authorization
+  - Human Authentication
+  - Machine-to-Machine Authentication
+  - OAuth 2.0
+  - OpenID Connect
+  - OIDC
+  - JSON Web Token
+  - JWT
+  - Mutual TLS
+  - mTLS
+  - Service Accounts
+  - Single Sign-On
+  - SSO
+  - Multi-Factor Authentication
+  - MFA
+  - Identity Provider
+  - IdP
+  - OAuth Client Credentials
+  - SPIFFE
+  - SPIRE
+  - API Authentication
+  - Token-Based Authentication
+  - Access Tokens
+  - Short-Lived Tokens
+  - JWT Validation
+  - Token Lifecycle Management
+  - Service-to-Service Authentication
+  - Microservices Authentication
+  - Cloud IAM
+  - Managed Identity
+  - AWS IAM Roles
+  - Microsoft Entra ID
+  - Okta
+  - Auth0
+  - Keycloak
+  - Zero Trust AI
+  - Zero Trust Architecture
+  - Enterprise AI Platform
+  - AI Agent Security Architecture
+  - Production AI Systems
+  - Enterprise AI Architecture
+---
+
 # 04. Agent Authentication
 
 > **Category:** Agent Security

@@ -1,3 +1,48 @@
+---
+title: "AI Agent Logging: Structured Logs, Correlation IDs, and Production Debugging"
+description: "Learn how AI Agent Logging records execution events, prompts, tool calls, memory operations, errors, audit events, token usage, and workflow state using structured JSON logs, Request IDs, Correlation IDs, OpenTelemetry, Loki, Elasticsearch, Grafana, and production-ready enterprise AI architectures."
+keywords:
+  - AI Agent Logging
+  - Agent Logging
+  - AI Logging
+  - LLM Logging
+  - AI Agents
+  - Agentic AI
+  - Enterprise AI Logging
+  - Structured Logging
+  - JSON Logging
+  - AI Agent Execution Logs
+  - Prompt Logging
+  - Tool Execution Logs
+  - Memory Logging
+  - Error Logging
+  - Audit Logging
+  - AI Agent Debugging
+  - Production AI Debugging
+  - Request ID
+  - Correlation ID
+  - Distributed Logging
+  - Centralized Logging
+  - OpenTelemetry Logging
+  - OpenTelemetry
+  - Log Aggregation
+  - Loki
+  - Elasticsearch
+  - ELK Stack
+  - Splunk
+  - Grafana
+  - LangChain Logging
+  - LangGraph Logging
+  - Token Usage Logging
+  - Prompt Versioning
+  - Model Versioning
+  - Sensitive Data Masking
+  - Log Retention
+  - Enterprise AI Agents
+  - Production AI Systems
+  - Enterprise AI Architecture
+---
+
 # 02. Agent Logging
 
 > **Category:** Agent Observability

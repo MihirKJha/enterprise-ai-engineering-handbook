@@ -1,3 +1,61 @@
+---
+title: "AI Agent Authorization: RBAC, ABAC, Policy Enforcement, and Fine-Grained Access Control"
+description: "Learn how AI Agent Authorization controls what users and agents can access, invoke, modify, and execute using RBAC, ABAC, capability-based permissions, delegated authorization, least privilege, policy engines, resource-level access control, tool authorization, tenant isolation, Human-in-the-Loop approval, and production-ready enterprise AI security architectures."
+keywords:
+  - AI Agent Authorization
+  - Agent Authorization
+  - AI Authorization
+  - Enterprise AI Authorization
+  - AI Agent Security
+  - Agent Security
+  - AI Agents
+  - Agentic AI
+  - Access Control
+  - Fine-Grained Authorization
+  - Fine-Grained Access Control
+  - Role-Based Access Control
+  - RBAC
+  - Attribute-Based Access Control
+  - ABAC
+  - Capability-Based Authorization
+  - Capability-Based Security
+  - Resource-Level Authorization
+  - Action-Level Authorization
+  - Tool Authorization
+  - AI Agent Tool Authorization
+  - Delegated Authorization
+  - User Context Propagation
+  - Authorization Context
+  - Dynamic Authorization
+  - Risk-Based Authorization
+  - Step-Up Authorization
+  - Least Privilege
+  - Permission Boundaries
+  - Temporary Permissions
+  - Scoped Authorization
+  - Policy Enforcement
+  - Policy Engine
+  - Policy Decision Point
+  - Policy Enforcement Point
+  - Open Policy Agent
+  - OPA
+  - Human in the Loop
+  - High-Risk Action Approval
+  - Multi-Tenant Authorization
+  - Tenant Isolation
+  - Data-Level Authorization
+  - RAG Authorization
+  - Permission-Aware Retrieval
+  - Authorization-Aware Tool Routing
+  - Authorization Audit Logging
+  - Authorization Observability
+  - Zero Trust AI
+  - Defense in Depth
+  - Enterprise AI Agents
+  - Production AI Systems
+  - Enterprise AI Architecture
+---
+
 # Agent Authorization
 
 > Agent authorization defines what an AI Agent is permitted to access, invoke, modify, or execute after authentication and identity verification.

@@ -1,3 +1,34 @@
+---
+title: "AI Agent Reasoning: Decision-Making, Observation, Reflection, and Controlled Autonomy"
+description: "Learn how AI agents reason and make decisions using current state, observations, tool-aware reasoning, action selection, feedback loops, reflection, self-correction, uncertainty handling, policy validation, replanning, guardrails, and controlled autonomy for production-ready enterprise AI systems."
+keywords:
+  - AI Agent Reasoning
+  - Agent Reasoning
+  - AI Agents
+  - Agentic AI
+  - AI Agent Decision Making
+  - Agent Decision Making
+  - Observation-Driven Reasoning
+  - Tool-Aware Reasoning
+  - Action Selection
+  - Agent Execution
+  - Reasoning and Action
+  - AI Agent Reflection
+  - Agent Self-Correction
+  - Feedback Loops
+  - AI Agent Replanning
+  - Reasoning Under Uncertainty
+  - Controlled Autonomy
+  - AI Agent Guardrails
+  - Human Approval
+  - Policy Validation
+  - Agent Observability
+  - Production AI Agents
+  - Enterprise AI Agents
+  - AI Agent Architecture
+  - Enterprise AI Architecture
+---
+
 # Agent Reasoning
 
 > Agent reasoning enables an AI Agent to interpret goals, evaluate available information, select appropriate actions, and adapt its behavior based on observations and outcomes.

@@ -1,3 +1,48 @@
+---
+title: "AI Agent Tracing: Distributed Traces, Spans, and End-to-End Workflow Visibility"
+description: "Learn how AI Agent Tracing follows requests across agents, retrievers, vector databases, LLMs, tools, APIs, and services using traces, spans, parent-child relationships, context propagation, OpenTelemetry, Jaeger, Grafana Tempo, LangSmith, and production-ready enterprise AI observability architectures."
+keywords:
+  - AI Agent Tracing
+  - Agent Tracing
+  - AI Tracing
+  - LLM Tracing
+  - Distributed Tracing
+  - AI Agents
+  - Agentic AI
+  - Enterprise AI Observability
+  - Production AI Systems
+  - Trace
+  - Span
+  - Parent Child Spans
+  - Trace ID
+  - Context Propagation
+  - Distributed AI Systems
+  - AI Workflow Tracing
+  - Agent Workflow Monitoring
+  - Multi-Agent Tracing
+  - LLM Call Tracing
+  - Tool Execution Tracing
+  - Memory Operation Tracing
+  - RAG Tracing
+  - Vector Database Tracing
+  - Prompt Tracing
+  - External API Tracing
+  - Latency Analysis
+  - Performance Bottleneck Analysis
+  - OpenTelemetry
+  - Jaeger
+  - Grafana Tempo
+  - Grafana
+  - LangSmith
+  - LangFuse
+  - Arize Phoenix
+  - LangGraph Tracing
+  - Trace Sampling
+  - End-to-End Observability
+  - Enterprise AI Agents
+  - Enterprise AI Architecture
+---
+
 # 03. Agent Tracing
 
 > **Category:** Agent Observability

@@ -1,3 +1,42 @@
+---
+title: "AI Agent Coordination: Workflow Orchestration and Multi-Agent Task Management"
+description: "Learn how AI Agent Coordination organizes multiple AI agents using centralized and decentralized coordination, sequential, parallel, and hybrid workflows, task scheduling, dependency management, supervisor agents, workflow orchestration, monitoring, retries, failure recovery, Temporal, LangGraph, and production-ready enterprise multi-agent architectures."
+keywords:
+  - AI Agent Coordination
+  - Agent Coordination
+  - Multi-Agent Coordination
+  - AI Agent Orchestration
+  - Multi-Agent Systems
+  - Agentic AI
+  - AI Agents
+  - Workflow Orchestration
+  - AI Workflow Management
+  - Task Scheduling
+  - Task Assignment
+  - Dependency Management
+  - Agent Dependencies
+  - Centralized Coordination
+  - Decentralized Coordination
+  - Sequential Coordination
+  - Parallel Coordination
+  - Hybrid Coordination
+  - Supervisor Agent
+  - LangGraph Supervisor Pattern
+  - Workflow Coordinator
+  - Agent Scheduling
+  - Agent Monitoring
+  - Workflow State Management
+  - Failure Recovery
+  - Retry Strategies
+  - Result Aggregation
+  - Temporal Workflow
+  - Durable Workflow Orchestration
+  - Long-Running AI Workflows
+  - Enterprise AI Agents
+  - Production AI Systems
+  - Enterprise AI Architecture
+---
+
 # 06. Agent Coordination
 
 > **Category:** Agent Communication

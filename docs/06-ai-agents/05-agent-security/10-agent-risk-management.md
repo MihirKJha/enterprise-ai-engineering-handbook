@@ -1,3 +1,178 @@
+---
+title: "Agent Risk Management: Enterprise AI Risk Assessment, Risk-Based Autonomy, and Controlled Agent Execution"
+description: "Learn how to manage enterprise AI agent risk using capability inventories, risk identification, likelihood and impact scoring, risk matrices, risk-based autonomy, human oversight, tool risk classification, blast-radius reduction, defense in depth, dynamic risk assessment, risk registers, monitoring, testing, and continuous governance for production AI agents."
+keywords:
+  - Agent Risk Management
+  - AI Agent Risk Management
+  - Enterprise AI Risk Management
+  - AI Risk Management
+  - Agent Risk
+  - AI Agent Risk
+  - Enterprise Agent Risk
+  - AI Agent Governance
+  - Enterprise AI Governance
+  - AI Risk Architecture
+  - Agent Risk Architecture
+  - Enterprise Agent Risk Architecture
+  - Production AI Risk Management
+  - Production AI Agents
+  - Enterprise AI Agents
+  - Agentic AI Risk
+  - AI Agent Autonomy
+  - Risk-Based Autonomy
+  - Controlled Autonomy
+  - AI Agent Autonomy Levels
+  - Agent Autonomy Levels
+  - Autonomous AI Risk
+  - AI Agent Risk Assessment
+  - Risk Identification
+  - Risk Assessment
+  - Risk Classification
+  - Risk Scoring
+  - AI Risk Scoring
+  - Dynamic Risk Assessment
+  - Continuous Risk Management
+  - Agent Risk Lifecycle
+  - Risk Lifecycle Management
+  - Likelihood and Impact
+  - Risk Matrix
+  - Risk Register
+  - Agent Risk Register
+  - Enterprise Risk Register
+  - Risk Appetite
+  - Residual Risk
+  - Risk Ownership
+  - Risk Monitoring
+  - Risk Thresholds
+  - Risk Escalation
+  - Risk Acceptance
+  - Risk Mitigation
+  - Risk Avoidance
+  - Risk Reduction
+  - Risk Transfer
+  - Risk Treatment
+  - AI Agent Capabilities
+  - Capability Inventory
+  - Agent Capability Inventory
+  - Asset Identification
+  - Threat Identification
+  - Failure Mode Analysis
+  - Agent Failure Modes
+  - Business Impact Analysis
+  - Model Risk
+  - AI Model Risk
+  - Reasoning Risk
+  - Planning Risk
+  - Tool Risk
+  - AI Agent Tool Risk
+  - Tool Risk Classification
+  - Tool Risk Matrix
+  - Data Risk
+  - Security Risk
+  - Privacy Risk
+  - Operational Risk
+  - Financial Risk
+  - Compliance Risk
+  - Availability Risk
+  - Third-Party Risk
+  - Human Oversight Risk
+  - Agent Authorization
+  - Tool Authorization
+  - Secure Tool Execution
+  - Tool Validation
+  - Action Validation
+  - High-Risk Actions
+  - High-Impact Actions
+  - Human-in-the-Loop
+  - Human Approval
+  - Approval-Based Autonomy
+  - Restricted Autonomy
+  - AI Agent Guardrails
+  - AI Guardrails
+  - Policy Enforcement
+  - Policy as Code
+  - Risk Policy
+  - Dynamic Policy Enforcement
+  - Defense in Depth
+  - AI Agent Defense in Depth
+  - Blast Radius Reduction
+  - AI Agent Blast Radius
+  - Failure Containment
+  - Least Privilege
+  - Tenant Isolation
+  - Scoped Credentials
+  - Read-Only Access
+  - Rate Limits
+  - Resource Limits
+  - Transaction Limits
+  - Budget Controls
+  - AI Agent Cost Controls
+  - Agent Loop Prevention
+  - Autonomous Loop Risk
+  - Maximum Agent Steps
+  - Agent Runtime Limits
+  - Long-Running Agent Risk
+  - Agent Memory Risk
+  - AI Agent Memory Security
+  - Memory Validation
+  - Cross-Tenant Memory
+  - Poisoned Memory
+  - RAG Risk
+  - RAG Security
+  - Unauthorized Retrieval
+  - Poisoned Documents
+  - Cross-Tenant Data Leakage
+  - Data Exposure
+  - Prompt Injection Risk
+  - Tool Abuse
+  - Credential Exposure
+  - Privilege Escalation
+  - Sandbox Escape
+  - Data Exfiltration
+  - Malicious Tools
+  - Supply Chain Risk
+  - AI Agent Sandboxing
+  - Secrets Management
+  - Data Privacy
+  - Agent Observability
+  - AI Risk Observability
+  - Audit Logging
+  - Risk Indicators
+  - Policy Violations
+  - High-Risk Action Monitoring
+  - AI Security Monitoring
+  - Incident Management
+  - AI Agent Incident Response
+  - Risk-Based Evaluation
+  - AI Agent Evaluation
+  - Adversarial Risk Testing
+  - Prompt Injection Testing
+  - Tool Manipulation Testing
+  - Privilege Escalation Testing
+  - Data Exfiltration Testing
+  - Resource Exhaustion Testing
+  - Risk Control Testing
+  - Preventive Controls
+  - Detective Controls
+  - Corrective Controls
+  - Risk Control Mapping
+  - Risk-Aware Agent Deployment
+  - Production Risk Gates
+  - AI Deployment Governance
+  - Change Management
+  - Agent Risk Reassessment
+  - Dynamic Agent Risk
+  - Risk Escalation During Execution
+  - Risk Control Plane
+  - Agent Risk Control Plane
+  - Enterprise AI Control Plane
+  - Risk-Based Agent Architecture
+  - Controlled Agent Execution
+  - Enterprise AI Systems
+  - Production AI Systems
+  - Enterprise AI Architecture
+---
+
 # Agent Risk Management
 
 > Agent Risk Management is the systematic process of identifying, assessing, controlling, monitoring, and responding to risks introduced by AI Agent autonomy, reasoning, memory, tool usage, data access, and execution.

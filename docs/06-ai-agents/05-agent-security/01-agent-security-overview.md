@@ -1,3 +1,55 @@
+---
+title: "AI Agent Security: Zero Trust, Guardrails, Authorization, and Enterprise AI Protection"
+description: "Learn how AI Agent Security protects prompts, memory, retrievers, LLMs, tools, workflows, enterprise systems, and users using Zero Trust, authentication, authorization, least privilege, defense in depth, prompt guardrails, policy enforcement, encryption, secrets management, and audit logging for production-ready enterprise AI systems."
+keywords:
+  - AI Agent Security
+  - Agent Security
+  - AI Security
+  - Enterprise AI Security
+  - AI Agents
+  - Agentic AI
+  - Secure AI Agents
+  - AI Security Architecture
+  - Zero Trust AI
+  - Zero Trust Architecture
+  - AI Authentication
+  - AI Authorization
+  - RBAC
+  - ABAC
+  - Principle of Least Privilege
+  - Defense in Depth
+  - CIA Triad
+  - AI Threat Landscape
+  - Prompt Injection
+  - AI Jailbreak
+  - Prompt Guardrails
+  - AI Guardrails
+  - Tool Security
+  - Tool Authorization
+  - Secure Tool Calling
+  - AI Agent Memory Security
+  - Memory Access Control
+  - Retrieval Security
+  - RAG Security
+  - Vector Database Security
+  - Tenant Isolation
+  - Data Leakage Prevention
+  - AI Policy Enforcement
+  - Open Policy Agent
+  - OPA
+  - OAuth 2.0
+  - OpenID Connect
+  - AI Secrets Management
+  - AWS Secrets Manager
+  - Azure Key Vault
+  - HashiCorp Vault
+  - AI Audit Logging
+  - Secure AI Workflows
+  - Enterprise AI Agents
+  - Production AI Systems
+  - Enterprise AI Architecture
+---
+
 # 01. Agent Security Overview
 
 > **Category:** Agent Security

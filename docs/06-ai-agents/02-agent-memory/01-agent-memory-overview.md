@@ -1,3 +1,36 @@
+---
+title: "AI Agent Memory: Working, Short-Term, Long-Term, Episodic, and Semantic Memory"
+description: "Learn how AI Agent Memory transforms stateless LLMs into stateful AI systems using working memory, short-term memory, long-term memory, episodic memory, semantic memory, conversation history, user preferences, execution state, Redis, PostgreSQL, vector databases, memory lifecycle management, and production enterprise AI architectures."
+keywords:
+  - AI Agent Memory
+  - Agent Memory
+  - AI Agents
+  - Agentic AI
+  - Stateful AI Agents
+  - LLM Memory
+  - Working Memory
+  - Short-Term Memory
+  - Long-Term Memory
+  - Episodic Memory
+  - Semantic Memory
+  - Conversation Memory
+  - User Memory
+  - AI Agent Context
+  - Memory Management
+  - Memory Lifecycle
+  - Redis Agent Memory
+  - Vector Database Memory
+  - Enterprise AI Memory
+  - AI Agent State Management
+  - Persistent Agent Memory
+  - Agent Memory Architecture
+  - LangChain Memory
+  - LangGraph Memory
+  - LlamaIndex Memory
+  - Production AI Systems
+  - Enterprise AI Architecture
+---
+
 # 01. Agent Memory Overview
 
 > **Category:** Agent Memory

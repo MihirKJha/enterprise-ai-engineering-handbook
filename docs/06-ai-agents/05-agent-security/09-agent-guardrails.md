@@ -1,3 +1,143 @@
+---
+title: "AI Agent Guardrails: Enterprise Safety, Policy Enforcement, Tool Controls, and Controlled Autonomy"
+description: "Learn how to design enterprise AI agent guardrails using input and output validation, prompt injection defense, tool authorization, policy enforcement, risk-based controls, human approval, sandboxing, resource limits, budget controls, observability, testing, and defense-in-depth for controlled autonomous AI systems."
+keywords:
+  - AI Agent Guardrails
+  - Agent Guardrails
+  - AI Guardrails
+  - Enterprise AI Guardrails
+  - AI Agent Safety
+  - Secure AI Agents
+  - Controlled AI Autonomy
+  - Controlled Autonomy
+  - Enterprise AI Safety Architecture
+  - AI Agent Security Architecture
+  - Production AI Guardrails
+  - Production AI Agents
+  - Agent Policy Enforcement
+  - AI Policy Enforcement
+  - Guardrail Architecture
+  - Enterprise Guardrail Architecture
+  - Guardrail Pipeline
+  - Guardrail Enforcement Points
+  - Machine-Enforced Guardrails
+  - AI Agent Input Guardrails
+  - Input Validation
+  - Input Safety
+  - Prompt Injection Defense
+  - Direct Prompt Injection
+  - Indirect Prompt Injection
+  - Prompt Injection Guardrails
+  - Trust Boundaries
+  - Untrusted Content
+  - AI Agent Tool Guardrails
+  - Tool Selection Guardrails
+  - Tool Authorization
+  - Tool Validation
+  - Secure Tool Execution
+  - Tool Risk Classification
+  - Risk-Based Tool Policy
+  - Tool Argument Validation
+  - Schema Validation
+  - Semantic Validation
+  - Business Policy Validation
+  - Resource Ownership Validation
+  - Tenant Guardrails
+  - Tenant Isolation
+  - Cross-Tenant Access Prevention
+  - AI Agent Authorization
+  - Action Guardrails
+  - Risk Assessment
+  - Risk-Based Controls
+  - Human-in-the-Loop
+  - Human Approval
+  - Approval Thresholds
+  - Irreversible Action Guardrails
+  - Confirmation Guardrails
+  - AI Agent Output Guardrails
+  - Output Validation
+  - Sensitive Data Output Filtering
+  - Credential Leakage Prevention
+  - Secret Detection
+  - Structured Output Guardrails
+  - Response Grounding
+  - Citation Guardrails
+  - Enterprise Policy Guardrails
+  - Policy as Code
+  - Policy Engine
+  - Centralized Policy Enforcement
+  - Guardrail Decision Model
+  - Allow Deny Review
+  - Preventive Guardrails
+  - Detective Guardrails
+  - Corrective Guardrails
+  - Defense in Depth
+  - Guardrail Ordering
+  - Agent Step Limits
+  - Maximum Agent Steps
+  - Agent Execution Limits
+  - Token Limits
+  - Runtime Limits
+  - Resource Limits
+  - Tool Call Limits
+  - Rate Limiting
+  - Tool Rate Limits
+  - Budget Guardrails
+  - AI Agent Cost Controls
+  - Autonomous Workflow Cost Control
+  - Data Access Guardrails
+  - SQL Agent Guardrails
+  - Read-Only SQL Agents
+  - Query Limits
+  - File Operation Guardrails
+  - External Communication Guardrails
+  - High-Impact AI Systems
+  - Guardrail Failure Handling
+  - Fail Open
+  - Fail Closed
+  - Guardrail Availability
+  - Policy Service Failure
+  - Circuit Breaker
+  - Guardrail Bypass Risks
+  - Capability-Based Guardrails
+  - Tool Chaining
+  - Sequence-Aware Guardrails
+  - Agent State Security
+  - Contextual Policy Enforcement
+  - AI Agent Data Privacy
+  - Privacy Guardrails
+  - Secrets Management
+  - AI Agent Sandboxing
+  - Guardrails and Sandboxing
+  - Guardrail Observability
+  - Guardrail Audit Events
+  - Guardrail Metrics
+  - Guardrail Block Rate
+  - False Positive Rate
+  - False Negative Rate
+  - Policy Evaluation Latency
+  - Guardrail Testing
+  - Adversarial Guardrail Testing
+  - Guardrail Regression Testing
+  - Prompt Injection Testing
+  - Tool Misuse Prevention
+  - Policy Testing
+  - Guardrail Quality
+  - Policy Enforcement Points
+  - Shared Policy Infrastructure
+  - Policy Versioning
+  - Guardrail Configuration Management
+  - Guardrails in CI/CD
+  - AI Agent Incident Response
+  - Guardrail Escalation
+  - Enterprise Agent Guardrail Model
+  - Enterprise AI Agents
+  - Agentic AI
+  - Enterprise AI Systems
+  - Production AI Systems
+  - Enterprise AI Architecture
+---
+
 # Agent Guardrails
 
 > Guardrails are the policy, validation, and enforcement mechanisms that constrain AI Agent behavior so that agents can perform useful tasks while remaining within defined safety, security, privacy, compliance, and operational boundaries.

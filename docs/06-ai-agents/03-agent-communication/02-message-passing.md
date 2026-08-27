@@ -1,3 +1,40 @@
+---
+title: "AI Agent Message Passing: Asynchronous Communication and Messaging Patterns for Multi-Agent Systems"
+description: "Learn how AI agents communicate using structured messages, message brokers, synchronous and asynchronous messaging, task delegation, event-driven communication, routing, Kafka, RabbitMQ, Redis Streams, delivery guarantees, retries, dead-letter queues, idempotency, and scalable enterprise multi-agent architectures."
+keywords:
+  - AI Agent Message Passing
+  - Message Passing
+  - Agent Communication
+  - AI Agent Communication
+  - Multi-Agent Systems
+  - Agentic AI
+  - Distributed AI Agents
+  - Structured Messages
+  - Message Brokers
+  - Asynchronous Messaging
+  - Synchronous Messaging
+  - Event-Driven AI
+  - Task Delegation
+  - Agent Collaboration
+  - Message Routing
+  - Publish Subscribe
+  - Point-to-Point Messaging
+  - Kafka AI Agents
+  - RabbitMQ AI Agents
+  - Redis Streams
+  - AWS SQS
+  - Message Delivery Guarantees
+  - At Least Once Delivery
+  - Exactly Once Delivery
+  - Correlation ID
+  - Idempotent Message Processing
+  - Dead Letter Queue
+  - Agent Workflow Orchestration
+  - Enterprise AI Agents
+  - Production AI Systems
+  - Enterprise AI Architecture
+---
+
 # 02. Message Passing
 
 > **Category:** Agent Communication

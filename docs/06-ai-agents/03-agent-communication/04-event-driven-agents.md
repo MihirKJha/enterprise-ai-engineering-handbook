@@ -1,3 +1,43 @@
+---
+title: "Event-Driven AI Agents: Asynchronous Communication and Event-Driven Architecture"
+description: "Learn how Event-Driven AI Agents react to business, system, AI, and error events using event producers, consumers, event brokers, asynchronous workflows, Kafka, RabbitMQ, Redis Streams, AWS EventBridge, Google Pub/Sub, idempotent processing, retries, dead-letter queues, and scalable enterprise AI architectures."
+keywords:
+  - Event-Driven AI Agents
+  - Event-Driven Agents
+  - Event-Driven Architecture
+  - AI Agent Communication
+  - Agent Communication
+  - AI Agents
+  - Agentic AI
+  - Multi-Agent Systems
+  - Asynchronous AI Agents
+  - Event-Driven Systems
+  - Event Producers
+  - Event Consumers
+  - Event Brokers
+  - Event Streaming
+  - Business Events
+  - System Events
+  - AI Events
+  - Error Events
+  - Apache Kafka
+  - Kafka AI Agents
+  - RabbitMQ
+  - Redis Streams
+  - AWS EventBridge
+  - Google Pub Sub
+  - Azure Event Grid
+  - Event-Driven Workflows
+  - Event-Driven Orchestration
+  - Idempotent Consumers
+  - Event Schema Management
+  - Correlation IDs
+  - Dead Letter Queues
+  - Enterprise AI Agents
+  - Production AI Systems
+  - Enterprise AI Architecture
+---
+
 # 04. Event-Driven Agents
 
 > **Category:** Agent Communication

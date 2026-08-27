@@ -1,3 +1,34 @@
+---
+title: "LangChain Expression Language (LCEL) and Manual Tool Calling for Enterprise AI Applications"
+description: "Learn how LangChain Expression Language (LCEL) and Manual Tool Calling enable modular, composable, and production-ready AI applications using Runnables, RunnableSequence, RunnableParallel, pipeline composition, output parsing, structured tool calls, JSON Schema validation, security, observability, error handling, and enterprise AI workflow architectures."
+keywords:
+  - LangChain Expression Language
+  - LCEL
+  - LangChain LCEL
+  - Manual Tool Calling
+  - LangChain Tool Calling
+  - AI Tool Calling
+  - Function Calling
+  - LangChain Runnables
+  - Runnable Interface
+  - RunnableSequence
+  - RunnableParallel
+  - LCEL Pipeline
+  - AI Workflow Orchestration
+  - Output Parsers
+  - Structured Outputs
+  - JSON Schema Validation
+  - AI Agent Tools
+  - Enterprise AI Applications
+  - AI Workflow Architecture
+  - Production AI Systems
+  - AI Agent Architecture
+  - Tool Validation
+  - AI Security
+  - AI Observability
+  - Enterprise AI Engineering
+---
+
 # LangChain Expression Language (LCEL) and Manual Tool Calling
 
 > A comprehensive guide to **LangChain Expression Language (LCEL)** and **Manual Tool Calling**, two fundamental concepts for building modular, composable, and production-ready AI applications. This note explains how LCEL simplifies chaining prompts, LLMs, tools, retrievers, and output parsers into reusable pipelines while also covering manual tool invocation, structured outputs, validation, enterprise workflow patterns, and best practices.
@@ -1808,8 +1839,6 @@ LCEL Pipeline
  ▼
 Enterprise Response
 ```
-
-
 
 
 > **Enterprise AI Engineering Handbook**  

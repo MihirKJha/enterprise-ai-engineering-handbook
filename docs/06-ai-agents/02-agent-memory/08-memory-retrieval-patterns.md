@@ -1,3 +1,40 @@
+---
+title: "AI Agent Memory Retrieval Patterns: Semantic Search, Hybrid Retrieval, and Context Ranking"
+description: "Learn how AI agents retrieve the right memory using exact lookup, semantic search, metadata filtering, recency-based retrieval, hybrid retrieval, reranking, multi-stage retrieval pipelines, context building, and retrieval orchestration for production-ready enterprise AI systems."
+keywords:
+  - AI Agent Memory Retrieval
+  - Memory Retrieval Patterns
+  - Agent Memory Retrieval
+  - AI Agent Memory
+  - AI Agents
+  - Agentic AI
+  - Semantic Retrieval
+  - Semantic Search
+  - Exact Lookup
+  - Metadata Filtering
+  - Recency-Based Retrieval
+  - Hybrid Retrieval
+  - Hybrid Search
+  - Memory Retriever
+  - Context Retrieval
+  - Context Building
+  - Context Ranking
+  - Candidate Retrieval
+  - Multi-Stage Retrieval
+  - Retrieval Pipeline
+  - Reranking
+  - Context Compression
+  - Enterprise RAG
+  - Production RAG
+  - Vector Search
+  - Retrieval Orchestration
+  - LlamaIndex Retrievers
+  - LangChain Retrievers
+  - Enterprise AI Agents
+  - Production AI Systems
+  - Enterprise AI Architecture
+---
+
 # 08. Memory Retrieval Patterns
 
 > **Category:** Agent Memory

@@ -1,3 +1,28 @@
+---
+title: "LangChain Built-in Agents: DataFrame and SQL Agents for Enterprise AI"
+description: "Learn how LangChain Built-in Agents combine LLM reasoning, tool selection, and execution, including Agent Executors, DataFrame Agents, SQL Agents, natural language data analysis, database querying, tool orchestration, security, observability, governance, and production enterprise AI agent architectures."
+keywords:
+  - LangChain Built-in Agents
+  - LangChain Agents
+  - AI Agents
+  - Agent Executor
+  - DataFrame Agent
+  - SQL Agent
+  - Natural Language Data Analysis
+  - Natural Language SQL
+  - LLM Tool Calling
+  - Tool Orchestration
+  - Enterprise AI Agents
+  - AI Agent Architecture
+  - Production AI Systems
+  - Agent Observability
+  - AI Agent Security
+  - AI Governance
+  - LangGraph
+  - Agentic AI
+  - Multi-Agent Systems
+---
+
 # LangChain Built-in Agents
 
 > A comprehensive guide to **LangChain Built-in Agents**, pre-built intelligent agents that combine Large Language Models (LLMs), reasoning, tool calling, and workflow execution to solve complex tasks. This note explains how LangChain Agents work, explores built-in agents such as **DataFrame Agent** and **SQL Agent**, and covers agent execution, security, observability, enterprise integration, and production best practices.

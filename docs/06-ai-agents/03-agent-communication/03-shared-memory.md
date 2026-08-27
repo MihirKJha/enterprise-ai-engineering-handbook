@@ -1,3 +1,39 @@
+---
+title: "AI Agent Shared Memory: Collaborative State Management for Multi-Agent Systems"
+description: "Learn how AI agents collaborate through Shared Memory using common workflow state, shared context, centralized and distributed memory, Redis, LangGraph state, workflow engines, synchronization, concurrency control, and hybrid communication patterns for scalable enterprise multi-agent AI systems."
+keywords:
+  - AI Agent Shared Memory
+  - Shared Memory
+  - Agent Communication
+  - AI Agent Communication
+  - Multi-Agent Systems
+  - Agentic AI
+  - Collaborative AI Agents
+  - Shared Agent State
+  - Workflow State
+  - Shared Context
+  - Agent Collaboration
+  - Multi-Agent Coordination
+  - Centralized Memory
+  - Distributed Shared Memory
+  - Distributed AI Systems
+  - Redis Shared Memory
+  - Redis AI Agents
+  - LangGraph State
+  - LangGraph Checkpointers
+  - Workflow Orchestration
+  - Shared Knowledge Workspace
+  - Collaborative Reasoning
+  - Agent State Management
+  - Concurrent State Updates
+  - Distributed State Management
+  - Message Passing
+  - Hybrid Agent Communication
+  - Enterprise AI Agents
+  - Production AI Systems
+  - Enterprise AI Architecture
+---
+
 # 03. Shared Memory
 
 > **Category:** Agent Communication

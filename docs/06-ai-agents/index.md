@@ -1,11 +1,142 @@
 ---
-title: AI Agents
-description: >
-  Learn how AI agents use reasoning, planning, tools, memory, communication,
-  observability, security, and deployment patterns to execute complex tasks
-  in enterprise AI systems.
+title: "AI Agents: Enterprise Architecture, Memory, Tools, Security, Observability, and Production Deployment"
+description: "Learn how to design production-ready AI agents with planning, reasoning, tool calling, memory, communication, reflection, evaluation, observability, security, guardrails, risk management, scalable runtimes, and enterprise deployment architecture."
+keywords:
+  - AI Agents
+  - AI Agent Architecture
+  - Enterprise AI Agents
+  - Enterprise AI Agent Architecture
+  - Production AI Agents
+  - Production AI Agent Systems
+  - AI Agent Engineering
+  - Enterprise AI Engineering
+  - Agentic AI
+  - Intelligent Agents
+  - Autonomous AI Agents
+  - AI Agent Fundamentals
+  - AI Agent Design
+  - AI Agent Design Patterns
+  - AI Agent Lifecycle
+  - AI Agent Execution
+  - Agent Runtime
+  - AI Agent Runtime
+  - Agent Execution Architecture
+  - Enterprise Agent Systems
+  - AI Agent Planning
+  - Task Decomposition
+  - AI Agent Reasoning
+  - Agent Reasoning
+  - Reflection and Self-Correction
+  - AI Agent Reflection
+  - AI Agent Evaluation
+  - Agent Evaluation
+  - AI Agent Tools
+  - Tool Calling
+  - Function Calling
+  - AI Function Calling
+  - Tool Orchestration
+  - Building AI Agent Tools
+  - Tool Integration
+  - Controlled Tool Execution
+  - Agent Tool Authorization
+  - AI Agent Memory
+  - Agent Memory Architecture
+  - Short-Term Memory
+  - Long-Term Memory
+  - Working Memory
+  - Episodic Memory
+  - Semantic Memory
+  - Agent Memory Storage
+  - Memory Retrieval
+  - Memory Compression
+  - Agent Context Management
+  - AI Agent Communication
+  - Agent Communication
+  - Agent Messaging
+  - Message Passing
+  - Shared Memory Communication
+  - Event-Driven Agents
+  - Publish Subscribe
+  - Agent Coordination
+  - Agent Workflows
+  - Agent Observability
+  - AI Agent Observability
+  - Agent Logging
+  - Agent Tracing
+  - Agent Metrics
+  - Agent Monitoring
+  - Distributed Tracing
+  - OpenTelemetry
+  - Agent Execution Tracing
+  - AI Agent Debugging
+  - Agent Cost Monitoring
+  - Agent Alerting
+  - AI Agent Security
+  - Enterprise AI Security
+  - AI Agent Authentication
+  - AI Agent Authorization
+  - Secrets Management
+  - AI Agent Data Privacy
+  - Prompt Injection Defense
+  - Secure AI Agents
+  - Agent Security Architecture
+  - AI Agent Sandboxing
+  - Agent Sandboxing
+  - Secure Agent Execution
+  - Controlled Agent Execution
+  - AI Agent Guardrails
+  - Agent Guardrails
+  - AI Guardrails
+  - Policy Enforcement
+  - Policy as Code
+  - Tool Guardrails
+  - Input Guardrails
+  - Output Guardrails
+  - Human-in-the-Loop
+  - Controlled Autonomy
+  - Risk-Based Autonomy
+  - AI Agent Risk Management
+  - Enterprise AI Risk Management
+  - Agent Risk Assessment
+  - Agent Governance
+  - Enterprise AI Governance
+  - AI Agent Deployment
+  - Agent Deployment Architecture
+  - Production AI Deployment
+  - Cloud-Native AI Agents
+  - Scalable AI Agents
+  - Resilient AI Agents
+  - AI Agent Scaling
+  - Agent Autoscaling
+  - Horizontal Scaling
+  - Queue-Based Agent Execution
+  - Asynchronous Agent Execution
+  - Long-Running AI Agents
+  - Agent Workers
+  - Agent Checkpointing
+  - Agent Recovery
+  - Backpressure
+  - Rate Limiting
+  - Resource Isolation
+  - AI Agent Reliability
+  - Retry Strategy
+  - Circuit Breaker
+  - Idempotency
+  - Failure Recovery
+  - Kubernetes AI Agents
+  - Enterprise Agent Platform
+  - Production AI Systems
+  - Enterprise AI Systems
+  - Enterprise AI Architecture
+  - RAG and AI Agents
+  - Advanced RAG
+  - Agentic RAG
+  - AI Agents vs LLM Applications
+  - LLM Applications
+  - AI Agent Systems
+  - Production AI Engineering
 hide:
-  - toc  
+  - toc   
 ---
 
 # Part VI — AI Agents

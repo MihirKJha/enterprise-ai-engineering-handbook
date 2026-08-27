@@ -1,12 +1,219 @@
 ---
-title: Deep Learning
-description: >
-  Explore deep learning foundations, neural networks, CNNs, transformers,
-  generative models, reinforcement learning, training optimization, and
-  production deep learning systems.
+title: "Deep Learning: Neural Networks, Transformers, Generative AI, Reinforcement Learning, and Production Systems"
+description: "Master Deep Learning foundations, neural networks, training optimization, TensorFlow, Keras, PyTorch, CNNs, computer vision, RNNs, LSTMs, Transformers, generative models, reinforcement learning, GPU acceleration, model lifecycle, and production-ready enterprise AI systems."
+keywords:
+  - Deep Learning
+  - Deep Learning Fundamentals
+  - Deep Learning Engineering
+  - Enterprise Deep Learning
+  - Production Deep Learning
+  - Deep Learning Systems
+  - Deep Learning Architecture
+  - Enterprise AI
+  - AI Engineering
+  - Production AI Systems
+  - Enterprise AI Systems
+  - Artificial Neural Networks
+  - Neural Networks
+  - Deep Neural Networks
+  - Shallow Neural Networks
+  - Neural Network Architecture
+  - Neurons
+  - Weights and Biases
+  - Neural Network Layers
+  - Forward Propagation
+  - Backpropagation
+  - Computational Graph
+  - Deep Learning Mathematics
+  - Linear Regression
+  - Logistic Regression
+  - Probability
+  - Probability Thresholding
+  - Activation Functions
+  - Sigmoid
+  - Tanh
+  - ReLU
+  - Softmax
+  - Loss Functions
+  - Mean Squared Error
+  - MSE
+  - Cross-Entropy Loss
+  - Maximum Likelihood Estimation
+  - MLE
+  - Optimization
+  - Gradient Descent
+  - Mini-Batch Gradient Descent
+  - Stochastic Gradient Descent
+  - SGD
+  - Momentum Optimizer
+  - RMSProp
+  - Adam Optimizer
+  - AdamW
+  - Learning Rate
+  - Learning Rate Scheduling
+  - Weight Initialization
+  - Xavier Initialization
+  - He Initialization
+  - Vanishing Gradients
+  - Exploding Gradients
+  - Gradient Stability
+  - Regularization
+  - L1 Regularization
+  - L2 Regularization
+  - Dropout
+  - Early Stopping
+  - Batch Normalization
+  - Generalization
+  - Hyperparameter Tuning
+  - Training Optimization
+  - Deep Learning Training
+  - TensorFlow
+  - TensorFlow Deep Learning
+  - Keras
+  - Keras Deep Learning
+  - Keras Sequential API
+  - Keras Functional API
+  - Custom Layers
+  - Custom Models
+  - Custom Training Loops
+  - TensorFlow GradientTape
+  - Keras Callbacks
+  - KerasTuner
+  - Classification Models
+  - Regression Models
+  - PyTorch
+  - PyTorch Deep Learning
+  - PyTorch Tensors
+  - Tensor Operations
+  - PyTorch Autograd
+  - Automatic Differentiation
+  - torch.nn.Module
+  - PyTorch Dataset
+  - PyTorch DataLoader
+  - Deep Learning Data Pipelines
+  - Custom PyTorch Training Loops
+  - TorchVision
+  - Pretrained Models
+  - GPU Training
+  - GPU-Accelerated Deep Learning
+  - Computer Vision
+  - Deep Learning for Computer Vision
+  - Image Preprocessing
+  - Image Augmentation
+  - Convolutional Neural Networks
+  - CNN
+  - CNN Architecture
+  - Convolution
+  - Feature Maps
+  - Pooling
+  - Feature Extraction
+  - CNN Optimization
+  - Transfer Learning
+  - Fine-Tuning
+  - ResNet
+  - Residual Networks
+  - Residual Connections
+  - Vision Transformers
+  - ViT
+  - CNN ViT Hybrid
+  - Computer Vision Models
+  - Sequential Learning
+  - Sequence Modeling
+  - Recurrent Neural Networks
+  - RNN
+  - Long Short-Term Memory
+  - LSTM
+  - GRU
+  - Long-Term Dependencies
+  - Attention Mechanism
+  - Positional Encoding
+  - Query Key Value
+  - Multi-Head Attention
+  - Transformer Architecture
+  - Transformers
+  - Encoder Transformers
+  - Decoder Transformers
+  - Encoder Decoder Architecture
+  - Transformer Applications
+  - Generative Learning
+  - Representation Learning
+  - Autoencoders
+  - Generative Adversarial Networks
+  - GANs
+  - Generator Networks
+  - Discriminator Networks
+  - Adversarial Training
+  - Diffusion Models
+  - Generative Models
+  - Generative AI
+  - Deep Learning for Generative AI
+  - Reinforcement Learning
+  - Reinforcement Learning Fundamentals
+  - Deep Reinforcement Learning
+  - AI Agents
+  - Agent Environment
+  - States Actions Rewards
+  - Markov Decision Processes
+  - MDP
+  - Q-Learning
+  - Value-Based Learning
+  - Deep Q Networks
+  - DQN
+  - Deep Reinforcement Learning Systems
+  - Deep Learning Model Evaluation
+  - Model Evaluation
+  - Model Comparison
+  - Model Training Pipeline
+  - Training Pipeline
+  - Model Lifecycle
+  - Deep Learning Model Lifecycle
+  - Model Versioning
+  - Model Persistence
+  - Model Deployment
+  - Model Serving
+  - Deep Learning Deployment
+  - Production Model Serving
+  - AI Model Monitoring
+  - Deep Learning Monitoring
+  - Production AI Monitoring
+  - Scalable Deep Learning
+  - Enterprise Deep Learning Architecture
+  - Production Deep Learning Architecture
+  - Cloud Deep Learning
+  - GPU Infrastructure
+  - Accelerated Computing
+  - Computer Vision Systems
+  - Medical Image Analysis
+  - Natural Language Processing
+  - NLP
+  - Speech Recognition
+  - Intelligent Document Processing
+  - Recommendation Systems
+  - Fraud Detection
+  - Predictive Maintenance
+  - Time Series Forecasting
+  - Autonomous Systems
+  - Image Classification
+  - Object Detection
+  - Semantic Segmentation
+  - AI-Powered Search
+  - Multimodal AI
+  - Foundation Models
+  - Large Language Models
+  - LLMs
+  - Modern Generative AI
+  - Keras vs PyTorch
+  - TensorFlow vs PyTorch
+  - Deep Learning Frameworks
+  - AI Model Architecture
+  - Production AI Engineering
+  - Enterprise AI Engineering
+  - AI Engineering Roadmap
+  - Deep Learning Learning Path
 hide:
   - toc
 ---
+
 
 # Part II — Deep Learning
 

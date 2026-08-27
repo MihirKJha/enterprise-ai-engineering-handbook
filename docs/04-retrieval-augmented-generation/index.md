@@ -1,12 +1,160 @@
 ---
-title: Prompt Engineering & RAG Fundamentals
-description: >
-  Learn prompt engineering, embeddings, vector search, RAG pipelines,
-  retrieval and generation, evaluation, and the foundations of enterprise
-  generative AI applications.
+title: "LLM Application Engineering and RAG Fundamentals: Enterprise Generative AI, Retrieval, and AI Application Architecture"
+description: "Learn the foundations of LLM application engineering, from prompt engineering and structured outputs to function calling, embeddings, document processing, vector databases, RAG pipelines, retrieval, evaluation, enterprise AI architecture, Gradio applications, and Flask AI APIs."
+keywords:
+  - LLM Application Engineering
+  - LLM Application Development
+  - Generative AI Application Engineering
+  - Generative AI Applications
+  - Enterprise Generative AI
+  - Enterprise AI Applications
+  - AI Application Architecture
+  - Enterprise AI Architecture
+  - LLM Applications
+  - Production AI Applications
+  - Prompt Engineering
+  - Prompt Engineering Fundamentals
+  - Prompt Design Patterns
+  - Advanced Prompting
+  - Zero-Shot Prompting
+  - One-Shot Prompting
+  - Few-Shot Prompting
+  - Role Prompting
+  - Instruction Prompting
+  - Structured Prompting
+  - Prompt Decomposition
+  - ReAct
+  - Structured Outputs
+  - LLM Structured Output
+  - JSON Output
+  - Schema Validation
+  - Function Calling
+  - Tool Calling
+  - AI Tool Integration
+  - LLM Tools
+  - Embeddings
+  - Text Embeddings
+  - Embedding Models
+  - Vector Embeddings
+  - Document Processing
+  - Document Ingestion
+  - Document Chunking
+  - Text Chunking
+  - Chunking Strategies
+  - Metadata
+  - Vector Database
+  - Vector Database Fundamentals
+  - Similarity Search
+  - Semantic Search
+  - Vector Search
+  - RAG
+  - Retrieval-Augmented Generation
+  - RAG Fundamentals
+  - RAG Pipeline
+  - RAG Pipeline Components
+  - Retrieval Pipeline
+  - Retrieval and Generation
+  - Context Retrieval
+  - Relevant Context
+  - Grounded Generation
+  - Building RAG Applications
+  - Building Your First RAG Pipeline
+  - RAG Evaluation
+  - RAG Evaluation Fundamentals
+  - Retrieval Evaluation
+  - Generation Evaluation
+  - Retrieval Quality
+  - Context Quality
+  - Generation Quality
+  - End-to-End Task Success
+  - Relevance
+  - Recall
+  - Correctness
+  - Groundedness
+  - Answer Quality
+  - Enterprise RAG
+  - Enterprise Knowledge Assistant
+  - Enterprise Search
+  - Document Q&A
+  - Intelligent Document Search
+  - Internal Documentation Search
+  - Customer Support Assistant
+  - Research Assistant
+  - Code Assistant
+  - Compliance Knowledge Assistant
+  - Financial Knowledge Assistant
+  - Enterprise Knowledge
+  - AI-Powered Application Backend
+  - Enterprise AI API
+  - LLM Orchestration
+  - AI Orchestration
+  - Application Logic
+  - AI Capability Layer
+  - Retrieval Architecture
+  - Vector Database Architecture
+  - Enterprise Generative AI Architecture
+  - Enterprise LLM Architecture
+  - LLM Application Architecture
+  - Prompt to Application
+  - From Prompt to Application
+  - AI Application Building Blocks
+  - LLM Application Components
+  - AI Application Development Lifecycle
+  - Gradio
+  - Gradio AI Applications
+  - Deploying AI Applications with Gradio
+  - AI Prototype
+  - Interactive AI UI
+  - AI Workbench
+  - AI Chat Interface
+  - RAG Workbench
+  - Internal AI Tools
+  - AI Demonstrations
+  - Flask
+  - Flask AI Applications
+  - Flask AI API
+  - Flask AI Backend
+  - Deploying AI Applications with Flask
+  - AI REST API
+  - RAG API
+  - LLM API
+  - AI Backend Service
+  - AI Microservices
+  - Enterprise AI Backend
+  - Streaming AI Responses
+  - AI API Architecture
+  - Application Service
+  - REST API for AI
+  - API Versioning
+  - Request Validation
+  - AI Service Observability
+  - Docker AI Deployment
+  - Production WSGI
+  - Gradio vs Flask
+  - AI Interface Architecture
+  - Human-Facing AI Interface
+  - Programmatic AI Interface
+  - Shared AI Capability
+  - Framework-Agnostic AI Engineering
+  - Framework-Agnostic RAG
+  - Python AI Engineering
+  - LangChain
+  - LlamaIndex
+  - LCEL
+  - ChromaDB
+  - Hugging Face Libraries
+  - LLM Provider SDK
+  - AI Engineering Frameworks
+  - Enterprise AI Systems
+  - Production AI Systems
+  - Production AI Engineering
+  - Enterprise AI Engineering
+  - AI Engineering Fundamentals
+  - Generative AI Fundamentals
 hide:
   - toc  
 ---
+
 
 # Part IV — Prompt Engineering & RAG Fundamentals
 

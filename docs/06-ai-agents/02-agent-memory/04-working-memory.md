@@ -1,3 +1,34 @@
+---
+title: "AI Agent Working Memory: Temporary State Management for Reasoning and Tool Execution"
+description: "Learn how AI Agent Working Memory manages temporary state during reasoning, planning, tool calling, intermediate calculations, workflow execution, and decision making, including LangGraph State, workflow state objects, task context, failure recovery, and production enterprise AI architectures."
+keywords:
+  - AI Agent Working Memory
+  - Working Memory
+  - Agent Memory
+  - AI Agent Memory
+  - AI Agents
+  - Agentic AI
+  - Temporary Agent Memory
+  - AI Agent State
+  - Workflow State
+  - Intermediate State
+  - Multi-Step Reasoning
+  - AI Agent Reasoning
+  - AI Agent Planning
+  - Tool Calling
+  - Tool Chaining
+  - Agent Execution
+  - Task Context
+  - LangGraph State
+  - LangGraph Checkpointers
+  - Workflow Recovery
+  - Long-Running AI Workflows
+  - Agent State Management
+  - Enterprise AI Agents
+  - Production AI Systems
+  - Enterprise AI Architecture
+---
+
 # 04. Working Memory
 
 > **Category:** Agent Memory

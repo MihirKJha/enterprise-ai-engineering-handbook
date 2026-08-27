@@ -1,3 +1,34 @@
+---
+title: "AI Agent Short-Term Memory: Session Context and Conversation State Management"
+description: "Learn how AI agents use Short-Term Memory to maintain conversation context, track workflow state, store recent interactions and tool results, support multi-turn reasoning, manage session memory with Redis and LangGraph, control token usage, summarize conversations, and build production-ready enterprise AI systems."
+keywords:
+  - AI Agent Short-Term Memory
+  - Short-Term Memory
+  - Agent Memory
+  - AI Agent Memory
+  - Session Memory
+  - Conversation Memory
+  - Conversation Context
+  - AI Agent Context
+  - Session State Management
+  - Multi-Turn Conversations
+  - AI Agent Reasoning
+  - Workflow State
+  - Redis Session Memory
+  - Redis AI Agents
+  - LangGraph Checkpointers
+  - Conversation Summarization
+  - LLM Context Management
+  - Token Management
+  - Context Window Management
+  - Temporary Memory
+  - Agent Session State
+  - Enterprise AI Agents
+  - Production AI Systems
+  - Agentic AI
+  - Enterprise AI Architecture
+---
+
 # 02. Short-Term Memory
 
 > **Category:** Agent Memory

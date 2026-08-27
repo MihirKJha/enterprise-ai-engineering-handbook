@@ -1,3 +1,34 @@
+---
+title: "AI Agent Reflection and Self-Correction: Feedback Loops and Controlled Recovery"
+description: "Learn how AI agents use reflection and self-correction to evaluate actions, detect failures, improve outcomes, retry tasks, modify inputs, select alternative tools, re-plan execution, apply deterministic validation, enforce bounded recovery loops, and escalate to humans in production enterprise AI systems."
+keywords:
+  - AI Agent Reflection
+  - Agent Reflection
+  - AI Agent Self-Correction
+  - Self-Correcting AI Agents
+  - Agent Feedback Loops
+  - AI Agent Evaluation
+  - Agent Error Recovery
+  - AI Agent Recovery
+  - Reflection and Self-Correction
+  - Agent Retry Strategies
+  - Alternative Tool Selection
+  - AI Agent Replanning
+  - Plan Correction
+  - Deterministic Validation
+  - Model-Based Reflection
+  - Bounded Agent Loops
+  - Controlled Recovery
+  - Human Escalation
+  - AI Agent Guardrails
+  - Agent Observability
+  - Enterprise AI Agents
+  - Production AI Systems
+  - Agentic AI
+  - AI Agent Architecture
+  - Enterprise AI Architecture
+---
+
 # Reflection & Self-Correction in AI Agents
 
 > Reflection enables an AI Agent to evaluate its own actions and outcomes, identify errors or weaknesses, and determine whether corrective action, re-planning, or escalation is required.

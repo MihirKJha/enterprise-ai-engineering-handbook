@@ -1,3 +1,102 @@
+---
+title: "Agent Sandboxing: Secure AI Agent Execution, Isolation, and Enterprise Sandbox Architecture"
+description: "Learn how to secure AI agent execution using sandboxing, process isolation, containers, microVMs, virtual machines, ephemeral environments, filesystem controls, network isolation, credential isolation, resource limits, code execution security, multi-tenant isolation, and defense in depth for production enterprise AI agents."
+keywords:
+  - Agent Sandboxing
+  - AI Agent Sandboxing
+  - AI Agent Security
+  - Secure AI Agent Execution
+  - AI Agent Execution Security
+  - Enterprise Agent Sandboxing
+  - AI Sandbox Architecture
+  - Agent Execution Boundary
+  - Secure Agent Architecture
+  - Enterprise AI Security Architecture
+  - AI Agent Isolation
+  - Execution Isolation
+  - Process Isolation
+  - Container Isolation
+  - Container Sandboxing
+  - Docker Security
+  - MicroVM
+  - MicroVM Isolation
+  - Virtual Machine Isolation
+  - VM Sandboxing
+  - Code Execution Sandbox
+  - Secure Code Execution
+  - AI Generated Code Security
+  - Untrusted Code Execution
+  - Ephemeral Sandbox
+  - Ephemeral Execution
+  - Ephemeral Environment
+  - Sandbox Lifecycle
+  - Sandbox Cleanup
+  - Immutable Sandbox Images
+  - Sandbox Pools
+  - Warm Sandboxes
+  - Filesystem Isolation
+  - Read-Only Filesystem
+  - Workspace Isolation
+  - Temporary Storage
+  - File Access Control
+  - Path Traversal Protection
+  - Network Isolation
+  - Network Deny by Default
+  - Network Allowlist
+  - Egress Control
+  - Ingress Control
+  - DNS Restrictions
+  - Cloud Metadata Protection
+  - Credential Isolation
+  - Environment Variable Filtering
+  - Secrets Management
+  - Scoped Credentials
+  - Workload Identity
+  - Least Privilege
+  - Resource Limits
+  - CPU Limits
+  - Memory Limits
+  - Execution Timeouts
+  - Process Limits
+  - System Call Restrictions
+  - Capability Restrictions
+  - Privileged Containers
+  - Dependency Isolation
+  - Package Installation Security
+  - Code Validation
+  - Static Code Analysis
+  - Browser Agent Sandboxing
+  - Browser Isolation
+  - Secure Browser Automation
+  - Database Isolation
+  - Production Environment Isolation
+  - Cloud API Security
+  - Multi-Tenant Sandboxing
+  - Tenant Isolation
+  - Cross-Tenant Data Leakage
+  - Sandbox Admission Policy
+  - Risk-Based Sandboxing
+  - Sandbox Policy
+  - Sandbox Resource Quotas
+  - Prompt Injection Containment
+  - Tool Poisoning
+  - Tool Isolation
+  - Sandbox Observability
+  - Sandbox Audit Events
+  - Sandbox Failure Handling
+  - Sandbox Termination
+  - Sandbox Escape
+  - Defense in Depth
+  - Agent Authorization
+  - Controlled Tool Execution
+  - Secure Tool Execution
+  - Enterprise AI Agents
+  - Production AI Agents
+  - Production AI Security
+  - Enterprise AI Systems
+  - Enterprise AI Architecture
+---
+
 # Agent Sandboxing
 
 > Agent sandboxing isolates AI Agent execution from critical enterprise systems, resources, credentials, and the host environment, limiting the impact of incorrect, malicious, or unintended agent actions.

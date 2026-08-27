@@ -1,13 +1,209 @@
 ---
-title: Foundation Models, LLMs & Generative AI
-description: >
-  Understand foundation models, large language models, transformers,
-  embeddings, fine-tuning, alignment, quantization, and modern generative AI
-  techniques used in enterprise applications.
+title: "Foundation Models, LLMs & Generative AI: Transformers, Fine-Tuning, Alignment, and Enterprise AI"
+description: "Learn how Foundation Models and Large Language Models evolved from NLP, embeddings, language modeling, attention, and Transformers into modern Generative AI systems. Explore GPT and BERT, Hugging Face, fine-tuning, PEFT, LoRA, QLoRA, quantization, LLM generation, evaluation, instruction tuning, RLHF, PPO, DPO, and enterprise LLM engineering."
+keywords:
+  - Foundation Models
+  - Large Language Models
+  - LLMs
+  - Generative AI
+  - Foundation Model Architecture
+  - Large Language Model Architecture
+  - Enterprise Generative AI
+  - Enterprise LLM Engineering
+  - LLM Engineering
+  - Generative AI Engineering
+  - AI Model Engineering
+  - Foundation Model Engineering
+  - Modern AI Models
+  - Pretrained Models
+  - Pretrained Language Models
+  - Natural Language Processing
+  - NLP Fundamentals
+  - Language Understanding
+  - Language Representation
+  - Word Embeddings
+  - Text Embeddings
+  - Embedding Models
+  - Neural Language Models
+  - Language Modeling
+  - Next Token Prediction
+  - Autoregressive Language Models
+  - Attention Mechanism
+  - Self-Attention
+  - Positional Encoding
+  - Transformer Architecture
+  - Transformers
+  - GPT
+  - GPT Architecture
+  - BERT
+  - BERT Architecture
+  - GPT vs BERT
+  - Transformer-Based Models
+  - Modern Language Models
+  - Large Scale Language Models
+  - Hugging Face
+  - Hugging Face Ecosystem
+  - Hugging Face Transformers
+  - Hugging Face Datasets
+  - Hugging Face Tokenizers
+  - Hugging Face Model Hub
+  - Transformer Models
+  - LLM Data Preparation
+  - LLM Dataset Preparation
+  - LLM Training Data
+  - Dataset Engineering
+  - Tokenization
+  - LLM Tokenizers
+  - Hugging Face Training
+  - Transformer Training Workflow
+  - LLM Training Workflow
+  - Model Training
+  - Model Artifacts
+  - Fine-Tuning
+  - Transformer Fine-Tuning
+  - LLM Fine-Tuning
+  - Foundation Model Fine-Tuning
+  - Model Adaptation
+  - Domain Adaptation
+  - Supervised Fine-Tuning
+  - SFT
+  - Parameter-Efficient Fine-Tuning
+  - PEFT
+  - Efficient Fine-Tuning
+  - LoRA
+  - Low-Rank Adaptation
+  - QLoRA
+  - Quantized LoRA
+  - Model Quantization
+  - LLM Quantization
+  - Quantized Models
+  - Efficient LLM Inference
+  - Model Optimization
+  - LLM Optimization
+  - Memory Efficient AI
+  - Efficient Foundation Models
+  - LLM Generation
+  - LLM Generation Strategies
+  - Text Generation
+  - Token Generation
+  - Decoding Strategies
+  - Greedy Decoding
+  - Sampling
+  - Temperature
+  - Top-K Sampling
+  - Top-P Sampling
+  - Nucleus Sampling
+  - Beam Search
+  - LLM Output Quality
+  - LLM Evaluation
+  - Large Language Model Evaluation
+  - Generative AI Evaluation
+  - Model Evaluation
+  - LLM Benchmarking
+  - LLM Quality Evaluation
+  - Task-Specific Evaluation
+  - LLM Behavior
+  - Model Behavior
+  - Instruction Tuning
+  - Instruction Following
+  - Instruction-Tuned Models
+  - Reward Modeling
+  - Human Preferences
+  - Preference Learning
+  - LLMs as Policies
+  - Language Model Policy
+  - LLM Alignment
+  - AI Alignment
+  - Model Alignment
+  - Human Feedback
+  - Reinforcement Learning from Human Feedback
+  - RLHF
+  - Proximal Policy Optimization
+  - PPO
+  - Direct Preference Optimization
+  - DPO
+  - Preference Optimization
+  - Reinforcement Learning for LLMs
+  - Alignment Engineering
+  - Hugging Face TRL
+  - TRL
+  - Transformer Reinforcement Learning
+  - LLM Alignment Workflow
+  - SFT Workflow
+  - RLHF Workflow
+  - PPO Workflow
+  - DPO Workflow
+  - Foundation Model Lifecycle
+  - LLM Engineering Lifecycle
+  - AI Model Lifecycle
+  - Business Problem
+  - Domain Data
+  - Model Adaptation
+  - Model Deployment
+  - AI Model Monitoring
+  - Continuous Improvement
+  - Enterprise AI Lifecycle
+  - Enterprise LLM Architecture
+  - Enterprise AI Architecture
+  - Production AI Architecture
+  - LLM Application Architecture
+  - Foundation Models in Enterprise
+  - Enterprise Chatbots
+  - AI Assistants
+  - Enterprise AI Assistants
+  - Knowledge Assistants
+  - Enterprise Copilots
+  - AI Copilots
+  - Intelligent Document Processing
+  - Semantic Search
+  - Code Generation
+  - Content Generation
+  - Customer Support AI
+  - Document Summarization
+  - Information Extraction
+  - AI Classification
+  - Recommendation Systems
+  - Multimodal AI
+  - AI Developer Tools
+  - AI Orchestration Layer
+  - AI Capability Layer
+  - Backend AI Architecture
+  - Cloud AI Architecture
+  - API Gateway for AI
+  - AI Backend Services
+  - Enterprise AI Platforms
+  - LLM Security
+  - AI Security
+  - LLM Observability
+  - AI Observability
+  - LLM Monitoring
+  - AI Scalability
+  - LLM Cost Management
+  - AI Governance
+  - Enterprise AI Governance
+  - Model-Centric AI Engineering
+  - Application-Centric AI Engineering
+  - RAG
+  - Retrieval-Augmented Generation
+  - Prompt Engineering
+  - Vector Search
+  - AI Agents
+  - Agentic AI
+  - Agentic Workflows
+  - Enterprise AI Systems
+  - Production AI Systems
+  - Production AI Engineering
+  - Enterprise AI Engineering
+  - AI Engineering Roadmap
+  - Generative AI Learning Path
+  - Generative AI Learning Path
+  - LLM Learning Path
+  - LLM Learning Path
+  - Foundation Model Learning
+  - Foundation Model Learning
 hide:
   - toc
 ---
-
 
 # Part III — Foundation Models, Large Language Models & Generative AI
 

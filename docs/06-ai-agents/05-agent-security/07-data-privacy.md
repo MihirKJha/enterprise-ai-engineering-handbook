@@ -1,3 +1,91 @@
+---
+title: "Data Privacy for AI Agents: Enterprise Privacy Architecture, RAG, Memory, and Data Protection"
+description: "Learn how to design privacy-aware AI agents using data minimization, purpose limitation, PII protection, privacy-aware RAG, context minimization, memory privacy, data masking, redaction, anonymization, retention, deletion, tenant isolation, data residency, privacy-aware observability, and privacy-by-design for production enterprise AI systems."
+keywords:
+  - Data Privacy for AI Agents
+  - AI Agent Data Privacy
+  - Enterprise AI Privacy Architecture
+  - AI Privacy
+  - Agent Privacy
+  - Privacy-Aware AI Agents
+  - Privacy by Design
+  - Enterprise AI Privacy
+  - AI Data Protection
+  - Production AI Privacy
+  - AI Agent Data Governance
+  - AI Data Governance
+  - Sensitive Data Protection
+  - Personally Identifiable Information
+  - PII
+  - Sensitive Personal Data
+  - Data Classification
+  - Data Minimization
+  - Context Minimization
+  - Minimum Necessary Data
+  - Purpose Limitation
+  - Privacy-Aware Context
+  - LLM Context Privacy
+  - Privacy-Aware RAG
+  - RAG Privacy
+  - Retrieval Privacy
+  - Privacy-Aware Retrieval
+  - RAG Access Control
+  - Authorized Retrieval
+  - Document Access Control
+  - Data Masking
+  - Data Redaction
+  - Data Anonymization
+  - Pseudonymization
+  - Sensitive Data Filtering
+  - LLM Data Privacy
+  - AI Agent Memory Privacy
+  - Memory Privacy
+  - Memory Minimization
+  - Persistent Agent Memory
+  - User Memory Controls
+  - Data Retention
+  - Data Deletion
+  - Right to Delete
+  - Data Deletion Workflows
+  - Data Lineage
+  - Data Propagation
+  - Data Lifecycle Management
+  - Privacy-Aware Tool Design
+  - Tool Data Minimization
+  - API Data Privacy
+  - Third-Party LLM Providers
+  - LLM Provider Data Handling
+  - Model Routing and Privacy
+  - Data Residency
+  - Cross-Border Data Transfer
+  - Multi-Tenant Privacy
+  - Tenant Isolation
+  - Cross-Tenant Data Leakage
+  - Privacy-Aware Caching
+  - Cache Data Privacy
+  - Privacy-Aware Cache Keys
+  - Privacy in Observability
+  - Privacy-Aware Logging
+  - Prompt Logging Privacy
+  - AI Agent Observability
+  - Privacy-Aware Evaluation
+  - Synthetic Evaluation Data
+  - Production Data Privacy
+  - Privacy in Human-in-the-Loop
+  - Privacy Threat Modeling
+  - AI Privacy Threat Model
+  - Privacy Testing
+  - Privacy Regression Testing
+  - AI Agent Evaluation
+  - Privacy as a Hard Constraint
+  - Enterprise Data Privacy Architecture
+  - AI Agent Privacy Architecture
+  - Enterprise AI Systems
+  - Production AI Systems
+  - Enterprise AI Architecture
+---
+
+
 # Data Privacy for AI Agents
 
 > Data privacy defines how AI Agents collect, access, process, transmit, store, retain, and delete sensitive information while respecting user privacy, organizational policies, and applicable data-protection requirements.

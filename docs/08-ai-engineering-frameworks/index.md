@@ -1,11 +1,193 @@
 ---
-title: AI Engineering Frameworks & Tooling
-description: >
-  Explore the modern AI engineering ecosystem through frameworks, SDKs,
-  orchestration tools, retrieval and agent platforms, and production
-  engineering patterns, including LangChain, LlamaIndex, LangGraph,
-  Semantic Kernel, CrewAI, AutoGen, Haystack, DSPy, OpenAI SDK,
-  Anthropic SDK, and Google GenAI SDK.
+title: "AI Engineering Frameworks & Tooling: LangChain, LlamaIndex, LangGraph, AI SDKs, and Enterprise Architecture"
+description: "Explore AI engineering frameworks and tooling for building enterprise AI systems, including LangChain, LlamaIndex, LangGraph, Semantic Kernel, CrewAI, AutoGen, DSPy, Haystack, OpenAI SDK, Anthropic SDK, Google GenAI SDK, framework comparison, architecture selection, testing, evaluation, observability, and production AI engineering."
+keywords:
+  - AI Engineering Frameworks
+  - AI Frameworks
+  - AI Tooling
+  - Enterprise AI Frameworks
+  - Production AI Frameworks
+  - AI Application Frameworks
+  - Generative AI Frameworks
+  - LLM Frameworks
+  - LLM Application Frameworks
+  - AI Engineering Tools
+  - Enterprise AI Tooling
+  - Production AI Engineering
+  - Enterprise AI Engineering
+  - AI Application Architecture
+  - Enterprise AI Architecture
+  - Production AI Architecture
+  - Framework-Agnostic AI Architecture
+  - AI Framework Selection
+  - AI Framework Comparison
+  - AI Framework Architecture
+  - Production Framework Architecture
+  - AI Framework Best Practices
+  - LangChain
+  - LangChain Fundamentals
+  - LangChain Architecture
+  - LangChain Components
+  - LangChain Chains
+  - LangChain LCEL
+  - LangChain Expression Language
+  - LangChain Runnables
+  - LangChain Prompt Templates
+  - LangChain Output Parsers
+  - LangChain Memory
+  - LangChain Tools
+  - LangChain Agents
+  - LangChain RAG
+  - LangChain Retrieval
+  - LangChain Production Architecture
+  - LlamaIndex
+  - LlamaIndex Fundamentals
+  - LlamaIndex Architecture
+  - LlamaIndex Data Connectors
+  - LlamaIndex Documents
+  - LlamaIndex Nodes
+  - LlamaIndex Indexes
+  - LlamaIndex Retrievers
+  - LlamaIndex Query Engines
+  - LlamaIndex RAG
+  - LlamaIndex Retrieval Engineering
+  - LlamaIndex Agents
+  - LlamaIndex Workflows
+  - LlamaIndex Production Architecture
+  - LangGraph
+  - LangGraph Fundamentals
+  - LangGraph Architecture
+  - State-Based AI Workflows
+  - AI Workflow Graphs
+  - Agent Workflows
+  - Stateful AI Agents
+  - LangGraph State
+  - LangGraph Nodes
+  - LangGraph Edges
+  - Conditional Edges
+  - Agent State Machines
+  - Multi-Step AI Workflows
+  - Long-Running AI Workflows
+  - Human-in-the-Loop
+  - Agent Orchestration
+  - AI Workflow Orchestration
+  - Semantic Kernel
+  - Semantic Kernel AI Framework
+  - Microsoft Semantic Kernel
+  - AI Plugins
+  - AI Kernel Architecture
+  - CrewAI
+  - CrewAI Multi-Agent Systems
+  - Multi-Agent Frameworks
+  - AI Agent Teams
+  - Agent Collaboration
+  - Agent Roles
+  - Agent Crews
+  - AutoGen
+  - Microsoft AutoGen
+  - Conversational AI Agents
+  - Multi-Agent Conversation
+  - Agent Communication
+  - Agent Coordination
+  - DSPy
+  - DSPy Framework
+  - Declarative AI Programming
+  - LLM Program Optimization
+  - Prompt Optimization
+  - AI Program Optimization
+  - Haystack
+  - Haystack Framework
+  - RAG Framework
+  - Haystack RAG
+  - AI Pipelines
+  - Retrieval Pipelines
+  - OpenAI SDK
+  - OpenAI API
+  - OpenAI Developer Tools
+  - Anthropic SDK
+  - Anthropic API
+  - Google GenAI SDK
+  - Google Generative AI SDK
+  - LLM Provider SDK
+  - AI Provider SDK
+  - Direct SDK Integration
+  - Framework vs Direct SDK
+  - LangChain vs LlamaIndex
+  - LangChain vs LangGraph
+  - LlamaIndex vs LangGraph
+  - LangChain vs LlamaIndex vs LangGraph
+  - AI Agent Framework Comparison
+  - RAG Framework Comparison
+  - AI Framework Evaluation
+  - AI Technology Selection
+  - AI Stack Selection
+  - AI Architecture Decision
+  - AI Framework Tradeoffs
+  - AI Framework Performance
+  - AI Framework Abstraction
+  - Framework Lock-In
+  - Vendor Lock-In
+  - Framework Independence
+  - Portable AI Architecture
+  - Modular AI Architecture
+  - Layered AI Architecture
+  - Hexagonal AI Architecture
+  - AI Capability Layer
+  - AI Integration Layer
+  - AI Orchestration Layer
+  - Model Provider Abstraction
+  - Tool Provider Abstraction
+  - Memory Provider Abstraction
+  - Retriever Abstraction
+  - Vector Store Abstraction
+  - AI Application Layer
+  - AI Infrastructure Adapters
+  - AI Dependency Management
+  - Enterprise AI Platform
+  - Enterprise AI Development
+  - Production AI Development
+  - AI Application Development
+  - LLM Application Development
+  - RAG Application Development
+  - AI Agent Development
+  - Agentic AI Development
+  - AI Workflow Development
+  - AI Framework Testing
+  - AI Application Testing
+  - LLM Testing
+  - RAG Testing
+  - AI Agent Testing
+  - AI Evaluation
+  - LLM Evaluation
+  - RAG Evaluation
+  - Agent Evaluation
+  - AI Observability
+  - AI Monitoring
+  - AI Tracing
+  - Production AI Observability
+  - OpenTelemetry
+  - AI Debugging
+  - AI Reliability
+  - AI Resilience
+  - AI Security
+  - Enterprise AI Security
+  - AI Governance
+  - Enterprise AI Governance
+  - AI Deployment
+  - Production AI Deployment
+  - Cloud AI Architecture
+  - Cloud-Native AI
+  - AI Microservices
+  - Containerized AI Applications
+  - Kubernetes AI
+  - AI CI CD
+  - MLOps
+  - LLMOps
+  - AgentOps
+  - Enterprise AI Systems
+  - Production AI Systems
+  - AI Engineering Learning Path
+  - AI Framework Learning Path
 hide:
   - toc  
 ---

@@ -1,3 +1,35 @@
+---
+title: "AI Agent Memory Storage Patterns: Redis, PostgreSQL, MongoDB, Vector Databases, and Hybrid Architecture"
+description: "Learn how enterprise AI agents use specialized memory storage patterns for Working, Short-Term, Long-Term, Episodic, and Semantic Memory using in-memory storage, Redis, PostgreSQL, MongoDB, vector databases, graph databases, object storage, and scalable hybrid architectures."
+keywords:
+  - AI Agent Memory Storage
+  - Memory Storage Patterns
+  - Agent Memory Architecture
+  - AI Agent Memory
+  - Enterprise AI Agents
+  - Hybrid Storage Architecture
+  - Working Memory Storage
+  - Short-Term Memory Storage
+  - Long-Term Memory Storage
+  - Episodic Memory Storage
+  - Semantic Memory Storage
+  - Redis Agent Memory
+  - PostgreSQL Agent Memory
+  - MongoDB Agent Memory
+  - Vector Database Memory
+  - Graph Database
+  - Object Storage
+  - Enterprise RAG Storage
+  - AI Agent State Management
+  - Conversation Memory
+  - Knowledge Retrieval
+  - LangGraph Checkpointers
+  - Distributed Memory
+  - Scalable AI Architecture
+  - Production AI Systems
+  - Enterprise AI Architecture
+---
+
 # 07. Memory Storage Patterns
 
 > **Category:** Agent Memory

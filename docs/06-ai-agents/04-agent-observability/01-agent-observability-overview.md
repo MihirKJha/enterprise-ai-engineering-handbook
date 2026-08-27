@@ -1,3 +1,42 @@
+---
+title: "AI Agent Observability: Logs, Metrics, Traces, and Production Monitoring"
+description: "Learn how AI Agent Observability provides visibility into agent workflows using logs, metrics, traces, OpenTelemetry, monitoring dashboards, distributed tracing, token usage, latency, costs, prompts, memory, tool execution, debugging, and production-ready enterprise AI observability architectures."
+keywords:
+  - AI Agent Observability
+  - Agent Observability
+  - AI Observability
+  - LLM Observability
+  - AI Agents
+  - Agentic AI
+  - Enterprise AI Observability
+  - Production AI Systems
+  - Logs Metrics and Traces
+  - AI Agent Logging
+  - AI Agent Tracing
+  - Distributed Tracing
+  - OpenTelemetry
+  - Agent Monitoring
+  - AI Monitoring
+  - LLM Monitoring
+  - Agent Metrics
+  - Token Usage Monitoring
+  - LLM Cost Monitoring
+  - AI Latency Monitoring
+  - Prompt Observability
+  - Memory Retrieval Monitoring
+  - Tool Execution Monitoring
+  - Agent Workflow Monitoring
+  - Agent Debugging
+  - Correlation IDs
+  - Prometheus
+  - Grafana
+  - Jaeger
+  - LangSmith
+  - LangFuse
+  - Arize Phoenix
+  - Enterprise AI Architecture
+---
+
 # 01. Agent Observability Overview
 
 > **Category:** Agent Observability

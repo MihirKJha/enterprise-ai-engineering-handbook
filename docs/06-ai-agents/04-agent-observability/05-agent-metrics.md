@@ -1,3 +1,51 @@
+---
+title: "AI Agent Metrics: Performance, Reliability, Cost, and Business KPIs for Production AI Systems"
+description: "Learn how AI Agent Metrics measure system health, application performance, AI workflows, LLM latency, RAG pipelines, token usage, costs, business KPIs, RED and USE monitoring models, Prometheus metric types, P95 and P99 latency, dashboards, capacity planning, and production enterprise AI operations."
+keywords:
+  - AI Agent Metrics
+  - Agent Metrics
+  - AI Metrics
+  - AI Agents
+  - Agentic AI
+  - Enterprise AI Metrics
+  - Production AI Metrics
+  - System Metrics
+  - Application Metrics
+  - AI Performance Metrics
+  - Business Metrics
+  - Business KPIs
+  - AI Cost Metrics
+  - LLM Metrics
+  - LLM Latency
+  - Token Usage Metrics
+  - Token Cost Monitoring
+  - RAG Metrics
+  - Retrieval Metrics
+  - Workflow Metrics
+  - Agent Utilization
+  - Request Rate
+  - Error Rate
+  - Success Rate
+  - Latency Metrics
+  - P95 Latency
+  - P99 Latency
+  - RED Monitoring Model
+  - USE Monitoring Model
+  - Prometheus Metrics
+  - Prometheus Counter
+  - Prometheus Gauge
+  - Prometheus Histogram
+  - Prometheus Summary
+  - Grafana Dashboard
+  - OpenTelemetry Metrics
+  - Capacity Planning
+  - SLA Monitoring
+  - AI Observability
+  - Enterprise AI Agents
+  - Production AI Systems
+  - Enterprise AI Architecture
+---
+
 # 05. Agent Metrics
 
 > **Category:** Agent Observability

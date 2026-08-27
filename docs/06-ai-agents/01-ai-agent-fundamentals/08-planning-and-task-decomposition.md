@@ -1,3 +1,29 @@
+---
+title: "AI Agent Planning: Task Decomposition and Execution Strategies for Agentic AI"
+description: "Learn how AI agents plan and execute complex tasks using reasoning, task decomposition, hierarchical planning, sequential workflows, dependencies, observation, replanning, and enterprise agent orchestration for production-ready agentic AI systems."
+keywords:
+  - AI Agent Planning
+  - Agent Planning
+  - Agentic AI
+  - AI Agents
+  - Task Decomposition
+  - Hierarchical Task Decomposition
+  - AI Agent Reasoning
+  - Sequential Planning
+  - Task Dependencies
+  - AI Agent Execution
+  - Agent Orchestration
+  - AI Workflow Planning
+  - Autonomous AI Agents
+  - Enterprise AI Agents
+  - Production AI Systems
+  - Multi-Step AI Workflows
+  - Agent Replanning
+  - LangGraph
+  - Multi-Agent Systems
+  - Enterprise AI Architecture
+---
+
 # Planning & Task Decomposition in AI Agents
 
 > Planning enables an AI Agent to transform a high-level objective into a structured sequence of executable tasks, actions, and decisions.

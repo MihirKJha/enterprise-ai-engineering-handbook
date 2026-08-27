@@ -1,3 +1,41 @@
+---
+title: "AI Agent Memory Compression: Summarization, Context Pruning, and Token Optimization"
+description: "Learn how AI agents compress memory using conversation summarization, context pruning, semantic compression, rolling summaries, hierarchical memory, duplicate removal, semantic filtering, and hybrid compression pipelines to reduce token usage, latency, inference costs, and context window overflow in production enterprise AI systems."
+keywords:
+  - AI Agent Memory Compression
+  - Memory Compression
+  - Agent Memory
+  - AI Agent Memory
+  - AI Agents
+  - Agentic AI
+  - Conversation Summarization
+  - Context Pruning
+  - Semantic Compression
+  - Context Compression
+  - Rolling Summary
+  - Hierarchical Memory
+  - Conversation Memory
+  - Long-Running AI Agents
+  - LLM Context Management
+  - Context Window Management
+  - Token Optimization
+  - Token Reduction
+  - LLM Cost Optimization
+  - Prompt Optimization
+  - Semantic Filtering
+  - Duplicate Removal
+  - Memory Retrieval
+  - Context Building
+  - Enterprise RAG
+  - Production RAG
+  - LangChain Memory
+  - LangGraph State Management
+  - LlamaIndex Context Compression
+  - Enterprise AI Agents
+  - Production AI Systems
+  - Enterprise AI Architecture
+---
+
 # 09. Memory Compression
 
 > **Category:** Agent Memory

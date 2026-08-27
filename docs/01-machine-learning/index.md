@@ -1,14 +1,177 @@
 ---
-title: Enterprise AI Engineering Handbook
-description: >
-  A production-focused handbook for backend engineers, cloud engineers,
-  AI engineers, and software architects building enterprise AI systems
-  across machine learning, LLMs, RAG, AI agents, cloud AI, MLOps, and
-  enterprise architecture.
+title: "Machine Learning: Algorithms, Model Evaluation, Feature Engineering, and Production ML Systems"
+description: "Build a strong foundation in Machine Learning with supervised and unsupervised learning, regression, classification, decision trees, SVM, K-NN, ensemble learning, clustering, PCA, model evaluation, cross-validation, regularization, data preparation, feature engineering, and production-ready enterprise ML systems."
+keywords:
+  - Machine Learning
+  - Machine Learning Fundamentals
+  - Machine Learning Engineering
+  - Production Machine Learning
+  - Enterprise Machine Learning
+  - Machine Learning Systems
+  - Production ML Systems
+  - Enterprise ML Systems
+  - Machine Learning Architecture
+  - Enterprise AI Engineering
+  - Production AI Engineering
+  - AI Engineering
+  - Artificial Intelligence
+  - AI vs Machine Learning
+  - Machine Learning vs Deep Learning
+  - Machine Learning Lifecycle
+  - ML Lifecycle
+  - Machine Learning in Practice
+  - Machine Learning Ecosystem
+  - Machine Learning Tools
+  - Supervised Learning
+  - Unsupervised Learning
+  - Regression
+  - Regression Fundamentals
+  - Linear Regression
+  - Nonlinear Regression
+  - Polynomial Regression
+  - Logistic Regression
+  - Regression Model Training
+  - Regression Model Evaluation
+  - Regression Evaluation Metrics
+  - Mean Absolute Error
+  - MAE
+  - Mean Squared Error
+  - MSE
+  - Root Mean Squared Error
+  - RMSE
+  - R-Squared
+  - Classification
+  - Classification Fundamentals
+  - Binary Classification
+  - Multiclass Classification
+  - Classification Models
+  - Classification Model Evaluation
+  - Classification Evaluation Metrics
+  - Accuracy
+  - Precision
+  - Recall
+  - F1 Score
+  - Confusion Matrix
+  - ROC Curve
+  - ROC AUC
+  - Decision Trees
+  - Classification Trees
+  - Regression Trees
+  - Tree-Based Machine Learning
+  - Support Vector Machines
+  - SVM
+  - Support Vector Machine
+  - K-Nearest Neighbors
+  - KNN
+  - K-NN
+  - Feature Scaling
+  - Data Preparation
+  - Machine Learning Data Preparation
+  - Data Preprocessing
+  - Feature Engineering
+  - Feature Selection
+  - Feature Transformation
+  - Bias Variance Trade-off
+  - Bias Variance
+  - Overfitting
+  - Underfitting
+  - Model Generalization
+  - Ensemble Learning
+  - Ensemble Methods
+  - Random Forest
+  - Bagging
+  - Boosting
+  - Stacking
+  - Production Classification Systems
+  - Unsupervised Learning Fundamentals
+  - Clustering
+  - Clustering Fundamentals
+  - K-Means Clustering
+  - K-Means
+  - Centroid-Based Clustering
+  - Density-Based Clustering
+  - DBSCAN
+  - Hierarchical Clustering
+  - Agglomerative Clustering
+  - Dimensionality Reduction
+  - Dimensionality Reduction Fundamentals
+  - Principal Component Analysis
+  - PCA
+  - t-SNE
+  - UMAP
+  - Feature Engineering with Clustering
+  - Clustering for Feature Engineering
+  - Production Unsupervised Learning
+  - Production Unsupervised Learning Systems
+  - Model Evaluation
+  - Model Evaluation Fundamentals
+  - Model Validation
+  - Cross-Validation
+  - K-Fold Cross-Validation
+  - Train Validation Test Split
+  - Machine Learning Validation
+  - Unsupervised Learning Evaluation
+  - Clustering Evaluation
+  - Model Selection
+  - Model Comparison
+  - Regularization
+  - Regularization Techniques
+  - L1 Regularization
+  - L2 Regularization
+  - Ridge Regression
+  - Lasso Regression
+  - Data Leakage
+  - Machine Learning Data Leakage
+  - Modeling Pitfalls
+  - ML Modeling Pitfalls
+  - Machine Learning Best Practices
+  - Production ML Architecture
+  - Production ML Pipeline
+  - Machine Learning Pipeline
+  - ML Training Pipeline
+  - Model Training
+  - Model Validation
+  - Model Deployment
+  - Model Monitoring
+  - Model Optimization
+  - Model Scalability
+  - Enterprise ML Architecture
+  - Cloud Machine Learning
+  - ML Deployment
+  - ML Model Serving
+  - ML Observability
+  - ML Monitoring
+  - Production Model Monitoring
+  - Model Drift
+  - Data Drift
+  - Concept Drift
+  - MLOps
+  - Machine Learning Operations
+  - Enterprise MLOps
+  - Production AI Systems
+  - Enterprise AI Systems
+  - Enterprise AI Architecture
+  - Fraud Detection
+  - Recommendation Systems
+  - Customer Churn Prediction
+  - Credit Risk Analysis
+  - Predictive Maintenance
+  - Demand Forecasting
+  - Intelligent Search
+  - Medical Diagnosis
+  - Cybersecurity Machine Learning
+  - Predictive Analytics
+  - Business Machine Learning Applications
+  - Machine Learning for Backend Engineers
+  - Machine Learning for Software Engineers
+  - Machine Learning for Cloud Engineers
+  - Machine Learning for Solution Architects
+  - Enterprise AI Learning Path
+  - Machine Learning Learning Path
+  - Production-Ready Machine Learning
 hide:
   - toc  
 ---
-
 # Part I — Machine Learning
 
 > Build a strong foundation in Machine Learning and learn how production-ready ML systems are designed, trained, evaluated, deployed, and operated in modern enterprise environments.
