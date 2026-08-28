@@ -1,41 +1,55 @@
 name: Deploy MkDocs
-'on': null
-push: null
+
+on:
+push:
 branches:
-  - main
-permissions: null
+- main
+
+permissions:
 contents: read
 pages: write
 id-token: write
-concurrency: null
+
+concurrency:
 group: pages
 cancel-in-progress: true
-jobs: null
-deploy: null
+
+jobs:
+deploy:
 runs-on: ubuntu-latest
+
+```
 steps:
   - uses: actions/checkout@v4
+
   - uses: actions/setup-python@v5
     with:
-      python-version: '3.11'
+      python-version: "3.11"
+
   - name: Install Python dependencies
     run: pip install -r requirements.txt
+
   - name: Install FFmpeg
     run: |
       sudo apt-get update
       sudo apt-get install -y ffmpeg
+
   - name: Download Piper English voice
-    run: >
+    run: |
       mkdir -p models/piper-tts
+      curl -L --fail --retry 3 \
+        -o models/piper-tts/en_US-amy-medium.onnx \
+        https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/en/en_US/amy/medium/en_US-amy-medium.onnx
 
-      curl -L --fail --retry 3 -o models/piper-tts/en_US-amy-medium.onnx
-      https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/en/en_US/amy/medium/en_US-amy-medium.onnx
+      curl -L --fail --retry 3 \
+        -o models/piper-tts/en_US-amy-medium.onnx.json \
+        https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/en/en_US/amy/medium/en_US-amy-medium.onnx.json
 
-      curl -L --fail --retry 3 -o models/piper-tts/en_US-amy-medium.onnx.json
-      https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/en/en_US/amy/medium/en_US-amy-medium.onnx.json
   - name: Build MkDocs
     run: mkdocs build
+
   - uses: actions/upload-pages-artifact@v3
     with:
       path: site
+
   - uses: actions/deploy-pages@v4
