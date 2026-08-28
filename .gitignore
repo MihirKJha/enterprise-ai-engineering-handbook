@@ -179,7 +179,3 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
-
-# Piper TTS voice models
-models/piper-tts/*.onnx
-models/piper-tts/*.onnx.json
