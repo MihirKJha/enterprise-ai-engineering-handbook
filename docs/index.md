@@ -280,8 +280,7 @@ keywords:
   - Cloud-Native Enterprise AI
   - AI Microservices
   - AI Platform Engineering
-  - Production-Grade AI Systems
-  enterprise architecture.
+  - Production-Grade AI Systems enterprise architecture.
 hide:
   - toc  
 ---
@@ -752,7 +751,10 @@ If you're interested in **Enterprise AI Engineering**, **Cloud Architecture**, *
 ## 🌐 Connect With Me
 
 - 🌍 **Documentation Website**  
-  [Enterprise AI Engineering Handbook](https://mihirkjha.github.io/enterprise-ai-engineering-handbook/)
+
+  [Enterprise AI Engineering Handbook](https://enterpriseai.handbook.mihirkjha.com/)
+
+  [Enterprise AI Engineering Blog](https://enterpriseai.blog.mihirkjha.com/)
 
 - 💻 **GitHub**  
   [MihirKJha](https://github.com/MihirKJha)
