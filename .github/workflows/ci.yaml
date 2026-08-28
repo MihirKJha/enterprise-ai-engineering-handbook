@@ -1,54 +1,56 @@
 name: Deploy MkDocs
 
 on:
-push:
-branches:
-- main
+  push:
+    branches:
+      - main
 
 permissions:
-contents: read
-pages: write
-id-token: write
+  contents: read
+  pages: write
+  id-token: write
 
 concurrency:
-group: pages
-cancel-in-progress: true
+  group: pages
+  cancel-in-progress: true
 
 jobs:
-deploy:
-runs-on: ubuntu-latest
 
-steps:
-  - uses: actions/checkout@v4
+  deploy:
 
-  - uses: actions/setup-python@v5
-    with:
-      python-version: "3.11"
+    runs-on: ubuntu-latest
 
-  - name: Install Python dependencies
-    run: pip install -r requirements.txt
+    steps:
 
-  - name: Install FFmpeg
-    run: |
-      sudo apt-get update
-      sudo apt-get install -y ffmpeg
+      - uses: actions/checkout@v4
 
-  - name: Download Piper English voice
-    run: |
-      mkdir -p models/piper-tts
-      curl -L --fail --retry 3 \
-        -o models/piper-tts/en_US-amy-medium.onnx \
-        https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/en/en_US/amy/medium/en_US-amy-medium.onnx
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
 
-      curl -L --fail --retry 3 \
-        -o models/piper-tts/en_US-amy-medium.onnx.json \
-        https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/en/en_US/amy/medium/en_US-amy-medium.onnx.json
+      - run: pip install -r requirements.txt
 
-  - name: Build MkDocs
-    run: mkdocs build
+      - name: Install FFmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
 
-  - uses: actions/upload-pages-artifact@v3
-    with:
-      path: site
+      - name: Download Piper English voice
+        run: |
+          mkdir -p models/piper-tts
 
-  - uses: actions/deploy-pages@v4
+          curl -L --fail --retry 3 \
+            -o models/piper-tts/en_US-amy-medium.onnx \
+            https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/en/en_US/amy/medium/en_US-amy-medium.onnx
+
+          curl -L --fail --retry 3 \
+            -o models/piper-tts/en_US-amy-medium.onnx.json \
+            https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/en/en_US/amy/medium/en_US-amy-medium.onnx.json
+
+      - run: mkdocs build
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - uses: actions/deploy-pages@v4
