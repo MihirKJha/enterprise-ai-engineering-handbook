@@ -30,13 +30,7 @@ Important:
 
 
 def on_page_markdown(markdown, page, **kwargs):
-    # -----------------------------------------------------
-    # Global language default
-    # -----------------------------------------------------
-
-    if "lang" not in page.meta:
-        page.meta["lang"] = "en"
-
+    
     lines = markdown.splitlines()
 
     result = []

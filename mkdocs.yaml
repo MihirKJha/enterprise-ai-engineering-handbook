@@ -124,20 +124,7 @@ plugins:
   - minify:
       minify_html: true
       minify_js: true
-      minify_css: true
-
-  
-  - piper-tts:
-      model_dir: models/piper-tts
-      asset_dir: assets/piper-tts
-      audio_dir: audio
-
-      insert_reading_time_after_heading: true
-
-      languages:
-        en:
-          model: en_US-amy-medium.onnx
-          label: "Listen to this chapter"   
+      minify_css: true 
 
 nav:
   - Home: index.md

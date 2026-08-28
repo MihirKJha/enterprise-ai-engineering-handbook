@@ -26,27 +26,10 @@ jobs:
 
       - uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: "3.12"
 
       - run: pip install -r requirements.txt
-
-      - name: Install FFmpeg
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y ffmpeg
-
-      - name: Download Piper English voice
-        run: |
-          mkdir -p models/piper-tts
-
-          curl -L --fail --retry 3 \
-            -o models/piper-tts/en_US-amy-medium.onnx \
-            https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/en/en_US/amy/medium/en_US-amy-medium.onnx
-
-          curl -L --fail --retry 3 \
-            -o models/piper-tts/en_US-amy-medium.onnx.json \
-            https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/en/en_US/amy/medium/en_US-amy-medium.onnx.json
-
+      
       - run: mkdocs build
 
       - uses: actions/upload-pages-artifact@v3
