@@ -129,3 +129,12 @@
   {% endif %}
 
 {% endblock %}
+
+
+{% block content %}
+  {{ super() }}
+
+  <div class="piper-tts-container">
+    {{ piper_tts_playlist(page, mode="compact") }}
+  </div>
+{% endblock %}

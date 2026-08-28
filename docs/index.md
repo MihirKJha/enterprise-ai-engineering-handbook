@@ -752,7 +752,6 @@ If you're interested in **Enterprise AI Engineering**, **Cloud Architecture**, *
 
 - 🌍 **Documentation Website**  
   [Enterprise AI Engineering Handbook](https://enterpriseai.handbook.mihirkjha.com/)
-
   [Enterprise AI Engineering Blog](https://enterpriseai.blog.mihirkjha.com/)
 
 - 💻 **GitHub**  
