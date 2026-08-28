@@ -1,14 +1,290 @@
 ---
-title: Enterprise AI Engineering Handbook
-description: >
-  A production-focused handbook for backend engineers, cloud engineers,
-  AI engineers, and software architects building enterprise AI systems
-  across machine learning, LLMs, RAG, AI agents, cloud AI, MLOps, and
+title: "Enterprise AI Engineering Handbook: Machine Learning, LLMs, RAG, AI Agents, MLOps and Cloud AI"
+description: "A production-focused Enterprise AI Engineering Handbook for backend engineers, cloud engineers, software architects, and AI engineers. Learn Machine Learning, Deep Learning, Foundation Models, LLMs, Generative AI, RAG, AI Agents, Agentic AI, MLOps, LLMOps, Cloud AI, and enterprise AI architecture."
+keywords:
+  - Enterprise AI Engineering
+  - Enterprise AI Engineering Handbook
+  - Enterprise AI
+  - AI Engineering
+  - Production AI Engineering
+  - Enterprise AI Systems
+  - Production AI Systems
+  - Enterprise AI Architecture
+  - Production AI Architecture
+  - AI System Design
+  - AI Architecture
+  - Enterprise AI Platform
+  - AI Engineering Handbook
+  - AI Engineering Learning Path
+  - Enterprise AI Learning Path
+  - Production AI Learning Path
+  - AI for Backend Engineers
+  - AI for Cloud Engineers
+  - AI for Software Architects
+  - AI for AI Engineers
+  - Backend AI Engineering
+  - Cloud AI Engineering
+  - Software Architecture for AI
+  - Machine Learning
+  - Machine Learning Fundamentals
+  - Production Machine Learning
+  - Enterprise Machine Learning
+  - ML Systems
+  - Supervised Learning
+  - Unsupervised Learning
+  - Regression
+  - Classification
+  - Clustering
+  - Dimensionality Reduction
+  - Feature Engineering
+  - Model Evaluation
+  - Model Validation
+  - Regularization
+  - Production ML Systems
+  - Deep Learning
+  - Deep Learning Fundamentals
+  - Neural Networks
+  - Backpropagation
+  - Deep Learning Optimization
+  - TensorFlow
+  - Keras
+  - PyTorch
+  - GPU-Accelerated Training
+  - Computer Vision
+  - CNN
+  - Convolutional Neural Networks
+  - Transfer Learning
+  - ResNet
+  - Vision Transformers
+  - RNN
+  - LSTM
+  - GRU
+  - Attention Mechanism
+  - Transformer Architecture
+  - Autoencoders
+  - GANs
+  - Diffusion Models
+  - Reinforcement Learning
+  - Deep Q Networks
+  - Production Deep Learning
+  - Foundation Models
+  - Large Language Models
+  - LLMs
+  - Generative AI
+  - GPT
+  - BERT
+  - Word Embeddings
+  - Language Modeling
+  - Hugging Face
+  - Hugging Face Transformers
+  - LLM Data Preparation
+  - LLM Training
+  - LLM Fine-Tuning
+  - Supervised Fine-Tuning
+  - SFT
+  - Parameter-Efficient Fine-Tuning
+  - PEFT
+  - LoRA
+  - QLoRA
+  - Model Quantization
+  - LLM Generation
+  - LLM Evaluation
+  - Instruction Tuning
+  - Reward Modeling
+  - AI Alignment
+  - RLHF
+  - Reinforcement Learning from Human Feedback
+  - PPO
+  - Direct Preference Optimization
+  - DPO
+  - Hugging Face TRL
+  - Production LLM Systems
+  - Prompt Engineering
+  - Advanced Prompt Engineering
+  - Prompt Design Patterns
+  - Zero-Shot Prompting
+  - One-Shot Prompting
+  - Few-Shot Prompting
+  - Chain-of-Thought
+  - ReAct
+  - Structured Outputs
+  - Output Parsing
+  - Function Calling
+  - Tool Calling
+  - Embeddings
+  - Semantic Search
+  - Document Processing
+  - Document Chunking
+  - Vector Database
+  - Similarity Search
+  - Retrieval-Augmented Generation
+  - RAG
+  - RAG Fundamentals
+  - RAG Pipeline
+  - Retrieval Pipeline
+  - RAG Evaluation
+  - Enterprise RAG
+  - Gradio AI Applications
+  - Flask AI Applications
+  - AI API Development
+  - Advanced RAG
+  - Retrieval Engineering
+  - Advanced Retrieval
+  - VectorStore Retrieval
+  - Multi-Query Retrieval
+  - Self-Query Retrieval
+  - Parent-Document Retrieval
+  - Contextual Compression
+  - Ensemble Retrieval
+  - Multi-Vector Retrieval
+  - Time-Weighted Retrieval
+  - Hybrid Search
+  - HyDE
+  - Router Retrieval
+  - Multi-Stage Retrieval
+  - Agentic Retrieval
+  - Reranking
+  - MMR
+  - Metadata-Aware Retrieval
+  - Query Rewriting
+  - LlamaIndex
+  - LlamaIndex Retrieval Engineering
+  - Vector Index Retrieval
+  - BM25
+  - Document Summary Retrieval
+  - Recursive Retrieval
+  - Query Fusion
+  - Auto-Merging Retrieval
+  - FAISS
+  - HNSW
+  - Vector Index Selection
+  - ChromaDB
+  - Milvus
+  - Graph RAG
+  - Knowledge Graph RAG
+  - SQL RAG
+  - Multimodal RAG
+  - Agentic RAG
+  - Context Engineering
+  - Response Validation
+  - Citation and Source Attribution
+  - RAG Observability
+  - RAG Performance Optimization
+  - RAG Cost Optimization
+  - Production RAG
+  - Production RAG Architecture
+  - RAG Deployment
+  - RAG Caching
+  - Multi-Tenant RAG
+  - RAG Testing
+  - RAG Failure Patterns
+  - AI Agents
+  - Enterprise AI Agents
+  - Production AI Agents
+  - AI Agent Architecture
+  - Agent Runtime
+  - Agent Execution
+  - AI Assistants
+  - AI Workflows
+  - Agent Planning
+  - Task Decomposition
+  - Agent Reasoning
+  - Agent Memory
+  - Agent Tool Calling
+  - Agent Reflection
+  - Agent Authorization
+  - AI Agent Security
+  - Secrets Management
+  - AI Data Privacy
+  - Agent Sandboxing
+  - AI Guardrails
+  - Agent Risk Management
+  - Agent Scaling
+  - AI Agent Resilience
+  - Agent Deployment
+  - Agent Evaluation
+  - Agent Observability
+  - Agentic AI
+  - Multi-Agent Systems
+  - Multi-Agent Architecture
+  - Supervisor Pattern
+  - Hierarchical Agents
+  - Swarm Intelligence
+  - Collaborative Agents
+  - Human-in-the-Loop
+  - Long-Running Agents
+  - Enterprise Agent Platforms
+  - Model Context Protocol
+  - MCP
+  - Agent2Agent
+  - A2A
+  - AI Agent Protocols
+  - AI Engineering Frameworks
+  - AI Engineering Tooling
+  - LangChain
+  - LangGraph
+  - LlamaIndex Framework
+  - Semantic Kernel
+  - CrewAI
+  - AutoGen
+  - DSPy
+  - Haystack
+  - OpenAI SDK
+  - Anthropic SDK
+  - Google GenAI SDK
+  - AI Framework Comparison
+  - MLOps
+  - LLMOps
+  - AIOps
+  - Experiment Tracking
+  - Model Registry
+  - AI CI/CD
+  - Feature Stores
+  - Prompt Management
+  - Model Serving
+  - AI Monitoring
+  - AI Guardrails
+  - Continuous Training
+  - Continuous Fine-Tuning
+  - AI Governance
+  - Production AI Operations
+  - Cloud AI
+  - Cloud AI Engineering
+  - AWS AI
+  - Azure AI
+  - Google Cloud AI
+  - AI Infrastructure
+  - GPU Computing
+  - Serverless AI
+  - Cloud-Native AI
+  - Enterprise AI Platforms
+  - Cloud AI Architecture
+  - Multi-Cloud AI
+  - Enterprise AI Design Patterns
+  - AI Architecture Patterns
+  - Scalable AI Systems
+  - Distributed AI Systems
+  - Event-Driven AI
+  - AI Security
+  - AI Reliability
+  - AI Observability
+  - AI Infrastructure Architecture
+  - Enterprise Design Patterns
+  - AI Interview Preparation
+  - AI System Design Interviews
+  - AI Architecture Interviews
+  - Production AI Best Practices
+  - Enterprise AI Security
+  - Enterprise AI Observability
+  - Scalable AI Architecture
+  - Cloud-Native Enterprise AI
+  - AI Microservices
+  - AI Platform Engineering
+  - Production-Grade AI Systems
   enterprise architecture.
 hide:
   - toc  
 ---
-
 
 # 📘 Enterprise AI Engineering Handbook
 
