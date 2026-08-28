@@ -348,7 +348,7 @@ Topics include:
 
 ---
 
-# Part II — Deep Learning
+# [Part II — Deep Learning](https://enterpriseai.handbook.mihirkjha.com/02-deep-learning/)
 
 
 Master Deep Learning fundamentals and learn how modern neural networks are trained, optimized, evaluated, and applied to production AI systems.
@@ -373,7 +373,7 @@ Topics include:
 
 ---
 
-# Part III — Foundation Models, Large Language Models & Generative AI
+# [Part III — Foundation Models, Large Language Models & Generative AI](https://enterpriseai.handbook.mihirkjha.com/03-generative-ai/)
 
 Understand modern Foundation Models, Large Language Models (LLMs), Generative AI, and the engineering workflows used to train, fine-tune, align, evaluate, and optimize them.
 
@@ -405,7 +405,7 @@ Topics include:
 
 ---
 
-# Part IV — Prompt Engineering & RAG Fundamentals
+# [Part IV — Prompt Engineering & RAG Fundamentals](https://enterpriseai.handbook.mihirkjha.com/04-retrieval-augmented-generation/)
 
 Learn how to effectively interact with Large Language Models (LLMs), design reliable prompts, and build foundational Retrieval-Augmented Generation (RAG) applications for enterprise use cases.
 
@@ -432,7 +432,7 @@ Topics include:
 
 ---
 
-# Part V — Advanced Retrieval-Augmented Generation
+# [Part V — Advanced Retrieval-Augmented Generation](https://enterpriseai.handbook.mihirkjha.com/05-advanced-retrieval-augmented-generation/)
 
 Build enterprise-grade Retrieval-Augmented Generation (RAG) systems — from advanced retrieval strategies to production-ready, scalable, observable, secure, and resilient RAG architectures.
 
@@ -494,7 +494,7 @@ Topics include:
 
 ---
 
-# Part VI — AI Agents
+# [Part VI — AI Agents](https://enterpriseai.handbook.mihirkjha.com/06-ai-agents/)
 
 Learn how intelligent AI Agents are designed, built, secured, deployed, and operated as production-grade enterprise systems.
 
@@ -525,7 +525,7 @@ Topics include:
 
 ---
 
-# Part VII — Agentic AI & Multi-Agent Systems
+# [Part VII — Agentic AI & Multi-Agent Systems](https://enterpriseai.handbook.mihirkjha.com/07-agentic-ai/)
 
 > 🚧 **Coming Soon**
 
@@ -552,7 +552,7 @@ Planned topics include:
 
 ---
 
-# Part VIII — AI Engineering Frameworks & Tooling
+# [Part VIII — AI Engineering Frameworks & Tooling](https://enterpriseai.handbook.mihirkjha.com/08-ai-engineering-frameworks/)
 
 Build enterprise AI applications using modern AI frameworks.
 
@@ -573,7 +573,7 @@ Planned topics include:
 
 ---
 
-# Part IX — MLOps, LLMOps & AIOps
+# [Part IX — MLOps, LLMOps & AIOps](https://enterpriseai.handbook.mihirkjha.com/09-mlops/)
 
 > 🚧 **Coming Soon**
 
@@ -596,7 +596,7 @@ Planned topics include:
 
 ---
 
-# Part X — Cloud AI Engineering
+# [Part X — Cloud AI Engineering](https://enterpriseai.handbook.mihirkjha.com/10-cloud-ai-engineering/)
 
 > 🚧 **Coming Soon**
 
@@ -616,7 +616,7 @@ Planned topics include:
 
 ---
 
-# Part XI — Enterprise AI Architecture & Design Patterns
+# [Part XI — Enterprise AI Architecture & Design Patterns](https://enterpriseai.handbook.mihirkjha.com/11-enterprise-ai-architecture/)
 
 > 🚧 **Coming Soon**
 
@@ -637,7 +637,7 @@ Planned topics include:
 
 ---
 
-# Part XII — Interview Preparation
+# [Part XII — Interview Preparation](https://enterpriseai.handbook.mihirkjha.com/12-interview-preparation/)
 
 > 🚧 **Coming Soon**
 
@@ -752,6 +752,7 @@ If you're interested in **Enterprise AI Engineering**, **Cloud Architecture**, *
 
 - 🌍 **Documentation Website**  
   [Enterprise AI Engineering Handbook](https://enterpriseai.handbook.mihirkjha.com/)
+
   [Enterprise AI Engineering Blog](https://enterpriseai.blog.mihirkjha.com/)
 
 - 💻 **GitHub**  
