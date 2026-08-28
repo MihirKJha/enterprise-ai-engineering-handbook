@@ -1,39 +1,56 @@
 name: Deploy MkDocs
 
 on:
-  push:
-    branches:
-      - main
+push:
+branches:
+- main
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+contents: read
+pages: write
+id-token: write
 
 concurrency:
-  group: pages
-  cancel-in-progress: true
+group: pages
+cancel-in-progress: true
 
 jobs:
+deploy:
+runs-on: ubuntu-latest
 
-  deploy:
+```
+steps:
+  - uses: actions/checkout@v4
 
-    runs-on: ubuntu-latest
+  - uses: actions/setup-python@v5
+    with:
+      python-version: "3.11"
 
-    steps:
+  - name: Install Python dependencies
+    run: pip install -r requirements.txt
 
-      - uses: actions/checkout@v4
+  - name: Install FFmpeg
+    run: |
+      sudo apt-get update
+      sudo apt-get install -y ffmpeg
 
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
+  - name: Download Piper English voice
+    run: |
+      mkdir -p models/piper-tts
 
-      - run: pip install -r requirements.txt
+      curl -L --fail --retry 3 \
+        -o models/piper-tts/en_US-amy-medium.onnx \
+        https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/en/en_US/amy/medium/en_US-amy-medium.onnx
 
-      - run: mkdocs build
+      curl -L --fail --retry 3 \
+        -o models/piper-tts/en_US-amy-medium.onnx.json \
+        https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/en/en_US/amy/medium/en_US-amy-medium.onnx.json
 
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: site
+  - name: Build MkDocs
+    run: mkdocs build
 
-      - uses: actions/deploy-pages@v4
+  - uses: actions/upload-pages-artifact@v3
+    with:
+      path: site
+
+  - uses: actions/deploy-pages@v4
