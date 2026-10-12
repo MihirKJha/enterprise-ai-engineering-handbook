@@ -1,3 +1,57 @@
+---
+title: "LLM Generation Strategies: Greedy Decoding, Beam Search, Top-K, Top-P, Temperature, and Production Inference"
+description: >
+  Learn LLM generation strategies and decoding techniques for building reliable,
+  efficient, and production-ready generative AI applications. This chapter
+  explains autoregressive text generation, logits, softmax, greedy decoding,
+  beam search, temperature sampling, Top-K, Top-P, Top-A, typical sampling,
+  repetition penalties, frequency and presence penalties, and generation length
+  control. Explore Hugging Face Transformers GenerationConfig, deterministic
+  versus stochastic generation, constrained decoding, structured JSON output,
+  tool calling, streaming, time to first token (TTFT), time per output token
+  (TPOT), prefill and decode, KV cache optimization, and speculative decoding.
+  Understand how generation configuration affects latency, token consumption,
+  output quality, diversity, and factual consistency across enterprise LLM
+  inference, retrieval-augmented generation (RAG), enterprise search, code
+  generation, summarization, and agentic AI workflows. Discover practical
+  generation configuration patterns, evaluation metrics, grounded generation
+  techniques, stopping criteria, production failure modes, and task-specific
+  strategies for balancing reliability, performance, and cost.
+keywords:
+  - LLM generation strategies
+  - large language model decoding
+  - autoregressive text generation
+  - next-token prediction
+  - logits and softmax
+  - greedy decoding
+  - beam search
+  - temperature sampling
+  - Top-K sampling
+  - Top-P sampling
+  - nucleus sampling
+  - Top-A sampling
+  - typical sampling
+  - deterministic generation
+  - stochastic generation
+  - repetition penalty
+  - frequency penalty
+  - presence penalty
+  - max_new_tokens
+  - max_length vs max_new_tokens
+  - generation stopping criteria
+  - EOS token
+  - stop sequences
+  - Hugging Face Transformers
+  - GenerationConfig
+  - constrained decoding
+  - grammar-constrained generation
+  - structured JSON generation
+  - LLM tool calling
+  - agentic AI generation
+  - streaming LLM inference
+  - time to first token
+ ---
+  
 # 15 — LLM Generation Strategies
 
 > A practical, production-oriented guide to **LLM Generation Strategies**, covering autoregressive text generation, decoding, greedy search, beam search, sampling, temperature, Top-K, Top-P, Top-A, typical sampling, repetition penalties, frequency and presence penalties, length control, stopping criteria, deterministic vs stochastic generation, constrained generation, structured output, streaming, speculative decoding, KV cache, generation configuration, Hugging Face Transformers, production inference, RAG generation, agentic AI, evaluation, latency, cost optimization, failure modes, and enterprise AI engineering considerations.

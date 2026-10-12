@@ -1,3 +1,82 @@
+---
+title: "Generative AI Fundamentals: Deep Learning, Foundation Models, LLMs, and Enterprise AI Architecture"
+description: >
+  Explore Generative AI fundamentals, from the evolution of machine learning and
+  deep learning to Foundation Models, Large Language Models (LLMs), and modern
+  generative architectures. Understand Transformers, RNNs, GANs, Variational
+  Autoencoders, diffusion models, tokenization, embeddings, autoregressive text
+  generation, fine-tuning, parameter-efficient fine-tuning (PEFT), and quantization.
+  Learn how to select and adapt models, compare open-weight and proprietary models,
+  and design production-grade enterprise Generative AI systems. Covers practical
+  applications, inference architecture, model evaluation, hallucination mitigation,
+  Responsible AI, security, cost optimization, latency, scalability, observability,
+  multimodal AI, and enterprise data integration. Includes production architecture
+  concepts, engineering best practices, common mistakes, interview questions, and
+  a quick revision guide.
+keywords:
+  - Generative AI Fundamentals
+  - Generative Artificial Intelligence
+  - Deep Learning
+  - Foundation Models
+  - Large Language Models
+  - LLM Architecture
+  - Enterprise Generative AI
+  - Production AI Systems
+  - Enterprise AI Architecture
+  - Generative AI Engineering
+  - Predictive AI vs Generative AI
+  - Neural Networks
+  - Transformer Architecture
+  - Self-Attention
+  - Recurrent Neural Networks
+  - Generative Adversarial Networks
+  - Variational Autoencoders
+  - Diffusion Models
+  - GPT Architecture
+  - BERT Architecture
+  - Autoregressive Language Models
+  - Language Modeling
+  - Tokenization
+  - Token Embeddings
+  - Foundation Model Lifecycle
+  - Transfer Learning
+  - Prompt Engineering
+  - Instruction Tuning
+  - Fine-Tuning
+  - Parameter-Efficient Fine-Tuning
+  - LoRA
+  - QLoRA
+  - Model Quantization
+  - Open-Weight Models
+  - Proprietary LLMs
+  - Generative AI Applications
+  - Multimodal Generative AI
+  - LLM Inference
+  - Model Selection
+  - LLM Serving Architecture
+  - Retrieval-Augmented Generation
+  - RAG Fundamentals
+  - AI Agents
+  - Agentic AI
+  - Enterprise Knowledge Assistants
+  - Hallucination Mitigation
+  - Grounded Generation
+  - Responsible AI
+  - Generative AI Security
+  - Prompt Injection
+  - Enterprise Data Privacy
+  - AI Model Evaluation
+  - LLM Observability
+  - LLM Cost Optimization
+  - Inference Latency
+  - GPU Optimization
+  - Scalable AI Systems
+  - AI Governance
+  - Production AI Best Practices
+  - Generative AI Interview Questions
+  - Enterprise AI Engineering Handbook
+---
+
 # Generative AI Fundamentals: From Deep Learning to Foundation Models and LLMs
 
 > A practical, engineering-focused introduction to **Generative Artificial Intelligence (Generative AI)** covering its evolution, core concepts, Foundation Models, Large Language Models (LLMs), major generative architectures, applications, ecosystem, production architecture, and the engineering challenges involved in building enterprise-grade Generative AI systems.

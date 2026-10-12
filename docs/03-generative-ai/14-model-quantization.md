@@ -1,3 +1,103 @@
+---
+title: "Model Quantization for LLMs: INT4, INT8, GPTQ, AWQ, FP8, and Production Inference Optimization"
+description: >
+  Learn model quantization for large language models (LLMs), including numerical
+  precision formats, weight-only quantization, activation quantization,
+  post-training quantization (PTQ), quantization-aware training (QAT), and
+  static versus dynamic quantization. Explore INT8, INT4, FP16, BF16, FP8,
+  NF4, bitsandbytes, GPTQ, AWQ, SmoothQuant, group-wise quantization, and
+  quantization calibration. Understand memory estimation, quantization error,
+  weight outliers, KV-cache quantization, QLoRA, and the trade-offs between
+  model quality, GPU memory, latency, throughput, and inference cost. Discover
+  practical Hugging Face workflows, serving-engine compatibility, GGUF and
+  llama.cpp deployment, cloud and local inference, model benchmarking,
+  evaluation, CI/CD quality gates, canary releases, rollback, observability,
+  and production architecture patterns for reliable enterprise AI systems.
+keywords:
+  - Model quantization
+  - LLM quantization
+  - Large language models
+  - Generative AI
+  - LLM inference optimization
+  - Neural network quantization
+  - Post-Training Quantization
+  - PTQ
+  - Quantization-Aware Training
+  - QAT
+  - Static quantization
+  - Dynamic quantization
+  - Weight-only quantization
+  - Activation quantization
+  - Weight and activation quantization
+  - FP32
+  - FP16
+  - BF16
+  - INT8 quantization
+  - INT4 quantization
+  - FP8
+  - NF4
+  - NormalFloat4
+  - bitsandbytes
+  - GPTQ
+  - AWQ
+  - Activation-aware Weight Quantization
+  - SmoothQuant
+  - HQQ
+  - AQLM
+  - GGUF
+  - llama.cpp
+  - Quantization calibration
+  - Quantization parameters
+  - Scale and zero point
+  - Symmetric quantization
+  - Asymmetric quantization
+  - Per-tensor quantization
+  - Per-channel quantization
+  - Group-wise quantization
+  - Weight outliers
+  - Quantization error
+  - LLM memory estimation
+  - GPU VRAM optimization
+  - Model compression
+  - Inference throughput
+  - LLM latency optimization
+  - Time to First Token
+  - Time Per Output Token
+  - KV-cache quantization
+  - Long-context inference
+  - QLoRA
+  - LoRA
+  - Hugging Face Transformers
+  - Quantized model deployment
+  - vLLM
+  - TensorRT-LLM
+  - Text Generation Inference
+  - ONNX Runtime
+  - Local LLM inference
+  - Cloud AI inference
+  - LLM benchmarking
+  - Quantization quality evaluation
+  - Quantization regression testing
+  - Structured output evaluation
+  - Tool-calling evaluation
+  - RAG model optimization
+  - Agentic AI inference
+  - Enterprise AI architecture
+  - Model registry
+  - Quantization CI/CD
+  - Canary deployment
+  - Shadow testing
+  - Model rollback
+  - LLM observability
+  - GPU utilization
+  - Cost per successful request
+  - Quantization versus distillation
+  - Quantization versus pruning
+  - Quantization versus LoRA
+  - Production LLM serving
+  - Enterprise model optimization
+---
+
 # 14 — Model Quantization
 
 > A practical, production-oriented guide to **Model Quantization for Large Language Models (LLMs)**, covering quantization fundamentals, precision formats, weight-only quantization, activation quantization, post-training quantization, quantization-aware training, GPTQ, AWQ, bitsandbytes, INT8, INT4, NF4, FP8, mixed precision, KV-cache quantization, QLoRA, memory estimation, inference optimization, quality trade-offs, Hugging Face workflows, production serving, benchmarking, deployment architecture, monitoring, common failure modes, and enterprise AI engineering considerations.

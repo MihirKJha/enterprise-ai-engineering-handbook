@@ -1,3 +1,150 @@
+---
+title: "Direct Preference Optimization (DPO): LLM Alignment, Preference Learning, and Enterprise AI Deployment"
+description: >
+  Learn Direct Preference Optimization (DPO), a preference-learning technique
+  for aligning large language models directly from chosen and rejected response
+  pairs without requiring a separately trained reward model or the traditional
+  PPO-based reinforcement learning loop. This chapter explains preference
+  learning, the differences between supervised fine-tuning (SFT), DPO, and
+  Reinforcement Learning from Human Feedback (RLHF), and the role of reference
+  policies, sequence-level log probabilities, implicit reward modeling, and
+  KL-constrained optimization. Understand the DPO objective, preference
+  margins, the beta parameter, and how policy and reference log probabilities
+  determine the training loss. Explore preference dataset design, human and
+  synthetic preference collection, LLM-as-a-judge workflows, data validation,
+  deduplication, quality filtering, safety filtering, and dataset versioning.
+  Learn the DPO training pipeline, implementation concepts, Python pseudocode,
+  and Hugging Face workflows using Transformers, Datasets, TRL, PyTorch, PEFT,
+  and LoRA. Discover how DPO can improve coding assistants, enterprise AI
+  assistants, Retrieval-Augmented Generation (RAG) groundedness, citation
+  behavior, instruction following, and tool-use decisions. Examine common
+  failure modes, including noisy preference labels, easy negative examples,
+  preference shortcuts, style-over-substance optimization, reference-model
+  limitations, overfitting, capability regression, and dataset imbalance.
+  Understand DPO hyperparameter tuning, beta selection, sequence-length and
+  GPU memory considerations, quantization, and parameter-efficient fine-tuning.
+  Finally, explore enterprise DPO architecture, preference-data governance,
+  privacy and PII handling, experiment tracking, model registries, offline and
+  human evaluation, preference win rates, regression testing, shadow deployment,
+  canary releases, rollback strategies, production monitoring, observability,
+  and feedback-driven model improvement. Build a practical understanding of
+  when DPO is an effective alternative to PPO-based RLHF and when interactive
+  reinforcement learning is more appropriate.
+keywords:
+  - Direct Preference Optimization
+  - DPO
+  - DPO fine-tuning
+  - DPO training
+  - DPO algorithm
+  - DPO loss
+  - DPO objective
+  - DPO mathematical formulation
+  - preference optimization
+  - preference learning
+  - preference-based alignment
+  - LLM alignment
+  - large language model alignment
+  - LLM preference learning
+  - chosen and rejected responses
+  - preference pairs
+  - preference dataset
+  - pairwise preference learning
+  - reference policy
+  - reference model
+  - implicit reward modeling
+  - log probabilities
+  - sequence log probability
+  - preference margin
+  - beta parameter
+  - KL-constrained optimization
+  - KL regularization
+  - supervised fine-tuning
+  - SFT
+  - reinforcement learning from human feedback
+  - RLHF
+  - PPO versus DPO
+  - DPO versus SFT
+  - DPO versus RLHF
+  - reward model
+  - reward-model-free alignment
+  - policy optimization
+  - preference-based reinforcement learning
+  - human preference data
+  - synthetic preference data
+  - LLM-as-a-judge
+  - AI-generated preference labels
+  - preference annotation
+  - preference data quality
+  - preference dataset validation
+  - data deduplication
+  - conflicting preference labels
+  - training data leakage
+  - preference dataset versioning
+  - DPO training pipeline
+  - DPO training workflow
+  - DPO implementation
+  - DPO Python example
+  - Hugging Face DPO
+  - Hugging Face TRL
+  - Transformers
+  - Hugging Face Datasets
+  - PyTorch
+  - DPOTrainer
+  - DPOConfig
+  - parameter-efficient fine-tuning
+  - PEFT
+  - LoRA
+  - quantized DPO training
+  - LLM fine-tuning
+  - coding model alignment
+  - enterprise AI assistant
+  - enterprise LLM alignment
+  - RAG groundedness
+  - Retrieval-Augmented Generation
+  - citation accuracy
+  - tool-use alignment
+  - agent behavior optimization
+  - AI safety alignment
+  - DPO guardrails
+  - preference optimization for coding
+  - preference optimization for RAG
+  - DPO hyperparameters
+  - DPO beta tuning
+  - learning rate tuning
+  - sequence length optimization
+  - GPU memory optimization
+  - DPO failure modes
+  - noisy preference labels
+  - preference shortcuts
+  - reward hacking
+  - capability regression
+  - preference overfitting
+  - reference model quality
+  - model evaluation
+  - preference win rate
+  - human evaluation
+  - instruction-following evaluation
+  - factuality evaluation
+  - safety evaluation
+  - regression testing
+  - enterprise AI architecture
+  - DPO training infrastructure
+  - model registry
+  - experiment tracking
+  - dataset governance
+  - AI training data privacy
+  - PII handling
+  - model versioning
+  - shadow deployment
+  - canary deployment
+  - model rollback
+  - production AI monitoring
+  - LLM observability
+  - production model evaluation
+  - enterprise AI governance
+  - production-grade AI engineering
+---
+
 # 22 — Direct Preference Optimization (DPO)
 
 > A production-oriented guide to **Direct Preference Optimization (DPO)**, covering preference learning, the limitations of traditional RLHF, the DPO objective, chosen and rejected responses, reference policies, log-probabilities, implicit reward modeling, DPO training workflow, implementation concepts, Hugging Face workflows, evaluation, failure modes, enterprise AI architecture, and production deployment.

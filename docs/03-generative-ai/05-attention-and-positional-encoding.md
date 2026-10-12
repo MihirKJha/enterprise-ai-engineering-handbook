@@ -1,3 +1,87 @@
+---
+title: "Attention and Positional Encoding: QKV, Self-Attention, RoPE, and Transformer Architecture"
+description: >
+  Learn the core mechanisms behind Transformer architectures and modern Large Language
+  Models (LLMs) with this practical, engineering-focused guide to attention and
+  positional encoding. Understand why attention was introduced to overcome the
+  sequential limitations of RNNs, LSTMs, and GRUs, and how positional information
+  enables Transformers to represent token order. Explore token embeddings, sinusoidal
+  positional encoding, learned positional embeddings, relative position representations,
+  and Rotary Position Embeddings (RoPE). Learn Query, Key, and Value (QKV) projections,
+  self-attention, attention scores, scaled dot-product attention, Softmax, attention
+  weights, and weighted aggregation of Value vectors. Understand the mathematics
+  behind the attention formula, why scores are scaled by the square root of the Key
+  dimension, and how Multi-Head Attention captures multiple relationship patterns.
+  Compare self-attention with cross-attention, encoder attention with decoder attention,
+  and bidirectional BERT-style attention with causal GPT-style attention. Examine
+  causal masking, attention matrices, quadratic O(n²) complexity, long-context
+  challenges, GPU memory requirements, and Key-Value (KV) caching for efficient
+  autoregressive inference. Connect these concepts to Transformer input pipelines,
+  modern LLM architectures, and production AI serving. Includes architecture diagrams,
+  formulas, interview questions, common mistakes, revision notes, and production
+  optimization practices covering context management, retrieval, batching, quantization,
+  latency, throughput, and inference cost.
+keywords:
+  - Attention Mechanisms
+  - Attention and Positional Encoding
+  - Transformer Architecture
+  - Self-Attention
+  - Scaled Dot-Product Attention
+  - Query Key Value
+  - QKV Attention
+  - Query Key Value Projections
+  - Attention Scores
+  - Attention Weights
+  - Softmax Attention
+  - Attention Formula
+  - Multi-Head Attention
+  - Self-Attention vs Cross-Attention
+  - Cross-Attention
+  - Causal Attention Masking
+  - Causal Mask
+  - Bidirectional Attention
+  - Encoder Self-Attention
+  - Decoder Self-Attention
+  - Positional Encoding
+  - Sinusoidal Positional Encoding
+  - Learned Positional Embeddings
+  - Relative Positional Encoding
+  - Rotary Position Embeddings
+  - RoPE
+  - Token Embeddings
+  - Contextual Representations
+  - RNN vs Transformer
+  - LSTM and GRU Limitations
+  - Attention Complexity
+  - Quadratic Attention Complexity
+  - Long-Context LLMs
+  - Attention Matrix
+  - Attention Visualization
+  - Key-Value Cache
+  - KV Caching
+  - Autoregressive Inference
+  - GPT Architecture
+  - BERT Architecture
+  - T5
+  - Decoder-Only Transformers
+  - Encoder-Decoder Transformers
+  - Transformer Input Pipeline
+  - Large Language Models
+  - Foundation Models
+  - LLM Inference Optimization
+  - GPU Memory Optimization
+  - LLM Serving Architecture
+  - Inference Latency
+  - Throughput Optimization
+  - Context Window Management
+  - Efficient Attention
+  - Model Quantization
+  - AI Infrastructure
+  - Enterprise AI Architecture
+  - Cloud AI Architecture
+  - Enterprise AI Engineering Handbook
+---
+
 # Attention and Positional Encoding
 
 > A practical engineering guide to **Attention Mechanisms and Positional Encoding**, covering the motivation for attention, Query-Key-Value (QKV) representations, scaled dot-product attention, self-attention, masking, multi-head attention, positional encoding, cross-attention, and their role in modern Transformer-based Large Language Models (LLMs).

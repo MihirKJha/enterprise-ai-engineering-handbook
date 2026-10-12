@@ -1,3 +1,58 @@
+---
+title: "GPT vs BERT Architecture: Transformer Encoders, Decoders, Pretraining, and Language Models"
+description: >
+  Explore GPT and BERT architecture in this practical, engineering-focused
+  guide to Transformer-based language models. Understand encoder-only versus
+  decoder-only architectures, bidirectional and causal self-attention,
+  tokenization, embeddings, positional information, masked language modeling,
+  next-token prediction, pretraining, fine-tuning, and autoregressive text
+  generation. Compare BERT, GPT, and encoder-decoder models such as T5 and BART,
+  with practical PyTorch and Hugging Face examples, enterprise use cases,
+  inference considerations, and production architecture trade-offs involving
+  latency, throughput, cost, scalability, and model selection.
+keywords:
+  - GPT architecture
+  - BERT architecture
+  - GPT vs BERT
+  - Transformer architecture
+  - encoder-only Transformer
+  - decoder-only Transformer
+  - encoder-decoder Transformer
+  - bidirectional attention
+  - causal self-attention
+  - attention masking
+  - masked language modeling
+  - next-token prediction
+  - autoregressive language modeling
+  - Transformer encoder
+  - Transformer decoder
+  - tokenization
+  - token embeddings
+  - positional embeddings
+  - contextual representations
+  - BERT pretraining
+  - GPT pretraining
+  - next sentence prediction
+  - language model fine-tuning
+  - pretrained language models
+  - large language models
+  - foundation models
+  - Hugging Face Transformers
+  - PyTorch language models
+  - text generation
+  - natural language understanding
+  - named entity recognition
+  - text classification
+  - semantic search
+  - extractive question answering
+  - encoder vs decoder
+  - T5 and BART
+  - enterprise AI architecture
+  - LLM inference optimization
+  - production model deployment
+  - AI model latency and cost
+---
+
 # GPT and BERT Architecture: Encoder, Decoder, Pretraining, and Transformer-Based Language Models
 
 > A practical, engineering-focused guide to **GPT and BERT architecture**, explaining Transformer encoders and decoders, bidirectional versus autoregressive language modeling, tokenization, embeddings, self-attention, pretraining objectives, fine-tuning, inference, architectural differences, and their evolution into modern Large Language Models (LLMs).

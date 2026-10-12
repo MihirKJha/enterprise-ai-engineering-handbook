@@ -1,3 +1,77 @@
+---
+title: "Supervised Fine-Tuning (SFT): LLM Instruction Tuning, Hugging Face TRL, LoRA, and Production AI Workflows"
+description: >
+  Learn Supervised Fine-Tuning (SFT) for Large Language Models (LLMs), from
+  instruction-response datasets and conversational training to causal language
+  modeling, cross-entropy loss, loss masking, chat templates, and token-level
+  supervision. Explore SFT data quality, dataset diversity, deduplication,
+  data leakage prevention, hyperparameter tuning, overfitting, catastrophic
+  forgetting, and evaluation strategies. Discover practical Hugging Face TRL
+  SFTTrainer workflows, parameter-efficient fine-tuning with LoRA and QLoRA,
+  GPU memory optimization, sequence packing, checkpointing, and model
+  selection. Understand production-grade enterprise SFT architecture, dataset
+  versioning, data lineage, observability, security, governance, cost
+  optimization, deployment, rollback, and model versioning. Compare SFT with
+  Retrieval-Augmented Generation (RAG), prompt engineering, and preference
+  optimization to choose the right approach for enterprise AI applications.
+keywords:
+  - Supervised Fine-Tuning
+  - SFT
+  - LLM fine-tuning
+  - LLM instruction tuning
+  - Large Language Models
+  - instruction-response datasets
+  - conversational SFT
+  - instruction-following models
+  - causal language modeling
+  - next-token prediction
+  - cross-entropy loss
+  - token-level supervision
+  - loss masking
+  - completion-only loss
+  - assistant-only training
+  - chat templates
+  - Hugging Face Transformers
+  - Hugging Face TRL
+  - SFTTrainer
+  - LLM training pipeline
+  - SFT data quality
+  - instruction dataset curation
+  - dataset deduplication
+  - data leakage prevention
+  - SFT hyperparameters
+  - LLM learning rate
+  - LLM overfitting
+  - catastrophic forgetting
+  - LLM evaluation
+  - perplexity
+  - model checkpointing
+  - parameter-efficient fine-tuning
+  - PEFT
+  - LoRA
+  - QLoRA
+  - adapter tuning
+  - LLM GPU memory optimization
+  - gradient accumulation
+  - gradient checkpointing
+  - sequence packing
+  - token length analysis
+  - enterprise AI fine-tuning
+  - production LLM training
+  - enterprise SFT architecture
+  - ML experiment tracking
+  - model registry
+  - model versioning
+  - ML data lineage
+  - LLM observability
+  - LLM security and governance
+  - LLM deployment and rollback
+  - SFT vs RAG
+  - SFT vs prompt engineering
+  - preference optimization
+  - production AI engineering
+---
+
 # 11 — Supervised Fine-Tuning (SFT)
 
 > A practical, production-oriented guide to **Supervised Fine-Tuning (SFT)** for Large Language Models, covering instruction datasets, prompt-response pairs, conversational datasets, causal language modeling, loss masking, labels, chat templates, data quality, training configuration, evaluation, Hugging Face TRL, checkpoints, overfitting, catastrophic forgetting, parameter-efficient SFT, production workflows, and enterprise AI engineering considerations.

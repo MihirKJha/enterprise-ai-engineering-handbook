@@ -1,3 +1,77 @@
+---
+title: "Word Embeddings: Word2Vec, CBOW, Skip-Gram, Semantic Similarity, and Contextual Representations"
+description: >
+  Understand word embeddings and their evolution from traditional NLP representations
+  to modern Transformer-based language models. Explore One-Hot Encoding, Bag-of-Words,
+  TF-IDF, dense vectors, distributed representations, and the distributional hypothesis.
+  Learn how Word2Vec generates embeddings through Continuous Bag of Words (CBOW) and
+  Skip-Gram, how context windows and embedding dimensions affect training, and how
+  cosine similarity, vector arithmetic, and embedding spaces capture semantic
+  relationships. Compare Word2Vec, GloVe, and FastText, including pretrained embeddings,
+  subword information, and their limitations with rare words and polysemy. Understand
+  the differences between static and contextual embeddings, including Transformer-based
+  representations such as BERT. Learn how word, sentence, and document embeddings
+  support semantic search, vector databases, similarity matching, recommendation
+  systems, and Retrieval-Augmented Generation (RAG). Covers practical Python examples
+  using NumPy, Sentence Transformers, and scikit-learn, along with embedding storage
+  calculations, production embedding pipelines, model selection, vector index versioning,
+  retrieval quality evaluation, and enterprise AI architecture best practices. Includes
+  interview questions and a quick revision guide.
+keywords:
+  - Word Embeddings
+  - Word2Vec
+  - CBOW
+  - Skip-Gram
+  - Continuous Bag of Words
+  - Distributed Representations
+  - Distributional Hypothesis
+  - One-Hot Encoding
+  - Bag-of-Words
+  - TF-IDF
+  - Dense Vector Representations
+  - Embedding Space
+  - Semantic Similarity
+  - Cosine Similarity
+  - Vector Arithmetic
+  - Context Window
+  - Embedding Dimensions
+  - Static Embeddings
+  - Contextual Embeddings
+  - Transformer Representations
+  - Word2Vec vs BERT
+  - GloVe
+  - FastText
+  - Pretrained Word Embeddings
+  - Subword Embeddings
+  - Polysemy
+  - Sentence Embeddings
+  - Document Embeddings
+  - Text Embeddings
+  - Semantic Search
+  - Vector Similarity Search
+  - Vector Databases
+  - Embedding Models
+  - Sentence Transformers
+  - NumPy Cosine Similarity
+  - Python Semantic Similarity
+  - Embedding Evaluation
+  - Embedding Model Selection
+  - Embedding Dimensionality
+  - Vector Storage Optimization
+  - Embedding Versioning
+  - Vector Index Migration
+  - Retrieval Quality
+  - Retrieval-Augmented Generation
+  - RAG Embeddings
+  - Enterprise Semantic Search
+  - Production Embedding Pipeline
+  - Enterprise AI Architecture
+  - Transformer-Based Large Language Models
+  - Natural Language Processing
+  - Generative AI Fundamentals
+  - Enterprise AI Engineering Handbook
+---
+
 # Word Embeddings: From Word2Vec to Contextual Representations
 
 > A practical, engineering-focused guide to **Word Embeddings**, covering distributed representations, One-Hot Encoding, Bag-of-Words, TF-IDF, Word2Vec, CBOW, Skip-Gram, embedding spaces, semantic similarity, pretrained embeddings, static vs contextual embeddings, and the evolution toward modern **Transformer-based Large Language Models (LLMs)**.

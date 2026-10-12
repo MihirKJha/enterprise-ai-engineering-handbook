@@ -1,3 +1,118 @@
+---
+title: "LLM Evaluation: RAG Metrics, LLM-as-a-Judge, Golden Datasets, and Production AI Quality Gates"
+description: >
+  Learn how to evaluate large language models and enterprise AI systems using
+  practical evaluation frameworks, metrics, and production-ready workflows.
+  This chapter covers offline and online evaluation, golden datasets, benchmark
+  design, data leakage, correctness, relevance, faithfulness, groundedness,
+  hallucination detection, and reference-based metrics such as BLEU, ROUGE,
+  Exact Match, and token-level F1. Explore semantic similarity, LLM-as-a-Judge,
+  human evaluation, evaluation rubrics, judge calibration, pairwise and
+  pointwise comparison, and inter-rater agreement. Understand how to evaluate
+  retrieval-augmented generation (RAG), including Precision@K, Recall@K, MRR,
+  NDCG, context precision, context recall, and end-to-end answer quality.
+  Discover evaluation strategies for prompts, fine-tuned and quantized models,
+  agents, tool calling, structured outputs, code generation, SQL generation,
+  safety, prompt injection, PII protection, multilingual systems, and
+  long-context models. Learn how to build evaluation pipelines with dataset
+  versioning, experiment tracking, regression testing, CI/CD quality gates,
+  production observability, continuous evaluation, A/B testing, shadow
+  evaluation, canary releases, and model comparison. Measure latency,
+  throughput, token consumption, inference cost, quality-cost trade-offs,
+  evaluation drift, and reliability using production scorecards, service-level
+  objectives, and risk-based monitoring for enterprise AI engineering.
+keywords:
+  - LLM evaluation
+  - large language model evaluation
+  - generative AI evaluation
+  - enterprise AI evaluation
+  - LLM evaluation framework
+  - model evaluation vs system evaluation
+  - offline evaluation
+  - online evaluation
+  - automated LLM evaluation
+  - golden dataset
+  - benchmark datasets
+  - evaluation dataset design
+  - evaluation data leakage
+  - LLM evaluation metrics
+  - correctness and relevance
+  - faithfulness and groundedness
+  - hallucination detection
+  - hallucination rate
+  - reference-based evaluation
+  - reference-free evaluation
+  - Exact Match
+  - token-level F1
+  - BLEU score
+  - ROUGE score
+  - METEOR metric
+  - semantic evaluation
+  - embedding similarity
+  - cosine similarity
+  - LLM-as-a-Judge
+  - judge calibration
+  - judge bias
+  - pairwise evaluation
+  - pointwise evaluation
+  - human evaluation
+  - evaluation rubrics
+  - inter-rater agreement
+  - Cohen's Kappa
+  - RAG evaluation
+  - retrieval evaluation
+  - Precision@K
+  - Recall@K
+  - Mean Reciprocal Rank
+  - MRR
+  - NDCG
+  - context precision
+  - context recall
+  - RAG failure analysis
+  - retrieval and generation metrics
+  - prompt evaluation
+  - prompt regression testing
+  - fine-tuning evaluation
+  - LoRA and QLoRA evaluation
+  - quantized model evaluation
+  - agent evaluation
+  - agent success rate
+  - agent trajectory evaluation
+  - tool-calling evaluation
+  - structured output evaluation
+  - JSON schema validity
+  - safety evaluation
+  - prompt injection testing
+  - PII protection evaluation
+  - code generation evaluation
+  - SQL generation evaluation
+  - multilingual LLM evaluation
+  - long-context evaluation
+  - needle-in-a-haystack testing
+  - LLM latency evaluation
+  - time to first token
+  - throughput measurement
+  - LLM inference cost
+  - quality-cost optimization
+  - LLM quality gates
+  - evaluation pipelines
+  - CI/CD for LLMs
+  - LLM regression testing
+  - evaluation dataset versioning
+  - LLM experiment tracking
+  - AI observability
+  - continuous evaluation
+  - production evaluation monitoring
+  - evaluation drift
+  - A/B testing for LLMs
+  - shadow evaluation
+  - canary evaluation
+  - model comparison
+  - LLM service-level objectives
+  - enterprise AI reliability
+  - production AI engineering
+---
+
 # 16 — LLM Evaluation
 
 > A practical, production-oriented guide to **LLM Evaluation**, covering evaluation fundamentals, why LLM evaluation is different from traditional ML evaluation, offline evaluation, online evaluation, benchmark datasets, golden datasets, reference-based metrics, reference-free evaluation, LLM-as-a-Judge, human evaluation, task-specific metrics, hallucination, faithfulness, groundedness, RAG evaluation, retrieval evaluation, generation evaluation, agent evaluation, tool-calling evaluation, safety evaluation, structured-output evaluation, latency, cost, observability, regression testing, evaluation pipelines, CI/CD quality gates, model comparison, prompt evaluation, fine-tuning evaluation, production monitoring, enterprise AI evaluation architecture, and practical interview questions.

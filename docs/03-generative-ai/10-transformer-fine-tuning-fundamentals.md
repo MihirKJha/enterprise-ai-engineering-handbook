@@ -1,3 +1,40 @@
+---
+title: "Transformer Fine-Tuning Fundamentals: Transfer Learning, Model Optimization, PEFT, and Production AI"
+description: >
+  Learn Transformer fine-tuning fundamentals, including transfer learning,
+  pretrained model adaptation, full and partial fine-tuning, feature extraction,
+  parameter freezing, learning-rate scheduling, discriminative fine-tuning,
+  dataset preparation, evaluation, and overfitting prevention. Explore catastrophic
+  forgetting, mixed precision, gradient accumulation, gradient checkpointing,
+  PEFT, Hugging Face workflows, experiment reproducibility, model lineage, security,
+  and production deployment strategies for enterprise AI systems.
+keywords:
+  - Transformer fine-tuning
+  - transfer learning in NLP
+  - pretrained Transformer models
+  - full fine-tuning
+  - partial fine-tuning
+  - feature extraction
+  - freezing model parameters
+  - fine-tuning learning rate
+  - discriminative fine-tuning
+  - catastrophic forgetting
+  - supervised fine-tuning
+  - LLM fine-tuning
+  - parameter-efficient fine-tuning
+  - PEFT
+  - LoRA and QLoRA
+  - Hugging Face fine-tuning
+  - gradient accumulation
+  - mixed precision training
+  - gradient checkpointing
+  - fine-tuning evaluation
+  - model overfitting prevention
+  - production ML pipelines
+  - enterprise AI model governance
+  - model lineage and reproducibility
+---
+
 # 10 — Transformer Fine-Tuning Fundamentals
 
 > A practical, production-oriented guide to **Transformer Fine-Tuning**, covering pretrained Transformer models, transfer learning, fine-tuning strategies, model freezing, trainable parameters, learning rates, optimization, training objectives, dataset preparation, evaluation, checkpoints, catastrophic forgetting, overfitting, layer-wise learning rates, discriminative fine-tuning, Hugging Face workflows, and production considerations for adapting Transformer models to enterprise AI workloads.

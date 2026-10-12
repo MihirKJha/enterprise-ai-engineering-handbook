@@ -1,6 +1,78 @@
+---
+title: "LLM Data Preparation: Tokenization, Subword Algorithms, Attention Masks, Datasets, and Training Pipelines"
+description: >
+  Learn Large Language Model (LLM) data preparation through this practical,
+  engineering-focused guide to text preprocessing, data cleaning, normalization,
+  deduplication, tokenization, vocabulary construction, token IDs, special tokens,
+  embeddings, attention masks, padding, truncation, batching, and dataset creation.
+  Explore One-Hot Encoding, Bag-of-Words, TF-IDF, word embeddings, contextual
+  representations, WordPiece, Byte Pair Encoding (BPE), SentencePiece, and Unigram
+  tokenization. Understand how to prepare GPT and BERT inputs, build efficient
+  Hugging Face Datasets pipelines, use data collators and DataLoaders, prepare
+  fine-tuning datasets, prevent data leakage, and improve preprocessing
+  reproducibility and performance. Covers production-ready data validation,
+  training and inference consistency, memory efficiency, GPU utilization, and
+  scalable enterprise AI data pipelines for LLM pretraining, fine-tuning,
+  evaluation, RAG, and agentic AI systems.
+keywords:
+  - LLM data preparation
+  - Large Language Model preprocessing
+  - LLM data pipeline
+  - text preprocessing
+  - data cleaning
+  - text normalization
+  - data validation
+  - dataset deduplication
+  - data quality
+  - text representation
+  - One-Hot Encoding
+  - Bag-of-Words
+  - TF-IDF
+  - word embeddings
+  - contextual embeddings
+  - tokenization
+  - subword tokenization
+  - WordPiece
+  - Byte Pair Encoding
+  - BPE tokenization
+  - SentencePiece
+  - Unigram tokenizer
+  - tokenizer vocabulary
+  - token IDs
+  - special tokens
+  - BOS and EOS tokens
+  - CLS and SEP tokens
+  - MASK token
+  - padding tokens
+  - attention masks
+  - sequence padding
+  - sequence truncation
+  - batch preparation
+  - dynamic padding
+  - data collators
+  - PyTorch DataLoader
+  - Hugging Face Datasets
+  - GPT input preparation
+  - BERT input preparation
+  - LLM fine-tuning datasets
+  - supervised fine-tuning
+  - instruction tuning
+  - training validation test split
+  - data leakage prevention
+  - preprocessing reproducibility
+  - training and inference consistency
+  - GPU memory optimization
+  - efficient LLM training
+  - Transformer input pipeline
+  - production AI data engineering
+  - RAG data preparation
+  - enterprise AI pipelines
+---
+
 # 08 — LLM Data Preparation
 
-> A practical engineering guide to **Large Language Model (LLM) Data Preparation**, covering text preprocessing, tokenization, subword algorithms, vocabulary, special tokens, token IDs, attention masks, padding, truncation, dataset preparation, batching, data collators, Hugging Face Datasets, GPT/BERT input preparation, fine-tuning datasets, data quality, reproducibility, performance optimization, and production AI data pipelines.
+> A practical engineering guide to **Large Language Model (LLM) Data Preparation**, covering text preprocessing, tokenization, subword algorithms, vocabulary, special tokens, token IDs, attention masks, padding, truncation, dataset preparation, batching, data collators, Hugging Face Datasets, GP
+T/BERT input preparation, fine-tuning datasets, data quality, reproducibility, performance optimization, and production AI data pipelines.
 
 ---
 

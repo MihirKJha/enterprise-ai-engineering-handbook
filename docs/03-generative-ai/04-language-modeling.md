@@ -1,3 +1,65 @@
+---
+title: "Language Modeling: N-Gram Models, Neural Networks, Transformers, and Large Language Models"
+description: >
+  Explore the evolution of language modeling from statistical N-Gram models to
+  modern Transformer-based Large Language Models (LLMs). Learn how language models
+  estimate token sequence probabilities using the probability chain rule, how
+  tokenization and word embeddings support neural language models, and how N-Gram,
+  RNN, LSTM, and GRU architectures evolved toward attention-based Transformers.
+  Understand next-token prediction, autoregressive generation, causal language
+  modeling, masked language modeling, and the differences between GPT-style
+  decoder-only models and BERT-style encoder models. Examine the complete language
+  model training lifecycle, including input-target shifting, teacher forcing,
+  logits, softmax, cross-entropy loss, backpropagation, pretraining, and fine-tuning.
+  Learn how perplexity measures language-model performance and why it is insufficient
+  for evaluating factuality, safety, instruction following, and enterprise relevance.
+  Covers practical Python implementation using Hugging Face Transformers, production
+  LLM architecture, inference latency, throughput, GPU utilization, KV caching,
+  batching, quantization, distributed training, observability, and cost optimization.
+  Includes enterprise engineering best practices, common mistakes, interview questions,
+  and a quick revision guide for understanding the foundations of modern Generative AI.
+keywords:
+  - Language Modeling
+  - Statistical Language Models
+  - N-Gram Models
+  - Unigram
+  - Bigram
+  - Trigram
+  - Neural Language Models
+  - RNN Language Models
+  - LSTM
+  - GRU
+  - Transformer Language Models
+  - Large Language Models
+  - Foundation Models
+  - Next-Token Prediction
+  - Autoregressive Language Modeling
+  - Causal Language Modeling
+  - Masked Language Modeling
+  - Causal Language Modeling vs Masked Language Modeling
+  - GPT vs BERT
+  - Decoder-Only Transformers
+  - Encoder-Style Models
+  - Tokenization
+  - Token IDs
+  - Word Embeddings
+  - Contextual Representations
+  - Self-Attention
+  - Probability Chain Rule
+  - Cross-Entropy Loss
+  - Teacher Forcing
+  - Logits and Softmax
+  - Vocabulary Projection
+  - Perplexity
+  - Language Model Evaluation
+  - LLM Evaluation Metrics
+  - Model Pretraining
+  - Fine-Tuning
+  - Instruction Tuning
+  - Language Model Training Pipeline
+  - Next-Token Prediction
+ ---
+  
 # Language Modeling: From N-Gram Models to Large Language Models
 
 > A practical, engineering-focused guide to **Language Modeling**, covering statistical language models, N-Grams, neural language models, RNNs, LSTMs, Transformers, next-token prediction, causal language modeling, masked language modeling, training objectives, perplexity, pretraining, and the evolution toward modern **Large Language Models (LLMs)**.

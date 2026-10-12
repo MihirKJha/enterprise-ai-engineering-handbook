@@ -1,3 +1,33 @@
+---
+title: "Hugging Face Training Workflow: Transformers, Fine-Tuning, Evaluation, PEFT, and Production ML Pipelines"
+description: >
+  Learn the complete Hugging Face training workflow, from dataset preparation,
+  tokenization, and preprocessing to model fine-tuning, evaluation, checkpointing,
+  and deployment. Explore Transformers, Datasets, Trainer, Accelerate, mixed
+  precision, gradient accumulation, distributed training, LoRA, PEFT, experiment
+  reproducibility, model versioning, production observability, and cost optimization
+  for building reliable, scalable Transformer-based AI systems.
+keywords:
+  - Hugging Face training workflow
+  - Hugging Face Transformers
+  - LLM fine-tuning
+  - Hugging Face Trainer API
+  - Hugging Face Datasets
+  - Transformer model training
+  - tokenization and preprocessing
+  - model evaluation and checkpointing
+  - parameter-efficient fine-tuning
+  - LoRA and QLoRA
+  - Hugging Face Accelerate
+  - distributed model training
+  - mixed precision training
+  - gradient accumulation
+  - machine learning experiment tracking
+  - production ML pipelines
+  - LLM training optimization
+  - model versioning and reproducibility
+---
+
 # 09 — Hugging Face Training Workflow
 
 > A practical, production-oriented guide to the **Hugging Face training workflow**, covering Hugging Face Transformers, Datasets, tokenization, model loading, preprocessing, data collators, training configuration, the Trainer API, evaluation, checkpoints, logging, mixed precision, gradient accumulation, model saving, Hugging Face Hub, custom training loops, distributed training, parameter-efficient fine-tuning, experiment reproducibility, and production considerations.

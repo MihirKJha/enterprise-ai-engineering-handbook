@@ -1,3 +1,90 @@
+---
+title: "Hugging Face TRL Workflow: LLM Post-Training, SFT, DPO, PPO, GRPO, and Production AI"
+description: >
+  Explore a production-oriented guide to the Hugging Face TRL (Transformer
+  Reinforcement Learning) library for large language model post-training.
+  Learn how to use SFTTrainer for supervised fine-tuning, DPOTrainer for
+  preference optimization, RewardTrainer for reward modeling, and GRPOTrainer,
+  RLOOTrainer, and PPOTrainer for online reinforcement learning. Covers
+  Transformers, Hugging Face Datasets, chat templates, PEFT, LoRA, QLoRA,
+  quantization, training configuration, dataset validation and versioning,
+  CLI workflows, distributed GPU training, Accelerate, DeepSpeed, FSDP,
+  vLLM, experiment tracking, checkpointing, evaluation, model publishing,
+  MLOps, CI/CD, reward engineering, enterprise training architecture,
+  data governance, privacy, security, model registries, deployment,
+  observability, feedback loops, and reproducible LLM training pipelines.
+keywords:
+  - Hugging Face TRL
+  - TRL workflow
+  - Transformer Reinforcement Learning
+  - LLM post-training
+  - large language model fine-tuning
+  - SFTTrainer
+  - supervised fine-tuning
+  - DPOTrainer
+  - Direct Preference Optimization
+  - RewardTrainer
+  - reward modeling
+  - GRPOTrainer
+  - Group Relative Policy Optimization
+  - RLOOTrainer
+  - REINFORCE Leave-One-Out
+  - PPOTrainer
+  - Proximal Policy Optimization
+  - LLM alignment
+  - preference optimization
+  - reinforcement learning for LLMs
+  - Hugging Face Transformers
+  - Hugging Face Datasets
+  - chat templates
+  - conversational datasets
+  - dataset validation
+  - dataset versioning
+  - training configuration
+  - parameter-efficient fine-tuning
+  - PEFT
+  - LoRA
+  - QLoRA
+  - quantized model training
+  - PyTorch
+  - Hugging Face Accelerate
+  - distributed LLM training
+  - multi-GPU training
+  - DeepSpeed
+  - FSDP
+  - vLLM
+  - GPU memory optimization
+  - gradient accumulation
+  - mixed precision training
+  - gradient checkpointing
+  - sequence packing
+  - LLM training throughput
+  - experiment tracking
+  - training reproducibility
+  - model checkpointing
+  - LLM evaluation
+  - reward engineering
+  - reward hacking
+  - verifiable rewards
+  - Hugging Face Hub
+  - model publishing
+  - model registry
+  - TRL CLI
+  - configuration-driven training
+  - LLM MLOps
+  - LLM training pipelines
+  - CI/CD for machine learning
+  - enterprise AI architecture
+  - enterprise LLM post-training
+  - LLM observability
+  - model drift monitoring
+  - training data governance
+  - AI data privacy
+  - PII protection
+  - model promotion and rollback
+  - production LLM deployment
+---
+
 # 23 — Hugging Face TRL Workflow
 
 > A production-oriented guide to the **Hugging Face TRL (Transformers Reinforcement Learning) workflow**, covering TRL architecture, installation, datasets, chat templates, `SFTTrainer`, `DPOTrainer`, `RewardTrainer`, `GRPOTrainer`, `RLOOTrainer`, PPO, PEFT/LoRA, quantization, evaluation, CLI workflows, distributed training, experiment tracking, model publishing, production architecture, and enterprise LLM post-training.

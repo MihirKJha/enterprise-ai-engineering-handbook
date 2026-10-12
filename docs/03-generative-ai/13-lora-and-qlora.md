@@ -1,3 +1,73 @@
+---
+title: "LoRA and QLoRA: Parameter-Efficient LLM Fine-Tuning, 4-Bit Quantization, and Enterprise AI Deployment"
+description: >
+  Learn LoRA (Low-Rank Adaptation) and QLoRA (Quantized Low-Rank Adaptation)
+  for efficient large language model fine-tuning. Explore low-rank matrix
+  decomposition, LoRA rank and alpha, target modules, parameter reduction,
+  NF4 quantization, double quantization, paged optimizers, and GPU memory
+  optimization. Discover practical Hugging Face PEFT, Transformers, TRL, and
+  supervised fine-tuning workflows, including adapter configuration, training,
+  evaluation, checkpoint management, and deployment. Understand LoRA versus
+  QLoRA trade-offs, adapter routing, multi-adapter architectures, model
+  compatibility, merging, monitoring, rollback, and production cost optimization
+  for enterprise LLM customization.
+keywords:
+  - LoRA
+  - QLoRA
+  - Low-Rank Adaptation
+  - Quantized Low-Rank Adaptation
+  - Parameter-Efficient Fine-Tuning
+  - PEFT
+  - LLM fine-tuning
+  - Large language models
+  - Generative AI
+  - Transformer fine-tuning
+  - Low-rank matrix decomposition
+  - LoRA rank
+  - LoRA alpha
+  - LoRA dropout
+  - LoRA target modules
+  - Attention projection layers
+  - Q K V O projections
+  - Hugging Face PEFT
+  - Hugging Face Transformers
+  - Hugging Face TRL
+  - Supervised Fine-Tuning
+  - SFTTrainer
+  - 4-bit quantization
+  - NF4 quantization
+  - NormalFloat4
+  - Double quantization
+  - BitsAndBytes
+  - Paged optimizers
+  - GPU memory optimization
+  - Gradient checkpointing
+  - Gradient accumulation
+  - Mixed precision training
+  - BF16
+  - Model quantization
+  - LoRA versus QLoRA
+  - LoRA hyperparameter tuning
+  - QLoRA training workflow
+  - Adapter training
+  - Adapter checkpoint management
+  - LoRA weight merging
+  - Multi-adapter architecture
+  - Adapter routing
+  - LLM model registry
+  - Adapter versioning
+  - LLM evaluation
+  - Fine-tuning data quality
+  - LLM overfitting
+  - Catastrophic forgetting
+  - LoRA and RAG
+  - Enterprise LLM architecture
+  - Production AI deployment
+  - LLM observability
+  - AI training cost optimization
+  - Memory-efficient fine-tuning
+---
+
 # 13 — LoRA and QLoRA
 
 > A practical, production-oriented guide to **LoRA (Low-Rank Adaptation)** and **QLoRA (Quantized Low-Rank Adaptation)** for Large Language Models, covering low-rank updates, adapter architecture, rank selection, target modules, scaling, quantization, NF4, double quantization, paged optimizers, memory optimization, Hugging Face PEFT, TRL-based training, SFT integration, evaluation, deployment, adapter management, production architecture, cost optimization, common failure modes, and enterprise AI engineering considerations.

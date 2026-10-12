@@ -1,3 +1,69 @@
+---
+title: "Hugging Face and Transformers: Model Hub, Tokenizers, Pipelines, Fine-Tuning, and Production AI"
+description: >
+  Learn the Hugging Face ecosystem and Transformers library through this
+  practical, engineering-focused guide to pretrained foundation models and
+  production AI systems. Explore the Hugging Face Model Hub, model repository
+  structure, encoder-only and decoder-only architectures, Auto Classes,
+  tokenizers, token IDs, attention masks, padding, truncation, and the Pipeline
+  API. Understand how to load pretrained models, perform inference, work with
+  datasets, fine-tune models, apply parameter-efficient fine-tuning (PEFT),
+  accelerate training, evaluate model performance, and deploy Transformer-based
+  applications. Includes practical Python examples, PyTorch integration,
+  model selection guidance, and production considerations for building scalable,
+  maintainable enterprise AI solutions.
+keywords:
+  - Hugging Face
+  - Hugging Face Transformers
+  - Transformers library
+  - Hugging Face Model Hub
+  - foundation models
+  - pretrained models
+  - large language models
+  - LLM engineering
+  - AutoTokenizer
+  - AutoModel
+  - Auto Classes
+  - AutoModelForCausalLM
+  - AutoModelForSequenceClassification
+  - Transformer models
+  - encoder-only models
+  - decoder-only models
+  - encoder-decoder models
+  - BERT
+  - GPT
+  - Llama
+  - Mistral
+  - Gemma
+  - T5
+  - BART
+  - tokenization
+  - token IDs
+  - attention masks
+  - padding and truncation
+  - Hugging Face Pipeline API
+  - pretrained model inference
+  - text generation
+  - NLP model deployment
+  - Hugging Face Datasets
+  - model fine-tuning
+  - parameter-efficient fine-tuning
+  - PEFT
+  - LoRA
+  - Accelerate
+  - TRL
+  - model evaluation
+  - PyTorch
+  - Python AI development
+  - model repository structure
+  - model weights and configuration
+  - production AI systems
+  - enterprise AI engineering
+  - Transformer model serving
+  - AI inference optimization
+  - scalable AI deployment
+---
+
 # Hugging Face and Transformers: Model Hub, Tokenizers, Pipelines, Training, and Production AI
 
 > A practical engineering guide to the **Hugging Face ecosystem and Transformers**, covering pretrained Foundation Models, the Hugging Face Model Hub, tokenizers, Auto Classes, pipelines, datasets, inference, training, fine-tuning, PEFT, Accelerate, and production deployment of Transformer-based AI systems.

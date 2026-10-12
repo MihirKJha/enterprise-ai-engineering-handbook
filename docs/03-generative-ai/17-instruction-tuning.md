@@ -1,3 +1,72 @@
+---
+title: "Instruction Tuning: LLM Instruction Following, Supervised Fine-Tuning, LoRA, QLoRA, and Enterprise AI Workflows"
+description: >
+  Learn instruction tuning for large language models (LLMs), from pretrained
+  base models to instruction-following assistants. Explore supervised fine-tuning
+  (SFT), instruction-response datasets, multi-turn conversations, Hugging Face
+  Transformers, chat templates, response-only loss masking, dataset curation,
+  synthetic data generation, multi-task training, and LoRA/QLoRA-based
+  parameter-efficient fine-tuning. Understand training objectives, hyperparameter
+  optimization, overfitting, catastrophic forgetting, model evaluation, safety,
+  alignment, prompt injection, and instruction-following quality metrics. Discover
+  production-oriented workflows for enterprise instruction dataset governance,
+  reproducible training, model registries, CI/CD quality gates, domain-specific
+  adapters, and continuous improvement. Includes practical Python examples,
+  enterprise AI architecture patterns, common failure modes, best practices,
+  and interview preparation.
+keywords:
+  - instruction tuning
+  - LLM instruction tuning
+  - large language models
+  - instruction-following models
+  - supervised fine-tuning
+  - SFT
+  - LLM fine-tuning
+  - pretrained language models
+  - base model vs instruction-tuned model
+  - instruction datasets
+  - instruction-response datasets
+  - multi-task instruction tuning
+  - domain-specific LLMs
+  - Hugging Face Transformers
+  - Hugging Face TRL
+  - chat templates
+  - tokenizer.apply_chat_template
+  - response-only loss
+  - loss masking
+  - causal language modeling
+  - instruction dataset curation
+  - synthetic instruction data
+  - teacher-student training
+  - dataset deduplication
+  - PII filtering
+  - training data governance
+  - LoRA
+  - QLoRA
+  - PEFT
+  - parameter-efficient fine-tuning
+  - LLM training hyperparameters
+  - catastrophic forgetting
+  - instruction tuning evaluation
+  - instruction-following evaluation
+  - structured output compliance
+  - LLM alignment
+  - RLHF
+  - DPO
+  - prompt engineering
+  - RAG and instruction tuning
+  - prompt injection defense
+  - enterprise AI assistants
+  - production LLM training
+  - model registry
+  - LLM CI/CD
+  - AI model governance
+  - instruction tuning quality gates
+  - enterprise AI architecture
+  - LLM training best practices
+  - instruction tuning interview questions
+---
+
 # 17 — Instruction Tuning
 
 > A practical, production-oriented guide to **Instruction Tuning**, covering instruction-following models, supervised instruction tuning, instruction datasets, prompt-response formats, task diversity, data quality, data curation, instruction templates, multi-task instruction tuning, chat templates, loss masking, label construction, training workflow, Hugging Face implementation, evaluation, overfitting, catastrophic forgetting, alignment, SFT relationship, LoRA/QLoRA-based instruction tuning, production architecture, common failure modes, best practices, interview questions, and enterprise AI engineering considerations.

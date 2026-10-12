@@ -1,3 +1,88 @@
+---
+title: "Language Understanding Fundamentals: NLP, NLU, Text Representation, Transformers, and Enterprise AI"
+description: >
+  Learn Natural Language Understanding (NLU) from foundational Natural Language
+  Processing (NLP) concepts to modern Transformer-based language models. Explore
+  text preprocessing, tokenization, One-Hot Encoding, Bag-of-Words, TF-IDF, word
+  embeddings, semantic understanding, document classification, sentiment analysis,
+  intent recognition, Named Entity Recognition, and question answering. Understand
+  neural networks, RNNs, LSTMs, GRUs, Transformers, cross-entropy loss, and supervised
+  NLU training pipelines. Learn classification evaluation metrics, including accuracy,
+  precision, recall, F1 score, and confusion matrices, alongside dataset splitting,
+  hyperparameter tuning, overfitting prevention, and model drift detection. Discover
+  how to build production-ready enterprise NLU services with API gateways, model
+  inference, business logic, enterprise integration, observability, and continuous
+  evaluation. Includes a practical Python text-classification example, enterprise
+  applications, common challenges, engineering best practices, interview questions,
+  and a quick revision guide connecting traditional NLU to Foundation Models, LLMs,
+  Retrieval-Augmented Generation (RAG), and modern AI systems.
+keywords:
+  - Natural Language Understanding
+  - NLU Fundamentals
+  - Natural Language Processing
+  - NLP vs NLU
+  - Enterprise NLP
+  - Text Preprocessing
+  - Text Representation
+  - Tokenization
+  - One-Hot Encoding
+  - Bag-of-Words
+  - TF-IDF
+  - Word Embeddings
+  - Contextual Embeddings
+  - Semantic Understanding
+  - Semantic Similarity
+  - Document Classification
+  - Text Classification
+  - Sentiment Analysis
+  - Intent Recognition
+  - Named Entity Recognition
+  - NER
+  - Question Answering
+  - Information Extraction
+  - Neural Networks for NLP
+  - RNN
+  - LSTM
+  - GRU
+  - Transformer Architecture
+  - Attention Mechanisms
+  - Foundation Models
+  - Large Language Models
+  - LLM Fundamentals
+  - Language Modeling
+  - Cross-Entropy Loss
+  - Classification Metrics
+  - Accuracy
+  - Precision and Recall
+  - F1 Score
+  - Confusion Matrix
+  - NLU Training Pipeline
+  - Supervised Learning
+  - Training Validation and Test Sets
+  - Hyperparameter Tuning
+  - Overfitting Prevention
+  - Class Imbalance
+  - Model Evaluation
+  - Model Drift Detection
+  - Python Text Classification
+  - Scikit-learn
+  - TF-IDF Vectorizer
+  - Logistic Regression
+  - Production NLU Architecture
+  - Enterprise AI Microservices
+  - AI Model Inference
+  - NLU Observability
+  - Enterprise Document Intelligence
+  - Semantic Search
+  - Conversational AI
+  - Banking NLP Applications
+  - Retrieval-Augmented Generation
+  - RAG Fundamentals
+  - LLM-Based Language Understanding
+  - Production AI Engineering
+  - Enterprise AI Engineering Handbook
+---
+
 # Language Understanding Fundamentals: From NLP to Modern AI Systems
 
 > A practical, engineering-focused guide to **Natural Language Understanding (NLU)** covering NLP vs NLU, text representation, tokenization, document classification, semantic understanding, neural NLP models, training pipelines, evaluation metrics, production considerations, and the evolution toward **Transformers and Large Language Models (LLMs)**.
