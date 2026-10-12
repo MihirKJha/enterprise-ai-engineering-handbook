@@ -1,3 +1,110 @@
+---
+title: "Deploying AI Applications with Flask: Production REST APIs, RAG Microservices, and Enterprise AI Architecture"
+
+description: >
+  Learn how to deploy production-oriented AI applications using Flask and expose
+  large language models (LLMs), retrieval-augmented generation (RAG), embeddings,
+  and machine learning capabilities through REST APIs. This chapter covers Flask
+  application architecture, request and response contracts, Pydantic validation,
+  thin controllers, application services, capability-based interfaces, and
+  Ports and Adapters architecture. Explore enterprise RAG API design, conversation
+  management, asynchronous document ingestion, file uploads, streaming responses,
+  Server-Sent Events, API versioning, centralized error handling, and HTTP status
+  codes. Understand production requirements for authentication, authorization,
+  multi-tenant isolation, rate limiting, timeouts, retries, circuit breakers,
+  model gateways, secrets management, observability, distributed tracing, and
+  cost monitoring. Learn how to integrate Flask with LangChain, LlamaIndex,
+  Gradio, React, and Spring Boot. Discover Docker containerization, Gunicorn,
+  Kubernetes deployment, horizontal scaling, caching, worker configuration,
+  automated testing, AI evaluation, and production readiness checklists. Designed
+  for AI engineers, backend developers, and software architects building scalable,
+  secure, maintainable enterprise AI microservices and integrating Python AI
+  capabilities into existing cloud-native enterprise systems.
+
+keywords:
+  - Deploying AI Applications with Flask
+  - Flask for AI Applications
+  - Flask REST API
+  - Python AI Microservices
+  - Enterprise AI Architecture
+  - AI Service Architecture
+  - Production AI APIs
+  - Large Language Models
+  - LLM Integration
+  - Retrieval-Augmented Generation
+  - RAG API
+  - Enterprise RAG Architecture
+  - RAG Microservices
+  - AI Application Development
+  - Python Backend Development
+  - REST API Design
+  - API Request and Response Contracts
+  - Pydantic Validation
+  - Flask Blueprints
+  - Thin Controller Pattern
+  - Application Service Layer
+  - Ports and Adapters Architecture
+  - Hexagonal Architecture
+  - Capability-Based Interfaces
+  - LLM Provider Abstraction
+  - Embedding Provider
+  - Vector Store Interface
+  - Vector Database Integration
+  - LangChain Integration
+  - LlamaIndex Integration
+  - Flask and Gradio
+  - Flask and React
+  - Flask and Spring Boot
+  - Java and Python Integration
+  - Enterprise Backend Integration
+  - API Versioning
+  - AI Chat API
+  - Conversation Management
+  - Document Upload API
+  - Asynchronous AI Processing
+  - Background Workers
+  - LLM Streaming
+  - Server-Sent Events
+  - AI API Error Handling
+  - HTTP Status Codes
+  - API Authentication
+  - API Authorization
+  - OAuth 2.0
+  - OpenID Connect
+  - JWT Authentication
+  - Multi-Tenant AI Applications
+  - Tenant Data Isolation
+  - AI API Rate Limiting
+  - LLM Timeouts and Retries
+  - Circuit Breaker Pattern
+  - Model Gateway Architecture
+  - AI Configuration Management
+  - Secrets Management
+  - Health Checks
+  - Liveness and Readiness Probes
+  - OpenAPI Documentation
+  - Flask API Testing
+  - Mocking LLM Providers
+  - RAG Evaluation
+  - AI Observability
+  - Distributed Tracing
+  - Structured Logging
+  - LLM Latency Monitoring
+  - Token Usage Tracking
+  - AI Cost Management
+  - Docker for Python Applications
+  - Gunicorn Deployment
+  - Kubernetes AI Deployment
+  - Cloud-Native AI Microservices
+  - Horizontal Scaling
+  - Stateless API Design
+  - AI Response Caching
+  - Model Initialization
+  - AI Worker Concurrency
+  - Production AI Security
+  - Enterprise AI Engineering Handbook
+---
+  
 # 22 — Deploying AI Applications with Flask
 
 > Learn how to expose LLM, RAG, and other AI capabilities through production-oriented REST APIs using Flask, and understand how Python AI services can integrate with enterprise applications, microservices, and cloud infrastructure.

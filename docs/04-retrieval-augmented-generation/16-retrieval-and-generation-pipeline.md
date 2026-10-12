@@ -1,3 +1,123 @@
+---
+title: "Retrieval and Generation Pipeline: Enterprise RAG Architecture and Production Engineering"
+description: >
+  Understand how Retrieval-Augmented Generation (RAG) transforms user queries
+  into retrieved evidence and grounded LLM responses. This chapter explores
+  query processing, validation, normalization, query rewriting, embeddings,
+  candidate retrieval, metadata and security filtering, ranking, deduplication,
+  context selection, token budgeting, context compression, prompt construction,
+  LLM generation, response validation, and citation assembly. Learn how to
+  separate retrieval and generation responsibilities, implement authorization-
+  aware retrieval, handle empty and low-confidence results, manage conflicting
+  documents and knowledge freshness, and protect against prompt injection in
+  retrieved content. Explore conversational RAG, context prioritization,
+  latency optimization, streaming generation, parallel execution, caching,
+  retries, timeouts, circuit breakers, fallback models, backpressure, and
+  horizontal scaling. Practical Python and Java examples demonstrate RAG
+  orchestration, capability-based interfaces, provider abstraction, and
+  framework integrations using LangChain and LlamaIndex. The chapter also
+  covers retrieval and generation evaluation, observability, distributed
+  tracing, cost optimization, production deployment, failure diagnosis, and
+  enterprise architecture practices for building reliable, secure, scalable,
+  and maintainable RAG applications.
+keywords:
+  - Retrieval and Generation Pipeline
+  - Retrieval-Augmented Generation
+  - RAG architecture
+  - Enterprise RAG
+  - Production RAG pipeline
+  - RAG runtime pipeline
+  - Retrieval pipeline
+  - LLM generation pipeline
+  - Query processing
+  - Query validation
+  - Query normalization
+  - Query understanding
+  - Query rewriting
+  - Conversational RAG
+  - Query embeddings
+  - Embedding compatibility
+  - Candidate retrieval
+  - Candidate generation
+  - Approximate nearest neighbor search
+  - Top-K retrieval
+  - Metadata filtering
+  - Authorization-aware retrieval
+  - Security-aware retrieval
+  - Tenant isolation
+  - Document ranking
+  - Reranking
+  - Retrieval deduplication
+  - Context selection
+  - Context assembly
+  - Context ordering
+  - Context compression
+  - Context window management
+  - Token budgeting
+  - Grounded prompt construction
+  - Prompt templates
+  - Prompt injection
+  - LLM generation
+  - LLM provider abstraction
+  - Generation parameters
+  - Response validation
+  - Citation generation
+  - Citation validation
+  - Empty retrieval handling
+  - Low-confidence retrieval
+  - Retrieval fallback
+  - Keyword search fallback
+  - Retrieval failure diagnosis
+  - Generation failure diagnosis
+  - Context assembly failures
+  - Knowledge freshness
+  - Conflicting documents
+  - Source of truth
+  - RAG latency optimization
+  - Streaming generation
+  - Parallel retrieval
+  - RAG resilience
+  - Retry strategies
+  - Exponential backoff
+  - Circuit breakers
+  - Timeout budgets
+  - Fallback LLMs
+  - Caching strategies
+  - Authorization-aware caching
+  - Backpressure
+  - Bulkheads
+  - Rate limiting
+  - RAG scalability
+  - Production RAG deployment
+  - RAG observability
+  - Distributed tracing
+  - Retrieval evaluation
+  - Generation evaluation
+  - Recall at K
+  - Precision at K
+  - Mean Reciprocal Rank
+  - Normalized Discounted Cumulative Gain
+  - Groundedness and faithfulness
+  - Citation accuracy
+  - RAG cost optimization
+  - RAG orchestration
+  - Java RAG implementation
+  - Python RAG implementation
+  - Retriever interface
+  - ContextBuilder
+  - PromptBuilder
+  - ResponseValidator
+  - LLMProvider
+  - Capability-based architecture
+  - Ports and Adapters architecture
+  - Framework-independent RAG
+  - LangChain RAG
+  - LlamaIndex RAG
+  - LangGraph
+  - Enterprise AI application architecture
+  - Secure and scalable AI systems
+---
+
 # 16 — Retrieval and Generation Pipeline
 
 > Understand how a RAG application transforms a user query into retrieved evidence, assembles grounded context, invokes an LLM, and produces a reliable final response.

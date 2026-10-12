@@ -1,3 +1,144 @@
+---
+title: "Similarity Search Techniques: ANN Algorithms, Retrieval Ranking, and Enterprise RAG Architecture"
+description: >
+  Learn how vector similarity search retrieves semantically relevant information from high-dimensional
+  embeddings and powers modern semantic search and Retrieval-Augmented Generation (RAG) systems.
+  Explore query embeddings, vector spaces, cosine similarity, dot product, Euclidean distance,
+  Manhattan distance, and the importance of compatible embedding models, vector dimensions, and
+  normalization. Understand exact nearest-neighbor search and Approximate Nearest Neighbor (ANN)
+  algorithms, including Hierarchical Navigable Small World (HNSW), Inverted File (IVF), and Product
+  Quantization (PQ). Compare graph-based and cluster-based indexing, tune parameters such as M,
+  efConstruction, efSearch, and IVF probes, and evaluate the trade-offs among recall, latency, memory,
+  and index construction cost. Design production retrieval pipelines using Top-K selection, calibrated
+  similarity thresholds, metadata filtering, pre-filtering, post-filtering, filtered ANN search,
+  hybrid keyword and semantic retrieval, result fusion, and two-stage candidate generation with
+  reranking. Measure retrieval quality using Recall@K, Precision@K, Mean Reciprocal Rank (MRR), and
+  Normalized Discounted Cumulative Gain (NDCG), alongside P50, P95, and P99 latency, throughput,
+  memory, storage, and index build time. Apply enterprise retrieval principles for authorization,
+  tenant isolation, document versioning, recency-aware ranking, duplicate removal, safe observability,
+  dynamic updates, and batch or near-real-time indexing. Includes conceptual Python examples,
+  LangChain and LlamaIndex integrations, Java retriever interfaces, configurable retrieval options,
+  search result models, testing, regression evaluation, and configuration as code. Build a practical
+  foundation for engineering similarity search systems that balance relevance, recall, security,
+  latency, and cost across production AI applications.
+keywords:
+  - similarity search techniques
+  - vector similarity search
+  - semantic search
+  - nearest-neighbor search
+  - exact nearest-neighbor search
+  - brute-force vector search
+  - Approximate Nearest Neighbor (ANN)
+  - ANN search algorithms
+  - high-dimensional embeddings
+  - query embeddings
+  - document embeddings
+  - embedding space compatibility
+  - embedding model selection
+  - vector dimensions
+  - vector normalization
+  - cosine similarity
+  - dot product
+  - Euclidean distance
+  - Manhattan distance
+  - similarity metrics
+  - vector distance metrics
+  - similarity versus distance
+  - HNSW
+  - Hierarchical Navigable Small World
+  - HNSW graph indexing
+  - HNSW parameter tuning
+  - M parameter
+  - efConstruction
+  - efSearch
+  - Inverted File (IVF)
+  - IVF indexing
+  - IVF clustering
+  - IVF search probes
+  - Product Quantization (PQ)
+  - vector quantization
+  - vector compression
+  - HNSW versus IVF
+  - ANN index selection
+  - ANN recall and latency
+  - exact versus approximate search
+  - vector index construction
+  - vector index performance
+  - Top-K retrieval
+  - similarity thresholds
+  - threshold calibration
+  - metadata filtering
+  - pre-filtering
+  - post-filtering
+  - filtered ANN search
+  - tenant-aware retrieval
+  - authorization-aware search
+  - enterprise metadata filters
+  - hybrid search
+  - keyword search
+  - semantic retrieval
+  - result fusion
+  - combined ranking
+  - reranking
+  - two-stage retrieval
+  - candidate generation
+  - retrieval ranking
+  - Recall@K
+  - Precision@K
+  - Mean Reciprocal Rank
+  - MRR
+  - Normalized Discounted Cumulative Gain
+  - NDCG
+  - retrieval evaluation datasets
+  - retrieval ground truth
+  - vector search benchmarking
+  - recall-latency trade-off
+  - P50 latency
+  - P95 latency
+  - P99 latency
+  - query throughput
+  - queries per second
+  - index build time
+  - dynamic vector indexing
+  - batch indexing
+  - near-real-time indexing
+  - incremental retrieval updates
+  - enterprise RAG
+  - Retrieval-Augmented Generation
+  - RAG retrieval pipeline
+  - query expansion
+  - multi-query retrieval
+  - query validation
+  - retrieval diagnostics
+  - retrieval observability
+  - empty retrieval handling
+  - stale vector detection
+  - duplicate result removal
+  - document version filtering
+  - recency-aware retrieval
+  - multi-tenant vector search
+  - retrieval security
+  - tenant isolation
+  - access-control filtering
+  - authorization context
+  - secure retrieval logging
+  - retrieval regression testing
+  - vector search unit testing
+  - search configuration as code
+  - retrieval optimization
+  - LangChain similarity search
+  - LangChain retriever
+  - LlamaIndex retriever
+  - Python vector search
+  - Java retrieval interface
+  - framework-agnostic retriever
+  - VectorStore abstraction
+  - RetrievalOptions
+  - RetrievedDocument model
+  - enterprise AI architecture
+  - production semantic retrieval
+---
+
 # 14 — Similarity Search Techniques
 
 > Learn how vector similarity search retrieves semantically relevant information from high-dimensional embeddings and understand the algorithms, distance metrics, filtering strategies, ranking approaches, and production trade-offs behind modern semantic retrieval systems.

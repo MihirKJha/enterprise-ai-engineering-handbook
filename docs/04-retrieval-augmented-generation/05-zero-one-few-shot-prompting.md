@@ -1,3 +1,77 @@
+---
+title: "Zero-Shot, One-Shot & Few-Shot Prompting: A Production Guide to LLM Prompt Engineering"
+description: >
+  Learn how zero-shot, one-shot, and few-shot prompting enable Large Language
+  Models (LLMs) to perform classification, information extraction, sentiment
+  analysis, intent detection, text transformation, and structured output
+  generation. Explore prompting architectures, practical examples, reusable
+  prompt templates, Python implementations, and framework integrations with
+  LangChain and LlamaIndex. Understand how to select representative examples,
+  handle edge cases, implement dynamic few-shot prompting with similarity-based
+  retrieval, and combine examples with Retrieval-Augmented Generation (RAG).
+  Discover production engineering practices for prompt escalation, evaluation,
+  regression testing, versioning, observability, token optimization, latency
+  reduction, security, prompt injection prevention, and example data governance.
+  Learn to compare prompting strategies using task-specific metrics and choose
+  the simplest approach that meets quality, cost, and performance requirements.
+keywords:
+  - zero-shot prompting
+  - one-shot prompting
+  - few-shot prompting
+  - prompt engineering
+  - LLM prompting techniques
+  - large language models
+  - generative AI
+  - in-context learning
+  - prompt design patterns
+  - zero-shot vs one-shot vs few-shot
+  - few-shot learning
+  - LLM classification
+  - sentiment analysis with LLMs
+  - intent classification
+  - information extraction with LLMs
+  - structured output generation
+  - JSON output prompting
+  - text transformation
+  - prompt templates
+  - reusable prompt templates
+  - Python prompt engineering
+  - LangChain few-shot prompting
+  - LlamaIndex prompt templates
+  - dynamic few-shot prompting
+  - similarity-based example selection
+  - example selection strategies
+  - representative prompt examples
+  - prompt example diversity
+  - boundary examples
+  - prompt construction
+  - prompt escalation strategy
+  - prompt evaluation
+  - LLM evaluation metrics
+  - prompt regression testing
+  - prompt versioning
+  - LLM observability
+  - prompt token optimization
+  - LLM inference cost optimization
+  - LLM latency optimization
+  - context window management
+  - few-shot prompting vs RAG
+  - few-shot prompting with RAG
+  - Retrieval-Augmented Generation
+  - production AI architecture
+  - enterprise AI engineering
+  - production LLM applications
+  - prompt injection prevention
+  - LLM security
+  - example data governance
+  - prompt quality evaluation
+  - accuracy precision recall F1
+  - schema validation
+  - backend engineering with LLMs
+  - enterprise customer support automation
+  - production prompt management
+---
+
 # 05 — Zero-shot, One-shot & Few-shot Prompting
 
 > Learn how Zero-shot, One-shot, and Few-shot prompting enable Large Language Models (LLMs) to perform tasks with no examples, a single example, or multiple demonstrations — and understand how to select, design, evaluate, and implement these patterns in production AI systems.

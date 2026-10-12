@@ -1,3 +1,122 @@
+---
+title: "Vector Database Fundamentals: Indexing, Similarity Search, and Enterprise RAG Architecture"
+description: >
+  Explore vector database fundamentals for building scalable, secure, and production-ready
+  semantic search and Retrieval-Augmented Generation (RAG) systems. Learn how vector databases
+  store embeddings, content, and metadata; perform similarity search; apply metadata filters;
+  manage vector records; and support efficient retrieval through exact search and Approximate
+  Nearest Neighbor (ANN) indexing. Understand cosine similarity, dot product, Euclidean distance,
+  HNSW, Inverted File (IVF) indexes, and Product Quantization (PQ), including their performance,
+  recall, and memory trade-offs. Compare vector libraries, dedicated vector databases, relational
+  databases with vector search, search engines, and object storage. Explore hybrid search,
+  persistence, CRUD operations, upserts, deletion workflows, embedding dimension compatibility,
+  model migration, blue-green index deployment, batch ingestion, and query-time retrieval.
+  Apply enterprise architecture principles covering metadata filtering, tenant isolation,
+  authorization, security, data lineage, citations, observability, benchmarking, backup and
+  recovery, and retrieval quality evaluation. Learn to design framework-agnostic vector-store
+  abstractions using Python and Java, Ports and Adapters, and integrations with FAISS, Chroma,
+  Qdrant, pgvector, Milvus, Weaviate, Pinecone, Elasticsearch, OpenSearch, LangChain, and
+  LlamaIndex. Build a practical foundation for selecting, integrating, operating, and evolving
+  vector retrieval infrastructure in enterprise AI applications.
+keywords:
+  - vector database fundamentals
+  - vector databases
+  - vector database architecture
+  - vector stores
+  - vector libraries
+  - vector indexing
+  - vector search
+  - semantic search
+  - similarity search
+  - nearest neighbor search
+  - Approximate Nearest Neighbor (ANN)
+  - exact vector search
+  - high-dimensional embeddings
+  - embedding vectors
+  - vector dimensions
+  - embedding model compatibility
+  - cosine similarity
+  - dot product
+  - Euclidean distance
+  - vector similarity metrics
+  - HNSW indexing
+  - Hierarchical Navigable Small World
+  - Inverted File (IVF) index
+  - Product Quantization (PQ)
+  - ANN index tuning
+  - retrieval recall
+  - vector search latency
+  - Top-K retrieval
+  - similarity thresholds
+  - metadata filtering
+  - pre-filtering and post-filtering
+  - hybrid search
+  - keyword search
+  - vector database CRUD
+  - vector upsert
+  - incremental indexing
+  - vector deletion
+  - vector database persistence
+  - in-memory vector stores
+  - persistent vector stores
+  - vector database scalability
+  - vector database benchmarking
+  - vector database performance optimization
+  - vector database selection
+  - dedicated vector database vs PostgreSQL
+  - PostgreSQL pgvector
+  - FAISS
+  - Chroma
+  - Qdrant
+  - Milvus
+  - Weaviate
+  - Pinecone
+  - Elasticsearch vector search
+  - OpenSearch vector search
+  - vector search engines
+  - managed vector databases
+  - cloud vector services
+  - enterprise RAG architecture
+  - Retrieval-Augmented Generation
+  - RAG retrieval pipeline
+  - RAG context assembly
+  - embedding generation
+  - batch vector ingestion
+  - vector record schema
+  - vector metadata
+  - document chunk storage
+  - source document lineage
+  - document versioning
+  - citation architecture
+  - vector index migration
+  - blue-green vector indexing
+  - embedding model migration
+  - vector index rebuilding
+  - vector data recovery
+  - vector database backup
+  - vector database security
+  - tenant isolation
+  - multi-tenant vector search
+  - authorization-aware retrieval
+  - enterprise metadata filtering
+  - vector database observability
+  - vector search monitoring
+  - P50 P95 P99 latency
+  - ingestion throughput
+  - retrieval quality evaluation
+  - empty retrieval handling
+  - Ports and Adapters architecture
+  - framework-agnostic vector store
+  - VectorStore interface
+  - vector store adapter pattern
+  - Python vector database integration
+  - Java vector database integration
+  - LangChain vector stores
+  - LlamaIndex vector indexing
+  - enterprise AI infrastructure
+  - production semantic retrieval
+---
+
 # 13 — Vector Database Fundamentals
 
 > Understand how vector databases store, index, search, filter, and manage high-dimensional embeddings that power modern semantic search and Retrieval-Augmented Generation (RAG) systems.

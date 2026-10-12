@@ -1,3 +1,96 @@
+---
+title: "Advanced Prompt Engineering: Prompt Architecture, Context Engineering, Evaluation, and Production LLM Systems"
+description: >
+  Explore advanced prompt engineering techniques for building reliable,
+  maintainable, testable, and production-oriented Large Language Model (LLM)
+  applications. Learn how to structure prompts using behavior, task, context,
+  constraints, and output layers; decompose complex tasks; separate trusted
+  instructions from untrusted data; and use Markdown, XML-style delimiters,
+  reusable prompt components, and dynamic templates. Understand context
+  engineering, context selection and compression, prompt chaining, conditional
+  prompt construction, and the trade-offs between single prompts and multi-step
+  workflows. Discover practical Python and LangChain examples for classification,
+  information extraction, data transformation, code generation, code review,
+  and enterprise document analysis. Learn to handle missing information and
+  uncertainty, define structured output contracts, validate model responses,
+  and defend against prompt injection through layered application security.
+  Apply production engineering practices for prompt evaluation, representative
+  test datasets, regression testing, versioning, observability, token and latency
+  optimization, and continuous improvement. Understand how to integrate prompts
+  into enterprise backend services and Retrieval-Augmented Generation (RAG)
+  architectures while balancing quality, reliability, security, cost, and
+  maintainability.
+keywords:
+  - advanced prompt engineering
+  - advanced LLM prompt design
+  - prompt architecture
+  - production prompt engineering
+  - Large Language Models
+  - LLM application engineering
+  - prompt as application contract
+  - prompt behavior layer
+  - task instructions
+  - context layer
+  - prompt constraints
+  - output contracts
+  - advanced instruction design
+  - task decomposition
+  - trusted and untrusted inputs
+  - prompt delimiters
+  - XML-style prompt structure
+  - Markdown prompt templates
+  - positive and negative instructions
+  - missing information handling
+  - uncertainty handling in LLMs
+  - context engineering
+  - context selection
+  - context compression
+  - context window optimization
+  - prompt chaining
+  - prompt chaining vs single prompt
+  - multi-step LLM workflows
+  - reusable prompt components
+  - dynamic prompt construction
+  - conditional prompt templates
+  - Python prompt templates
+  - LangChain ChatPromptTemplate
+  - prompt injection awareness
+  - prompt injection defense
+  - LLM application security
+  - structured output contracts
+  - JSON schema validation
+  - LLM output validation
+  - prompt reliability engineering
+  - prompt evaluation
+  - prompt test datasets
+  - prompt regression testing
+  - prompt versioning
+  - prompt observability
+  - LLM tracing and monitoring
+  - prompt optimization
+  - prompt compression
+  - token usage optimization
+  - LLM latency and cost optimization
+  - prompt conflict resolution
+  - instruction priority
+  - classification prompts
+  - information extraction prompts
+  - transformation prompts
+  - code generation prompts
+  - code review prompts
+  - evaluation rubrics
+  - enterprise prompt engineering
+  - backend architecture for LLMs
+  - Retrieval-Augmented Generation
+  - RAG prompt engineering
+  - LangChain prompt engineering
+  - production LLM workflows
+  - enterprise AI architecture
+  - PromptOps
+  - LLM evaluation and observability
+  - production AI reliability
+---
+
 # 03 — Advanced Prompt Engineering
 
 > Move beyond basic prompting and learn advanced techniques for designing reliable, maintainable, testable, and production-oriented prompts for Large Language Model (LLM) applications.

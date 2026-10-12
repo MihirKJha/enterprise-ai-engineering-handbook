@@ -1,3 +1,88 @@
+---
+title: "Introduction to Prompt Engineering: LLM Prompt Design, Context Engineering, Evaluation, and Production AI"
+description: >
+  Learn the foundations of prompt engineering for large language models (LLMs)
+  and discover how instructions, context, examples, constraints, input data,
+  and output requirements influence model behavior. This chapter explains
+  prompt structure, system and user messages, prompt templates, dynamic
+  variables, prompt composition, generation parameters, context window
+  management, and the differences between prompt engineering, RAG, and
+  fine-tuning. Explore practical Python examples, reusable prompt builders,
+  LangChain and LlamaIndex prompt templates, grounding instructions, structured
+  outputs, JSON validation, and LLM application integration. Learn how to
+  evaluate prompts using representative test cases, accuracy, consistency,
+  groundedness, latency, cost, and safety metrics. Covers prompt versioning,
+  regression testing, PromptOps, prompt injection awareness, output validation,
+  application-level authorization, context engineering, production monitoring,
+  and enterprise AI architecture. Build a repeatable workflow for designing,
+  testing, evaluating, refining, deploying, and monitoring reliable prompts
+  in production LLM applications.
+keywords:
+  - introduction to prompt engineering
+  - prompt engineering
+  - LLM prompt design
+  - large language models
+  - LLM applications
+  - prompt structure
+  - prompt components
+  - system instructions
+  - user instructions
+  - assistant messages
+  - prompt context
+  - prompt constraints
+  - output requirements
+  - prompt templates
+  - dynamic prompt variables
+  - prompt composition
+  - prompt builder
+  - Python prompt engineering
+  - prompt engineering examples
+  - prompt engineering for developers
+  - prompt engineering for backend engineers
+  - prompt engineering for enterprise AI
+  - prompt engineering vs fine-tuning
+  - prompt engineering vs RAG
+  - retrieval augmented generation
+  - context engineering
+  - context window management
+  - grounding LLM responses
+  - LLM hallucination mitigation
+  - structured outputs
+  - JSON output validation
+  - LLM output parsing
+  - LLM application architecture
+  - prompt evaluation
+  - prompt testing
+  - prompt regression testing
+  - prompt versioning
+  - PromptOps
+  - prompt quality metrics
+  - LLM accuracy and consistency
+  - LLM groundedness evaluation
+  - LLM latency and cost optimization
+  - prompt injection
+  - prompt injection awareness
+  - LLM application security
+  - trusted and untrusted content
+  - application-level authorization
+  - LLM output validation
+  - generation parameters
+  - temperature and top-p
+  - token usage optimization
+  - LangChain prompt templates
+  - LlamaIndex prompt templates
+  - production prompt engineering
+  - enterprise LLM architecture
+  - LLM observability
+  - prompt metadata
+  - prompt lifecycle management
+  - LLM evaluation datasets
+  - production AI reliability
+  - LLM feedback loops
+  - AI application testing
+  - enterprise AI engineering handbook
+---
+
 # 01 — Introduction to Prompt Engineering
 
 > Learn the foundations of Prompt Engineering and understand how instructions, context, constraints, examples, and output requirements influence Large Language Model (LLM) behavior.

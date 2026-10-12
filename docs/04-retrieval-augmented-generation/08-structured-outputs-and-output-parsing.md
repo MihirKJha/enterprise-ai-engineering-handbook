@@ -1,3 +1,126 @@
+---
+title: "Structured Outputs and Output Parsing: JSON Schemas, Validation, and Enterprise AI Architecture"
+description: >
+  Learn how to make Large Language Model (LLM) responses predictable,
+  machine-readable, and production-ready using structured outputs, JSON,
+  JSON Schema, typed models, and output parsing. Explore how structured
+  responses act as API contracts between AI applications and enterprise
+  software systems, with practical examples using Python, Pydantic, Java,
+  Jackson, Spring Boot, LangChain, and LlamaIndex. Understand the differences
+  between syntax validation, schema validation, semantic validation, business
+  validation, and authorization, and learn why valid JSON does not guarantee
+  correct or secure results. Discover enterprise use cases including document
+  processing, invoice extraction, customer risk classification, ticket routing,
+  tool calling, Retrieval-Augmented Generation (RAG), event-driven architectures,
+  and workflow automation. Learn production patterns for schema design,
+  enumerations, nested objects, optional and nullable fields, typed response
+  models, provider abstraction, framework-independent domain contracts, and
+  schema versioning. Explore robust error handling through bounded retries,
+  corrective prompts, repair strategies, and fallback mechanisms. Understand
+  how to protect AI applications using business rules, authorization, policy
+  enforcement, prompt injection defenses, guardrails, response size limits,
+  and confidence calibration. Apply contract testing, LLM evaluation,
+  regression testing, telemetry, and production monitoring to build reliable
+  AI-powered backend services, microservices, and event-driven applications.
+keywords:
+  - structured outputs
+  - LLM structured output
+  - output parsing
+  - structured output parsing
+  - large language models
+  - LLM response validation
+  - prompt engineering
+  - JSON output from LLMs
+  - JSON Schema
+  - schema-constrained generation
+  - structured response formats
+  - machine-readable AI output
+  - typed LLM responses
+  - API contracts for LLMs
+  - enterprise AI architecture
+  - production AI engineering
+  - production LLM applications
+  - generative AI integration
+  - JSON parsing in Python
+  - Python JSON parsing
+  - Pydantic validation
+  - Pydantic models
+  - Pydantic JSON Schema
+  - Python type validation
+  - Java JSON parsing
+  - Jackson ObjectMapper
+  - Java DTO
+  - Java records
+  - Bean Validation
+  - Spring Boot AI integration
+  - LangChain structured output
+  - LlamaIndex structured output
+  - framework-agnostic AI architecture
+  - provider abstraction
+  - structured output provider
+  - OpenAI structured outputs
+  - Azure OpenAI integration
+  - Anthropic structured output
+  - Google AI integration
+  - IBM watsonx integration
+  - JSON Schema validation
+  - syntax validation
+  - semantic validation
+  - business validation
+  - schema validation vs business validation
+  - LLM output correctness
+  - structured output reliability
+  - enum validation
+  - required and optional fields
+  - nullable fields
+  - nested JSON objects
+  - JSON arrays
+  - schema design best practices
+  - schema versioning
+  - backward-compatible schemas
+  - API contract testing
+  - LLM contract testing
+  - structured output evaluation
+  - LLM regression testing
+  - malformed JSON handling
+  - JSONDecodeError handling
+  - LLM retry strategies
+  - corrective prompting
+  - output repair
+  - fallback strategies
+  - bounded retries
+  - enterprise document processing
+  - invoice entity extraction
+  - document AI pipelines
+  - customer risk classification
+  - AI-powered ticket routing
+  - structured output for tool calling
+  - function calling arguments
+  - RAG structured responses
+  - structured citations
+  - evidence-grounded responses
+  - event-driven AI architecture
+  - Kafka event schemas
+  - AWS event-driven integration
+  - Azure Service Bus integration
+  - Google Pub/Sub integration
+  - AI workflow automation
+  - state machine integration
+  - structured output guardrails
+  - LLM security
+  - prompt injection defense
+  - authorization outside the LLM
+  - business policy enforcement
+  - confidence calibration
+  - LLM observability
+  - schema compliance metrics
+  - AI application latency
+  - LLM token usage monitoring
+  - production AI testing
+  - reliable AI microservices
+  - enterprise backend architecture
+---
+
 # 08 — Structured Outputs & Output Parsing
 
 > Learn how to make LLM responses predictable, machine-readable, and production-ready using structured outputs, schemas, JSON, validation, and output parsing.

@@ -1,3 +1,112 @@
+---
+title: "RAG Pipeline Components: Enterprise Retrieval-Augmented Generation Architecture and Implementation"
+description: >
+  Learn how Retrieval-Augmented Generation (RAG) components work together to
+  build production-grade enterprise AI applications. This chapter covers
+  document ingestion, document processing, chunking, metadata enrichment,
+  embeddings, vector stores, query processing, retrieval, context assembly,
+  prompt construction, LLM generation, citation management, and response
+  validation. Explore the separation between indexing and query pipelines,
+  Top-K retrieval, similarity thresholds, hybrid search, reranking,
+  authorization-aware retrieval, tenant isolation, context deduplication,
+  token budget management, and grounded generation. Understand how to design
+  modular RAG architectures using Java interfaces, Python implementations,
+  capability-based abstractions, and Ports and Adapters architecture. Practical
+  examples demonstrate RAG orchestration, data contracts, provider-neutral
+  integrations, and conceptual implementations using LangChain and LlamaIndex.
+  The chapter also explains production workflows, empty retrieval handling,
+  retrieval versus generation failures, observability, distributed tracing,
+  evaluation, configuration management, and enterprise security best practices
+  for building scalable, maintainable, and reliable knowledge-grounded AI
+  systems.
+keywords:
+  - Retrieval-Augmented Generation
+  - RAG pipeline components
+  - Enterprise RAG architecture
+  - Production RAG systems
+  - Enterprise AI engineering
+  - RAG pipeline design
+  - RAG indexing pipeline
+  - RAG query pipeline
+  - Document ingestion
+  - Document processing
+  - Document chunking
+  - Metadata enrichment
+  - Embedding models
+  - Query embeddings
+  - Vector embeddings
+  - Vector stores
+  - Vector databases
+  - Semantic search
+  - Similarity search
+  - Top-K retrieval
+  - Similarity thresholds
+  - Retriever architecture
+  - Hybrid search
+  - Multi-query retrieval
+  - Parent-child retrieval
+  - Contextual compression
+  - Reranking
+  - Metadata filtering
+  - Authorization-aware retrieval
+  - Security-aware retrieval
+  - Tenant isolation
+  - Enterprise knowledge retrieval
+  - Context assembly
+  - Context ordering
+  - Context deduplication
+  - Context window management
+  - LLM token budget
+  - Prompt construction
+  - Grounded prompting
+  - LLM generation
+  - Knowledge-grounded generation
+  - RAG citations
+  - Citation preservation
+  - Citation validation
+  - Response validation
+  - Structured output validation
+  - Empty retrieval handling
+  - Retrieval failure diagnosis
+  - Generation failure diagnosis
+  - RAG observability
+  - RAG distributed tracing
+  - RAG evaluation
+  - Retrieval quality metrics
+  - RAG latency and cost optimization
+  - RAG data contracts
+  - RAG component interfaces
+  - Java RAG architecture
+  - Python RAG implementation
+  - DocumentProcessor
+  - DocumentChunker
+  - EmbeddingProvider
+  - VectorStore interface
+  - Retriever interface
+  - ContextBuilder
+  - PromptBuilder
+  - LLMProvider
+  - RAG orchestration
+  - Ports and Adapters architecture
+  - Hexagonal architecture
+  - Framework-independent RAG
+  - Provider-neutral architecture
+  - LangChain RAG
+  - LlamaIndex RAG
+  - LangGraph
+  - OpenAI embeddings
+  - Hugging Face embeddings
+  - IBM watsonx
+  - Chroma vector database
+  - Qdrant
+  - pgvector
+  - Enterprise AI application architecture
+  - RAG configuration management
+  - Production AI observability
+  - Secure enterprise AI
+  - Scalable AI architecture
+---
+
 # 15 — RAG Pipeline Components
 
 > Understand the core building blocks of a Retrieval-Augmented Generation (RAG) system and how document processing, chunking, embeddings, vector stores, retrieval, context assembly, prompting, and generation work together to build reliable enterprise AI applications.

@@ -1,3 +1,49 @@
+---
+title: "LLM Function Calling and Tool Calling: Enterprise AI Integration, Security, and Agent Architecture"
+description: >
+  Learn how Large Language Models (LLMs) interact with external functions,
+  REST APIs, databases, enterprise microservices, cloud services, search
+  systems, and workflow engines through structured function calling and tool
+  calling. Understand tool definitions, descriptions, input schemas, output
+  contracts, tool selection, structured arguments, and the complete
+  LLM–tool–observation execution loop. Explore how tool calling integrates
+  with ReAct prompting, Retrieval-Augmented Generation (RAG), structured
+  outputs, AI agents, Model Context Protocol (MCP), and multi-step workflows.
+  Discover production-oriented architecture patterns including tool registries,
+  tool gateways, capability-based interfaces, Ports and Adapters, provider
+  abstraction, and framework-independent business capabilities. Learn to
+  implement tool integrations using Python, Pydantic, Java, Spring Boot,
+  LangChain, and LlamaIndex. Examine enterprise use cases such as customer
+  and order management, inventory lookup, payment operations, document search,
+  incident analysis, monitoring, cloud resource access, and workflow
+  automation. Understand critical production concerns including argument
+  validation, result validation, authentication, authorization, least privilege,
+  tool allowlists, human approval, idempotency, timeouts, bounded retries,
+  error handling, execution budgets, state management, sequential and parallel
+  tool execution, and asynchronous workflows. Explore security practices for
+  prompt injection, untrusted tool results, personally identifiable information,
+  secret protection, tenant isolation, and data minimization. Learn how to
+  implement tool versioning, ownership, observability, distributed tracing,
+  audit logging, contract testing, and evaluation. Build reliable enterprise
+  AI systems where the LLM proposes useful capabilities while the application
+  retains control over validation, authorization, policy enforcement, and
+  execution.
+keywords:
+  - function calling
+  - tool calling
+  - LLM function calling
+  - LLM tool use
+  - large language models
+  - generative AI
+  - enterprise AI engineering
+  - enterprise AI architecture
+  - production AI systems
+  - AI tool integration
+  - structured tool calls
+  - tool definitions
+  - tool
+---
+  
 # 09 — Function Calling & Tool Calling
 
 > Learn how Large Language Models (LLMs) can interact with external functions, APIs, databases, enterprise services, and tools through structured function and tool calling mechanisms.

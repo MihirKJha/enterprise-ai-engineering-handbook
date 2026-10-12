@@ -1,3 +1,169 @@
+---
+title: "Document Processing and Vectorization: Enterprise RAG Data Pipelines and Production Architecture"
+description: >
+  Learn how enterprise document processing transforms heterogeneous data into
+  clean, structured, searchable content for semantic retrieval and Retrieval-
+  Augmented Generation (RAG). Explore end-to-end ingestion pipelines covering
+  file type detection, document parsing, text extraction, OCR, cleaning,
+  normalization, structure detection, metadata extraction, chunk preparation,
+  embedding generation, and vector storage. Understand how to process PDFs,
+  scanned documents, DOCX, HTML, Markdown, CSV, JSON, emails, web pages, tables,
+  and database records using format-specific strategies and normalized document
+  representations. Discover how document structure, table-aware extraction,
+  Unicode normalization, duplicate detection, content hashing, version tracking,
+  and metadata enrichment influence retrieval quality. Learn to preserve
+  document hierarchy, page numbers, section context, chunk identifiers, source
+  lineage, citations, access classifications, and tenant information throughout
+  the document-to-vector lifecycle. Examine chunk-level vectorization,
+  context enrichment, vector dimension validation, batch processing, embedding
+  throughput, retries, exponential backoff, dead-letter queues, idempotency,
+  incremental processing, document updates, deletion propagation, and
+  re-indexing. Explore production quality gates, processing state machines,
+  structured logging, distributed tracing, ingestion metrics, data quality
+  dashboards, and security-aware retrieval. Understand enterprise architecture
+  patterns including framework-independent document processors, embedding
+  provider interfaces, vector store abstractions, Ports and Adapters, and
+  practical integrations with LangChain and LlamaIndex. Learn production
+  practices for protecting sensitive information, enforcing authorization,
+  isolating tenants, maintaining reproducible vector records, and safely
+  migrating embedding models through blue-green index deployments. This chapter
+  provides an architecture-focused foundation for building reliable, scalable,
+  observable, and maintainable document ingestion and vectorization pipelines
+  for enterprise AI applications.
+keywords:
+  - document processing
+  - document vectorization
+  - enterprise document processing
+  - enterprise RAG architecture
+  - Retrieval-Augmented Generation
+  - RAG data preparation
+  - RAG ingestion pipeline
+  - document ingestion
+  - document parsing
+  - text extraction
+  - document normalization
+  - document cleaning
+  - document structure detection
+  - document metadata extraction
+  - document chunk preparation
+  - embedding generation
+  - vectorization pipeline
+  - document-to-vector pipeline
+  - enterprise data ingestion
+  - heterogeneous document processing
+  - PDF processing
+  - PDF text extraction
+  - scanned PDF processing
+  - OCR
+  - Optical Character Recognition
+  - OCR quality validation
+  - DOCX processing
+  - HTML processing
+  - Markdown processing
+  - CSV processing
+  - JSON processing
+  - email processing
+  - web content extraction
+  - table extraction
+  - table-aware document processing
+  - structured document extraction
+  - document parser architecture
+  - content-type routing
+  - MIME type detection
+  - normalized document model
+  - document representation
+  - document elements
+  - document hierarchy
+  - structure-aware processing
+  - paragraph extraction
+  - heading detection
+  - metadata preservation
+  - Unicode normalization
+  - whitespace normalization
+  - OCR artifact removal
+  - document deduplication
+  - duplicate document detection
+  - content hashing
+  - SHA-256 document hash
+  - document fingerprinting
+  - document change detection
+  - document version tracking
+  - incremental document processing
+  - document update workflow
+  - document deletion propagation
+  - idempotent ingestion
+  - ingestion idempotency key
+  - document processing state machine
+  - document processing retries
+  - exponential backoff
+  - dead-letter queue
+  - resilient ingestion pipeline
+  - batch embedding
+  - embedding throughput optimization
+  - vector validation
+  - embedding dimension validation
+  - vector data validation
+  - NaN and Infinity validation
+  - vector store records
+  - vector database indexing
+  - vector metadata
+  - chunk-level metadata
+  - document lineage
+  - data lineage
+  - source traceability
+  - document citations
+  - page-level citations
+  - section metadata
+  - parent-child retrieval
+  - document context enrichment
+  - context-aware embeddings
+  - chunk-level vectorization
+  - vector indexing
+  - embedding model versioning
+  - vector index migration
+  - blue-green vector index migration
+  - embedding model migration
+  - retrieval evaluation
+  - document processing quality gates
+  - ingestion observability
+  - document processing metrics
+  - OCR failure rate
+  - embedding failure rate
+  - indexing failure rate
+  - structured logging
+  - distributed tracing
+  - ingestion monitoring
+  - data quality metrics
+  - enterprise document security
+  - access control metadata
+  - security-aware retrieval
+  - role-based access filtering
+  - tenant isolation
+  - multi-tenant RAG
+  - confidential document processing
+  - sensitive data protection
+  - framework-independent document processing
+  - DocumentProcessor interface
+  - EmbeddingProvider interface
+  - VectorStore interface
+  - Ports and Adapters architecture
+  - hexagonal architecture
+  - provider adapter pattern
+  - document processor abstraction
+  - vector store abstraction
+  - LangChain document processing
+  - LangChain text splitters
+  - LlamaIndex document processing
+  - Python document processing
+  - PyMuPDF
+  - python-docx
+  - BeautifulSoup
+  - enterprise AI engineering
+  - scalable document ingestion
+  - production RAG pipelines
+  - reliable vectorization architecture
+---
+
 # 11 — Document Processing & Vectorization
 
 > Learn how enterprise documents are ingested, extracted, cleaned, normalized, transformed into meaningful chunks, enriched with metadata, and converted into vectors for downstream semantic retrieval and RAG systems.

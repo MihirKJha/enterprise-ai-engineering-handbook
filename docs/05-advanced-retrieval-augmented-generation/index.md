@@ -547,12 +547,12 @@ This section expands RAG beyond conventional vector retrieval.
 
 | Topic | Status |
 | --- | :---: |
-| **[01. Advanced RAG Architecture](05-advanced-rag-architecture/01-advanced-rag-architecture.md)** | ✅ |
-| **[02. Graph RAG](05-advanced-rag-architecture/02-graph-rag.md)** | ✅ |
-| **[03. Knowledge Graphs for RAG](05-advanced-rag-architecture/03-knowledge-graphs-for-rag.md)** | ✅ |
-| **[04. SQL RAG](05-advanced-rag-architecture/04-sql-rag.md)** | ✅ |
-| **[05. Multimodal RAG](05-advanced-rag-architecture/05-multimodal-rag.md)** | ✅ |
-| **[06. Agentic RAG](05-advanced-rag-architecture/06-agentic-rag.md)** | ✅ |
+| **[01. Advanced RAG Architecture](06-advanced-rag-architecture/01-advanced-rag-architecture.md)** | ✅ |
+| **[02. Graph RAG](06-advanced-rag-architecture/02-graph-rag.md)** | ✅ |
+| **[03. Knowledge Graphs for RAG](06-advanced-rag-architecture/03-knowledge-graphs-for-rag.md)** | ✅ |
+| **[04. SQL RAG](06-advanced-rag-architecture/04-sql-rag.md)** | ✅ |
+| **[05. Multimodal RAG](06-advanced-rag-architecture/05-multimodal-rag.md)** | ✅ |
+| **[06. Agentic RAG](06-advanced-rag-architecture/06-agentic-rag.md)** | ✅ |
 
 ---
 ## Graph RAG
@@ -638,22 +638,22 @@ This section brings advanced retrieval into a complete production pipeline, cove
 
 | Chapter | Status |
 | --- | :---: |
-| **[01. Prompt Assembly](06-production-rag-engineering/01-prompt-assembly.md)** | ✅ |
-| **[02. Context Selection & Context Engineering](06-production-rag-engineering/02-context-selection-and-context-engineering.md)** | ✅ |
-| **[03. Response Validation](06-production-rag-engineering/03-response-validation.md)** | ✅ |
-| **[04. Citation & Source Attribution](06-production-rag-engineering/04-citation-and-source-attribution.md)** | ✅ |
-| **[05. Enterprise Response](06-production-rag-engineering/05-enterprise-response.md)** | ✅ |
-| **[06. RAG Evaluation & Benchmarking](06-production-rag-engineering/06-rag-evaluation-and-benchmarking.md)** | ✅ |
-| **[07. RAG Observability](06-production-rag-engineering/07-rag-observability.md)** | ✅ |
-| **[08. RAG Performance Optimization](06-production-rag-engineering/08-rag-performance-optimization.md)** | ✅ |
-| **[09. RAG Cost Optimization](06-production-rag-engineering/09-rag-cost-optimization.md)** | ✅ |
-| **[10. Production Retrieval Architecture](06-production-rag-engineering/10-production-retrieval-architecture.md)** | ✅ |
-| **[11. Building Production RAG Systems](06-production-rag-engineering/11-building-production-rag-systems.md)** | ✅ |
-| **[12. RAG Deployment Patterns](06-production-rag-engineering/12-rag-deployment-patterns.md)** | ✅ |
-| **[13. RAG Caching Strategies](06-production-rag-engineering/13-rag-caching-strategies.md)** | ✅ |
-| **[14. Multi-Tenant RAG](06-production-rag-engineering/14-multi-tenant-rag.md)** | ✅ |
-| **[15. RAG Testing Frameworks](06-production-rag-engineering/15-rag-testing-frameworks.md)** | ✅ |
-| **[16. RAG Failure Patterns](06-production-rag-engineering/16-rag-failure-patterns.md)** | ✅ |
+| **[01. Prompt Assembly](07-production-rag-engineering/01-prompt-assembly.md)** | ✅ |
+| **[02. Context Selection & Context Engineering](07-production-rag-engineering/02-context-selection-and-context-engineering.md)** | ✅ |
+| **[03. Response Validation](07-production-rag-engineering/03-response-validation.md)** | ✅ |
+| **[04. Citation & Source Attribution](07-production-rag-engineering/04-citation-and-source-attribution.md)** | ✅ |
+| **[05. Enterprise Response](07-production-rag-engineering/05-enterprise-response.md)** | ✅ |
+| **[06. RAG Evaluation & Benchmarking](07-production-rag-engineering/06-rag-evaluation-and-benchmarking.md)** | ✅ |
+| **[07. RAG Observability](07-production-rag-engineering/07-rag-observability.md)** | ✅ |
+| **[08. RAG Performance Optimization](07-production-rag-engineering/08-rag-performance-optimization.md)** | ✅ |
+| **[09. RAG Cost Optimization](07-production-rag-engineering/09-rag-cost-optimization.md)** | ✅ |
+| **[10. Production Retrieval Architecture](07-production-rag-engineering/10-production-retrieval-architecture.md)** | ✅ |
+| **[11. Building Production RAG Systems](07-production-rag-engineering/11-building-production-rag-systems.md)** | ✅ |
+| **[12. RAG Deployment Patterns](07-production-rag-engineering/12-rag-deployment-patterns.md)** | ✅ |
+| **[13. RAG Caching Strategies](07-production-rag-engineering/13-rag-caching-strategies.md)** | ✅ |
+| **[14. Multi-Tenant RAG](07-production-rag-engineering/14-multi-tenant-rag.md)** | ✅ |
+| **[15. RAG Testing Frameworks](07-production-rag-engineering/15-rag-testing-frameworks.md)** | ✅ |
+| **[16. RAG Failure Patterns](07-production-rag-engineering/16-rag-failure-patterns.md)** | ✅ |
 
 
 

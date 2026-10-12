@@ -1,3 +1,93 @@
+---
+title: "Chain-of-Thought Prompting: LLM Reasoning Techniques and Production AI Architecture"
+description: >
+  Explore Chain-of-Thought (CoT) prompting, a technique for encouraging Large
+  Language Models (LLMs) to handle complex tasks involving intermediate reasoning,
+  logical relationships, calculations, dependencies, and multiple constraints.
+  Learn the differences between direct prompting, zero-shot CoT, few-shot
+  reasoning, task decomposition, prompt chaining, self-consistency, ReAct, and
+  agentic reasoning. Discover practical applications in mathematical problem
+  solving, Java code analysis, enterprise architecture assessment, incident
+  investigation, planning, and multi-criteria classification. Understand how to
+  combine reasoning-oriented prompts with Retrieval-Augmented Generation (RAG),
+  tool calling, structured JSON outputs, schema validation, and independent
+  verification. Explore production implementations using Python, LangChain, and
+  LlamaIndex, along with reusable prompt templates and evidence-based response
+  patterns. Learn essential engineering practices for grounding answers in
+  supplied context, identifying assumptions, handling missing information,
+  preventing unsupported conclusions, and separating recommendations from
+  authorized execution. Evaluate reasoning strategies using task-specific
+  datasets and metrics while managing latency, token consumption, inference cost,
+  reliability, and security. Build production-ready LLM applications with
+  appropriate validation, observability, regression testing, human oversight,
+  and application-level authorization controls.
+keywords:
+  - Chain-of-Thought prompting
+  - CoT prompting
+  - chain of thought reasoning
+  - LLM reasoning techniques
+  - prompt engineering
+  - large language models
+  - generative AI
+  - reasoning-oriented prompting
+  - zero-shot Chain-of-Thought
+  - few-shot reasoning
+  - multi-step reasoning
+  - logical reasoning with LLMs
+  - mathematical reasoning
+  - task decomposition
+  - prompt chaining
+  - self-consistency prompting
+  - ReAct prompting
+  - agentic reasoning
+  - reasoning vs direct prompting
+  - reasoning vs task decomposition
+  - reasoning vs prompt chaining
+  - reasoning vs few-shot prompting
+  - reasoning and tool calling
+  - LLM function calling
+  - reasoning with RAG
+  - Retrieval-Augmented Generation
+  - grounded reasoning
+  - evidence-based reasoning
+  - assumption-aware reasoning
+  - hallucination prevention
+  - enterprise architecture analysis
+  - microservices dependency analysis
+  - backend architecture reasoning
+  - production incident analysis
+  - Java code analysis with LLMs
+  - AI-assisted code generation
+  - constraint-based decision making
+  - multi-criteria classification
+  - LLM planning
+  - structured output generation
+  - JSON prompting
+  - Pydantic validation
+  - LLM output parsing
+  - independent validation
+  - generate and verify pattern
+  - deterministic calculation tools
+  - production AI architecture
+  - enterprise AI engineering
+  - Python prompt templates
+  - LangChain reasoning prompts
+  - LlamaIndex prompt templates
+  - LLM evaluation
+  - reasoning evaluation datasets
+  - prompt regression testing
+  - prompt optimization
+  - LLM observability
+  - LLM inference cost optimization
+  - LLM latency optimization
+  - context grounding
+  - human-in-the-loop AI
+  - AI security boundaries
+  - LLM authorization controls
+  - production LLM reliability
+  - Chain-of-Thought best practices
+---
+
 # 06 — Chain-of-Thought Prompting
 
 > Learn how Chain-of-Thought (CoT) prompting can improve performance on complex reasoning tasks, understand when it is useful, how it differs from ordinary prompting, and how to apply reasoning-oriented techniques safely in production LLM applications.

@@ -1,3 +1,82 @@
+---
+title: "Prompt Engineering Fundamentals: LLM Prompt Design, Context, Templates, Evaluation, and Production AI"
+description: >
+  Learn the fundamentals of prompt engineering for Large Language Models (LLMs),
+  including instructions, context, constraints, role and audience specification,
+  task decomposition, delimiters, prompt ordering, few-shot examples, structured
+  output requirements, and reusable prompt templates. Explore prompt specificity,
+  context quality, token awareness, context windows, and the impact of prompt design
+  on cost, latency, consistency, and reliability. Discover practical prompt
+  engineering examples using Python, Java, and LangChain, including prompt builders,
+  runtime variables, enterprise document analysis, code review, and structured
+  classification. Understand prompt testing, evaluation workflows, regression
+  testing, prompt versioning, optimization, and production monitoring. Learn how
+  to handle untrusted content, mitigate prompt injection risks, validate LLM
+  outputs, and enforce security through application-level controls. Apply
+  production-oriented prompt engineering patterns to backend services, enterprise
+  AI applications, and Retrieval-Augmented Generation (RAG) systems.
+keywords:
+  - prompt engineering fundamentals
+  - prompt engineering
+  - LLM prompt design
+  - Large Language Models
+  - prompt engineering best practices
+  - effective prompt design
+  - prompt instructions
+  - prompt context
+  - prompt constraints
+  - role-based prompting
+  - audience specification
+  - task decomposition
+  - explicit instructions
+  - contextual instructions
+  - prompt delimiters
+  - trusted and untrusted content
+  - prompt ordering
+  - prompt specificity
+  - context engineering
+  - context quality
+  - context window management
+  - token awareness
+  - prompt token optimization
+  - LLM cost optimization
+  - LLM latency optimization
+  - prompt templates
+  - reusable prompt templates
+  - dynamic prompt variables
+  - Python prompt templates
+  - Java prompt builder
+  - LangChain ChatPromptTemplate
+  - few-shot examples
+  - output formatting
+  - structured LLM outputs
+  - JSON output validation
+  - enterprise document analysis
+  - AI-powered code review
+  - LLM classification
+  - prompt testing
+  - prompt evaluation
+  - prompt regression testing
+  - prompt versioning
+  - prompt optimization
+  - prompt reliability
+  - LLM output validation
+  - LLM guardrails
+  - prompt injection
+  - LLM application security
+  - application-level authorization
+  - Retrieval-Augmented Generation
+  - RAG prompt engineering
+  - enterprise AI architecture
+  - production LLM applications
+  - prompt management
+  - PromptOps
+  - LLM observability
+  - AI evaluation datasets
+  - production AI engineering
+  - backend architecture for AI
+---
+
 # 02 — Prompt Engineering Fundamentals
 
 > Understand the core principles of designing effective prompts for Large Language Models (LLMs), including instructions, context, constraints, examples, roles, output formats, prompt templates, and iterative evaluation.

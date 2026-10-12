@@ -1,3 +1,222 @@
+---
+title: "Enterprise Generative AI Application Architecture: Production-Grade AI Systems, Security, Scalability, and Governance"
+description: >
+  Learn how to design production-grade enterprise Generative AI applications
+  by integrating large language models (LLMs), prompt management, Retrieval-
+  Augmented Generation (RAG), enterprise data, APIs, security, observability,
+  and cloud infrastructure. This chapter presents a layered reference
+  architecture covering the experience, API, application, AI orchestration,
+  knowledge, model, data, platform, security, and observability layers. Explore
+  capability-based interfaces and provider abstractions for LLMs, embedding
+  models, and vector stores, using Ports and Adapters architecture to reduce
+  vendor coupling. Learn how to design reusable RAG services, manage versioned
+  prompts, produce structured outputs, validate model responses, and integrate
+  enterprise tools and APIs. The chapter explains authentication, authorization-
+  aware retrieval, tenant isolation, data protection, prompt injection risks,
+  and the treatment of retrieved context as untrusted data. Discover practical
+  strategies for API rate limiting, model routing, fallback providers, timeouts,
+  retries, circuit breakers, bulkheads, backpressure, caching, and context-window
+  management. Understand how to implement distributed tracing, monitor retrieval
+  quality, latency, token usage, model consumption, cache hit rates, and AI
+  costs. The architecture also covers conversation memory, enterprise knowledge
+  separation, authoritative data stores, asynchronous document ingestion,
+  event-driven knowledge updates, containerized deployment, horizontal scaling,
+  modular monoliths, and selective microservice decomposition. Learn to define
+  AI-specific service-level objectives, integrate RAG evaluation and security
+  checks into CI/CD quality gates, attribute costs by application, user, tenant,
+  and model, and continuously improve production quality. Use the architecture
+  review checklist, production-readiness principles, and reference diagrams to
+  evolve an LLM prototype into a secure, observable, reliable, scalable, and
+  maintainable enterprise AI application.
+keywords:
+  - Enterprise Generative AI Application Architecture
+  - Enterprise Generative AI architecture
+  - Production-grade Generative AI
+  - Enterprise AI application architecture
+  - Generative AI system design
+  - Enterprise AI reference architecture
+  - LLM application architecture
+  - Production LLM applications
+  - AI application architecture layers
+  - Experience layer
+  - API layer
+  - Application layer
+  - AI orchestration layer
+  - Knowledge layer
+  - Model layer
+  - Data layer
+  - Platform layer
+  - Security and governance
+  - AI observability
+  - Enterprise AI architecture principles
+  - LLM prototype to production
+  - Enterprise AI application lifecycle
+  - AI application design
+  - API gateway
+  - Enterprise REST API
+  - API versioning
+  - Request validation
+  - Request size limits
+  - API management
+  - Application service layer
+  - AI orchestration
+  - Tool integration
+  - Enterprise API integration
+  - Generative AI workflow
+  - RAG architecture
+  - Retrieval-Augmented Generation
+  - Reusable RAG capability
+  - Enterprise RAG service
+  - RAG service architecture
+  - Retrieval pipeline
+  - Enterprise knowledge integration
+  - Document ingestion architecture
+  - Asynchronous ingestion
+  - Event-driven knowledge updates
+  - Message queue
+  - Ingestion workers
+  - Document processing pipeline
+  - Embedding models
+  - Embedding provider abstraction
+  - EmbeddingProvider interface
+  - LLM provider abstraction
+  - LLMProvider interface
+  - Model gateway
+  - AI model gateway
+  - Multi-model architecture
+  - Model routing
+  - Fallback models
+  - Provider adapters
+  - Vendor independence
+  - Vendor lock-in reduction
+  - Capability-based interfaces
+  - Ports and Adapters architecture
+  - Hexagonal architecture
+  - Vector store abstraction
+  - Vector database integration
+  - Qdrant
+  - pgvector
+  - Chroma
+  - Milvus
+  - Prompt management
+  - Prompt engineering
+  - Prompt templates
+  - Prompt versioning
+  - Prompt evaluation
+  - Structured LLM output
+  - Machine-readable AI responses
+  - Output schema validation
+  - Pydantic validation
+  - Response validation
+  - Citation generation
+  - Citation validation
+  - Authentication
+  - Authorization
+  - OAuth 2.0
+  - OpenID Connect
+  - Enterprise single sign-on
+  - JWT authentication
+  - Identity and access management
+  - Authorization-aware RAG
+  - Retrieval access control
+  - Tenant isolation
+  - Multi-tenant AI applications
+  - Enterprise data protection
+  - Encryption in transit
+  - Encryption at rest
+  - Private networking
+  - Secrets management
+  - Data classification
+  - Data retention
+  - Audit logging
+  - Prompt injection
+  - RAG prompt injection defense
+  - Untrusted retrieved context
+  - Secure LLM application design
+  - API rate limiting
+  - Token-based rate limiting
+  - Model routing policies
+  - Model fallback strategy
+  - Distributed-system resilience
+  - Timeout strategy
+  - Retry policies
+  - Circuit breaker pattern
+  - Bulkhead pattern
+  - Backpressure
+  - Failure handling
+  - AI application reliability
+  - Response caching
+  - RAG caching
+  - Authorization-aware caching
+  - Cache invalidation
+  - Context-window management
+  - Token budget management
+  - Context budget optimization
+  - Conversation memory
+  - Conversation state management
+  - Conversation architecture
+  - Conversation history vs enterprise knowledge
+  - Conversation store
+  - Enterprise data architecture
+  - Relational database
+  - Vector database
+  - Object storage
+  - Source of truth
+  - Authoritative enterprise data
+  - Derived vector index
+  - Document versioning
+  - Event-driven architecture
+  - Cloud-native AI deployment
+  - Containerized AI services
+  - Load balancing
+  - Horizontal scaling
+  - Stateless RAG service
+  - Multi-service architecture
+  - Modular monolith
+  - Microservice decomposition
+  - Service boundary design
+  - Enterprise AI platform
+  - Shared AI capabilities
+  - Application-specific AI capabilities
+  - AI cost management
+  - LLM token cost
+  - Embedding cost
+  - Cost attribution
+  - Tenant-level cost tracking
+  - Model usage tracking
+  - AI capacity planning
+  - AI service-level objectives
+  - AI SLOs
+  - API availability
+  - P95 latency
+  - Retrieval quality SLO
+  - Groundedness SLO
+  - Citation accuracy
+  - AI quality and reliability
+  - RAG evaluation in CI/CD
+  - AI quality gates
+  - Automated RAG regression testing
+  - AI security testing
+  - Production AI monitoring
+  - Distributed tracing
+  - RAG observability
+  - AI telemetry
+  - Retrieval latency
+  - LLM latency
+  - Token usage monitoring
+  - Cache hit rate
+  - Model usage metrics
+  - AI cost observability
+  - Sensitive data logging
+  - Enterprise AI governance
+  - Production readiness checklist
+  - Enterprise architecture review
+  - AI architecture decision framework
+  - Enterprise AI scalability
+  - Secure and maintainable AI systems
+  - Enterprise AI Engineering Handbook
+---
+
 # 20 — Enterprise Generative AI Application Architecture
 
 > Learn how to design production-grade Generative AI applications by combining LLMs, prompt engineering, RAG, enterprise data, security, observability, APIs, and cloud infrastructure into scalable application architectures.

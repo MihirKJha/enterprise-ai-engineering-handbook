@@ -1,3 +1,189 @@
+---
+title: "Document Chunking Strategies: Semantic Splitting, Context Preservation, and Enterprise RAG Architecture"
+description: >
+  Explore document chunking strategies for building reliable, scalable, and
+  production-ready Retrieval-Augmented Generation (RAG) systems. Learn how to
+  transform processed enterprise documents into retrieval-ready chunks while
+  preserving semantic meaning, document structure, metadata, context, and source
+  traceability. Compare fixed-character, token-based, word-based, sentence-based,
+  paragraph-based, recursive, semantic, heading-aware, and structure-aware
+  chunking techniques. Understand how chunk size, overlap, parent context,
+  contextual enrichment, and content boundaries influence embedding quality,
+  retrieval precision, recall, LLM context utilization, latency, storage, and
+  cost. Discover content-specific chunking approaches for technical
+  documentation, enterprise policies, legal agreements, research papers, FAQs,
+  tables, spreadsheets, source code, emails, Markdown, and scanned PDFs. Learn
+  how to preserve document hierarchy, parent-child relationships, section
+  metadata, page numbers, stable chunk identifiers, content hashes, version
+  information, and lineage for citations, auditing, deduplication, incremental
+  updates, and deletion workflows. Examine practical implementations using
+  LangChain RecursiveCharacterTextSplitter, LlamaIndex SentenceSplitter,
+  Python-based chunking, and framework-independent Java interfaces. Explore
+  DocumentChunker abstractions, strategy factories, configuration-driven
+  selection, and separation of chunking, embedding, and vector storage through
+  capability-oriented architecture. Understand how chunk overlap affects
+  context continuity and redundancy, how chunk size interacts with retrieval
+  Top-K and the LLM context budget, and how contextual retrieval can improve
+  otherwise ambiguous chunks. Learn to evaluate chunking strategies using
+  representative query datasets and metrics such as Recall@K, Precision@K,
+  Mean Reciprocal Rank (MRR), Normalized Discounted Cumulative Gain (NDCG),
+  hit rate, latency, context size, and embedding cost. Apply production
+  practices for chunk validation, duplicate detection, stable identifiers,
+  incremental processing, observability, and empirical optimization. This
+  chapter provides an architecture-focused foundation for selecting and
+  implementing document chunking strategies that balance retrieval quality,
+  contextual completeness, operational efficiency, and enterprise traceability.
+keywords:
+  - document chunking
+  - chunking strategies
+  - enterprise RAG architecture
+  - Retrieval-Augmented Generation
+  - RAG chunking
+  - document splitting
+  - retrieval-ready chunks
+  - semantic chunking
+  - recursive chunking
+  - recursive character text splitting
+  - fixed-size chunking
+  - character-based chunking
+  - token-based chunking
+  - word-based chunking
+  - sentence-based chunking
+  - paragraph-based chunking
+  - structure-aware chunking
+  - heading-aware chunking
+  - section-aware chunking
+  - context-aware chunking
+  - contextual chunking
+  - contextual retrieval
+  - chunk size optimization
+  - chunk overlap
+  - chunk size and overlap
+  - chunk boundary detection
+  - semantic boundaries
+  - semantic coherence
+  - document structure preservation
+  - document hierarchy
+  - parent context
+  - parent-child chunking
+  - parent-child retrieval
+  - parent document retrieval
+  - child chunk retrieval
+  - chunk context enrichment
+  - context augmentation
+  - chunk metadata
+  - chunk-level metadata
+  - document metadata
+  - source traceability
+  - document lineage
+  - chunk identifiers
+  - stable chunk IDs
+  - chunk indexing
+  - chunk ordering
+  - chunk deduplication
+  - duplicate chunk detection
+  - chunk content hashing
+  - SHA-256 chunk hash
+  - incremental chunk processing
+  - document versioning
+  - chunk versioning
+  - document change detection
+  - incremental indexing
+  - content-aware chunking
+  - content-type-aware chunking
+  - dynamic chunking
+  - adaptive chunking
+  - document chunking evaluation
+  - chunk quality assessment
+  - semantic coherence evaluation
+  - context completeness
+  - retrieval precision
+  - retrieval recall
+  - embedding quality
+  - retrieval quality optimization
+  - Recall@K
+  - Precision@K
+  - Mean Reciprocal Rank
+  - MRR
+  - Normalized Discounted Cumulative Gain
+  - NDCG
+  - hit rate
+  - retrieval evaluation dataset
+  - chunking experiments
+  - chunking strategy comparison
+  - chunk size and Top-K
+  - LLM context window
+  - context budget optimization
+  - retrieval context size
+  - embedding cost optimization
+  - LLM inference cost
+  - retrieval latency
+  - storage efficiency
+  - retrieval redundancy
+  - diversity-aware retrieval
+  - reranking
+  - metadata filtering
+  - technical documentation chunking
+  - enterprise policy chunking
+  - legal document chunking
+  - research paper chunking
+  - FAQ chunking
+  - question-answer chunking
+  - table-aware chunking
+  - spreadsheet chunking
+  - row-level chunking
+  - table-level summaries
+  - source code chunking
+  - code-aware chunking
+  - AST-based chunking
+  - function-level chunking
+  - class-level chunking
+  - module-level chunking
+  - email thread chunking
+  - Markdown chunking
+  - heading-based splitting
+  - scanned PDF chunking
+  - OCR-aware chunking
+  - document chunking for citations
+  - multi-chunk retrieval
+  - multi-evidence RAG
+  - document section ordering
+  - LangChain chunking
+  - LangChain RecursiveCharacterTextSplitter
+  - langchain-text-splitters
+  - LlamaIndex chunking
+  - LlamaIndex SentenceSplitter
+  - LlamaIndex node parsing
+  - Python document chunking
+  - Java document chunking
+  - DocumentChunker interface
+  - Chunker abstraction
+  - Chunker factory
+  - ChunkingStrategy
+  - RecursiveChunker
+  - SemanticChunker
+  - HeadingChunker
+  - TableChunker
+  - CodeChunker
+  - DocumentChunk domain model
+  - framework-agnostic chunking
+  - capability-oriented architecture
+  - ports and adapters
+  - embedding provider abstraction
+  - vector store abstraction
+  - chunking pipeline architecture
+  - document processing pipeline
+  - document-to-vector pipeline
+  - vector database indexing
+  - chunk validation
+  - production RAG engineering
+  - enterprise AI engineering
+  - scalable retrieval systems
+  - production document ingestion
+  - RAG performance optimization
+  - retrieval architecture best practices
+---
+
 # 12 — Document Chunking Strategies
 
 > Learn how to transform processed documents into retrieval-ready chunks while preserving semantic meaning, document structure, context, metadata, and enterprise traceability.

@@ -1,3 +1,156 @@
+---
+title: "RAG Evaluation Fundamentals: Retrieval Metrics, Groundedness, and Production Quality Assurance"
+description: >
+  Learn how to systematically evaluate Retrieval-Augmented Generation (RAG)
+  systems across retrieval quality, context relevance, answer correctness,
+  groundedness, citation accuracy, latency, cost, reliability, and user
+  experience. This chapter explains evaluation dataset design, expected
+  evidence, reference answers, answerable and unanswerable questions, and
+  retrieval metrics including Precision@K, Recall@K, Hit Rate, Mean Reciprocal
+  Rank (MRR), and Normalized Discounted Cumulative Gain (NDCG). Explore context
+  relevance, completeness, ordering, deduplication, and noise reduction, along
+  with generation metrics for correctness, relevance, faithfulness, completeness,
+  and clarity. Learn to evaluate hallucinations at the claim level, validate
+  citations, measure citation coverage, and combine human evaluation with
+  LLM-as-a-Judge. Compare reference-based evaluation, semantic answer matching,
+  Exact Match, BLEU, and ROUGE with RAG-specific evaluation frameworks such as
+  Ragas, DeepEval, and TruLens. Practical Python examples demonstrate custom
+  answer evaluation, retrieval metric calculation, machine-readable evaluation
+  records, and batch testing. Discover how to build evaluation dashboards,
+  establish baselines, version datasets, track experiments, and run regression
+  tests before deploying changes to chunking, embeddings, Top-K, similarity
+  thresholds, prompts, vector stores, and LLM models. The chapter covers
+  negative testing, unauthorized information retrieval, empty-result handling,
+  citation integrity, latency percentiles, cost optimization, quality trade-offs,
+  root-cause analysis, and controlled experiments. Learn to combine offline
+  evaluation, production monitoring, automated regression tests, and human
+  review into a continuous quality improvement lifecycle for reliable,
+  measurable, and production-ready enterprise RAG systems.
+keywords:
+  - RAG Evaluation Fundamentals
+  - Retrieval-Augmented Generation evaluation
+  - Enterprise RAG evaluation
+  - RAG evaluation methodology
+  - RAG evaluation pipeline
+  - RAG evaluation dataset
+  - Evaluation dataset design
+  - Expected evidence
+  - Reference answers
+  - Answerable questions
+  - Unanswerable questions
+  - Question classification
+  - Difficulty-based evaluation
+  - Retrieval quality
+  - Retrieval evaluation
+  - Generation evaluation
+  - Context quality
+  - Context relevance
+  - Context completeness
+  - Context precision
+  - Context ordering
+  - Context noise
+  - Context assembly
+  - Precision@K
+  - Recall@K
+  - Hit Rate
+  - Mean Reciprocal Rank
+  - MRR
+  - Normalized Discounted Cumulative Gain
+  - NDCG
+  - Retrieval ranking metrics
+  - Information retrieval evaluation
+  - Answer correctness
+  - Answer relevance
+  - Answer completeness
+  - Answer clarity
+  - Faithfulness
+  - Groundedness
+  - Hallucination detection
+  - Claim-level evaluation
+  - Citation evaluation
+  - Citation accuracy
+  - Citation coverage
+  - Citation integrity
+  - Source attribution
+  - Human evaluation
+  - Human evaluation rubric
+  - LLM-as-a-Judge
+  - Automated RAG evaluation
+  - Reference-based evaluation
+  - Semantic answer evaluation
+  - Exact Match
+  - BLEU
+  - ROUGE
+  - RAG evaluation frameworks
+  - Ragas
+  - DeepEval
+  - TruLens
+  - LangChain evaluation
+  - LlamaIndex evaluation
+  - Custom RAG evaluation pipeline
+  - Python RAG evaluation
+  - Retrieval metric calculation
+  - Batch evaluation
+  - Machine-readable evaluation records
+  - Evaluation dashboard
+  - RAG evaluation scorecard
+  - Weighted evaluation metrics
+  - Multi-dimensional quality assessment
+  - Evaluation by question type
+  - Multi-hop question evaluation
+  - Negative testing
+  - Security evaluation
+  - Unauthorized retrieval testing
+  - Empty retrieval handling
+  - Outdated policy testing
+  - Ambiguous query evaluation
+  - Contradictory document evaluation
+  - Citation validation
+  - End-to-end RAG latency
+  - P50 latency
+  - P95 latency
+  - P99 latency
+  - RAG cost evaluation
+  - Cost per query
+  - RAG quality-cost trade-off
+  - Offline evaluation
+  - Production monitoring
+  - Continuous RAG evaluation
+  - Regression testing
+  - Evaluation baselines
+  - Experiment tracking
+  - Evaluation dataset versioning
+  - Retrieval quality regression
+  - Groundedness regression
+  - Controlled experiments
+  - Chunk size evaluation
+  - Chunk overlap evaluation
+  - Embedding model evaluation
+  - Top-K optimization
+  - Similarity threshold evaluation
+  - Prompt evaluation
+  - LLM model comparison
+  - Vector database evaluation
+  - Root-cause analysis
+  - RAG observability
+  - Evaluation alerts
+  - Retrieval failure diagnosis
+  - Context failure diagnosis
+  - Generation failure diagnosis
+  - RAG test pyramid
+  - Unit testing for RAG
+  - Integration testing for RAG
+  - End-to-end RAG testing
+  - Document processing evaluation
+  - Chunking evaluation
+  - Embedding benchmarks
+  - Ranking evaluation
+  - Production RAG quality assurance
+  - Enterprise AI reliability
+  - Continuous quality improvement
+  - Enterprise AI Engineering Handbook
+---
+
 # 19 — RAG Evaluation Fundamentals
 
 > Learn how to systematically evaluate Retrieval-Augmented Generation (RAG) systems across retrieval quality, context quality, answer quality, grounding, citations, latency, cost, and overall user experience.

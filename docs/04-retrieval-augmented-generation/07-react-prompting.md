@@ -1,3 +1,117 @@
+---
+title: "ReAct Prompting: LLM Tool Use, Agentic Workflows, and Production AI Architecture"
+description: >
+  Learn how ReAct (Reasoning + Acting) enables Large Language Models (LLMs) to
+  combine reasoning, tool execution, observations, and iterative decision-making
+  to solve complex tasks. Explore the core ReAct loop, including tool selection,
+  structured tool schemas, execution, observation handling, and termination
+  conditions. Understand the differences between ReAct, Chain-of-Thought,
+  function calling, tool calling, Retrieval-Augmented Generation (RAG), and
+  autonomous AI agents. Discover enterprise use cases involving database queries,
+  payment monitoring, external APIs, inventory systems, document search,
+  calculators, cloud services, incident investigation, and multi-step research.
+  Learn how to integrate ReAct with LangChain, LlamaIndex, framework-agnostic
+  tool interfaces, microservices, API gateways, and cloud provider adapters.
+  Explore production architecture patterns for controlled tool execution,
+  application-level authorization, input and output validation, read-only
+  database access, retries, timeouts, circuit breakers, idempotency, audit
+  logging, and human approval for high-risk operations. Understand how to
+  manage tool failures, prompt injection, untrusted observations, context growth,
+  agent state, iteration limits, execution budgets, and infinite-loop risks.
+  Apply practical evaluation techniques covering tool selection, argument
+  accuracy, execution reliability, task success, latency, token usage, and cost.
+  Build secure, observable, testable, and reliable ReAct-powered enterprise AI
+  applications with clear capability boundaries and production-grade controls.
+keywords:
+  - ReAct prompting
+  - ReAct pattern
+  - Reasoning and Acting
+  - LLM tool use
+  - LLM tool calling
+  - AI agent architecture
+  - agentic AI
+  - agentic workflows
+  - large language models
+  - prompt engineering
+  - iterative reasoning
+  - reasoning action observation loop
+  - ReAct core loop
+  - tool selection
+  - tool execution
+  - tool descriptions
+  - tool schemas
+  - structured tool arguments
+  - function calling vs ReAct
+  - tool calling vs ReAct
+  - Chain-of-Thought vs ReAct
+  - ReAct vs RAG
+  - Retrieval-Augmented Generation
+  - ReAct with RAG
+  - iterative retrieval
+  - agentic RAG
+  - multi-tool orchestration
+  - multi-step research
+  - LLM planning and execution
+  - enterprise AI architecture
+  - production AI systems
+  - production LLM applications
+  - enterprise AI engineering
+  - LangChain agents
+  - LlamaIndex tools
+  - framework-agnostic tool interfaces
+  - microservices tool integration
+  - AI orchestration layer
+  - capability-based architecture
+  - API gateway for AI agents
+  - tool gateway architecture
+  - cloud AI architecture
+  - AWS Azure GCP integration
+  - backend service integration
+  - database tools for LLMs
+  - SQL tool security
+  - payment monitoring with AI
+  - infrastructure monitoring agents
+  - incident investigation with LLMs
+  - enterprise knowledge assistants
+  - external API integration
+  - tool failure handling
+  - tool timeout management
+  - retry and fallback strategies
+  - circuit breaker pattern
+  - tool result validation
+  - Pydantic tool validation
+  - tool contracts
+  - LLM authorization
+  - risk-based tool access
+  - read-only and write tools
+  - idempotency for AI agents
+  - AI agent audit logging
+  - LLM observability
+  - agent tracing and metrics
+  - maximum agent iterations
+  - agent execution budgets
+  - infinite loop prevention
+  - LLM context management
+  - observation summarization
+  - prompt injection defense
+  - tool result injection
+  - AI trust boundaries
+  - secure tool execution
+  - sandboxed code execution
+  - human-in-the-loop approval
+  - ReAct agent state management
+  - sequential vs parallel tool execution
+  - parallel tool calls
+  - agent evaluation
+  - tool selection accuracy
+  - tool argument accuracy
+  - agent task success rate
+  - LLM regression testing
+  - agent cost optimization
+  - agent latency optimization
+  - production agent reliability
+---
+
 # 07 — ReAct Prompting
 
 > Learn how ReAct (Reasoning + Acting) enables Large Language Models (LLMs) to combine reasoning with tool interaction, observations, and iterative decision-making to solve tasks that cannot be completed reliably through a single model response.

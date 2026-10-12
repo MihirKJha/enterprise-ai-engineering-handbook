@@ -1,3 +1,114 @@
+---
+title: "Prompt Design Patterns: 50+ LLM Prompting Techniques, Reusable Templates, and Production AI Architecture"
+description: >
+  Learn how to design reliable, maintainable, and production-oriented Large
+  Language Model (LLM) applications using reusable prompt engineering patterns.
+  Explore role-based prompting, instruction and context separation, constraints,
+  delimiter-based prompting, XML-style boundaries, Markdown-structured prompts,
+  explicit output formats, few-shot examples, classification, information
+  extraction, transformation, summarization, comparison, decision-making, and
+  rubric-based evaluation. Understand task decomposition, sequential prompting,
+  prompt chaining, critique and refinement, self-checking, grounded question
+  answering, evidence-based responses, uncertainty handling, missing-information
+  policies, instruction hierarchy, conditional instructions, dynamic context
+  injection, reusable templates, prompt routing, fallbacks, retry and repair
+  workflows, and structured output validation with Pydantic. Apply practical
+  Python examples and framework integrations using LangChain, LlamaIndex, and
+  framework-agnostic prompt builders. Discover how to combine patterns into
+  multi-stage LLM pipelines and enterprise knowledge assistants, including
+  Retrieval-Augmented Generation (RAG) workflows. Learn production practices
+  for prompt selection, reusable component organization, testing, evaluation,
+  versioning, observability, token and cost optimization, latency management,
+  reliability engineering, and application-level security. Build prompts around
+  explicit business requirements while ensuring that schema validation,
+  authentication, authorization, business rules, and independent evaluation
+  remain application responsibilities.
+keywords:
+  - prompt design patterns
+  - prompt engineering patterns
+  - advanced prompt engineering
+  - LLM prompt design
+  - reusable prompt templates
+  - production prompt engineering
+  - Large Language Model applications
+  - role-based prompting
+  - instruction and context prompting
+  - instruction context constraints
+  - role task context output pattern
+  - delimiter-based prompting
+  - XML-style prompt boundaries
+  - Markdown-structured prompts
+  - explicit output format
+  - output contracts
+  - constraint-based prompting
+  - positive and negative instructions
+  - missing-information handling
+  - uncertainty-aware prompting
+  - task decomposition
+  - sequential prompting
+  - prompt chaining
+  - few-shot prompting
+  - input output example pairs
+  - classification prompts
+  - information extraction prompts
+  - structured data extraction
+  - data transformation prompts
+  - summarization prompts
+  - comparison prompts
+  - decision-making prompts
+  - rubric-based evaluation
+  - critique and refinement
+  - LLM self-checking
+  - generate validate workflows
+  - generate critique refine
+  - grounded question answering
+  - context and question separation
+  - evidence-based answering
+  - instruction hierarchy
+  - conditional prompting
+  - dynamic context injection
+  - prompt templates and variables
+  - multi-stage prompt pipelines
+  - prompt routing
+  - fallback prompts
+  - LLM retry and repair
+  - structured output validation
+  - Pydantic output validation
+  - JSON schema validation
+  - explicit assumptions in prompts
+  - clarification prompts
+  - progressive disclosure
+  - audience-adaptive prompting
+  - format-specific prompting
+  - code generation prompts
+  - code review prompts
+  - context-grounded generation
+  - Retrieval-Augmented Generation
+  - RAG prompt engineering
+  - enterprise knowledge assistants
+  - Python prompt engineering
+  - LangChain ChatPromptTemplate
+  - LlamaIndex PromptTemplate
+  - framework-agnostic prompt builders
+  - reusable prompt components
+  - prompt maintainability
+  - prompt testing
+  - prompt regression testing
+  - prompt evaluation metrics
+  - prompt versioning
+  - prompt observability
+  - LLM tracing and monitoring
+  - token optimization
+  - LLM latency optimization
+  - LLM cost optimization
+  - prompt reliability engineering
+  - prompt injection security
+  - application-level authorization
+  - enterprise AI architecture
+  - production LLM workflows
+  - PromptOps
+---
+
 # 04 — Prompt Design Patterns
 
 > Learn reusable Prompt Engineering patterns for designing clear, reliable, maintainable, and production-oriented LLM interactions.

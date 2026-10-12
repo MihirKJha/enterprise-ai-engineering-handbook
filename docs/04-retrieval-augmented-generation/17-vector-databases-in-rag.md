@@ -1,3 +1,137 @@
+---
+title: "Vector Databases in RAG: Similarity Search, Metadata Filtering, and Enterprise Architecture"
+description: >
+  Learn how vector databases power semantic retrieval in Retrieval-Augmented
+  Generation (RAG) systems. This chapter explores vector storage, embedding
+  dimensions, indexing workflows, similarity metrics, approximate nearest
+  neighbor (ANN) search, HNSW indexing, Top-K retrieval, similarity thresholds,
+  metadata filtering, hybrid search, and vector database selection. Understand
+  how to design enterprise vector storage with tenant isolation, authorization-
+  aware retrieval, document lineage, incremental indexing, upserts, deletion,
+  versioning, and embedding model migration. Compare specialized vector
+  databases such as Qdrant, Milvus, Pinecone, and Weaviate with PostgreSQL and
+  pgvector, as well as development tools such as FAISS and Chroma. Explore
+  managed versus self-hosted deployments, capacity planning, scalability, high
+  availability, replication, backup and recovery, security, encryption,
+  observability, and retrieval quality evaluation. Practical Python and Java
+  examples demonstrate vector store interfaces, provider adapters, factory
+  patterns, configuration-driven selection, and testing with fake vector
+  stores. Learn how to separate storage and retrieval responsibilities from
+  business logic, prompt construction, and LLM generation. Apply production-
+  oriented architectural principles to build secure, scalable, portable, and
+  maintainable vector retrieval infrastructure for enterprise RAG applications.
+keywords:
+  - Vector databases in RAG
+  - Vector database architecture
+  - Enterprise vector databases
+  - Retrieval-Augmented Generation
+  - Enterprise RAG architecture
+  - Semantic search
+  - Vector storage
+  - Vector embeddings
+  - Embedding dimensions
+  - Vector dimensionality consistency
+  - Embedding model compatibility
+  - Vector records
+  - Document chunks
+  - Metadata schema
+  - Document lineage
+  - Vector indexing pipeline
+  - Incremental indexing
+  - Vector upsert
+  - Vector deletion
+  - Vector lifecycle management
+  - Vector collections
+  - Vector namespaces
+  - Tenant isolation
+  - Tenant-aware retrieval
+  - Authorization-aware retrieval
+  - Metadata filtering
+  - Security-aware search
+  - Similarity search
+  - Cosine similarity
+  - Dot product similarity
+  - Euclidean distance
+  - Similarity metric selection
+  - Approximate Nearest Neighbor
+  - ANN indexing
+  - HNSW indexing
+  - Graph-based vector search
+  - Vector search latency
+  - Retrieval recall
+  - Top-K retrieval
+  - Similarity thresholds
+  - Vector ranking
+  - Hybrid search
+  - Keyword search
+  - BM25 retrieval
+  - Semantic and keyword fusion
+  - Elasticsearch
+  - OpenSearch
+  - Relational databases and vector search
+  - PostgreSQL vector search
+  - pgvector
+  - Specialized vector databases
+  - Qdrant
+  - Milvus
+  - Pinecone
+  - Weaviate
+  - FAISS
+  - Chroma
+  - Vector database comparison
+  - Vector database selection
+  - Vector database decision matrix
+  - Managed vector databases
+  - Self-hosted vector databases
+  - Vector database deployment
+  - High availability
+  - Replication and failover
+  - Vector database scaling
+  - Vector database capacity planning
+  - Vector storage estimation
+  - Vector index memory
+  - Embedding model migration
+  - Blue-green vector index migration
+  - Vector index versioning
+  - Reproducible retrieval
+  - Vector database security
+  - Encryption in transit
+  - Encryption at rest
+  - Private network architecture
+  - Vector database authentication
+  - Vector database authorization
+  - Audit logging
+  - Vector database observability
+  - Vector search metrics
+  - Indexing latency
+  - Query throughput
+  - Recall at K
+  - Empty retrieval rate
+  - Vector database backups
+  - Disaster recovery
+  - Vector index rebuilding
+  - Derived data architecture
+  - Vector retrieval testing
+  - Vector store interface
+  - Java vector database integration
+  - Python vector database integration
+  - Vector store adapter
+  - Qdrant adapter
+  - pgvector adapter
+  - Chroma adapter
+  - Milvus adapter
+  - Vector store factory
+  - Provider abstraction
+  - Capability-based architecture
+  - Ports and Adapters architecture
+  - Configuration-driven vector storage
+  - Fake vector store testing
+  - LangChain vector stores
+  - LlamaIndex vector stores
+  - Production RAG infrastructure
+  - Enterprise AI engineering
+---
+
 # 17 — Vector Databases in RAG
 
 > Understand how vector databases support Retrieval-Augmented Generation (RAG), how embeddings are indexed and searched, how metadata filtering works, and how to select and architect vector storage for enterprise AI applications.

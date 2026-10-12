@@ -1,3 +1,174 @@
+---
+title: "Building Your First RAG Pipeline: End-to-End Implementation with Python, LangChain, LlamaIndex, and Spring Boot"
+description: >
+  Learn how to build an end-to-end Retrieval-Augmented Generation (RAG)
+  application by connecting document ingestion, text processing, chunking,
+  embeddings, vector storage, retrieval, context assembly, prompt engineering,
+  and LLM generation into a complete knowledge pipeline. This chapter walks
+  through the indexing and query paths, with practical Python examples for
+  loading and normalizing documents, implementing chunking with overlap,
+  preserving metadata, generating embeddings, calculating cosine similarity,
+  storing vectors, and retrieving relevant evidence. Explore framework-independent
+  interfaces for embedding providers, vector stores, retrievers, and LLM
+  providers, alongside a minimal RAG pipeline and implementations using
+  LangChain and LlamaIndex. Learn how to preserve source metadata for citations,
+  apply metadata filters and similarity thresholds, handle empty or low-quality
+  retrieval results, and construct grounded prompts that reduce unsupported
+  answers. The chapter also covers enterprise RAG architecture, Java-first
+  implementation with Spring Boot, Ports and Adapters architecture, provider
+  abstraction, configuration-driven deployments, and production-oriented
+  Python and Java project structures. Understand essential testing practices,
+  including unit tests, retrieval tests, end-to-end validation, evaluation
+  datasets, and regression testing. Explore observability, latency and token
+  tracking, cost awareness, caching, failure handling, authorization-aware
+  retrieval, multi-tenant isolation, document versioning, and automated
+  knowledge-base updates. Finish with a production-readiness checklist for
+  evolving a simple RAG prototype into a secure, maintainable, observable,
+  and scalable enterprise knowledge assistant.
+keywords:
+  - Building Your First RAG Pipeline
+  - Retrieval-Augmented Generation
+  - RAG pipeline implementation
+  - End-to-end RAG application
+  - Enterprise RAG architecture
+  - RAG application development
+  - RAG pipeline components
+  - RAG indexing pipeline
+  - RAG query pipeline
+  - RAG lifecycle
+  - Knowledge assistant
+  - Enterprise knowledge assistant
+  - Document ingestion
+  - Document loading
+  - Document processing
+  - Document normalization
+  - PDF document loading
+  - DOCX document loading
+  - HTML document loading
+  - Markdown document loading
+  - Database document loading
+  - Enterprise document sources
+  - Document chunking
+  - Text chunking
+  - Character-based chunking
+  - Chunk overlap
+  - Chunk boundary handling
+  - Chunk metadata
+  - Document metadata
+  - Document IDs
+  - Document versioning
+  - Metadata enrichment
+  - Text embeddings
+  - Embedding generation
+  - Embedding provider
+  - EmbeddingProvider interface
+  - Query embeddings
+  - Document embeddings
+  - OpenAI embeddings
+  - Hugging Face embeddings
+  - Sentence Transformers
+  - Watsonx embeddings
+  - Cloud embedding services
+  - Vector storage
+  - Vector store
+  - VectorStore interface
+  - In-memory vector store
+  - Chroma
+  - FAISS
+  - Qdrant
+  - pgvector
+  - Milvus
+  - Vector database integration
+  - Vector indexing
+  - Vector similarity search
+  - Cosine similarity
+  - Semantic search
+  - Similarity scores
+  - Top-K retrieval
+  - Retriever implementation
+  - Retriever interface
+  - Retrieval context
+  - Context assembly
+  - Context builder
+  - Context deduplication
+  - Context ordering
+  - Context token budget
+  - Prompt engineering for RAG
+  - Grounded prompting
+  - Grounded answer generation
+  - LLM integration
+  - LLM provider abstraction
+  - LLMProvider interface
+  - OpenAI LLM
+  - Anthropic LLM
+  - Google LLM
+  - Watsonx LLM
+  - Hugging Face LLM
+  - Framework-independent RAG
+  - Custom Python RAG pipeline
+  - Python RAG implementation
+  - LangChain RAG
+  - LangChain retriever
+  - LlamaIndex RAG
+  - LlamaIndex query engine
+  - Custom implementation vs framework
+  - Java-first RAG architecture
+  - Spring Boot RAG application
+  - Spring Boot REST API
+  - RagService
+  - Java RAG implementation
+  - Capability-based interfaces
+  - Ports and Adapters architecture
+  - Hexagonal architecture
+  - Provider abstraction
+  - Configuration-driven RAG
+  - YAML RAG configuration
+  - Metadata filtering
+  - Similarity threshold
+  - Retrieval relevance filtering
+  - Empty retrieval handling
+  - Low-quality retrieval handling
+  - Unanswerable queries
+  - Citation-aware RAG
+  - Citation generation
+  - Source attribution
+  - Source metadata preservation
+  - Response validation
+  - Enterprise RAG security
+  - Authorization-aware retrieval
+  - Access control for RAG
+  - Multi-tenant RAG
+  - Tenant isolation
+  - Document version control
+  - Knowledge-base updates
+  - Incremental re-indexing
+  - Document change detection
+  - Embedding compatibility
+  - RAG unit testing
+  - RAG integration testing
+  - Retrieval testing
+  - End-to-end RAG testing
+  - RAG evaluation dataset
+  - RAG regression testing
+  - Retrieval quality evaluation
+  - RAG observability
+  - RAG tracing
+  - Retrieval latency
+  - LLM latency
+  - Token usage tracking
+  - LLM cost optimization
+  - RAG caching
+  - Authorization-aware caching
+  - RAG failure handling
+  - Timeouts and retries
+  - Circuit breaker pattern
+  - RAG production readiness
+  - Production-oriented Python architecture
+  - Production-oriented Java architecture
+  - Enterprise AI application architecture
+  - Enterprise AI Engineering Handbook
+---
+
 # 18 — Building Your First RAG Pipeline
 
 > Build an end-to-end Retrieval-Augmented Generation (RAG) application by connecting document ingestion, chunking, embeddings, vector storage, retrieval, context construction, prompt engineering, and LLM generation into a working pipeline.

@@ -1,3 +1,185 @@
+---
+title: "Embeddings in Practice: Semantic Search, Vector Databases, and Enterprise RAG Architecture"
+description: >
+  Learn how embeddings convert text, documents, queries, images, code, products,
+  and other data into numerical vector representations for semantic search,
+  similarity matching, recommendation systems, clustering, duplicate detection,
+  classification, and enterprise knowledge retrieval. Understand embedding
+  models, vector dimensions, semantic similarity, query and document embeddings,
+  compatible vector spaces, model consistency, and embedding migration. Explore
+  cosine similarity, dot product, Euclidean distance, normalization, Top-K
+  retrieval, approximate nearest neighbor (ANN) search, and the differences
+  between keyword search, semantic search, and hybrid retrieval. Follow
+  end-to-end embedding pipelines covering document processing, text cleaning,
+  chunking, batch embedding, metadata management, vector storage, query
+  embedding, filtering, and retrieval. Implement practical semantic search
+  examples using Python, Sentence Transformers, and cosine similarity. Examine
+  vector databases and search infrastructure, including FAISS, Chroma, pgvector,
+  Milvus, Qdrant, Weaviate, Pinecone, OpenSearch, and Elasticsearch. Learn how
+  to improve embedding quality through document preparation, chunk-size
+  evaluation, metadata filtering, multilingual models, domain-specific models,
+  code embeddings, image embeddings, and multimodal retrieval. Explore
+  production engineering practices for embedding evaluation, Recall@K,
+  Precision@K, MRR, NDCG, similarity thresholds, incremental indexing, content
+  hashing, caching, cost optimization, batching, latency management, and
+  online versus offline embedding workloads. Understand enterprise embedding
+  services, provider interfaces, provider adapters, model registries,
+  configuration consistency, versioning, and blue-green model migration.
+  Discover how embedding quality interacts with chunking, query rewriting,
+  multi-query retrieval, reranking, hybrid search, and overall RAG performance.
+keywords:
+  - embeddings
+  - embedding models
+  - text embeddings
+  - document embeddings
+  - query embeddings
+  - vector embeddings
+  - dense vector representations
+  - semantic embeddings
+  - embedding dimensions
+  - embedding generation
+  - embedding inference
+  - embedding APIs
+  - semantic similarity
+  - semantic search
+  - vector similarity search
+  - similarity metrics
+  - cosine similarity
+  - dot product
+  - Euclidean distance
+  - vector normalization
+  - Top-K retrieval
+  - nearest neighbor search
+  - approximate nearest neighbor search
+  - ANN indexing
+  - vector search optimization
+  - keyword search vs semantic search
+  - hybrid search
+  - hybrid retrieval
+  - dense vs sparse representations
+  - BM25 retrieval
+  - Retrieval-Augmented Generation
+  - RAG embeddings
+  - enterprise RAG architecture
+  - RAG retrieval pipeline
+  - document indexing
+  - query processing
+  - embedding pipeline
+  - document chunking
+  - chunk size optimization
+  - document preprocessing
+  - text cleaning
+  - document extraction
+  - document structure
+  - hierarchical document retrieval
+  - embedding quality
+  - retrieval quality
+  - retrieval evaluation
+  - Recall@K
+  - Precision@K
+  - Mean Reciprocal Rank
+  - MRR
+  - Normalized Discounted Cumulative Gain
+  - NDCG
+  - retrieval hit rate
+  - embedding evaluation
+  - similarity thresholds
+  - semantic relevance
+  - vector databases
+  - vector stores
+  - FAISS
+  - Chroma
+  - pgvector
+  - Milvus
+  - Qdrant
+  - Weaviate
+  - Pinecone
+  - OpenSearch vector search
+  - Elasticsearch vector search
+  - vector indexing
+  - vector metadata
+  - metadata filtering
+  - vector record storage
+  - vector identifiers
+  - document references
+  - retrieval traceability
+  - document versioning
+  - incremental indexing
+  - incremental embedding updates
+  - embedding caching
+  - content hashing
+  - SHA-256 content hash
+  - batch embedding
+  - embedding throughput
+  - embedding latency
+  - online embedding
+  - offline embedding
+  - embedding cost optimization
+  - embedding scalability
+  - Sentence Transformers
+  - all-MiniLM-L6-v2
+  - Python semantic search
+  - cosine similarity with Python
+  - query-to-document similarity
+  - embedding model selection
+  - embedding model consistency
+  - embedding model migration
+  - vector space compatibility
+  - embedding provider abstraction
+  - EmbeddingProvider interface
+  - provider adapter architecture
+  - framework-agnostic embeddings
+  - enterprise embedding service
+  - OpenAI embeddings
+  - Hugging Face embeddings
+  - Azure embeddings
+  - Vertex AI embeddings
+  - Google Cloud embeddings
+  - IBM watsonx embeddings
+  - embedding model registry
+  - embedding configuration
+  - embedding model versioning
+  - blue-green embedding migration
+  - vector index migration
+  - multilingual embeddings
+  - cross-lingual retrieval
+  - domain-specific embeddings
+  - financial document embeddings
+  - technical documentation embeddings
+  - code embeddings
+  - code search
+  - image embeddings
+  - vision embeddings
+  - multimodal embeddings
+  - shared embedding space
+  - multimodal retrieval
+  - recommendation systems
+  - product recommendations
+  - user preference embeddings
+  - duplicate detection
+  - duplicate question detection
+  - support ticket similarity
+  - FAQ matching
+  - question matching
+  - document clustering
+  - semantic classification
+  - knowledge retrieval
+  - enterprise semantic search
+  - query rewriting
+  - multi-query retrieval
+  - vector search reranking
+  - candidate retrieval
+  - reranker integration
+  - embedding and chunking interaction
+  - retrieval precision
+  - retrieval recall
+  - data quality for embeddings
+  - embedding production best practices
+  - enterprise AI engineering
+  - production RAG systems
+  - scalable semantic retrieval
+---
+
 # 10 — Embeddings in Practice
 
 > Learn how text, documents, queries, and other data are converted into numerical vector representations and how embeddings power semantic search, retrieval, recommendation, clustering, and modern RAG systems.
