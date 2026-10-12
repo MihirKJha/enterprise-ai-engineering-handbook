@@ -1,3 +1,133 @@
+---
+title: "Knowledge Graphs for RAG: Enterprise Knowledge Modeling, Graph Architecture, and Production RAG Systems"
+description: "Learn how to design production-ready enterprise Knowledge Graphs for Retrieval-Augmented Generation (RAG). Explore entities, relationships, RDF and property graphs, ontologies, schema design, LLM-assisted knowledge extraction, entity resolution, provenance, temporal knowledge, graph lifecycle management, security, governance, graph and vector retrieval, SQL integration, multi-hop reasoning, evaluation, observability, and enterprise knowledge fabric architecture."
+keywords:
+  - Knowledge Graphs for RAG
+  - Knowledge Graph RAG
+  - Enterprise Knowledge Graph
+  - Enterprise Knowledge Graph Architecture
+  - Knowledge Graph Architecture
+  - Knowledge Graph Engineering
+  - Knowledge Graph Construction
+  - Knowledge Graph Design
+  - Knowledge Graph Modeling
+  - Knowledge Graph Development
+  - Production Knowledge Graph
+  - Graph RAG
+  - Graph Retrieval-Augmented Generation
+  - Retrieval-Augmented Generation
+  - Advanced RAG Architecture
+  - Enterprise RAG
+  - Enterprise AI Architecture
+  - Enterprise AI Engineering
+  - Knowledge-Centric RAG
+  - Graph-Based Retrieval
+  - Graph-Based Knowledge Representation
+  - Structured Knowledge Representation
+  - Semantic Knowledge Representation
+  - Entities and Relationships
+  - Knowledge Graph Entities
+  - Knowledge Graph Relationships
+  - Knowledge Graph Properties
+  - Knowledge Graph Triples
+  - Subject Predicate Object
+  - RDF Graph
+  - Resource Description Framework
+  - Property Graph
+  - RDF vs Property Graph
+  - Graph Database
+  - Knowledge Graph vs Graph Database
+  - Knowledge Graph vs Graph RAG
+  - Ontology Engineering
+  - Enterprise Ontology
+  - Knowledge Graph Ontology
+  - Ontology vs Schema
+  - Knowledge Graph Schema
+  - Domain Knowledge Modeling
+  - Domain-Driven Knowledge Modeling
+  - Query-Driven Graph Design
+  - Enterprise Semantic Layer
+  - Enterprise Knowledge Modeling
+  - LLM-Assisted Knowledge Extraction
+  - LLM Entity Extraction
+  - Relationship Extraction
+  - Structured Knowledge Extraction
+  - Knowledge Graph Extraction Pipeline
+  - Entity Resolution
+  - Entity Linking
+  - Canonical Entity IDs
+  - Entity Normalization
+  - Entity Deduplication
+  - Knowledge Graph Validation
+  - Relationship Validation
+  - Graph Constraint Validation
+  - Knowledge Graph Provenance
+  - Relationship Provenance
+  - Provenance-Aware RAG
+  - Knowledge Graph Data Lineage
+  - Temporal Knowledge Graph
+  - Temporal Relationships
+  - Bitemporal Knowledge
+  - Knowledge Graph Lifecycle Management
+  - Incremental Knowledge Graph Updates
+  - Knowledge Graph Change Detection
+  - Knowledge Graph Deletion Handling
+  - Confidence-Aware Knowledge Graph
+  - Knowledge Graph Data Quality
+  - Knowledge Graph Accuracy
+  - Knowledge Graph Completeness
+  - Knowledge Graph Consistency
+  - Knowledge Graph Freshness
+  - Knowledge Graph Governance
+  - Knowledge Graph Security
+  - Graph Access Control
+  - Fine-Grained Graph Authorization
+  - Multi-Tenant Knowledge Graph
+  - Secure Graph Retrieval
+  - Knowledge Graph and Vector Database
+  - Knowledge Graph and Vector Store Integration
+  - Hybrid Graph and Vector RAG
+  - Graph and Vector Retrieval
+  - Knowledge Graph and SQL Integration
+  - Hybrid Graph SQL Vector Architecture
+  - Enterprise Knowledge Fabric
+  - Graph RAG Architecture
+  - Multi-Hop Graph Retrieval
+  - Graph Traversal
+  - Path-Based Reasoning
+  - Graph Query Patterns
+  - Graph Query Optimization
+  - Graph Context Engineering
+  - Graph Context Serialization
+  - Graph Context Compression
+  - Graph Retrieval Reranking
+  - Provenance-Aware Generation
+  - RAG Citation Architecture
+  - Knowledge Graph Hallucination Reduction
+  - Knowledge Graph Evaluation
+  - Entity Precision and Recall
+  - Relationship Extraction Evaluation
+  - Graph Retrieval Evaluation
+  - Multi-Hop Retrieval Evaluation
+  - RAG Answer Groundedness
+  - Knowledge Graph Regression Testing
+  - Knowledge Graph Observability
+  - Knowledge Graph Health Dashboard
+  - Graph Query Performance
+  - Knowledge Graph Indexing
+  - Graph Query Caching
+  - Knowledge Graph Partitioning
+  - Enterprise Knowledge Assistant
+  - Enterprise Dependency Analysis
+  - Developer Intelligence
+  - Compliance Knowledge Graph
+  - Customer 360 Knowledge Graph
+  - Production RAG Systems
+  - Enterprise AI Engineering Handbook
+---
+
+
+
 # 03. Knowledge Graphs for RAG
 
 > **Category:** Advanced RAG Architecture  

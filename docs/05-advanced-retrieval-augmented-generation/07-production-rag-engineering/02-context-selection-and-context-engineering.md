@@ -1,3 +1,146 @@
+---
+title: "Context Selection and Context Engineering in Production RAG: Evidence Quality, Token Budgeting, and Enterprise Architecture"
+description: >
+  Learn how to design production-grade context selection and context engineering
+  pipelines for enterprise Retrieval-Augmented Generation (RAG). Explore relevance-based
+  and diversity-aware selection, Maximum Marginal Relevance (MMR), query coverage,
+  authority and freshness scoring, metadata filtering, authorization-aware context
+  construction, semantic deduplication, context compression, token budgeting,
+  context prioritization, evidence organization, conflict detection, citation
+  preservation, and provenance tracking. Includes Python implementation patterns,
+  context selectors, budget managers, context policies, multimodal and agentic RAG
+  architectures, evaluation metrics, and production optimization strategies for
+  building accurate, secure, cost-efficient, and grounded enterprise AI systems.
+keywords:
+  - context selection
+  - context engineering
+  - context engineering in RAG
+  - context selection in RAG
+  - production RAG
+  - enterprise RAG
+  - Retrieval-Augmented Generation
+  - RAG architecture
+  - advanced RAG
+  - enterprise AI engineering
+  - RAG context pipeline
+  - context optimization
+  - context quality
+  - context relevance
+  - context coverage
+  - candidate evidence
+  - selected evidence
+  - evidence selection
+  - evidence ranking
+  - evidence prioritization
+  - relevance-based selection
+  - diversity-aware retrieval
+  - diversity-aware context selection
+  - Maximum Marginal Relevance
+  - MMR
+  - MMR context selection
+  - query-aware context selection
+  - query requirement extraction
+  - coverage-aware retrieval
+  - coverage-aware context selection
+  - authority-aware selection
+  - source authority
+  - source reliability
+  - freshness-aware retrieval
+  - freshness scoring
+  - temporal context
+  - temporal retrieval
+  - historical context retrieval
+  - metadata-aware retrieval
+  - metadata-aware context selection
+  - metadata filtering
+  - authorization-aware retrieval
+  - access control in RAG
+  - secure RAG
+  - enterprise knowledge security
+  - context enrichment
+  - parent context enrichment
+  - local context expansion
+  - parent-child retrieval
+  - hierarchical context
+  - context hierarchy
+  - contextual compression
+  - context compression
+  - extractive compression
+  - abstractive compression
+  - context summarization
+  - summary drift
+  - fact preservation
+  - semantic deduplication
+  - exact deduplication
+  - evidence clustering
+  - context clustering
+  - context prioritization
+  - context slots
+  - slot-based context engineering
+  - context budgeting
+  - token budgeting
+  - context window management
+  - context budget optimization
+  - context packing
+  - knapsack optimization
+  - token cost optimization
+  - context ordering
+  - context window position
+  - lost-in-the-middle problem
+  - long-context optimization
+  - prompt context organization
+  - prompt assembly
+  - context engineering service
+  - context selector
+  - production context selector
+  - Python RAG implementation
+  - Python context selection
+  - ContextSelector
+  - ContextEngineeringService
+  - ContextBudgetManager
+  - structured context representation
+  - context policy
+  - context profiles
+  - conflict-aware context
+  - conflicting evidence resolution
+  - evidence provenance
+  - context lineage
+  - citation-aware context
+  - source attribution
+  - citation preservation
+  - grounded generation
+  - evidence-grounded responses
+  - response validation
+  - RAG evaluation
+  - context precision
+  - context recall
+  - context relevance metrics
+  - context coverage metrics
+  - context compression ratio
+  - context utilization
+  - RAG quality optimization
+  - RAG latency optimization
+  - RAG cost optimization
+  - enterprise knowledge assistants
+  - enterprise search architecture
+  - compliance RAG
+  - incident response RAG
+  - financial RAG
+  - legal RAG
+  - technical documentation RAG
+  - code RAG
+  - multimodal RAG
+  - agentic RAG
+  - multi-hop RAG
+  - incremental context engineering
+  - hybrid retrieval
+  - reranking
+  - evidence normalization
+  - context assembly pipeline
+  - production AI architecture
+  - secure and reliable AI systems
+---
+
 # 02. Context Selection and Context Engineering
 
 > **Category:** Production RAG Engineering  

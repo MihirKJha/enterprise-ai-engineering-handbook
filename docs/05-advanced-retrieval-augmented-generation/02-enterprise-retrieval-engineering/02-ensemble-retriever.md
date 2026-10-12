@@ -1,3 +1,143 @@
+---
+title: "Ensemble Retriever in RAG: Hybrid Search, Reciprocal Rank Fusion, and Enterprise Architecture"
+description: "Learn how ensemble retrieval improves Retrieval-Augmented Generation (RAG) by combining semantic vector search, BM25 lexical retrieval, metadata-aware search, and domain-specific retrievers. Explore LangChain EnsembleRetriever, weighted retrieval, Reciprocal Rank Fusion (RRF), deduplication, parallel execution, reranking, contextual compression, evaluation metrics, and production-ready enterprise retrieval architecture."
+keywords:
+  - Ensemble Retriever
+  - Ensemble Retrieval
+  - RAG
+  - Retrieval-Augmented Generation
+  - Enterprise RAG
+  - Advanced RAG
+  - RAG Architecture
+  - Enterprise Retrieval Engineering
+  - Enterprise AI Engineering
+  - Retrieval Engineering
+  - Retrieval Pipeline
+  - Retrieval Optimization
+  - Multiple Retriever Architecture
+  - Multi-Retriever Retrieval
+  - Hybrid Retrieval
+  - Hybrid Search
+  - Dense Retrieval
+  - Sparse Retrieval
+  - Dense and Sparse Retrieval
+  - Semantic Search
+  - Semantic Retrieval
+  - Lexical Retrieval
+  - Keyword Search
+  - BM25
+  - BM25 Retriever
+  - Vector Search
+  - Vector Retriever
+  - Vector Database Retrieval
+  - Metadata Filtering
+  - Metadata-Aware Retrieval
+  - Domain-Specific Retrieval
+  - Multi-Index Retrieval
+  - Multiple Vector Stores
+  - Multiple Embedding Models
+  - LangChain
+  - LangChain EnsembleRetriever
+  - EnsembleRetriever
+  - LangChain Retrievers
+  - Weighted Ensemble Retrieval
+  - Retrieval Weights
+  - Weighted Retrieval
+  - Retrieval Result Fusion
+  - Rank-Based Fusion
+  - Rank Fusion
+  - Reciprocal Rank Fusion
+  - RRF
+  - RRF Algorithm
+  - RRF Ranking
+  - Retrieval Score Normalization
+  - Score Compatibility
+  - Retrieval Score Fusion
+  - Candidate Generation
+  - Candidate Pool
+  - Candidate Ranking
+  - Document Ranking
+  - Retrieval Ranking
+  - Retriever Comparison
+  - Semantic vs Lexical Search
+  - Vector Search vs BM25
+  - Hybrid Search Architecture
+  - Query Processing
+  - Query-Type Analysis
+  - Exact Identifier Search
+  - Technical Document Retrieval
+  - Enterprise Knowledge Retrieval
+  - Enterprise Knowledge Assistant
+  - Enterprise Copilot
+  - Knowledge Base Search
+  - Domain-Specific Ensemble Retrieval
+  - Router Retriever
+  - Ensemble vs Router Retrieval
+  - Retrieval Routing
+  - Reranking
+  - Reranker
+  - RAG Reranking
+  - Contextual Compression
+  - Contextual Compression Retriever
+  - Multi-Stage Retrieval
+  - Composable Retrieval Architecture
+  - Framework-Agnostic Retriever
+  - Enterprise Retriever Interface
+  - Retriever Abstraction
+  - Configuration-Driven Retrieval
+  - Retrieval Configuration
+  - YAML Retrieval Configuration
+  - Retriever Factory
+  - Document Deduplication
+  - Retrieval Deduplication
+  - Chunk ID
+  - Document ID Normalization
+  - Content Hashing
+  - Metadata Preservation
+  - Retrieval Provenance
+  - Citation Metadata
+  - Retrieval Observability
+  - RAG Observability
+  - Retrieval Metrics
+  - Recall at K
+  - Recall@K
+  - Precision at K
+  - Precision@K
+  - Mean Reciprocal Rank
+  - MRR
+  - Normalized Discounted Cumulative Gain
+  - NDCG
+  - Retrieval Evaluation
+  - RAG Evaluation
+  - Retrieval Benchmarking
+  - Baseline Retriever
+  - Retrieval Regression Testing
+  - Retrieval Quality
+  - Retrieval Recall
+  - Retrieval Precision
+  - Retrieval Latency
+  - Retrieval Cost Optimization
+  - Parallel Retrieval
+  - Concurrent Retrieval
+  - ThreadPoolExecutor
+  - Low-Latency Retrieval
+  - Production RAG
+  - Production-Ready Retrieval
+  - Enterprise AI Architecture
+  - Production AI Systems
+  - RAG Performance Optimization
+  - Retrieval Failure Modes
+  - Retriever Weight Tuning
+  - Retrieval Trade-Offs
+  - Retrieval Scalability
+  - Search Quality Optimization
+  - Context Selection
+  - Prompt Assembly
+  - Evidence-Based Generation
+  - Evaluation-Driven Retrieval
+  - Production Retrieval Checklist
+---
+
 # Ensemble Retriever
 
 ## 📖 Overview

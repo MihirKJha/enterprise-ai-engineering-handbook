@@ -1,3 +1,34 @@
+---
+title: "RAG Deployment Patterns: Enterprise Architecture, CI/CD, Canary Releases, Multi-Region Strategies, and Rollback"
+description: >
+  Explore production deployment patterns for Retrieval-Augmented Generation (RAG) systems, from monolithic and modular monolith architectures to microservices, serverless, containers, Kubernetes, and shared retrieval platforms. Learn how to implement rolling, blue-green, canary, shadow, and A/B deployments; design multi-region active-active and active-passive architectures; manage tenant isolation; and deploy application code, retrieval components, indexes, embeddings, prompts, models, and knowledge independently. This chapter covers dual-read and dual-write migrations, immutable artifacts, versioned deployment manifests, environment management, CI/CD pipelines, RAG-specific quality gates, deployment observability, zero-downtime releases, schema compatibility, feature flags, model rollouts, knowledge canaries, GitOps, infrastructure as code, disaster recovery, and rollback strategies. Includes architecture diagrams, deployment decision matrices, migration workflows, and production engineering practices for building reliable, scalable, secure, and cost-aware enterprise RAG platforms.
+keywords:
+  - RAG Deployment Patterns
+  - Production RAG Deployment
+  - Enterprise RAG Architecture
+  - RAG CI/CD Pipeline
+  - Blue-Green Deployment
+  - Canary Deployment
+  - Shadow Deployment
+  - A/B Testing for RAG
+  - Kubernetes RAG Deployment
+  - Microservices RAG Architecture
+  - Serverless RAG
+  - Multi-Region RAG
+  - RAG Index Deployment
+  - Embedding Migration
+  - Dual Read Dual Write
+  - RAG Rollback Strategy
+  - Zero-Downtime Deployment
+  - RAG Quality Gates
+  - RAG GitOps
+  - RAG Disaster Recovery
+  - Model Deployment Strategies
+  - Knowledge Deployment
+  - Production AI Engineering
+---
+
+
 # 12. RAG Deployment Patterns
 
 > **Category:** Production RAG Engineering  

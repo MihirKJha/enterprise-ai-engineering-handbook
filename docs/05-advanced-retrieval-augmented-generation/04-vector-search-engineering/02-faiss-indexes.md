@@ -1,3 +1,211 @@
+---
+title: "FAISS Indexes: HNSW, IVF, Product Quantization, and Production RAG"
+description: >
+  Explore FAISS index architectures and learn how to select the right vector
+  search strategy for production Retrieval-Augmented Generation (RAG) systems.
+  Compare exact search with Flat indexes, graph-based HNSW, partitioned IVF,
+  Product Quantization (PQ), Scalar Quantization (SQ), and composite indexes.
+  Understand IVF training, nlist, nprobe, HNSW parameters, application-level
+  vector IDs, memory optimization, index persistence, versioning, and blue-green
+  deployment. Includes Python examples, benchmarking techniques, Recall@K
+  evaluation, latency SLOs, metadata-aware retrieval, multi-tenant indexing,
+  hybrid search, and enterprise retrieval architecture. Learn to balance recall,
+  latency, throughput, memory, build cost, and operational complexity using
+  workload-driven benchmarking rather than popularity-based index selection.
+keywords:
+  - FAISS
+  - FAISS indexes
+  - FAISS index selection
+  - FAISS index types
+  - FAISS index architecture
+  - FAISS index hierarchy
+  - FAISS tutorial
+  - FAISS Python
+  - FAISS advanced tutorial
+  - FAISS performance tuning
+  - FAISS benchmarking
+  - FAISS production deployment
+  - Facebook AI Similarity Search
+  - vector search engineering
+  - vector similarity search
+  - vector indexing
+  - vector index selection
+  - vector search algorithms
+  - vector search optimization
+  - vector search performance
+  - dense vector search
+  - nearest neighbor search
+  - approximate nearest neighbor search
+  - ANN search
+  - exact nearest neighbor search
+  - semantic search
+  - semantic retrieval
+  - vector retrieval
+  - embedding vectors
+  - dense embeddings
+  - high-dimensional vectors
+  - IndexFlatL2
+  - IndexFlatIP
+  - FAISS flat index
+  - flat vector search
+  - exact vector search
+  - squared L2 distance
+  - Euclidean distance
+  - inner product similarity
+  - cosine similarity
+  - vector normalization
+  - normalized embeddings
+  - IndexIDMap
+  - IndexIDMap2
+  - FAISS application-level IDs
+  - vector ID mapping
+  - document ID mapping
+  - chunk ID mapping
+  - metadata mapping
+  - HNSW
+  - FAISS HNSW
+  - Hierarchical Navigable Small World
+  - graph-based vector search
+  - graph-based ANN
+  - HNSW index
+  - HNSW parameters
+  - HNSW M
+  - efConstruction
+  - efSearch
+  - HNSW recall tuning
+  - HNSW latency optimization
+  - IVF
+  - FAISS IVF
+  - inverted file index
+  - IVF index
+  - IVF training
+  - IVF-Flat
+  - IVF-PQ
+  - IVF index configuration
+  - IVF partitioning
+  - IVF training vectors
+  - nlist
+  - nprobe
+  - nlist vs nprobe
+  - IVF recall tuning
+  - IVF search optimization
+  - Product Quantization
+  - PQ
+  - FAISS Product Quantization
+  - Scalar Quantization
+  - SQ
+  - vector quantization
+  - vector compression
+  - compressed vector search
+  - compressed embeddings
+  - quantized vector representations
+  - IVF-PQ index
+  - IVF-Flat index
+  - composite FAISS indexes
+  - IVF and HNSW
+  - FAISS index factory
+  - FAISS index_factory
+  - FAISS index factory strings
+  - IVF100 Flat
+  - IVF100 PQ16
+  - exact vs approximate search
+  - HNSW vs IVF
+  - IVF-Flat vs IVF-PQ
+  - vector search memory optimization
+  - vector index memory consumption
+  - float32 vector memory
+  - vector dimension
+  - large-scale vector search
+  - scalable vector indexing
+  - vector search scalability
+  - vector index training
+  - index build time
+  - index update cost
+  - retrieval latency
+  - search latency
+  - P50 latency
+  - P95 latency
+  - P99 latency
+  - tail latency
+  - query throughput
+  - queries per second
+  - QPS benchmarking
+  - Recall@K
+  - Recall@5
+  - Recall@10
+  - approximate search recall
+  - ground-truth vector search
+  - exact search baseline
+  - vector search benchmark
+  - FAISS benchmark harness
+  - index tuning workflow
+  - latency SLO
+  - retrieval SLO
+  - recall-latency trade-off
+  - memory-latency trade-off
+  - production vector search
+  - CPU vector search
+  - GPU vector search
+  - batch vector search
+  - vector search hardware
+  - FAISS index persistence
+  - faiss.write_index
+  - faiss.read_index
+  - vector index versioning
+  - index artifact integrity
+  - index manifest
+  - index checksum
+  - blue-green index deployment
+  - vector index migration
+  - shadow testing
+  - retrieval observability
+  - vector search metrics
+  - index configuration monitoring
+  - Enterprise RAG
+  - Retrieval-Augmented Generation
+  - advanced RAG
+  - RAG architecture
+  - RAG retrieval layer
+  - RAG vector search
+  - production RAG systems
+  - enterprise AI engineering
+  - enterprise AI architecture
+  - enterprise retrieval architecture
+  - RAG pipeline optimization
+  - document chunking
+  - embedding generation
+  - embedding service
+  - candidate retrieval
+  - multi-stage retrieval
+  - retrieval re-ranking
+  - maximum marginal relevance
+  - MMR retrieval
+  - context selection
+  - prompt assembly
+  - hybrid retrieval
+  - dense and lexical retrieval
+  - BM25 hybrid search
+  - result fusion
+  - metadata-aware retrieval
+  - metadata filtering
+  - tenant-aware vector search
+  - multi-tenant indexing
+  - tenant isolation
+  - retrieval authorization
+  - document metadata store
+  - vector search security
+  - vector search ports and adapters
+  - VectorSearchProvider
+  - FAISS adapter
+  - capability-based vector search
+  - vector database migration
+  - FAISS vs Chroma vs Milvus
+  - vector search infrastructure
+  - retrieval quality evaluation
+  - end-to-end RAG evaluation
+  - production-grade AI systems
+  - Enterprise AI Engineering Handbook
+---
 # 02. FAISS Indexes
 
 > **Category:** Vector Search Engineering  

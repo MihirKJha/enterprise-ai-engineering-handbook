@@ -1,3 +1,190 @@
+---
+title: "MMR and Diversity-Aware Retrieval in RAG: Algorithms, Python Implementation, and Enterprise Architecture"
+description: "Learn how Maximal Marginal Relevance (MMR) improves Retrieval-Augmented Generation by balancing query relevance with information diversity. This comprehensive guide covers the MMR scoring formula, lambda tuning, candidate pool optimization, Python implementations, vector database integration, hybrid search, cross-encoder re-ranking, multi-query retrieval, parent-document retrieval, multi-vector retrieval, contextual compression, metadata-aware selection, source and topic diversity, token-aware context optimization, agentic retrieval, evaluation metrics, production observability, performance optimization, fallback strategies, and enterprise-grade diversity-aware RAG architecture."
+keywords:
+  - Maximal Marginal Relevance
+  - MMR
+  - MMR retrieval
+  - MMR in RAG
+  - diversity-aware retrieval
+  - diversity-aware ranking
+  - diversity-aware context selection
+  - Retrieval-Augmented Generation
+  - RAG
+  - enterprise RAG
+  - production RAG
+  - RAG architecture
+  - retrieval engineering
+  - retrieval optimization
+  - retrieval pipeline
+  - retrieval algorithms
+  - context selection
+  - context engineering
+  - context optimization
+  - context window efficiency
+  - context budget
+  - context redundancy
+  - redundant document retrieval
+  - redundant chunks
+  - semantic redundancy
+  - information diversity
+  - relevance and diversity
+  - relevance-diversity trade-off
+  - MMR scoring function
+  - MMR formula
+  - MMR algorithm
+  - iterative selection algorithm
+  - MMR implementation
+  - MMR Python
+  - Python MMR implementation
+  - similarity function
+  - query-document similarity
+  - document-document similarity
+  - pairwise similarity
+  - average pairwise similarity
+  - redundancy measurement
+  - diversity measurement
+  - lambda parameter
+  - MMR lambda tuning
+  - lambda spectrum
+  - relevance-oriented retrieval
+  - diversity-oriented retrieval
+  - candidate pool
+  - candidate pool optimization
+  - candidate K
+  - final K
+  - candidate retrieval
+  - candidate recall
+  - retrieval recall
+  - top-K retrieval
+  - similarity search
+  - vector similarity search
+  - vector retrieval
+  - dense retrieval
+  - embedding-based retrieval
+  - vector databases
+  - candidate embeddings
+  - precomputed embeddings
+  - vectorized similarity
+  - similarity matrix
+  - matrix operations
+  - hybrid search
+  - hybrid retrieval
+  - dense and sparse retrieval
+  - BM25
+  - multi-query retrieval
+  - query expansion
+  - query rewriting
+  - cross-encoder re-ranking
+  - reranking
+  - re-ranking and MMR
+  - reranking versus MMR
+  - multi-stage retrieval
+  - three-stage retrieval
+  - retrieval fusion
+  - parent-document retrieval
+  - parent-level diversity
+  - child chunk retrieval
+  - multi-vector retrieval
+  - document representation diversity
+  - contextual compression
+  - context compression
+  - metadata filtering
+  - metadata-aware retrieval
+  - source diversity
+  - semantic diversity
+  - topic diversity
+  - document diversity
+  - source-aware selection
+  - topic coverage
+  - evidence coverage
+  - information coverage
+  - diversity constraints
+  - hard diversity constraints
+  - soft diversity penalties
+  - source penalties
+  - maximum chunks per document
+  - source-aware ranking
+  - enterprise knowledge retrieval
+  - technical documentation retrieval
+  - research assistant retrieval
+  - legal research retrieval
+  - financial research retrieval
+  - compliance knowledge retrieval
+  - incident investigation
+  - architecture analysis
+  - payment API security
+  - security documentation retrieval
+  - policy retrieval
+  - FAQ retrieval
+  - MMR limitations
+  - MMR trade-offs
+  - MMR parameter tuning
+  - candidate K tuning
+  - final K tuning
+  - chunk size optimization
+  - chunk overlap
+  - embedding model selection
+  - retrieval evaluation
+  - diversity-aware evaluation
+  - retrieval relevance
+  - context relevance
+  - context diversity
+  - context coverage
+  - answer quality evaluation
+  - answer faithfulness
+  - answer correctness
+  - citation accuracy
+  - hallucination reduction
+  - grounded generation
+  - evidence selection
+  - context utility
+  - evidence utility per token
+  - token-aware context selection
+  - token-aware diversity
+  - context token budget
+  - document length optimization
+  - context window optimization
+  - MMR and agentic retrieval
+  - adaptive MMR
+  - adaptive diversity selection
+  - redundancy-aware retrieval
+  - dynamic retrieval strategy
+  - evidence sufficiency
+  - query complexity
+  - relevance monitoring
+  - redundancy monitoring
+  - source diversity monitoring
+  - topic coverage monitoring
+  - MMR observability
+  - retrieval observability
+  - selection latency
+  - token savings
+  - retrieval performance optimization
+  - MMR computational complexity
+  - efficient MMR implementation
+  - batch similarity calculations
+  - embedding reuse
+  - production retrieval service
+  - diversity selector
+  - capability-based architecture
+  - provider-based architecture
+  - MMR service interface
+  - retrieval fallback strategy
+  - MMR failure handling
+  - production guardrails
+  - authorization filtering
+  - access control in RAG
+  - tenant filtering
+  - security-aware retrieval
+  - metadata filters before MMR
+  - retrieval model versioning
+  - embedding model versioning
+  - RAG context optimization
+  - scalable retrieval architecture
+  - enterprise AI systems architecture
+---
+
 # MMR and Diversity-Aware Retrieval
 
 ## 📖 Overview

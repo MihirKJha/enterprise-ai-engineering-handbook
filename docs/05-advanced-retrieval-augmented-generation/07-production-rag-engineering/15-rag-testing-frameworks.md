@@ -1,3 +1,85 @@
+---
+title: "RAG Testing Frameworks: Enterprise Testing Strategy, Evaluation Metrics, Security, Regression Testing, and CI/CD Quality Gates"
+description: >
+  Learn how to design a production-ready RAG testing framework that validates
+  deterministic software behavior and probabilistic AI outputs across the entire
+  retrieval-augmented generation pipeline. Explore unit, component, integration,
+  retrieval, generation, security, performance, regression, and end-to-end testing.
+  Build golden datasets and evaluation pipelines using Recall@K, Precision@K, MRR,
+  NDCG, faithfulness, groundedness, answer relevance, completeness, and citation
+  accuracy. Understand LLM-as-a-Judge, human evaluation, synthetic test data,
+  dataset versioning, reproducibility, and quality regression detection. Learn
+  to test prompt injection, authorization, multi-tenant isolation, cache security,
+  failure scenarios, data freshness, multilingual and multimodal retrieval, and
+  agentic RAG workflows. Implement test harnesses, tiered CI/CD quality gates,
+  canary and shadow testing, load and latency testing, cost regression checks,
+  production monitoring, and systematic failure analysis to improve the reliability,
+  security, performance, and cost efficiency of enterprise RAG systems.
+keywords:
+  - RAG Testing Frameworks
+  - RAG Testing
+  - Enterprise RAG Testing
+  - Production RAG Engineering
+  - RAG Evaluation
+  - Retrieval-Augmented Generation
+  - RAG Test Automation
+  - RAG Testing Strategy
+  - RAG Testing Pyramid
+  - RAG Test Harness
+  - Golden Dataset
+  - RAG Evaluation Dataset
+  - Retrieval Evaluation
+  - Generation Evaluation
+  - Retrieval Quality
+  - Recall@K
+  - Precision@K
+  - Mean Reciprocal Rank
+  - MRR
+  - Normalized Discounted Cumulative Gain
+  - NDCG
+  - Hit Rate
+  - Faithfulness
+  - Groundedness
+  - Hallucination Detection
+  - Answer Relevance
+  - Answer Completeness
+  - Citation Accuracy
+  - Citation Completeness
+  - LLM-as-a-Judge
+  - Human Evaluation
+  - Synthetic Evaluation Data
+  - RAG Regression Testing
+  - RAG Quality Gates
+  - RAG CI/CD
+  - RAG Security Testing
+  - Prompt Injection Testing
+  - Indirect Prompt Injection
+  - Multi-Tenant RAG Testing
+  - Tenant Isolation
+  - Authorization-Aware Retrieval
+  - Cache Isolation
+  - RAG Performance Testing
+  - RAG Load Testing
+  - RAG Latency
+  - RAG Cost Optimization
+  - Data Freshness Testing
+  - Hybrid Retrieval Testing
+  - Reranker Evaluation
+  - Context Precision
+  - Context Recall
+  - Context Coverage
+  - Context Compression Testing
+  - Multilingual RAG Testing
+  - Multimodal RAG Testing
+  - Agentic RAG Testing
+  - RAG Observability
+  - Canary Testing
+  - Shadow Testing
+  - Production RAG Monitoring
+  - Enterprise AI Engineering
+  - Production AI Systems
+---
+
 # 15. RAG Testing Frameworks
 
 > **Category:** Production RAG Engineering  

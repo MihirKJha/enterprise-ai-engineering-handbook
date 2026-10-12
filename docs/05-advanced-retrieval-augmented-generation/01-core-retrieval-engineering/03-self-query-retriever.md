@@ -1,3 +1,127 @@
+---
+title: "Self-Query Retriever: LLM-Based Metadata Filtering for Enterprise RAG"
+description: "Learn how Self-Query Retrieval transforms natural-language questions into semantic queries and structured metadata filters for enterprise RAG systems. Explore LangChain implementation, metadata schemas, type-safe filtering, query construction, filter validation, authorization boundaries, vector-store compatibility, Multi-Query integration, Parent-Document Retrieval, re-ranking, evaluation, and production architecture."
+keywords:
+  - Self-Query Retriever
+  - Self-Query Retrieval
+  - Self-Query Retriever in LangChain
+  - LangChain Self-Query Retriever
+  - Enterprise RAG
+  - Retrieval-Augmented Generation
+  - RAG architecture
+  - Advanced RAG
+  - RAG retrieval strategies
+  - Enterprise AI Engineering
+  - AI engineering
+  - LLM-based query understanding
+  - Natural language query processing
+  - Structured query generation
+  - Query construction
+  - Query analysis
+  - Semantic search
+  - Vector search
+  - VectorStore Retriever
+  - Metadata filtering
+  - Structured metadata filters
+  - Metadata-based retrieval
+  - Semantic query and metadata filters
+  - Natural language filtering
+  - LLM query analyzer
+  - Query transformation
+  - Structured retrieval request
+  - Enterprise knowledge base
+  - Enterprise document retrieval
+  - Enterprise semantic search
+  - Document retrieval
+  - Document search
+  - Knowledge base search
+  - Vector database filtering
+  - Vector store metadata
+  - Metadata schema design
+  - Metadata field types
+  - Metadata field descriptions
+  - Type-safe metadata
+  - Metadata cardinality
+  - Metadata indexing
+  - Metadata filter operators
+  - Filter validation
+  - Structured query validation
+  - Query filter validation
+  - Filter extraction accuracy
+  - Filter execution
+  - LangChain retrievers
+  - LangChain retrieval
+  - AttributeInfo
+  - SelfQueryRetriever
+  - Python RAG implementation
+  - Python enterprise AI
+  - Framework-agnostic retriever
+  - Framework-independent retrieval
+  - StructuredQuery
+  - QueryFilter
+  - Vector store adapter
+  - Vector database abstraction
+  - Vector store compatibility
+  - Vector database operators
+  - Date-based filtering
+  - Numeric range filtering
+  - Date range normalization
+  - Query constraints
+  - Metadata constraint extraction
+  - Multi-Query Retriever
+  - Multi-Query Retrieval
+  - Parent-Document Retriever
+  - Parent-Document Retrieval
+  - Hybrid search
+  - RAG re-ranking
+  - Retrieval candidate filtering
+  - Retrieval precision
+  - Retrieval recall
+  - Retrieval evaluation
+  - RAG evaluation
+  - Query construction accuracy
+  - Retrieval quality
+  - RAG regression testing
+  - Golden dataset evaluation
+  - Structured query accuracy
+  - Enterprise search architecture
+  - Production RAG architecture
+  - Production AI systems
+  - Production retrieval pipeline
+  - Retrieval pipeline design
+  - RAG observability
+  - Retrieval latency
+  - Retrieval cost optimization
+  - Query telemetry
+  - LLM-generated filters
+  - LLM output validation
+  - Metadata filter failure modes
+  - Filter over-restriction
+  - Filter under-restriction
+  - Query interpretation errors
+  - Unsupported filter operators
+  - Ambiguous natural language
+  - Enterprise metadata management
+  - Authentication and authorization
+  - RAG access control
+  - Retrieval authorization
+  - Tenant isolation
+  - Security-aware retrieval
+  - Document-level access control
+  - Authorization filters
+  - Secure enterprise RAG
+  - Metadata filtering versus authorization
+  - Explicit UI filters
+  - Structured search parameters
+  - Self-Query versus Multi-Query
+  - Self-Query versus vector search
+  - Composable retrieval architecture
+  - Enterprise retrieval engineering
+  - AI application architecture
+  - Production-grade enterprise AI systems
+---
+
+
 # Self-Query Retriever
 
 ## 📖 Overview

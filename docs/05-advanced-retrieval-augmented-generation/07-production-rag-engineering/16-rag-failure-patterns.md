@@ -1,3 +1,90 @@
+---
+title: "RAG Failure Patterns: Enterprise Troubleshooting, Root Cause Analysis, Security Risks, and Resilience Strategies"
+description: >
+  Understand common failure patterns in production RAG systems and learn how to
+  identify root causes across ingestion, parsing, chunking, embeddings, indexing,
+  query understanding, retrieval, reranking, context assembly, generation, citations,
+  caching, security, and infrastructure. Explore practical failure scenarios such
+  as missing or stale documents, embedding mismatches, poor metadata, retrieval
+  degradation, context truncation, hallucinations, citation errors, prompt injection,
+  authorization failures, cross-tenant data leakage, cache poisoning, and freshness
+  issues. Diagnose performance bottlenecks, cost explosions, retry storms, dependency
+  failures, resource exhaustion, agentic retrieval loops, and observability gaps.
+  Learn failure localization, severity classification, failure injection, recovery
+  strategies, circuit breakers, backpressure, bulkhead isolation, tenant quotas,
+  version-aware retrieval, cache invalidation, and production runbooks. Build resilient
+  enterprise RAG systems through systematic root cause analysis, security controls,
+  continuous evaluation, operational monitoring, and controlled recovery mechanisms.
+keywords:
+  - RAG Failure Patterns
+  - RAG Troubleshooting
+  - Enterprise RAG Architecture
+  - Production RAG Engineering
+  - RAG Root Cause Analysis
+  - RAG Failure Taxonomy
+  - RAG Failure Localization
+  - RAG Debugging
+  - RAG Reliability
+  - RAG Resilience
+  - RAG Ingestion Failures
+  - Document Parsing Failures
+  - Chunking Failures
+  - Embedding Mismatch
+  - Embedding Model Migration
+  - Vector Indexing Failures
+  - Retrieval Failures
+  - Hybrid Retrieval
+  - Query Rewriting Failures
+  - Metadata Filtering
+  - Reranking Failures
+  - Context Assembly
+  - Context Truncation
+  - Context Window Management
+  - RAG Hallucination
+  - Grounded Generation
+  - Citation Validation
+  - Prompt Injection
+  - Indirect Prompt Injection
+  - RAG Security
+  - Authorization-Aware Retrieval
+  - Multi-Tenant RAG
+  - Cross-Tenant Data Leakage
+  - Tenant Isolation
+  - Cache Leakage
+  - Cache Invalidation
+  - Cache Poisoning
+  - Cache Stampede
+  - Data Freshness
+  - Stale Document Retrieval
+  - Version-Aware Retrieval
+  - Idempotent Ingestion
+  - Document Deletion Propagation
+  - Noisy Neighbor Problem
+  - Rate Limit Cascades
+  - Retry Storms
+  - Circuit Breakers
+  - Bulkhead Isolation
+  - Backpressure
+  - Dead Letter Queue
+  - RAG Performance Optimization
+  - RAG Cost Optimization
+  - Agentic RAG Failures
+  - Retrieval Loop Prevention
+  - Tool Authorization
+  - SQL RAG Security
+  - Graph RAG
+  - Multimodal RAG
+  - Multilingual Retrieval
+  - PII Protection
+  - Data Exfiltration Prevention
+  - RAG Observability
+  - Distributed Tracing
+  - RAG Failure Injection
+  - Production RAG Monitoring
+  - Enterprise AI Engineering
+  - Production AI Systems
+---
+
 # 16. RAG Failure Patterns
 
 > **Category:** Production RAG Engineering  

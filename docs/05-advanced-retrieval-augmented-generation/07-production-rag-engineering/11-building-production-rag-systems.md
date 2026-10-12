@@ -1,3 +1,31 @@
+---
+title: "Building Production RAG Systems: Enterprise Architecture, Retrieval, Security, Scalability, and Deployment"
+description: >
+  Learn how to design and build production-grade Retrieval-Augmented Generation (RAG) systems using enterprise architecture principles. This chapter covers end-to-end RAG architecture, event-driven ingestion, document processing, metadata enrichment, chunking strategies, embedding and index versioning, hybrid retrieval, candidate fusion, reranking, context engineering, prompt assembly, response validation, citation provenance, and authorization-aware retrieval. Explore multi-tenant security, resilience patterns, caching, knowledge freshness, CI/CD, evaluation gates, observability, performance engineering, cost optimization, disaster recovery, capacity planning, production SLOs, and continuous improvement. Includes architecture diagrams, Python interface examples, operational metrics, testing strategies, deployment patterns, and production-readiness checklists for building secure, scalable, reliable, and cost-aware enterprise RAG platforms.
+keywords:
+  - Building Production RAG Systems
+  - Production RAG Architecture
+  - Enterprise RAG Systems
+  - Retrieval-Augmented Generation
+  - RAG System Design
+  - RAG Ingestion Pipeline
+  - Hybrid Retrieval
+  - Vector Search
+  - Reranking
+  - Context Engineering
+  - RAG Evaluation
+  - RAG Observability
+  - Multi-Tenant RAG
+  - RAG Security
+  - Authorization-Aware Retrieval
+  - RAG CI/CD
+  - RAG Performance Optimization
+  - RAG Cost Optimization
+  - RAG Scalability
+  - Production AI Systems
+---
+
+
 # 11. Building Production RAG Systems
 
 > **Category:** Production RAG Engineering  

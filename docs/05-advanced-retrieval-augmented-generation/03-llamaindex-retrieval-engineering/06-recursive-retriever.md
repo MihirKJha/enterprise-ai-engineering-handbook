@@ -1,10 +1,137 @@
 ---
 title: "LlamaIndex Recursive Retriever: Hierarchical and Graph-Based Retrieval for RAG"
-description: >
-  "Learn how the LlamaIndex Recursive Retriever follows relationships between
-  nodes to implement small-to-big retrieval, parent-child retrieval,
-  summary-to-source retrieval, multi-representation retrieval, table retrieval,
-  recursive traversal, and production-grade hierarchical RAG architectures."
+description: "Learn how LlamaIndex RecursiveRetriever enables hierarchical and graph-based retrieval for enterprise RAG. Explore small-to-big retrieval, parent-child relationships, node references, recursive traversal, summary-to-source retrieval, multi-representation retrieval, table retrieval, document agents, hybrid retrieval, re-ranking, evaluation, security, and production architecture."
+keywords:
+  - LlamaIndex Recursive Retriever
+  - LlamaIndex RecursiveRetriever
+  - recursive retrieval
+  - recursive retriever for RAG
+  - hierarchical retrieval
+  - hierarchical RAG
+  - graph-based retrieval
+  - enterprise RAG
+  - enterprise RAG architecture
+  - retrieval augmented generation
+  - RAG retrieval strategies
+  - LlamaIndex retrieval
+  - LlamaIndex retrievers
+  - LlamaIndex node relationships
+  - node references
+  - node reference traversal
+  - recursive node traversal
+  - retrieval graph
+  - node relationship graph
+  - parent-child retrieval
+  - parent-child relationships
+  - parent document retrieval
+  - small-to-big retrieval
+  - small-to-big RAG
+  - child-to-parent retrieval
+  - parent node expansion
+  - contextual retrieval
+  - retrieval granularity
+  - chunk-level retrieval
+  - parent chunk retrieval
+  - child chunk retrieval
+  - semantic search
+  - vector retrieval
+  - vector retriever
+  - vector search with recursive retrieval
+  - node mapping
+  - node dictionary
+  - retriever_dict
+  - node_dict
+  - reference resolver
+  - reference resolution
+  - recursive retrieval architecture
+  - recursive retrieval in LlamaIndex
+  - LlamaIndex Python examples
+  - recursive depth
+  - maximum traversal depth
+  - cycle detection
+  - visited-node tracking
+  - graph traversal
+  - retrieval orchestration
+  - multi-representation retrieval
+  - summary-to-source retrieval
+  - summary node retrieval
+  - generated question retrieval
+  - question-to-source retrieval
+  - retrieval representation vs evidence
+  - source node retrieval
+  - canonical source nodes
+  - retrieval and synthesis decoupling
+  - document summary retrieval
+  - recursive retrieval with tables
+  - table retrieval for RAG
+  - structured evidence retrieval
+  - heterogeneous document retrieval
+  - multimodal RAG
+  - document agents
+  - LlamaIndex document agents
+  - agentic retrieval
+  - agentic RAG
+  - recursive retrieval vs router retrieval
+  - LlamaIndex RouterRetriever
+  - query routing
+  - multi-query retrieval
+  - recursive retrieval with multi-query
+  - query fusion
+  - recursive retrieval with re-ranking
+  - cross-encoder re-ranking
+  - maximal marginal relevance
+  - MMR retrieval
+  - result deduplication
+  - context expansion
+  - context explosion
+  - context budget management
+  - recursive expansion policies
+  - maximum nodes
+  - reference-type filtering
+  - retrieval score thresholds
+  - reference integrity
+  - node ID validation
+  - broken reference detection
+  - orphan node detection
+  - reference versioning
+  - versioned node graphs
+  - tenant-aware retrieval
+  - multi-tenant RAG
+  - secure recursive retrieval
+  - retrieval authorization
+  - tenant isolation
+  - retrieval provenance
+  - source traceability
+  - reference path tracking
+  - RAG citations
+  - retrieval observability
+  - recursive retrieval tracing
+  - retrieval latency
+  - parallel recursive expansion
+  - async node resolution
+  - recursive retrieval cost
+  - retrieval evaluation
+  - recursive recall
+  - context precision
+  - context recall
+  - answer quality evaluation
+  - small-to-big retrieval evaluation
+  - production RAG pipeline
+  - production recursive retrieval
+  - scalable retrieval architecture
+  - long-document retrieval
+  - PDF retrieval
+  - technical documentation retrieval
+  - code retrieval
+  - enterprise knowledge retrieval
+  - knowledge graph retrieval
+  - Graph RAG
+  - SQL retrieval
+  - hybrid retrieval architecture
+  - retrieval fallback strategy
+  - context compression
+  - evidence selection
+  - production RAG security
 ---
 
 # Recursive Retriever

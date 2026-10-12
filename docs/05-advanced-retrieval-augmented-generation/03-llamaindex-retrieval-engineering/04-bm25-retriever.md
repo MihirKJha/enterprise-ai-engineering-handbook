@@ -1,12 +1,146 @@
 ---
-title: BM25 Retriever for Enterprise RAG and Hybrid Search
-description: >
-  Learn how BM25 lexical retrieval ranks documents using term frequency,
-  inverse document frequency, and document-length normalization. Explore
-  BM25 parameters, inverted indexes, exact-match retrieval, BM25 vs vector
-  search, hybrid retrieval with Reciprocal Rank Fusion, LlamaIndex
-  integration, metadata filtering, re-ranking, evaluation, tuning,
-  observability, and production enterprise RAG architectures.
+title: "BM25 Retriever for Enterprise RAG and Hybrid Search"
+description: "Learn how the BM25 lexical retriever ranks documents using term frequency, inverse document frequency, and document-length normalization. Explore BM25 parameters, TF-IDF, inverted indexes, exact-match retrieval, BM25 vs. vector search, hybrid retrieval with Reciprocal Rank Fusion (RRF), LlamaIndex integration, metadata filtering, query rewriting, re-ranking, retrieval evaluation, tuning, observability, security, and production-grade enterprise RAG architectures."
+keywords:
+  - BM25 Retriever
+  - BM25 retrieval
+  - BM25 algorithm
+  - BM25 ranking
+  - BM25 scoring
+  - BM25 for RAG
+  - BM25 for enterprise RAG
+  - lexical retrieval
+  - lexical search
+  - keyword retrieval
+  - keyword search
+  - sparse retrieval
+  - sparse search
+  - information retrieval
+  - classical information retrieval
+  - Retrieval-Augmented Generation
+  - RAG architecture
+  - enterprise RAG
+  - production RAG
+  - hybrid search
+  - hybrid retrieval
+  - BM25 vs vector search
+  - BM25 vs semantic search
+  - dense retrieval
+  - semantic retrieval
+  - vector retrieval
+  - vector search
+  - TF-IDF
+  - term frequency
+  - inverse document frequency
+  - IDF scoring
+  - document frequency
+  - term frequency saturation
+  - document-length normalization
+  - BM25 formula
+  - BM25 k1 parameter
+  - BM25 b parameter
+  - BM25 parameter tuning
+  - BM25 optimization
+  - inverted index
+  - inverted indexing
+  - tokenization
+  - text analyzers
+  - lexical analyzers
+  - query tokenization
+  - stop words
+  - stemming
+  - lemmatization
+  - morphological normalization
+  - domain-specific tokenization
+  - technical document search
+  - exact-match retrieval
+  - identifier search
+  - error code retrieval
+  - API documentation search
+  - code search
+  - incident management search
+  - enterprise policy search
+  - acronym retrieval
+  - version number search
+  - numeric search
+  - product ID search
+  - technical terminology search
+  - query expansion
+  - query rewriting
+  - multi-query retrieval
+  - lexical query optimization
+  - LlamaIndex BM25
+  - LlamaIndex retriever integration
+  - Python BM25
+  - rank_bm25
+  - BM25Okapi
+  - lexical retriever adapter
+  - framework-agnostic retriever
+  - retriever factory
+  - ports and adapters architecture
+  - hybrid retriever
+  - Reciprocal Rank Fusion
+  - RRF
+  - rank-based fusion
+  - weighted score fusion
+  - retrieval result fusion
+  - lexical and semantic fusion
+  - cross-encoder re-ranking
+  - LLM re-ranking
+  - retrieval re-ranking
+  - candidate generation
+  - candidate retrieval
+  - context compression
+  - context selection
+  - metadata filtering
+  - metadata-aware retrieval
+  - tenant-aware search
+  - multi-tenant retrieval
+  - authorization-aware retrieval
+  - secure enterprise search
+  - retrieval access control
+  - OpenSearch BM25
+  - Elasticsearch BM25
+  - Apache Lucene
+  - Apache Solr
+  - full-text search
+  - database full-text search
+  - SQL LIKE vs BM25
+  - distributed search
+  - search index sharding
+  - search index replication
+  - incremental indexing
+  - index freshness
+  - document deletion from search index
+  - retrieval evaluation
+  - BM25 evaluation
+  - Recall at K
+  - Precision at K
+  - Mean Reciprocal Rank
+  - MRR
+  - Normalized Discounted Cumulative Gain
+  - NDCG
+  - hit rate
+  - retrieval benchmarking
+  - BM25 vs hybrid evaluation
+  - BM25 analyzer tuning
+  - BM25 relevance tuning
+  - BM25 latency
+  - lexical retrieval performance
+  - search observability
+  - retrieval monitoring
+  - P95 latency
+  - P99 latency
+  - zero-result rate
+  - search score distribution
+  - index versioning
+  - analyzer versioning
+  - retrieval security
+  - enterprise search architecture
+  - production lexical retrieval
+  - production hybrid search
+  - enterprise retrieval pipeline
+  - RAG retrieval best practices
 ---
 # BM25 Retriever
 

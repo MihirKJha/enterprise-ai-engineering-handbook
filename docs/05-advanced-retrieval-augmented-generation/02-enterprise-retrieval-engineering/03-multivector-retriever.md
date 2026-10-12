@@ -1,3 +1,149 @@
+---
+title: "Multi-Vector Retriever in RAG: Architecture, Hypothetical Questions, and Enterprise Implementation"
+description: "Learn how Multi-Vector Retrieval improves Retrieval-Augmented Generation (RAG) by representing documents through multiple embeddings, including summaries, original content, and hypothetical questions. Explore parent-document mapping, representation-level retrieval, parent ranking, LangChain MultiVectorRetriever, deduplication, hybrid search, reranking, contextual compression, evaluation metrics, and production-ready enterprise RAG architecture."
+keywords:
+  - Multi-Vector Retriever
+  - Multi-Vector Retrieval
+  - Multi-Vector Search
+  - RAG
+  - Retrieval-Augmented Generation
+  - Enterprise RAG
+  - Advanced RAG
+  - RAG Architecture
+  - Enterprise Retrieval Engineering
+  - Enterprise AI Engineering
+  - Retrieval Engineering
+  - Retrieval Optimization
+  - Multi-Vector RAG
+  - Multiple Embeddings per Document
+  - Multiple Vector Representations
+  - Document Representations
+  - Vector Representations
+  - Single-Vector vs Multi-Vector Retrieval
+  - Semantic Retrieval
+  - Semantic Search
+  - Vector Search
+  - Vector Database
+  - Embedding Models
+  - Document Embeddings
+  - Multiple Embedding Strategies
+  - Summary-Based Retrieval
+  - Summary Embeddings
+  - Hypothetical Questions
+  - Hypothetical Question Retrieval
+  - Synthetic Questions
+  - Synthetic Query Generation
+  - Question Generation for RAG
+  - Query-Document Alignment
+  - Retrieval Representation Generation
+  - Content Representations
+  - Keyword Representations
+  - Entity-Based Retrieval
+  - Metadata Descriptions
+  - LangChain
+  - LangChain MultiVectorRetriever
+  - MultiVectorRetriever
+  - Parent-Document Retrieval
+  - Parent Document Retriever
+  - Parent-Child Retrieval
+  - Parent-Child Document Mapping
+  - Parent Document Store
+  - Document Store
+  - Vector Store
+  - Parent ID Mapping
+  - Document ID Mapping
+  - Representation ID
+  - Representation Metadata
+  - Representation-Level Retrieval
+  - Parent-Level Ranking
+  - Parent-Level Deduplication
+  - Document-Level Ranking
+  - Retrieval Score Aggregation
+  - Maximum Score Aggregation
+  - Average Score Aggregation
+  - Weighted Score Aggregation
+  - Reciprocal Rank Fusion
+  - Weighted Rank Fusion
+  - Representation-Type Weighting
+  - Retrieval Result Deduplication
+  - Chunk-Level Retrieval
+  - Chunking Strategies
+  - Multi-Vector Chunking
+  - Chunk Embeddings
+  - Document Retrieval Architecture
+  - Retrieval Pipeline
+  - Composable Retrieval Architecture
+  - Ensemble Retrieval
+  - Ensemble Retriever
+  - Hybrid Search
+  - BM25
+  - Sparse Retrieval
+  - Dense Retrieval
+  - Dense and Sparse Retrieval
+  - Multi-Vector Hybrid Search
+  - Reranking
+  - Reranker
+  - Contextual Compression
+  - Contextual Compression Retriever
+  - Context Selection
+  - Prompt Assembly
+  - Evidence-Based Generation
+  - Retrieval vs Generation Context
+  - Retrieval Recall
+  - Recall at K
+  - Recall@K
+  - Precision at K
+  - Precision@K
+  - Mean Reciprocal Rank
+  - MRR
+  - Normalized Discounted Cumulative Gain
+  - NDCG
+  - RAG Evaluation
+  - Retrieval Evaluation
+  - Answer Accuracy
+  - Answer Correctness
+  - Faithfulness Evaluation
+  - Context Relevance
+  - Citation Accuracy
+  - Single-Vector Baseline
+  - Retrieval Benchmarking
+  - Multi-Vector Retrieval Evaluation
+  - Representation Quality
+  - Grounded Question Generation
+  - LLM Hallucination Prevention
+  - Source Metadata Preservation
+  - Citation Traceability
+  - Document Versioning
+  - Representation Lifecycle
+  - Vector Indexing
+  - Vector Storage Optimization
+  - Vector Database Scaling
+  - Embedding Cost Optimization
+  - LLM Ingestion Cost
+  - Retrieval Latency
+  - Index Size
+  - Representation Explosion
+  - Retrieval Noise
+  - Stale Embeddings
+  - Stale Document Representations
+  - Production RAG
+  - Production-Ready RAG
+  - Enterprise AI Architecture
+  - Enterprise Knowledge Assistant
+  - Enterprise Copilot
+  - Technical Documentation Search
+  - Legal Document Retrieval
+  - Financial Knowledge Systems
+  - Healthcare Knowledge Bases
+  - Enterprise Policy Search
+  - Research Retrieval Systems
+  - Production Retrieval Checklist
+  - Retrieval Quality Optimization
+  - Evaluation-Driven Retrieval
+  - Scalable RAG Architecture
+---
+
+
 # Multi-Vector Retriever
 
 ## 📖 Overview

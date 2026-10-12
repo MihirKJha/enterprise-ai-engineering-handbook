@@ -1,3 +1,159 @@
+---
+title: "RAG Retriever Comparison: VectorStore, Multi-Query, Self-Query, and Parent-Document Retrieval"
+description: "Compare four foundational RAG retrieval strategies and learn when to use VectorStore, Multi-Query, Self-Query, and Parent-Document Retrievers. Explore retrieval precision and recall, decision trees, capability-based architecture, retriever composition, LangChain and LlamaIndex patterns, evaluation metrics such as Recall@K, Precision@K, MRR and NDCG, latency, cost, security, observability, and production-ready enterprise retrieval architecture."
+keywords:
+  - RAG retriever comparison
+  - Retriever comparison
+  - RAG retrieval strategies
+  - Enterprise RAG
+  - Retrieval-Augmented Generation
+  - Advanced RAG
+  - RAG architecture
+  - Enterprise AI Engineering
+  - Production RAG
+  - Production-grade RAG architecture
+  - VectorStore Retriever
+  - Vector store retrieval
+  - VectorStore retrieval strategy
+  - Multi-Query Retriever
+  - Multi-Query Retrieval
+  - Self-Query Retriever
+  - Self-Query Retrieval
+  - Parent-Document Retriever
+  - Parent-Document Retrieval
+  - LangChain retrievers
+  - LlamaIndex retrievers
+  - LangChain versus LlamaIndex retrieval
+  - VectorStore versus Multi-Query
+  - Self-Query versus Multi-Query
+  - Parent-Document versus standard RAG
+  - Semantic search
+  - Vector search
+  - Dense retrieval
+  - Keyword retrieval
+  - Hybrid search
+  - Metadata filtering
+  - Metadata-aware retrieval
+  - Query expansion
+  - Query diversification
+  - Multiple query perspectives
+  - Query ambiguity
+  - Query understanding
+  - LLM query generation
+  - Structured query construction
+  - Natural language filtering
+  - Enterprise knowledge retrieval
+  - Enterprise document search
+  - Knowledge base retrieval
+  - Document retrieval
+  - Retrieval precision
+  - Retrieval recall
+  - Precision versus recall
+  - Retrieval coverage
+  - Context preservation
+  - Context completeness
+  - Retrieval granularity
+  - Generation context
+  - Parent-child retrieval
+  - Parent document lookup
+  - Parent context resolution
+  - Chunking strategies
+  - Small chunks versus large chunks
+  - Hierarchical retrieval
+  - Context selection
+  - Context compression
+  - Contextual compression
+  - Re-ranking
+  - Retrieval re-ranking
+  - Candidate ranking
+  - Candidate aggregation
+  - Candidate deduplication
+  - Retrieval pipeline
+  - Composable retrieval architecture
+  - Retriever composition
+  - Capability-based retrieval
+  - Framework-agnostic retriever
+  - Framework-independent retrieval
+  - Retriever interface
+  - Retriever abstraction
+  - Retrieval decision tree
+  - Retriever selection matrix
+  - RAG decision framework
+  - Retriever trade-offs
+  - Retrieval complexity
+  - RAG engineering
+  - Enterprise retrieval engineering
+  - Retrieval evaluation
+  - RAG evaluation metrics
+  - Recall@K
+  - Precision@K
+  - Mean Reciprocal Rank
+  - MRR
+  - Normalized Discounted Cumulative Gain
+  - NDCG
+  - Context relevance
+  - Context recall
+  - Answer relevance
+  - Answer correctness
+  - Faithfulness
+  - Groundedness
+  - Citation accuracy
+  - End-to-end RAG evaluation
+  - Retrieval benchmarking
+  - Retrieval quality measurement
+  - RAG latency
+  - Retrieval latency optimization
+  - P50 latency
+  - P95 latency
+  - P99 latency
+  - RAG cost optimization
+  - LLM query generation cost
+  - Vector database performance
+  - Retrieval scalability
+  - RAG observability
+  - Retrieval tracing
+  - Query telemetry
+  - Retrieval diagnostics
+  - Production AI systems
+  - Enterprise AI architecture
+  - RAG security
+  - Retrieval authorization
+  - Access-controlled retrieval
+  - Tenant isolation
+  - Secure RAG architecture
+  - LLM-generated query validation
+  - Metadata filter validation
+  - Parent document access control
+  - Retriever routing
+  - Retrieval router
+  - Agentic retrieval
+  - Graph RAG
+  - SQL RAG
+  - Knowledge graph retrieval
+  - Hybrid retrieval
+  - BM25 retriever
+  - Maximum Marginal Relevance
+  - MMR retrieval
+  - Ensemble retrieval
+  - Query Fusion Retriever
+  - Auto-Merging Retriever
+  - Recursive Retriever
+  - Document Summary Retriever
+  - Contextual compression retriever
+  - Enterprise knowledge assistant
+  - HR knowledge assistant
+  - Technical documentation retrieval
+  - Policy document retrieval
+  - Cloud migration risk analysis
+  - Production retrieval architecture
+  - Modular RAG pipeline
+  - Retrieval capability composition
+  - Retrieval quality versus cost
+  - Retrieval quality versus latency
+  - Enterprise RAG best practices
+  - Scalable enterprise retrieval
+---
+
 # Retriever Comparison
 
 ## 📖 Overview

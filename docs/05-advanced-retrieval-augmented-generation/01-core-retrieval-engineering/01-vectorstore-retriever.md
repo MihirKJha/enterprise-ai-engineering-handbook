@@ -1,3 +1,148 @@
+---
+title: "VectorStore Retriever: Semantic Search, Embeddings, and Enterprise RAG Retrieval"
+description: "Learn how VectorStore Retrievers work in Retrieval-Augmented Generation (RAG) systems. Explore embeddings, vector databases, similarity search, Top-K retrieval, metadata filtering, score thresholds, retrieval configuration, LangChain and Chroma implementation, context construction, retrieval quality, and production considerations. Understand the difference between a vector store and a retriever, build a framework-agnostic retriever interface, evaluate retrieval performance, and identify when to adopt advanced techniques such as Multi-Query, Self-Query, Parent-Document, Hybrid, Re-ranking, Router, Graph, SQL, and Agentic Retrieval."
+keywords:
+  - VectorStore Retriever
+  - Vector Store Retriever
+  - Vector Store Retrieval
+  - RAG Retriever
+  - Retrieval-Augmented Generation
+  - RAG Architecture
+  - Enterprise RAG
+  - Advanced RAG
+  - RAG Engineering
+  - Enterprise AI Engineering
+  - Production RAG Systems
+  - Semantic Search
+  - Vector Search
+  - Vector Database
+  - Vector Store
+  - Vector Store Architecture
+  - Embedding Models
+  - Text Embeddings
+  - Query Embeddings
+  - Document Embeddings
+  - Vector Similarity Search
+  - Similarity Search
+  - Cosine Similarity
+  - Dot Product Similarity
+  - Euclidean Distance
+  - Nearest Neighbor Search
+  - Approximate Nearest Neighbor
+  - ANN Search
+  - Top-K Retrieval
+  - Top-K Search
+  - Retrieval Configuration
+  - Retrieval Parameters
+  - Search Type
+  - Similarity Score
+  - Similarity Score Threshold
+  - Score Threshold Retrieval
+  - Retrieval Relevance
+  - Retrieval Quality
+  - Retrieval Precision
+  - Retrieval Recall
+  - Relevant Document Retrieval
+  - Candidate Retrieval
+  - Document Retrieval
+  - Chunk Retrieval
+  - Document Chunking
+  - Text Chunking for RAG
+  - Document Processing
+  - RAG Ingestion Pipeline
+  - RAG Query Pipeline
+  - Vector Indexing
+  - Vector Index
+  - Vector Search Index
+  - Document Metadata
+  - Metadata Filtering
+  - Metadata-Aware Retrieval
+  - Enterprise Metadata Filtering
+  - Tenant-Aware Retrieval
+  - Secure RAG Retrieval
+  - RAG Access Control
+  - Enterprise Data Isolation
+  - Authorization in RAG
+  - LangChain Retriever
+  - LangChain VectorStore Retriever
+  - LangChain Chroma
+  - Chroma Vector Database
+  - langchain-chroma
+  - Hugging Face Embeddings
+  - Sentence Transformers
+  - all-MiniLM-L6-v2
+  - Python RAG Implementation
+  - Python Vector Search
+  - LangChain RAG
+  - Retriever Invoke
+  - Vector Store API
+  - Similarity Search API
+  - Similarity Search With Score
+  - Retrieved Documents
+  - RAG Context Builder
+  - Context Construction
+  - Prompt Assembly
+  - LLM Context
+  - Grounded Generation
+  - RAG Answer Quality
+  - Retrieval-Augmented Generation Pipeline
+  - Vector Store vs Retriever
+  - Embedding Model vs Retriever
+  - Retriever Abstraction
+  - Framework-Agnostic Retriever
+  - Retriever Interface
+  - Abstract Retriever Class
+  - Python Abstract Base Class
+  - Ports and Adapters Architecture
+  - Hexagonal Architecture for AI
+  - Provider-Agnostic RAG
+  - Decoupled AI Architecture
+  - Modular RAG Design
+  - Retrieval Strategy
+  - Basic Vector Retrieval
+  - Vector Retrieval Limitations
+  - Semantic Similarity Limitations
+  - Retrieval Noise
+  - Context Dilution
+  - Context Window Optimization
+  - RAG Token Cost
+  - Retrieval Latency
+  - Vector Database Performance
+  - Retrieval Scalability
+  - RAG Observability
+  - Retrieval Metrics
+  - Empty Retrieval Rate
+  - Relevant Document Coverage
+  - RAG Production Readiness
+  - Multi-Query Retriever
+  - Self-Query Retriever
+  - Parent-Document Retriever
+  - Hybrid Search
+  - Hybrid Retrieval
+  - BM25 Retrieval
+  - Lexical Search
+  - Ensemble Retrieval
+  - Re-ranking
+  - Contextual Compression
+  - Router Retriever
+  - Graph Retriever
+  - Graph RAG
+  - SQL Retriever
+  - SQL RAG
+  - Agentic Retrieval
+  - Agentic RAG
+  - Advanced Retrieval Techniques
+  - Enterprise Knowledge Search
+  - Enterprise Documentation Search
+  - HR Policy Search
+  - Knowledge Assistant
+  - Technical Support RAG
+  - Internal Enterprise Search
+  - Production AI Engineering
+  - Enterprise AI Engineering Handbook
+---
+
+
 # VectorStore Retriever
 
 ## 📖 Overview

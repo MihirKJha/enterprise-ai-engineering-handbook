@@ -1,3 +1,160 @@
+---
+title: "Advanced Query Rewriting in RAG: Enterprise Retrieval Strategies, Query Decomposition, and Production Best Practices"
+description: "Learn how to build production-grade advanced query rewriting for enterprise RAG systems. Explore conversational query rewriting, pronoun and entity resolution, domain-aware normalization, multi-query generation, query decomposition, HyDE, hybrid search, metadata extraction, query routing, iterative retrieval, security guardrails, Python service design, observability, and retrieval evaluation."
+keywords:
+  - advanced query rewriting
+  - query rewriting in RAG
+  - query rewriting
+  - enterprise RAG
+  - enterprise RAG architecture
+  - retrieval augmented generation
+  - RAG retrieval optimization
+  - retrieval engineering
+  - query understanding
+  - retrieval-optimized queries
+  - query normalization
+  - query reformulation
+  - query expansion
+  - query rewriting vs query expansion
+  - query rewriting vs multi-query retrieval
+  - multi-query retrieval
+  - multi-query generation
+  - conversational query rewriting
+  - conversational retrieval
+  - conversational search
+  - conversation-aware retrieval
+  - context-aware query rewriting
+  - conversation history resolution
+  - pronoun resolution
+  - reference resolution
+  - ambiguous query resolution
+  - entity resolution
+  - entity extraction
+  - entity-preserving rewriting
+  - exact identifier preservation
+  - domain-aware query rewriting
+  - domain-specific query rewriting
+  - enterprise vocabulary
+  - enterprise glossary
+  - terminology normalization
+  - canonical query generation
+  - technical terminology normalization
+  - acronym expansion
+  - typo correction for search
+  - natural language query normalization
+  - intent-aware query rewriting
+  - query intent classification
+  - query understanding pipeline
+  - query decomposition
+  - complex query decomposition
+  - multi-intent queries
+  - multi-intent retrieval
+  - sub-query generation
+  - research query rewriting
+  - comparison query retrieval
+  - troubleshooting query rewriting
+  - temporal query rewriting
+  - negative constraint preservation
+  - query constraint preservation
+  - query rewriting guardrails
+  - query rewriting validation
+  - query rewrite contract
+  - structured query rewriting
+  - structured LLM output
+  - LLM query rewriting
+  - LLM-based retrieval optimization
+  - query rewriting prompt engineering
+  - query rewriter service
+  - Python query rewriter
+  - rule-based query rewriting
+  - hybrid query rewriting
+  - rule-based and LLM rewriting
+  - adaptive query rewriting
+  - query strategy routing
+  - query planner architecture
+  - retrieval strategy selection
+  - query routing
+  - retrieval orchestration
+  - query fusion
+  - candidate fusion
+  - reciprocal rank fusion
+  - hybrid search
+  - dense retrieval
+  - BM25 retrieval
+  - sparse retrieval
+  - dense and sparse retrieval
+  - exact identifier search
+  - query rewriting for BM25
+  - query rewriting for vector search
+  - query rewriting with metadata
+  - metadata-aware retrieval
+  - structured metadata extraction
+  - self-query retrieval
+  - self-query retriever
+  - metadata filter generation
+  - query rewriting and HyDE
+  - hypothetical document embeddings
+  - HyDE retrieval
+  - query rewriting and re-ranking
+  - cross-encoder re-ranking
+  - maximal marginal relevance
+  - MMR retrieval
+  - diversity-aware retrieval
+  - query rewriting and MMR
+  - candidate pool optimization
+  - query rewriting and hybrid retrieval
+  - agentic RAG
+  - agentic retrieval
+  - iterative query rewriting
+  - iterative retrieval
+  - retrieval feedback loop
+  - evidence sufficiency evaluation
+  - retrieval confidence
+  - retrieval score gap
+  - query drift
+  - query drift prevention
+  - semantic similarity validation
+  - fallback to original query
+  - adaptive retrieval
+  - retrieval latency optimization
+  - query rewriting cost optimization
+  - query rewriting cache
+  - query cache invalidation
+  - prompt versioning
+  - query rewriting observability
+  - retrieval tracing
+  - query rewrite quality metrics
+  - intent preservation
+  - entity preservation
+  - retrieval recall
+  - retrieval precision
+  - NDCG evaluation
+  - answer correctness
+  - answer faithfulness
+  - RAG evaluation dataset
+  - offline retrieval evaluation
+  - online retrieval evaluation
+  - query rewriting A/B testing
+  - user feedback for retrieval
+  - query injection
+  - prompt injection in RAG
+  - secure query rewriting
+  - authorization-aware retrieval
+  - tenant isolation
+  - trusted application context
+  - security context preservation
+  - retrieval filter injection
+  - SQL RAG query planning
+  - Graph RAG query routing
+  - knowledge graph retrieval
+  - relationship-aware retrieval
+  - multimodal RAG retrieval
+  - architecture diagram retrieval
+  - enterprise AI architecture
+  - production-grade RAG pipeline
+  - scalable retrieval architecture
+---
+
 # Advanced Query Rewriting
 
 ## 📖 Overview

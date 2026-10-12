@@ -1,3 +1,184 @@
+---
+title: "SQL RAG: Enterprise Text-to-SQL Architecture, Secure Database Retrieval, and Hybrid RAG Systems"
+description: "Learn how to design production-ready SQL RAG systems that translate natural-language questions into validated database queries. Explore Text-to-SQL, schema retrieval, schema-aware prompting, semantic layers, query planning, SQL AST validation, read-only execution, row-level security, multi-tenant authorization, result validation, SQL self-correction, query cost control, observability, evaluation, and hybrid SQL, Vector, Knowledge Graph, and Agentic RAG architectures."
+keywords:
+  - SQL RAG
+  - SQL Retrieval-Augmented Generation
+  - Enterprise SQL RAG
+  - Production SQL RAG
+  - SQL RAG architecture
+  - Text-to-SQL
+  - Natural Language to SQL
+  - NL2SQL
+  - Text-to-SQL architecture
+  - Text-to-SQL pipeline
+  - Enterprise Text-to-SQL
+  - Production-grade Text-to-SQL
+  - SQL generation with LLMs
+  - LLM-powered database querying
+  - Database question answering
+  - Structured data retrieval
+  - Structured knowledge retrieval
+  - RAG for structured data
+  - Traditional RAG vs SQL RAG
+  - SQL RAG vs Vector RAG
+  - Hybrid RAG
+  - SQL and Vector RAG
+  - SQL and Knowledge Graph RAG
+  - Multi-source enterprise RAG
+  - Enterprise knowledge retrieval
+  - Retrieval architecture
+  - RAG orchestration
+  - Query understanding
+  - Query classification
+  - Query planning
+  - Query planner
+  - Intermediate query representation
+  - Query decomposition
+  - Schema retrieval
+  - Schema-aware retrieval
+  - Schema-aware prompting
+  - Database schema discovery
+  - Database schema metadata
+  - Database metadata retrieval
+  - Schema RAG
+  - Metadata-aware Text-to-SQL
+  - Database table retrieval
+  - Column-level metadata
+  - Primary key relationships
+  - Foreign key relationships
+  - SQL join reasoning
+  - Multi-table SQL generation
+  - SQL joins
+  - SQL aggregations
+  - SQL filtering
+  - SQL sorting
+  - SQL grouping
+  - COUNT SUM AVG MIN MAX
+  - Exact numeric computation
+  - Business analytics with RAG
+  - Business intelligence with LLMs
+  - Natural-language analytics
+  - Enterprise analytics architecture
+  - Semantic layer
+  - Enterprise semantic layer
+  - Metric layer
+  - Governed metrics
+  - Business metadata
+  - Business metric definitions
+  - Metric semantic mapping
+  - Database schema context
+  - Few-shot SQL prompting
+  - SQL example retrieval
+  - SQL prompt assembly
+  - Controlled SQL generation
+  - Safe SQL generation
+  - SQL validation
+  - SQL AST validation
+  - SQL abstract syntax tree
+  - SQL parser
+  - SQL policy validation
+  - SQL allowlisting
+  - SQL statement validation
+  - Read-only SQL execution
+  - Read-only database access
+  - Database least privilege
+  - SQL authorization
+  - Database query authorization
+  - SQL security
+  - Secure Text-to-SQL
+  - SQL injection prevention
+  - LLM-generated SQL security
+  - Prompt injection in Text-to-SQL
+  - Database prompt injection defense
+  - SQL query constraints
+  - Allowed tables and columns
+  - Table-level authorization
+  - Column-level access control
+  - Row-level security
+  - Multi-tenant SQL RAG
+  - Tenant-aware database retrieval
+  - Tenant isolation
+  - Sensitive data protection
+  - PII protection in SQL RAG
+  - Database security policies
+  - Authorized schema retrieval
+  - SQL resource exhaustion
+  - SQL query cost control
+  - SQL query timeout
+  - Query complexity limits
+  - SQL row limits
+  - SQL join limits
+  - Query execution plan analysis
+  - Database resource governance
+  - SQL self-correction
+  - SQL repair loop
+  - Bounded SQL retries
+  - SQL error handling
+  - SQL result validation
+  - Semantic result validation
+  - Result shape validation
+  - SQL result accuracy
+  - Empty query results
+  - SQL NULL handling
+  - Business semantic validation
+  - Date-based SQL queries
+  - Temporal query resolution
+  - Ambiguous business questions
+  - Business metric ambiguity
+  - Revenue metric definitions
+  - SQL aggregation accuracy
+  - SQL execution accuracy
+  - Text-to-SQL evaluation
+  - SQL syntax accuracy
+  - SQL exact match
+  - SQL component match
+  - Query result correctness
+  - Text-to-SQL evaluation dataset
+  - SQL security evaluation
+  - SQL generation failure modes
+  - Wrong table selection
+  - Wrong column selection
+  - Incorrect SQL joins
+  - Incorrect aggregation
+  - Incorrect date ranges
+  - SQL query observability
+  - SQL RAG monitoring
+  - SQL generation latency
+  - Schema retrieval accuracy
+  - SQL success rate
+  - SQL repair rate
+  - Database execution latency
+  - SQL query logging
+  - SQL execution tracing
+  - SQL data provenance
+  - SQL citations
+  - Database source attribution
+  - Query audit logging
+  - Governed database access
+  - Enterprise AI governance
+  - Enterprise AI security
+  - SQL RAG production checklist
+  - SQL RAG best practices
+  - SQL RAG design patterns
+  - Python SQL RAG
+  - SQL query tool interface
+  - SQL tool for Agentic RAG
+  - Agentic RAG with SQL
+  - SQL and Vector retrieval
+  - SQL and Graph retrieval
+  - SQL Vector Graph architecture
+  - Evidence fusion
+  - Structured and unstructured data fusion
+  - Hybrid retrieval architecture
+  - Enterprise knowledge fabric
+  - LLM database integration
+  - Production AI architecture
+  - Enterprise AI Engineering Handbook
+---
+
+
+
 # 04. SQL RAG
 
 > **Category:** Advanced RAG Architecture  

@@ -1,3 +1,145 @@
+---
+title: "Parent-Document Retriever: Hierarchical Retrieval and Context Optimization for Enterprise RAG"
+description: "Learn how Parent-Document Retrieval improves enterprise RAG by retrieving small child chunks for semantic precision and expanding them into larger parent contexts for generation. Explore LangChain ParentDocumentRetriever, parent-child mapping, chunking strategies, vector and document stores, metadata propagation, parent deduplication, context selection, re-ranking, Multi-Query integration, performance optimization, framework-agnostic design, evaluation metrics, and production RAG architecture."
+keywords:
+  - Parent-Document Retriever
+  - Parent-Document Retrieval
+  - ParentDocumentRetriever
+  - Parent-Document RAG
+  - Parent-Document Retriever LangChain
+  - LangChain ParentDocumentRetriever
+  - Enterprise RAG
+  - Retrieval-Augmented Generation
+  - Advanced RAG
+  - RAG architecture
+  - Enterprise AI Engineering
+  - Production RAG
+  - Production-grade RAG systems
+  - RAG retrieval strategies
+  - Document retrieval
+  - Hierarchical retrieval
+  - Hierarchical chunking
+  - Parent-child retrieval
+  - Parent-child document mapping
+  - Parent-child document relationships
+  - Parent document store
+  - Child chunk retrieval
+  - Parent context retrieval
+  - Context-aware retrieval
+  - Retrieval granularity
+  - Generation granularity
+  - Retrieval precision
+  - Retrieval recall
+  - Context completeness
+  - Context optimization
+  - Context selection
+  - Context expansion
+  - Context compression
+  - Context window optimization
+  - Small chunks versus large chunks
+  - Chunking strategies for RAG
+  - Parent chunk size
+  - Child chunk size
+  - Chunk overlap
+  - Document splitting
+  - RecursiveCharacterTextSplitter
+  - Parent splitter
+  - Child splitter
+  - Semantic chunking
+  - Document structure
+  - Logical document sections
+  - Section-based retrieval
+  - Chapter-based retrieval
+  - Technical documentation retrieval
+  - Enterprise document search
+  - Enterprise knowledge bases
+  - Long-document retrieval
+  - Technical manual retrieval
+  - Policy document retrieval
+  - Compliance document retrieval
+  - Legal document retrieval
+  - Research paper retrieval
+  - Engineering documentation search
+  - Product documentation search
+  - Vector search
+  - VectorStore Retriever
+  - Vector database
+  - Vector store
+  - Vector embeddings
+  - Embedding models
+  - Child chunk embeddings
+  - Vector database architecture
+  - Chroma vector database
+  - FAISS vector search
+  - Milvus vector database
+  - pgvector
+  - Document store
+  - Key-value document storage
+  - Object storage for RAG
+  - Document database
+  - Parent-child identifiers
+  - Parent ID mapping
+  - Child ID
+  - Parent ID resolution
+  - Metadata propagation
+  - Retrieval metadata
+  - Metadata filtering
+  - Self-Query Retriever
+  - Multi-Query Retriever
+  - Multi-Query Retrieval
+  - Hybrid search
+  - RAG re-ranking
+  - Parent-level re-ranking
+  - Child-level re-ranking
+  - Candidate retrieval
+  - Candidate deduplication
+  - Parent deduplication
+  - Batch parent lookup
+  - Parent document caching
+  - Retrieval latency optimization
+  - RAG performance optimization
+  - Context explosion
+  - LLM context management
+  - Token usage optimization
+  - RAG cost optimization
+  - Retrieval pipeline
+  - RAG context selection
+  - Prompt assembly
+  - LLM context construction
+  - Source traceability
+  - Document version metadata
+  - Framework-agnostic retriever
+  - Framework-independent retrieval
+  - Retriever abstraction
+  - Retriever interface
+  - Modular RAG architecture
+  - Composable retrieval architectures
+  - Enterprise AI platform
+  - LangChain retrieval
+  - Python RAG implementation
+  - RAG storage architecture
+  - ParentDocumentStore
+  - Parent-child relationship validation
+  - RAG ingestion pipeline
+  - RAG retrieval evaluation
+  - Context relevance
+  - Answer correctness
+  - Faithfulness evaluation
+  - Retrieval quality metrics
+  - RAG latency measurement
+  - RAG token cost
+  - Parent-Document versus standard RAG
+  - Parent-Document versus larger chunks
+  - Parent-Document versus Multi-Query
+  - Parent-Document versus Self-Query
+  - Retrieval precision versus context completeness
+  - Production AI architecture
+  - Enterprise knowledge retrieval
+  - Advanced retrieval engineering
+  - Scalable RAG systems
+---
+
+
 # Parent-Document Retriever
 
 ## 📖 Overview

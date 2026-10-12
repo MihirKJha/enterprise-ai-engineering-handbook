@@ -1,3 +1,160 @@
+---
+title: "FAISS vs ChromaDB vs Milvus: Choosing a Vector Search Architecture for Enterprise RAG"
+description: >
+  Compare FAISS, ChromaDB, and Milvus from an enterprise vector search and
+  Retrieval-Augmented Generation (RAG) architecture perspective. Explore their
+  architectural differences, persistence models, metadata filtering, indexing
+  algorithms, scalability, latency, multi-tenancy, security, observability, and
+  total cost of ownership. Learn how to select the right vector search technology
+  using workload-specific benchmarks, production SLOs, and operational requirements.
+  Includes Python examples, RAG architecture diagrams, capability-based provider
+  abstractions, migration strategies, blue-green index deployment, and an
+  enterprise decision framework for building scalable, maintainable RAG systems.
+keywords:
+  - FAISS
+  - ChromaDB
+  - Milvus
+  - FAISS vs ChromaDB
+  - FAISS vs Milvus
+  - ChromaDB vs Milvus
+  - vector database comparison
+  - vector search
+  - vector similarity search
+  - vector search architecture
+  - vector database architecture
+  - enterprise vector search
+  - enterprise RAG
+  - Retrieval-Augmented Generation
+  - RAG architecture
+  - production RAG
+  - scalable RAG systems
+  - RAG infrastructure
+  - vector retrieval
+  - semantic search
+  - approximate nearest neighbor search
+  - ANN search
+  - nearest neighbor search
+  - dense vector search
+  - vector indexing
+  - FAISS index
+  - FAISS IndexFlatIP
+  - FAISS HNSW
+  - FAISS IVF
+  - IVF-Flat
+  - IVF-PQ
+  - HNSW indexing
+  - inverted file index
+  - product quantization
+  - vector index optimization
+  - vector index persistence
+  - vector index lifecycle
+  - vector embeddings
+  - embedding models
+  - embedding dimensions
+  - cosine similarity
+  - inner product search
+  - vector similarity metrics
+  - vector storage
+  - persistent vector database
+  - embedded vector search
+  - distributed vector database
+  - distributed vector search
+  - horizontal scaling
+  - vector database scalability
+  - vector database deployment
+  - vector database operations
+  - ChromaDB collections
+  - ChromaDB persistent client
+  - Milvus architecture
+  - Milvus distributed search
+  - PyMilvus
+  - FAISS Python
+  - ChromaDB Python
+  - vector database API
+  - vector store abstraction
+  - vector store interface
+  - vector search provider
+  - vector store factory
+  - provider factory pattern
+  - ports and adapters architecture
+  - hexagonal architecture
+  - capability-based architecture
+  - framework-agnostic retrieval
+  - enterprise AI platform
+  - Enterprise AI Starter
+  - metadata filtering
+  - vector metadata
+  - metadata store
+  - document metadata
+  - document chunk management
+  - tenant isolation
+  - multi-tenant RAG
+  - vector database multi-tenancy
+  - enterprise access control
+  - retrieval authorization
+  - RAG security
+  - secure vector retrieval
+  - metadata-based authorization
+  - data lifecycle management
+  - vector deletion semantics
+  - document re-indexing
+  - embedding model migration
+  - vector index migration
+  - blue-green index migration
+  - shadow traffic testing
+  - vector database migration
+  - FAISS to Milvus migration
+  - ChromaDB to Milvus migration
+  - retrieval infrastructure migration
+  - vector search benchmarking
+  - ANN benchmarking
+  - Recall@K
+  - Recall@10
+  - P50 latency
+  - P95 latency
+  - P99 latency
+  - queries per second
+  - QPS benchmarking
+  - vector search throughput
+  - retrieval latency optimization
+  - concurrent vector queries
+  - vector database memory requirements
+  - float32 embeddings
+  - vector index build time
+  - production SLOs
+  - workload-specific benchmarking
+  - vector database performance
+  - retrieval recall optimization
+  - high-throughput vector search
+  - low-latency retrieval
+  - vector database high availability
+  - replication and backups
+  - disaster recovery
+  - vector search observability
+  - RAG observability
+  - retrieval pipeline tracing
+  - index versioning
+  - embedding versioning
+  - vector infrastructure cost
+  - total cost of ownership
+  - vector database cost optimization
+  - enterprise search
+  - large-scale semantic search
+  - large knowledge bases
+  - recommendation systems
+  - document question answering
+  - local RAG
+  - RAG prototyping
+  - vector database decision framework
+  - vector store selection
+  - production vector infrastructure
+  - hybrid vector search architecture
+  - vector retrieval provider abstraction
+  - scalable AI infrastructure
+  - AI engineering
+  - advanced retrieval engineering
+---
+
 # 04. FAISS vs ChromaDB vs Milvus
 
 > **Category:** Vector Search Engineering  

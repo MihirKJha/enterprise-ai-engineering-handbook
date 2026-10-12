@@ -1,3 +1,143 @@
+---
+title: "Metadata-Aware Retrieval in Enterprise RAG: Architecture, Security, Filtering, and Production Best Practices"
+description: "Learn how to design production-grade metadata-aware retrieval for enterprise RAG systems. Explore metadata schemas, pre-filtering vs post-filtering, tenant isolation, authorization, temporal and version-aware retrieval, self-query retrieval, metadata-based routing, ranking, validation, Python implementations, vector-store adapters, observability, and secure filter relaxation."
+keywords:
+  - metadata-aware retrieval
+  - metadata aware retrieval
+  - metadata filtering
+  - metadata filtering in RAG
+  - metadata-aware retrieval in RAG
+  - enterprise RAG
+  - enterprise RAG architecture
+  - retrieval augmented generation
+  - RAG retrieval architecture
+  - advanced RAG
+  - enterprise retrieval engineering
+  - semantic search
+  - vector search
+  - vector similarity search
+  - structured metadata
+  - document metadata
+  - chunk metadata
+  - document-level metadata
+  - chunk-level metadata
+  - metadata schema design
+  - metadata schema validation
+  - metadata normalization
+  - metadata taxonomy
+  - metadata quality
+  - metadata completeness
+  - metadata consistency
+  - metadata freshness
+  - metadata drift
+  - metadata synchronization
+  - metadata enrichment
+  - metadata extraction
+  - metadata ingestion pipeline
+  - metadata inheritance
+  - hierarchical metadata
+  - hierarchical filtering
+  - metadata schema evolution
+  - metadata schema versioning
+  - metadata backfilling
+  - missing metadata handling
+  - metadata validation in Python
+  - Python metadata model
+  - dataclass metadata model
+  - retrieval filter object
+  - metadata filter abstraction
+  - vector store adapter
+  - capability-based retrieval
+  - database-agnostic retrieval
+  - pre-filtering
+  - post-filtering
+  - pre-filtering vs post-filtering
+  - hybrid filtering
+  - metadata filter performance
+  - metadata filter recall
+  - metadata filter precision
+  - tenant-aware retrieval
+  - multi-tenant RAG
+  - tenant isolation
+  - tenant-scoped retrieval
+  - retrieval security
+  - authorization-aware retrieval
+  - authorization vs metadata filtering
+  - retrieval access control
+  - security metadata
+  - trusted metadata
+  - untrusted metadata
+  - metadata injection
+  - filter injection
+  - LLM-generated filters
+  - structured filter validation
+  - secure metadata filtering
+  - hard and soft metadata constraints
+  - safe filter relaxation
+  - temporal retrieval
+  - time-aware retrieval
+  - date-based metadata filtering
+  - version-aware retrieval
+  - current versus historical documents
+  - document lifecycle metadata
+  - effective date filtering
+  - freshness-aware retrieval
+  - metadata-aware ranking
+  - metadata-based ranking
+  - metadata-based routing
+  - query-to-filter architecture
+  - query understanding
+  - natural language to metadata filters
+  - self-query retriever
+  - structured query extraction
+  - document type filtering
+  - organizational metadata
+  - business metadata
+  - geographic metadata
+  - language-aware retrieval
+  - source metadata
+  - identity metadata
+  - metadata-driven retrieval
+  - metadata retrieval contract
+  - metadata-aware hybrid retrieval
+  - hybrid search
+  - BM25 retrieval
+  - dense retrieval
+  - candidate retrieval
+  - candidate pool filtering
+  - retrieval re-ranking
+  - MMR retrieval
+  - diversity-aware retrieval
+  - parent-child retrieval
+  - section-aware retrieval
+  - Graph RAG metadata
+  - SQL RAG metadata
+  - multimodal retrieval metadata
+  - Chroma metadata filtering
+  - Chroma vector database
+  - FAISS metadata filtering
+  - Milvus retrieval
+  - Pinecone metadata filtering
+  - Weaviate metadata filtering
+  - OpenSearch retrieval
+  - vector database filtering
+  - external metadata store
+  - metadata and vector index consistency
+  - RAG observability
+  - retrieval tracing
+  - retrieval auditability
+  - metadata filter monitoring
+  - retrieval failure analysis
+  - no-result query handling
+  - retrieval evaluation
+  - enterprise knowledge retrieval
+  - document provenance
+  - RAG citation metadata
+  - production RAG pipeline
+  - secure enterprise AI architecture
+  - production-grade retrieval systems
+---
+
 # Metadata-Aware Retrieval
 
 ## 📖 Overview

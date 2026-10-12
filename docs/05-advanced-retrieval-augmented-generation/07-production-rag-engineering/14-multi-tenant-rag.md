@@ -1,3 +1,69 @@
+---
+title: "Multi-Tenant RAG Architecture: Tenant Isolation, Authorization, Security, Scalability, and Governance"
+description: >
+  Learn how to design production-ready multi-tenant Retrieval-Augmented Generation
+  (RAG) systems that securely serve multiple organizations, customers, and business
+  units on shared or dedicated infrastructure. Explore tenant isolation strategies,
+  shared and dedicated vector indexes, tenant-aware retrieval, trusted tenant context,
+  role-based access control (RBAC), attribute-based access control (ABAC), document
+  access control lists (ACLs), and defense-in-depth security. Understand how to
+  prevent cross-tenant data leakage through retrieval, caching, index routing, and
+  authorization failures. Design tenant-aware ingestion, indexing, caching, model
+  routing, configuration, quotas, rate limiting, and cost attribution. Learn to
+  manage noisy-neighbor problems, tenant-specific observability and evaluation,
+  data residency, multi-region deployment, disaster recovery, onboarding,
+  offboarding, data deletion, and tenant migration. Explore control-plane and
+  data-plane separation, tenant registries, infrastructure provisioning, security
+  testing, failure isolation, backpressure, resource fairness, and governance
+  practices for enterprise-grade multi-tenant RAG platforms.
+keywords:
+  - Multi-Tenant RAG
+  - Multi-Tenant RAG Architecture
+  - Enterprise RAG Architecture
+  - Production RAG Engineering
+  - Tenant Isolation
+  - RAG Security
+  - Cross-Tenant Data Leakage
+  - Tenant-Aware Retrieval
+  - Authorization-Aware Retrieval
+  - Role-Based Access Control
+  - RBAC
+  - Attribute-Based Access Control
+  - ABAC
+  - Access Control Lists
+  - ACL-Aware Retrieval
+  - Shared Vector Index
+  - Dedicated Vector Index
+  - Hybrid Tenant Isolation
+  - Tenant Metadata Filtering
+  - Tenant-Aware Caching
+  - Semantic Cache Isolation
+  - Multi-Tenant Vector Database
+  - Tenant-Aware Ingestion
+  - Tenant Data Isolation
+  - Noisy Neighbor Problem
+  - Tenant Rate Limiting
+  - Tenant Quotas
+  - Tenant Cost Attribution
+  - Tenant-Specific Model Routing
+  - Multi-Tenant Observability
+  - Tenant-Aware Evaluation
+  - Enterprise AI Governance
+  - Multi-Region RAG
+  - Data Residency
+  - Tenant Disaster Recovery
+  - Tenant Onboarding and Offboarding
+  - Tenant Data Deletion
+  - Tenant Migration
+  - RAG Control Plane
+  - RAG Data Plane
+  - Tenant Registry
+  - Infrastructure as Code
+  - Multi-Tenant Security Testing
+  - Enterprise AI Engineering
+  - Production AI Systems
+---
+
 # 14. Multi-Tenant RAG
 
 > **Category:** Production RAG Engineering  

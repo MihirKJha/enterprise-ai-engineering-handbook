@@ -1,11 +1,135 @@
 ---
 title: "LlamaIndex Retrievers: Architecture and Enterprise RAG"
-description: >
-  "Learn how LlamaIndex retrievers work in Retrieval-Augmented Generation
-  (RAG), including Documents, Nodes, Indexes, VectorStoreIndex, BM25 and
-  keyword retrieval, recursive retrieval, query fusion, auto-merging,
-  metadata filtering, re-ranking, MMR, retrieval evaluation, and
-  framework-agnostic enterprise RAG architecture."
+description: "Learn how LlamaIndex implements retrieval for Retrieval-Augmented Generation (RAG), including Documents, Nodes, Indexes, VectorStoreIndex, vector search, BM25 and keyword retrieval, recursive retrieval, query fusion, document summary retrieval, auto-merging, metadata filtering, re-ranking, Maximum Marginal Relevance (MMR), retrieval evaluation, and hybrid search. Explore composable retrieval pipelines, framework-agnostic interfaces, Ports and Adapters, security boundaries, observability, and production-grade enterprise RAG architecture."
+keywords:
+  - LlamaIndex
+  - LlamaIndex retrievers
+  - LlamaIndex retrieval
+  - LlamaIndex architecture
+  - LlamaIndex tutorial
+  - LlamaIndex enterprise RAG
+  - LlamaIndex framework
+  - Retrieval-Augmented Generation
+  - RAG architecture
+  - enterprise RAG
+  - production RAG
+  - RAG engineering
+  - RAG retrieval pipeline
+  - RAG framework
+  - RAG system design
+  - enterprise AI architecture
+  - enterprise AI engineering
+  - LLM applications
+  - large language models
+  - retrieval engineering
+  - retrieval architecture
+  - retrieval abstractions
+  - retriever interface
+  - retriever design
+  - vector retrieval
+  - vector search
+  - semantic search
+  - VectorStoreIndex
+  - vector index
+  - vector database
+  - embedding models
+  - query embeddings
+  - similarity search
+  - top-k retrieval
+  - keyword retrieval
+  - BM25
+  - sparse retrieval
+  - dense retrieval
+  - hybrid retrieval
+  - hybrid search
+  - dense and sparse retrieval
+  - Documents and Nodes
+  - LlamaIndex Documents
+  - LlamaIndex Nodes
+  - document chunking
+  - SentenceSplitter
+  - node parsing
+  - node relationships
+  - parent-child retrieval
+  - hierarchical retrieval
+  - recursive retrieval
+  - recursive retriever
+  - query fusion
+  - QueryFusionRetriever
+  - document summary retrieval
+  - SummaryIndex
+  - KeywordTableIndex
+  - KnowledgeGraphIndex
+  - auto-merging retrieval
+  - AutoMergingRetriever
+  - metadata-aware retrieval
+  - metadata filtering
+  - metadata filters
+  - retrieval postprocessing
+  - node postprocessors
+  - retrieval re-ranking
+  - reranking
+  - cross-encoder reranking
+  - Maximum Marginal Relevance
+  - MMR retrieval
+  - retrieval diversity
+  - retrieval score threshold
+  - relevance scoring
+  - retrieval composition
+  - composable retrieval
+  - multi-retriever architecture
+  - retrieval fusion
+  - retrieval router
+  - query classification
+  - query routing
+  - structured retrieval
+  - SQL retriever
+  - graph retrieval
+  - LlamaIndex query engine
+  - response synthesis
+  - response synthesizer
+  - context engineering
+  - context assembly
+  - retrieved nodes
+  - NodeWithScore
+  - LlamaIndex storage context
+  - vector store
+  - document store
+  - index store
+  - index persistence
+  - retrieval evaluation
+  - Precision at K
+  - Recall at K
+  - Mean Reciprocal Rank
+  - Normalized Discounted Cumulative Gain
+  - hit rate
+  - context relevance
+  - RAG evaluation
+  - faithfulness evaluation
+  - citation accuracy
+  - RAG observability
+  - retrieval monitoring
+  - retrieval latency
+  - enterprise RAG security
+  - tenant isolation
+  - retrieval authorization
+  - enterprise knowledge base
+  - framework-agnostic architecture
+  - framework adapters
+  - LlamaIndex adapter
+  - LangChain adapter
+  - Ports and Adapters
+  - hexagonal architecture
+  - capability-based architecture
+  - retrieval abstraction layer
+  - enterprise retrieval interface
+  - production-grade AI systems
+  - payment knowledge base
+  - enterprise document retrieval
+  - API documentation retrieval
+  - incident report retrieval
+  - runbook retrieval
+  - policy retrieval
 ---
 # LlamaIndex Retrievers Overview
 

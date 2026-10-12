@@ -1,3 +1,226 @@
+---
+title: "IVF vs HNSW: Approximate Nearest Neighbor Search for Enterprise RAG"
+description: >
+  Learn how IVF (Inverted File Index) and HNSW (Hierarchical Navigable Small
+  World) accelerate vector similarity search in large-scale Retrieval-Augmented
+  Generation (RAG) systems. Explore IVF partitioning, centroid clustering,
+  training data, nlist, nprobe, and query-time search optimization alongside
+  HNSW graph navigation, hierarchical layers, M, efConstruction, and efSearch.
+  Compare IVF-Flat, IVF-PQ, and HNSW across recall, latency, memory consumption,
+  index build time, throughput, and update requirements. Includes Python
+  examples, benchmarking strategies, Recall@K evaluation, production SLO tuning,
+  hybrid retrieval, re-ranking, metadata filtering, multi-tenant security,
+  index versioning, blue-green deployment, observability, and capability-based
+  vector search architecture. Learn to select and tune ANN indexes using
+  representative workloads and measurable production requirements.
+keywords:
+  - IVF
+  - HNSW
+  - IVF vs HNSW
+  - IVF and HNSW
+  - FAISS IVF
+  - FAISS HNSW
+  - FAISS ANN
+  - FAISS approximate nearest neighbor
+  - FAISS vector search
+  - FAISS indexing
+  - FAISS index selection
+  - FAISS index tuning
+  - FAISS Python
+  - FAISS tutorial
+  - FAISS production
+  - vector search
+  - vector similarity search
+  - vector search engineering
+  - vector indexing
+  - vector index architecture
+  - vector retrieval
+  - dense vector search
+  - semantic search
+  - semantic retrieval
+  - nearest neighbor search
+  - approximate nearest neighbor search
+  - ANN
+  - ANN algorithms
+  - ANN indexing
+  - ANN search optimization
+  - exact vs approximate search
+  - exact nearest neighbor search
+  - vector search scalability
+  - large-scale vector search
+  - scalable similarity search
+  - high-dimensional vector search
+  - embedding vectors
+  - dense embeddings
+  - vector embeddings
+  - IndexFlatL2
+  - flat index
+  - exact search baseline
+  - ground-truth retrieval
+  - IVF index
+  - Inverted File Index
+  - IVF architecture
+  - IVF partitioning
+  - vector space partitioning
+  - IVF clustering
+  - IVF centroids
+  - centroid-based search
+  - IVF training
+  - IVF training data
+  - representative training vectors
+  - IndexIVFFlat
+  - IVF-Flat
+  - IVF-PQ
+  - inverted file vector search
+  - IVF search flow
+  - IVF query processing
+  - nlist
+  - nprobe
+  - nlist vs nprobe
+  - IVF tuning
+  - IVF recall optimization
+  - IVF latency optimization
+  - IVF benchmarking
+  - IVF search parameters
+  - HNSW index
+  - Hierarchical Navigable Small World
+  - HNSW graph
+  - graph-based vector search
+  - graph-based ANN
+  - navigable small world graph
+  - hierarchical graph search
+  - HNSW architecture
+  - HNSW layers
+  - HNSW entry point
+  - HNSW graph navigation
+  - HNSW tuning
+  - HNSW search behavior
+  - HNSW parameters
+  - HNSW M
+  - M parameter
+  - efConstruction
+  - efSearch
+  - HNSW efConstruction
+  - HNSW efSearch
+  - HNSW recall tuning
+  - HNSW latency tuning
+  - HNSW memory usage
+  - HNSW graph connectivity
+  - HNSW index construction
+  - HNSW dynamic updates
+  - HNSW benchmarking
+  - IVF-Flat vs IVF-PQ
+  - IVF vs graph search
+  - IVF vs HNSW performance
+  - IVF and HNSW recall
+  - IVF and HNSW latency
+  - IVF and HNSW memory
+  - Product Quantization
+  - PQ
+  - vector quantization
+  - compressed vector search
+  - vector compression
+  - compressed embeddings
+  - IVF-PQ index
+  - approximate distance computation
+  - memory-efficient vector search
+  - vector index memory optimization
+  - vector search memory requirements
+  - vector search performance
+  - vector search latency
+  - retrieval latency
+  - P50 latency
+  - P95 latency
+  - P99 latency
+  - tail latency
+  - query throughput
+  - queries per second
+  - QPS
+  - Recall@K
+  - Recall@5
+  - Recall@10
+  - precision at K
+  - mean reciprocal rank
+  - MRR
+  - normalized discounted cumulative gain
+  - NDCG
+  - approximate search recall
+  - recall-latency trade-off
+  - memory-latency trade-off
+  - ANN benchmark
+  - vector search benchmark
+  - FAISS benchmark
+  - ANN benchmark matrix
+  - representative workload testing
+  - query distribution
+  - dataset distribution
+  - index build time
+  - index construction cost
+  - vector index tuning workflow
+  - production retrieval SLO
+  - latency SLO
+  - retrieval quality monitoring
+  - ANN observability
+  - vector search metrics
+  - index configuration monitoring
+  - index updates
+  - vector index deletion
+  - vector index rebuild
+  - index versioning
+  - index manifest
+  - ANN index persistence
+  - blue-green index deployment
+  - vector index migration
+  - shadow traffic testing
+  - A/B testing retrieval strategies
+  - production vector retrieval
+  - enterprise vector search
+  - enterprise AI engineering
+  - Enterprise RAG
+  - Retrieval-Augmented Generation
+  - advanced RAG
+  - RAG architecture
+  - production RAG systems
+  - enterprise retrieval architecture
+  - RAG retrieval pipeline
+  - RAG vector search
+  - ANN in RAG
+  - candidate generation
+  - candidate retrieval
+  - multi-stage retrieval
+  - ANN and re-ranking
+  - cross-encoder re-ranking
+  - context selection
+  - maximum marginal relevance
+  - MMR retrieval
+  - hybrid retrieval
+  - hybrid search
+  - dense and lexical retrieval
+  - BM25
+  - result fusion
+  - query rewriting
+  - multi-query retrieval
+  - metadata-aware retrieval
+  - metadata filtering
+  - retrieval authorization
+  - multi-tenant vector search
+  - tenant isolation
+  - tenant-aware retrieval
+  - secure RAG retrieval
+  - document metadata mapping
+  - vector ID mapping
+  - application-level vector IDs
+  - capability-based vector search
+  - VectorSearchProvider
+  - FAISS IVF adapter
+  - FAISS HNSW adapter
+  - ports and adapters architecture
+  - retrieval abstraction
+  - vector search infrastructure
+  - production-grade AI systems
+  - Enterprise AI Engineering Handbook
+---
+
 # 03. IVF and HNSW
 
 > **Category:** Vector Search Engineering  

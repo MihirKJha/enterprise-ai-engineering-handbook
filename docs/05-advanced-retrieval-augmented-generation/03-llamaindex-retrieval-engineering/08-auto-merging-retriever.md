@@ -1,11 +1,190 @@
 ---
 title: "LlamaIndex Auto-Merging Retriever: Hierarchical Context Reconstruction for RAG"
 description: >
-  "Learn how the LlamaIndex Auto-Merging Retriever dynamically combines
+  Learn how the LlamaIndex Auto-Merging Retriever dynamically combines
   fine-grained leaf nodes into larger parent contexts, including hierarchical
   retrieval, parent-child relationships, merge thresholds, small-to-big
   retrieval, recursive merging, hybrid search, re-ranking, contextual
-  compression, and production-ready RAG architectures."
+  compression, and production-ready RAG architectures.
+keywords:
+  - LlamaIndex Auto-Merging Retriever
+  - Auto-Merging Retriever
+  - AutoMergingRetriever
+  - Hierarchical Retrieval
+  - Hierarchical RAG
+  - Hierarchical Context Reconstruction
+  - Hierarchical Context Retrieval
+  - Retrieval Augmented Generation
+  - RAG
+  - Enterprise RAG
+  - Advanced RAG
+  - Production RAG
+  - RAG Architecture
+  - Enterprise RAG Architecture
+  - LlamaIndex
+  - LlamaIndex Retrievers
+  - Small-to-Big Retrieval
+  - Small-to-Large Retrieval
+  - Parent-Child Retrieval
+  - Parent-Child Relationships
+  - Parent Document Retrieval
+  - Parent Context Retrieval
+  - Leaf Node Retrieval
+  - Leaf Nodes
+  - Parent Nodes
+  - Root Nodes
+  - Hierarchical Nodes
+  - Hierarchical Node Graph
+  - Hierarchical Chunking
+  - Hierarchical Document Parsing
+  - HierarchicalNodeParser
+  - get_leaf_nodes
+  - get_root_nodes
+  - Coarse-to-Fine Retrieval
+  - Multi-Level Hierarchical Retrieval
+  - Recursive Merging
+  - Automatic Parent Merging
+  - Parent Context Expansion
+  - Context Expansion
+  - Context Reconstruction
+  - Context Consolidation
+  - Adaptive Context Granularity
+  - Retrieval Granularity
+  - Context Granularity
+  - Fine-Grained Retrieval
+  - Semantic Chunking
+  - Document Chunking
+  - Chunk Size Optimization
+  - Parent Coverage
+  - Child Coverage
+  - Merge Threshold
+  - simple_ratio_thresh
+  - Auto-Merging Threshold Tuning
+  - Parent Coverage Ratio
+  - Dynamic Context Expansion
+  - Hierarchical Evidence Aggregation
+  - Contextual Evidence
+  - Retrieval Precision
+  - Retrieval Recall
+  - Context Recall
+  - Context Precision
+  - Token Efficiency
+  - Context Window Optimization
+  - Context Budgeting
+  - Token Usage Optimization
+  - Context Explosion
+  - Context Expansion Trade-Off
+  - Vector Retrieval
+  - Vector Search
+  - Vector Store
+  - VectorStoreIndex
+  - Semantic Search
+  - Embedding-Based Retrieval
+  - Leaf Node Indexing
+  - Document Store
+  - DocStore
+  - StorageContext
+  - SimpleDocumentStore
+  - Hierarchical Storage Architecture
+  - Parent Node Resolution
+  - Node References
+  - Node Identity
+  - LlamaIndex Python
+  - Python RAG Implementation
+  - AutoMergingRetriever Example
+  - LlamaIndex Hierarchical Node Parser
+  - Similarity Top K
+  - similarity_top_k
+  - Hybrid Search
+  - Hybrid Retrieval
+  - BM25
+  - Keyword Retrieval
+  - Query Fusion
+  - Query Fusion and Auto-Merging
+  - Reciprocal Rank Fusion
+  - RRF
+  - Multi-Retriever Retrieval
+  - Recursive Retrieval
+  - Recursive Retriever
+  - Graph-Based Retrieval
+  - Auto-Merging vs Recursive Retrieval
+  - Auto-Merging vs Parent Document Retrieval
+  - Auto-Merging vs Query Fusion
+  - Re-ranking
+  - Reranking
+  - Cross-Encoder Reranking
+  - Contextual Compression
+  - Context Compression
+  - Maximal Marginal Relevance
+  - MMR
+  - Candidate Deduplication
+  - Parent Selection
+  - Retrieval Score Preservation
+  - Retrieval Relevance
+  - Merge Score
+  - Source Authority
+  - Retrieval Pipeline
+  - Enterprise Retrieval Pipeline
+  - Advanced Retrieval Architecture
+  - Production Retrieval Engineering
+  - Retrieval Evaluation
+  - RAG Evaluation
+  - Recall at K
+  - Precision at K
+  - Mean Reciprocal Rank
+  - MRR
+  - Normalized Discounted Cumulative Gain
+  - nDCG
+  - Answer Relevance
+  - Answer Faithfulness
+  - Retrieval Latency
+  - P95 Latency
+  - Retrieval Cost Optimization
+  - Threshold Experimentation
+  - Hierarchy Design
+  - Semantic Parent Boundaries
+  - Enterprise Document Retrieval
+  - Enterprise Policy Retrieval
+  - Technical Documentation Retrieval
+  - Architecture Document Retrieval
+  - Legal Document Retrieval
+  - Research Paper Retrieval
+  - Financial Report Retrieval
+  - API Documentation Retrieval
+  - Table-Aware Retrieval
+  - Multimodal Document Retrieval
+  - Metadata-Aware Retrieval
+  - Metadata Filtering
+  - Access Control Lists
+  - ACL Filtering
+  - Secure RAG
+  - Tenant Isolation
+  - Document Version Consistency
+  - Authorization-Aware Retrieval
+  - Parent-Child Metadata
+  - Document ID
+  - Tenant ID
+  - Index Versioning
+  - Production RAG Security
+  - Context Selection
+  - Context Budget Management
+  - Maximum Parent Nodes
+  - Maximum Leaf Nodes
+  - Retrieval Quality
+  - Long-Context Retrieval
+  - Multi-Chunk Questions
+  - Cross-Section Retrieval
+  - Multi-Hop Retrieval
+  - Hierarchical Question Answering
+  - Enterprise Knowledge Retrieval
+  - Payment Architecture Retrieval
+  - Payment Event Recovery
+  - Kafka Failure Recovery
+  - Fault-Tolerant RAG
+  - RAG System Design
+  - RAG Pipeline Optimization
+  - Production-Ready RAG
+  - Enterprise AI Architecture
 ---
 
 # Auto-Merging Retriever

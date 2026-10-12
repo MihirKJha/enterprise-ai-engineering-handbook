@@ -1,3 +1,118 @@
+---
+title: "FAISS Fundamentals: Efficient Vector Similarity Search for Enterprise RAG"
+description: >
+  Learn FAISS fundamentals for enterprise Retrieval-Augmented Generation (RAG).
+  Explore dense vector similarity search, exact search with IndexFlatL2,
+  approximate search with HNSW and IVF, and cosine similarity using IndexFlatIP
+  with normalized vectors. Includes a practical Python example, NumPy integration,
+  and an architecture overview of the document embedding and retrieval pipeline.
+keywords:
+  - FAISS
+  - FAISS fundamentals
+  - FAISS tutorial
+  - FAISS Python
+  - FAISS vector search
+  - FAISS similarity search
+  - Facebook AI Similarity Search
+  - vector similarity search
+  - vector search
+  - dense vector search
+  - dense vectors
+  - vector indexing
+  - vector index
+  - vector database
+  - vector search library
+  - approximate nearest neighbor search
+  - exact nearest neighbor search
+  - nearest neighbor search
+  - nearest neighbors
+  - ANN search
+  - semantic search
+  - semantic retrieval
+  - vector retrieval
+  - enterprise vector search
+  - enterprise AI
+  - enterprise AI engineering
+  - enterprise RAG
+  - Retrieval-Augmented Generation
+  - RAG architecture
+  - RAG retrieval
+  - RAG pipeline
+  - RAG infrastructure
+  - production RAG
+  - AI search infrastructure
+  - AI retrieval systems
+  - document retrieval
+  - document embeddings
+  - text embeddings
+  - embedding models
+  - embedding generation
+  - embedding pipeline
+  - embedding vectors
+  - dense embeddings
+  - high-dimensional vectors
+  - vector representations
+  - Python vector search
+  - Python FAISS example
+  - NumPy
+  - NumPy arrays
+  - float32 vectors
+  - IndexFlatL2
+  - FAISS IndexFlatL2
+  - L2 distance
+  - Euclidean distance
+  - distance-based retrieval
+  - vector distance metrics
+  - IndexFlatIP
+  - FAISS IndexFlatIP
+  - inner product search
+  - cosine similarity
+  - normalized vectors
+  - vector normalization
+  - exact vector search
+  - flat index
+  - FAISS flat indexes
+  - IVF index
+  - inverted file index
+  - FAISS IVF
+  - HNSW index
+  - FAISS HNSW
+  - approximate vector search
+  - vector search algorithms
+  - similarity search algorithms
+  - vector search performance
+  - scalable vector retrieval
+  - high-dimensional similarity search
+  - machine learning infrastructure
+  - AI infrastructure
+  - retrieval infrastructure
+  - document chunking
+  - text chunking
+  - chunk embeddings
+  - document processing pipeline
+  - embedding and retrieval pipeline
+  - document ingestion
+  - search query vectors
+  - top-k retrieval
+  - nearest-neighbor retrieval
+  - vector search results
+  - retrieval pipeline architecture
+  - vector index architecture
+  - FAISS architecture
+  - vector search architecture
+  - FAISS index selection
+  - exact versus approximate search
+  - dense retrieval
+  - information retrieval
+  - machine learning search
+  - similarity search with NumPy
+  - FAISS index management
+  - vector search components
+  - enterprise search architecture
+  - AI application architecture
+  - RAG engineering handbook
+  - production-grade AI systems
+---
 # 01. FAISS Fundamentals
 
 ## 📖 Overview

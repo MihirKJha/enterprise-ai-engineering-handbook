@@ -1,3 +1,80 @@
+---
+title: "RAG Evaluation and Benchmarking: Metrics, Quality Gates, and Production Monitoring"
+description: >
+  Learn how to evaluate, benchmark, and continuously improve production Retrieval-Augmented Generation (RAG) systems. This comprehensive guide covers retrieval metrics such as Recall@K, Precision@K, Hit Rate, MRR, MAP, and NDCG; context quality; answer relevance; faithfulness; groundedness; citation accuracy; LLM-as-a-Judge; human evaluation; golden datasets; regression testing; CI/CD quality gates; latency; throughput; cost optimization; security testing; and continuous evaluation pipelines. Explore enterprise RAG benchmarking strategies for hybrid search, reranking, multi-hop retrieval, Graph RAG, SQL RAG, multimodal RAG, and agentic RAG, with practical evaluation architectures and production-oriented examples.
+keywords:
+  - RAG evaluation
+  - RAG benchmarking
+  - Retrieval-Augmented Generation
+  - enterprise RAG
+  - production RAG
+  - RAG evaluation framework
+  - RAG evaluation metrics
+  - retrieval evaluation
+  - Recall@K
+  - Precision@K
+  - Hit Rate
+  - Hit Rate@K
+  - Mean Reciprocal Rank
+  - MRR
+  - Mean Average Precision
+  - MAP
+  - Normalized Discounted Cumulative Gain
+  - NDCG
+  - context precision
+  - context recall
+  - answer relevance
+  - faithfulness
+  - groundedness
+  - citation accuracy
+  - citation coverage
+  - citation validation
+  - RAG generation evaluation
+  - RAG retrieval quality
+  - reranker evaluation
+  - hybrid search evaluation
+  - semantic search benchmarking
+  - golden dataset
+  - RAG evaluation dataset
+  - benchmark dataset
+  - evaluation data leakage
+  - LLM-as-a-Judge
+  - LLM judge calibration
+  - human evaluation
+  - automated evaluation
+  - deterministic evaluation metrics
+  - semantic evaluation
+  - answer completeness
+  - abstention accuracy
+  - confidence calibration
+  - multi-hop RAG evaluation
+  - no-answer evaluation
+  - RAG security testing
+  - tenant isolation testing
+  - prompt injection evaluation
+  - retrieval poisoning
+  - conflicting evidence evaluation
+  - multimodal RAG evaluation
+  - Graph RAG evaluation
+  - SQL RAG evaluation
+  - agentic RAG evaluation
+  - RAG performance testing
+  - RAG latency
+  - p95 latency
+  - RAG throughput
+  - RAG cost optimization
+  - token usage monitoring
+  - continuous RAG evaluation
+  - RAG regression testing
+  - RAG CI/CD
+  - RAG quality gates
+  - RAG observability
+  - RAG evaluation dashboard
+  - experiment tracking
+  - dataset versioning
+  - production AI evaluation
+  - enterprise AI engineering
+---  
 # 06. RAG Evaluation and Benchmarking
 
 > **Category:** Production RAG Engineering  

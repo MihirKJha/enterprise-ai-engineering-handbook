@@ -1,10 +1,159 @@
 ---
 title: "LlamaIndex Query Fusion Retriever: Multi-Query and Hybrid Retrieval for RAG"
 description: >
-  "Learn how the LlamaIndex Query Fusion Retriever combines multiple query
-  perspectives and retrieval strategies to improve recall, including
-  multi-query retrieval, Reciprocal Rank Fusion, vector and BM25 hybrid
-  retrieval, re-ranking, MMR, and production RAG architectures."
+  Learn how the LlamaIndex Query Fusion Retriever combines multiple query
+  perspectives and retrieval strategies to improve recall, including multi-query
+  retrieval, Reciprocal Rank Fusion, vector and BM25 hybrid retrieval,
+  re-ranking, MMR, adaptive retrieval, and production RAG architectures.
+keywords:
+  - LlamaIndex Query Fusion Retriever
+  - Query Fusion
+  - Query Fusion Retrieval
+  - Multi-Query Retrieval
+  - Multi-Query Search
+  - RAG Fusion
+  - RAG-Fusion
+  - Retrieval Augmented Generation
+  - RAG Architecture
+  - Enterprise RAG
+  - Enterprise RAG Architecture
+  - Advanced RAG
+  - Production RAG
+  - LlamaIndex
+  - LlamaIndex Retrievers
+  - LlamaIndex QueryFusionRetriever
+  - Query Expansion
+  - Query Generation
+  - Query Diversification
+  - Query Rewriting
+  - Query Variations
+  - Query Intent Preservation
+  - Query Drift
+  - Query Validation
+  - Query Complexity Classification
+  - Adaptive Retrieval
+  - Adaptive Query Fusion
+  - Query Decomposition
+  - Multi-Hop Retrieval
+  - Semantic Search
+  - Vector Search
+  - Vector Retrieval
+  - BM25
+  - BM25 Retriever
+  - Hybrid Search
+  - Hybrid Retrieval
+  - Hybrid Query Fusion
+  - Vector and Keyword Search
+  - Keyword Retrieval
+  - Lexical Search
+  - Semantic Retrieval
+  - Reciprocal Rank Fusion
+  - RRF
+  - RRF Algorithm
+  - Rank Fusion
+  - Rank Aggregation
+  - Result Fusion
+  - Retrieval Result Aggregation
+  - Simple Fusion
+  - Relative Score Fusion
+  - Distribution-Based Score Fusion
+  - Score Normalization
+  - Ranking Algorithms
+  - Retrieval Ranking
+  - Candidate Ranking
+  - Candidate Generation
+  - Candidate Deduplication
+  - Stable Node Identity
+  - Retrieval Candidates
+  - Retrieval Pipeline
+  - Retrieval Pipeline Architecture
+  - Parallel Retrieval
+  - Asynchronous Retrieval
+  - LlamaIndex Async Retrieval
+  - use_async
+  - similarity_top_k
+  - num_queries
+  - QueryFusionRetriever Configuration
+  - Vector Retriever
+  - Metadata Retriever
+  - Graph Retriever
+  - Document Summary Retriever
+  - Recursive Retriever
+  - Multi-Retriever Fusion
+  - Cross-Retriever Ranking
+  - Search Result Fusion
+  - Retrieval Recall
+  - Recall at K
+  - Precision at K
+  - Mean Reciprocal Rank
+  - MRR
+  - Normalized Discounted Cumulative Gain
+  - nDCG
+  - Context Recall
+  - Context Precision
+  - Answer Faithfulness
+  - Answer Relevance
+  - Retrieval Evaluation
+  - RAG Evaluation
+  - Retrieval Benchmarking
+  - Query Fusion Evaluation
+  - Retrieval Quality
+  - Ranking Stability
+  - Retrieval Robustness
+  - Retrieval Coverage
+  - Search Diversity
+  - Query Diversity
+  - Source Diversity
+  - Maximal Marginal Relevance
+  - MMR
+  - Diverse Context Retrieval
+  - Redundant Result Filtering
+  - Re-ranking
+  - Reranking
+  - Cross-Encoder Reranking
+  - LLM Reranking
+  - Retrieval Candidate Funnel
+  - Context Selection
+  - Context Compression
+  - Prompt Assembly
+  - Context Window Optimization
+  - Retrieval Latency
+  - Retrieval Cost Optimization
+  - LLM Query Generation Cost
+  - Retrieval Concurrency
+  - Retrieval Scalability
+  - Query Count Optimization
+  - Marginal Recall Improvement
+  - Retrieval Trade-Offs
+  - Retrieval Failure Modes
+  - Query Collapse
+  - Candidate Explosion
+  - Retrieval Noise
+  - Outlier-Resistant Ranking
+  - Metadata Filtering
+  - Metadata-Aware Retrieval
+  - Access Control Filtering
+  - Tenant Isolation
+  - ACL Filtering
+  - Secure RAG
+  - Enterprise Search
+  - Payment Platform RAG
+  - Kafka Failure Recovery
+  - Domain-Specific Query Expansion
+  - Technical Query Generation
+  - Business Query Perspectives
+  - Hypothetical Document Embeddings
+  - HyDE
+  - Query Fusion with HyDE
+  - Agentic RAG
+  - Advanced Retrieval Architecture
+  - Production Retrieval Engineering
+  - Python RAG Implementation
+  - LlamaIndex Python Example
+  - Retrieval System Design
+  - RAG System Optimization
+  - RAG Search Strategies
+  - Enterprise AI Architecture
 ---
 # Query Fusion Retriever
 

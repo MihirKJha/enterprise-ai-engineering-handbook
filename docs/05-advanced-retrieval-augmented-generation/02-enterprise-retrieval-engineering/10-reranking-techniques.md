@@ -1,3 +1,174 @@
+---
+title: "Re-ranking Techniques in RAG: Cross-Encoders, Hybrid Search, and Production Retrieval Architecture"
+description: "A comprehensive guide to re-ranking techniques for production Retrieval-Augmented Generation (RAG) systems. Learn two-stage retrieval, bi-encoders vs cross-encoders, candidate generation, precision optimization, score thresholding, dense and sparse retrieval fusion, Reciprocal Rank Fusion (RRF), weighted score fusion, metadata-aware ranking, MMR, multi-stage and cascaded re-ranking, agentic retrieval integration, LLM-based re-ranking, Python implementations with Sentence Transformers, Flask re-ranking APIs, model selection, candidate pool tuning, evaluation with NDCG, MRR, Precision@K and Recall@K, latency and cost optimization, observability, model versioning, timeout handling, fallback strategies, and enterprise-grade retrieval architecture for grounded AI responses."
+keywords:
+  - re-ranking
+  - reranking
+  - re-ranking techniques
+  - reranking techniques in RAG
+  - RAG re-ranking
+  - RAG reranking
+  - Retrieval-Augmented Generation
+  - RAG architecture
+  - enterprise RAG
+  - enterprise retrieval engineering
+  - production RAG
+  - production-grade retrieval
+  - second-stage retrieval
+  - two-stage retrieval
+  - multi-stage retrieval
+  - cascaded ranking
+  - cascaded re-ranking
+  - retrieval pipeline
+  - retrieval architecture
+  - candidate generation
+  - candidate retrieval
+  - candidate ranking
+  - candidate pool
+  - candidate pool size
+  - candidate K
+  - final K
+  - candidate recall
+  - retrieval recall
+  - ranking precision
+  - precision optimization
+  - high-recall retrieval
+  - high-precision ranking
+  - document relevance
+  - query-document relevance
+  - relevance scoring
+  - relevance ranking
+  - bi-encoder
+  - bi-encoder retrieval
+  - cross-encoder
+  - cross-encoder re-ranking
+  - cross-encoder architecture
+  - bi-encoder vs cross-encoder
+  - dense retrieval
+  - vector search
+  - vector similarity search
+  - embedding-based retrieval
+  - sparse retrieval
+  - keyword retrieval
+  - BM25
+  - hybrid search
+  - hybrid retrieval
+  - dense and sparse retrieval
+  - retrieval fusion
+  - Reciprocal Rank Fusion
+  - RRF
+  - weighted score fusion
+  - score normalization
+  - min-max scaling
+  - z-score normalization
+  - rank-based fusion
+  - metadata-aware ranking
+  - metadata-based re-ranking
+  - business-aware ranking
+  - source authority
+  - document recency
+  - time-weighted retrieval
+  - security-aware retrieval
+  - authorization filtering
+  - hard filters vs soft ranking
+  - access control in RAG
+  - relevance thresholds
+  - score thresholding
+  - ranking confidence
+  - score gap
+  - adaptive candidate K
+  - confidence-based re-ranking
+  - reranking latency
+  - reranking cost
+  - retrieval latency optimization
+  - inference cost optimization
+  - batch re-ranking
+  - GPU re-ranking
+  - CPU inference
+  - re-ranking service
+  - re-ranking API
+  - Flask re-ranking service
+  - Sentence Transformers
+  - CrossEncoder
+  - ms-marco-MiniLM-L-6-v2
+  - Python re-ranking
+  - Python RAG pipeline
+  - RAG retrieval implementation
+  - RAG service architecture
+  - model serving
+  - model warmup
+  - health checks
+  - liveness and readiness
+  - timeout handling
+  - fallback ranking
+  - retrieval fallback strategy
+  - error handling in RAG
+  - re-ranking observability
+  - retrieval monitoring
+  - score distribution monitoring
+  - model versioning
+  - embedding model versioning
+  - retrieval pipeline versioning
+  - ranking evaluation
+  - retrieval evaluation
+  - Precision@K
+  - Recall@K
+  - Mean Reciprocal Rank
+  - MRR
+  - Normalized Discounted Cumulative Gain
+  - NDCG
+  - hit rate
+  - graded relevance
+  - ranking evaluation dataset
+  - retrieval A/B testing
+  - RAG answer quality
+  - context relevance
+  - answer faithfulness
+  - answer correctness
+  - citation accuracy
+  - grounded generation
+  - hallucination reduction
+  - source provenance
+  - document provenance
+  - citation-aware retrieval
+  - Maximum Marginal Relevance
+  - MMR
+  - diversity-aware retrieval
+  - context redundancy
+  - context selection
+  - context compression
+  - context engineering
+  - context ordering
+  - LLM position bias
+  - parent-document retrieval
+  - multi-vector retrieval
+  - multi-query retrieval
+  - HyDE retrieval
+  - agentic retrieval
+  - adaptive retrieval
+  - LLM-based re-ranking
+  - LLM reranker
+  - structured LLM ranking
+  - cross-encoder vs LLM reranking
+  - domain-specific reranker
+  - multilingual reranking
+  - long-document reranking
+  - document chunking
+  - chunk size optimization
+  - passage extraction
+  - evidence selection
+  - enterprise AI architecture
+  - capability-based architecture
+  - provider-based architecture
+  - reranking service interface
+  - retrieval quality optimization
+  - scalable RAG systems
+  - production AI observability
+  - latency-quality trade-offs
+  - cost-quality trade-offs
+  - grounded enterprise AI
+---
+
 # Re-ranking Techniques
 
 ## 📖 Overview

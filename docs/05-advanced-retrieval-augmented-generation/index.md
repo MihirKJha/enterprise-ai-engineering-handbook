@@ -267,9 +267,7 @@ Select Context
        ↓
 LLM
 ```
-
 ---
-
 ## 🎯 Learning Outcomes
 
 After completing this module, you will be able to:
@@ -319,15 +317,17 @@ After completing this module, you will be able to:
 ---
 
 # 🧭 Learning Journey
-
 ```mermaid
 flowchart LR
     A["Core Retrieval"] --> B["Enterprise Retrieval"]
     B --> C["LlamaIndex Retrieval"]
     C --> D["Vector Search"]
-    D --> E["Advanced RAG"]
-    E --> F["Production RAG"]
+    D --> E["Multimodal AI Engineering"]
+    E --> F["Advanced RAG Architecture"]
+    F --> G["Production RAG Engineering"]
 ```
+
+
 
 The progression is:
 
@@ -346,9 +346,7 @@ Production RAG Engineering
 ```
 
 ---
-
 # 📚 01 — Core Retrieval Engineering
-
 This section introduces the fundamental retriever architectures used in advanced RAG systems.
 
 | Chapter | Status |
@@ -358,6 +356,8 @@ This section introduces the fundamental retriever architectures used in advanced
 | **[03. Self-Query Retriever](01-core-retrieval-engineering/03-self-query-retriever.md)** | ✅ |
 | **[04. Parent-Document Retriever](01-core-retrieval-engineering/04-parent-document-retriever.md)** | ✅ |
 | **[05. Retriever Comparison](01-core-retrieval-engineering/05-retriever-comparison.md)** | ✅ |
+
+
 
 ### Retrieval progression
 
@@ -374,10 +374,9 @@ Retriever Selection
 ```
 
 ---
-
 # 🔎 02 — Enterprise Retrieval Engineering
-
 This section introduces advanced retrieval strategies for improving relevance, diversity, contextual quality, and retrieval flexibility.
+
 
 | Chapter | Status |
 | --- | :---: |
@@ -395,26 +394,25 @@ This section introduces advanced retrieval strategies for improving relevance, d
 | **[12. Metadata-Aware Retrieval](02-enterprise-retrieval-engineering/12-metadata-aware-retrieval.md)** | ✅ |
 | **[13. Advanced Query Rewriting](02-enterprise-retrieval-engineering/13-advanced-query-rewriting.md)** | ✅ |
 
+
+
 ### Enterprise retrieval architecture
-
 ```mermaid
+
 flowchart TD
-    A["User Query"] --> B["Query Processing"]
 
-    B --> C["Initial Retrieval"]
-
-    C --> D["Vector Search"]
-    C --> E["Keyword Search"]
-    C --> F["Hybrid Search"]
-
-    D --> G["Candidate Set"]
-    E --> G
-    F --> G
-
-    G --> H["Filtering"]
-    H --> I["Contextual Compression"]
-    I --> J["Re-ranking"]
-    J --> K["Final Retrieval Context"]
+    A["User Query"] --> B["Query Processing"]
+    B --> C["Initial Retrieval"]
+    C --> D["Vector Search"]
+    C --> E["Keyword Search"]
+    C --> F["Hybrid Search"]
+    D --> G["Candidate Set"]
+    E --> G
+    F --> G
+    G --> H["Filtering"]
+    H --> I["Contextual Compression"]
+    I --> J["Re-ranking"]
+    J --> K["Final Retrieval Context"]
 ```
 
 ### Re-ranking
@@ -451,8 +449,9 @@ Select the most relevant candidates
 
 ---
 
-# 🧩 03 — LlamaIndex Retrieval Engineering
 
+---
+# 🧩 03 — LlamaIndex Retrieval Engineering
 LlamaIndex is used here to demonstrate retrieval concepts and advanced retrieval implementations.
 
 The focus remains on retrieval engineering rather than becoming a generic framework tutorial.
@@ -467,6 +466,7 @@ The focus remains on retrieval engineering rather than becoming a generic framew
 | **[06. Recursive Retriever](03-llamaindex-retrieval-engineering/06-recursive-retriever.md)** | ✅ |
 | **[07. Query Fusion Retriever](03-llamaindex-retrieval-engineering/07-query-fusion-retriever.md)** | ✅ |
 | **[08. Auto-Merging Retriever](03-llamaindex-retrieval-engineering/08-auto-merging-retriever.md)** | ✅ |
+
 
 ### Framework implementation model
 
@@ -483,17 +483,19 @@ Production Retrieval Pattern
 General framework architecture and framework comparisons remain in **Part VIII — AI Engineering Frameworks & Tooling**.
 
 ---
-
 # 🗄️ 04 — Vector Search Engineering
-
 This section focuses on the underlying vector-search infrastructure used by RAG systems.
 
-| Chapter | Status |
+| Topic | Status |
 | --- | :---: |
-| **[01. FAISS Fundamentals](04-vector-search-engineering/01-faiss-fundamentals.md)** | ✅ |
-| **[02. FAISS Indexes](04-vector-search-engineering/02-faiss-indexes.md)** | ✅ |
-| **[03. HNSW and Index Selection](04-vector-search-engineering/03-ish-and-hnsw.md)** | ✅ |
-| **[04. FAISS vs ChromaDB vs Milvus](04-vector-search-engineering/04-faiss-vs-chromadb-vs-milvus.md)** | ✅ |
+| **[01. Advanced RAG Architecture](05-advanced-rag-architecture/01-advanced-rag-architecture.md)** | ✅ |
+| **[02. Graph RAG](05-advanced-rag-architecture/02-graph-rag.md)** | ✅ |
+| **[03. Knowledge Graphs for RAG](05-advanced-rag-architecture/03-knowledge-graphs-for-rag.md)** | ✅ |
+| **[04. SQL RAG](05-advanced-rag-architecture/04-sql-rag.md)** | ✅ |
+| **[05. Multimodal RAG](05-advanced-rag-architecture/05-multimodal-rag.md)** | ✅ |
+| **[06. Agentic RAG](05-advanced-rag-architecture/06-agentic-rag.md)** | ✅ |
+
+
 
 ### Vector search architecture
 
@@ -512,7 +514,34 @@ flowchart LR
 
 ---
 
-# 🧠 05 — Advanced RAG Architecture
+# 🧠 05 — Multimodal AI Engineering
+
+This section covers multimodal AI fundamentals and architecture, speech AI, vision-language models, generative media, production applications and orchestration, and multimodal risks, evaluation, and governance.
+
+| Chapter | Status |
+| --- | :---: |
+| **[01. Multimodal AI Fundamentals and Architecture](05-multimodal-ai-engineering/01-multimodal-ai-fundamentals-and-architecture.md)** | ✅ |
+| **[02. Enterprise Speech AI: STT, TTS and Voice Pipelines](05-multimodal-ai-engineering/02-enterprise-speech-ai-stt-tts-and-voice-pipelines.md)** | ✅ |
+| **[03. Vision-Language Models and Image Understanding](05-multimodal-ai-engineering/03-vision-language-models-and-image-understanding.md)** | ✅ |
+| **[04. Generative Media Engineering: Text-to-Image and Video](05-multimodal-ai-engineering/04-generative-media-engineering-text-to-image-and-video.md)** | ✅ |
+| **[05. Production Multimodal Applications and Orchestration](05-multimodal-ai-engineering/05-production-multimodal-applications-and-orchestration.md)** | ✅ |
+| **[06. Multimodal AI Risks, Evaluation and Governance](05-multimodal-ai-engineering/06-multimodal-ai-risks-evaluation-and-governance.md)** | ✅ |
+
+### Multimodal engineering progression
+
+```mermaid
+flowchart TD
+    A["Multimodal Fundamentals"] --> B["Speech AI"]
+    B --> C["Vision-Language Models"]
+    C --> D["Generative Media"]
+    D --> E["Production Applications"]
+    E --> F["Risks, Evaluation and Governance"]
+```
+
+---
+
+# 🧠 06 — Advanced RAG Architecture
+This section expands RAG beyond conventional vector retrieval.
 
 This section expands RAG beyond conventional vector retrieval.
 
@@ -526,7 +555,6 @@ This section expands RAG beyond conventional vector retrieval.
 | **[06. Agentic RAG](05-advanced-rag-architecture/06-agentic-rag.md)** | ✅ |
 
 ---
-
 ## Graph RAG
 
 ```mermaid
@@ -565,9 +593,7 @@ LLM
       ↓
 Response
 ```
-
 ---
-
 ## Multimodal RAG
 
 ```text
@@ -607,9 +633,7 @@ flowchart TD
 Agentic RAG focuses on **intelligent retrieval decisions**. General AI Agent architecture is covered in Part VI.
 
 ---
-
-# 🏭 06 — Production RAG Engineering
-
+# 🏭 07 — Production RAG Engineering
 This section brings advanced retrieval into a complete production pipeline, covering deployment, caching, multi-tenancy, testing, and failure engineering.
 
 | Chapter | Status |
@@ -630,6 +654,8 @@ This section brings advanced retrieval into a complete production pipeline, cove
 | **[14. Multi-Tenant RAG](06-production-rag-engineering/14-multi-tenant-rag.md)** | ✅ |
 | **[15. RAG Testing Frameworks](06-production-rag-engineering/15-rag-testing-frameworks.md)** | ✅ |
 | **[16. RAG Failure Patterns](06-production-rag-engineering/16-rag-failure-patterns.md)** | ✅ |
+
+
 
 ### Production RAG flow
 
@@ -660,7 +686,6 @@ flowchart TD
 ```
 
 ---
-
 ## Prompt Assembly
 
 ```text
@@ -680,9 +705,7 @@ Prompt Assembly
         ↓
 LLM
 ```
-
 ---
-
 ## Response Validation
 
 ```mermaid
@@ -707,24 +730,29 @@ Document
       ↓
 Section / Page / Chunk
 ```
-
 ---
-
 ## Enterprise Response
-
 A production RAG API should return an application-level response rather than raw model text.
 
+
+
 ```json
+
 {
-  "answer": "Enterprise response...",
-  "citations": [],
-  "metadata": {},
-  "trace_id": "trace-123"
+
+  "answer": "Enterprise response...",
+
+  "citations": [],
+
+  "metadata": {},
+
+  "trace_id": "trace-123"
+
 }
+
 ```
 
 ---
-
 ## RAG Evaluation
 
 ```text
@@ -748,7 +776,6 @@ Example evaluation dimensions:
 | Context | Context Relevance, Context Recall |
 | Attribution | Citation Accuracy |
 | Operations | Latency, Cost, Reliability |
-
 ---
 
 ## RAG Observability
@@ -786,10 +813,8 @@ Errors
 Trace IDs
 Cost
 ```
-
 ---
-
-## Performance & Cost Optimization
+# Performance & Cost Optimization
 
 ```text
 RAG Quality
@@ -815,7 +840,6 @@ Optimization areas include:
 - Batch processing
 
 ---
-
 # 🚀 07 — RAG Deployment Patterns
 
 Production RAG requires deliberate deployment architecture.
@@ -913,7 +937,6 @@ Security Engineering
 ```
 
 ---
-
 # 🏢 09 — Multi-Tenant RAG
 
 Enterprise RAG platforms frequently serve multiple organizations, departments, or customers.
@@ -1023,7 +1046,6 @@ Regression-Proof
 ```
 
 ---
-
 # 🚨 11 — RAG Failure Patterns
 
 RAG systems can fail even when:

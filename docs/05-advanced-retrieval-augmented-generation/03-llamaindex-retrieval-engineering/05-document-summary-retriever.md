@@ -1,10 +1,114 @@
 ---
 title: "LlamaIndex Document Summary Retriever: Document-Level Retrieval for RAG"
-description: >
-  "Learn how the LlamaIndex Document Summary Retriever enables document-level
-  retrieval using DocumentSummaryIndex, summary-based search, hierarchical
-  retrieval, embedding and LLM retrieval modes, document routing, chunk-level
-  retrieval, re-ranking, evaluation, security, and production RAG architecture."
+description: "Learn how LlamaIndex DocumentSummaryIndex enables document-level retrieval for enterprise RAG. Explore summary-based search, embedding and LLM retrieval modes, hierarchical retrieval, document routing, hybrid search, chunk-level retrieval, re-ranking, evaluation, summary quality, lifecycle management, security, and production architecture."
+keywords:
+  - LlamaIndex Document Summary Retriever
+  - LlamaIndex DocumentSummaryIndex
+  - Document Summary Retrieval
+  - document-level retrieval
+  - document-level search
+  - document retrieval for RAG
+  - enterprise RAG
+  - enterprise RAG architecture
+  - retrieval augmented generation
+  - RAG retrieval strategies
+  - LlamaIndex retrieval
+  - LlamaIndex indexes
+  - LlamaIndex retrievers
+  - summary-based retrieval
+  - document summary index
+  - document summarization
+  - retrieval-oriented summaries
+  - document summary generation
+  - summary embeddings
+  - embedding-based summary retrieval
+  - LLM-based summary retrieval
+  - LlamaIndex embedding retriever
+  - LlamaIndex LLM retriever
+  - DocumentSummaryIndexEmbeddingRetriever
+  - DocumentSummaryIndexLLMRetriever
+  - LlamaIndex as_retriever
+  - VectorStoreIndex
+  - SummaryIndex vs DocumentSummaryIndex
+  - DocumentSummaryIndex vs VectorStoreIndex
+  - chunk-level retrieval
+  - document-level vs chunk-level retrieval
+  - semantic search
+  - vector search
+  - vector embeddings
+  - document routing
+  - document selection
+  - document-level routing
+  - hierarchical retrieval
+  - hierarchical RAG
+  - multi-stage retrieval
+  - two-stage retrieval
+  - document-scoped vector retrieval
+  - section-level retrieval
+  - fine-grained retrieval
+  - hybrid retrieval
+  - BM25 document retrieval
+  - lexical search
+  - hybrid search for RAG
+  - query routing
+  - retrieval query planning
+  - agentic retrieval
+  - agentic RAG
+  - retrieval pipeline architecture
+  - enterprise search architecture
+  - large document retrieval
+  - technical documentation retrieval
+  - enterprise knowledge base
+  - architecture document search
+  - legal document retrieval
+  - research paper retrieval
+  - enterprise policy retrieval
+  - document metadata
+  - source node retrieval
+  - LlamaIndex nodes
+  - source evidence retrieval
+  - RAG citations
+  - document provenance
+  - source metadata preservation
+  - context engineering
+  - context selection
+  - context window optimization
+  - RAG re-ranking
+  - cross-encoder re-ranking
+  - retrieval relevance
+  - document recall at K
+  - Recall@K
+  - chunk recall
+  - RAG evaluation
+  - retrieval evaluation metrics
+  - summary quality evaluation
+  - summary coverage
+  - retrieval accuracy
+  - retrieval precision and recall
+  - summary generation cost
+  - RAG latency optimization
+  - indexing cost optimization
+  - LLM inference cost
+  - document summary freshness
+  - summary drift
+  - incremental summary updates
+  - document versioning
+  - summary versioning
+  - prompt versioning
+  - summary index lifecycle
+  - RAG observability
+  - retrieval monitoring
+  - retrieval failure handling
+  - RAG fallback strategy
+  - vector retrieval fallback
+  - secure RAG architecture
+  - tenant-aware retrieval
+  - multi-tenant RAG
+  - document access control
+  - enterprise data security
+  - production RAG systems
+  - scalable document retrieval
+  - LlamaIndex Python examples
 ---
 # Document Summary Retriever
 

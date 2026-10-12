@@ -1,3 +1,147 @@
+---
+title: "HyDE Retriever in RAG: Hypothetical Document Embeddings, Hybrid Search, and Enterprise Architecture"
+description: "Learn how the HyDE (Hypothetical Document Embeddings) retriever improves Retrieval-Augmented Generation through LLM-generated hypothetical documents and semantic search. Explore the HyDE retrieval pipeline, Python implementation, LangChain integration, multi-HyDE, hybrid retrieval, BM25, reranking, Multi-Vector Retrieval, prompt engineering, hallucination risks, metadata filtering, access control, caching, fallback strategies, evaluation metrics, observability, and production-ready enterprise RAG architecture."
+keywords:
+  - HyDE Retriever
+  - Hypothetical Document Embeddings
+  - HyDE retrieval
+  - HyDE in RAG
+  - HyDE RAG
+  - Retrieval-Augmented Generation
+  - RAG architecture
+  - Enterprise RAG
+  - Enterprise RAG architecture
+  - Advanced RAG
+  - RAG retriever
+  - semantic retrieval
+  - semantic search
+  - vector retrieval
+  - vector search
+  - vector database
+  - vector store
+  - query embedding
+  - document embedding
+  - hypothetical document
+  - hypothetical answer generation
+  - query-to-document transformation
+  - query-document representation gap
+  - query representation
+  - document representation
+  - dense retrieval
+  - dense vector retrieval
+  - embedding models
+  - embedding generation
+  - LLM-powered retrieval
+  - LLM-based retrieval
+  - retrieval-time LLM
+  - query understanding
+  - query classification
+  - query intent classification
+  - query rewriting
+  - query expansion
+  - multi-query retrieval
+  - Multi-HyDE
+  - multiple hypothetical documents
+  - multi-hypothesis retrieval
+  - HyDE prompt engineering
+  - HyDE prompt design
+  - hypothetical document generation
+  - retrieval prompt
+  - domain-specific prompts
+  - hallucination mitigation
+  - retrieval drift
+  - retrieval quality
+  - retrieval evaluation
+  - direct query embedding
+  - direct vector retrieval
+  - HyDE versus direct retrieval
+  - LangChain HyDE
+  - LangChain retriever
+  - Python RAG implementation
+  - Python HyDE implementation
+  - framework-agnostic retriever
+  - retriever abstraction
+  - query representation generator
+  - embedding provider
+  - vector store abstraction
+  - hybrid search
+  - hybrid retrieval
+  - dense and sparse retrieval
+  - sparse retrieval
+  - BM25
+  - lexical search
+  - exact-term retrieval
+  - keyword retrieval
+  - reciprocal rank fusion
+  - retrieval result fusion
+  - candidate generation
+  - candidate document retrieval
+  - reranking
+  - cross-encoder reranking
+  - contextual compression
+  - context selection
+  - context optimization
+  - Multi-Vector Retriever
+  - multi-vector retrieval
+  - parent document retrieval
+  - parent document resolution
+  - metadata filtering
+  - metadata-based retrieval
+  - retrieval access control
+  - retrieval security
+  - role-based access control
+  - RBAC
+  - attribute-based access control
+  - ABAC
+  - tenant isolation
+  - document-level permissions
+  - source-grounded generation
+  - grounded LLM responses
+  - RAG citations
+  - citation accuracy
+  - retrieval provenance
+  - retrieval observability
+  - RAG observability
+  - retrieval tracing
+  - LLM latency
+  - retrieval latency
+  - LLM inference cost
+  - RAG cost optimization
+  - HyDE caching
+  - semantic retrieval caching
+  - retrieval fallback strategy
+  - direct retrieval fallback
+  - resilient RAG architecture
+  - selective HyDE
+  - adaptive retrieval
+  - query-level retrieval evaluation
+  - Recall at K
+  - Precision at K
+  - Mean Reciprocal Rank
+  - MRR
+  - Normalized Discounted Cumulative Gain
+  - NDCG
+  - context relevance
+  - answer correctness
+  - faithfulness evaluation
+  - retrieval regression testing
+  - RAG unit testing
+  - RAG integration testing
+  - production RAG pipeline
+  - enterprise knowledge assistant
+  - technical documentation search
+  - enterprise document search
+  - research assistant
+  - long-form question answering
+  - semantic query expansion
+  - vocabulary mismatch in search
+  - query classification for retrieval
+  - time-aware retrieval
+  - temporal ranking
+  - production AI architecture
+  - enterprise AI engineering
+---
+
 # HyDE Retriever
 
 ## 📖 Overview

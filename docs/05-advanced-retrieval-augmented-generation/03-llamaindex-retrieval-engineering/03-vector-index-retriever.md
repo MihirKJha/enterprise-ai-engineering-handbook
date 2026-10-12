@@ -1,12 +1,127 @@
 ---
 title: "LlamaIndex Vector Index Retriever: Semantic Search for RAG"
-description: >
-  "Learn how the LlamaIndex Vector Index Retriever performs semantic search
-  using embeddings and vector similarity, including VectorStoreIndex,
-  Top-K retrieval, similarity thresholds, metadata filtering, hybrid
-  retrieval, re-ranking, MMR, multi-query retrieval, retrieval evaluation,
-  security, observability, and production RAG architecture."
+description: "Learn how the LlamaIndex Vector Index Retriever performs semantic search using embeddings and vector similarity. Explore VectorStoreIndex, Top-K retrieval, similarity thresholds, metadata filtering, hybrid search, re-ranking, MMR, multi-query retrieval, retrieval evaluation, security, observability, and production-grade RAG architecture."
+keywords:
+  - LlamaIndex Vector Index Retriever
+  - LlamaIndex vector retriever
+  - LlamaIndex VectorStoreIndex
+  - vector index retriever
+  - vector retrieval
+  - semantic search
+  - semantic retrieval
+  - Retrieval-Augmented Generation
+  - RAG architecture
+  - enterprise RAG
+  - production RAG systems
+  - RAG retrieval pipeline
+  - vector search
+  - vector similarity search
+  - vector database
+  - vector store
+  - vector indexing
+  - embeddings
+  - text embeddings
+  - document embeddings
+  - query embeddings
+  - embedding models
+  - embedding consistency
+  - embedding dimensions
+  - embedding normalization
+  - cosine similarity
+  - dot product similarity
+  - Euclidean distance
+  - similarity scores
+  - similarity thresholds
+  - Top-K retrieval
+  - similarity_top_k
+  - LlamaIndex as_retriever
+  - LlamaIndex retrieve
+  - LlamaIndex nodes
+  - document chunking
+  - text chunking strategies
+  - chunk size optimization
+  - chunk overlap
+  - retrieval precision
+  - retrieval recall
+  - Recall at K
+  - Precision at K
+  - Mean Reciprocal Rank
+  - MRR
+  - Normalized Discounted Cumulative Gain
+  - NDCG
+  - Hit Rate
+  - retrieval evaluation
+  - retrieval benchmarking
+  - retrieval quality
+  - retrieval debugging
+  - retrieval optimization
+  - metadata filtering
+  - metadata-aware retrieval
+  - tenant-aware retrieval
+  - multi-tenant RAG
+  - authorization-aware retrieval
+  - secure vector retrieval
+  - retrieval access control
+  - vector store integration
+  - Chroma vector database
+  - FAISS vector search
+  - Milvus vector database
+  - Qdrant vector database
+  - Pinecone vector database
+  - Weaviate vector database
+  - OpenSearch vector search
+  - approximate nearest neighbor
+  - ANN search
+  - HNSW indexing
+  - IVF indexing
+  - product quantization
+  - vector search scalability
+  - vector retrieval latency
+  - retrieval throughput
+  - P95 latency
+  - P99 latency
+  - retrieval observability
+  - retrieval monitoring
+  - retrieval tracing
+  - hybrid retrieval
+  - dense retrieval
+  - sparse retrieval
+  - keyword retrieval
+  - reciprocal rank fusion
+  - retrieval result fusion
+  - re-ranking
+  - cross-encoder re-ranking
+  - LLM-based re-ranking
+  - Maximum Marginal Relevance
+  - MMR retrieval
+  - multi-query retrieval
+  - query rewriting
+  - self-query retrieval
+  - parent-document retrieval
+  - parent-child retrieval
+  - context selection
+  - context engineering
+  - RAG context optimization
+  - retrieval candidate generation
+  - retrieval deduplication
+  - vector retrieval caching
+  - query embedding cache
+  - retrieval result cache
+  - vector index versioning
+  - embedding model versioning
+  - retrieval configuration
+  - retrieval service architecture
+  - framework-agnostic retriever
+  - LlamaIndex adapter
+  - ports and adapters architecture
+  - enterprise retrieval service
+  - scalable RAG architecture
+  - production vector search
+  - vector retrieval best practices
+  - RAG security
+  - RAG performance optimization
 ---
+
 # Vector Index Retriever
 
 ## 📖 Overview

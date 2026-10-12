@@ -1,3 +1,165 @@
+---
+title: "Multi-Query Retriever: Query Expansion, Retrieval Recall, and Enterprise RAG"
+description: "Learn how Multi-Query Retrieval improves Retrieval-Augmented Generation (RAG) by generating diverse search queries from a single user question. Explore query generation, semantic query diversification, retrieval orchestration, result aggregation, document deduplication, candidate ranking, re-ranking, metadata filtering, access control, and framework-agnostic Python implementations. Understand how to integrate Multi-Query Retrievers with LangChain and vector stores, distinguish multi-query retrieval from query expansion, rewriting, and decomposition, evaluate recall and answer quality, and balance retrieval coverage against latency, cost, and operational complexity in production enterprise AI systems."
+keywords:
+  - Multi-Query Retriever
+  - Multi-Query Retrieval
+  - MultiQueryRetriever
+  - Multi-Query RAG
+  - Retrieval-Augmented Generation
+  - RAG Architecture
+  - Advanced RAG
+  - Enterprise RAG
+  - Enterprise RAG Architecture
+  - Production RAG Systems
+  - RAG Engineering
+  - Enterprise AI Engineering
+  - Retrieval Engineering
+  - Query Engineering
+  - Query Generation
+  - LLM-Based Query Generation
+  - Query Diversification
+  - Query Diversity
+  - Query Expansion
+  - Query Rewriting
+  - Query Decomposition
+  - Semantic Query Expansion
+  - Alternative Search Queries
+  - Multiple Search Queries
+  - Multi-Perspective Retrieval
+  - Semantic Search
+  - Vector Search
+  - VectorStore Retriever
+  - Vector Store Retrieval
+  - Vector Database
+  - Embedding-Based Retrieval
+  - Query Embeddings
+  - Semantic Similarity
+  - Retrieval Coverage
+  - Retrieval Recall
+  - Recall Optimization
+  - Recall-Oriented Retrieval
+  - Retrieval Precision
+  - Candidate Generation
+  - Candidate Pool
+  - Retrieval Candidate Aggregation
+  - Result Aggregation
+  - Document Aggregation
+  - Document Deduplication
+  - Retrieval Deduplication
+  - Chunk Deduplication
+  - Stable Document Identifiers
+  - Content Hashing
+  - Query Coverage
+  - Multi-Query Ranking
+  - Retrieval Ranking
+  - Re-ranking
+  - Cross-Encoder Re-ranking
+  - Context Selection
+  - Context Engineering
+  - RAG Context Optimization
+  - Evidence Retrieval
+  - Grounded Generation
+  - Answer Quality
+  - Retrieval Quality Evaluation
+  - RAG Evaluation
+  - Retrieval Metrics
+  - Recall at K
+  - Precision at K
+  - Mean Reciprocal Rank
+  - Normalized Discounted Cumulative Gain
+  - Answer Correctness
+  - Retrieval Latency
+  - LLM Latency
+  - RAG Cost Optimization
+  - LLM Query Generation Cost
+  - Vector Database Load
+  - Retrieval Performance
+  - Retrieval Scalability
+  - Query Generation Strategy
+  - Query Generation Prompt
+  - Query Intent
+  - Ambiguous Queries
+  - Broad Queries
+  - Conversational Retrieval
+  - Conceptual Search
+  - Multi-Intent Queries
+  - Enterprise Knowledge Retrieval
+  - Enterprise Knowledge Assistant
+  - Enterprise Document Search
+  - Cloud Strategy Retrieval
+  - Payment Platform Migration
+  - Technical Risk Retrieval
+  - Security Policy Retrieval
+  - Financial Risk Retrieval
+  - Operational Risk Retrieval
+  - Compliance Document Retrieval
+  - LangChain Multi-Query Retriever
+  - LangChain Retrieval
+  - LangChain RAG
+  - Python RAG Implementation
+  - Python Retriever Implementation
+  - Framework-Agnostic Retriever
+  - Retriever Abstraction
+  - Retriever Interface
+  - Composable Retrieval Architecture
+  - Retrieval Strategy Composition
+  - Ports and Adapters Architecture
+  - Hexagonal Architecture for AI
+  - Modular RAG Architecture
+  - Decoupled AI Architecture
+  - Base Retriever
+  - Query Generator Interface
+  - Multi-Query Orchestration
+  - Retrieval Pipeline
+  - Parallel Retrieval
+  - Metadata Filtering
+  - Metadata-Aware Retrieval
+  - Enterprise Metadata Constraints
+  - Multi-Tenant RAG
+  - Secure RAG Architecture
+  - Retrieval Access Control
+  - Authorization-Aware Retrieval
+  - Tenant Isolation
+  - Role-Based Access Control
+  - Query Drift
+  - Redundant Query Generation
+  - Hallucinated Search Concepts
+  - Retrieval Explosion
+  - Duplicate Context
+  - Query Generation Failure Modes
+  - Retrieval Observability
+  - RAG Distributed Tracing
+  - Generated Query Monitoring
+  - Candidate Count Monitoring
+  - Retrieval Score Monitoring
+  - Token Usage Monitoring
+  - RAG Production Readiness
+  - Multi-Query vs Query Expansion
+  - Multi-Query vs Query Rewriting
+  - Multi-Query vs Query Decomposition
+  - Multi-Query vs Hybrid Search
+  - Multi-Query vs Self-Query Retrieval
+  - Self-Query Retriever
+  - Parent-Document Retriever
+  - Ensemble Retrieval
+  - Hybrid Retrieval
+  - BM25 Retrieval
+  - Contextual Compression
+  - Router Retriever
+  - Graph Retrieval
+  - Graph RAG
+  - SQL Retriever
+  - Agentic Retrieval
+  - Agentic RAG
+  - Advanced Retrieval Strategies
+  - Retrieval Quality vs Latency
+  - Retrieval Quality vs Cost
+  - Production AI Engineering
+  - Enterprise AI Engineering Handbook
+---
+
+
 # Multi-Query Retriever
 
 ## 📖 Overview

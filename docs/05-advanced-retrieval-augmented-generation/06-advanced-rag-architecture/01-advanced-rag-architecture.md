@@ -1,3 +1,163 @@
+---
+title: "Advanced RAG Architecture: Enterprise Retrieval-Augmented Generation Systems"
+description: "Learn how to design production-ready Advanced RAG architectures for enterprise AI applications. Explore RAG pipelines, query understanding, query rewriting, retrieval orchestration, hybrid search, dense retrieval, BM25, result fusion, re-ranking, context engineering, context compression, prompt assembly, grounded generation, response validation, citation architecture, multi-source retrieval, Graph RAG, SQL RAG, Agentic RAG, Ports and Adapters, provider-agnostic AI components, multi-tenant security, LLM gateways, model routing, retrieval evaluation, observability, latency optimization, caching, data freshness, and scalable enterprise AI system design."
+keywords:
+  - Advanced RAG
+  - Advanced RAG Architecture
+  - Retrieval-Augmented Generation
+  - Enterprise RAG
+  - Enterprise RAG Architecture
+  - Production RAG Systems
+  - RAG System Design
+  - RAG Pipeline
+  - RAG Reference Architecture
+  - Enterprise AI Architecture
+  - Enterprise AI Engineering
+  - Production-Grade AI Systems
+  - Generative AI Architecture
+  - LLM Application Architecture
+  - RAG Engineering
+  - RAG Orchestration
+  - RAG Orchestrator
+  - Modular RAG Architecture
+  - Layered RAG Architecture
+  - RAG Design Patterns
+  - RAG Best Practices
+  - RAG Components
+  - RAG Workflow
+  - Query Engineering
+  - Query Understanding
+  - Query Processing
+  - Query Rewriting
+  - Query Expansion
+  - Conversational Query Rewriting
+  - Query Classification
+  - Retrieval Planning
+  - Retrieval Orchestration
+  - Retrieval Router
+  - Retrieval Strategy
+  - Multi-Strategy Retrieval
+  - Multi-Source Retrieval
+  - Dense Retrieval
+  - Vector Search
+  - Vector Retrieval
+  - Semantic Search
+  - Lexical Retrieval
+  - BM25 Search
+  - Hybrid Search
+  - Hybrid Retrieval
+  - Metadata Filtering
+  - Structured Retrieval
+  - SQL Retrieval
+  - Graph Retrieval
+  - Knowledge Graph Retrieval
+  - Enterprise Search
+  - Vector Database
+  - Vector Store Architecture
+  - Document Store
+  - Retrieval Candidate Generation
+  - Retrieval Candidate Funnel
+  - Result Fusion
+  - Reciprocal Rank Fusion
+  - RAG Re-ranking
+  - Cross-Encoder Re-ranking
+  - Retrieval Precision
+  - Retrieval Recall
+  - Context Selection
+  - Context Engineering
+  - Context Optimization
+  - Context Compression
+  - Context Window Management
+  - Context Budget
+  - Token Budget Optimization
+  - Maximum Marginal Relevance
+  - MMR Retrieval
+  - Retrieval Diversity
+  - Prompt Engineering
+  - Prompt Assembly
+  - Grounded Generation
+  - LLM Response Generation
+  - Response Validation
+  - LLM Output Validation
+  - AI Guardrails
+  - Citation Architecture
+  - RAG Citation Management
+  - Evidence Provenance
+  - Source Attribution
+  - Answer Grounding
+  - Hallucination Reduction
+  - RAG Evaluation
+  - RAG Testing
+  - Retrieval Evaluation Metrics
+  - Recall at K
+  - Precision at K
+  - Mean Reciprocal Rank
+  - Normalized Discounted Cumulative Gain
+  - End-to-End RAG Testing
+  - RAG Evaluation Pipeline
+  - RAG Observability
+  - Distributed Tracing for RAG
+  - RAG Failure Analysis
+  - Retrieval Debugging
+  - RAG Failure Taxonomy
+  - LLM Application Monitoring
+  - RAG Performance Optimization
+  - RAG Latency Optimization
+  - RAG Cost Optimization
+  - LLM Token Cost Management
+  - Parallel Retrieval
+  - RAG Caching
+  - Embedding Cache
+  - Retrieval Cache
+  - LLM Response Cache
+  - Data Freshness
+  - Incremental Index Updates
+  - Temporal Retrieval
+  - Document Versioning
+  - Multi-Tenant RAG
+  - Secure RAG Architecture
+  - RAG Access Control
+  - Tenant-Aware Retrieval
+  - Authorization Before Retrieval
+  - Enterprise AI Security
+  - LLM Gateway
+  - Model Routing
+  - LLM Provider Abstraction
+  - Embedding Gateway
+  - Provider-Agnostic AI Architecture
+  - Ports and Adapters Architecture
+  - Hexagonal Architecture for AI
+  - Clean Architecture for RAG
+  - RAG Abstraction Layers
+  - Dependency Inversion
+  - OpenAI Integration
+  - IBM watsonx Integration
+  - Hugging Face Integration
+  - Embedding Provider
+  - Retriever Abstraction
+  - Vector Store Abstraction
+  - Re-ranker Abstraction
+  - Graph RAG Architecture
+  - SQL RAG Architecture
+  - Multimodal RAG
+  - Agentic RAG
+  - Agentic Retrieval Loop
+  - Retrieval-Augmented Agents
+  - RAG Microservices
+  - Modular Monolith
+  - Microservices Architecture
+  - Enterprise AI Platform
+  - Scalable AI Systems
+  - Cloud-Native AI Architecture
+  - AI System Design
+  - Backend Architecture for AI
+  - Enterprise Knowledge Retrieval
+  - Structured and Unstructured Data
+  - Production AI Engineering
+  - Enterprise AI Engineering Handbook
+---
+
+
 # 01. Advanced RAG Architecture
 
 > **Category:** Advanced RAG Architecture  

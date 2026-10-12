@@ -1,3 +1,141 @@
+---
+title: "Agentic RAG: Enterprise Architecture, Adaptive Retrieval, and Production AI Agents"
+description: "Learn how to design production-grade Agentic RAG systems with adaptive retrieval, planning, query decomposition, iterative search, and multi-hop reasoning. Explore SQL, vector, knowledge graph, and multimodal retrieval tools, agent state management, evidence evaluation, reflection, tool authorization, prompt injection defense, bounded execution, cost and latency optimization, observability, evaluation, and enterprise deployment."
+keywords:
+  - Agentic RAG
+  - Agentic Retrieval-Augmented Generation
+  - Agentic RAG architecture
+  - Enterprise Agentic RAG
+  - Production-grade Agentic RAG
+  - Agentic AI architecture
+  - Advanced RAG architecture
+  - Retrieval-Augmented Generation
+  - RAG systems
+  - Enterprise RAG
+  - Traditional RAG vs Agentic RAG
+  - Agentic retrieval
+  - Adaptive retrieval
+  - Retrieval orchestration
+  - Agent orchestration
+  - RAG orchestration
+  - Retrieval planning
+  - Agent planning
+  - Query decomposition
+  - Query classification
+  - Query rewriting
+  - Adaptive query expansion
+  - Iterative retrieval
+  - Multi-hop retrieval
+  - Multi-hop RAG
+  - Tool-based retrieval
+  - Tool selection
+  - Retrieval routing
+  - Dynamic retrieval
+  - Parallel retrieval
+  - Sequential retrieval
+  - Dependency-aware planning
+  - Retrieval execution plans
+  - Plan-and-execute agents
+  - ReAct agents
+  - ReAct-style retrieval
+  - Hybrid agent architecture
+  - Deterministic vs agentic orchestration
+  - Agent state management
+  - Agent state machine
+  - Agent execution loop
+  - Bounded agent execution
+  - Agent memory
+  - Agent actions
+  - Structured tool calling
+  - Tool registry
+  - Capability-based retrieval
+  - Retrieval tool interfaces
+  - Vector search
+  - SQL RAG
+  - Graph RAG
+  - Knowledge graph retrieval
+  - Multimodal RAG
+  - Image search
+  - Document search
+  - Metadata search
+  - Enterprise API integration
+  - SQL and vector search integration
+  - SQL and knowledge graph integration
+  - Multi-source retrieval
+  - Evidence engineering
+  - Evidence evaluation
+  - Evidence sufficiency
+  - Evidence ranking
+  - Evidence fusion
+  - Evidence deduplication
+  - Evidence graphs
+  - Evidence verification
+  - Evidence consistency
+  - Conflicting evidence resolution
+  - Confidence-aware retrieval
+  - Agentic abstention
+  - Grounded answer generation
+  - Response validation
+  - Citation accuracy
+  - Retrieval reflection
+  - Self-evaluation in RAG
+  - Agent guardrails
+  - Agent security
+  - Tool-level authorization
+  - Tool authorization
+  - Multi-tenant security
+  - Retrieval-time prompt injection
+  - RAG prompt injection defense
+  - Untrusted retrieved content
+  - Tool output validation
+  - Read-only agent tools
+  - Human approval for AI agents
+  - Structured tool arguments
+  - Safe SQL tool execution
+  - Agent execution limits
+  - Maximum tool calls
+  - Agent iteration limits
+  - Agent cost control
+  - Agent latency optimization
+  - Agent token budget
+  - RAG cost optimization
+  - Agent observability
+  - Agent tracing
+  - RAG monitoring
+  - Agent audit logging
+  - Agent evaluation
+  - Agent task completion rate
+  - Tool selection accuracy
+  - Plan success rate
+  - Retrieval Recall at K
+  - Mean Reciprocal Rank
+  - Normalized Discounted Cumulative Gain
+  - RAG faithfulness
+  - Evidence coverage
+  - Enterprise AI governance
+  - Enterprise AI security
+  - Production AI agents
+  - Reliable AI agents
+  - Scalable RAG systems
+  - Agent failure modes
+  - Retrieval loop prevention
+  - Agent tool overuse
+  - RAG hallucination prevention
+  - Context engineering
+  - Context construction
+  - Enterprise knowledge retrieval
+  - Banking AI architecture
+  - Incident investigation with RAG
+  - Enterprise knowledge assistants
+  - Agentic RAG workflow
+  - Agentic RAG implementation
+  - Python Agentic RAG
+  - Agentic RAG best practices
+  - Agentic RAG design patterns
+  - Agentic RAG production checklist
+  - Enterprise AI Engineering Handbook
+---
+
 # 06. Agentic RAG
 
 > **Category:** Advanced RAG Architecture  

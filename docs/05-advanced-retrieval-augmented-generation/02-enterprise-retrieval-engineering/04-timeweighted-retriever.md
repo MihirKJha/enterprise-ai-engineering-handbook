@@ -1,3 +1,128 @@
+---
+title: "Time-Weighted Retriever in RAG: Recency Scoring, Temporal Filtering, and Enterprise Architecture"
+description: "Learn how to implement time-weighted retrieval in Retrieval-Augmented Generation (RAG) systems by combining semantic relevance with document recency. Explore exponential time decay, half-life configuration, temporal filtering, timestamp metadata, version-aware retrieval, query intent detection, hybrid search, reranking, LangChain implementation, observability, evaluation, and production-ready enterprise RAG architecture."
+keywords:
+  - Time-Weighted Retriever
+  - time-weighted retrieval
+  - time-aware retrieval
+  - temporal retrieval
+  - recency-aware retrieval
+  - recency-based ranking
+  - Retrieval-Augmented Generation
+  - RAG
+  - enterprise RAG
+  - enterprise retrieval engineering
+  - advanced RAG techniques
+  - RAG architecture
+  - RAG retrieval strategies
+  - semantic retrieval
+  - vector retrieval
+  - vector search
+  - semantic similarity
+  - document relevance
+  - document recency
+  - relevance and recency
+  - temporal ranking
+  - temporal scoring
+  - recency scoring
+  - time decay
+  - exponential decay
+  - exponential time decay
+  - decay rate
+  - decay configuration
+  - recency weight
+  - time decay function
+  - half-life decay
+  - temporal freshness
+  - freshness-aware search
+  - freshness-relevance trade-off
+  - temporal relevance
+  - temporal correctness
+  - temporal metadata
+  - timestamp metadata
+  - document timestamps
+  - created_at
+  - updated_at
+  - published_at
+  - effective_from
+  - effective_until
+  - document versioning
+  - version-aware retrieval
+  - version-aware RAG
+  - policy version retrieval
+  - document validity
+  - validity windows
+  - effective dates
+  - temporal filtering
+  - date-based filtering
+  - time-window filtering
+  - temporal constraints
+  - temporal query processing
+  - temporal intent detection
+  - query intent classification
+  - historical query retrieval
+  - current information retrieval
+  - time-specific queries
+  - historical RAG
+  - query-aware retrieval
+  - LangChain TimeWeightedVectorStoreRetriever
+  - LangChain retrievers
+  - Python RAG implementation
+  - vector store integration
+  - metadata-driven retrieval
+  - metadata filtering
+  - hybrid search
+  - BM25 retrieval
+  - lexical and semantic search
+  - ensemble retrieval
+  - multi-vector retrieval
+  - parent document retrieval
+  - reranking
+  - contextual compression
+  - retrieval pipeline
+  - temporal retrieval pipeline
+  - enterprise AI architecture
+  - production RAG systems
+  - production-ready retrieval
+  - framework-agnostic retriever
+  - retrieval abstraction
+  - configuration-driven retrieval
+  - domain-specific decay
+  - news retrieval
+  - incident management retrieval
+  - support knowledge retrieval
+  - engineering documentation search
+  - enterprise policy retrieval
+  - operational knowledge retrieval
+  - current policy retrieval
+  - historical document search
+  - document lifecycle management
+  - published versus draft documents
+  - stale metadata
+  - retrieval failure modes
+  - retrieval observability
+  - retrieval tracing
+  - retrieval explainability
+  - retrieval auditing
+  - RAG evaluation
+  - retrieval evaluation metrics
+  - Recall at K
+  - Mean Reciprocal Rank
+  - Normalized Discounted Cumulative Gain
+  - NDCG
+  - answer accuracy
+  - citation accuracy
+  - temporal accuracy
+  - temporal evaluation dataset
+  - retrieval latency
+  - retrieval cost optimization
+  - enterprise knowledge management
+  - source attribution
+  - temporal citations
+  - version attribution
+  - reliable enterprise retrieval
+---
+
 # Time-Weighted Retriever
 
 ## 📖 Overview

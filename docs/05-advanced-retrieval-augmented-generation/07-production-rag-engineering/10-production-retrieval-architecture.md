@@ -1,3 +1,198 @@
+---
+title: "Production Retrieval Architecture: Enterprise RAG Design, Scalability, Security, and Reliability"
+description: >
+  Learn how to design production-grade Retrieval-Augmented Generation (RAG)
+  retrieval architectures that deliver accuracy, scalability, low latency,
+  reliability, security, and operational efficiency. This comprehensive guide
+  covers retrieval service boundaries, orchestration, pluggable retriever
+  interfaces, provider adapters, dense and sparse retrieval, hybrid search,
+  candidate fusion, multi-stage retrieval, reranking, context selection, and
+  structured evidence management. Explore tenant-aware and authorization-aware
+  retrieval, metadata filtering, retrieval caching, indexing pipelines,
+  event-driven ingestion, incremental indexing, index versioning, blue-green
+  and canary deployments, rollback strategies, and retrieval reproducibility.
+  Discover production engineering patterns for high availability, stateless
+  services, horizontal scaling, vector database partitioning, multi-region
+  retrieval, consistency, and freshness SLOs. Learn how to implement timeouts,
+  retries, circuit breakers, fallback hierarchies, bulkhead isolation,
+  backpressure, rate limiting, distributed tracing, retrieval metrics, security
+  boundaries, auditability, and versioned retrieval APIs. The chapter also
+  explores cloud-native and multi-cloud retrieval architectures across AWS,
+  Azure, and GCP, configuration management, feature flags, quality gates,
+  architecture decision matrices, and common production anti-patterns. Build
+  reusable enterprise retrieval platforms with explicit contracts, measurable
+  service-level objectives, and independent scaling and deployment of retrieval
+  and generation services.
+keywords:
+  - Production Retrieval Architecture
+  - production RAG
+  - enterprise RAG
+  - Retrieval-Augmented Generation
+  - RAG retrieval architecture
+  - production-grade retrieval systems
+  - enterprise retrieval platform
+  - distributed knowledge retrieval
+  - retrieval service design
+  - retrieval orchestration
+  - retrieval service boundaries
+  - retriever interface
+  - pluggable retriever architecture
+  - capability-based retrieval
+  - retrieval adapters
+  - ports and adapters
+  - hexagonal architecture
+  - dense retrieval
+  - sparse retrieval
+  - hybrid retrieval
+  - hybrid search architecture
+  - candidate generation
+  - candidate fusion
+  - Reciprocal Rank Fusion
+  - multi-stage retrieval
+  - reranking
+  - context selection
+  - evidence management
+  - evidence package
+  - evidence provenance
+  - source attribution
+  - metadata-aware retrieval
+  - metadata filtering
+  - authorization-aware retrieval
+  - ACL-aware retrieval
+  - tenant-aware retrieval
+  - multi-tenant RAG
+  - tenant isolation
+  - retrieval security
+  - retrieval cache
+  - embedding cache
+  - reranking cache
+  - context cache
+  - retrieval cache key
+  - authorization-aware caching
+  - cache isolation
+  - indexing architecture
+  - production ingestion pipeline
+  - event-driven indexing
+  - incremental indexing
+  - change data flow
+  - document ingestion
+  - metadata enrichment
+  - index versioning
+  - retrieval reproducibility
+  - blue-green index deployment
+  - canary index deployment
+  - index rollback
+  - high-availability retrieval
+  - stateless retrieval services
+  - retrieval service scaling
+  - vector database scaling
+  - vector database partitioning
+  - sharding
+  - replication
+  - tenant-aware index architecture
+  - shared vs dedicated index
+  - multi-region retrieval
+  - cross-region replication
+  - retrieval consistency
+  - index freshness
+  - retrieval freshness SLO
+  - retrieval reliability
+  - retrieval timeout strategy
+  - fallback retrieval
+  - retrieval fallback hierarchy
+  - circuit breaker pattern
+  - retry strategy
+  - exponential backoff
+  - jitter
+  - retry storms
+  - bulkhead isolation
+  - backpressure
+  - bounded queues
+  - retrieval rate limiting
+  - retrieval SLOs
+  - retrieval SLIs
+  - retrieval latency
+  - retrieval availability
+  - retrieval recall
+  - Recall@K
+  - Mean Reciprocal Rank
+  - MRR
+  - Normalized Discounted Cumulative Gain
+  - NDCG
+  - Precision@K
+  - retrieval observability
+  - distributed tracing
+  - retrieval metrics
+  - retrieval performance monitoring
+  - retrieval cost metrics
+  - retrieval security architecture
+  - authentication and authorization
+  - data classification
+  - encryption at rest
+  - encryption in transit
+  - prompt injection in RAG
+  - untrusted retrieved content
+  - evidence trust boundaries
+  - data exfiltration prevention
+  - retrieval auditability
+  - retrieval API design
+  - retrieval API contracts
+  - REST retrieval API
+  - API versioning
+  - retrieval error handling
+  - retrieval orchestrator implementation
+  - retrieval and generation separation
+  - shared retrieval capability
+  - retrieval gateway
+  - provider-agnostic retrieval
+  - cloud-native retrieval
+  - AWS retrieval architecture
+  - Amazon ECS
+  - Amazon EKS
+  - Amazon S3
+  - Amazon SQS
+  - Amazon EventBridge
+  - Amazon ElastiCache
+  - AWS IAM
+  - Azure retrieval architecture
+  - Azure Kubernetes Service
+  - Azure AI Search
+  - Azure Blob Storage
+  - Azure Service Bus
+  - Azure Event Grid
+  - Microsoft Entra ID
+  - GCP retrieval architecture
+  - Google Cloud Run
+  - Google Kubernetes Engine
+  - Vertex AI
+  - Google Cloud Storage
+  - Google Pub/Sub
+  - Google Memorystore
+  - multi-cloud retrieval
+  - retrieval configuration management
+  - retrieval configuration versioning
+  - feature flags
+  - retrieval experimentation
+  - A/B testing
+  - retrieval evaluation gates
+  - retrieval quality gates
+  - retrieval regression testing
+  - production retrieval benchmarks
+  - retrieval architecture decision matrix
+  - router retriever
+  - parent-child retrieval
+  - multi-vector retrieval
+  - graph retrieval
+  - SQL retrieval
+  - agentic retrieval
+  - retrieval decision tree
+  - production retrieval anti-patterns
+  - enterprise AI engineering
+  - scalable RAG systems
+  - reliable RAG architecture
+---
+
+
 # 10. Production Retrieval Architecture
 
 > **Category:** Production RAG Engineering  

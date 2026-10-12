@@ -1,3 +1,164 @@
+---
+title: "Agentic Retrieval in RAG: Intelligent Search Planning, Iterative Retrieval, and Enterprise AI Architecture"
+description: "Explore how to design production-ready Agentic Retrieval systems for enterprise Retrieval-Augmented Generation (RAG). Learn retrieval planning, query decomposition, dynamic tool selection, iterative retrieval loops, evidence sufficiency evaluation, query refinement, cross-source retrieval, Router Retriever integration, Hybrid Search, Graph RAG, SQL RAG, LangGraph orchestration, LangChain and LlamaIndex integration, framework-agnostic architecture, security guardrails, stopping criteria, observability, cost optimization, and retrieval evaluation."
+keywords:
+  - agentic retrieval
+  - agentic retrieval in RAG
+  - agentic RAG
+  - agentic RAG architecture
+  - enterprise agentic retrieval
+  - enterprise RAG
+  - enterprise AI architecture
+  - retrieval augmented generation
+  - RAG architecture
+  - production RAG systems
+  - advanced RAG techniques
+  - intelligent retrieval
+  - AI-driven retrieval
+  - dynamic retrieval
+  - iterative retrieval
+  - retrieval planning
+  - retrieval orchestration
+  - retrieval agent
+  - AI retrieval agent
+  - agentic search
+  - autonomous information retrieval
+  - retrieval decision making
+  - traditional retrieval
+  - multi-stage retrieval
+  - agentic versus multi-stage retrieval
+  - RAG retrieval pipeline
+  - retrieval workflow
+  - agentic retrieval loop
+  - retrieval state machine
+  - retrieval state management
+  - retrieval task state
+  - retrieval scratchpad
+  - query understanding
+  - query planning
+  - query decomposition
+  - complex query decomposition
+  - query refinement
+  - query rewriting
+  - query expansion
+  - multi-query retrieval
+  - HyDE retrieval
+  - hypothetical document embeddings
+  - evidence sufficiency
+  - evidence evaluation
+  - evidence completeness
+  - evidence coverage
+  - evidence matrix
+  - evidence synthesis
+  - evidence correlation
+  - evidence validation
+  - evidence deduplication
+  - contradictory evidence
+  - evidence conflict resolution
+  - retrieval quality gates
+  - retrieval stopping criteria
+  - retrieval saturation
+  - marginal retrieval value
+  - marginal evidence gain
+  - adaptive retrieval
+  - adaptive search strategy
+  - dynamic retrieval planning
+  - retrieval escalation
+  - retrieval fallback
+  - retrieval failure handling
+  - retrieval tool selection
+  - retrieval tools
+  - tool-based retrieval
+  - retrieval tool contracts
+  - capability-based retrieval
+  - framework-agnostic retrieval
+  - retrieval capability interface
+  - semantic search
+  - vector search
+  - vector retrieval
+  - hybrid search
+  - hybrid retrieval
+  - SQL retrieval
+  - SQL RAG
+  - Graph RAG
+  - graph retrieval
+  - knowledge graph retrieval
+  - cross-source retrieval
+  - multi-source retrieval
+  - enterprise knowledge retrieval
+  - document search
+  - structured data retrieval
+  - operational data retrieval
+  - API-based retrieval
+  - Router Retriever
+  - router versus agent
+  - agentic routing
+  - retrieval strategy selection
+  - source-aware retrieval
+  - source authority
+  - authoritative source selection
+  - time-aware search
+  - sequential retrieval
+  - parallel retrieval
+  - retrieval task dependencies
+  - retrieval graph
+  - agent workflow graph
+  - LangGraph retrieval
+  - LangGraph conditional routing
+  - LangChain retrieval
+  - LlamaIndex retrieval
+  - framework-independent RAG
+  - Python agentic retrieval
+  - Python retrieval agent
+  - retrieval state object
+  - retrieval agent implementation
+  - AI agent architecture
+  - agentic AI versus agentic retrieval
+  - controlled tool execution
+  - tool input validation
+  - retrieval guardrails
+  - agent security
+  - enterprise AI security
+  - retrieval access control
+  - tenant-aware retrieval
+  - document access control
+  - role-based access control
+  - SQL query validation
+  - read-only database access
+  - graph query validation
+  - LLM tool boundaries
+  - secure retrieval architecture
+  - retrieval observability
+  - agent observability
+  - retrieval tracing
+  - agent execution trace
+  - tool call monitoring
+  - retrieval cost monitoring
+  - agent cost optimization
+  - agentic retrieval cost
+  - retrieval latency optimization
+  - retrieval token budget
+  - tool call budget
+  - maximum agent iterations
+  - bounded agent loops
+  - evidence quality monitoring
+  - retrieval evaluation
+  - retrieval relevance scoring
+  - retrieval confidence
+  - source reliability
+  - causal reasoning from evidence
+  - evidence versus causality
+  - grounded answer generation
+  - citation accuracy
+  - RAG faithfulness
+  - enterprise search architecture
+  - production AI agents
+  - agentic AI engineering
+  - scalable retrieval systems
+  - generative AI systems
+  - AI engineering best practices
+---
+
 # Agentic Retrieval
 
 ## 📖 Overview

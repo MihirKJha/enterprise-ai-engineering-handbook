@@ -1,3 +1,145 @@
+---
+title: "Graph RAG: Enterprise Graph Retrieval, Knowledge Graph Architecture, and Hybrid RAG Systems"
+description: "Learn how to design production-ready Graph RAG systems for enterprise AI. Explore knowledge graphs, nodes and edges, entity and relationship extraction, entity resolution, graph construction, graph traversal, local and global retrieval, community detection, hybrid graph and vector RAG, query planning, graph databases, Cypher, RDF, provenance, citations, multi-tenant security, prompt injection defense, graph evaluation, observability, performance optimization, and incremental graph maintenance."
+keywords:
+  - Graph RAG
+  - Graph Retrieval-Augmented Generation
+  - Graph RAG Architecture
+  - Enterprise Graph RAG
+  - Enterprise Graph RAG Architecture
+  - Production Graph RAG
+  - Knowledge Graph RAG
+  - Knowledge Graphs for RAG
+  - Advanced RAG Architecture
+  - Enterprise RAG Architecture
+  - Enterprise AI Architecture
+  - Enterprise AI Engineering
+  - Retrieval-Augmented Generation
+  - Graph-Based Retrieval
+  - Graph-Based Reasoning
+  - Graph-Based Knowledge Retrieval
+  - Vector RAG vs Graph RAG
+  - Hybrid Graph RAG
+  - Hybrid Graph and Vector RAG
+  - Graph and Vector Database Integration
+  - Knowledge Graph
+  - Enterprise Knowledge Graph
+  - Knowledge Graph Construction
+  - Knowledge Graph Engineering
+  - Knowledge Graph Schema
+  - Graph Database
+  - Property Graph
+  - RDF Graph
+  - RDF vs Property Graph
+  - Cypher Query Language
+  - SPARQL
+  - Gremlin
+  - Graph Data Modeling
+  - Graph Nodes and Edges
+  - Graph Relationships
+  - Graph Properties
+  - Entity Extraction
+  - LLM-Based Entity Extraction
+  - Relationship Extraction
+  - LLM-Based Relationship Extraction
+  - Entity Resolution
+  - Entity Linking
+  - Canonical Entity IDs
+  - Graph Entity Normalization
+  - Knowledge Graph Validation
+  - Graph Construction Pipeline
+  - Graph Ingestion Pipeline
+  - Document-to-Graph Pipeline
+  - Graph Indexing
+  - Graph Traversal
+  - Bounded Graph Traversal
+  - Multi-Hop Graph Retrieval
+  - Graph Path Reasoning
+  - Graph-Based Dependency Analysis
+  - Relationship-Based Retrieval
+  - Graph Query Planning
+  - Graph Query Optimization
+  - Graph Query Router
+  - Graph Retrieval Interface
+  - Provider-Agnostic Graph Retriever
+  - Ports and Adapters Architecture
+  - Graph RAG Query Lifecycle
+  - Local Graph Retrieval
+  - Global Graph Retrieval
+  - Community Detection
+  - Community-Based Retrieval
+  - Graph Community Summarization
+  - Local and Global Graph RAG
+  - Graph Context Engineering
+  - Graph Context Serialization
+  - Graph Context Compression
+  - Graph Evidence Retrieval
+  - Graph and Document Provenance
+  - Provenance-Aware RAG
+  - Graph RAG Citation Architecture
+  - Explainable Graph RAG
+  - Evidence Fusion
+  - Hybrid Retrieval Architecture
+  - Parallel Graph and Vector Retrieval
+  - Graph Retrieval Reranking
+  - Context Selection for RAG
+  - Graph-Aware Prompt Assembly
+  - Enterprise Knowledge Retrieval
+  - Enterprise Dependency Mapping
+  - Application Dependency Analysis
+  - Service Dependency Graph
+  - Customer Impact Analysis
+  - Incident Impact Analysis
+  - Organizational Knowledge Graph
+  - Graph RAG for Enterprise Applications
+  - Graph RAG for Microservices
+  - Graph RAG for IT Operations
+  - Graph RAG for Compliance
+  - Graph RAG for Knowledge Assistants
+  - Graph RAG Security
+  - Graph Data Authorization
+  - Fine-Grained Graph Access Control
+  - Multi-Tenant Graph RAG
+  - Tenant-Aware Graph Retrieval
+  - Secure Graph Traversal
+  - Graph Prompt Injection
+  - RAG Prompt Injection Defense
+  - Untrusted Retrieved Content
+  - Graph RAG Hallucination Reduction
+  - Knowledge Graph Data Quality
+  - Graph Quality Metrics
+  - Entity Precision and Recall
+  - Relationship Precision and Recall
+  - Entity Resolution Accuracy
+  - Graph Coverage
+  - Graph Retrieval Evaluation
+  - Graph Path Accuracy
+  - Entity Linking Accuracy
+  - RAG Answer Correctness
+  - RAG Groundedness
+  - Citation Accuracy
+  - Graph RAG Evaluation Dataset
+  - Graph RAG Regression Testing
+  - Graph RAG Observability
+  - Graph RAG Failure Modes
+  - Graph Traversal Performance
+  - Graph Query Cost Optimization
+  - Graph Traversal Depth
+  - Graph Query Timeouts
+  - Graph RAG Latency
+  - Graph RAG Cost Optimization
+  - Graph Maintenance
+  - Temporal Knowledge Graph
+  - Incremental Graph Updates
+  - Graph and Vector Store Synchronization
+  - Graph Versioning
+  - Graph Data Freshness
+  - Graph Evidence and Source Tracking
+  - Enterprise Knowledge Fabric
+  - Production RAG Systems
+  - Enterprise AI Engineering Handbook
+---
+
 # 02. Graph RAG
 
 > **Category:** Advanced RAG Architecture  

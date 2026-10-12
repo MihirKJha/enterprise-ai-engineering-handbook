@@ -1,11 +1,187 @@
 ---
 title: "LlamaIndex Indexes: Vector, Keyword, Summary and Graph Retrieval"
-description: >
-  "Learn how LlamaIndex indexes organize documents and nodes for enterprise
-  RAG, including VectorStoreIndex, SummaryIndex, keyword and graph-oriented
-  indexes, embeddings, metadata, persistence, multi-index routing, index
-  versioning, incremental indexing, evaluation, security, and production
-  index lifecycle management."
+description: "Learn how LlamaIndex indexes organize documents and nodes for enterprise Retrieval-Augmented Generation (RAG). Explore VectorStoreIndex, SummaryIndex, KeywordTableIndex, knowledge graph indexing, embeddings, metadata filtering, index persistence, StorageContext, external vector databases, multi-index routing, hybrid retrieval, index versioning, incremental indexing, tenant isolation, blue-green deployments, retrieval evaluation, observability, caching, security, and production index lifecycle management. Understand how to select, compose, validate, deploy, monitor, and maintain indexes for scalable, reliable enterprise RAG systems."
+keywords:
+  - LlamaIndex
+  - LlamaIndex indexes
+  - LlamaIndex index architecture
+  - LlamaIndex tutorial
+  - LlamaIndex indexing
+  - LlamaIndex VectorStoreIndex
+  - LlamaIndex SummaryIndex
+  - LlamaIndex KeywordTableIndex
+  - LlamaIndex KnowledgeGraphIndex
+  - LlamaIndex StorageContext
+  - LlamaIndex index persistence
+  - LlamaIndex vector store integration
+  - enterprise RAG
+  - enterprise RAG architecture
+  - production RAG
+  - Retrieval-Augmented Generation
+  - RAG engineering
+  - RAG system design
+  - RAG indexing
+  - RAG index management
+  - enterprise AI architecture
+  - enterprise AI engineering
+  - retrieval engineering
+  - retrieval architecture
+  - information retrieval
+  - index data structures
+  - document indexing
+  - node indexing
+  - Documents and Nodes
+  - document processing
+  - document parsing
+  - document chunking
+  - node parsing
+  - chunking strategies
+  - semantic chunking
+  - retrieval units
+  - vector indexing
+  - vector search
+  - vector retrieval
+  - semantic search
+  - vector database
+  - vector store
+  - external vector database
+  - embedding models
+  - text embeddings
+  - embedding configuration
+  - embedding consistency
+  - embedding dimensions
+  - embedding versioning
+  - embedding normalization
+  - cosine similarity
+  - similarity search
+  - top-k retrieval
+  - dense retrieval
+  - sparse retrieval
+  - keyword retrieval
+  - keyword indexing
+  - BM25
+  - lexical search
+  - exact identifier search
+  - hybrid retrieval
+  - hybrid search
+  - dense and sparse search
+  - SummaryIndex retrieval
+  - summary-oriented retrieval
+  - document summarization
+  - broad context retrieval
+  - KeywordTableIndex
+  - knowledge graph indexing
+  - graph-based retrieval
+  - entity extraction
+  - entity relationships
+  - knowledge graphs
+  - vector versus graph retrieval
+  - index selection
+  - index selection strategy
+  - index and retriever
+  - retriever abstraction
+  - query engine
+  - response synthesis
+  - retrieval pipeline
+  - index construction
+  - indexing pipeline
+  - indexing time versus query time
+  - persistent indexes
+  - index loading
+  - index storage
+  - document store
+  - index store
+  - vector store persistence
+  - Chroma
+  - FAISS
+  - Milvus
+  - Pinecone
+  - Qdrant
+  - Weaviate
+  - OpenSearch
+  - metadata-aware indexing
+  - metadata filtering
+  - metadata schema
+  - metadata completeness
+  - tenant-aware indexing
+  - multi-tenant RAG
+  - tenant isolation
+  - tenant-scoped retrieval
+  - shared index architecture
+  - tenant-specific indexes
+  - index sharding
+  - index routing
+  - multi-index architecture
+  - multiple indexes
+  - index composition
+  - query planning
+  - retrieval orchestration
+  - index fusion
+  - candidate fusion
+  - parallel retrieval
+  - retrieval fallback
+  - fault-tolerant retrieval
+  - index failure isolation
+  - index lifecycle management
+  - index build pipeline
+  - index validation
+  - index versioning
+  - index rollback
+  - blue-green index deployment
+  - index registry
+  - index aliases
+  - index deployment
+  - index warm-up
+  - index cold start
+  - incremental indexing
+  - incremental updates
+  - document change detection
+  - document deletion
+  - index freshness
+  - index freshness lag
+  - current and historical indexes
+  - index synchronization
+  - index rebuild
+  - index rebuild triggers
+  - retrieval quality
+  - index quality
+  - retrieval evaluation
+  - Recall at K
+  - Mean Reciprocal Rank
+  - Normalized Discounted Cumulative Gain
+  - NDCG
+  - retrieval quality gates
+  - index experimentation
+  - index experiment matrix
+  - index observability
+  - index health monitoring
+  - retrieval latency
+  - no-result rate
+  - index build metrics
+  - index monitoring
+  - index security
+  - RAG security
+  - data isolation
+  - data residency
+  - data retention
+  - right to deletion
+  - audit logging
+  - encryption
+  - access control
+  - index compliance
+  - embedding security
+  - retrieval cache
+  - embedding cache
+  - query cache
+  - response cache
+  - cache invalidation
+  - cache key security
+  - authorization-aware caching
+  - CI/CD for RAG
+  - index build automation
+  - production index management
+  - scalable RAG systems
+  - reliable enterprise AI systems
 ---
 # LlamaIndex Indexes
 

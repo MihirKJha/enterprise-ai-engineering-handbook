@@ -1,3 +1,157 @@
+---
+title: "Hybrid Search Retriever in RAG: Dense and Sparse Retrieval, BM25, RRF, and Enterprise Architecture"
+description: "Learn how to design and implement hybrid search for Retrieval-Augmented Generation (RAG) by combining dense vector retrieval with sparse lexical search. Explore BM25, score normalization, weighted score fusion, Reciprocal Rank Fusion (RRF), LangChain EnsembleRetriever, parallel retrieval, metadata filtering, query rewriting, deduplication, reranking, contextual compression, evaluation metrics, observability, and production-ready enterprise retrieval architecture."
+keywords:
+  - Hybrid Search Retriever
+  - hybrid search
+  - hybrid retrieval
+  - hybrid search RAG
+  - Retrieval-Augmented Generation
+  - RAG
+  - enterprise RAG
+  - enterprise retrieval engineering
+  - advanced RAG
+  - RAG architecture
+  - retrieval architecture
+  - retrieval pipeline
+  - dense retrieval
+  - sparse retrieval
+  - dense vector search
+  - sparse lexical search
+  - dense embeddings
+  - sparse vectors
+  - dense and sparse retrieval
+  - semantic search
+  - lexical search
+  - semantic retrieval
+  - keyword search
+  - vector retrieval
+  - vector database
+  - embedding models
+  - BM25
+  - BM25 retriever
+  - BM25 ranking
+  - inverted index
+  - term frequency
+  - inverse document frequency
+  - document length normalization
+  - lexical relevance
+  - semantic similarity
+  - exact-term matching
+  - exact keyword search
+  - technical identifier retrieval
+  - error code search
+  - acronym search
+  - product ID search
+  - technical documentation search
+  - Reciprocal Rank Fusion
+  - RRF
+  - reciprocal rank fusion algorithm
+  - result fusion
+  - rank fusion
+  - weighted score fusion
+  - hybrid scoring
+  - score normalization
+  - min-max normalization
+  - z-score normalization
+  - softmax normalization
+  - rank-based normalization
+  - retrieval score calibration
+  - dense retrieval weights
+  - sparse retrieval weights
+  - ensemble retrieval
+  - LangChain EnsembleRetriever
+  - LangChain hybrid search
+  - Python hybrid retrieval
+  - BM25Retriever
+  - LangChain community retrievers
+  - vector store retriever
+  - hybrid search implementation
+  - hybrid search architecture
+  - parallel retrieval
+  - concurrent retrieval
+  - retrieval latency optimization
+  - hybrid index
+  - learned sparse retrieval
+  - sparse embedding models
+  - dense encoder
+  - sparse encoder
+  - query preprocessing
+  - query rewriting
+  - query expansion
+  - query classification
+  - dynamic retrieval weighting
+  - semantic query classification
+  - exact-term query classification
+  - technical query retrieval
+  - acronym-heavy queries
+  - metadata filtering
+  - metadata-aware retrieval
+  - access control filtering
+  - document eligibility
+  - temporal retrieval
+  - time-weighted retrieval
+  - multi-vector retrieval
+  - parent document retrieval
+  - parent resolution
+  - reranking
+  - RAG reranker
+  - contextual compression
+  - maximum marginal relevance
+  - MMR retrieval
+  - candidate generation
+  - candidate ranking
+  - retrieval deduplication
+  - document deduplication
+  - chunk deduplication
+  - stable document identifiers
+  - content hashing
+  - retrieval provenance
+  - source attribution
+  - citation provenance
+  - retrieval observability
+  - retrieval tracing
+  - RAG debugging
+  - retrieval performance monitoring
+  - hybrid search evaluation
+  - retrieval evaluation metrics
+  - Recall at K
+  - Precision at K
+  - Mean Reciprocal Rank
+  - MRR
+  - Normalized Discounted Cumulative Gain
+  - NDCG
+  - query-level evaluation
+  - end-to-end RAG evaluation
+  - answer correctness
+  - faithfulness
+  - context relevance
+  - citation accuracy
+  - retrieval latency
+  - retrieval cost optimization
+  - production RAG systems
+  - enterprise AI architecture
+  - framework-agnostic retrieval
+  - Ports and Adapters architecture
+  - configuration-driven retrieval
+  - retrieval abstraction
+  - technical documentation retrieval
+  - developer copilots
+  - enterprise search
+  - customer support search
+  - product search
+  - legal document search
+  - financial research retrieval
+  - knowledge assistants
+  - internal knowledge search
+  - domain-specific tokenization
+  - text normalization
+  - search index optimization
+  - hybrid retrieval testing
+  - retrieval regression testing
+  - production hybrid search checklist
+---
+
 # Hybrid Search Retriever
 
 ## 📖 Overview

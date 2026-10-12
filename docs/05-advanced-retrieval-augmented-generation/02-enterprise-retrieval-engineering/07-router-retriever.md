@@ -1,3 +1,189 @@
+---
+title: "Router Retriever in RAG: Intelligent Retrieval Routing, Multi-Source Search, and Enterprise Architecture"
+description: "Learn how Router Retrievers dynamically select the right retrieval strategy, data source, or index for each query in enterprise Retrieval-Augmented Generation systems. Explore rule-based, semantic, classifier-based, and LLM-based routing; Python implementations; structured route decisions; retriever registries; capability-based routing; and LangChain-style patterns. Discover how to combine routing with hybrid search, SQL RAG, Graph RAG, Multi-Vector Retrieval, reranking, contextual compression, parallel multi-route execution, query decomposition, security controls, fallback strategies, cost-aware routing, observability, and production evaluation."
+keywords:
+  - Router Retriever
+  - Router Retriever in RAG
+  - RAG Router
+  - retrieval routing
+  - intelligent retrieval routing
+  - retrieval orchestration
+  - retrieval orchestration layer
+  - Retrieval-Augmented Generation
+  - RAG architecture
+  - enterprise RAG
+  - enterprise RAG architecture
+  - advanced RAG
+  - enterprise retrieval platform
+  - multi-retriever architecture
+  - multi-source retrieval
+  - heterogeneous knowledge retrieval
+  - query routing
+  - query-based routing
+  - dynamic retrieval routing
+  - intelligent query routing
+  - retrieval strategy selection
+  - retriever selection
+  - data source routing
+  - index routing
+  - capability-based routing
+  - retrieval capabilities
+  - route selection
+  - route classification
+  - query classification
+  - query understanding
+  - rule-based routing
+  - keyword-based routing
+  - deterministic routing
+  - semantic routing
+  - embedding-based routing
+  - semantic similarity routing
+  - LLM-based routing
+  - LLM query classification
+  - classifier-based routing
+  - machine learning classification
+  - hybrid routing
+  - routing rules
+  - route descriptions
+  - route embeddings
+  - routing confidence
+  - confidence thresholds
+  - structured router output
+  - structured LLM output
+  - Pydantic route schema
+  - route validation
+  - router prompt engineering
+  - router prompt design
+  - Python RAG router
+  - Python retriever routing
+  - LangChain routing patterns
+  - LlamaIndex retrieval routing
+  - framework-agnostic retriever
+  - retriever abstraction
+  - retriever registry
+  - retrieval registry
+  - retrieval orchestrator
+  - retrieval orchestration component
+  - ports and adapters architecture
+  - hexagonal architecture
+  - retrieval adapters
+  - retriever interfaces
+  - vector retriever
+  - vector search
+  - semantic search
+  - dense retrieval
+  - BM25 retriever
+  - sparse retrieval
+  - lexical search
+  - hybrid retriever
+  - hybrid search
+  - SQL retriever
+  - SQL RAG
+  - Text-to-SQL
+  - structured data retrieval
+  - Graph Retriever
+  - Graph RAG
+  - knowledge graph retrieval
+  - entity relationship retrieval
+  - policy retriever
+  - metadata-aware retrieval
+  - time-weighted retrieval
+  - temporal retrieval
+  - multi-vector retrieval
+  - Multi-Vector Retriever
+  - multiple vector stores
+  - domain-specific retrieval
+  - enterprise knowledge platform
+  - enterprise knowledge assistant
+  - technical documentation retrieval
+  - HR policy retrieval
+  - financial data retrieval
+  - operational runbook search
+  - document retrieval
+  - capability registry
+  - configuration-driven routing
+  - route registry metadata
+  - single-route retrieval
+  - multi-route retrieval
+  - parallel retrieval
+  - concurrent retrieval
+  - multi-source query execution
+  - query decomposition
+  - complex query routing
+  - result fusion
+  - context fusion
+  - result deduplication
+  - candidate generation
+  - reranking
+  - shared reranker
+  - contextual compression
+  - context selection
+  - context engineering
+  - router versus ensemble retriever
+  - router versus hybrid search
+  - ensemble retrieval
+  - retrieval signal fusion
+  - fallback routing
+  - fallback retriever
+  - retrieval failure handling
+  - routing failure handling
+  - low-confidence routing
+  - invalid route handling
+  - retriever availability
+  - secondary retrieval
+  - dynamic route escalation
+  - multi-stage retrieval
+  - adaptive retrieval
+  - cost-aware routing
+  - latency-aware routing
+  - retrieval cost optimization
+  - retrieval latency optimization
+  - retrieval quality thresholds
+  - route confidence scoring
+  - security-aware routing
+  - authorization-aware retrieval
+  - tenant-aware routing
+  - multi-tenant retrieval
+  - tenant isolation
+  - row-level security
+  - database permissions
+  - SQL query validation
+  - read-only database access
+  - graph access control
+  - domain isolation
+  - enterprise data governance
+  - routing observability
+  - retrieval observability
+  - route tracing
+  - routing latency
+  - route distribution
+  - fallback rate
+  - low-confidence rate
+  - incorrect-route rate
+  - routing accuracy
+  - routing evaluation dataset
+  - labeled query dataset
+  - routing confusion matrix
+  - retrieval evaluation
+  - retrieval recall
+  - context relevance
+  - answer correctness
+  - faithfulness evaluation
+  - citation accuracy
+  - end-to-end RAG evaluation
+  - routing unit tests
+  - routing integration tests
+  - retrieval security testing
+  - router regression testing
+  - production RAG pipeline
+  - enterprise AI architecture
+  - agentic retrieval
+  - router versus agentic retrieval
+  - dynamic retrieval planning
+  - iterative retrieval
+  - multi-stage retrieval orchestration
+---
+
 # Router Retriever
 
 ## 📖 Overview

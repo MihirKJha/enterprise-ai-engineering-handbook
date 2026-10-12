@@ -1,3 +1,208 @@
+---
+title: "Prompt Assembly in Production RAG: Context Engineering, Security, and Token Optimization"
+description: >
+  Learn how to design a production-ready prompt assembly pipeline for enterprise
+  Retrieval-Augmented Generation (RAG) systems. Explore prompt structure, evidence
+  selection, metadata preservation, source attribution, relevance and authority
+  ranking, deduplication, context compression, token budgeting, and conversation
+  history management. Understand how to protect against prompt injection, enforce
+  authorization and tenant isolation before model invocation, and assemble
+  multimodal evidence from documents, tables, knowledge graphs, images, SQL, and
+  APIs. Includes Python implementation patterns for prompt builders, evidence
+  formatters, context selectors, provider-agnostic adapters, and prompt assembly
+  services. Covers prompt versioning, response contracts, citation validation,
+  unit testing, regression testing, observability, privacy-aware logging, caching,
+  and cost optimization for reliable, secure, and maintainable enterprise RAG.
+keywords:
+  - prompt assembly
+  - prompt assembly in RAG
+  - production RAG
+  - enterprise RAG
+  - Retrieval-Augmented Generation
+  - RAG prompt engineering
+  - prompt engineering
+  - context engineering
+  - context assembly
+  - context construction
+  - prompt construction
+  - prompt architecture
+  - prompt assembly pipeline
+  - RAG pipeline architecture
+  - production prompt design
+  - enterprise AI engineering
+  - RAG system design
+  - RAG application architecture
+  - prompt builder
+  - prompt builder pattern
+  - prompt assembly service
+  - prompt compiler
+  - prompt specification
+  - prompt template
+  - prompt template versioning
+  - reusable prompt templates
+  - dynamic prompt construction
+  - structured prompts
+  - system instructions
+  - system prompts
+  - task instructions
+  - user query placement
+  - conversation context
+  - retrieved evidence
+  - response contract
+  - structured model input
+  - foundation model integration
+  - LLM prompt formatting
+  - LLM context management
+  - retrieval context formatting
+  - evidence formatting
+  - evidence formatter
+  - Markdown evidence formatter
+  - evidence selection
+  - context selection
+  - query-aware context assembly
+  - context slots
+  - context coverage
+  - context diversity
+  - evidence diversity
+  - evidence ranking
+  - retrieval ranking
+  - relevance scoring
+  - source authority
+  - source freshness
+  - metadata matching
+  - evidence re-ranking
+  - retrieval deduplication
+  - document deduplication
+  - contextual compression
+  - context compression
+  - context summarization
+  - context truncation
+  - document-aware truncation
+  - context packing
+  - context window packing
+  - context window management
+  - token budgeting
+  - context budget allocation
+  - token estimation
+  - token counting
+  - tokenizer integration
+  - model context limits
+  - context window optimization
+  - token-efficient prompts
+  - LLM token optimization
+  - prompt latency optimization
+  - LLM cost optimization
+  - retrieved document selection
+  - conversation history management
+  - conversation summarization
+  - conversation compression
+  - relevant history selection
+  - conversational RAG
+  - query rewriting
+  - query-aware retrieval
+  - multi-source retrieval
+  - hybrid retrieval
+  - vector search evidence
+  - BM25 retrieval
+  - SQL retrieval
+  - knowledge graph retrieval
+  - multimodal RAG
+  - multimodal prompt assembly
+  - image evidence
+  - table evidence
+  - graph evidence
+  - API retrieval
+  - structured evidence
+  - source identity preservation
+  - metadata preservation
+  - document provenance
+  - citation-aware prompts
+  - citation metadata
+  - source attribution
+  - citation generation
+  - citation validation
+  - grounded generation
+  - grounded responses
+  - factual accuracy in RAG
+  - evidence-based answering
+  - hallucination reduction
+  - response validation
+  - structured LLM output
+  - JSON response schema
+  - prompt injection
+  - RAG prompt injection defense
+  - prompt injection boundaries
+  - untrusted retrieved content
+  - retrieved content sanitization
+  - prompt security
+  - secure prompt assembly
+  - context sanitization
+  - data boundaries in prompts
+  - XML-style context delimiters
+  - JSON context formatting
+  - Markdown context formatting
+  - prompt format comparison
+  - authorization before prompt assembly
+  - retrieval authorization
+  - tenant isolation
+  - multi-tenant RAG security
+  - enterprise data protection
+  - access-controlled retrieval
+  - confidential data protection
+  - privacy-aware logging
+  - sensitive prompt data
+  - data governance
+  - prompt observability
+  - prompt tracing
+  - prompt version tracking
+  - retrieved source tracking
+  - context token metrics
+  - prompt token metrics
+  - LLM latency monitoring
+  - LLM cost monitoring
+  - prompt caching
+  - static prompt components
+  - dynamic prompt context
+  - prompt configuration
+  - prompt regression testing
+  - prompt unit testing
+  - context boundary testing
+  - token budget testing
+  - authorization testing
+  - prompt evaluation
+  - RAG evaluation metrics
+  - answer accuracy
+  - groundedness evaluation
+  - citation accuracy
+  - context utilization
+  - evidence coverage evaluation
+  - prompt quality assurance
+  - Python prompt builder
+  - Python RAG implementation
+  - Python dataclasses
+  - Evidence data model
+  - PromptRequest
+  - ChatPrompt
+  - PromptBuilderFactory
+  - PromptBuilder interface
+  - EvidenceSelector
+  - EvidenceFormatter
+  - Model adapter pattern
+  - provider-agnostic prompt architecture
+  - model-specific prompt adaptation
+  - ports and adapters architecture
+  - hexagonal architecture
+  - separation of responsibilities
+  - modular RAG architecture
+  - framework-agnostic AI systems
+  - enterprise AI platform
+  - production LLM systems
+  - scalable RAG architecture
+  - reliable AI applications
+  - context engineering best practices
+  - production prompt assembly best practices
+---
+
 # 01. Prompt Assembly
 
 > **Category:** Production RAG Engineering  

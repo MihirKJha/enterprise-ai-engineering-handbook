@@ -1,3 +1,140 @@
+---
+title: "Citation and Source Attribution in Production RAG: Provenance, Validation, and Enterprise Architecture"
+description: >
+  Learn how to design citation and source attribution for production-grade
+  Retrieval-Augmented Generation (RAG) systems. This chapter covers claim-level
+  citations, source provenance, stable source identifiers, citation registries,
+  structured response schemas, claim-to-evidence mapping, citation validation,
+  source authority, freshness, version-aware attribution, and secure citation
+  rendering. Explore practical Python and Pydantic implementations, numerical
+  and date validation, conflict-aware attribution, multimodal and graph RAG
+  citations, provenance-preserving context compression, citation observability,
+  security controls, and evaluation metrics including citation validity,
+  accuracy, coverage, source authority, and freshness. Understand how to build
+  auditable, traceable, and trustworthy enterprise RAG pipelines.
+keywords:
+  - citation and source attribution
+  - RAG citations
+  - Retrieval-Augmented Generation
+  - production RAG engineering
+  - enterprise RAG architecture
+  - citation-aware RAG
+  - source attribution in RAG
+  - claim-to-source mapping
+  - claim-to-evidence mapping
+  - claim-level citations
+  - sentence-level citations
+  - paragraph-level citations
+  - answer-level citations
+  - document-level citations
+  - page-level citations
+  - section-level citations
+  - line-level citations
+  - citation granularity
+  - citation provenance
+  - source provenance
+  - data lineage in RAG
+  - evidence traceability
+  - provenance chain
+  - provenance propagation
+  - stable source identifiers
+  - citation registry
+  - source registry
+  - citation data model
+  - source metadata
+  - document metadata
+  - document versioning
+  - version-aware citations
+  - historical source attribution
+  - source freshness
+  - source authority
+  - source hierarchy
+  - authoritative sources
+  - conflicting sources
+  - conflict-aware attribution
+  - citation generation strategies
+  - model-generated citations
+  - post-generation citation mapping
+  - structured claim generation
+  - hybrid citation generation
+  - citation-aware prompting
+  - citation-aware context
+  - citation-aware response schema
+  - structured citations
+  - inline citations
+  - machine-readable citations
+  - human-readable citations
+  - Pydantic response validation
+  - Python citation implementation
+  - citation extraction
+  - citation validation
+  - citation existence validation
+  - citation membership validation
+  - citation correctness
+  - citation completeness
+  - citation coverage
+  - citation accuracy
+  - citation validity
+  - claim support validation
+  - evidence matching
+  - semantic similarity
+  - natural language inference
+  - entailment-based validation
+  - numerical claim validation
+  - date validation
+  - identifier validation
+  - exact fact preservation
+  - citation rendering
+  - citation numbering
+  - citation deduplication
+  - citation ordering
+  - citation links
+  - secure citation links
+  - citation authorization
+  - source access control
+  - citation redaction
+  - enterprise data security
+  - citation user experience
+  - citation observability
+  - citation debugging
+  - citation tracing
+  - citation quality metrics
+  - citation evaluation
+  - source quality evaluation
+  - source freshness metrics
+  - citation click-through rate
+  - citation verification rate
+  - request-scoped citation registry
+  - document chunk provenance
+  - provenance-preserving compression
+  - context engineering
+  - context selection
+  - prompt assembly
+  - RAG orchestration
+  - claim extraction
+  - citation mapping service
+  - citation validator interface
+  - production citation architecture
+  - enterprise knowledge management
+  - compliance and auditability
+  - explainable AI
+  - trustworthy AI systems
+  - multi-source citations
+  - comparative RAG answers
+  - multi-hop RAG citations
+  - Graph RAG citations
+  - SQL RAG citations
+  - multimodal RAG citations
+  - code RAG citations
+  - configuration RAG citations
+  - knowledge graph provenance
+  - secure enterprise RAG
+  - auditable AI responses
+  - grounded LLM responses
+  - hallucination prevention
+  - reliable AI applications
+---
+
 # 04. Citation and Source Attribution
 
 > **Category:** Production RAG Engineering  
