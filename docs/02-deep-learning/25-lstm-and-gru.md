@@ -1,3 +1,156 @@
+---
+title: "LSTM and GRU Networks: Architecture, Gating Mechanisms, PyTorch Implementation, and Production Applications"
+description: >
+  Learn Long Short-Term Memory (LSTM) and Gated Recurrent Unit (GRU)
+  networks, two gated recurrent architectures designed to address the
+  long-term dependency and gradient-flow limitations of vanilla Recurrent
+  Neural Networks (RNNs). This chapter explains the LSTM cell architecture,
+  hidden state, cell state, forget gate, input gate, output gate, candidate
+  cell state, and mathematical formulations for controlling information flow.
+  Understand how LSTM preserves long-term information through gated cell-state
+  updates and how GRU simplifies recurrent memory using update and reset gates.
+  Compare vanilla RNN, LSTM, GRU, and Transformer architectures in terms of
+  memory mechanisms, parameter counts, computational complexity, training
+  speed, and long-range dependency modeling. Learn to implement LSTM and GRU
+  models using PyTorch nn.LSTM and nn.GRU, including tensor shapes, hidden
+  states, cell states, sequence classification, embedding layers, stacked
+  recurrent networks, bidirectional models, dropout, and gradient clipping.
+  Explore variable-length sequence processing with padding and packed
+  sequences, time-series forecasting, natural language processing, sentiment
+  analysis, speech recognition, and sequence labeling. Understand the role of
+  attention in recurrent encoder-decoder architectures and the evolution from
+  gated recurrent networks to attention-based models and Transformers. Examine
+  enterprise deployment considerations, including stateful inference, session
+  management, model versioning, sequence preprocessing, monitoring, latency,
+  throughput, memory consumption, infrastructure costs, and production
+  benchmarking. Complete practical exercises and interview questions to
+  strengthen your understanding of recurrent neural networks and learn how
+  to select appropriate sequence-modeling architectures based on accuracy,
+  long-term dependencies, streaming requirements, computational efficiency,
+  and operational constraints.
+keywords:
+  - LSTM
+  - Long Short-Term Memory
+  - GRU
+  - Gated Recurrent Unit
+  - LSTM vs GRU
+  - RNN vs LSTM
+  - RNN vs GRU
+  - recurrent neural networks
+  - gated recurrent neural networks
+  - recurrent sequence modeling
+  - sequence modeling
+  - sequential data processing
+  - long-term dependencies
+  - vanishing gradient problem
+  - exploding gradient problem
+  - gradient flow in recurrent networks
+  - LSTM architecture
+  - LSTM cell
+  - LSTM cell state
+  - LSTM hidden state
+  - LSTM forget gate
+  - LSTM input gate
+  - LSTM output gate
+  - LSTM candidate cell state
+  - LSTM mathematical formulation
+  - LSTM cell-state update
+  - LSTM memory mechanism
+  - LSTM gradient flow
+  - GRU architecture
+  - GRU update gate
+  - GRU reset gate
+  - GRU candidate hidden state
+  - GRU hidden-state update
+  - gated information flow
+  - recurrent memory management
+  - LSTM parameter count
+  - GRU parameter count
+  - LSTM computational complexity
+  - GRU computational efficiency
+  - LSTM training speed
+  - GRU training speed
+  - LSTM vs GRU performance
+  - LSTM architecture selection
+  - GRU architecture selection
+  - PyTorch LSTM
+  - PyTorch GRU
+  - PyTorch nn.LSTM
+  - PyTorch nn.GRU
+  - PyTorch recurrent neural networks
+  - LSTM implementation in PyTorch
+  - GRU implementation in PyTorch
+  - LSTM classifier
+  - GRU classifier
+  - recurrent neural network training
+  - LSTM training loop
+  - GRU training loop
+  - LSTM tensor shapes
+  - GRU tensor shapes
+  - recurrent hidden states
+  - LSTM cell-state handling
+  - gradient clipping
+  - stacked LSTM
+  - stacked GRU
+  - bidirectional LSTM
+  - bidirectional GRU
+  - recurrent network dropout
+  - variable-length sequences
+  - sequence padding
+  - packed sequences in PyTorch
+  - pack_padded_sequence
+  - pad_packed_sequence
+  - sequence classification
+  - many-to-one sequence classification
+  - sequence preprocessing
+  - embedding layers
+  - text embeddings
+  - LSTM embeddings
+  - GRU embeddings
+  - natural language processing
+  - NLP sequence modeling
+  - sentiment analysis
+  - text classification
+  - language modeling
+  - machine translation
+  - speech recognition
+  - named entity recognition
+  - sequence labeling
+  - time-series forecasting
+  - LSTM time-series forecasting
+  - GRU time-series forecasting
+  - autoregressive forecasting
+  - multi-step forecasting
+  - forecasting error accumulation
+  - sensor data processing
+  - event sequence modeling
+  - attention mechanisms
+  - LSTM encoder-decoder
+  - encoder-decoder with attention
+  - recurrent neural networks with attention
+  - LSTM vs Transformer
+  - GRU vs Transformer
+  - Transformer architecture
+  - self-attention
+  - evolution of sequence models
+  - enterprise sequence modeling
+  - production LSTM architecture
+  - production GRU architecture
+  - stateful inference
+  - hidden-state management
+  - streaming inference
+  - session state management
+  - recurrent model versioning
+  - sequence model monitoring
+  - model latency and throughput
+  - inference cost optimization
+  - production machine learning
+  - deep learning architecture selection
+  - recurrent model benchmarking
+  - enterprise AI engineering
+  - production-grade AI systems
+---
+
 # 25. LSTM and GRU
 
 > Understand how Long Short-Term Memory (LSTM) and Gated Recurrent Unit (GRU) networks overcome key limitations of vanilla RNNs by introducing learnable gating mechanisms for controlling information flow, preserving long-term dependencies, and building more robust sequence-processing systems.

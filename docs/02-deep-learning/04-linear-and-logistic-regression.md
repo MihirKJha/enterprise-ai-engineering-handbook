@@ -1,11 +1,100 @@
 ---
-title: Linear and Logistic Regression
+title: "Linear and Logistic Regression: Mathematical Foundations, Neural Network Connections, and Practical Implementations"
 description: >
-  Learn Linear Regression and Logistic Regression from a Machine Learning and
-  Deep Learning perspective, including linear transformations, coefficients,
-  residuals, Ordinary Least Squares, Mean Squared Error, sigmoid activation,
-  logits, probability thresholds, decision boundaries, Binary Cross-Entropy,
-  Keras and PyTorch implementations, and enterprise AI applications.
+  Explore Linear Regression and Logistic Regression from both Machine Learning
+  and Deep Learning perspectives. Understand simple and multiple Linear Regression,
+  linear transformations, coefficients, intercepts, residuals, Ordinary Least Squares
+  (OLS), Mean Squared Error (MSE), and gradient-based optimization. Learn how Logistic
+  Regression uses the sigmoid activation function to transform logits into probabilities,
+  apply probability thresholds, interpret odds and log-odds, and establish decision
+  boundaries. Discover Binary Cross-Entropy, feature scaling, model training, and
+  numerically stable implementations using TensorFlow, Keras, and PyTorch. Understand
+  how linear and logistic models map to neural network layers and single-neuron
+  architectures. Covers regression and classification use cases, customer churn,
+  fraud detection, risk scoring, enterprise prediction services, production architecture
+  considerations, model limitations, common mistakes, interview questions, and the
+  conceptual foundations required for advanced Deep Learning.
+keywords:
+  - Linear and Logistic Regression
+  - Linear Regression
+  - Logistic Regression
+  - Machine Learning Fundamentals
+  - Deep Learning Fundamentals
+  - Supervised Learning
+  - Regression Algorithms
+  - Classification Algorithms
+  - Simple Linear Regression
+  - Multiple Linear Regression
+  - Linear Transformation
+  - Linear Models
+  - Regression Coefficients
+  - Intercept and Slope
+  - Weights and Bias
+  - Feature Matrix
+  - Matrix Representation
+  - Residuals
+  - Prediction Error
+  - Mean Squared Error
+  - MSE Loss
+  - Ordinary Least Squares
+  - OLS Regression
+  - Normal Equation
+  - Gradient Descent
+  - Model Optimization
+  - Continuous Value Prediction
+  - Binary Classification
+  - Sigmoid Activation Function
+  - Logistic Function
+  - Logits
+  - Probability Prediction
+  - Probability Thresholding
+  - Decision Boundaries
+  - Odds and Log-Odds
+  - Logit Function
+  - Binary Cross-Entropy
+  - Log Loss
+  - Maximum Likelihood
+  - Neural Network Fundamentals
+  - Artificial Neurons
+  - Single-Neuron Model
+  - Dense Layer
+  - Linear Layer
+  - Neural Network Weights
+  - Forward Pass
+  - Backpropagation
+  - Model Training
+  - Feature Scaling
+  - Feature Standardization
+  - Classification Threshold Optimization
+  - Precision and Recall
+  - Class Imbalance
+  - Probability Calibration
+  - Data Leakage
+  - TensorFlow
+  - Keras
+  - PyTorch
+  - Scikit-Learn
+  - Neural Network Implementation
+  - PyTorch Training Loop
+  - BCEWithLogitsLoss
+  - Regression Model Evaluation
+  - Binary Classification Model
+  - House Price Prediction
+  - Sales Forecasting
+  - Demand Forecasting
+  - Customer Churn Prediction
+  - Fraud Detection
+  - Loan Default Prediction
+  - Risk Scoring
+  - Predictive Maintenance
+  - Enterprise Machine Learning
+  - Production ML Systems
+  - Prediction Service Architecture
+  - Model Deployment
+  - Model Monitoring
+  - Enterprise AI Architecture
+  - Deep Learning Interview Questions
+  - Enterprise AI Engineering Handbook
 ---
 
 # 04. Linear and Logistic Regression

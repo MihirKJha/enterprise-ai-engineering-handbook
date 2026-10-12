@@ -1,3 +1,105 @@
+---
+title: "Transformer Applications: NLP, LLMs, Computer Vision, Multimodal AI, RAG, and Enterprise Systems"
+description: >
+  Explore the practical applications of Transformer architectures across Natural
+  Language Processing, Large Language Models, computer vision, speech and audio,
+  multimodal AI, semantic search, recommendation systems, code intelligence, and
+  enterprise intelligent applications. Learn how encoder-only, decoder-only, and
+  encoder-decoder Transformers support text classification, sentiment analysis,
+  named entity recognition, question answering, machine translation, summarization,
+  text generation, and code generation. Understand semantic embeddings, dual
+  encoders, cross-encoders, Transformer-based retrieval, reranking, and Retrieval-
+  Augmented Generation (RAG) architectures. Discover how Vision Transformers
+  represent images as patches, how hybrid CNN-Transformer models combine local
+  and global feature extraction, and how Transformer architectures process speech,
+  audio, video, and multimodal inputs. Examine enterprise use cases including
+  document intelligence, fraud detection, financial risk analysis, healthcare,
+  telecommunications, predictive maintenance, personalized recommendations,
+  conversational AI, tool calling, and agentic AI workflows. Learn to select
+  suitable Transformer architectures based on business requirements, model
+  capabilities, retrieval quality, latency, throughput, memory, hardware, and
+  inference cost. Understand production architecture patterns involving AI
+  gateways, model routing, provider adapters, inference runtimes, GPU
+  infrastructure, observability, evaluation, security, governance, and cost
+  management. Includes architecture diagrams, practical exercises, interview
+  questions, and production-oriented guidance for building scalable Transformer-
+  powered enterprise AI systems.
+keywords:
+  - Transformer applications
+  - Transformer architecture
+  - Transformer models
+  - Natural Language Processing
+  - NLP applications
+  - Large Language Models
+  - LLM architecture
+  - encoder-only Transformer
+  - decoder-only Transformer
+  - encoder-decoder Transformer
+  - text classification
+  - sentiment analysis
+  - named entity recognition
+  - question answering
+  - machine translation
+  - text summarization
+  - text generation
+  - code generation
+  - code intelligence
+  - semantic embeddings
+  - text embeddings
+  - semantic similarity
+  - semantic search
+  - vector search
+  - Transformer retrieval
+  - dual encoder
+  - bi-encoder
+  - cross-encoder
+  - Transformer reranking
+  - hybrid search
+  - Retrieval-Augmented Generation
+  - RAG architecture
+  - Vision Transformer
+  - ViT
+  - computer vision
+  - CNN Transformer hybrid
+  - image classification
+  - image segmentation
+  - object detection
+  - speech recognition
+  - speech Transformers
+  - audio understanding
+  - video understanding
+  - multimodal Transformers
+  - multimodal AI
+  - document intelligence
+  - intelligent document processing
+  - recommendation systems
+  - sequential recommendation
+  - fraud detection
+  - financial risk analysis
+  - predictive maintenance
+  - healthcare AI
+  - telecommunications AI
+  - Generative AI
+  - conversational AI
+  - tool calling
+  - agentic AI
+  - enterprise AI architecture
+  - enterprise AI platform
+  - AI gateway
+  - model routing
+  - Transformer inference
+  - GPU inference
+  - model serving
+  - production AI systems
+  - AI observability
+  - AI evaluation
+  - AI governance
+  - Transformer architecture selection
+  - deep learning applications
+  - PyTorch
+  - production machine learning
+---
+
 # 28. Transformer Applications
 
 > Explore how Transformer architectures have evolved beyond their original sequence-to-sequence design and now power Natural Language Processing, Large Language Models, Computer Vision, Speech, Multimodal AI, Retrieval, Recommendation, and enterprise intelligent systems.

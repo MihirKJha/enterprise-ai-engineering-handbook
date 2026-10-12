@@ -1,11 +1,93 @@
 ---
-title: Shallow and Deep Neural Networks
+title: "Shallow and Deep Neural Networks: Architecture, Model Capacity, and Hierarchical Representation Learning"
 description: >
-  Learn the differences between shallow and deep neural networks, including
-  network depth and width, model capacity, hierarchical representation
-  learning, parameter growth, function composition, vanishing and exploding
-  gradients, overfitting, Keras and PyTorch implementations, and production
-  architecture considerations.
+  Explore the fundamentals of shallow and deep neural networks, including network
+  depth and width, Multi-Layer Perceptrons (MLPs), learnable parameters, model
+  capacity, and hierarchical representation learning. Understand function
+  composition, forward propagation, backpropagation, the Universal Approximation
+  Theorem, vanishing and exploding gradients, weight initialization, normalization,
+  overfitting, and underfitting. Learn to build and compare shallow and deep neural
+  networks using TensorFlow, Keras, and PyTorch. Discover how to select appropriate
+  architectures based on data complexity, validation performance, computational
+  requirements, inference latency, memory usage, scalability, and operational cost.
+  Covers practical implementation, training challenges, specialized neural network
+  architectures, production engineering trade-offs, common mistakes, interview
+  questions, and enterprise AI architecture considerations.
+keywords:
+  - Shallow Neural Networks
+  - Deep Neural Networks
+  - Neural Network Architecture
+  - Artificial Neural Networks
+  - Deep Learning Fundamentals
+  - Machine Learning
+  - Network Depth
+  - Network Width
+  - Hidden Layers
+  - Neurons
+  - Multi-Layer Perceptron
+  - MLP Architecture
+  - Feedforward Neural Networks
+  - Fully Connected Neural Networks
+  - Hierarchical Representation Learning
+  - Feature Learning
+  - Representation Learning
+  - Neural Network Function Composition
+  - Universal Approximation Theorem
+  - Neural Network Expressiveness
+  - Model Capacity
+  - Neural Network Parameters
+  - Learnable Parameters
+  - Parameter Count
+  - Neural Network Mathematics
+  - Forward Propagation
+  - Backpropagation
+  - Gradient Descent
+  - Vanishing Gradient Problem
+  - Exploding Gradient Problem
+  - Gradient Clipping
+  - Activation Functions
+  - ReLU Activation
+  - Weight Initialization
+  - Batch Normalization
+  - Residual Connections
+  - Neural Network Optimization
+  - Neural Network Training
+  - Overfitting
+  - Underfitting
+  - Model Generalization
+  - Regularization
+  - Dropout
+  - Weight Decay
+  - Early Stopping
+  - Training and Validation Loss
+  - Shallow vs Deep Learning
+  - Neural Network Architecture Comparison
+  - TensorFlow
+  - Keras
+  - PyTorch
+  - Neural Network Implementation
+  - Binary Classification
+  - Structured Data Modeling
+  - Convolutional Neural Networks
+  - Recurrent Neural Networks
+  - LSTM
+  - GRU
+  - Transformer Architecture
+  - Autoencoders
+  - Generative Adversarial Networks
+  - Deep Learning Hardware
+  - GPU Acceleration
+  - Training Computational Cost
+  - Inference Latency
+  - Model Memory Usage
+  - Model Scalability
+  - Production Deep Learning
+  - Neural Network Deployment
+  - Model Evaluation
+  - Production AI Engineering
+  - Enterprise AI Architecture
+  - Deep Learning Interview Questions
+  - Enterprise AI Engineering Handbook
 ---
 
 # 03. Shallow and Deep Neural Networks

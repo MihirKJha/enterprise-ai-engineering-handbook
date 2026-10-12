@@ -1,3 +1,108 @@
+---
+title: "Recurrent Neural Networks (RNNs): Architecture, Hidden States, BPTT, PyTorch Implementation, and Production Applications"
+description: >
+  Learn Recurrent Neural Networks (RNNs) and how they process sequential data
+  by maintaining hidden states across time steps. This chapter explains RNN
+  architecture, recurrent connections, parameter sharing, sequence unrolling,
+  mathematical formulations, and Backpropagation Through Time (BPTT). Explore
+  sequence-to-one, one-to-many, and many-to-many learning patterns, bidirectional
+  and stacked RNNs, and applications in natural language processing, speech
+  processing, and time-series forecasting. Understand the vanishing gradient
+  problem, exploding gradients, long-term dependency limitations, gradient
+  clipping, teacher forcing, and exposure bias. Learn to implement vanilla RNNs
+  using PyTorch nn.RNN, including tensor shapes, hidden-state handling,
+  sequence classification, sequence labeling, variable-length sequences,
+  padding, masking, and packed sequences. Examine practical training workflows,
+  model evaluation, and exercises comparing RNNs with LSTMs and Transformers.
+  Discover production considerations for enterprise sequence modeling,
+  including stateful inference, streaming data, session management, model
+  versioning, monitoring, latency, throughput, memory, and infrastructure
+  constraints. Understand when vanilla RNNs remain useful, why LSTM and GRU
+  architectures were introduced, and how recurrent networks provide the
+  conceptual foundation for attention mechanisms, Transformers, and modern
+  foundation models.
+keywords:
+  - Recurrent Neural Networks
+  - RNN
+  - RNN architecture
+  - vanilla RNN
+  - sequential data modeling
+  - sequence modeling
+  - hidden state
+  - recurrent connections
+  - RNN cell
+  - RNN mathematical formulation
+  - RNN forward propagation
+  - RNN unrolling
+  - Backpropagation Through Time
+  - BPTT
+  - vanishing gradient problem
+  - exploding gradient problem
+  - gradient clipping
+  - long-term dependencies
+  - parameter sharing
+  - sequence-to-one
+  - one-to-many learning
+  - many-to-one classification
+  - many-to-many sequence modeling
+  - sequence-to-sequence learning
+  - bidirectional RNN
+  - stacked RNN
+  - deep recurrent neural networks
+  - PyTorch RNN
+  - PyTorch nn.RNN
+  - PyTorch sequence modeling
+  - RNN tensor shapes
+  - RNN hidden state
+  - RNN classifier
+  - RNN training loop
+  - recurrent neural network implementation
+  - variable-length sequences
+  - sequence padding
+  - sequence masking
+  - packed sequences in PyTorch
+  - pack_padded_sequence
+  - pad_packed_sequence
+  - recurrent neural network dropout
+  - natural language processing
+  - NLP sequence modeling
+  - text classification
+  - sentiment analysis
+  - language modeling
+  - next-token prediction
+  - named entity recognition
+  - sequence labeling
+  - teacher forcing
+  - exposure bias
+  - time-series forecasting
+  - RNN time-series prediction
+  - speech recognition
+  - sensor data modeling
+  - demand forecasting
+  - anomaly detection
+  - user behavior prediction
+  - streaming inference
+  - stateful inference
+  - hidden-state management
+  - enterprise sequence modeling
+  - production machine learning
+  - production RNN architecture
+  - recurrent model monitoring
+  - sequence data preprocessing
+  - RNN performance optimization
+  - RNN limitations
+  - RNN vs LSTM
+  - RNN vs GRU
+  - RNN vs Transformer
+  - LSTM and GRU
+  - attention mechanisms
+  - Transformer architecture
+  - deep learning
+  - PyTorch deep learning
+  - enterprise AI engineering
+  - production-grade AI systems
+---
+
 # 24. Recurrent Neural Networks
 
 > Understand how Recurrent Neural Networks (RNNs) model sequential data by maintaining information across time, how hidden states and recurrent connections work, why vanilla RNNs struggle with long-term dependencies, and how RNNs provide the foundation for LSTMs, GRUs, and modern sequence modeling architectures.

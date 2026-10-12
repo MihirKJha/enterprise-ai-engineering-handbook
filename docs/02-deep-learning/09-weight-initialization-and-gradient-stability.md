@@ -1,12 +1,171 @@
 ---
-title: Weight Initialization and Gradient Stability
+title: "Weight Initialization and Gradient Stability: Xavier, He, LeCun, Vanishing and Exploding Gradients"
 description: >
-  Learn how weight initialization affects neural network training, gradient
-  flow, activation stability, and convergence, including zero and random
-  initialization, Xavier (Glorot), He (Kaiming), and LeCun initialization,
-  vanishing and exploding gradients, fan-in and fan-out, variance preservation,
-  gradient clipping, normalization, residual connections, and production
-  Deep Learning debugging with Keras and PyTorch.
+  Learn how weight initialization influences neural network training, activation
+  variance, gradient flow, numerical stability, and convergence in Deep Learning.
+  Explore zero initialization, random initialization, symmetry breaking, Xavier
+  (Glorot) initialization, He (Kaiming) initialization, and LeCun initialization.
+  Understand fan-in, fan-out, variance preservation, and how initialization
+  strategies relate to ReLU, Sigmoid, Tanh, and SELU activation functions.
+  Discover the causes and consequences of vanishing gradients, exploding gradients,
+  unstable activations, slow convergence, and numerical overflow. Implement
+  initialization algorithms using Python and NumPy, configure Keras and PyTorch
+  initializers, and compare weight distributions through practical experiments.
+  Learn how to inspect activation statistics, gradient norms, and weight distributions
+  to diagnose training instability. Explore gradient clipping, Batch Normalization,
+  Layer Normalization, RMS Normalization, residual connections, and their roles in
+  maintaining stable gradient flow through deep networks. Covers convolutional
+  network initialization, reproducible training, random seeds, debugging workflows,
+  production Deep Learning best practices, practical experiments, and technical
+  interview questions for building reliable neural networks.
+keywords:
+  - Weight Initialization
+  - Neural Network Weight Initialization
+  - Deep Learning Initialization
+  - Weight Initialization Techniques
+  - Neural Network Training Stability
+  - Gradient Stability
+  - Gradient Flow
+  - Gradient Propagation
+  - Backpropagation
+  - Gradient-Based Optimization
+  - Vanishing Gradients
+  - Exploding Gradients
+  - Vanishing Gradient Problem
+  - Exploding Gradient Problem
+  - Gradient Instability
+  - Gradient Flow in Deep Networks
+  - Gradient Magnitude
+  - Gradient Norm
+  - Gradient Statistics
+  - Gradient Monitoring
+  - Gradient Clipping
+  - Gradient Clipping in PyTorch
+  - Gradient Norm Clipping
+  - Activation Statistics
+  - Activation Variance
+  - Weight Statistics
+  - Weight Distribution
+  - Variance Preservation
+  - Signal Propagation
+  - Forward Signal Propagation
+  - Backward Gradient Propagation
+  - Neural Network Convergence
+  - Training Convergence
+  - Training Instability
+  - Numerical Stability
+  - Numerical Overflow
+  - NaN During Training
+  - Infinite Gradients
+  - Unstable Loss
+  - Training Divergence
+  - Symmetry Breaking
+  - Zero Weight Initialization
+  - Zero Initialization
+  - Zero Bias Initialization
+  - Random Weight Initialization
+  - Random Normal Initialization
+  - Initialization Scale
+  - Weight Initialization Variance
+  - Weight Initialization Standard Deviation
+  - Xavier Initialization
+  - Xavier Normal
+  - Xavier Uniform
+  - Glorot Initialization
+  - Glorot Normal
+  - Glorot Uniform
+  - He Initialization
+  - Kaiming Initialization
+  - He Normal
+  - He Uniform
+  - Kaiming Normal
+  - Kaiming Uniform
+  - LeCun Initialization
+  - LeCun Normal
+  - LeCun Uniform
+  - Fan-In
+  - Fan-Out
+  - Fan-In and Fan-Out
+  - Weight Variance
+  - Activation Variance Preservation
+  - Initialization and Activation Functions
+  - ReLU Initialization
+  - ReLU Neural Networks
+  - Sigmoid Initialization
+  - Tanh Initialization
+  - SELU Initialization
+  - ReLU Activation
+  - Sigmoid Activation
+  - Tanh Activation
+  - SELU Activation
+  - Dying ReLU
+  - Saturating Activation Functions
+  - Deep Neural Networks
+  - Deep Learning Fundamentals
+  - Neural Network Parameters
+  - Weights and Biases
+  - Neural Network Architecture
+  - Deep Network Training
+  - Initialization and Backpropagation
+  - Learning Signal
+  - Gradient Magnitude and Learning
+  - Learning Rate and Gradient Stability
+  - Initialization and Learning Rate
+  - Initialization and Normalization
+  - Batch Normalization
+  - Layer Normalization
+  - RMS Normalization
+  - Normalization in Deep Learning
+  - Residual Connections
+  - Residual Networks
+  - ResNet
+  - Residual Gradient Flow
+  - Skip Connections
+  - Deep Network Optimization
+  - Convolutional Neural Network Initialization
+  - CNN Weight Initialization
+  - Convolutional Fan-In
+  - Kernel Initialization
+  - Receptive Field
+  - NumPy Weight Initialization
+  - Python Weight Initialization
+  - NumPy Gradient Analysis
+  - Weight Initialization Experiment
+  - Comparing Initialization Methods
+  - Weight Distribution Visualization
+  - Matplotlib Weight Histograms
+  - Keras Weight Initialization
+  - TensorFlow Initializers
+  - Keras He Initialization
+  - Keras Xavier Initialization
+  - Keras Custom Initializer
+  - PyTorch Weight Initialization
+  - PyTorch Parameter Initialization
+  - PyTorch Kaiming Initialization
+  - PyTorch Xavier Initialization
+  - PyTorch Gradient Monitoring
+  - PyTorch Training Stability
+  - Gradient Norm Monitoring
+  - Activation Monitoring
+  - Neural Network Debugging
+  - Deep Learning Debugging
+  - Training Diagnostics
+  - Gradient Stability Debugging
+  - Troubleshooting Neural Network Training
+  - Input Feature Scaling
+  - Numerical Precision in Deep Learning
+  - Training Reproducibility
+  - Random Seed Control
+  - Reproducible Neural Network Training
+  - Experiment Tracking
+  - Model Configuration
+  - Production Deep Learning
+  - Production Model Training
+  - Enterprise AI Engineering
+  - Deep Learning Best Practices
+  - Neural Network Interview Questions
+  - Deep Learning Interview Preparation
+  - Enterprise AI Engineering Handbook
 ---
 
 # 09. Weight Initialization and Gradient Stability

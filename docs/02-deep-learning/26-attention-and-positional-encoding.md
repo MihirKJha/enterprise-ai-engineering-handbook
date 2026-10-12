@@ -1,3 +1,90 @@
+---
+title: "Attention and Positional Encoding: Query-Key-Value, Self-Attention, and Transformer Fundamentals"
+description: >
+  Learn the fundamentals of attention mechanisms and positional encoding in deep
+  learning, including how attention enables neural networks to dynamically focus
+  on relevant information and overcome limitations of recurrent sequence models.
+  Explore Query-Key-Value (QKV) representations, attention scoring, dot-product
+  similarity, scaled dot-product attention, softmax normalization, attention
+  weights, and weighted value aggregation. Understand self-attention, cross-attention,
+  causal attention, multi-head attention, attention masks, padding masks, and
+  the role of positional information in Transformer architectures. Compare
+  sinusoidal positional encoding, learned positional embeddings, absolute
+  positions, and relative positional representations. Implement scaled dot-product
+  attention, self-attention layers, and causal masks using PyTorch. Examine
+  attention tensor shapes, computational complexity, quadratic memory growth,
+  KV caching, efficient attention kernels, Flash Attention, and production
+  optimization strategies. Understand the evolution from RNNs, LSTMs, and GRUs
+  to attention-based sequence modeling and Transformers, and explore how
+  attention supports large language models, retrieval-augmented generation,
+  multimodal AI, question answering, and enterprise AI systems. Includes
+  practical exercises, architecture diagrams, mathematical formulas, Python
+  examples, interview questions, and production engineering considerations.
+keywords:
+  - attention mechanism
+  - attention and positional encoding
+  - deep learning attention
+  - Query Key Value
+  - QKV attention
+  - scaled dot-product attention
+  - self-attention
+  - cross-attention
+  - causal attention
+  - multi-head attention
+  - attention weights
+  - attention score matrix
+  - attention softmax
+  - attention masking
+  - causal mask
+  - padding mask
+  - positional encoding
+  - sinusoidal positional encoding
+  - learned positional embeddings
+  - absolute positional encoding
+  - relative positional encoding
+  - rotary positional embeddings
+  - Transformer architecture
+  - Transformer attention
+  - neural network sequence modeling
+  - recurrent neural networks
+  - RNN versus attention
+  - LSTM and GRU
+  - sequence-to-sequence learning
+  - long-range dependencies
+  - parallel sequence processing
+  - attention computational complexity
+  - quadratic attention complexity
+  - attention memory optimization
+  - PyTorch attention
+  - PyTorch scaled dot-product attention
+  - PyTorch self-attention implementation
+  - attention tensor shapes
+  - attention heatmap visualization
+  - Flash Attention
+  - efficient attention kernels
+  - KV cache
+  - autoregressive language modeling
+  - causal language modeling
+  - large language models
+  - LLM architecture
+  - foundation models
+  - retrieval-augmented generation
+  - RAG attention
+  - differentiable information retrieval
+  - encoder-decoder attention
+  - multimodal AI
+  - Vision Transformers
+  - enterprise AI architecture
+  - production Transformer optimization
+  - GPU memory optimization
+  - Transformer inference performance
+  - attention latency and throughput
+  - deep learning interview questions
+  - attention mechanism tutorial
+  - positional encoding tutorial
+  - Transformer fundamentals
+---
+
 # 26. Attention and Positional Encoding
 
 > Understand how Attention enables neural networks to dynamically focus on relevant information, why attention became a major breakthrough for sequence modeling, how Query-Key-Value representations work, and why positional encoding is required when sequence order is not inherently represented.

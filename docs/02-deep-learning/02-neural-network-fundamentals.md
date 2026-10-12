@@ -1,11 +1,95 @@
 ---
-title: Neural Network Fundamentals
+title: "Neural Network Fundamentals: Artificial Neurons, Activation Functions, Backpropagation, and Deep Learning"
 description: >
-  Learn the fundamentals of Artificial Neural Networks, including artificial
-  neurons, weights, biases, activation functions, neural network layers,
-  Multi-Layer Perceptrons, forward propagation, matrix representations,
-  model capacity, backpropagation, and building neural networks with Keras
-  and PyTorch for Deep Learning and enterprise AI systems.
+  Explore Neural Network fundamentals, from artificial neurons, weights, biases,
+  and activation functions to neural network layers, Multi-Layer Perceptrons (MLPs),
+  and deep neural networks. Understand forward propagation, matrix representations,
+  loss functions, gradient descent, backpropagation, and the mathematical foundations
+  of neural network learning. Learn about model capacity, function approximation,
+  feature learning, vanishing and exploding gradients, weight initialization,
+  regularization, overfitting, and underfitting. Discover practical neural network
+  implementation using Keras, TensorFlow, and PyTorch, along with applications in
+  classification, regression, computer vision, sequence modeling, and generative AI.
+  Covers neural network architectures, training fundamentals, optimization techniques,
+  practical implementation concepts, production AI engineering, and enterprise AI
+  applications.
+keywords:
+  - Neural Network Fundamentals
+  - Artificial Neural Networks
+  - Neural Networks
+  - Deep Learning
+  - Machine Learning
+  - Artificial Neurons
+  - Weights and Biases
+  - Learnable Parameters
+  - Activation Functions
+  - ReLU
+  - Sigmoid
+  - Tanh
+  - Softmax
+  - GELU
+  - Neural Network Layers
+  - Input Layer
+  - Hidden Layers
+  - Output Layer
+  - Fully Connected Neural Networks
+  - Dense Layers
+  - Multi-Layer Perceptron
+  - MLP Architecture
+  - Feedforward Neural Networks
+  - Shallow Neural Networks
+  - Deep Neural Networks
+  - Forward Propagation
+  - Backpropagation
+  - Neural Network Mathematics
+  - Matrix Representation
+  - Matrix Multiplication
+  - Vector Operations
+  - Batch Processing
+  - Loss Functions
+  - Mean Squared Error
+  - Binary Cross Entropy
+  - Categorical Cross Entropy
+  - Gradient Descent
+  - Gradient Optimization
+  - Neural Network Training
+  - Neural Network Learning
+  - Function Approximation
+  - Model Capacity
+  - Feature Learning
+  - Representation Learning
+  - Vanishing Gradients
+  - Exploding Gradients
+  - Gradient Clipping
+  - Weight Initialization
+  - Neural Network Regularization
+  - Overfitting
+  - Underfitting
+  - Keras
+  - TensorFlow
+  - PyTorch
+  - Neural Network Implementation
+  - Deep Learning Frameworks
+  - Binary Classification
+  - Multi-Class Classification
+  - Regression
+  - Computer Vision
+  - Convolutional Neural Networks
+  - Recurrent Neural Networks
+  - LSTM
+  - GRU
+  - Transformer Architecture
+  - Autoencoders
+  - Generative Adversarial Networks
+  - Neural Network Applications
+  - Deep Learning Applications
+  - Model Training and Evaluation
+  - Model Deployment
+  - AI Inference
+  - GPU Acceleration
+  - Production AI Engineering
+  - Enterprise AI Systems
+  - Enterprise AI Engineering Handbook
 ---
 
 # 02. Neural Network Fundamentals

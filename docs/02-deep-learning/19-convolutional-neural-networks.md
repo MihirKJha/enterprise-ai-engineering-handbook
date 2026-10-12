@@ -1,3 +1,295 @@
+---
+title: "Convolutional Neural Networks (CNNs): Convolution, Pooling, Architecture, and Implementation with Keras and PyTorch"
+description: >
+  Learn how Convolutional Neural Networks (CNNs) work and how to build image
+  classification models using TensorFlow Keras and PyTorch. Understand why CNNs
+  are effective for Computer Vision, how they overcome the parameter limitations
+  of fully connected networks, and how local connectivity, parameter sharing,
+  and hierarchical feature learning enable efficient spatial representation
+  learning. Explore convolution operations, kernels, filters, input channels,
+  output channels, feature maps, local receptive fields, and receptive field
+  growth across deep networks. Understand stride, padding, valid and same
+  convolution, and the mathematical formula for calculating convolution output
+  dimensions. Learn how convolutional layer parameters are calculated and how
+  CNNs transform spatial resolution while increasing feature depth. Compare
+  Max Pooling and Average Pooling, understand ReLU activation, Batch
+  Normalization, Dropout, Flatten, and Global Average Pooling, and examine
+  their roles in CNN architecture design and regularization. Build practical
+  image classification models using Keras Conv2D, MaxPooling2D, Dense, and
+  Sequential APIs, and PyTorch nn.Conv2d, nn.MaxPool2d, nn.Linear, nn.Module,
+  and nn.Sequential. Implement CNN training pipelines with optimizers,
+  loss functions, backpropagation, validation, and GPU acceleration. Compare
+  Keras channels-last tensors (NHWC) with PyTorch channels-first tensors
+  (NCHW), and learn to track tensor shapes throughout convolutional networks.
+  Apply image augmentation using Keras preprocessing layers and TorchVision
+  transforms, while avoiding transformations that change image semantics.
+  Explore CNN regularization, training stability, model generalization,
+  classification metrics, confusion matrices, per-class evaluation, and
+  systematic error analysis. Learn how to visualize intermediate feature
+  maps and investigate CNN predictions using saliency maps, Grad-CAM,
+  occlusion analysis, and integrated gradients. Examine CNN limitations,
+  architecture design principles, spatial resolution trade-offs, inference
+  optimization, and production deployment considerations, including latency,
+  throughput, hardware, model versioning, monitoring, drift detection, and
+  retraining. Includes practical exercises, mathematical examples, Mermaid
+  architecture diagrams, Python implementations, interview questions, and
+  enterprise Computer Vision guidance. Establish a foundation for advanced
+  CNN optimization, Transfer Learning, ResNet, EfficientNet, Vision Transformers,
+  and hybrid CNN-ViT architectures.
+keywords:
+  - Convolutional Neural Networks
+  - CNN fundamentals
+  - CNN tutorial
+  - Convolutional Neural Network tutorial
+  - Deep Learning for Computer Vision
+  - Computer Vision with Deep Learning
+  - CNN image classification
+  - Image classification with neural networks
+  - Building CNN models
+  - CNN architecture
+  - CNN architecture design
+  - Convolutional neural network architecture
+  - CNN implementation with Keras
+  - CNN implementation with PyTorch
+  - Keras CNN tutorial
+  - PyTorch CNN tutorial
+  - TensorFlow CNN
+  - TensorFlow Keras Computer Vision
+  - PyTorch Computer Vision
+  - Convolution operations
+  - 2D convolution
+  - Convolution layer
+  - Convolutional layers
+  - Convolution kernel
+  - CNN filters
+  - Learnable convolution filters
+  - Kernel size in CNN
+  - Convolution filter weights
+  - Convolution bias parameters
+  - Input channels in CNN
+  - Output channels in CNN
+  - RGB image representation
+  - Grayscale image classification
+  - Image tensor representation
+  - Feature maps in CNN
+  - CNN feature extraction
+  - Visual feature learning
+  - Hierarchical feature learning
+  - Hierarchical image representations
+  - Low-level visual features
+  - High-level semantic features
+  - Edge detection with CNNs
+  - Texture feature extraction
+  - Object part representation
+  - Local connectivity in CNN
+  - Parameter sharing in CNN
+  - CNN parameter efficiency
+  - Fully connected networks vs CNNs
+  - CNN vs dense neural network
+  - Local receptive fields
+  - CNN receptive field
+  - Effective receptive field
+  - Receptive field growth
+  - Translation-aware feature extraction
+  - Spatial feature learning
+  - Spatial relationships in images
+  - Convolution stride
+  - Stride in CNN
+  - CNN padding
+  - Same padding
+  - Valid padding
+  - Convolution output dimensions
+  - Convolution output size formula
+  - Calculate convolution output size
+  - CNN spatial dimensions
+  - CNN tensor shape calculation
+  - Convolution layer parameter count
+  - Calculate CNN parameters
+  - Convolution parameters formula
+  - CNN feature depth
+  - Spatial resolution in CNN
+  - Feature channels in CNN
+  - CNN downsampling
+  - CNN feature transformation
+  - ReLU activation function
+  - Activation functions in CNN
+  - Non-linearity in neural networks
+  - Max Pooling
+  - MaxPooling2D
+  - Average Pooling
+  - Max Pooling vs Average Pooling
+  - CNN pooling layers
+  - Spatial downsampling
+  - Pooling operations in Deep Learning
+  - CNN building blocks
+  - Convolution activation pooling
+  - Conv-BatchNorm-ReLU
+  - Batch Normalization in CNN
+  - Keras BatchNormalization
+  - PyTorch BatchNorm2d
+  - CNN training stability
+  - Dropout in CNN
+  - Keras Dropout layer
+  - PyTorch Dropout
+  - CNN regularization
+  - CNN overfitting prevention
+  - CNN generalization
+  - Weight decay in CNN
+  - Early stopping for CNN
+  - Image data augmentation
+  - Data augmentation for image classification
+  - Keras image augmentation
+  - Keras RandomFlip
+  - Keras RandomRotation
+  - Keras RandomZoom
+  - PyTorch TorchVision transforms
+  - TorchVision RandomHorizontalFlip
+  - TorchVision RandomRotation
+  - Realistic image augmentation
+  - Image preprocessing pipeline
+  - Image normalization
+  - Image classification data pipeline
+  - CNN training pipeline
+  - CNN backpropagation
+  - Gradient-based filter learning
+  - CNN optimization
+  - CNN model training
+  - CNN validation
+  - CNN evaluation metrics
+  - CNN classification accuracy
+  - Precision and recall for image classification
+  - F1 score for image classification
+  - Confusion matrix for CNN
+  - Multi-class image classification metrics
+  - Per-class recall
+  - Macro F1
+  - Weighted F1
+  - CNN error analysis
+  - Misclassified image analysis
+  - Image classification error diagnosis
+  - Class imbalance in Computer Vision
+  - Image label quality
+  - Image domain shift
+  - CNN feature map visualization
+  - Visualizing CNN activations
+  - CNN interpretability
+  - Saliency maps
+  - Grad-CAM
+  - Occlusion analysis
+  - Integrated Gradients
+  - CNN feature extractor
+  - CNN classification head
+  - Flatten layer in CNN
+  - Keras Flatten
+  - PyTorch nn.Flatten
+  - Global Average Pooling
+  - GlobalAveragePooling2D
+  - Flatten vs Global Average Pooling
+  - CNN parameter reduction
+  - Modern CNN classification head
+  - Keras Conv2D
+  - tf.keras.layers.Conv2D
+  - Keras MaxPooling2D
+  - Keras Sequential CNN
+  - Keras Dense layer
+  - Keras model.compile
+  - Keras model.fit
+  - Keras validation_data
+  - Keras sparse categorical cross-entropy
+  - Keras image classification model
+  - Keras CNN training
+  - PyTorch nn.Conv2d
+  - PyTorch nn.MaxPool2d
+  - PyTorch nn.Linear
+  - PyTorch nn.Module
+  - PyTorch nn.Sequential
+  - PyTorch CNN classifier
+  - PyTorch CNN training loop
+  - PyTorch CrossEntropyLoss
+  - PyTorch AdamW optimizer
+  - PyTorch model.train
+  - PyTorch model.eval
+  - PyTorch inference mode
+  - PyTorch CNN GPU training
+  - CUDA acceleration for CNN
+  - Keras vs PyTorch CNN
+  - TensorFlow vs PyTorch Computer Vision
+  - NHWC vs NCHW
+  - Channels-last image layout
+  - Channels-first image layout
+  - PyTorch image tensor shape
+  - Keras image tensor shape
+  - CNN batch dimensions
+  - CNN tensor shape tracking
+  - CNN architecture debugging
+  - Fully connected classification head
+  - CNN image preprocessing consistency
+  - CNN production inference
+  - Computer Vision model deployment
+  - Production CNN systems
+  - Enterprise Computer Vision
+  - Enterprise image classification
+  - CNN deployment architecture
+  - Production image inference pipeline
+  - Image ingestion and preprocessing
+  - CNN model serving
+  - Model registry for Computer Vision
+  - CNN model versioning
+  - Computer Vision monitoring
+  - Image data drift
+  - Model drift detection
+  - Production CNN monitoring
+  - CNN retraining pipeline
+  - CNN inference latency
+  - CNN throughput optimization
+  - CNN model size optimization
+  - CNN hardware optimization
+  - CPU vs GPU inference
+  - CNN quantization
+  - CNN pruning
+  - High-resolution image processing
+  - Production model reliability
+  - CNN domain shift diagnosis
+  - Camera variation in Computer Vision
+  - Image quality monitoring
+  - Production Computer Vision lifecycle
+  - CNN architecture limitations
+  - CNN computational requirements
+  - CNN training dataset requirements
+  - CNN global context limitations
+  - Deep CNN design principles
+  - CNN input resolution
+  - CNN kernel size selection
+  - CNN stride and padding selection
+  - CNN filter count selection
+  - CNN depth optimization
+  - CNN normalization and regularization
+  - CNN spatial resolution trade-offs
+  - ResNet architecture
+  - EfficientNet architecture
+  - Residual neural networks
+  - Transfer Learning for Computer Vision
+  - Fine-tuning CNN models
+  - Vision Transformers
+  - CNN and Vision Transformer hybrids
+  - CNN vs Vision Transformer
+  - Advanced CNN optimization
+  - CNN practical exercises
+  - CNN convolution calculation exercises
+  - CNN parameter count exercises
+  - CNN shape tracking exercises
+  - CNN data augmentation experiments
+  - CNN regularization experiments
+  - CNN feature visualization exercises
+  - CNN interview questions
+  - Computer Vision interview preparation
+  - Deep Learning interview preparation
+  - Keras interview questions
+  - PyTorch interview questions
+  - Enterprise AI Engineering
+  - Enterprise AI Engineering Handbook
+---
+
 # 19. Convolutional Neural Networks
 
 > Understand how Convolutional Neural Networks (CNNs) learn spatial features from images, how convolution and pooling work, how CNN architectures are constructed, and how CNNs are implemented using Keras and PyTorch for Computer Vision tasks.

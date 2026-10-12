@@ -1,11 +1,75 @@
 ---
 title: Introduction to Deep Learning
+
 description: >
   Learn the fundamentals of Deep Learning, including neural networks,
   representation learning, feature learning, major Deep Learning architectures,
   training workflows, learning paradigms, Transfer Learning, Deep Learning
   frameworks, enterprise applications, and production AI engineering.
----
+
+keywords:
+  - Deep Learning
+  - Deep Learning Fundamentals
+  - Artificial Intelligence
+  - Machine Learning
+  - Neural Networks
+  - Artificial Neural Networks
+  - Deep Neural Networks
+  - Multi-Layer Perceptron
+  - Feature Learning
+  - Representation Learning
+  - Neural Network Architectures
+  - Convolutional Neural Networks
+  - CNN
+  - Recurrent Neural Networks
+  - RNN
+  - LSTM
+  - GRU
+  - Transformers
+  - Attention Mechanisms
+  - Autoencoders
+  - Supervised Learning
+  - Unsupervised Learning
+  - Self-Supervised Learning
+  - Reinforcement Learning
+  - Deep Learning Training Workflow
+  - Forward Propagation
+  - Backpropagation
+  - Gradient Descent
+  - Loss Functions
+  - Model Optimization
+  - Transfer Learning
+  - Fine-Tuning
+  - Pretrained Models
+  - TensorFlow
+  - Keras
+  - PyTorch
+  - JAX
+  - Computer Vision
+  - Natural Language Processing
+  - Speech Recognition
+  - Image Classification
+  - Object Detection
+  - Time-Series Analysis
+  - Multimodal AI
+  - Foundation Models
+  - Generative AI
+  - Large Language Models
+  - Deep Learning Applications
+  - Enterprise AI
+  - Production Deep Learning
+  - Model Deployment
+  - Model Monitoring
+  - GPU Acceleration
+  - Distributed Training
+  - Overfitting
+  - Vanishing Gradients
+  - Model Evaluation
+  - Inference Optimization
+  - AI Infrastructure
+  - Production AI Engineering
+  - Enterprise AI Engineering Handbook
+---  
 
 # 01. Introduction to Deep Learning
 

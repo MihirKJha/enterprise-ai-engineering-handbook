@@ -1,3 +1,256 @@
+---
+title: "TensorFlow Keras Custom Layers, Models, and Training Loops: GradientTape, Automatic Differentiation, and Advanced Training Control"
+description: >
+  Learn how to build custom Deep Learning components using TensorFlow and
+  Keras, including custom layers, custom models, custom loss functions,
+  custom metrics, and custom training loops. Understand the Keras Layer and
+  Model base classes, the roles of __init__(), build(), and call(), and how
+  to create trainable and non-trainable variables using add_weight(). Explore
+  reusable mathematical transformations, learnable scaling layers, residual
+  blocks, custom forward passes, training and inference behavior, and model
+  architecture design. Understand automatic differentiation with
+  tf.GradientTape, gradient computation, optimizer updates, and the mechanics
+  of neural network training. Implement manual training steps, validation
+  loops, custom metrics, regularization with add_loss(), gradient clipping,
+  gradient accumulation, and multiple-optimizer workflows. Compare Keras
+  model.fit(), custom train_step() implementations, and fully custom training
+  loops to choose the appropriate level of control. Explore tf.function,
+  eager execution, graph execution, tracing, retracing, and performance
+  considerations. Learn how to test custom layers, verify gradients, manage
+  tensor shapes, serialize custom components with get_config(), and organize
+  maintainable training infrastructure. Apply production-oriented design
+  principles to reproducibility, numerical stability, checkpointing,
+  monitoring, distributed execution, and model portability. Includes practical
+  Python implementations, custom Dense layers, residual blocks, hands-on
+  exercises, architecture decision guides, common implementation mistakes,
+  and technical interview questions for building reliable and maintainable
+  Deep Learning systems with TensorFlow and Keras.
+keywords:
+  - TensorFlow custom layers
+  - Keras custom layers
+  - Custom Keras models
+  - TensorFlow custom training loops
+  - Keras custom training loop
+  - Custom training with TensorFlow
+  - Custom layers and models
+  - TensorFlow Keras
+  - TensorFlow Deep Learning
+  - Keras Deep Learning
+  - Deep Learning model training
+  - Custom Deep Learning components
+  - Keras Layer API
+  - tf.keras.layers.Layer
+  - tf.keras.Model
+  - tf.keras.layers
+  - Keras Model Subclassing
+  - TensorFlow model subclassing
+  - Custom Layer Subclassing
+  - Custom Model Subclassing
+  - Keras __init__ method
+  - Keras build method
+  - Keras call method
+  - Custom Layer build method
+  - Custom Layer call method
+  - Keras forward pass
+  - Custom forward computation
+  - Neural Network Forward Pass
+  - Neural Network Architecture
+  - Deep Learning Architecture
+  - Reusable Neural Network Components
+  - Reusable Keras Layers
+  - Custom Mathematical Layers
+  - Parameterized Mathematical Transformation
+  - Keras add_weight
+  - Keras trainable weights
+  - Keras non-trainable weights
+  - trainable_variables
+  - trainable_weights
+  - non_trainable_weights
+  - TensorFlow Variables
+  - Trainable Variables
+  - Non-Trainable Variables
+  - Keras Layer Variables
+  - Keras Variable Tracking
+  - Weight Initialization
+  - Glorot Uniform Initialization
+  - Neural Network Parameters
+  - Custom Dense Layer
+  - Custom Dense Layer TensorFlow
+  - Dense Layer Implementation
+  - Matrix Multiplication in TensorFlow
+  - Learnable Scaling Layer
+  - Custom Scaling Layer
+  - Custom Activation Layer
+  - Custom Residual Block
+  - Residual Neural Network
+  - Residual Connections
+  - ResNet Implementation
+  - Transformer Blocks
+  - Deep MLP Architecture
+  - Custom Dropout Layer
+  - Training and Inference Behavior
+  - training=True
+  - training=False
+  - Keras Training Mode
+  - Keras Inference Mode
+  - Custom Layer Best Practices
+  - Layer Lifecycle
+  - Keras Layer Lifecycle
+  - Custom Model Architecture
+  - Custom Model Forward Pass
+  - Custom Model Training
+  - Layer vs Model
+  - Custom Layer vs Custom Model
+  - Model Architecture Design
+  - Neural Network Design Patterns
+  - Automatic Differentiation
+  - TensorFlow Automatic Differentiation
+  - tf.GradientTape
+  - GradientTape Tutorial
+  - TensorFlow Gradient Computation
+  - Gradient Calculation
+  - Backpropagation
+  - Neural Network Backpropagation
+  - Gradient-Based Optimization
+  - Optimizer Updates
+  - TensorFlow Optimizers
+  - Keras Optimizer
+  - optimizer.apply_gradients
+  - Gradient Descent
+  - Learning Rate
+  - Loss Gradient
+  - Trainable Parameter Updates
+  - Manual Gradient Computation
+  - TensorFlow Linear Regression
+  - GradientTape Linear Regression
+  - Manual Training Step
+  - TensorFlow Training Step
+  - Custom Training Step
+  - Custom Training Pipeline
+  - TensorFlow Training Loop
+  - Keras Training Loop
+  - Manual Neural Network Training
+  - Custom Training Algorithm
+  - Keras model.fit
+  - Keras fit API
+  - model.fit vs custom training loop
+  - Keras train_step
+  - Custom train_step
+  - Override train_step
+  - Custom Keras train_step
+  - Keras Training API
+  - Keras Training Infrastructure
+  - Custom Validation Loop
+  - TensorFlow Validation Loop
+  - Training and Validation
+  - Custom Loss Functions
+  - TensorFlow Custom Loss
+  - Keras Custom Loss
+  - Mean Squared Error
+  - Custom MSE Loss
+  - Composite Loss Functions
+  - Multi-Objective Optimization
+  - Regularization Loss
+  - Custom Regularization
+  - Keras add_loss
+  - Auxiliary Loss
+  - Multi-Task Learning
+  - Contrastive Learning
+  - Adversarial Training
+  - Generative Adversarial Networks
+  - Multiple Optimizers
+  - Multiple Gradient Computations
+  - Multiple GradientTapes
+  - Gradient Manipulation
+  - Gradient Clipping
+  - tf.clip_by_global_norm
+  - Exploding Gradients
+  - Gradient Norm
+  - Gradient Accumulation
+  - Effective Batch Size
+  - Large Batch Training
+  - GPU Memory Optimization
+  - Custom Training Metrics
+  - TensorFlow Custom Metrics
+  - Keras Custom Metrics
+  - tf.keras.metrics.Metric
+  - Metric State Management
+  - update_state
+  - reset_state
+  - Loss vs Metric
+  - Training Loss Monitoring
+  - Validation Loss Monitoring
+  - Custom Training Monitoring
+  - tf.function
+  - TensorFlow Graph Execution
+  - TensorFlow Eager Execution
+  - Eager vs Graph Execution
+  - TensorFlow Function Tracing
+  - TensorFlow Retracing
+  - TensorFlow Graph Optimization
+  - TensorFlow Performance Optimization
+  - TensorFlow Dynamic Control Flow
+  - TensorFlow Input Signatures
+  - Custom Training Performance
+  - TensorFlow Serialization
+  - Keras Custom Layer Serialization
+  - Keras get_config
+  - Custom Model Serialization
+  - Model Saving and Loading
+  - Keras Model Portability
+  - Model Reconstruction
+  - Deep Learning Model Serialization
+  - Custom Layer Testing
+  - TensorFlow Unit Testing
+  - Keras Layer Testing
+  - Output Shape Validation
+  - Numerical Gradient Verification
+  - Gradient Correctness
+  - Gradient Debugging
+  - NaN Gradient Detection
+  - Infinite Gradient Detection
+  - Tensor Shape Debugging
+  - TensorFlow Numerical Stability
+  - Custom Layer Common Errors
+  - TensorFlow Python Operations
+  - Differentiable Tensor Operations
+  - Production Deep Learning
+  - Production TensorFlow Models
+  - Production Keras Architecture
+  - Enterprise Deep Learning Systems
+  - Enterprise AI Engineering
+  - Maintainable Deep Learning Components
+  - Custom Training Infrastructure
+  - Model Training Architecture
+  - Training Pipeline Design
+  - Training Configuration
+  - Training Checkpointing
+  - Training Reproducibility
+  - Training Observability
+  - Distributed Training
+  - Mixed Precision Training
+  - Scalable Model Training
+  - Deep Learning Model Lifecycle
+  - Custom Training Design Principles
+  - Keras Best Practices
+  - TensorFlow Best Practices
+  - Custom Training Loop Best Practices
+  - Model Maintainability
+  - Model Portability
+  - Research Architectures
+  - Advanced Neural Network Training
+  - TensorFlow Python Examples
+  - Keras Practical Examples
+  - Custom Deep Learning Exercises
+  - TensorFlow Hands-On Practice
+  - TensorFlow Interview Questions
+  - Keras Interview Questions
+  - Deep Learning Interview Preparation
+  - Automatic Differentiation Interview Questions
+  - Custom Training Loop Interview Questions
+  - Enterprise AI Engineering Handbook
+---
+
 # 15. Custom Layers, Models and Training Loops
 
 > Move beyond the standard Keras `Sequential` and Functional APIs and learn how to build custom layers, custom models, and custom training loops with TensorFlow and Keras. Understand how forward computation, trainable parameters, automatic differentiation, gradient computation, and optimizer updates work together to provide fine-grained control over Deep Learning systems.

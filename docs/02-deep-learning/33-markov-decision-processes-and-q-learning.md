@@ -1,3 +1,102 @@
+---
+title: "Markov Decision Processes and Q-Learning: MDPs, Bellman Equations, and Reinforcement Learning"
+description: >
+  Learn how Markov Decision Processes (MDPs) provide the mathematical foundation
+  for Reinforcement Learning and how Q-Learning enables agents to learn optimal
+  actions from experience without requiring an explicit model of the environment.
+  Explore the Markov Property, state and action spaces, transition probabilities,
+  reward functions, policies, episodes, trajectories, terminal states, and discounted
+  returns. Understand state-value and action-value functions, the Bellman Equation,
+  the Bellman Optimality Equation, and their relationship to optimal decision-making.
+  Examine Q-tables, the Q-Learning update rule, temporal-difference learning,
+  TD error, bootstrapping, learning rates, discount factors, and epsilon-greedy
+  exploration. Compare Q-Learning with SARSA, model-based Reinforcement Learning,
+  dynamic programming, Monte Carlo methods, and Deep Q-Networks (DQN). Implement
+  a basic tabular Q-Learning agent in Python, train it in a Grid World environment,
+  tune hyperparameters, evaluate reward curves, and investigate sparse rewards,
+  state representation, exploration strategies, and convergence. Discover how
+  Q-Learning concepts extend to Deep Reinforcement Learning and how production
+  AI systems incorporate policy interfaces, safety guardrails, policy versioning,
+  environment validation, monitoring, evaluation, and lifecycle management.
+keywords:
+  - Markov Decision Processes
+  - MDP
+  - Reinforcement Learning
+  - Q-Learning
+  - Markov Property
+  - state space
+  - action space
+  - transition dynamics
+  - transition probability
+  - stochastic environment
+  - deterministic environment
+  - reward function
+  - reward design
+  - reward shaping
+  - state representation
+  - policy
+  - optimal policy
+  - expected cumulative reward
+  - discounted return
+  - discount factor
+  - state-value function
+  - action-value function
+  - V(s)
+  - Q(s,a)
+  - optimal Q-function
+  - Q-table
+  - Q-Learning update rule
+  - Bellman Equation
+  - Bellman Optimality Equation
+  - temporal-difference learning
+  - TD learning
+  - TD error
+  - bootstrapping
+  - model-free Reinforcement Learning
+  - off-policy learning
+  - value-based Reinforcement Learning
+  - learning rate
+  - epsilon-greedy strategy
+  - exploration and exploitation
+  - epsilon decay
+  - Q-Learning hyperparameters
+  - terminal states
+  - episodes and trajectories
+  - Grid World Reinforcement Learning
+  - Python Q-Learning implementation
+  - NumPy Q-table
+  - Q-Learning algorithm
+  - Q-Learning convergence
+  - Q-Learning debugging
+  - sparse rewards
+  - curse of dimensionality
+  - Q-Learning vs SARSA
+  - SARSA algorithm
+  - Q-Learning vs Deep Q-Networks
+  - Deep Q-Networks
+  - DQN
+  - neural network Q-value approximation
+  - experience replay
+  - model-based vs model-free Reinforcement Learning
+  - value iteration
+  - policy iteration
+  - Monte Carlo vs temporal-difference learning
+  - exploration strategies
+  - Reinforcement Learning practical exercises
+  - Reinforcement Learning interview questions
+  - production Reinforcement Learning
+  - enterprise AI architecture
+  - RL policy interface
+  - policy versioning
+  - safety guardrails
+  - reward integrity
+  - Reinforcement Learning monitoring
+  - policy evaluation
+  - RL model lifecycle
+  - production AI decision systems
+  - Enterprise AI Engineering Handbook
+---
+
 # 33. Markov Decision Processes and Q-Learning
 
 > Understand how Markov Decision Processes provide the mathematical foundation for Reinforcement Learning and how Q-Learning enables agents to learn optimal actions from experience without explicitly modeling the environment.

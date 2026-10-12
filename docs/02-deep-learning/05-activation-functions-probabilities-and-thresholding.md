@@ -1,11 +1,103 @@
 ---
-title: Activation Functions, Probabilities and Thresholding
+title: "Activation Functions, Probabilities and Thresholding: Sigmoid, ReLU, Softmax, and Deep Learning Classification"
 description: >
-  Learn how activation functions introduce non-linearity in neural networks,
-  including Sigmoid, Tanh, ReLU, Leaky ReLU, ELU, GELU, and Softmax, along with
-  logits, probabilities, classification thresholds, multi-class and multi-label
-  classification, gradient behavior, numerical stability, Keras and PyTorch
-  implementations, and production Deep Learning applications.
+  Explore activation functions and their role in introducing non-linearity into
+  neural networks. Understand Sigmoid, Tanh, ReLU, Leaky ReLU, ELU, GELU, and
+  Softmax, including their mathematical foundations, output ranges, gradient
+  behavior, saturation, vanishing gradients, and the dying ReLU problem. Learn
+  how neural networks transform logits into probabilities and how classification
+  thresholds convert probabilities into predictions. Understand binary,
+  multi-class, and multi-label classification, decision thresholds, confusion
+  matrices, precision, recall, and threshold optimization. Discover the differences
+  between logits, probabilities, and class predictions, along with numerically
+  stable implementations using TensorFlow, Keras, and PyTorch. Learn how to select
+  appropriate output activations and loss-compatible representations for regression
+  and classification tasks. Covers activation functions across MLPs, CNNs, RNNs,
+  LSTMs, GRUs, and Transformers, practical implementation patterns, numerical
+  stability, production model design, common mistakes, interview questions, and
+  enterprise Deep Learning applications.
+keywords:
+  - Activation Functions
+  - Neural Network Activation Functions
+  - Deep Learning Fundamentals
+  - Neural Networks
+  - Nonlinear Transformations
+  - Linear vs Nonlinear Transformations
+  - Sigmoid Activation
+  - Logistic Function
+  - Tanh Activation
+  - Hyperbolic Tangent
+  - ReLU
+  - Rectified Linear Unit
+  - Leaky ReLU
+  - Exponential Linear Unit
+  - ELU Activation
+  - Gaussian Error Linear Unit
+  - GELU Activation
+  - Softmax Activation
+  - Activation Function Mathematics
+  - Activation Function Derivatives
+  - Neural Network Gradients
+  - Backpropagation
+  - Gradient Flow
+  - Vanishing Gradient Problem
+  - Activation Saturation
+  - Dying ReLU Problem
+  - Gradient Stability
+  - Logits vs Probabilities
+  - Neural Network Output Layer
+  - Probability Estimation
+  - Probability Distribution
+  - Binary Classification
+  - Multi-Class Classification
+  - Multi-Label Classification
+  - Regression Output Activation
+  - Sigmoid for Binary Classification
+  - Softmax for Multi-Class Classification
+  - Independent Sigmoid Outputs
+  - Probability Thresholding
+  - Classification Threshold
+  - Threshold Optimization
+  - Decision Boundaries
+  - Class Prediction
+  - Confusion Matrix
+  - True Positives
+  - False Positives
+  - True Negatives
+  - False Negatives
+  - Precision and Recall
+  - F1 Score
+  - Classification Metrics
+  - Class Imbalance
+  - Business Decision Thresholds
+  - Numerical Stability
+  - Numerically Stable Softmax
+  - Cross-Entropy Loss
+  - Binary Cross-Entropy
+  - Log Loss
+  - PyTorch CrossEntropyLoss
+  - PyTorch BCEWithLogitsLoss
+  - Loss Functions and Logits
+  - TensorFlow
+  - Keras
+  - PyTorch
+  - Python Activation Functions
+  - Activation Function Visualization
+  - Multi-Layer Perceptron
+  - Convolutional Neural Networks
+  - Recurrent Neural Networks
+  - LSTM
+  - GRU
+  - Transformer Architecture
+  - Deep Learning Model Training
+  - Model Optimization
+  - Model Evaluation
+  - Production Deep Learning
+  - Model Inference
+  - AI Model Deployment
+  - Enterprise AI Architecture
+  - Deep Learning Interview Questions
+  - Enterprise AI Engineering Handbook
 ---
 
 # 05. Activation Functions, Probabilities and Thresholding

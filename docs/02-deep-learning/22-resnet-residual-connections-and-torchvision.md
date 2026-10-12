@@ -1,3 +1,129 @@
+---
+title: "ResNet, Residual Connections and TorchVision: Deep CNN Architectures, Residual Learning, and Transfer Learning with PyTorch"
+description: >
+  Learn how Residual Networks (ResNet) address the degradation problem in deep
+  convolutional neural networks through residual learning, skip connections,
+  identity mappings, and projection shortcuts. Explore the mathematics of
+  residual blocks, BasicBlock and Bottleneck architectures, and the differences
+  between ResNet-18, ResNet-34, ResNet-50, ResNet-101, and ResNet-152. Understand
+  ResNet architecture, convolutional stages, tensor shapes, Batch Normalization,
+  ReLU activation, downsampling, and global average pooling. Implement pretrained
+  ResNet models using PyTorch and TorchVision, replace classification heads,
+  freeze backbone parameters, extract visual features, and progressively
+  fine-tune models for custom computer vision tasks. Build a custom residual
+  block with PyTorch, implement identity and projection shortcuts, and understand
+  tensor-shape compatibility during residual addition. Explore image
+  classification, object detection, semantic segmentation, image embeddings,
+  similarity search, and transfer learning with pretrained CNN backbones.
+  Examine production deployment considerations, including inference latency,
+  throughput, memory usage, model optimization, quantization, mixed precision,
+  model compilation, monitoring, data drift, retraining, and enterprise model
+  versioning. This chapter provides practical implementation guidance, exercises,
+  and interview questions for deep learning engineers building production-grade
+  computer vision systems.
+keywords:
+  - ResNet
+  - Residual Networks
+  - Residual Learning
+  - Residual Connections
+  - Skip Connections
+  - Shortcut Connections
+  - Deep Convolutional Neural Networks
+  - CNN Architecture
+  - Deep Learning
+  - Computer Vision
+  - Degradation Problem
+  - Vanishing Gradients
+  - Gradient Flow
+  - Identity Mapping
+  - Identity Shortcut
+  - Projection Shortcut
+  - Residual Block
+  - BasicBlock
+  - Bottleneck Block
+  - ResNet-18
+  - ResNet-34
+  - ResNet-50
+  - ResNet-101
+  - ResNet-152
+  - ResNet Architecture Comparison
+  - PyTorch
+  - TorchVision
+  - Pretrained ResNet
+  - PyTorch Computer Vision
+  - Transfer Learning
+  - Fine-Tuning
+  - Feature Extraction
+  - ResNet Feature Extractor
+  - Image Classification
+  - Image Recognition
+  - Object Detection
+  - Semantic Segmentation
+  - Instance Segmentation
+  - Image Embeddings
+  - Image Similarity Search
+  - Visual Similarity
+  - Metric Learning
+  - Anomaly Detection
+  - Convolutional Layers
+  - 1x1 Convolution
+  - 3x3 Convolution
+  - Batch Normalization
+  - ReLU Activation
+  - Downsampling
+  - Tensor Shapes
+  - Residual Addition
+  - Global Average Pooling
+  - Classification Head
+  - Model Weights
+  - TorchVision Weights Enum
+  - Pretrained Model Preprocessing
+  - Image Preprocessing
+  - Model Freezing
+  - Trainable Parameters
+  - Fine-Tuning ResNet Layer 4
+  - PyTorch Training Loop
+  - PyTorch Validation
+  - CrossEntropyLoss
+  - AdamW Optimizer
+  - CNN Feature Representations
+  - ResNet Backbone
+  - Custom Residual Block
+  - Identity Shortcut in PyTorch
+  - Projection Shortcut in PyTorch
+  - Neural Network Optimization
+  - Deep Learning Training
+  - CNN Model Evaluation
+  - ResNet Inference
+  - Production Computer Vision
+  - Production Deep Learning
+  - Enterprise AI Architecture
+  - Vision Inference Service
+  - Model Versioning
+  - Model Registry
+  - Model Monitoring
+  - Data Drift Detection
+  - Model Retraining
+  - Inference Latency
+  - Inference Throughput
+  - Model Memory Optimization
+  - Model Quantization
+  - Model Pruning
+  - Knowledge Distillation
+  - Mixed Precision Training
+  - GPU Acceleration
+  - PyTorch Model Compilation
+  - CNN Optimization
+  - Lightweight CNNs
+  - MobileNet
+  - EfficientNet
+  - Vision Transformers
+  - CNN-ViT Hybrid Architectures
+  - Deep Learning Interview Questions
+  - Computer Vision Practical Exercises
+  - Enterprise AI Engineering Handbook
+---
+
 # 22. ResNet, Residual Connections and TorchVision
 
 > Understand why very deep neural networks become difficult to optimize, how Residual Networks (ResNet) solve this problem using skip connections, how residual blocks work, and how pretrained ResNet models are implemented and adapted using TorchVision and PyTorch.

@@ -1,3 +1,242 @@
+---
+title: "PyTorch Fundamentals and Tensors: Tensor Operations, Autograd, Neural Networks, and GPU Acceleration"
+description: >
+  Learn the fundamentals of PyTorch, a widely used Deep Learning framework for
+  tensor computation, automatic differentiation, neural network development,
+  and GPU-accelerated model training. Understand PyTorch tensors, tensor rank,
+  dimensions, shapes, data types, indexing, slicing, arithmetic, matrix
+  multiplication, broadcasting, reductions, reshaping, transposing, permuting,
+  squeezing, and unsqueezing. Explore tensor creation methods including
+  torch.tensor(), torch.zeros(), torch.ones(), torch.rand(), torch.randn(),
+  torch.arange(), and torch.linspace(). Understand CPU and GPU device
+  management, CUDA availability, tensor memory, data movement, NumPy
+  interoperability, and performance considerations. Learn how torch.autograd
+  and requires_grad enable automatic differentiation, how backward() computes
+  gradients, and why gradients must be cleared during training. Build neural
+  network components using torch.nn, nn.Module, nn.Linear, activation
+  functions, and nn.Sequential. Implement classification and regression models,
+  inspect trainable parameters, understand forward propagation, configure loss
+  functions and optimizers, and follow the complete PyTorch training workflow
+  using zero_grad(), backward(), and optimizer.step(). Compare training and
+  inference modes with model.train(), model.eval(), torch.no_grad(), and
+  torch.inference_mode(). Explore state_dict(), model serialization,
+  checkpointing, GPU memory management, and the relationship between tensors,
+  models, autograd, and optimizers. Compare PyTorch concepts with TensorFlow
+  and Keras, examine common implementation mistakes, and apply production
+  engineering principles for reproducibility, device placement, checkpointing,
+  and reliable model deployment. Includes practical Python examples, hands-on
+  exercises, architecture diagrams, and technical interview questions to
+  establish a strong foundation for advanced PyTorch model development.
+keywords:
+  - PyTorch fundamentals
+  - PyTorch tutorial
+  - PyTorch for beginners
+  - PyTorch Deep Learning
+  - PyTorch framework
+  - PyTorch architecture
+  - PyTorch tensors
+  - torch.Tensor
+  - Tensor computation
+  - Tensor operations
+  - Tensor rank
+  - Tensor dimensions
+  - Tensor shape
+  - Tensor data types
+  - Tensor indexing
+  - Tensor slicing
+  - Tensor arithmetic
+  - Tensor broadcasting
+  - Tensor reduction operations
+  - Tensor reshaping
+  - Tensor transpose
+  - Tensor permute
+  - Tensor squeeze
+  - Tensor unsqueeze
+  - Tensor flattening
+  - Matrix multiplication PyTorch
+  - torch.matmul
+  - PyTorch dot product
+  - Element-wise tensor operations
+  - PyTorch tensor creation
+  - torch.tensor
+  - torch.zeros
+  - torch.ones
+  - torch.rand
+  - torch.randn
+  - torch.empty
+  - torch.arange
+  - torch.linspace
+  - PyTorch tensor inspection
+  - Tensor dtype
+  - torch.float32
+  - torch.float64
+  - torch.float16
+  - torch.bfloat16
+  - torch.int64
+  - PyTorch mixed precision
+  - Tensor memory usage
+  - PyTorch tensor performance
+  - PyTorch CPU and GPU
+  - PyTorch device management
+  - PyTorch CUDA
+  - CUDA GPU acceleration
+  - torch.cuda.is_available
+  - torch.device
+  - PyTorch GPU training
+  - CPU vs GPU Deep Learning
+  - PyTorch device placement
+  - CPU GPU data transfer
+  - GPU memory management
+  - torch.cuda.memory_allocated
+  - torch.cuda.memory_reserved
+  - CUDA device selection
+  - Multi-GPU fundamentals
+  - PyTorch tensor device
+  - PyTorch NumPy interoperability
+  - torch.from_numpy
+  - Tensor memory sharing
+  - Tensor detach
+  - Tensor to NumPy conversion
+  - PyTorch autograd
+  - torch.autograd
+  - PyTorch automatic differentiation
+  - requires_grad
+  - Tensor gradient tracking
+  - PyTorch computational graph
+  - PyTorch backward propagation
+  - Tensor backward method
+  - loss.backward
+  - PyTorch gradient computation
+  - PyTorch gradient accumulation
+  - optimizer.zero_grad
+  - Automatic differentiation tutorial
+  - Gradient descent
+  - Neural network optimization
+  - PyTorch neural networks
+  - torch.nn
+  - nn.Module
+  - PyTorch nn.Module tutorial
+  - PyTorch model development
+  - PyTorch model architecture
+  - Custom PyTorch models
+  - PyTorch forward method
+  - PyTorch forward pass
+  - nn.Linear
+  - PyTorch fully connected layer
+  - PyTorch activation functions
+  - nn.ReLU
+  - nn.Sigmoid
+  - nn.Tanh
+  - nn.GELU
+  - nn.Softmax
+  - nn.Sequential
+  - PyTorch Sequential model
+  - nn.Module vs nn.Sequential
+  - PyTorch model parameters
+  - nn.Parameter
+  - model.parameters
+  - named_parameters
+  - Trainable neural network parameters
+  - PyTorch parameter registration
+  - Neural network parameter count
+  - PyTorch weight and bias
+  - PyTorch classification model
+  - PyTorch regression model
+  - PyTorch classification tutorial
+  - PyTorch regression tutorial
+  - Neural network classification
+  - Neural network regression
+  - Multi-class classification PyTorch
+  - Binary classification PyTorch
+  - PyTorch logits
+  - CrossEntropyLoss
+  - nn.CrossEntropyLoss
+  - BCEWithLogitsLoss
+  - nn.MSELoss
+  - nn.L1Loss
+  - PyTorch loss functions
+  - PyTorch optimizers
+  - torch.optim
+  - PyTorch Adam optimizer
+  - PyTorch AdamW
+  - PyTorch SGD
+  - PyTorch RMSprop
+  - Learning rate optimization
+  - PyTorch training workflow
+  - PyTorch training loop
+  - PyTorch model training
+  - PyTorch optimizer step
+  - optimizer.step
+  - PyTorch loss calculation
+  - PyTorch backward pass
+  - PyTorch parameter updates
+  - PyTorch training pipeline
+  - PyTorch model evaluation
+  - model.train
+  - model.eval
+  - PyTorch training mode
+  - PyTorch evaluation mode
+  - PyTorch inference
+  - torch.no_grad
+  - torch.inference_mode
+  - Gradient tracking during inference
+  - PyTorch inference optimization
+  - PyTorch model serialization
+  - PyTorch state_dict
+  - model.state_dict
+  - PyTorch save model
+  - PyTorch load model
+  - torch.save
+  - torch.load
+  - PyTorch checkpointing
+  - PyTorch training checkpoint
+  - Resume PyTorch training
+  - Model weights serialization
+  - Optimizer state serialization
+  - PyTorch model lifecycle
+  - PyTorch deployment readiness
+  - PyTorch DataLoader fundamentals
+  - PyTorch Dataset fundamentals
+  - PyTorch data pipeline
+  - Batch processing PyTorch
+  - PyTorch GPU memory optimization
+  - Neural network memory management
+  - PyTorch model reproducibility
+  - PyTorch training best practices
+  - PyTorch common mistakes
+  - PyTorch debugging
+  - Tensor shape debugging
+  - CPU GPU device mismatch
+  - PyTorch gradient debugging
+  - PyTorch model architecture design
+  - Deep Learning engineering
+  - Computer Vision with PyTorch
+  - PyTorch image tensors
+  - NCHW tensor format
+  - NHWC vs NCHW
+  - PyTorch convolutional neural networks
+  - PyTorch natural language processing
+  - PyTorch Generative AI
+  - PyTorch reinforcement learning
+  - PyTorch research and production
+  - PyTorch vs TensorFlow
+  - PyTorch vs Keras
+  - TensorFlow vs PyTorch
+  - Keras to PyTorch mapping
+  - tf.Tensor vs torch.Tensor
+  - Keras Model vs nn.Module
+  - GradientTape vs PyTorch autograd
+  - PyTorch practical examples
+  - PyTorch hands-on exercises
+  - PyTorch interview questions
+  - Deep Learning interview preparation
+  - PyTorch technical interview preparation
+  - Enterprise Deep Learning systems
+  - Production PyTorch models
+  - Enterprise AI Engineering
+  - Enterprise AI Engineering Handbook
+---
+
 # 16. PyTorch Fundamentals and Tensors
 
 > Learn the foundations of PyTorch, understand tensors, tensor operations, device management, automatic differentiation, neural network modules, parameters, GPU acceleration, and the core building blocks required to develop Deep Learning models using PyTorch.

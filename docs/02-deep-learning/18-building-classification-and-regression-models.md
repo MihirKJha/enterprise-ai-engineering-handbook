@@ -1,3 +1,242 @@
+---
+title: "Building Classification and Regression Models with Keras and PyTorch: Model Training, Evaluation, and Production Best Practices"
+description: >
+  Learn how to build end-to-end classification and regression models using
+  TensorFlow Keras and PyTorch, from supervised learning problem definition and
+  dataset preparation to neural network architecture design, training, evaluation,
+  prediction, and production deployment. Understand binary classification,
+  multi-class classification, multi-label classification, and regression, including
+  output representations, logits, probabilities, thresholds, activation functions,
+  and loss function selection. Build Keras classification models using Sequential,
+  Dense, ReLU, Sigmoid, and Softmax layers, and train them with model.compile(),
+  model.fit(), validation_data, and model.evaluate(). Implement equivalent PyTorch
+  models using nn.Module, nn.Sequential, nn.Linear, nn.ReLU, BCEWithLogitsLoss,
+  CrossEntropyLoss, MSELoss, and AdamW. Understand why PyTorch classification
+  models commonly return raw logits, how sigmoid and softmax transform predictions,
+  and how classification thresholds influence precision, recall, and F1 score.
+  Develop regression models with linear output layers and evaluate predictions
+  using MAE, MSE, RMSE, R-squared, and residual analysis. Explore dataset
+  preparation, feature scaling, training-validation-test splits, data leakage
+  prevention, mini-batch training, optimizers, backpropagation, and model
+  evaluation. Compare Keras and PyTorch model definitions, training APIs, prediction
+  workflows, GPU execution, and implementation trade-offs. Diagnose overfitting
+  and underfitting using training and validation performance, and apply regularization,
+  dropout, early stopping, weight decay, data augmentation, and model capacity
+  adjustments where appropriate. Examine class imbalance, confusion matrices,
+  ROC-AUC, PR-AUC, threshold optimization, and business-driven evaluation for
+  enterprise use cases such as fraud detection and customer lifetime value prediction.
+  Understand production model selection across predictive quality, latency, cost,
+  interpretability, reliability, and maintainability. Includes practical Python
+  examples, architecture diagrams, hands-on exercises, interview questions, and
+  production-oriented guidance for building and deploying supervised Deep Learning
+  models with Keras and PyTorch.
+keywords:
+  - Building classification and regression models
+  - Classification and regression with Keras
+  - Classification and regression with PyTorch
+  - Keras classification tutorial
+  - PyTorch classification tutorial
+  - Keras regression tutorial
+  - PyTorch regression tutorial
+  - TensorFlow Keras Deep Learning
+  - PyTorch Deep Learning models
+  - Supervised Deep Learning
+  - Supervised learning with neural networks
+  - Neural network model development
+  - End-to-end Deep Learning workflow
+  - Classification vs regression
+  - Classification neural network
+  - Regression neural network
+  - Binary classification
+  - Multi-class classification
+  - Multi-label classification
+  - Binary classifier with Keras
+  - Binary classifier with PyTorch
+  - Multi-class classifier with Keras
+  - Multi-class classifier with PyTorch
+  - Regression model with Keras
+  - Regression model with PyTorch
+  - Neural network output layer
+  - Classification output layer
+  - Regression output layer
+  - Model output design
+  - Output activation and loss function
+  - Activation functions for classification
+  - ReLU activation
+  - Sigmoid activation
+  - Softmax activation
+  - Linear output activation
+  - Classification logits
+  - Logits vs probabilities
+  - Neural network prediction probabilities
+  - Classification decision threshold
+  - Binary classification threshold optimization
+  - Classification threshold selection
+  - Probability threshold tuning
+  - Precision recall threshold trade-off
+  - Business-driven classification thresholds
+  - Binary cross-entropy
+  - BinaryCrossentropy Keras
+  - binary_crossentropy
+  - BCEWithLogitsLoss
+  - PyTorch binary classification loss
+  - Categorical cross-entropy
+  - categorical_crossentropy
+  - Sparse categorical cross-entropy
+  - sparse_categorical_crossentropy
+  - CrossEntropyLoss
+  - PyTorch CrossEntropyLoss tutorial
+  - Raw logits with CrossEntropyLoss
+  - Sigmoid with binary classification
+  - Softmax with multi-class classification
+  - Multi-label binary cross-entropy
+  - One-hot encoded labels
+  - Integer class labels
+  - Classification target representation
+  - Regression loss functions
+  - Mean Squared Error
+  - MSE loss
+  - Mean Absolute Error
+  - MAE loss
+  - Root Mean Squared Error
+  - RMSE
+  - Huber loss
+  - R-squared regression metric
+  - Regression residual analysis
+  - Regression model evaluation
+  - Classification model evaluation
+  - Classification accuracy
+  - Precision and recall
+  - F1 score
+  - Confusion matrix
+  - ROC-AUC
+  - PR-AUC
+  - Specificity in classification
+  - Imbalanced classification
+  - Classification accuracy limitations
+  - Fraud detection classification
+  - Customer churn prediction
+  - Customer lifetime value prediction
+  - House price prediction neural network
+  - Numerical prediction with Deep Learning
+  - Keras Sequential model
+  - tf.keras.Sequential
+  - Keras Dense layer
+  - tf.keras.layers.Dense
+  - Keras Input layer
+  - Keras model.compile
+  - Keras model.fit
+  - Keras model.evaluate
+  - Keras model.predict
+  - Keras training workflow
+  - Keras validation_data
+  - Keras binary classification model
+  - Keras multi-class classification model
+  - Keras regression model architecture
+  - Keras Adam optimizer
+  - Keras model training
+  - Keras early stopping
+  - TensorFlow EarlyStopping callback
+  - Keras restore_best_weights
+  - PyTorch nn.Module
+  - PyTorch nn.Sequential
+  - PyTorch nn.Linear
+  - PyTorch nn.ReLU
+  - PyTorch forward method
+  - PyTorch binary classifier
+  - PyTorch multi-class classifier
+  - PyTorch regression model
+  - PyTorch training loop
+  - PyTorch loss function selection
+  - PyTorch AdamW optimizer
+  - torch.optim.AdamW
+  - PyTorch optimizer.zero_grad
+  - PyTorch loss.backward
+  - PyTorch optimizer.step
+  - PyTorch model evaluation
+  - PyTorch inference with torch.no_grad
+  - PyTorch sigmoid predictions
+  - PyTorch softmax probabilities
+  - PyTorch argmax classification
+  - PyTorch GPU training
+  - Keras vs PyTorch
+  - TensorFlow vs PyTorch classification
+  - Keras vs PyTorch regression
+  - Deep Learning framework comparison
+  - Keras and PyTorch equivalent models
+  - Keras model.fit vs PyTorch training loop
+  - Dense vs Linear layer
+  - Neural network training APIs
+  - Neural network mini-batch training
+  - Epochs and batch size
+  - Forward propagation
+  - Backpropagation
+  - Gradient-based optimization
+  - Neural network parameter updates
+  - Train validation test split
+  - Training dataset preparation
+  - Validation dataset
+  - Test dataset
+  - Data preprocessing for neural networks
+  - Feature engineering for Deep Learning
+  - Feature scaling
+  - Feature standardization
+  - Normalization for neural networks
+  - Training set mean and standard deviation
+  - Data leakage in machine learning
+  - Preventing data leakage
+  - Validation-based hyperparameter tuning
+  - Model generalization
+  - Overfitting in neural networks
+  - Underfitting in neural networks
+  - Training loss vs validation loss
+  - Training accuracy vs validation accuracy
+  - Neural network regularization
+  - Dropout regularization
+  - Weight decay
+  - Early stopping in Deep Learning
+  - Data augmentation
+  - Model capacity
+  - Neural network architecture selection
+  - Neural network hyperparameter tuning
+  - Learning rate tuning
+  - Classification model optimization
+  - Regression model optimization
+  - Imbalanced dataset evaluation
+  - False positives and false negatives
+  - Fraud detection model evaluation
+  - Business cost-sensitive classification
+  - Classification model threshold tuning
+  - Production model selection
+  - Production Deep Learning models
+  - Enterprise Deep Learning architecture
+  - Production model evaluation
+  - Model quality and business metrics
+  - Model latency and inference cost
+  - Model interpretability
+  - Model reliability and maintainability
+  - Deep Learning model deployment
+  - Production model lifecycle
+  - Model registry and deployment
+  - Model monitoring
+  - Model drift
+  - Feature drift
+  - Enterprise fraud detection system
+  - Customer value prediction model
+  - Production neural network best practices
+  - PyTorch and Keras hands-on exercises
+  - Classification model practical exercises
+  - Regression model practical exercises
+  - Threshold optimization exercise
+  - Imbalanced classification exercise
+  - Deep Learning interview questions
+  - Classification and regression interview questions
+  - Keras interview preparation
+  - PyTorch interview preparation
+  - Enterprise AI Engineering
+  - Enterprise AI Engineering Handbook
+---
+
 # 18. Building Classification and Regression Models
 
 > Learn how to build complete classification and regression models using Keras and PyTorch, from dataset preparation and model design to training, evaluation, prediction, and production-oriented model selection.

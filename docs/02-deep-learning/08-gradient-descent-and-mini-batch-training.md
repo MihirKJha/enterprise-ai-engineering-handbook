@@ -1,11 +1,132 @@
 ---
-title: Gradient Descent and Mini-Batch Training
+title: "Gradient Descent and Mini-Batch Training: Learning Rate, SGD, Batch Size, and Deep Learning Optimization"
 description: >
-  Learn how Gradient Descent optimizes neural network parameters, including
-  learning rate, Batch Gradient Descent, Stochastic Gradient Descent (SGD),
-  Mini-Batch Gradient Descent, batch size, epochs, iterations, gradient noise,
-  convergence, learning-rate scheduling, gradient accumulation, GPU
-  optimization, and production Deep Learning training workflows.
+  Learn how Gradient Descent optimizes neural network parameters using gradients
+  calculated through backpropagation. Explore the Gradient Descent update rule,
+  learning rate, Batch Gradient Descent, Stochastic Gradient Descent (SGD), and
+  Mini-Batch Gradient Descent. Understand the differences between batch, stochastic,
+  and mini-batch optimization, including batch size, epochs, iterations, gradient
+  noise, convergence, loss landscapes, local minima, saddle points, and plateaus.
+  Discover how learning-rate selection and scheduling influence training stability
+  and optimization performance. Implement manual Gradient Descent and mini-batch
+  regression using Python and NumPy, and learn practical training workflows with
+  TensorFlow, Keras, PyTorch, DataLoader, and tf.data. Understand vectorized
+  computation, GPU acceleration, gradient accumulation, effective batch size,
+  data pipeline optimization, and the relationship between batch size and learning
+  dynamics. Covers common optimization problems, numerical training diagnostics,
+  checkpointing, experiment tracking, reproducibility, hardware efficiency,
+  production Deep Learning workflows, practical exercises, and technical interview
+  questions for building and optimizing production-grade neural networks.
+keywords:
+  - Gradient Descent
+  - Gradient Descent Algorithm
+  - Deep Learning Optimization
+  - Neural Network Optimization
+  - Gradient-Based Optimization
+  - Gradient Descent Update Rule
+  - Optimization Algorithms
+  - Loss Minimization
+  - Loss Function
+  - Model Parameters
+  - Weights and Biases
+  - Parameter Updates
+  - Gradient Calculation
+  - Backpropagation
+  - Gradient and Optimization
+  - Learning Rate
+  - Learning Rate Selection
+  - Learning Rate Tuning
+  - Learning Rate Sensitivity
+  - Learning Rate Scheduling
+  - Learning Rate Decay
+  - Step Decay
+  - Exponential Decay
+  - Cosine Learning Rate Schedule
+  - Learning Rate Warmup
+  - Reduce on Plateau
+  - Batch Gradient Descent
+  - Stochastic Gradient Descent
+  - SGD
+  - Mini-Batch Gradient Descent
+  - Mini-Batch Training
+  - Batch vs SGD
+  - Batch vs Mini-Batch Gradient Descent
+  - Batch Size
+  - Effective Batch Size
+  - Epochs
+  - Training Iterations
+  - Training Steps
+  - Steps Per Epoch
+  - Total Training Steps
+  - Mini-Batch Mathematics
+  - Gradient Noise
+  - Stochastic Gradients
+  - Gradient Variance
+  - Training Convergence
+  - Loss Convergence
+  - Loss Landscape
+  - Local Minima
+  - Saddle Points
+  - Optimization Plateaus
+  - Training Instability
+  - Oscillating Loss
+  - Diverging Training
+  - Gradient Stability
+  - GPU Optimization
+  - GPU Acceleration
+  - GPU Parallelism
+  - Vectorized Computation
+  - Matrix Multiplication
+  - Tensor Operations
+  - Mini-Batch Vectorization
+  - GPU Memory Optimization
+  - Gradient Accumulation
+  - Gradient Accumulation in PyTorch
+  - Large Batch Training
+  - Small Batch Training
+  - Batch Size and Generalization
+  - Batch Size and Learning Rate
+  - Memory-Efficient Training
+  - Manual Gradient Descent
+  - Python Gradient Descent
+  - NumPy Gradient Descent
+  - Linear Regression Optimization
+  - Mini-Batch Regression
+  - Mean Squared Error
+  - MSE Optimization
+  - TensorFlow Training
+  - Keras Mini-Batch Training
+  - Keras Model Fit
+  - TensorFlow Data Pipeline
+  - tf.data Dataset
+  - TensorFlow Prefetch
+  - PyTorch Mini-Batch Training
+  - PyTorch DataLoader
+  - PyTorch Optimizer
+  - PyTorch Training Loop
+  - Deep Learning with Python
+  - Neural Network Training Workflow
+  - Training Data Shuffling
+  - Data Loading Throughput
+  - Data Pipeline Optimization
+  - CPU and GPU Utilization
+  - Distributed Training
+  - Mixed Precision Training
+  - Gradient Clipping
+  - Weight Initialization
+  - Numerical Stability
+  - Model Validation
+  - Training Loss Monitoring
+  - Training Checkpointing
+  - Experiment Tracking
+  - Training Reproducibility
+  - Production Deep Learning
+  - Scalable Model Training
+  - Enterprise AI Engineering
+  - Deep Learning Best Practices
+  - Gradient Descent Interview Questions
+  - Deep Learning Interview Preparation
+  - Enterprise AI Engineering Handbook
 ---
 
 # 08. Gradient Descent and Mini-Batch Training
