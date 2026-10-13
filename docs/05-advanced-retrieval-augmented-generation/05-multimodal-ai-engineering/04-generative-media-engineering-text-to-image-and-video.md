@@ -1,17 +1,100 @@
 ---
-title: "Generative Media Engineering: Text-to-Image and Video"
-description: "Learn how text-to-image, text-to-video, and image-to-video generation work, including diffusion, latent representations, temporal consistency, prompting, and production risks."
+title: "Generative Media Engineering: Text-to-Image, Text-to-Video, and Image-to-Video"
+description: >
+  Explore generative media engineering, including text-to-image generation,
+  text-to-video synthesis, image-to-video animation, diffusion models, latent
+  representations, prompt engineering, and temporal consistency. Understand how
+  diffusion-based image generators transform natural-language prompts into
+  visual content, how video-generation pipelines combine semantic conditioning
+  with temporal modelling, and how image-to-video systems animate reference
+  images while attempting to preserve scene identity and composition. Learn
+  practical prompt-design techniques for controlling subjects, settings,
+  composition, visual style, lighting, colour, and constraints. Examine
+  generative media tools and model families such as OpenAI DALL·E, OpenAI Sora,
+  Runway, and Hugging Face Diffusers, while accounting for changing model
+  capabilities and provider-specific APIs. Discover video engineering concepts
+  including optical flow, frame interpolation, video captioning, temporal
+  attention, and spatiotemporal modelling. Learn how to design production
+  generation services with provider adapters, asynchronous jobs, status tracking,
+  retries, secure asset storage, output validation, quality evaluation, and
+  human review. Apply responsible AI practices for consent, copyright, licensing,
+  privacy, provenance, synthetic-media disclosure, and deepfake risk management.
 keywords:
-  - generative media
-  - text-to-image
-  - text-to-video
-  - image-to-video
-  - diffusion models
-  - latent space
+  - Generative Media Engineering
+  - Generative Media
+  - Text-to-Image Generation
+  - Text-to-Video Generation
+  - Image-to-Video Generation
+  - AI Image Generation
+  - AI Video Generation
+  - Diffusion Models
+  - Diffusion-Based Image Generation
+  - Latent Space
+  - Latent Representations
+  - Latent Video Generation
+  - Text Encoder
+  - Semantic Conditioning
+  - Image Decoder
+  - Prompt Engineering
+  - Image Generation Prompts
+  - Video Generation Prompts
+  - Prompt Adherence
+  - Prompt Structure
+  - Image Composition
+  - Camera Movement
+  - Visual Style Control
+  - Natural-Language Image Editing
+  - Natural-Language Video Editing
   - OpenAI DALL-E
   - OpenAI Sora
-  - temporal consistency
-  - enterprise AI engineering
+  - Runway
+  - Runway Gen-3 Alpha
+  - Pika
+  - Google DeepMind
+  - Hugging Face Diffusers
+  - Video Generation Pipeline
+  - Image-to-Video Pipeline
+  - Temporal Consistency
+  - Spatiotemporal Modelling
+  - Temporal Attention
+  - 3D U-Net
+  - Video Transformers
+  - Optical Flow
+  - Frame Interpolation
+  - Video Captioning
+  - Video Understanding
+  - Video Summarization
+  - Timestamped Video Captions
+  - Synthetic Data Generation
+  - Generative Media Evaluation
+  - Visual Quality Assessment
+  - Temporal Quality Evaluation
+  - Asynchronous AI Workflows
+  - Video Generation API
+  - Provider Adapter Pattern
+  - Generation Job Management
+  - Retry Handling
+  - Generated Asset Storage
+  - AI Asset Provenance
+  - Production AI Architecture
+  - Enterprise AI Engineering
+  - Enterprise Generative AI
+  - AI Observability
+  - Generation Latency
+  - Compute Cost Optimization
+  - Human-in-the-Loop Review
+  - Responsible Generative AI
+  - Synthetic Media Governance
+  - Deepfake Risk Management
+  - AI-Generated Content Disclosure
+  - Copyright and Licensing
+  - Consent and Identity Protection
+  - Synthetic Media Watermarking
+  - Content Credentials
+  - Generative AI Privacy
+  - Generative Media Security
+  - Generative Media Best Practices
+  - Generative AI Interview Questions
 ---
 
 # 04. Generative Media Engineering: Text-to-Image and Video

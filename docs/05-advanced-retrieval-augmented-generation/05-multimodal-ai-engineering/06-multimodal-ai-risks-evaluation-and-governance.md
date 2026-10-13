@@ -1,15 +1,117 @@
 ---
-title: "Multimodal AI Risks, Evaluation and Governance"
-description: "Evaluate multimodal AI reliability, alignment, hallucinations, bias, privacy, security, transparency, and responsible deployment."
+title: "Multimodal AI Risks, Evaluation, and Governance: Responsible Enterprise AI"
+description: >
+  Understand the technical, operational, ethical, and security risks of
+  multimodal AI systems that process text, images, audio, and video. Explore
+  cross-modal alignment, early and late fusion strategies, hallucinations,
+  inconsistent evidence, and the challenges of combining information from
+  multiple modalities. Learn how to evaluate multimodal applications across
+  input preprocessing, individual modality performance, cross-modal retrieval,
+  generation quality, structured outputs, fairness, reliability, and user
+  outcomes. Discover practical methods for building representative evaluation
+  datasets, testing edge cases, measuring uncertainty, identifying performance
+  gaps, and establishing safe fallback behaviour. Examine AI bias and fairness
+  risks involving languages, accents, cultural contexts, demographic
+  representation, and synthetic training data. Apply privacy and security
+  controls for sensitive media, embeddings, prompt injection, adversarial
+  inputs, server-side request forgery (SSRF), access control, and data retention.
+  Learn responsible practices for deepfake prevention, synthetic-media
+  provenance, watermarking, consent, copyright, transparency, and accountability.
+  Evaluate production trade-offs involving latency, compute costs, edge inference,
+  batching, caching, model routing, and quality. Establish a practical AI
+  governance lifecycle covering intended-use boundaries, evaluation criteria,
+  controlled deployment, monitoring, incident response, and rollback decisions.
+  Prepare for enterprise AI architecture interviews with production-oriented
+  evaluation methods, risk controls, and responsible AI engineering principles.
 keywords:
-  - multimodal AI risks
-  - multimodal AI evaluation
-  - AI governance
-  - multimodal hallucinations
-  - AI bias and fairness
-  - synthetic media risks
-  - privacy and security
-  - responsible AI
+  - Multimodal AI Risks
+  - Multimodal AI Evaluation
+  - AI Governance
+  - Responsible AI
+  - Enterprise AI Governance
+  - Multimodal AI Reliability
+  - Cross-Modal Alignment
+  - Multimodal Fusion
+  - Late Fusion
+  - Early Fusion
+  - Cross-Attention
+  - Multimodal Hallucinations
+  - Cross-Modal Consistency
+  - Evidence Grounding
+  - AI Factuality
+  - Model Uncertainty
+  - Confidence Calibration
+  - Multimodal AI Evaluation Framework
+  - End-to-End AI Evaluation
+  - Model Evaluation Metrics
+  - Representative Evaluation Datasets
+  - Edge Case Testing
+  - Robustness Testing
+  - Retrieval Precision
+  - Retrieval Recall
+  - Word Error Rate
+  - Structured Output Validation
+  - Schema Validity
+  - Slice-Based Evaluation
+  - AI Performance Monitoring
+  - Multimodal Data Alignment
+  - AI Bias and Fairness
+  - Demographic Bias
+  - Cultural Bias
+  - Language and Accent Bias
+  - Representation in Training Data
+  - Synthetic Data Bias
+  - Fairness Evaluation
+  - AI Privacy
+  - Multimodal Data Privacy
+  - Sensitive Media Protection
+  - Data Minimization
+  - Data Retention
+  - Data Deletion
+  - Differential Privacy
+  - AI Security
+  - Adversarial Inputs
+  - Multimodal Prompt Injection
+  - Prompt Injection in Images
+  - Untrusted Media Content
+  - Server-Side Request Forgery
+  - SSRF Prevention
+  - Access Control
+  - Secure Tool Execution
+  - Tenant Isolation
+  - Deepfake Risks
+  - Synthetic Media Risks
+  - Misinformation
+  - AI-Generated Content Detection
+  - Media Provenance
+  - Digital Watermarking
+  - Content Credentials
+  - Consent and Identity Protection
+  - Copyright and Licensing
+  - AI Transparency
+  - Explainability and Accountability
+  - AI Risk Management
+  - NIST AI Risk Management Framework
+  - AI Governance Lifecycle
+  - Model Versioning
+  - Data Drift Monitoring
+  - Incident Response
+  - Model Rollback
+  - Human-in-the-Loop Review
+  - AI Safety Controls
+  - Multimodal AI Performance Optimization
+  - Edge AI Inference
+  - Model Quantization
+  - Batch Processing
+  - Embedding Caching
+  - Model Routing
+  - AI Latency Optimization
+  - AI Cost Optimization
+  - Enterprise Multimodal AI
+  - Production AI Engineering
+  - Multimodal AI Best Practices
+  - Responsible AI Deployment
+  - Multimodal AI Interview Questions
 ---
 
 # 06. Multimodal AI Risks, Evaluation and Governance
