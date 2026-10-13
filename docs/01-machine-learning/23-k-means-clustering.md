@@ -1,11 +1,72 @@
 ---
-title: K-Means Clustering
+title: "K-Means Clustering: Centroids, Optimal K Selection, Evaluation, and Python Implementation"
 description: >
-  Learn how K-Means Clustering groups unlabeled data into distinct clusters
-  using centroids and iterative distance-based optimization, including cluster
-  assignment, centroid updates, choosing the optimal number of clusters with
-  the Elbow Method and Silhouette Score, Scikit-Learn implementation, and
-  enterprise applications.
+  Learn how K-Means Clustering partitions unlabeled datasets into distinct
+  groups by assigning observations to their nearest centroids and iteratively
+  updating cluster centers to minimize within-cluster distances. Understand
+  the core concepts of partition-based clustering, centroid initialization,
+  distance measurement, cluster assignment, and iterative convergence.
+  Explore how Euclidean Distance supports standard K-Means and why feature
+  scaling, cluster shape, and outliers influence clustering performance.
+  Discover techniques for selecting and evaluating the number of clusters,
+  including the Elbow Method, Silhouette Score, Davies-Bouldin Index, and
+  Calinski-Harabasz Index. Follow practical Python implementations using
+  scikit-learn's KMeans estimator, including cluster label extraction,
+  centroid inspection, and inertia-based Elbow Method analysis with
+  Matplotlib. Examine enterprise applications in customer segmentation,
+  banking risk grouping, healthcare, marketing personalization, manufacturing,
+  telecommunications, e-commerce, recommendation systems, and image
+  compression. Learn production best practices such as standardizing numerical
+  features, testing multiple values of K, configuring centroid initialization
+  through n_init, validating cluster quality, and visualizing results.
+  Understand common limitations, including sensitivity to outliers, arbitrary
+  cluster counts, and poor performance on irregularly shaped clusters, and
+  learn when density-based alternatives such as DBSCAN may be more suitable.
+keywords:
+  - K-Means Clustering
+  - K-Means Algorithm
+  - Unsupervised Learning
+  - Partition-Based Clustering
+  - Cluster Centroids
+  - Centroid Initialization
+  - Cluster Assignment
+  - Iterative Clustering
+  - Clustering Convergence
+  - Euclidean Distance
+  - Distance-Based Clustering
+  - Optimal Number of Clusters
+  - Choosing K
+  - Elbow Method
+  - Silhouette Score
+  - Davies-Bouldin Index
+  - Calinski-Harabasz Index
+  - Cluster Evaluation
+  - Clustering Metrics
+  - Inertia
+  - Within-Cluster Sum of Squares
+  - Feature Scaling
+  - Feature Standardization
+  - Outlier Sensitivity
+  - Scikit-Learn
+  - sklearn.cluster.KMeans
+  - KMeans cluster_centers_
+  - KMeans labels_
+  - KMeans n_init
+  - Python Machine Learning
+  - Matplotlib
+  - Customer Segmentation
+  - Customer Risk Grouping
+  - Marketing Personalization
+  - Recommendation Systems
+  - Image Compression
+  - Product Categorization
+  - User Behavior Analysis
+  - Enterprise Clustering
+  - Enterprise Machine Learning
+  - Production Machine Learning
+  - Cluster Visualization
+  - DBSCAN
+  - Clustering Best Practices
 ---
 
 # 23. K-Means Clustering

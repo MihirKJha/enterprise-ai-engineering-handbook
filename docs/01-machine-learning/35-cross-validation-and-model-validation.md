@@ -1,10 +1,66 @@
 ---
-title: Cross-Validation and Model Validation
+title: "Cross-Validation and Model Validation: K-Fold, Stratified K-Fold, and Data Leakage Prevention"
 description: >
-  Learn how cross-validation and model validation improve Machine Learning
-  generalization, including training, validation, and test datasets, K-Fold
-  Cross-Validation, Stratified K-Fold, hyperparameter tuning, data leakage,
-  data snooping, and production model validation best practices.
+  Learn how to validate Machine Learning models and estimate their ability
+  to generalize to unseen data. Understand the distinct roles of training,
+  validation, and test datasets in model training, hyperparameter tuning,
+  model selection, and final performance evaluation. Explore K-Fold
+  Cross-Validation, including fold creation, repeated training and validation,
+  and average performance estimation, as well as Stratified K-Fold for
+  preserving class proportions in imbalanced classification datasets.
+  Discover how cross-validation supports model comparison, feature selection,
+  algorithm benchmarking, and hyperparameter optimization using Scikit-Learn
+  tools such as cross_val_score, StratifiedKFold, and GridSearchCV. Learn to
+  prevent data snooping and data leakage by keeping the test dataset untouched
+  until model development is complete. Examine regression target transformations,
+  including Log Transformation and Box-Cox Transformation, for highly skewed
+  target variables. Explore real-world applications in credit risk, disease
+  prediction, customer churn, predictive maintenance, insurance claims, and
+  cybersecurity. Apply enterprise Machine Learning best practices to improve
+  evaluation reliability, reduce overfitting, preserve class distributions,
+  and select models based on robust validation results before production
+  deployment.
+keywords:
+  - Cross-Validation
+  - Model Validation
+  - Machine Learning Model Validation
+  - K-Fold Cross-Validation
+  - Stratified K-Fold
+  - Training Dataset
+  - Validation Dataset
+  - Test Dataset
+  - Train Validation Test Split
+  - Model Generalization
+  - Overfitting
+  - Hyperparameter Tuning
+  - Hyperparameter Optimization
+  - Data Leakage
+  - Data Snooping
+  - Model Selection
+  - Feature Selection
+  - Algorithm Benchmarking
+  - Scikit-Learn
+  - sklearn.model_selection
+  - cross_val_score
+  - StratifiedKFold
+  - GridSearchCV
+  - Imbalanced Classification
+  - Class Distribution
+  - Performance Estimation
+  - Model Comparison
+  - Regression Target Transformation
+  - Log Transformation
+  - Box-Cox Transformation
+  - Skewed Target Variables
+  - Credit Risk Prediction
+  - Disease Prediction
+  - Customer Churn Prediction
+  - Predictive Maintenance
+  - Insurance Claim Prediction
+  - Cybersecurity Threat Detection
+  - Enterprise Machine Learning
+  - Production Model Validation
+  - Machine Learning Best Practices
 ---
 
 # 35. Cross-Validation and Model Validation

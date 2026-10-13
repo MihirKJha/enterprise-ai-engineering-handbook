@@ -1,10 +1,60 @@
 ---
-title: Classification Evaluation Metrics
+title: "Classification Evaluation Metrics: Accuracy, Precision, Recall, F1 Score, and Confusion Matrix"
 description: >
-  Learn how to evaluate classification models using Accuracy, Confusion Matrix,
-  Precision, Recall, and F1 Score, including binary and multi-class evaluation,
-  metric selection based on business requirements, Scikit-Learn implementation,
-  and production Machine Learning best practices.
+  Learn how to evaluate classification models on unseen data using essential
+  Machine Learning evaluation metrics, including Accuracy, Confusion Matrix,
+  Precision, Recall, and F1 Score. Understand True Positives, True Negatives,
+  False Positives, and False Negatives, and learn how to select appropriate
+  metrics based on class balance, business requirements, and the consequences
+  of prediction errors. Explore binary and multi-class classification
+  evaluation, macro and weighted averaging, train-test splitting, and practical
+  Scikit-Learn implementations using classification_report, confusion_matrix,
+  accuracy_score, precision_score, recall_score, and f1_score. Examine real-world
+  applications in healthcare, banking, fraud detection, retail, cybersecurity,
+  insurance, and customer churn prediction. Apply enterprise Machine Learning
+  best practices to evaluate models on unseen test data, analyze classification
+  errors, account for class imbalance, and align model performance metrics with
+  business objectives and production requirements.
+keywords:
+  - Classification Evaluation Metrics
+  - Machine Learning Model Evaluation
+  - Classification Metrics
+  - Accuracy
+  - Confusion Matrix
+  - Precision
+  - Recall
+  - F1 Score
+  - True Positive
+  - True Negative
+  - False Positive
+  - False Negative
+  - Binary Classification
+  - Multi-Class Classification
+  - Macro Average
+  - Weighted Average
+  - Train-Test Split
+  - Model Generalization
+  - Class Imbalance
+  - Scikit-Learn
+  - sklearn.metrics
+  - classification_report
+  - confusion_matrix
+  - accuracy_score
+  - precision_score
+  - recall_score
+  - f1_score
+  - Classification Model Evaluation
+  - Classification Performance Analysis
+  - Business-Driven Model Evaluation
+  - Fraud Detection
+  - Disease Detection
+  - Spam Filtering
+  - Recommendation Systems
+  - Cybersecurity Threat Detection
+  - Customer Churn Prediction
+  - Credit Risk Prediction
+  - Enterprise Machine Learning
+  - Production Machine Learning Best Practices
 ---
 
 # 32. Classification Evaluation Metrics

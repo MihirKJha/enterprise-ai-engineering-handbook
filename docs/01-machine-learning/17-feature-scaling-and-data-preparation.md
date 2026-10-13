@@ -1,11 +1,46 @@
 ---
-title: Feature Scaling and Data Preparation
+title: "Feature Scaling and Data Preparation in Machine Learning: Standardization, Normalization, and Preprocessing Pipelines"
 description: >
-  Learn how data preparation and feature scaling improve Machine Learning
-  models, including data cleaning, train-test splitting, Standardization,
-  Normalization, preprocessing techniques, data leakage prevention, and
-  Scikit-Learn preprocessing pipelines.
----
+  Learn how data preparation and feature scaling improve supervised Machine
+  Learning workflows by transforming raw datasets into clean, consistent, and
+  model-ready inputs. Explore essential preprocessing techniques, including
+  data cleaning, handling missing values, removing duplicate records, encoding
+  categorical variables, feature selection, outlier handling, and feature
+  transformation. Understand why feature scaling matters for distance-based
+  algorithms such as K-Nearest Neighbors (K-NN) and Support Vector Machines
+  (SVMs), as well as Logistic Regression and Neural Networks. Compare
+  Standardization, which transforms features to have a mean of zero and a
+  standard deviation of one, with Normalization, which typically rescales
+  values to a range between zero and one. Learn how train-test splitting
+  separates training data from unseen evaluation data and how to implement
+  preprocessing using Scikit-Learn's train_test_split, StandardScaler, and
+  MinMaxScaler. Follow a customer churn prediction example and explore
+  enterprise preprocessing workflows involving data validation, feature
+  engineering, data versioning, and pipeline automation. Understand how to
+  prevent data leakage by fitting preprocessing transformers only on training
+  data and applying consistent transformations to validation, test, and
+  inference data. Discover production best practices for reproducible
+  preprocessing pipelines and reliable Machine Learning deployment.
+keywords:
+  - Feature Scaling
+  - Data Preparation in Machine Learning
+  - Data Preprocessing
+  - Machine Learning Preprocessing
+  - Feature Engineering
+  - Standardization
+  - Normalization
+  - StandardScaler
+  - MinMaxScaler
+  - Standardization vs Normalization
+  - Feature Transformation
+  - Train-Test Split
+  - Training Dataset
+  - Test Dataset
+  - Model Generalization
+  - Data Cleaning
+  - Missing Value Handling
+  - Duplicate Record Removal
+  - Categorical Variable Encoding
 
 # 17. Feature Scaling and Data Preparation
 

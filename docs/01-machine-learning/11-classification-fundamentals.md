@@ -1,10 +1,69 @@
 ---
-title: Classification Fundamentals
+title: "Classification Fundamentals: Binary, Multi-Class, and OvA vs OvO Strategies"
 description: >
   Learn the fundamentals of classification in supervised Machine Learning,
-  including binary and multi-class classification, common classification
-  algorithms, One-vs-All (OvA), One-vs-One (OvO), and real-world enterprise
-  applications.
+  including how classification models predict categorical labels from labelled
+  training data and how classification differs from regression. Explore binary
+  and multi-class classification, common classification algorithms such as
+  Logistic Regression, Decision Trees, K-Nearest Neighbors (KNN), Support Vector
+  Machines (SVM), Naïve Bayes, and Neural Networks. Understand multi-class
+  classification strategies, including One-vs-All (OvA) and One-vs-One (OvO),
+  their model-building approaches, complexity, scalability, and prediction
+  methods. Discover real-world enterprise applications across banking, finance,
+  healthcare, retail, telecommunications, marketing, and cybersecurity, along
+  with a medical drug recommendation case study, a scikit-learn implementation,
+  classification best practices, common mistakes, and production considerations
+  such as interpretability, class imbalance, prediction speed, and scalability.
+keywords:
+  - Classification Fundamentals
+  - Classification in Machine Learning
+  - Supervised Learning
+  - Classification Algorithms
+  - Classification vs Regression
+  - Categorical Prediction
+  - Categorical Labels
+  - Binary Classification
+  - Multi-Class Classification
+  - Logistic Regression
+  - Decision Trees
+  - K-Nearest Neighbors
+  - KNN Classification
+  - Support Vector Machines
+  - SVM Classification
+  - Naive Bayes
+  - Neural Networks
+  - One-vs-All
+  - One-vs-Rest
+  - OvA Classification
+  - One-vs-One
+  - OvO Classification
+  - Multi-Class Classification Strategies
+  - Classification Model Training
+  - Labelled Training Data
+  - Feature Engineering
+  - Class Imbalance
+  - Classification Performance Metrics
+  - Classification Model Evaluation
+  - Scikit-learn Classification
+  - Python Machine Learning
+  - Logistic Regression with Scikit-learn
+  - Fraud Detection
+  - Loan Default Prediction
+  - Medical Diagnosis
+  - Drug Recommendation Systems
+  - Customer Churn Prediction
+  - Customer Segmentation
+  - Spam Detection
+  - Sentiment Analysis
+  - Cybersecurity Intrusion Detection
+  - Support Ticket Classification
+  - Product Recommendation
+  - Enterprise Machine Learning
+  - Production Classification Models
+  - Interpretable Machine Learning
+  - Scalable Classification Systems
+  - Classification Best Practices
+  - Decision Trees in Machine Learning
 ---
 
 # 11. Classification Fundamentals

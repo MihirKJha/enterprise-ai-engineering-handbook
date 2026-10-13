@@ -1,10 +1,111 @@
 ---
-title: Machine Learning Fundamentals
+title: "Machine Learning Fundamentals: Learning Paradigms, Algorithms, and Applications"
 description: >
-  Learn the four major Machine Learning paradigms—supervised, unsupervised,
-  semi-supervised, and reinforcement learning—along with core techniques,
-  real-world applications, and how to choose the right approach for
-  enterprise AI problems.
+  Explore the four major Machine Learning paradigms—supervised learning,
+  unsupervised learning, semi-supervised learning, and reinforcement learning—
+  and understand how they address different business and engineering problems.
+  Learn how supervised learning uses labelled data for prediction, while
+  unsupervised learning discovers hidden patterns in unlabelled data.
+  Understand how semi-supervised learning combines labelled and unlabelled
+  datasets and how reinforcement learning enables agents to learn through
+  interaction, rewards, and penalties. Discover popular algorithms, including
+  Linear Regression, Logistic Regression, Decision Trees, Random Forest,
+  Support Vector Machines, K-Means, Hierarchical Clustering, DBSCAN, and
+  Principal Component Analysis (PCA). Examine common Machine Learning
+  techniques such as classification, regression, clustering, association rule
+  learning, anomaly detection, recommendation systems, sequence mining, and
+  dimensionality reduction. Explore real-world applications including spam
+  detection, credit risk assessment, disease diagnosis, house price prediction,
+  customer segmentation, fraud detection, product recommendations, and market
+  basket analysis. Learn how to select an appropriate learning paradigm and
+  algorithm by starting with the business objective, understanding available
+  data, validating assumptions, and choosing suitable evaluation metrics.
+  Includes a Python classification example using scikit-learn, an overview
+  of Machine Learning libraries for Java, production insights, engineering
+  best practices, common mistakes, and enterprise-oriented guidance for
+  building scalable and maintainable Machine Learning solutions.
+keywords:
+  - Machine Learning Fundamentals
+  - Machine Learning
+  - ML Paradigms
+  - Supervised Learning
+  - Unsupervised Learning
+  - Semi-Supervised Learning
+  - Reinforcement Learning
+  - Supervised vs Unsupervised Learning
+  - Labelled Data
+  - Unlabelled Data
+  - Semi-Supervised Learning Techniques
+  - Reinforcement Learning Agents
+  - Rewards and Penalties
+  - Machine Learning Algorithms
+  - Linear Regression
+  - Logistic Regression
+  - Decision Trees
+  - Random Forest
+  - Support Vector Machines
+  - K-Means Clustering
+  - Hierarchical Clustering
+  - DBSCAN
+  - Principal Component Analysis
+  - PCA
+  - Classification
+  - Regression
+  - Clustering
+  - Association Rule Learning
+  - Anomaly Detection
+  - Recommendation Systems
+  - Sequence Mining
+  - Dimensionality Reduction
+  - Machine Learning Techniques
+  - Machine Learning Use Cases
+  - Machine Learning Applications
+  - Spam Detection
+  - Credit Risk Assessment
+  - Disease Diagnosis
+  - House Price Prediction
+  - Customer Churn Prediction
+  - Customer Segmentation
+  - Market Basket Analysis
+  - Document Clustering
+  - Topic Discovery
+  - Medical Image Classification
+  - Speech Recognition
+  - Robotics
+  - Autonomous Vehicles
+  - Game Playing
+  - Resource Optimization
+  - Fraud Detection
+  - Product Recommendations
+  - Sales Forecasting
+  - Website Clickstream Analysis
+  - Machine Learning Model Selection
+  - Choosing Machine Learning Algorithms
+  - Business Problem Analysis
+  - Data-Driven Decision Making
+  - Machine Learning Evaluation Metrics
+  - Model Training
+  - Model Prediction
+  - Python Machine Learning
+  - Scikit-Learn
+  - RandomForestClassifier
+  - Java Machine Learning Libraries
+  - Smile
+  - Tribuo
+  - Weka
+  - Deep Java Library
+  - DJL
+  - Enterprise Machine Learning
+  - Enterprise AI
+  - Production Machine Learning
+  - Machine Learning Engineering
+  - Scalable Machine Learning Systems
+  - Maintainable AI Systems
+  - Machine Learning Best Practices
+  - Machine Learning Common Mistakes
+  - Production AI Engineering
+  - Machine Learning Lifecycle
+  - Enterprise AI Engineering Handbook
 ---
 
 

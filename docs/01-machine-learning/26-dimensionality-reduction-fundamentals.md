@@ -1,10 +1,86 @@
 ---
-title: Dimensionality Reduction Fundamentals
+title: "Dimensionality Reduction Fundamentals: Curse of Dimensionality, Feature Selection, PCA, and Autoencoders"
 description: >
-  Learn the fundamentals of Dimensionality Reduction, including the Curse of
-  Dimensionality, Feature Selection and Feature Extraction, and techniques
-  such as PCA, t-SNE, UMAP, and Autoencoders for simplifying high-dimensional
-  data while preserving meaningful information for Machine Learning.
+  Learn the fundamentals of Dimensionality Reduction, a machine learning
+  approach that reduces the number of input features while preserving
+  meaningful information. Understand why high-dimensional datasets introduce
+  computational complexity, increased storage requirements, data sparsity,
+  redundant information, visualization challenges, and greater risks of
+  overfitting. Explore the Curse of Dimensionality and its impact on distance
+  measurements, data requirements, and model performance. Compare Feature
+  Selection, which retains important original variables, with Feature
+  Extraction, which creates new representations from existing features.
+  Examine common techniques, including Principal Component Analysis (PCA)
+  for linear feature extraction, t-SNE for data visualization, UMAP for
+  visualization and manifold learning, and Autoencoders for deep learning-based
+  data compression. Follow practical Python examples using scikit-learn's
+  PCA, StandardScaler, and Pipeline components to build dimensionality
+  reduction workflows. Discover enterprise applications in healthcare,
+  financial risk modeling, customer analytics, cybersecurity, manufacturing,
+  bioinformatics, computer vision, and natural language processing. Explore
+  a customer analytics case study involving hundreds of correlated attributes
+  and learn how compact feature representations can support downstream
+  clustering and machine learning. Apply best practices for feature scaling,
+  irrelevant feature removal, dimension selection using explained variance
+  or business requirements, and model performance evaluation before and after
+  transformation. Understand common mistakes, including excessive information
+  loss, inappropriate use of visualization techniques for predictive modeling,
+  and assuming fewer features always improve results.
+keywords:
+  - Dimensionality Reduction
+  - Dimensionality Reduction Fundamentals
+  - Unsupervised Learning
+  - Feature Space Reduction
+  - Curse of Dimensionality
+  - High-Dimensional Data
+  - Feature Selection
+  - Feature Extraction
+  - Principal Component Analysis
+  - PCA
+  - t-SNE
+  - UMAP
+  - Autoencoders
+  - Manifold Learning
+  - Linear Dimensionality Reduction
+  - Nonlinear Dimensionality Reduction
+  - Explained Variance
+  - Feature Compression
+  - Feature Representation
+  - Feature Engineering
+  - Feature Scaling
+  - StandardScaler
+  - Scikit-Learn
+  - sklearn.decomposition.PCA
+  - sklearn.pipeline.Pipeline
+  - Python Machine Learning
+  - Data Preprocessing
+  - Model Complexity
+  - Overfitting Reduction
+  - Computational Efficiency
+  - High-Dimensional Feature Engineering
+  - Data Visualization
+  - Clustering
+  - Classification
+  - Regression
+  - Customer Analytics
+  - Customer Segmentation
+  - Financial Risk Modeling
+  - Fraud Detection
+  - Healthcare Analytics
+  - Medical Image Analysis
+  - Cybersecurity
+  - Intrusion Detection
+  - Predictive Maintenance
+  - Sensor Data Compression
+  - Bioinformatics
+  - Gene Expression Analysis
+  - Computer Vision
+  - Natural Language Processing
+  - Text Embedding Visualization
+  - Recommendation Systems
+  - Enterprise Machine Learning
+  - Machine Learning Pipelines
+  - Dimensionality Reduction Best Practices
 ---
 
 # 26. Dimensionality Reduction Fundamentals

@@ -1,5 +1,10 @@
 document$.subscribe(() => {
   mermaid.initialize({
-    startOnLoad: true
+    startOnLoad: false,
+    theme: "default"
+  });
+
+  mermaid.run().catch((error) => {
+    console.error("Mermaid rendering failed:", error);
   });
 });

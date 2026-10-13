@@ -1,10 +1,116 @@
 ---
-title: Regression Fundamentals
+title: "Regression Fundamentals: Simple, Multiple, Linear, and Nonlinear Regression"
 description: >
-  Learn the fundamentals of regression for predicting continuous numerical
-  values, including simple and multiple regression, linear and nonlinear
-  regression, real-world applications, and regression modeling in enterprise
-  Machine Learning.
+  Learn the fundamentals of regression, a supervised Machine Learning
+  technique used to predict continuous numerical values by identifying
+  relationships between input features and target variables. Understand how
+  regression differs from classification and how historical labelled data
+  enables models to estimate outcomes for unseen observations. Explore simple
+  regression, which uses one independent variable, and multiple regression,
+  which uses two or more independent variables. Differentiate between linear
+  regression, which models approximately straight-line relationships, and
+  nonlinear regression, which captures more complex patterns such as
+  exponential growth, logarithmic relationships, and seasonal trends. Discover
+  real-world applications across automotive, real estate, finance,
+  manufacturing, healthcare, banking, insurance, agriculture, and weather
+  forecasting. Examine a practical case study on predicting vehicle CO₂
+  emissions using engine size, cylinder count, and fuel consumption to support
+  engine optimization and environmental compliance. Learn how enterprise
+  organizations use regression for demand forecasting, revenue prediction,
+  pricing optimization, financial risk estimation, inventory planning, and
+  strategic decision-making. Explore a Python implementation using
+  scikit-learn's LinearRegression model, along with regression model selection,
+  feature relevance, historical data quality, evaluation metrics, and
+  production-oriented best practices. Understand why regression is frequently
+  used as an interpretable, computationally efficient baseline for predictive
+  modeling and how to avoid common mistakes when designing regression
+  solutions. This chapter prepares you for Linear Regression, including
+  Simple Linear Regression, Multiple Linear Regression, Ordinary Least
+  Squares (OLS), and the assumptions behind linear models.
+keywords:
+  - Regression Fundamentals
+  - Regression in Machine Learning
+  - Machine Learning Regression
+  - Supervised Learning
+  - Regression Analysis
+  - Regression Models
+  - Continuous Value Prediction
+  - Numerical Prediction
+  - Predictive Modeling
+  - Regression vs Classification
+  - Independent Variables
+  - Dependent Variable
+  - Input Features
+  - Target Variable
+  - Historical Data
+  - Labelled Data
+  - Simple Regression
+  - Simple Linear Regression
+  - Multiple Regression
+  - Multiple Linear Regression
+  - Linear Regression
+  - Nonlinear Regression
+  - Linear vs Nonlinear Regression
+  - Regression Categories
+  - Regression Algorithms
+  - Feature Selection
+  - Feature Relationships
+  - Regression Evaluation Metrics
+  - Regression Model Selection
+  - House Price Prediction
+  - Sales Forecasting
+  - Revenue Forecasting
+  - Stock Price Prediction
+  - Fuel Consumption Prediction
+  - CO2 Emissions Prediction
+  - Vehicle Emissions Modeling
+  - Electricity Demand Forecasting
+  - Temperature Prediction
+  - Rainfall Forecasting
+  - Predictive Maintenance
+  - Blood Pressure Prediction
+  - Insurance Premium Estimation
+  - Crop Yield Prediction
+  - Demand Forecasting
+  - Pricing Optimization
+  - Financial Risk Estimation
+  - Inventory Planning
+  - Automotive Machine Learning
+  - Real Estate Analytics
+  - Financial Analytics
+  - Healthcare Machine Learning
+  - Manufacturing Analytics
+  - Banking Analytics
+  - Insurance Analytics
+  - Agriculture Analytics
+  - Environmental Prediction
+  - CO2 Emissions Case Study
+  - Engine Size
+  - Number of Cylinders
+  - Fuel Consumption
+  - Environmental Compliance
+  - Enterprise Machine Learning
+  - Enterprise Predictive Analytics
+  - Business Forecasting
+  - Data-Driven Decision Making
+  - Interpretable Machine Learning
+  - Baseline Models
+  - Model Interpretability
+  - Computationally Efficient Models
+  - Python Regression
+  - Scikit-Learn
+  - sklearn.linear_model
+  - LinearRegression
+  - Regression Model Training
+  - Model Prediction
+  - Model Evaluation
+  - Data Quality
+  - Regression Best Practices
+  - Regression Common Mistakes
+  - Ordinary Least Squares
+  - OLS
+  - Linear Model Assumptions
+  - Enterprise AI Engineering Handbook
 ---
 
 # 06. Regression Fundamentals

@@ -1,10 +1,104 @@
 ---
-title: Linear Regression
+title: "Linear Regression: Simple and Multiple Regression, OLS, Residuals, and Model Assumptions"
 description: >
-  Learn how Linear Regression models relationships between variables to predict
-  continuous values, including simple and multiple regression, best-fit lines,
-  Ordinary Least Squares (OLS), residuals, regression assumptions, and
-  Scikit-Learn implementation.
+  Learn the fundamentals of Linear Regression, a supervised Machine Learning
+  algorithm used to model relationships between independent variables and a
+  continuous target variable. Understand how Simple Linear Regression uses one
+  feature and Multiple Linear Regression incorporates multiple features to
+  predict numerical outcomes. Explore best-fit lines, slope, intercept, and
+  the role of Ordinary Least Squares (OLS) in minimizing the sum of squared
+  differences between actual and predicted values. Learn how residuals measure
+  prediction errors and why analyzing them is important for evaluating
+  regression models. Examine the key assumptions of Linear Regression,
+  including linearity, independence of observations, homoscedasticity, normal
+  distribution of residuals, and low multicollinearity. Discover practical
+  applications across real estate, finance, healthcare, retail, insurance,
+  manufacturing, and agriculture, including house price prediction, revenue
+  forecasting, blood pressure prediction, sales forecasting, premium
+  estimation, cost prediction, and crop yield prediction. Explore a house price
+  prediction case study using features such as area, bedrooms, bathrooms,
+  property age, and parking availability. Implement Linear Regression using
+  Python's scikit-learn LinearRegression class and explore Java-based
+  implementation with the Smile Machine Learning library. Understand why
+  Linear Regression is widely used as an interpretable, computationally
+  efficient baseline for enterprise predictive analytics and how it compares
+  with more complex algorithms such as Decision Trees, Random Forests, and
+  Gradient Boosting. Learn practical best practices for feature selection,
+  multicollinearity checks, feature scaling where appropriate, assumption
+  validation, model comparison, and avoiding common regression modeling
+  mistakes.
+keywords:
+  - Linear Regression
+  - Linear Regression in Machine Learning
+  - Machine Learning Regression
+  - Supervised Learning
+  - Regression Analysis
+  - Simple Linear Regression
+  - Multiple Linear Regression
+  - Simple vs Multiple Linear Regression
+  - Linear Regression Algorithm
+  - Linear Regression Model
+  - Linear Regression Equation
+  - Best Fit Line
+  - Slope and Intercept
+  - Independent Variables
+  - Dependent Variable
+  - Input Features
+  - Continuous Value Prediction
+  - Numerical Prediction
+  - Ordinary Least Squares
+  - OLS
+  - Least Squares Method
+  - Sum of Squared Errors
+  - Prediction Error
+  - Residuals
+  - Residual Analysis
+  - Regression Model Evaluation
+  - Linear Regression Assumptions
+  - Linearity Assumption
+  - Independence of Observations
+  - Homoscedasticity
+  - Normality of Residuals
+  - Multicollinearity
+  - Feature Correlation
+  - Feature Selection
+  - Feature Scaling
+  - Regression Diagnostics
+  - Regression Model Validation
+  - House Price Prediction
+  - Real Estate Analytics
+  - Revenue Forecasting
+  - Sales Forecasting
+  - Blood Pressure Prediction
+  - Insurance Premium Estimation
+  - Manufacturing Cost Prediction
+  - Crop Yield Prediction
+  - Enterprise Predictive Analytics
+  - Business Forecasting
+  - Data-Driven Decision Making
+  - Python Linear Regression
+  - Scikit-Learn
+  - sklearn.linear_model
+  - LinearRegression
+  - Python Regression Tutorial
+  - Linear Regression Implementation
+  - Java Machine Learning
+  - Smile Machine Learning Library
+  - Baseline Machine Learning Models
+  - Interpretable Machine Learning
+  - Explainable Predictions
+  - Computationally Efficient Models
+  - Decision Trees
+  - Random Forest
+  - Gradient Boosting
+  - Regression Model Comparison
+  - Overfitting
+  - Model Complexity
+  - Linear Regression Best Practices
+  - Linear Regression Common Mistakes
+  - Production Machine Learning
+  - Enterprise Machine Learning
+  - Enterprise AI Engineering Handbook
 ---
 
 # 07. Linear Regression

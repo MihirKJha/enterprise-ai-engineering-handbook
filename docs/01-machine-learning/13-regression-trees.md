@@ -1,10 +1,86 @@
 ---
-title: Regression Trees
+title: "Regression Trees in Machine Learning: Mean Squared Error, Split Selection, and Scikit-Learn"
 description: >
-  Learn how regression trees predict continuous values by recursively
-  splitting data to minimize prediction error, including split selection,
-  mean squared error, prediction behavior, training, and Scikit-Learn
-  implementation.
+  Learn how Regression Trees predict continuous numerical values in supervised
+  Machine Learning by recursively partitioning datasets into smaller groups
+  with similar target values. Understand the structure of Regression Trees,
+  including root nodes, decision nodes, branches, and leaf nodes, and explore
+  how they differ from Classification Trees in their prediction behavior and
+  splitting criteria. Discover how Mean Squared Error (MSE) measures prediction
+  error and how algorithms evaluate candidate feature thresholds to select
+  splits that minimize weighted MSE. Explore recursive splitting, stopping
+  criteria, maximum tree depth, minimum samples per node and leaf, and limits
+  on tree growth. Follow a house price prediction case study and learn how to
+  implement a Regression Tree using Scikit-Learn's DecisionTreeRegressor.
+  Examine real-world applications in real estate, banking, retail,
+  manufacturing, energy, agriculture, insurance, and environmental science.
+  Understand enterprise use cases such as financial forecasting, dynamic
+  pricing, demand planning, capacity forecasting, and resource optimization,
+  along with overfitting prevention, cross-validation, model evaluation,
+  and the role of Regression Trees in ensemble methods such as Random Forest,
+  Gradient Boosting, and XGBoost.
+keywords:
+  - Regression Trees
+  - Regression Trees in Machine Learning
+  - Decision Tree Regression
+  - Supervised Machine Learning
+  - Regression Algorithms
+  - Regression Tree vs Classification Tree
+  - Continuous Value Prediction
+  - Numerical Prediction
+  - Regression Tree Structure
+  - Root Node
+  - Decision Node
+  - Leaf Node
+  - Recursive Partitioning
+  - Recursive Splitting
+  - Regression Tree Training
+  - Mean Squared Error
+  - MSE in Machine Learning
+  - Weighted Mean Squared Error
+  - Regression Tree Split Selection
+  - Feature Threshold Selection
+  - Optimal Split Threshold
+  - Prediction Error Minimization
+  - Regression Tree Prediction
+  - Leaf Node Mean Prediction
+  - Regression Tree Stopping Criteria
+  - Maximum Tree Depth
+  - Minimum Samples per Node
+  - Minimum Samples per Leaf
+  - Regression Tree Overfitting
+  - Regression Model Generalization
+  - Cross-Validation
+  - Scikit-Learn Regression
+  - DecisionTreeRegressor
+  - Python Machine Learning
+  - Regression Tree Implementation in Python
+  - House Price Prediction
+  - Real Estate Price Estimation
+  - Financial Forecasting
+  - Revenue Forecasting
+  - Dynamic Pricing
+  - Demand Forecasting
+  - Capacity Forecasting
+  - Resource Optimization
+  - Predictive Maintenance
+  - Electricity Consumption Forecasting
+  - Crop Yield Prediction
+  - Insurance Claim Cost Estimation
+  - Environmental Prediction
+  - Regression Model Evaluation
+  - Linear Regression Baseline
+  - Random Forest Regressor
+  - Gradient Boosting Regressor
+  - XGBoost Regression
+  - Ensemble Learning
+  - Nonlinear Regression
+  - Enterprise Machine Learning
+  - Production Regression Models
+  - Predictive Analytics
+  - Regression Tree Best Practices
+  - Support Vector Regression
+  - Support Vector Machines
 ---
 
 # 13. Regression Trees

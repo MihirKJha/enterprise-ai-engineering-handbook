@@ -1,10 +1,87 @@
 ---
-title: Classification Model Evaluation
+title: "Classification Model Evaluation: Confusion Matrix, Precision, Recall, F1 Score, ROC Curve, and AUC"
 description: >
-  Learn how to evaluate classification models using Confusion Matrix,
-  Accuracy, Precision, Recall, F1 Score, ROC Curve, and AUC, including metric
-  selection for imbalanced datasets, business objectives, and production
-  Machine Learning systems.
+  Learn how to evaluate supervised Machine Learning classification models using
+  industry-standard performance metrics and determine how well models
+  generalize to unseen data. Understand the Confusion Matrix and its four
+  outcomes: True Positive (TP), True Negative (TN), False Positive (FP), and
+  False Negative (FN), including their relationship to Type I and Type II
+  errors. Explore Accuracy, Precision, Recall (Sensitivity), and F1 Score,
+  their mathematical formulas, interpretations, and appropriate use cases.
+  Discover how Receiver Operating Characteristic (ROC) curves evaluate
+  classifiers across decision thresholds using True Positive Rate and False
+  Positive Rate, and how Area Under the Curve (AUC) measures class
+  discrimination performance. Learn to select evaluation metrics according
+  to business objectives, class imbalance, and the cost of prediction errors.
+  Follow a credit card fraud detection case study and a Python implementation
+  using Scikit-Learn metrics, including confusion_matrix, accuracy_score,
+  precision_score, recall_score, f1_score, and roc_auc_score. Explore enterprise
+  applications across healthcare, banking, fraud detection, email filtering,
+  customer churn, marketing, and recommendation systems. Understand production
+  best practices for test-set evaluation, comparing multiple metrics,
+  aligning evaluation with business requirements, and continuously monitoring
+  model performance through MLOps workflows.
+keywords:
+  - Classification Model Evaluation
+  - Classification Metrics
+  - Machine Learning Model Evaluation
+  - Supervised Machine Learning
+  - Confusion Matrix
+  - True Positive
+  - True Negative
+  - False Positive
+  - False Negative
+  - Type I Error
+  - Type II Error
+  - Accuracy
+  - Classification Accuracy
+  - Precision
+  - Recall
+  - Sensitivity
+  - F1 Score
+  - Precision Recall Tradeoff
+  - ROC Curve
+  - Receiver Operating Characteristic
+  - Area Under the Curve
+  - ROC-AUC
+  - AUC Score
+  - True Positive Rate
+  - False Positive Rate
+  - Classification Decision Threshold
+  - Classification Performance Metrics
+  - Imbalanced Datasets
+  - Class Imbalance
+  - Classification Error Analysis
+  - Model Generalization
+  - Test Dataset Evaluation
+  - Business-Driven Model Evaluation
+  - Scikit-Learn Metrics
+  - confusion_matrix
+  - accuracy_score
+  - precision_score
+  - recall_score
+  - f1_score
+  - roc_auc_score
+  - Python Machine Learning
+  - Classification Metrics in Python
+  - Credit Card Fraud Detection
+  - Fraud Detection Metrics
+  - Medical Diagnosis
+  - Cancer Detection
+  - Healthcare Model Evaluation
+  - Banking Risk Classification
+  - Email Spam Filtering
+  - Customer Churn Prediction
+  - Recommendation System Evaluation
+  - Marketing Classification
+  - Precision and Recall Optimization
+  - Classification Model Validation
+  - Production Machine Learning Monitoring
+  - MLOps Model Monitoring
+  - Model Performance Monitoring
+  - Classification Best Practices
+  - Enterprise AI Systems
+  - Feature Scaling and Data Preparation
 ---
 
 # 16. Classification Model Evaluation

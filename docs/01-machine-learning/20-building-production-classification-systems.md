@@ -1,9 +1,114 @@
 ---
-title: Building Production Classification Systems
+title: "Building Production Classification Systems: ML Pipelines, Deployment, Monitoring, and MLOps"
 description: >
-  Learn how to build scalable and reliable production classification systems,
-  including algorithm selection, ML pipelines, deployment patterns, model
-  monitoring, retraining, MLOps practices, and enterprise AI engineering.
+  Learn how to transform classification models into scalable, reliable, secure,
+  and maintainable production Machine Learning systems. Explore the complete
+  production lifecycle, including data collection, data validation, feature
+  engineering, model training, evaluation, model registration, deployment,
+  monitoring, and retraining. Understand how to select classification
+  algorithms such as Logistic Regression, Decision Trees, Random Forest,
+  Support Vector Machines (SVM), K-Nearest Neighbors (K-NN), and XGBoost based
+  on dataset size, feature complexity, explainability, training time,
+  prediction latency, scalability, and regulatory requirements. Discover
+  production deployment patterns, including REST APIs, batch inference,
+  streaming inference, and edge deployment, and learn when each approach is
+  appropriate. Explore production model monitoring for prediction accuracy,
+  data drift, concept drift, latency, throughput, and error rates. Understand
+  how performance degradation, changing business rules, evolving customer
+  behavior, and scheduled cycles can trigger controlled model retraining.
+  Learn essential MLOps practices, including version control, automated
+  pipelines, model registries, CI/CD for Machine Learning, automated testing,
+  continuous monitoring, and automated retraining. Follow a real-time fraud
+  detection case study and examine Python examples for model training,
+  evaluation, persistence, and inference, alongside an enterprise architecture
+  involving APIs, model services, feature stores, model registries, dashboards,
+  and alerting. Discover applications in banking, healthcare, insurance,
+  retail, telecommunications, manufacturing, and cybersecurity. Apply
+  production best practices for reproducibility, governance, security,
+  reliability, scalability, and consistent preprocessing across training and
+  inference. Conclude with the key concepts from supervised learning and
+  prepare for advanced topics such as unsupervised learning, clustering,
+  dimensionality reduction, recommendation systems, deep learning, and
+  Generative AI.
+keywords:
+  - Building Production Classification Systems
+  - Production Machine Learning
+  - Production Classification Models
+  - Classification System Architecture
+  - Enterprise Machine Learning
+  - Enterprise AI Engineering
+  - End-to-End Machine Learning Lifecycle
+  - Machine Learning Pipeline
+  - Production ML Pipeline
+  - Classification Algorithm Selection
+  - Logistic Regression
+  - Decision Trees
+  - Random Forest
+  - Support Vector Machines
+  - K-Nearest Neighbors
+  - XGBoost
+  - Model Training
+  - Model Evaluation
+  - Data Collection
+  - Data Validation
+  - Feature Engineering
+  - Feature Store
+  - Model Registry
+  - Model Deployment
+  - REST API Inference
+  - Batch Inference
+  - Real-Time Inference
+  - Streaming Inference
+  - Edge Deployment
+  - Machine Learning Model Serving
+  - Model Monitoring
+  - Production Model Performance
+  - Data Drift
+  - Concept Drift
+  - Model Performance Degradation
+  - Prediction Latency
+  - Throughput Monitoring
+  - Error Rate Monitoring
+  - Model Retraining
+  - Automated Retraining
+  - Continuous Improvement
+  - MLOps
+  - MLOps Best Practices
+  - CI/CD for Machine Learning
+  - Automated ML Pipelines
+  - Machine Learning Version Control
+  - Dataset Versioning
+  - Model Versioning
+  - Feature Versioning
+  - Automated Model Testing
+  - Reproducible Machine Learning
+  - Production Model Governance
+  - Secure Machine Learning Systems
+  - Scalable Classification Systems
+  - Python Machine Learning
+  - Model Persistence
+  - Classification Inference API
+  - Real-Time Fraud Detection
+  - Fraud Probability Prediction
+  - Credit Risk Assessment
+  - Disease Diagnosis
+  - Insurance Claim Classification
+  - Product Recommendation
+  - Customer Churn Prediction
+  - Manufacturing Defect Detection
+  - Cybersecurity Threat Detection
+  - Production AI Architecture
+  - Model Explainability
+  - Regulatory Requirements
+  - Prediction Latency Optimization
+  - Production ML Best Practices
+  - Supervised Learning
+  - Unsupervised Learning
+  - Clustering
+  - Dimensionality Reduction
+  - Recommendation Systems
+  - Deep Learning
+  - Generative AI
 ---
 
 # 20. Building Production Classification Systems

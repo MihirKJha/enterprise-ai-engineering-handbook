@@ -1,10 +1,38 @@
 ---
-title: Bias-Variance Trade-off
+title: "Bias-Variance Trade-off in Machine Learning: Underfitting, Overfitting, Bagging, and Boosting"
 description: >
-  Learn how bias and variance affect Machine Learning model performance,
-  including underfitting, overfitting, model complexity, weak and strong
-  learners, and how bagging and boosting improve generalization and
-  predictive performance.
+  Learn how the Bias-Variance Trade-off influences Machine Learning model
+  performance, prediction error, and generalization to unseen data. Understand
+  bias and variance, how high bias leads to underfitting, and how high variance
+  leads to overfitting. Explore the relationship between model complexity,
+  training performance, and testing performance, and discover how to select
+  an appropriate balance for reliable predictions. Compare weak learners and
+  strong learners, including their characteristics, complexity, and risk of
+  overfitting. Learn how ensemble learning combines multiple models to improve
+  predictive performance through bagging and boosting. Understand how Bagging
+  (Bootstrap Aggregating) uses bootstrap samples and independent models to
+  reduce variance, with Random Forest as a common example, while boosting
+  trains weak learners sequentially to focus on previous errors and reduce
+  bias, using algorithms such as AdaBoost, Gradient Boosting, and XGBoost.
+  Explore Python implementations using Scikit-Learn's RandomForestClassifier
+  and GradientBoostingClassifier. Discover enterprise Machine Learning
+  practices involving baseline models, cross-validation, validation
+  performance, regularization, pruning, hyperparameter tuning, and production
+  monitoring. Learn how Random Forest, XGBoost, and LightGBM support
+  predictive performance while balancing generalization, interpretability,
+  computational efficiency, and maintenance cost.
+keywords:
+  - Bias-Variance Trade-off
+  - Bias Variance Tradeoff in Machine Learning
+  - Machine Learning Model Complexity
+  - Bias in Machine Learning
+  - Variance in Machine Learning
+  - Underfitting
+  - Overfitting
+  - Model Generalization
+  - Prediction Error
+  - Training Error
+  - Testing Error
 ---
 
 # 18. Bias-Variance Trade-off

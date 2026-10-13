@@ -1,10 +1,84 @@
 ---
-title: K-Nearest Neighbors (K-NN)
+title: "K-Nearest Neighbors (K-NN): Distance Metrics, Feature Scaling, and Weighted K-NN"
 description: >
-  Learn how K-Nearest Neighbors (K-NN) makes classification and regression
-  predictions using distance-based similarity, including nearest neighbors,
-  distance metrics, K selection, feature scaling, Weighted K-NN, and
-  Scikit-Learn implementation.
+  Learn how K-Nearest Neighbors (K-NN) works as a supervised Machine Learning
+  algorithm for classification and regression by identifying the closest
+  training samples to a new observation. Understand the K-NN prediction
+  workflow, including distance calculation, nearest-neighbor selection,
+  majority voting for classification, and average or median values for
+  regression. Explore common distance metrics such as Euclidean, Manhattan,
+  and Minkowski distance, and discover how choosing the value of K affects
+  model complexity, bias, variance, overfitting, and underfitting. Understand
+  why feature scaling through standardization and normalization is essential
+  for reliable distance calculations. Follow an Iris flower classification
+  example and Python implementations using Scikit-Learn's KNeighborsClassifier
+  and StandardScaler. Learn how Weighted K-NN assigns greater importance to
+  closer neighbors and explore its potential benefits for prediction accuracy
+  and imbalanced datasets. Discover real-world applications across healthcare,
+  banking, retail, telecommunications, marketing, manufacturing, computer
+  vision, and agriculture. Examine enterprise considerations such as training
+  cost, prediction latency, dataset size, feature selection, cross-validation,
+  scalability, and comparisons with Decision Trees, Random Forests, and
+  Gradient Boosting.
+keywords:
+  - K-Nearest Neighbors
+  - KNN Algorithm
+  - K-NN in Machine Learning
+  - Supervised Machine Learning
+  - Instance-Based Learning
+  - Lazy Learning
+  - KNN Classification
+  - KNN Regression
+  - Distance-Based Learning
+  - Nearest Neighbor Algorithm
+  - Nearest Neighbor Search
+  - KNN Prediction Workflow
+  - Majority Voting
+  - Regression Prediction
+  - Euclidean Distance
+  - Manhattan Distance
+  - Minkowski Distance
+  - Distance Metrics in Machine Learning
+  - Choosing K in KNN
+  - K Value Optimization
+  - Small K vs Large K
+  - Bias Variance Tradeoff
+  - KNN Overfitting
+  - KNN Underfitting
+  - Feature Scaling
+  - Feature Standardization
+  - Data Normalization
+  - StandardScaler
+  - Weighted KNN
+  - Distance-Weighted KNN
+  - Imbalanced Classification
+  - Cross-Validation
+  - Feature Selection
+  - Scikit-Learn KNN
+  - KNeighborsClassifier
+  - KNeighborsRegressor
+  - Python Machine Learning
+  - KNN Implementation in Python
+  - Iris Flower Classification
+  - Disease Diagnosis
+  - Credit Risk Classification
+  - Product Recommendation
+  - Customer Segmentation
+  - Customer Classification
+  - Manufacturing Quality Inspection
+  - Image Classification
+  - Crop Classification
+  - Classification Model Evaluation
+  - KNN Prediction Latency
+  - KNN Computational Complexity
+  - KNN Scalability
+  - Enterprise Machine Learning
+  - Production Machine Learning Models
+  - KNN Best Practices
+  - KNN vs Decision Trees
+  - KNN vs Random Forest
+  - KNN vs Gradient Boosting
+  - Classification Model Evaluation
 ---
 
 # 15. K-Nearest Neighbors (K-NN)

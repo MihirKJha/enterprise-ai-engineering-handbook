@@ -1,10 +1,118 @@
 ---
-title: Nonlinear Regression
+title: "Nonlinear Regression: Polynomial, Exponential, Logarithmic, and Power Models"
 description: >
-  Learn how Nonlinear Regression models complex relationships using curved,
-  exponential, logarithmic, power, and polynomial functions, including
-  Polynomial Regression, model selection, overfitting considerations, and
-  real-world Machine Learning applications.
+  Learn the fundamentals of Nonlinear Regression, a Machine Learning approach
+  for modeling complex relationships between variables when a straight-line
+  relationship is insufficient. Understand how nonlinear models capture
+  curved patterns, exponential growth and decay, logarithmic trends, power
+  relationships, saturation effects, and other complex behaviors found in
+  business and scientific data. Compare Linear Regression and Nonlinear
+  Regression in terms of relationship modeling, flexibility, complexity,
+  training time, and interpretability. Explore common nonlinear functions,
+  including polynomial, exponential, logarithmic, power, and sigmoid models,
+  along with their applications in population growth, disease spread, battery
+  discharge, product adoption, radioactive decay, compound interest, chemical
+  reactions, and biological scaling. Understand Polynomial Regression and how
+  polynomial features enable regression models to capture curved relationships.
+  Discover practical applications across retail, healthcare, finance,
+  agriculture, energy, transportation, manufacturing, and environmental
+  science. Examine a vehicle fuel consumption case study and learn how
+  Polynomial Regression can represent relationships that a simple linear model
+  may not adequately capture. Implement Polynomial Regression in Python using
+  scikit-learn's PolynomialFeatures, LinearRegression, and Pipeline
+  components. Learn how to choose between linear and nonlinear approaches by
+  considering data patterns, prediction accuracy, interpretability,
+  computational cost, scalability, and maintenance requirements. Explore
+  overfitting risks associated with high polynomial degrees, small datasets,
+  and excessive model complexity, along with practical techniques for
+  evaluating generalization on unseen data. Includes enterprise model
+  selection guidance, production insights, best practices, common mistakes,
+  and recommendations for balancing predictive performance with model
+  simplicity and long-term maintainability.
+keywords:
+  - Nonlinear Regression
+  - Nonlinear Regression in Machine Learning
+  - Machine Learning Regression
+  - Regression Analysis
+  - Regression Models
+  - Linear Regression vs Nonlinear Regression
+  - Linear and Nonlinear Models
+  - Nonlinear Relationships
+  - Curved Relationships
+  - Continuous Value Prediction
+  - Polynomial Regression
+  - Polynomial Features
+  - PolynomialFeatures
+  - Exponential Regression
+  - Exponential Growth
+  - Exponential Decay
+  - Logarithmic Regression
+  - Logarithmic Relationships
+  - Power Regression
+  - Power Functions
+  - Sigmoid Models
+  - Nonlinear Functions
+  - Regression Model Selection
+  - Regression Algorithm Selection
+  - Model Complexity
+  - Model Flexibility
+  - Model Interpretability
+  - Prediction Accuracy
+  - Model Generalization
+  - Overfitting
+  - Polynomial Degree
+  - Training Data
+  - Unseen Data
+  - Model Validation
+  - Regression Evaluation
+  - Baseline Regression Models
+  - Population Growth Modeling
+  - Disease Spread Modeling
+  - Battery Discharge Prediction
+  - Product Adoption Modeling
+  - Radioactive Decay
+  - Compound Interest Modeling
+  - Chemical Reaction Modeling
+  - Biological Scaling
+  - Sales Forecasting
+  - Demand Forecasting
+  - Disease Progression
+  - Revenue Forecasting
+  - Crop Yield Prediction
+  - Electricity Consumption Prediction
+  - Fuel Consumption Prediction
+  - Equipment Performance Modeling
+  - Climate Modeling
+  - Vehicle Fuel Efficiency
+  - Polynomial Regression Case Study
+  - Retail Analytics
+  - Healthcare Machine Learning
+  - Financial Modeling
+  - Agricultural Analytics
+  - Energy Forecasting
+  - Transportation Analytics
+  - Manufacturing Optimization
+  - Environmental Science
+  - Python Nonlinear Regression
+  - Scikit-Learn
+  - sklearn.preprocessing
+  - sklearn.linear_model
+  - LinearRegression
+  - PolynomialFeatures
+  - sklearn.pipeline
+  - Machine Learning Pipeline
+  - Polynomial Regression Implementation
+  - Regression Best Practices
+  - Regression Common Mistakes
+  - Enterprise Machine Learning
+  - Enterprise Predictive Analytics
+  - Production Machine Learning
+  - Model Maintainability
+  - Computational Cost
+  - Scalable Machine Learning
+  - Production Model Selection
+  - Logistic Regression
+  - Enterprise AI Engineering Handbook
 ---
 
 # 08. Nonlinear Regression

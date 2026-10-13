@@ -1,10 +1,94 @@
 ---
-title: Ensemble Learning
+title: "Ensemble Learning in Machine Learning: Bagging, Random Forest, Boosting, XGBoost, LightGBM, and CatBoost"
 description: >
   Learn how Ensemble Learning combines multiple Machine Learning models to
-  improve accuracy and generalization, including Bagging, Random Forest,
-  Boosting, AdaBoost, Gradient Boosting, XGBoost, LightGBM, CatBoost, and
-  production applications for structured data.
+  improve prediction accuracy, reduce bias and variance, and build robust
+  predictive systems. Understand base learners, weak learners, strong learners,
+  and how combining multiple models can improve generalization and prediction
+  stability. Explore Bagging (Bootstrap Aggregating), including bootstrap
+  sampling, independent model training, majority voting for classification,
+  averaging for regression, and parallel execution. Discover how Random Forest
+  combines Decision Trees with bootstrap sampling and random feature selection
+  to improve stability, reduce variance, and generalize to unseen data.
+  Understand Boosting, its sequential learning process, and how each new model
+  focuses on errors made by previous models. Explore popular boosting algorithms,
+  including AdaBoost, Gradient Boosting, XGBoost, LightGBM, and CatBoost, along
+  with their characteristics, advantages, and typical use cases. Learn how
+  XGBoost provides regularization, parallel processing, missing-value handling,
+  and scalability; how LightGBM emphasizes training speed and memory efficiency;
+  and how CatBoost handles categorical features. Follow Python implementation
+  examples using Scikit-Learn's RandomForestClassifier and
+  GradientBoostingClassifier, along with XGBoost's XGBClassifier. Examine
+  enterprise applications such as credit risk assessment, fraud detection,
+  insurance claim prediction, demand forecasting, disease prediction,
+  predictive maintenance, and customer churn prediction. Understand production
+  considerations involving baseline models, cross-validation, hyperparameter
+  tuning, computational cost, interpretability, feature engineering, and
+  post-deployment monitoring when selecting ensemble algorithms for structured
+  Machine Learning problems.
+keywords:
+  - Ensemble Learning
+  - Ensemble Learning in Machine Learning
+  - Machine Learning Ensembles
+  - Ensemble Algorithms
+  - Base Learners
+  - Weak Learners
+  - Strong Learners
+  - Bias-Variance Trade-off
+  - Model Generalization
+  - Prediction Accuracy
+  - Prediction Stability
+  - Bagging
+  - Bootstrap Aggregating
+  - Bootstrap Sampling
+  - Bootstrap Aggregation
+  - Majority Voting
+  - Prediction Averaging
+  - Variance Reduction
+  - Boosting
+  - Sequential Learning
+  - Bias Reduction
+  - Random Forest
+  - Random Forest Classifier
+  - Random Forest Regression
+  - Decision Tree Ensembles
+  - Random Feature Selection
+  - AdaBoost
+  - Adaptive Boosting
+  - Gradient Boosting
+  - Gradient Boosting Classifier
+  - XGBoost
+  - Extreme Gradient Boosting
+  - XGBClassifier
+  - LightGBM
+  - CatBoost
+  - Categorical Feature Handling
+  - Ensemble Algorithm Comparison
+  - Scikit-Learn Ensemble Learning
+  - Python Machine Learning
+  - Machine Learning Implementation
+  - Structured Data Machine Learning
+  - Tabular Data Prediction
+  - Credit Risk Assessment
+  - Loan Default Prediction
+  - Fraud Detection
+  - Insurance Claim Prediction
+  - Demand Forecasting
+  - Disease Prediction
+  - Predictive Maintenance
+  - Customer Churn Prediction
+  - Enterprise Machine Learning
+  - Production Machine Learning
+  - Model Selection
+  - Baseline Models
+  - Cross-Validation
+  - Hyperparameter Tuning
+  - Model Interpretability
+  - Computational Efficiency
+  - Feature Engineering
+  - Model Performance Monitoring
+  - Production AI Systems
+  - Building Production Classification Systems
 ---
 
 # 19. Ensemble Learning

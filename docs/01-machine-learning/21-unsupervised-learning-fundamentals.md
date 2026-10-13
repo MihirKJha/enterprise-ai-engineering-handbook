@@ -1,10 +1,59 @@
 ---
-title: Unsupervised Learning Fundamentals
+title: "Unsupervised Learning Fundamentals: Clustering, Dimensionality Reduction, and Anomaly Detection"
 description: >
-  Learn the fundamentals of Unsupervised Learning, including how algorithms
-  discover hidden patterns in unlabeled data through clustering, dimensionality
-  reduction, association rule learning, and anomaly detection, with real-world
-  enterprise applications.
+  Explore the fundamentals of Unsupervised Learning, including how machine
+  learning algorithms discover hidden patterns, structures, similarities, and
+  relationships in unlabeled datasets without predefined target variables.
+  Understand the differences between supervised and unsupervised learning,
+  the core workflow for pattern discovery, and the four major unsupervised
+  learning tasks: clustering, dimensionality reduction, association rule
+  learning, and anomaly detection. Learn about techniques such as K-Means,
+  Principal Component Analysis (PCA), t-SNE, and UMAP, alongside practical
+  applications in customer segmentation, fraud detection, recommendation
+  systems, predictive maintenance, cybersecurity, healthcare, and customer
+  behavior analysis. Examine an enterprise retail customer segmentation case
+  study, a Python implementation using scikit-learn, and production-oriented
+  best practices for feature scaling, cluster validation, visualization,
+  algorithm selection, and business interpretation. Understand common
+  limitations and mistakes when interpreting discovered patterns, and learn
+  how unsupervised learning supports exploratory data analysis, feature
+  engineering, advanced analytics, and downstream supervised machine learning
+  systems.
+keywords:
+  - Unsupervised Learning
+  - Unsupervised Machine Learning
+  - Unlabeled Data
+  - Pattern Discovery
+  - Supervised vs Unsupervised Learning
+  - Clustering
+  - Clustering Algorithms
+  - K-Means Clustering
+  - Customer Segmentation
+  - Dimensionality Reduction
+  - Principal Component Analysis
+  - PCA
+  - t-SNE
+  - UMAP
+  - Association Rule Learning
+  - Association Rule Mining
+  - Market Basket Analysis
+  - Anomaly Detection
+  - Fraud Detection
+  - Network Intrusion Detection
+  - Predictive Maintenance
+  - Exploratory Data Analysis
+  - Feature Engineering
+  - Feature Scaling
+  - Cluster Validation
+  - scikit-learn
+  - Python Machine Learning
+  - Enterprise Machine Learning
+  - Customer Behavior Analysis
+  - Recommendation Systems
+  - Data Visualization
+  - Production Machine Learning
+  - Business Pattern Discovery
+  - Machine Learning Best Practices
 ---
 
 # 21. Unsupervised Learning Fundamentals

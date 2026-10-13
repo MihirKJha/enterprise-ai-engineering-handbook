@@ -1,9 +1,74 @@
 ---
-title: Decision Trees
+title: "Decision Trees in Machine Learning: Entropy, Information Gain, Gini Impurity, and Pruning"
 description: >
-  Learn how Decision Trees classify and predict data through recursive
-  partitioning, including tree structure, Entropy, Information Gain, Gini
-  Impurity, stopping criteria, pruning, and Scikit-Learn implementation.
+  Learn how Decision Trees work in supervised Machine Learning for
+  classification and regression. Explore Decision Tree structure, including
+  root nodes, decision nodes, branches, and leaf nodes, and understand how
+  recursive partitioning builds a model by repeatedly splitting datasets
+  based on feature values. Discover how Entropy, Information Gain, and Gini
+  Impurity evaluate split quality, compare common splitting criteria used by
+  algorithms such as ID3 and CART, and understand stopping criteria that control
+  tree growth. Learn how pruning reduces overfitting, improves generalization,
+  and creates more interpretable models. Follow a medical drug recommendation
+  example and a Python implementation using Scikit-Learn's
+  DecisionTreeClassifier. Explore enterprise applications such as credit
+  approval, fraud detection, medical diagnosis, customer segmentation, risk
+  assessment, and insurance claim prediction, along with production best
+  practices and the role of Decision Trees in ensemble methods such as Random
+  Forests and Gradient Boosting.
+keywords:
+  - Decision Trees in Machine Learning
+  - Decision Tree Algorithm
+  - Supervised Machine Learning
+  - Decision Tree Classification
+  - Decision Tree Regression
+  - Decision Tree Structure
+  - Root Node
+  - Decision Node
+  - Leaf Node
+  - Decision Tree Branches
+  - Recursive Partitioning
+  - Feature-Based Splitting
+  - Best Split Selection
+  - Entropy in Machine Learning
+  - Information Gain
+  - Gini Impurity
+  - Decision Tree Splitting Criteria
+  - ID3 Algorithm
+  - CART Algorithm
+  - Decision Tree Training
+  - Decision Tree Workflow
+  - Decision Tree Stopping Criteria
+  - Maximum Tree Depth
+  - Minimum Samples per Node
+  - Decision Tree Pruning
+  - Pre-Pruning
+  - Post-Pruning
+  - Decision Tree Overfitting
+  - Model Generalization
+  - Interpretable Machine Learning
+  - Explainable AI
+  - Scikit-Learn Decision Tree
+  - DecisionTreeClassifier
+  - Python Machine Learning
+  - Decision Tree Implementation in Python
+  - Medical Drug Recommendation
+  - Credit Approval Models
+  - Fraud Detection
+  - Medical Diagnosis
+  - Customer Segmentation
+  - Risk Assessment
+  - Insurance Claim Prediction
+  - Random Forest
+  - Gradient Boosting
+  - Ensemble Learning
+  - Enterprise Machine Learning
+  - Production Machine Learning Models
+  - Model Interpretability
+  - Decision Tree Best Practices
+  - Decision Tree Model Evaluation
+  - Classification Model Training
+  - Regression Trees
 ---
 
 # 12. Decision Trees

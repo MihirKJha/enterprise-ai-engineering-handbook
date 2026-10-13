@@ -1,10 +1,115 @@
 ---
-title: Logistic Regression
+title: "Logistic Regression: Sigmoid Function, Probability Estimation, and Binary Classification"
 description: >
-  Learn how Logistic Regression solves binary classification problems using
-  probability estimation, the Sigmoid Function, decision boundaries, and
-  classification thresholds, including Scikit-Learn implementation and
-  enterprise applications.
+  Learn the fundamentals of Logistic Regression, a supervised Machine Learning
+  algorithm primarily used for binary classification. Understand how Logistic
+  Regression estimates the probability of an observation belonging to a
+  particular class and why it is preferred over Linear Regression for
+  classification problems. Explore the Sigmoid Function, its smooth S-shaped
+  curve, and how it transforms real-valued model outputs into probabilities
+  between 0 and 1. Understand probability interpretation, classification
+  thresholds, and decision boundaries, including how the commonly used 0.5
+  threshold converts predicted probabilities into positive or negative class
+  labels. Compare Linear Regression and Logistic Regression in terms of problem
+  type, output, target variables, prediction range, and real-world applications.
+  Discover practical applications across banking, finance, healthcare,
+  insurance, retail, cybersecurity, and marketing, including loan approval,
+  fraud detection, disease diagnosis, claim prediction, customer churn
+  prediction, intrusion detection, and campaign response prediction. Examine
+  a telecom customer churn prediction case study using monthly charges,
+  contract type, internet usage, customer tenure, and support tickets to
+  estimate churn probability and support retention decisions. Implement
+  Logistic Regression in Python using scikit-learn's LogisticRegression,
+  including model training, class prediction, and probability estimation with
+  predict_proba(). Learn enterprise-oriented best practices for feature
+  scaling, correlated feature management, threshold selection, class imbalance
+  handling, and model evaluation. Understand why Logistic Regression remains
+  a computationally efficient, interpretable, and explainable baseline for
+  production classification systems, particularly in regulated industries.
+  Explore common modeling mistakes and prepare for further study of model
+  training, optimization, Gradient Descent, cost functions, and performance
+  evaluation.
+keywords:
+  - Logistic Regression
+  - Logistic Regression in Machine Learning
+  - Machine Learning Classification
+  - Supervised Learning
+  - Binary Classification
+  - Classification Algorithms
+  - Logistic Regression Model
+  - Probability Estimation
+  - Probability-Based Classification
+  - Sigmoid Function
+  - Logistic Function
+  - Sigmoid Curve
+  - Decision Boundary
+  - Classification Threshold
+  - Probability Threshold
+  - Default Classification Threshold
+  - Positive Class
+  - Negative Class
+  - Predicted Probabilities
+  - Linear Regression vs Logistic Regression
+  - Regression vs Classification
+  - Categorical Target Variables
+  - Binary Prediction
+  - Classification Model Training
+  - Model Prediction
+  - Model Probability Estimation
+  - Scikit-Learn Logistic Regression
+  - sklearn.linear_model
+  - LogisticRegression
+  - predict_proba
+  - Python Logistic Regression
+  - Logistic Regression Implementation
+  - Customer Churn Prediction
+  - Telecom Churn Analysis
+  - Churn Probability
+  - Customer Retention
+  - Fraud Detection
+  - Loan Approval Prediction
+  - Disease Diagnosis
+  - Insurance Claim Prediction
+  - Intrusion Detection
+  - Campaign Response Prediction
+  - Banking Machine Learning
+  - Financial Machine Learning
+  - Healthcare Classification
+  - Insurance Analytics
+  - Retail Analytics
+  - Marketing Analytics
+  - Regulated AI Systems
+  - Interpretable Machine Learning
+  - Explainable Machine Learning
+  - Classification Model Interpretability
+  - Feature Scaling
+  - Feature Engineering
+  - Multicollinearity
+  - Class Imbalance
+  - Classification Evaluation Metrics
+  - Model Threshold Optimization
+  - Precision
+  - Recall
+  - F1 Score
+  - Classification Accuracy
+  - Model Evaluation
+  - Baseline Classification Models
+  - Decision Trees
+  - Random Forest
+  - Gradient Boosting
+  - Neural Networks
+  - Enterprise Machine Learning
+  - Enterprise AI
+  - Production Classification Systems
+  - Production Machine Learning
+  - Computationally Efficient Models
+  - Machine Learning Best Practices
+  - Logistic Regression Common Mistakes
+  - Model Training and Evaluation
+  - Gradient Descent
+  - Cost Functions
+  - Regression Performance Metrics
+  - Enterprise AI Engineering Handbook
 ---
 
 # 09. Logistic Regression

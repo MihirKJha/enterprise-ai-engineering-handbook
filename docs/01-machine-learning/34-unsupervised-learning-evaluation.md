@@ -1,11 +1,72 @@
 ---
-title: Unsupervised Learning Evaluation
+title: "Unsupervised Learning Evaluation: Silhouette Score, Davies-Bouldin Index, ARI, and NMI"
 description: >
-  Learn how to evaluate unsupervised learning models using Silhouette Score,
-  Davies-Bouldin Index, Inertia, Adjusted Rand Index (ARI), Normalized Mutual
-  Information (NMI), clustering stability, dimensionality reduction metrics,
-  visualization, and business validation for production Machine Learning
-  systems.
+  Learn how to evaluate unsupervised learning models using internal and
+  external evaluation metrics, stability analysis, visualization, and business
+  validation. Understand how the Silhouette Score measures cluster cohesion
+  and separation, how the Davies-Bouldin Index evaluates cluster compactness
+  and separation, and how Inertia measures within-cluster squared distances
+  for techniques such as the K-Means Elbow Method. Explore external clustering
+  metrics, including Adjusted Rand Index (ARI), Normalized Mutual Information
+  (NMI), and Fowlkes-Mallows Index (FMI), when ground-truth labels are
+  available. Learn how to assess dimensionality reduction using Explained
+  Variance Ratio, Reconstruction Error, and Neighborhood Preservation for
+  PCA, t-SNE, UMAP, and autoencoders. Discover clustering stability testing
+  across data samples and random initializations, with practical Scikit-Learn
+  implementations using silhouette_score, davies_bouldin_score, and
+  adjusted_rand_score. Examine real-world applications such as customer
+  segmentation, fraud detection, patient clustering, predictive maintenance,
+  anomaly detection, gene expression analysis, and image embedding analysis.
+  Apply production Machine Learning best practices by combining quantitative
+  metrics, visualization, domain expertise, stability testing, and business
+  validation to identify meaningful and reliable patterns in unlabeled data.
+keywords:
+  - Unsupervised Learning Evaluation
+  - Clustering Evaluation Metrics
+  - Internal Evaluation Metrics
+  - External Evaluation Metrics
+  - Silhouette Score
+  - Davies-Bouldin Index
+  - Inertia
+  - Elbow Method
+  - Adjusted Rand Index
+  - ARI
+  - Normalized Mutual Information
+  - NMI
+  - Fowlkes-Mallows Index
+  - FMI
+  - Cluster Cohesion
+  - Cluster Separation
+  - Cluster Compactness
+  - Clustering Stability
+  - Ground Truth Labels
+  - Scikit-Learn
+  - sklearn.metrics
+  - silhouette_score
+  - davies_bouldin_score
+  - adjusted_rand_score
+  - Dimensionality Reduction Evaluation
+  - Explained Variance Ratio
+  - Reconstruction Error
+  - Neighborhood Preservation
+  - Principal Component Analysis
+  - PCA
+  - t-SNE
+  - UMAP
+  - Autoencoder Evaluation
+  - K-Means Clustering
+  - Customer Segmentation
+  - Fraud Detection
+  - Patient Clustering
+  - Predictive Maintenance
+  - Anomaly Detection
+  - Gene Expression Analysis
+  - Image Embedding Analysis
+  - Enterprise Machine Learning
+  - Production Clustering Systems
+  - Business Validation
+  - Model Stability Testing
+  - Unsupervised Learning Best Practices
 ---
 
 # 34. Unsupervised Learning Evaluation

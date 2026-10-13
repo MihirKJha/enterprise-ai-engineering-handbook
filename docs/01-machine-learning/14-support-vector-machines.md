@@ -1,10 +1,85 @@
 ---
-title: Support Vector Machines (SVM)
+title: "Support Vector Machines (SVM): Maximum Margin, Kernel Trick, and Support Vector Regression"
 description: >
-  Learn how Support Vector Machines classify data using maximum-margin
-  hyperplanes, support vectors, kernel functions, soft margins, and the C
-  parameter, including linear and nonlinear SVMs, Support Vector Regression,
-  and Scikit-Learn implementation.
+  Learn how Support Vector Machines (SVMs) work as supervised Machine Learning
+  algorithms for classification and regression. Understand hyperplanes,
+  maximum-margin decision boundaries, margins, and support vectors, and explore
+  how these concepts help SVMs separate classes and generalize to unseen data.
+  Compare linear and nonlinear SVMs and discover how the Kernel Trick enables
+  nonlinear classification using linear, polynomial, Radial Basis Function
+  (RBF), and sigmoid kernels. Understand soft-margin classification and how
+  the C parameter balances margin width against classification errors.
+  Follow practical examples of email spam detection and explore Python
+  implementations using Scikit-Learn's SVC and LinearSVC. Learn how Support
+  Vector Regression (SVR) predicts continuous values using an epsilon margin.
+  Discover enterprise applications across healthcare, banking, finance,
+  cybersecurity, retail, natural language processing, computer vision, and
+  manufacturing. Explore production considerations such as feature scaling,
+  kernel selection, hyperparameter tuning, cross-validation, computational
+  complexity, and model scalability, along with comparisons against Decision
+  Trees, Random Forests, Gradient Boosting, and Neural Networks.
+keywords:
+  - Support Vector Machines
+  - SVM in Machine Learning
+  - Support Vector Machine Algorithm
+  - Supervised Machine Learning
+  - SVM Classification
+  - Support Vector Regression
+  - SVR
+  - Maximum Margin Classifier
+  - Maximum Margin Hyperplane
+  - Hyperplane in Machine Learning
+  - Decision Boundary
+  - Support Vectors
+  - Margin in SVM
+  - Linear SVM
+  - Nonlinear SVM
+  - Kernel Trick
+  - SVM Kernel Functions
+  - Linear Kernel
+  - Polynomial Kernel
+  - Radial Basis Function Kernel
+  - RBF Kernel
+  - Sigmoid Kernel
+  - Soft Margin Classification
+  - C Parameter in SVM
+  - SVM Regularization
+  - SVM Hyperparameter Tuning
+  - Epsilon Margin
+  - Epsilon Insensitive Loss
+  - Feature Scaling
+  - SVM Cross-Validation
+  - Scikit-Learn SVM
+  - SVC in Python
+  - LinearSVC
+  - SVR in Python
+  - Python Machine Learning
+  - SVM Implementation in Python
+  - Email Spam Detection
+  - Fraud Detection
+  - Credit Risk Classification
+  - Disease Diagnosis
+  - Intrusion Detection
+  - Customer Segmentation
+  - Sentiment Analysis
+  - Image Classification
+  - Manufacturing Defect Detection
+  - Stock Price Prediction
+  - Demand Forecasting
+  - Energy Consumption Prediction
+  - High-Dimensional Classification
+  - Nonlinear Classification
+  - Classification Model Evaluation
+  - SVM Model Generalization
+  - SVM Computational Complexity
+  - Enterprise Machine Learning
+  - Production Machine Learning Models
+  - SVM Best Practices
+  - SVM vs Random Forest
+  - SVM vs Decision Trees
+  - SVM vs Gradient Boosting
+  - SVM vs Neural Networks
+  - K-Nearest Neighbors
 ---
 
 # 14. Support Vector Machines (SVM)

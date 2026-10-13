@@ -1,10 +1,89 @@
 ---
-title: Principal Component Analysis (PCA)
+title: "Principal Component Analysis (PCA): Principal Components, Explained Variance, and Python Implementation"
 description: >
-  Learn how Principal Component Analysis (PCA) performs linear dimensionality
-  reduction by transforming correlated features into uncorrelated principal
-  components, including explained variance, component selection, feature
-  extraction, Scikit-Learn implementation, and enterprise applications.
+  Learn Principal Component Analysis (PCA), a widely used linear dimensionality
+  reduction and feature extraction technique that transforms high-dimensional
+  datasets into a smaller set of informative features. Understand how PCA
+  converts correlated original variables into orthogonal principal components,
+  with PC1 capturing the highest variance and subsequent components explaining
+  progressively smaller proportions of the total variance. Explore explained
+  variance ratios, cumulative explained variance, and strategies for selecting
+  the number of components based on information retention, visualization
+  requirements, computational efficiency, and model performance. Compare PCA
+  with feature selection to understand the differences between retaining
+  original variables and constructing new linear combinations of existing
+  features. Follow practical Python implementations using scikit-learn's PCA,
+  including dimensionality reduction, explained variance inspection, and
+  preprocessing pipelines that combine StandardScaler with PCA. Examine
+  enterprise applications in healthcare imaging, financial risk modeling,
+  customer analytics, cybersecurity, manufacturing sensor compression,
+  computer vision, face recognition, bioinformatics, and text embedding
+  visualization. Explore a customer analytics case study demonstrating how
+  hundreds of correlated attributes can be transformed into a compact feature
+  representation for customer segmentation. Learn production best practices
+  for standardizing numerical features, selecting components using explained
+  variance, evaluating model performance before and after transformation,
+  and integrating PCA into machine learning pipelines. Understand common
+  limitations, including information loss, reduced interpretability, and the
+  need to preprocess categorical features appropriately. Discover how PCA
+  supports clustering, anomaly detection, feature engineering, visualization,
+  and computationally efficient enterprise machine learning workflows.
+keywords:
+  - Principal Component Analysis
+  - PCA
+  - Dimensionality Reduction
+  - Linear Dimensionality Reduction
+  - Feature Extraction
+  - Unsupervised Learning
+  - Principal Components
+  - PC1
+  - PC2
+  - Orthogonal Components
+  - Explained Variance
+  - Explained Variance Ratio
+  - Cumulative Explained Variance
+  - Component Selection
+  - Feature Selection vs PCA
+  - Correlated Features
+  - Feature Transformation
+  - Feature Scaling
+  - Data Standardization
+  - StandardScaler
+  - Scikit-Learn
+  - sklearn.decomposition.PCA
+  - sklearn.pipeline.Pipeline
+  - Python Machine Learning
+  - PCA Implementation
+  - PCA Preprocessing Pipeline
+  - High-Dimensional Data
+  - Feature Compression
+  - Noise Reduction
+  - Computational Efficiency
+  - Model Generalization
+  - Model Interpretability
+  - Customer Analytics
+  - Customer Segmentation
+  - Financial Risk Modeling
+  - Fraud Detection
+  - Healthcare Imaging
+  - Medical Image Analysis
+  - Cybersecurity
+  - Threat Detection
+  - Sensor Data Compression
+  - Manufacturing Analytics
+  - Computer Vision
+  - Face Recognition
+  - Bioinformatics
+  - Gene Expression Analysis
+  - NLP
+  - Text Embedding Visualization
+  - Recommendation Systems
+  - Anomaly Detection
+  - Clustering
+  - Exploratory Data Analysis
+  - Enterprise Machine Learning
+  - Machine Learning Pipelines
+  - PCA Best Practices
 ---
 
 # 27. Principal Component Analysis (PCA)

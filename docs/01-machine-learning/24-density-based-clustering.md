@@ -1,10 +1,75 @@
 ---
-title: Density-Based Clustering
+title: "Density-Based Clustering: DBSCAN, HDBSCAN, Noise Detection, and Python Implementation"
 description: >
-  Learn how Density-Based Clustering discovers arbitrary-shaped clusters from
-  unlabeled data, including DBSCAN core, border, and noise points, epsilon and
-  MinPts parameters, HDBSCAN for varying densities, clustering evaluation,
-  Scikit-Learn implementation, and enterprise applications.
+  Explore Density-Based Clustering, an unsupervised machine learning approach
+  that discovers clusters by identifying densely populated regions separated
+  by sparse areas. Understand how DBSCAN (Density-Based Spatial Clustering of
+  Applications with Noise) identifies arbitrarily shaped clusters without
+  requiring a predefined number of clusters. Learn the core concepts of
+  epsilon (ε), minimum samples (MinPts), and the distinction between core,
+  border, and noise points. Compare DBSCAN with K-Means to understand their
+  differences in cluster shape, outlier handling, parameter requirements, and
+  suitability for different datasets. Discover HDBSCAN (Hierarchical
+  Density-Based Spatial Clustering of Applications with Noise), including
+  its hierarchical cluster structure, ability to handle varying data densities,
+  and stable cluster selection. Follow practical Python implementations using
+  scikit-learn's DBSCAN estimator and the hdbscan library. Examine enterprise
+  applications in credit card fraud investigation, cybersecurity, manufacturing
+  fault detection, customer behavior analysis, GPS route analysis, geospatial
+  hotspot detection, healthcare, and IoT sensor anomaly detection. Learn
+  production best practices for feature standardization, parameter tuning,
+  clustering visualization, algorithm comparison, and dimensionality reduction
+  for high-dimensional datasets. Understand common limitations, including
+  sensitivity to neighborhood parameters, varying cluster densities, and the
+  risk of interpreting every noise point as an error. Identify when DBSCAN
+  or HDBSCAN is appropriate for exploratory analytics, anomaly detection,
+  and real-world enterprise clustering systems.
+keywords:
+  - Density-Based Clustering
+  - DBSCAN
+  - HDBSCAN
+  - Unsupervised Learning
+  - Unsupervised Machine Learning
+  - Density-Based Spatial Clustering of Applications with Noise
+  - Hierarchical Density-Based Spatial Clustering
+  - Epsilon
+  - Epsilon Parameter
+  - Minimum Samples
+  - MinPts
+  - Core Points
+  - Border Points
+  - Noise Points
+  - Outlier Detection
+  - Density Estimation
+  - Arbitrarily Shaped Clusters
+  - Variable Density Clustering
+  - Hierarchical Density Clustering
+  - Cluster Stability
+  - DBSCAN vs K-Means
+  - K-Means Clustering
+  - Clustering Algorithms
+  - Clustering Evaluation
+  - Feature Standardization
+  - Dimensionality Reduction
+  - Anomaly Detection
+  - Fraud Detection
+  - Credit Card Fraud Detection
+  - Network Intrusion Detection
+  - Manufacturing Fault Detection
+  - Customer Behavior Analysis
+  - GPS Route Analysis
+  - Geospatial Hotspot Detection
+  - Healthcare Analytics
+  - IoT Sensor Anomaly Detection
+  - scikit-learn
+  - sklearn.cluster.DBSCAN
+  - Python HDBSCAN
+  - Python Machine Learning
+  - Enterprise Machine Learning
+  - Production Clustering
+  - Clustering Best Practices
+  - Exploratory Data Analysis
+  - High-Dimensional Data Clustering
 ---
 
 # 24. Density-Based Clustering
