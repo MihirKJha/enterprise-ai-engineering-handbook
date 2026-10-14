@@ -486,9 +486,7 @@ nav:
     - 10-cloud-ai-engineering/index.md
 
     - Azure AI:
-        - Foundations: 10-cloud-ai-engineering/01-azure-ai/01-azure-ai-foundations-planning-preparing-ai-solutions.md
-
-    - AWS AI:
+       - Foundations: 10-cloud-ai-engineering/01-azure-ai/01-azure-ai-foundations-planning-preparing-ai-solutions.md
   
   - Part XI - Enterprise AI Architecture & Design Patterns: 11-enterprise-ai-architecture/index.md
   
