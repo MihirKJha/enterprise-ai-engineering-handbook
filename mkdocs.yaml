@@ -486,9 +486,18 @@ nav:
     - 10-cloud-ai-engineering/index.md
 
     - Azure AI:
-       - Foundations: 10-cloud-ai-engineering/01-azure-ai/01-azure-ai-foundations-planning-preparing-ai-solutions.md
-  
+       - Generative AI:
+          - Azure AI Architecture and Model Lifecycle: 10-cloud-ai-engineering/01-azure-ai/gen-ai/01-azure-ai-architecture-and-model-lifecycle.md
+          - Building Gen AI Apps with Python: 10-cloud-ai-engineering/01-azure-ai/gen-ai/02-building-generative-ai-applications-with-python.md
+          - Tool Calling, Grounding, and RAG: 10-cloud-ai-engineering/01-azure-ai/gen-ai/03-tool-calling-grounding-and-rag.md
+          - Generative AI Optimization and Evaluation: 10-cloud-ai-engineering/01-azure-ai/gen-ai/04-generative-ai-optimization-and-evaluation.md
+          - Responsible AI and Production Safety: 10-cloud-ai-engineering/01-azure-ai/gen-ai/05-responsible-ai-and-production-safety.md
+
+
+
   - Part XI - Enterprise AI Architecture & Design Patterns: 11-enterprise-ai-architecture/index.md
+
+
   
   - Part XII - Interview Preparation: 12-interview-preparation/index.md  
    
