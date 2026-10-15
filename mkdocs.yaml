@@ -487,11 +487,23 @@ nav:
 
     - Azure AI:
        - Generative AI:
-          - Azure AI Architecture and Model Lifecycle: 10-cloud-ai-engineering/01-azure-ai/gen-ai/01-azure-ai-architecture-and-model-lifecycle.md
-          - Building Gen AI Apps with Python: 10-cloud-ai-engineering/01-azure-ai/gen-ai/02-building-generative-ai-applications-with-python.md
-          - Tool Calling, Grounding, and RAG: 10-cloud-ai-engineering/01-azure-ai/gen-ai/03-tool-calling-grounding-and-rag.md
-          - Generative AI Optimization and Evaluation: 10-cloud-ai-engineering/01-azure-ai/gen-ai/04-generative-ai-optimization-and-evaluation.md
-          - Responsible AI and Production Safety: 10-cloud-ai-engineering/01-azure-ai/gen-ai/05-responsible-ai-and-production-safety.md
+          - Azure AI Architecture and Model Lifecycle: 10-cloud-ai-engineering/01-azure-ai/generative-ai/01-azure-ai-architecture-and-model-lifecycle.md
+          - Building Gen AI Apps with Python: 10-cloud-ai-engineering/01-azure-ai/generative-ai/02-building-generative-ai-applications-with-python.md
+          - Tool Calling, Grounding, and RAG: 10-cloud-ai-engineering/01-azure-ai/generative-ai/03-tool-calling-grounding-and-rag.md
+          - Generative AI Optimization and Evaluation: 10-cloud-ai-engineering/01-azure-ai/generative-ai/04-generative-ai-optimization-and-evaluation.md
+          - Responsible AI and Production Safety: 10-cloud-ai-engineering/01-azure-ai/generative-ai/05-responsible-ai-and-production-safety.md
+
+       - AI Agents:
+          - Anatomy of an Azure AI Agent: 10-cloud-ai-engineering/01-azure-ai/agents/01-anatomy-of-an-azure-ai-agent.md
+          - Integrating Custom Tools into AI Agents: 10-cloud-ai-engineering/01-azure-ai/agents/02-integrating-custom-tools-into-ai-agents.md
+          - Integrating Agents with MCP Servers: 10-cloud-ai-engineering/01-azure-ai/agents/03-integrating-agents-with-mcp-servers.md
+          - Grounding Agents with Foundry IQ: 10-cloud-ai-engineering/01-azure-ai/agents/04-ground-agents-with-foundry-iq.md
+          - Orchestrating AI Agents with Microsoft Foundry Workflows: 10-cloud-ai-engineering/01-azure-ai/agents/05-orchestrating-ai-agents-with-microsoft-foundry-workflows.md
+          - AI Agents with Agent Framework: 10-cloud-ai-engineering/01-azure-ai/agents/06-ai-agents-with-agent-framework.md
+          - Multi-Agent Systems Architecture: 10-cloud-ai-engineering/01-azure-ai/agents/07-multi-agent-systems-architecture.md
+          - Agent-to-Agent (A2A) Communication Architecture: 10-cloud-ai-engineering/01-azure-ai/agents/08-agent-to-agent-communication-architecture.md
+          - Publishing AI Agents to Microsoft 365: 10-cloud-ai-engineering/01-azure-ai/agents/09-publishing-agents-to-microsoft-365.md
+          
 
 
 
