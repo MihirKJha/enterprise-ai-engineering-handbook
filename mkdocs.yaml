@@ -515,10 +515,7 @@ nav:
           - Training, Processing, and Tuning Workflows on Amazon SageMaker AI: 10-cloud-ai-engineering/02-aws-ai/sagemaker-ai-architecture/02-training-processing-and-tuning-workflows
           - Model Evaluation, Registry, and Approval on Amazon SageMaker AI: 10-cloud-ai-engineering/02-aws-ai/sagemaker-ai-architecture/03-model-evaluation-registry-and-approval
           - Model Inference and Deployment Options: 10-cloud-ai-engineering/02-aws-ai/sagemaker-ai-architecture/04-model-inference-and-deployment-options
-       
-       - Bedrock Architecture:
-          
-          
+              
 
 
   - Part XI - Enterprise AI Architecture & Design Patterns: 11-enterprise-ai-architecture/index.md
