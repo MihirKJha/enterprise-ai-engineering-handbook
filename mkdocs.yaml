@@ -485,7 +485,7 @@ nav:
   - Part X - Cloud AI Engineering: 
     - 10-cloud-ai-engineering/index.md
 
-    - Azure AI:
+    - Azure AI Architecture:
        - Generative AI:
           - Azure AI Architecture and Model Lifecycle: 10-cloud-ai-engineering/01-azure-ai/generative-ai/01-azure-ai-architecture-and-model-lifecycle.md
           - Building Gen AI Apps with Python: 10-cloud-ai-engineering/01-azure-ai/generative-ai/02-building-generative-ai-applications-with-python.md
@@ -504,7 +504,21 @@ nav:
           - Agent-to-Agent (A2A) Communication Architecture: 10-cloud-ai-engineering/01-azure-ai/ai-agents/08-agent-to-agent-communication-architecture.md
           - Publishing AI Agents to Microsoft 365: 10-cloud-ai-engineering/01-azure-ai/ai-agents/09-publishing-agents-to-microsoft-365.md
           
-
+    - AWS AI Architecture:
+       - Data Architecture:
+          - Data Storage and Ingestion: 10-cloud-ai-engineering/02-aws-ai/data-architecture/01-data-storage-and-ingestion-for-ai.md.md
+          - ETL and Distributed Processing: 10-cloud-ai-engineering/02-aws-ai/data-architecture/02-aws-etl-and-distributed-processing.md
+          - Data Quality and Feature Engineering: 10-cloud-ai-engineering/02-aws-ai/data-architecture/03-data-quality-and-feature-engineering-on-aws.md
+       
+       - SageMaker Architecture:
+          - SageMaker AI Platform Overview: 10-cloud-ai-engineering/02-aws-ai/sagemaker-ai-architecture/01-sagemaker-ai-platform-overview.md
+          - Training, Processing, and Tuning Workflows on Amazon SageMaker AI: 10-cloud-ai-engineering/02-aws-ai/sagemaker-ai-architecture/02-training-processing-and-tuning-workflows
+          - Model Evaluation, Registry, and Approval on Amazon SageMaker AI: 10-cloud-ai-engineering/02-aws-ai/sagemaker-ai-architecture/03-model-evaluation-registry-and-approval
+          - Model Inference and Deployment Options: 10-cloud-ai-engineering/02-aws-ai/sagemaker-ai-architecture/04-model-inference-and-deployment-options
+       
+       - Bedrock Architecture:
+          
+          
 
 
   - Part XI - Enterprise AI Architecture & Design Patterns: 11-enterprise-ai-architecture/index.md
