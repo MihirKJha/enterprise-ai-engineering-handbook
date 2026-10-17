@@ -506,7 +506,7 @@ nav:
           
     - AWS AI Architecture:
        - Data Architecture:
-          - Data Storage and Ingestion: 10-cloud-ai-engineering/02-aws-ai/data-architecture/01-data-storage-and-ingestion-for-ai.md.md
+          - Data Storage and Ingestion: 10-cloud-ai-engineering/02-aws-ai/data-architecture/01-data-storage-and-ingestion-for-ai.md
           - ETL and Distributed Processing: 10-cloud-ai-engineering/02-aws-ai/data-architecture/02-aws-etl-and-distributed-processing.md
           - Data Quality and Feature Engineering: 10-cloud-ai-engineering/02-aws-ai/data-architecture/03-data-quality-and-feature-engineering-on-aws.md
        
