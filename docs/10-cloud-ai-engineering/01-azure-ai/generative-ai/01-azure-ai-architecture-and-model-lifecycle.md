@@ -138,7 +138,7 @@ The portal is a good place to explore and try things out. For a real
 application, you will usually move into a code editor and use an API or
 SDK, tests, and deployment automation.
 
-The source module introduces Visual Studio Code and Foundry-related
+The Azure introduces Visual Studio Code and Foundry-related
 extensions as one possible development environment. It also
 distinguishes between direct model interaction and higher-level agent
 development:
@@ -150,14 +150,14 @@ development:
 | Microsoft Foundry SDK | You are working with broader Foundry capabilities and supported project or agent operations.     | Higher-level integration with the Foundry platform.                         |
 | Foundry Tools SDKs    | You need a specialized capability such as speech, language, translation, or document processing. | Adds a task-specific AI service alongside or instead of a generative model. |
 
-Choose an SDK based on the API and service you actually need. Do not
+Choose a SDK based on the API and service you actually need. Do not
 assume that all SDKs expose identical features or use the same endpoint
 and authentication pattern.
 
 ### 1.4 Foundry Tools beyond generative models
 
 A generative model is not automatically the best or only option for
-every AI task. The module also introduces specialized Foundry Tools,
+every AI task. Azure also introduces specialized Foundry Tools,
 including capabilities for:
 
 - **Language:** language detection, key phrases, entities, and related
@@ -176,7 +176,7 @@ extracts structured fields that need predictable validation.
 
 ### 1.5 Responsible AI starts during design
 
-The first module introduces Microsoft’s six responsible AI principles:
+Microsoft’s six responsible AI principles are:
 
 1.  **Fairness**
 2.  **Reliability and safety**
@@ -199,17 +199,17 @@ with whichever model is newest or most prominent in the catalog.
 ``` mermaid
 flowchart TD
     A[Define workload and constraints] --> B[Discover candidate models]
-    B --> C[Inspect model cards and benchmarks]
-    C --> D[Compare quality, safety, cost and performance]
-    D --> E[Choose a candidate and deployment configuration]
-    E --> F[Deploy the model]
-    F --> G[Test in the playground]
-    G --> H[Evaluate representative prompts]
-    H --> I{Meets acceptance criteria?}
+    B --> C[Inspect model <br/>cards and benchmarks]
+    C --> D[Compare quality, safety,<br/> cost and performance]
+    D --> E[Choose a candidate and<br/> deployment configuration]
+    E --> F[Deploy <br/>the model]
+    F --> G[Test in <br/>the playground]
+    G --> H[Evaluate representativ<br/>e prompts]
+    H --> I{Meets acceptance<br/> criteria?}
     I -- No --> B
-    I -- Yes --> J[Integrate into application]
-    J --> K[Evaluate application behavior]
-    K --> L[Release, monitor and re-evaluate]
+    I -- Yes --> J[Integrate into<br/> application]
+    J --> K[Evaluate application <br/>behavior]
+    K --> L[Release, monitor<br/> and re-evaluate]
 ```
 
 The playground is useful for early experiments, but one good answer does
@@ -516,17 +516,17 @@ warrants it.
 
 ``` mermaid
 flowchart TD
-    A[Define workload and acceptance criteria] --> B[Prepare representative prompt dataset]
-    B --> C[Select model or models]
-    C --> D[Choose appropriate evaluators]
+    A[Define workload and<br/> acceptance criteria] --> B[Prepare representative<br/> prompt dataset]
+    B --> C[Select model<br/> or models]
+    C --> D[Choose appropriate<br/> evaluators]
     D --> E[Run evaluation]
-    E --> F[Inspect aggregate metrics]
-    F --> G[Review failed and surprising cases]
-    G --> H{Acceptance criteria met?}
-    H -- No --> I[Adjust model, prompt, data or configuration]
+    E --> F[Inspect aggregate<br/> metrics]
+    F --> G[Review failed and<br/> surprising cases]
+    G --> H{Acceptance <br/>criteria met?}
+    H -- No --> I[Adjust model, prompt,<br/> data or configuration]
     I --> E
-    H -- Yes --> J[Record decision and retain baseline]
-    J --> K[Re-run after relevant changes]
+    H -- Yes --> J[Record decision <br/>and retain baseline]
+    J --> K[Re-run after <br/>relevant changes]
 ```
 
 In the course walkthrough, the evaluation flow starts with a
