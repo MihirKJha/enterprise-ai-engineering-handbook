@@ -27,7 +27,7 @@ evaluation*
 
 ## Overview
 
-A **generative AI application** is more than a model endpoint. You need a
+A generative AI application is more than a model endpoint. You need a
 place to organize the work, a way to choose and deploy a model, and a
 repeatable way to check whether it behaves well enough for the job. This
 chapter walks through those pieces in the order you are likely to meet
@@ -37,9 +37,9 @@ them.
 developing **AI solutions on Azure**. The portal supports **model discovery**
 **and deployment, project configuration, and experimentation**. The **SDKs and
 APIs** let developers integrate **model capabilities into applications** and
-automate **repeatable operations**.
+automate repeatable operations.
 
-This chapter explains two **Microsoft azure AI** concepts:
+This chapter explains two Microsoft azure AI concepts:
 
 1.  **Plan and prepare to develop AI solutions on Azure** — platform
     boundaries, the Foundry portal, developer tools, SDKs, Foundry
@@ -62,7 +62,7 @@ option will look exactly the same in your account.
 
 ### 1.1 Resource hierarchy
 
-**A Foundry project** belongs to **a Microsoft Foundry resource**. The resource
+**A Foundry project** belongs to a Microsoft Foundry resource. The resource
 sits within the wider Azure subscription and resource-group structure.
 
 ``` mermaid
@@ -96,7 +96,7 @@ for deliberate access control and environment governance.
 
 > **Terminology note:** Microsoft Foundry has evolved from earlier Azure
 > AI Foundry and hub-based experiences. The current portal may differ
-> from older course screenshots. Follow the interface shown in your
+> from attached screenshots. Follow the interface shown in your
 > tenant and use the current documentation when labels or capabilities
 > do not match.
 
@@ -124,9 +124,9 @@ grounded agent may also need a knowledge source and tools.
 
 ![Foundry project setup screen](images/01-project-overview.png)
 
-*Sample image only.* When you do the lab, replace this with a capture of
+<!--Sample image only.* When you do the lab, replace this with a capture of
 your own project overview. Hide tenant, subscription, endpoint, and
-other sensitive details before sharing it.
+other sensitive details before sharing it.-->
 
 The point to notice is the project context and its navigation. A project
 is where you work with the solution’s assets; browsing a model in the
@@ -251,9 +251,9 @@ universal rules.
 
 ![Model catalog with search and capability filters](images/02-model-catalog.png)
 
-*Sample image only.* In your own screenshot, show a search or filter
+<!-- *Sample image only.* In your own screenshot, show a search or filter
 that helps narrow the list. Pick two candidates for the same workload
-and jot down why each deserves a closer look.
+and jot down why each deserves a closer look.-->
 
 ### 3.2 Read a model card
 
@@ -277,10 +277,10 @@ version, API, and deployment option.
 
 ![Model card showing capabilities and constraints](images/03-model-card.png)
 
-*Sample image only.* On the real model card, note three capabilities,
+<!--*Sample image only.* On the real model card, note three capabilities,
 two limitations or constraints, and one question you still need to
 verify. Check the actual model version and deployment option rather than
-assuming every version supports the same features.
+assuming every version supports the same features.-->
 
 ## 4. Compare benchmark metrics carefully
 
@@ -325,11 +325,11 @@ same representative prompts.
 
 ![Model benchmark comparison](images/04-model-benchmarks.png)
 
-*Sample image only; the displayed scores are illustrative.* Use the
+<!--*Sample image only; the displayed scores are illustrative.* Use the
 current portal’s comparison view if available. Decide which candidate
 you would test first, then write down what evidence you still need. A
 leaderboard can help you shortlist models, but it cannot tell you how
-your own application will perform.
+your own application will perform.-->
 
 ## 5. Choose deployment mode and processing scope separately
 
@@ -383,9 +383,9 @@ Treat these as starting hypotheses, not universal prescriptions.
 
 ![Model deployment settings](images/05-deployment-configuration.png)
 
-*Sample image only.* Before deploying, check the model, deployment type,
+<!-- *Sample image only.* Before deploying, check the model, deployment type,
 region or processing scope where applicable, quota, and expected cost.
-Never include keys or secrets in a screenshot.
+Never include keys or secrets in a screenshot. -->
 
 ### 5.4 Record the decision
 
@@ -467,10 +467,10 @@ safety. Adapt them to the real use case.
 
 ![Playground prompt and model response](images/06-playground-test.png)
 
-*Sample image only.* Try a small set of representative prompts in your
+<!--*Sample image only.* Try a small set of representative prompts in your
 deployed model. Where possible, use the same prompts for both candidates
 and compare relevance, completeness, latency, and any cost signals the
-portal exposes.
+portal exposes. -->
 
 One good-looking response does not prove a model is ready. Keep prompts
 fixed when comparing candidates, and record the model or deployment
@@ -540,18 +540,18 @@ on old screenshots.
 
 ![Evaluation setup with a dataset and selected evaluators](images/07-evaluation-setup.png)
 
-*Sample image only.* Capture the target, dataset, and evaluators you
+<!--*Sample image only.* Capture the target, dataset, and evaluators you
 actually selected. Make sure you can explain what each evaluator
-measures and why it belongs in this test.
+measures and why it belongs in this test.-->
 
 ### Infographic 08: Evaluation results and a failure
 
 ![Evaluation results dashboard](images/08-evaluation-results.png)
 
-*Sample image only; the scores are fictional examples.* When you run the
+<!--*Sample image only; the scores are fictional examples.* When you run the
 evaluation, capture your real results and inspect at least one failure.
 Hide sensitive prompts or data. Write down what likely caused the
-failure, what you would change, and how you would retest it.
+failure, what you would change, and how you would retest it.-->
 
 ## 8. From model-level tests to application readiness
 
