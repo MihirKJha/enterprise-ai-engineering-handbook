@@ -27,19 +27,19 @@ evaluation*
 
 ## Overview
 
-A generative AI application is more than a model endpoint. You need a
+A **generative AI application** is more than a model endpoint. You need a
 place to organize the work, a way to choose and deploy a model, and a
 repeatable way to check whether it behaves well enough for the job. This
 chapter walks through those pieces in the order you are likely to meet
 them.
 
-Microsoft Foundry provides a portal and programmatic tools for
-developing AI solutions on Azure. The portal supports model discovery
-and deployment, project configuration, and experimentation. The SDKs and
-APIs let developers integrate model capabilities into applications and
-automate repeatable operations.
+**Microsoft Foundry** provides a portal and programmatic tools for
+developing **AI solutions on Azure**. The portal supports **model discovery**
+**and deployment, project configuration, and experimentation**. The **SDKs and
+APIs** let developers integrate **model capabilities into applications** and
+automate **repeatable operations**.
 
-This chapter combines two Microsoft Learn modules:
+This chapter explains two **Microsoft azure AI** concepts:
 
 1.  **Plan and prepare to develop AI solutions on Azure** — platform
     boundaries, the Foundry portal, developer tools, SDKs, Foundry
@@ -48,10 +48,10 @@ This chapter combines two Microsoft Learn modules:
     catalog exploration, model cards and benchmarks, deployment choices,
     playground testing, and manual and automated evaluation.
 
-The aim is to connect what the course explains with what you actually do
-in the portal, then make a model choice you can explain. The Foundry
-interface and available models change over time, so treat the
-screenshots below as visual guides—not as proof that every button or
+The aim is to connect the AI concepts with what you actually do
+in the portal, then make a model choice you can explain. The 
+**Foundry interface and available models change over time**, so treat the
+**screenshots** below as visual guides—not as proof that every button or
 option will look exactly the same in your account.
 
 > **Learning pattern:** Understand the concept → see where it appears in
@@ -62,7 +62,7 @@ option will look exactly the same in your account.
 
 ### 1.1 Resource hierarchy
 
-A Foundry project belongs to a Microsoft Foundry resource. The resource
+**A Foundry project** belongs to **a Microsoft Foundry resource**. The resource
 sits within the wider Azure subscription and resource-group structure.
 
 ``` mermaid
@@ -120,7 +120,7 @@ Not every solution needs every asset. A simple text-generation
 application may need only a model deployment and client application. A
 grounded agent may also need a knowledge source and tools.
 
-### Figure 01-01: Foundry project overview
+### Infographic 01: Foundry project overview
 
 ![Foundry project setup screen](images/01-project-overview.png)
 
@@ -247,7 +247,7 @@ cost more and respond more slowly. Smaller models may suit bounded tasks
 where throughput and cost matter. These are hypotheses to test, not
 universal rules.
 
-### Figure 01-02: Model catalog and filters
+### Infographic 02: Model catalog and filters
 
 ![Model catalog with search and capability filters](images/02-model-catalog.png)
 
@@ -273,7 +273,7 @@ current portal experience, inspect:
 Do not infer support from a model name alone. Verify the specific model
 version, API, and deployment option.
 
-### Figure 01-03: Model card
+### Infographic 03: Model card
 
 ![Model card showing capabilities and constraints](images/03-model-card.png)
 
@@ -321,7 +321,7 @@ Candidate A may be a good fit. If users need detailed explanations,
 Candidate B may justify its cost. The next step is to test both with the
 same representative prompts.
 
-### Figure 01-04: Leaderboard or trade-off chart
+### Infographic 04: Leaderboard or trade-off chart
 
 ![Model benchmark comparison](images/04-model-benchmarks.png)
 
@@ -379,7 +379,7 @@ selected deployment.
 
 Treat these as starting hypotheses, not universal prescriptions.
 
-### Figure 01-05: Deployment configuration
+### Infographic 05: Deployment configuration
 
 ![Model deployment settings](images/05-deployment-configuration.png)
 
@@ -463,7 +463,7 @@ For an AI software-development assistant, for example:
 These are starter prompts, not an evaluation dataset or a guarantee of
 safety. Adapt them to the real use case.
 
-### Figure 01-06: Playground test
+### Infographic 06: Playground test
 
 ![Playground prompt and model response](images/06-playground-test.png)
 
@@ -536,7 +536,7 @@ rarely tells you what to fix. The exact portal steps and available
 evaluators may change, so use the current interface rather than relying
 on old screenshots.
 
-### Figure 01-07: Evaluation setup
+### Infographic 07: Evaluation setup
 
 ![Evaluation setup with a dataset and selected evaluators](images/07-evaluation-setup.png)
 
@@ -544,7 +544,7 @@ on old screenshots.
 actually selected. Make sure you can explain what each evaluator
 measures and why it belongs in this test.
 
-### Figure 01-08: Evaluation results and a failure
+### Infographic 08: Evaluation results and a failure
 
 ![Evaluation results dashboard](images/08-evaluation-results.png)
 
