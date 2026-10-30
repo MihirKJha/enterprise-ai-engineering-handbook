@@ -23,25 +23,9 @@ keywords:
   - Production client design
   - Cloud-native AI architecture
 ---
----
-description: From exploring a deployed model in Microsoft Foundry to
-  building a conversational Python application, understanding context,
-  streaming, and asynchronous requests.
-keywords:
-- Microsoft Foundry
-- Azure OpenAI
-- Python
-- Generative AI applications
-- Responses API
-- Chat Completions API
-- Microsoft Entra ID
-- Conversation state
-- Streaming responses
-- Asynchronous Python
-title: Building Generative AI Applications with Python
----
 
-# 02 --- Building Generative AI Applications with Python
+
+# 02 - Building Generative AI Applications with Python
 
 ## From a model that answers to an application that can chat
 
