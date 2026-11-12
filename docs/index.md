@@ -527,21 +527,23 @@ Topics include:
 
 # [Part VII — Agentic AI & Multi-Agent Systems](https://enterpriseai.handbook.mihirkjha.com/07-agentic-ai/)
 
-> 🚧 **Coming Soon**
+Build enterprise-grade autonomous AI systems capable of planning, coordinating, collaborating, communicating, and executing complex tasks.
 
-Build enterprise-grade autonomous AI systems.
-
-Planned topics include:
+Topics include:
 
 - Agentic AI Fundamentals
-- Multi-Agent Systems
-- Supervisor Pattern
-- Hierarchical Agents
-- Swarm Intelligence
-- Collaborative Agents
-- Human-in-the-Loop
-- Long-Running Agents
+- Multi-Agent Systems Architecture
+- Agentic Workflow Design Patterns
+- Multi-Agent Communication & Coordination
+- Agent Orchestration & Supervisor Patterns
+- Hierarchical Agents & Task Delegation
+- Collaborative Agents & Swarm Architectures
+- Human-in-the-Loop Agentic Workflows
+- Long-Running Agentic Workflows & Durable Execution
+- Agentic Workflow Evaluation & Reliability
 - Agentic RAG
+- Agent Communication & Integration Protocols
+- Model Context Protocol (MCP) — Architecture & Concepts
 - Enterprise Agent Platforms
 
 ### Protocols
@@ -554,22 +556,24 @@ Planned topics include:
 
 # [Part VIII — AI Engineering Frameworks & Tooling](https://enterpriseai.handbook.mihirkjha.com/08-ai-engineering-frameworks/)
 
-Build enterprise AI applications using modern AI frameworks.
+Build enterprise AI applications using modern AI engineering frameworks, agent development platforms, integration protocols and SDKs.
 
 Planned topics include:
 
 - LangChain
 - LangGraph
+- MCP Engineering
 - LlamaIndex
 - Semantic Kernel
 - CrewAI
-- AutoGen
+- AutoGen / AG2
+- BeeAI
 - DSPy
 - Haystack
 - OpenAI SDK
 - Anthropic SDK
 - Google GenAI SDK
-- AI Framework Comparisons
+- AI Framework & Platform Comparisons
 
 ---
 
