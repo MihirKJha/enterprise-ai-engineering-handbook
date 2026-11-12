@@ -443,7 +443,34 @@ nav:
         - 03-agent-scaling-and-resilience: 06-ai-agents/06-agent-deployment/03-agent-scaling-and-resilience.md
         - 04-production-agent-deployment: 06-ai-agents/06-agent-deployment/04-production-agent-deployment.md
     
-  - Part VII - Agentic AI & Multi-Agent Systems: 07-agentic-ai/index.md
+  - Part VII - Agentic AI & Multi-Agent Systems:
+    - 07-agentic-ai/index.md
+
+    - Foundations:
+        - 07-agentic-ai/01-agentic-ai-fundamentals.md
+        - 07-agentic-ai/02-multi-agent-systems-architecture.md
+
+    - Workflow and Coordination Patterns:
+        - 07-agentic-ai/03-agentic-workflow-design-patterns.md
+        - 07-agentic-ai/04-multi-agent-communication-coordination.md
+        - 07-agentic-ai/05-agent-orchestration-supervisor-patterns.md
+        - 07-agentic-ai/06-hierarchical-agents-task-delegation.md
+        - 07-agentic-ai/07-collaborative-agents-swarm-architectures.md
+
+    - Human Oversight and Reliability:
+        - 07-agentic-ai/08-human-in-the-loop-agentic-workflows.md
+        - 07-agentic-ai/09-long-running-agentic-workflows-durable-execution.md
+        - 07-agentic-ai/10-agentic-workflow-evaluation-and-reliability.md
+
+    - Retrieval and Communication:
+        - 07-agentic-ai/11-agentic-rag.md
+        - 07-agentic-ai/12-agent-communication-and-integration-protocols.md
+        - 07-agentic-ai/13-mcp-architecture-and-concepts.md
+        - 07-agentic-ai/14-a2a-architecture-and-concepts.md
+
+    - Enterprise Platforms:
+        - 07-agentic-ai/15-enterprise-agent-platforms.md
+        
   
   - Part VIII - AI Engineering Frameworks & Tooling:
     - 08-ai-engineering-frameworks/index.md

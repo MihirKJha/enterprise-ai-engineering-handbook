@@ -141,24 +141,46 @@ After completing this part, you will be able to:
 
 ## 🗺️ Chapter Roadmap
 
-The chapters move from foundational concepts to coordination patterns, operational reliability, and enterprise architecture. Each chapter builds on the ideas introduced earlier while focusing on a distinct design problem.
+The chapters are organized into five interconnected groups, taking readers from the foundations of agentic systems through workflow design, operational reliability, interoperability, and enterprise deployment.
+
+### 1. Foundations — Chapters 1–2
 
 | Chapter | Focus |
 |---|---|
 | [01 — Agentic AI Fundamentals](01-agentic-ai-fundamentals.md) | Core concepts and the foundations of agentic behavior |
 | [02 — Multi-Agent Systems Architecture](02-multi-agent-systems-architecture.md) | Structuring systems around multiple specialized agents |
+
+### 2. Workflow and Coordination Patterns — Chapters 3–7
+
+| Chapter | Focus |
+|---|---|
 | [03 — Agentic Workflow Design Patterns](03-agentic-workflow-design-patterns.md) | Reusable patterns for designing agent-driven workflows |
 | [04 — Multi-Agent Communication & Coordination](04-multi-agent-communication-coordination.md) | How agents exchange information and coordinate work |
 | [05 — Agent Orchestration & Supervisor Patterns](05-agent-orchestration-supervisor-patterns.md) | Centralized orchestration and supervisor-led execution |
 | [06 — Hierarchical Agents & Task Delegation](06-hierarchical-agents-task-delegation.md) | Decomposing goals and assigning work across agent levels |
 | [07 — Collaborative Agents & Swarm Architectures](07-collaborative-agents-swarm-architectures.md) | Decentralized collaboration and collective problem-solving |
+
+### 3. Human Oversight and Reliability — Chapters 8–10
+
+| Chapter | Focus |
+|---|---|
 | [08 — Human-in-the-Loop Agentic Workflows](08-human-in-the-loop-agentic-workflows.md) | Human review, approval, and intervention |
 | [09 — Long-Running Agentic Workflows & Durable Execution](09-long-running-agentic-workflows-durable-execution.md) | State, persistence, recovery, and extended task execution |
 | [10 — Agentic Workflow Evaluation & Reliability](10-agentic-workflow-evaluation-and-reliability.md) | Measuring outcomes and improving workflow reliability |
+
+### 4. Retrieval and Communication — Chapters 11–14
+
+| Chapter | Focus |
+|---|---|
 | [11 — Agentic RAG](11-agentic-rag.md) | Retrieval-augmented generation within agentic systems |
 | [12 — Agent Communication & Integration Protocols](12-agent-communication-and-integration-protocols.md) | The protocol landscape for agentic systems |
 | [13 — MCP: Architecture & Concepts](13-mcp-architecture-and-concepts.md) | Standardized access to tools, resources, and external systems |
 | [14 — A2A: Architecture & Concepts](14-a2a-architecture-and-concepts.md) | Communication and task delegation between independent agents |
+
+### 5. Enterprise Platforms — Chapter 15
+
+| Chapter | Focus |
+|---|---|
 | [15 — Enterprise Agent Platforms](15-enterprise-agent-platforms.md) | Runtime, frameworks, integration, deployment, and governance |
 
 ---
