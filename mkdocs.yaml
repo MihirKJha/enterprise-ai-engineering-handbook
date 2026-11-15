@@ -442,10 +442,9 @@ nav:
         - 02-agent-runtime-and-execution: 06-ai-agents/06-agent-deployment/02-agent-runtime-and-execution.md
         - 03-agent-scaling-and-resilience: 06-ai-agents/06-agent-deployment/03-agent-scaling-and-resilience.md
         - 04-production-agent-deployment: 06-ai-agents/06-agent-deployment/04-production-agent-deployment.md
-    
-     
 
-- Part VII - Agentic AI & Multi-Agent Systems:
+     
+  - Part VII - Agentic AI & Multi-Agent Systems:
     - 07-agentic-ai/index.md
 
     - Foundations:
@@ -474,7 +473,7 @@ nav:
         - 15-enterprise-agent-platforms: 07-agentic-ai/15-enterprise-agent-platforms.md
   
   
-- Part VIII - AI Engineering Frameworks & Tooling:
+  - Part VIII - AI Engineering Frameworks & Tooling:
     - 08-ai-engineering-frameworks/index.md
 
     - LangChain:
