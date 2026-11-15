@@ -192,1074 +192,330 @@ hide:
   - toc  
 ---
 
-
 # Part VIII — AI Engineering Frameworks & Tooling
 
-> Master the modern frameworks, orchestration platforms, SDKs, and development tools used to build, evaluate, deploy, and operate production-ready Enterprise AI applications.
+> Learn how to turn AI architectures into working software using frameworks, agent runtimes, integration protocols and provider SDKs. The emphasis is on engineering decisions: how the pieces fit, where abstractions help, and what it takes to operate them reliably.
 
-![ AI Engineering Frameworks & Tooling Banner](../assets/banners/ai-engineering-frameworks-banner.png)
+![AI Engineering Frameworks & Tooling Banner](../assets/banners/ai-engineering-frameworks-banner.png)
 
 ---
 
 ## 📖 Overview
 
-Modern AI applications extend far beyond calling Large Language Models through APIs. Building production-ready Enterprise AI systems requires a rich ecosystem of frameworks, orchestration platforms, SDKs, evaluation tools, and development utilities that simplify the creation, deployment, and operation of intelligent applications.
+A model API call is only one small part of an enterprise AI application. Real systems also need retrieval, tool integration, workflow control, state management, external-system connectivity, testing and operational visibility.
 
-This module provides a production-focused introduction to the AI engineering ecosystem, covering the industry's leading frameworks and tooling for developing LLM-powered applications, Retrieval-Augmented Generation (RAG) pipelines, AI Agents, Agentic AI systems, and enterprise AI platforms.
+Part VIII is the implementation-focused part of the handbook. It builds on the concepts introduced earlier and explores the frameworks and protocols engineers use to put those ideas into practice.
 
-Designed for software engineers, backend developers, cloud engineers, solution architects, and AI engineers, this module equips you with the practical knowledge required to select, integrate, and leverage the right frameworks for building scalable, maintainable, and production-ready AI systems.
+The chapters are organised around distinct engineering responsibilities:
+
+- **Application and retrieval frameworks** help connect models to prompts, enterprise data and application components.
+- **Agent and workflow frameworks** provide abstractions for tool-using agents, stateful execution and multi-agent collaboration.
+- **Integration protocols** standardise how AI applications access external capabilities and communicate with other agents.
+- **Provider SDKs and programming tools** offer direct access to model capabilities and ways to optimise AI application behaviour.
+- **Framework comparison** brings the implementation choices together from an enterprise architecture perspective.
+
+The goal is not to use the largest possible framework stack. It is to understand the available abstractions, choose the ones that fit the workload, and keep business logic and operational responsibilities clear.
+
+## 🎯 What you'll be able to do
+
+By working through this part, you will learn to:
+
+- Understand the architecture and core abstractions of major AI engineering frameworks.
+- Build LLM, RAG, agent and multi-agent applications using practical framework APIs.
+- Model stateful workflows and control agent execution.
+- Integrate tools, enterprise services and external agents.
+- Work with MCP and A2A as complementary integration protocols.
+- Evaluate framework boundaries, trade-offs and operational complexity.
+- Decide when a framework is useful and when a provider SDK is sufficient.
+- Design modular applications without spreading framework-specific types through business logic.
+- Assess production concerns such as testing, failure handling, observability, security and deployment.
 
 ---
 
-## 🎯 Learning Outcomes
+## 🧭 The framework and tooling landscape
 
-After completing this module, you will be able to:
-
-- Understand the modern AI Engineering ecosystem
-- Compare popular AI orchestration frameworks
-- Build LLM applications using industry-standard SDKs
-- Develop RAG applications using specialized frameworks
-- Build AI Agents and Agentic AI systems using modern orchestration platforms
-- Understand workflow orchestration and execution models
-- Compare framework capabilities and trade-offs
-- Select the appropriate framework for different enterprise use cases
-- Design modular, maintainable, and scalable AI applications
-- Apply production best practices when building Enterprise AI systems
-
----
-
-## 🧭 Framework Ecosystem
-
-The modern AI Engineering ecosystem can be viewed as multiple layers:
+The ecosystem is easier to understand by responsibility, rather than as one long list of competing products.
 
 ```mermaid
 flowchart TD
+    A["Enterprise AI Application"] --> B["Application Frameworks"]
+    A --> C["Agent & Workflow Frameworks"]
+    A --> D["Data & Retrieval Frameworks"]
+    A --> E["Integration Protocols"]
+    A --> F["Provider SDKs & AI Programming"]
 
-    A[Enterprise AI Applications]
-
-    A --> B[AI Application Frameworks]
-    A --> C[Agent & Workflow Frameworks]
-    A --> D[RAG & Data Frameworks]
-    A --> E[AI Provider SDKs]
-    A --> F[AI Programming & Optimization]
-
-    B --> B1[LangChain]
-    B --> B2[Semantic Kernel]
-
-    C --> C1[LangGraph]
-    C --> C2[CrewAI]
-    C --> C3[AutoGen]
-
-    D --> D1[LlamaIndex]
-    D --> D2[Haystack]
-
-    E --> E1[OpenAI SDK]
-    E --> E2[Anthropic SDK]
-    E --> E3[Google GenAI SDK]
-
-    F --> F1[DSPy]
-
-    A --> G[Framework Comparisons]
+    B --> B1["LangChain"]
+    C --> C1["LangGraph"]
+    C --> C2["CrewAI"]
+    C --> C3["AutoGen / AG2"]
+    C --> C4["BeeAI"]
+    D --> D1["LlamaIndex"]
+    E --> E1["MCP"]
+    E --> E2["A2A"]
+    F --> F1["OpenAI SDK"]
+    F --> F2["Anthropic SDK"]
+    F --> F3["Google GenAI SDK"]
+    F --> F4["DSPy"]
 ```
 
-The objective is not simply to learn APIs.
-
-The objective is to understand:
-
-```text
-Framework
-   ↓
-Abstractions
-   ↓
-Capabilities
-   ↓
-Architecture
-   ↓
-Production Trade-offs
-```
+Categories overlap: LangGraph is both an agent framework and a workflow runtime, while LangChain integrations support several application styles. The diagram shows primary roles, not rigid boundaries.
 
 ---
 
-# Section 1 — LangChain
+## 1. LangChain
 
-> Build LLM-powered applications using LangChain's abstractions for models, prompts, tools, retrieval, agents, and application workflows.
+> Build LLM-powered applications with reusable abstractions for models, prompts, messages, tools, retrieval and agents.
 
-| Chapter | Status |
-|---|:---:|
-| **[01. LangChain Fundamentals](01-langchain-fundamentals.md)** | ✅ |
-| **[02. LangChain Models & Prompts](02-langchain-models-and-prompts.md)** | ✅ |
-| **[03. LangChain Tools & Function Calling](03-langchain-tools-and-function-calling.md)** | ✅ |
-| **[04. LangChain Retrieval & RAG](04-langchain-retrieval-and-rag.md)** | ✅ |
-| **[05. LangChain Memory & State](05-langchain-memory-and-state.md)** | ✅ |
-| **[06. LangChain Agents](06-langchain-agents.md)** | ✅ |
-| **[07. LangChain Production Patterns](07-langchain-production-patterns.md)** | ✅ |
-| **[08. LangChain Limitations & Trade-offs](08-langchain-limitations-and-tradeoffs.md)** | ✅ |
+**Status:** Completed · 8 chapters
 
-### LangChain Coverage
-
-The LangChain section covers:
-
-- LangChain architecture
-- Core abstractions
-- Model integration
-- Prompt abstractions
-- Message handling
-- Tool integration
-- Function calling
-- Retrieval
-- RAG pipelines
-- Agent integration
-- Memory and state
-- Production patterns
-- Framework limitations and trade-offs
-
-### LangChain Architecture
-
-```mermaid
-flowchart LR
-
-    A[Application] --> B[LangChain]
-
-    B --> C[Models]
-    B --> D[Prompts]
-    B --> E[Tools]
-    B --> F[Retrieval]
-    B --> G[Agents]
-    B --> H[Memory / State]
-
-    C --> I[LLM Providers]
-    D --> I
-    E --> J[Enterprise APIs]
-    F --> K[Vector Stores]
-    G --> C
-    G --> E
-    H --> L[State Store]
-```
-
----
-
-# Section 2 — LlamaIndex
-
-> Build data-centric AI applications using LlamaIndex for document ingestion, indexing, retrieval, RAG, agents, and workflows.
-
-| Chapter | Status |
-|---|:---:|
-| **[09. LlamaIndex Fundamentals](09-llamaindex-fundamentals.md)** | ✅ |
-| **[10. LlamaIndex Data & Document Ingestion](10-llamaindex-data-and-document-ingestion.md)** | ✅ |
-| **[11. LlamaIndex Indexes & Retrieval](11-llamaindex-indexes-and-retrieval.md)** | ✅ |
-| **[12. LlamaIndex RAG Pipelines](12-llamaindex-rag-pipelines.md)** | ✅ |
-| **[13. LlamaIndex Agents & Tools](13-llamaindex-agents-and-tools.md)** | ✅ |
-| **[14. LlamaIndex Workflows](14-llamaindex-workflows.md)** | ✅ |
-| **[15. LlamaIndex Production Patterns](15-llamaindex-production-patterns.md)** | ✅ |
-| **[16. LlamaIndex Limitations & Trade-offs](16-llamaindex-limitations-and-tradeoffs.md)** | ✅ |
-
-### LlamaIndex Coverage
-
-The LlamaIndex section covers:
-
-- LlamaIndex architecture
-- Data ingestion
-- Document processing
-- Indexing
-- Retrieval
-- RAG pipelines
-- Agents
-- Tools
-- Workflows
-- Production architecture
-- Framework limitations and trade-offs
-
-### LlamaIndex Architecture
-
-```mermaid
-flowchart TD
-
-    A[Enterprise Data] --> B[Data Connectors]
-    B --> C[Document Processing]
-    C --> D[Nodes / Chunks]
-
-    D --> E[Indexing]
-    E --> F[Retrieval]
-
-    F --> G[Context]
-    G --> H[LLM]
-
-    H --> I[Response]
-
-    D --> J[Metadata]
-    J --> F
-
-    F --> K[RAG Pipeline]
-    K --> H
-```
-
----
-
-# Section 3 — LangGraph
-
-> Build stateful, controllable, and production-oriented AI Agent workflows using graph-based orchestration.
-
-| Chapter | Status |
-|---|:---:|
-| **[17. LangGraph Fundamentals](17-langgraph-fundamentals.md)** | ✅ |
-| **[18. Graph-Based Agent Architecture](18-graph-based-agent-architecture.md)** | ✅ |
-| **[19. LangGraph State & Checkpointing](19-langgraph-state-and-checkpointing.md)** | ✅ |
-| **[20. LangGraph Nodes, Edges & Routing](20-langgraph-nodes-edges-and-routing.md)** | ✅ |
-| **[21. LangGraph Human-in-the-Loop](21-langgraph-human-in-the-loop.md)** | ✅ |
-| **[22. LangGraph Tool Execution](22-langgraph-tool-execution.md)** | ✅ |
-| **[23. LangGraph Agent Workflows](23-langgraph-agent-workflows.md)** | ✅ |
-| **[24. LangGraph Memory & Persistence](24-langgraph-memory-and-persistence.md)** | ✅ |
-| **[25. LangGraph Production Patterns](25-langgraph-production-patterns.md)** | ✅ |
-| **[26. LangGraph Limitations & Trade-offs](26-langgraph-limitations-and-tradeoffs.md)** | ✅ |
-
-### LangGraph Coverage
-
-The LangGraph section covers:
-
-- Graph-based orchestration
-- Agent state
-- Nodes and edges
-- Routing
-- Conditional execution
-- Checkpointing
-- Persistence
-- Human-in-the-loop workflows
-- Tool execution
-- Stateful Agent workflows
-- Production deployment patterns
-- Framework limitations and trade-offs
-
-### LangGraph Architecture
-
-```mermaid
-flowchart TD
-
-    A[User Request] --> B[Agent State]
-
-    B --> C[Planner / Agent Node]
-
-    C --> D{Decision}
-
-    D -->|Tool Required| E[Tool Node]
-    D -->|Need More Information| F[Retrieval Node]
-    D -->|Complete| G[Final Response]
-
-    E --> B
-    F --> B
-
-    B --> H[Checkpoint]
-    H --> C
-
-    G --> I[User]
-```
-
----
-
-# Section 4 — Enterprise AI Frameworks
-
-> Explore additional frameworks used for enterprise AI applications, Agent orchestration, multi-agent systems, and AI application development.
-
-These frameworks are planned and will be developed later.
-
-| Framework | Planned Coverage | Status |
-|---|---|:---:|
-| **Semantic Kernel** | Enterprise AI orchestration, plugins, memory, Agents, and workflows | 🚧 |
-| **CrewAI** | Role-based Agents and multi-agent workflows | 🚧 |
-| **AutoGen** | Conversational Agents and multi-agent orchestration | 🚧 |
-| **Haystack** | Production RAG, pipelines, Agents, and retrieval systems | 🚧 |
-
-### Planned Framework Relationship
-
-```mermaid
-flowchart LR
-
-    A[Enterprise AI Frameworks]
-
-    A --> B[Semantic Kernel]
-    A --> C[CrewAI]
-    A --> D[AutoGen]
-    A --> E[Haystack]
-
-    B --> F[Enterprise Orchestration]
-    C --> G[Role-Based Agents]
-    D --> H[Multi-Agent Conversations]
-    E --> I[RAG & Pipelines]
-```
-
----
-
-# Section 5 — AI Programming & Optimization
-
-> Explore frameworks that approach AI application development from a programming, optimization, and declarative perspective.
-
-| Framework | Planned Coverage | Status |
-|---|---|:---:|
-| **DSPy** | Declarative AI programming, prompt optimization, and LM pipelines | 🚧 |
-
-### Planned DSPy Coverage
-
-Topics will include:
-
-- Declarative AI programming
-- Signatures
-- Modules
-- Optimization
-- Prompt optimization
-- Demonstration optimization
-- Evaluation-driven development
-- Production considerations
-
----
-
-# Section 6 — AI Provider SDKs
-
-> Learn how to build AI applications directly using provider-native SDKs and APIs.
-
-| SDK | Planned Coverage | Status |
-|---|---|:---:|
-| **OpenAI SDK** | Models, Responses, tools, structured outputs, Agents and APIs | 🚧 |
-| **Anthropic SDK** | Claude APIs, tool use, messages, and application integration | 🚧 |
-| **Google GenAI SDK** | Gemini models, multimodal AI, tools, and application integration | 🚧 |
-
-### Provider SDK Architecture
-
-```mermaid
-flowchart TD
-
-    A[Enterprise AI Application] --> B[Provider Abstraction]
-
-    B --> C[OpenAI SDK]
-    B --> D[Anthropic SDK]
-    B --> E[Google GenAI SDK]
-
-    C --> F[OpenAI Models]
-    D --> G[Claude Models]
-    E --> H[Gemini Models]
-
-    B --> I[Common Application Contract]
-```
-
-The SDK chapters will emphasize:
-
-- Direct provider integration
-- Authentication
-- Model invocation
-- Structured outputs
-- Tool calling
-- Streaming
-- Error handling
-- Retries
-- Rate limits
-- Observability
-- Production integration
-- Provider-specific capabilities
-
----
-
-# Section 7 — AI Framework Comparisons
-
-> Compare frameworks and SDKs from an enterprise architecture and production engineering perspective.
-
-| Chapter | Status |
-|---|:---:|
-| **Framework Architecture Comparison** | 🚧 |
-| **LangChain vs LlamaIndex vs LangGraph** | 🚧 |
-| **AI Agent Framework Comparison** | 🚧 |
-| **RAG Framework Comparison** | 🚧 |
-| **Framework vs Direct SDK** | 🚧 |
-| **AI Framework Selection Guide** | 🚧 |
-| **Production AI Framework Architecture** | 🚧 |
-
-### Framework Comparison Model
-
-```mermaid
-flowchart TD
-
-    A[Business Requirement] --> B[Architecture Requirements]
-
-    B --> C[RAG]
-    B --> D[Agents]
-    B --> E[Workflows]
-    B --> F[Data]
-    B --> G[Provider Integration]
-
-    C --> H[Framework Selection]
-    D --> H
-    E --> H
-    F --> H
-    G --> H
-
-    H --> I[LangChain]
-    H --> J[LlamaIndex]
-    H --> K[LangGraph]
-    H --> L[Semantic Kernel]
-    H --> M[CrewAI]
-    H --> N[AutoGen]
-    H --> O[Haystack]
-    H --> P[Direct SDK]
-```
-
-The comparison section will focus on:
-
-- Architecture
-- Abstractions
-- Extensibility
-- Integration
-- RAG capabilities
-- Agent capabilities
-- Workflow orchestration
-- State management
-- Observability
-- Evaluation
-- Production readiness
-- Performance
-- Operational complexity
-- Vendor / framework lock-in
-- Enterprise adoption considerations
-
----
-
-# 🏢 Enterprise Architecture Perspective
-
-The purpose of Part VIII is not simply to teach framework APIs.
-
-The goal is to understand how frameworks fit into a production Enterprise AI architecture.
-
-```mermaid
-flowchart TD
-
-    A[Enterprise AI Application]
-
-    A --> B[Application Services]
-
-    B --> C[Model Layer]
-    B --> D[RAG Layer]
-    B --> E[Agent Layer]
-    B --> F[Tool Layer]
-    B --> G[Workflow Layer]
-
-    C --> H[Provider SDKs]
-
-    D --> I[LlamaIndex]
-    D --> J[Haystack]
-
-    E --> K[LangGraph]
-    E --> L[CrewAI]
-    E --> M[AutoGen]
-
-    F --> N[Enterprise APIs]
-    F --> O[Databases]
-
-    G --> P[LangChain]
-    G --> Q[Semantic Kernel]
-
-    B --> R[Observability]
-    B --> S[Security]
-    B --> T[Governance]
-```
-
-Framework selection should therefore be driven by:
-
-```text
-Business Requirements
-        ↓
-Architecture Requirements
-        ↓
-AI Capabilities
-        ↓
-Operational Requirements
-        ↓
-Framework / SDK Selection
-```
-
----
-
-# 🔄 Frameworks vs Direct SDKs
-
-One of the important architectural questions covered later in this module will be:
-
-```text
-Should we use a framework?
-
-        OR
-
-Should we use the provider SDK directly?
-```
-
-Frameworks can provide:
-
-- Higher-level abstractions
-- Reusable components
-- Workflow orchestration
-- Tool integration
-- Retrieval integration
-- Agent abstractions
-- Ecosystem integrations
-
-Direct SDKs can provide:
-
-- Lower abstraction overhead
-- Direct access to provider capabilities
-- Greater control
-- Simpler dependency graphs
-- Easier access to provider-specific features
-
-The correct choice depends on the application's requirements.
-
----
-
-# 🧩 Framework-Agnostic Architecture
-
-Enterprise applications should avoid allowing framework-specific abstractions to leak unnecessarily throughout the entire business domain.
-
-A conceptual architecture can be:
-
-```mermaid
-flowchart TD
-
-    A[Business Application] --> B[AI Application Service]
-
-    B --> C[Capability Interfaces]
-
-    C --> D[ModelProvider]
-    C --> E[RetrievalProvider]
-    C --> F[AgentProvider]
-    C --> G[ToolProvider]
-    C --> H[WorkflowProvider]
-
-    D --> I[Provider SDK Adapter]
-    E --> J[RAG Framework Adapter]
-    F --> K[Agent Framework Adapter]
-    G --> L[Tool Framework Adapter]
-    H --> M[Workflow Framework Adapter]
-
-    I --> N[External AI Providers]
-    J --> O[Vector Stores / Data]
-    K --> P[Agent Runtime]
-    L --> Q[Enterprise APIs]
-    M --> R[Workflow Runtime]
-```
-
-This approach can help maintain:
-
-- Portability
-- Testability
-- Maintainability
-- Replaceability
-- Clear architectural boundaries
-
----
-
-# 🏗️ Framework Abstraction Strategy
-
-A production-oriented AI platform can separate:
-
-```text
-Business Logic
-        ↓
-AI Capabilities
-        ↓
-Framework Adapters
-        ↓
-Provider / Infrastructure
-```
-
-For example:
-
-```text
-Application
-    ↓
-LLMProvider
-    ↓
-OpenAIAdapter
-    ↓
-OpenAI SDK
-```
-
-Or:
-
-```text
-Application
-    ↓
-AgentProvider
-    ↓
-LangGraphAdapter
-    ↓
-LangGraph Runtime
-```
-
-This keeps framework-specific implementation details closer to the infrastructure boundary.
-
----
-
-# 📊 Framework Selection Criteria
-
-There is no universally "best" AI framework.
-
-Selection should depend on:
-
-| Consideration | Questions |
+| Chapter | Topic |
 |---|---|
-| Use Case | What are we building? |
-| RAG | How complex is retrieval? |
-| Agents | How complex is Agent execution? |
-| Workflow | Do we need deterministic orchestration? |
-| State | How much state must be persisted? |
-| Integration | What enterprise systems are involved? |
-| Scale | What production scale is required? |
-| Observability | How deeply must execution be traced? |
-| Governance | What security and compliance controls are required? |
-| Portability | How important is framework independence? |
-| Team Skills | What does the engineering team already know? |
-| Operations | How complex is the resulting platform? |
+| 01 | [LangChain Fundamentals](langchain/01-langchain-fundamentals.md) |
+| 02 | [LangChain Models & Prompts](langchain/02-langchain-models-and-prompts.md) |
+| 03 | [LangChain Tools & Function Calling](langchain/03-langchain-tools-and-function-calling.md) |
+| 04 | [LangChain Retrieval & RAG](langchain/04-langchain-retrieval-and-rag.md) |
+| 05 | [LangChain Memory & State](langchain/05-langchain-memory-and-state.md) |
+| 06 | [LangChain Agents](langchain/06-langchain-agents.md) |
+| 07 | [LangChain Production Patterns](langchain/07-langchain-production-patterns.md) |
+| 08 | [LangChain Limitations & Trade-offs](langchain/08-langchain-limitations-and-tradeoffs.md) |
+
+This section moves from core abstractions to practical application patterns, then examines the trade-offs that matter when adopting LangChain in a production codebase.
+
+## 2. LlamaIndex
+
+> Build data-centric AI applications with document ingestion, indexing, retrieval, RAG, agents and workflows.
+
+**Status:** Completed · 8 chapters
+
+| Chapter | Topic |
+|---|---|
+| 01 | [LlamaIndex Fundamentals](llamaindex/01-llamaindex-fundamentals.md) |
+| 02 | [Data & Document Ingestion](llamaindex/02-llamaindex-data-and-document-ingestion.md) |
+| 03 | [Indexes & Retrieval](llamaindex/03-llamaindex-indexes-and-retrieval.md) |
+| 04 | [RAG Pipelines](llamaindex/04-llamaindex-rag-pipelines.md) |
+| 05 | [Agents & Tools](llamaindex/05-llamaindex-agents-and-tools.md) |
+| 06 | [Workflows](llamaindex/06-llamaindex-workflows.md) |
+| 07 | [Production Patterns](llamaindex/07-llamaindex-production-patterns.md) |
+| 08 | [Limitations & Trade-offs](llamaindex/08-llamaindex-limitations-and-tradeoffs.md) |
+
+The emphasis here is the data path: connecting enterprise sources, preparing content, building indexes, retrieving useful context and incorporating retrieval into AI applications.
+
+## 3. LangGraph
+
+> Design stateful agent and application workflows with explicit state, nodes, edges, routing and checkpointing.
+
+**Status:** Completed · 10 chapters
+
+| Chapter | Topic |
+|---|---|
+| 01 | [LangGraph Fundamentals](langgraph/01-langgraph-fundamentals.md) |
+| 02 | [Graph-Based Agent Architecture](langgraph/02-graph-based-agent-architecture.md) |
+| 03 | [State & Checkpointing](langgraph/03-langgraph-state-and-checkpointing.md) |
+| 04 | [Nodes, Edges & Routing](langgraph/04-langgraph-nodes-edges-and-routing.md) |
+| 05 | [Human-in-the-Loop](langgraph/05-langgraph-human-in-the-loop.md) |
+| 06 | [Tool Execution](langgraph/06-langgraph-tool-execution.md) |
+| 07 | [Agent Workflows](langgraph/07-langgraph-agent-workflows.md) |
+| 08 | [Memory & Persistence](langgraph/08-langgraph-memory-and-persistence.md) |
+| 09 | [Production Patterns](langgraph/09-langgraph-production-patterns.md) |
+| 10 | [Limitations & Trade-offs](langgraph/10-langgraph-limitations-and-tradeoffs.md) |
+
+This section focuses on explicit workflow control: representing execution as a graph, managing state across steps, introducing human decisions and designing workflows that can be inspected and resumed.
+
+## 4. MCP Engineering
+
+> Implement the Model Context Protocol in real applications: build servers and clients, connect multiple servers, integrate frameworks and engineer secure deployments.
+
+**Status:** Completed · 10 chapters
+
+| Chapter | Topic |
+|---|---|
+| 01 | [MCP Engineering Fundamentals](mcp-engineering/01-mcp-engineering-fundamentals.md) |
+| 02 | [Building MCP Servers](mcp-engineering/02-building-mcp-servers.md) |
+| 03 | [Building MCP Clients](mcp-engineering/03-building-mcp-clients.md) |
+| 04 | [MCP Multi-Server Integration](mcp-engineering/04-mcp-multi-server-integration.md) |
+| 05 | [Advanced MCP Capabilities](mcp-engineering/05-advanced-mcp-capabilities.md) |
+| 06 | [MCP Integration with RAG Systems](mcp-engineering/06-mcp-integration-with-rag-systems.md) |
+| 07 | [MCP Integration with AI Frameworks](mcp-engineering/07-mcp-integration-with-ai-frameworks.md) |
+| 08 | [MCP Security & Production Engineering](mcp-engineering/08-mcp-security-production-engineering.md) |
+| 09 | [MCP Testing, Debugging & Observability](mcp-engineering/09-mcp-testing-debugging-observability.md) |
+| 10 | [Enterprise MCP Architecture & Design Patterns](mcp-engineering/10-enterprise-mcp-architecture-design-patterns.md) |
+
+MCP is treated here as an engineering technology. Its broader role in agentic architectures belongs to the conceptual discussion in Part VII; this section concentrates on implementation and integration.
+
+## 5. A2A Protocol Engineering
+
+> Connect independently built agents through discovery, messages, tasks and interoperable execution.
+
+**Status:** Completed · 7 chapters
+
+| Chapter | Topic |
+|---|---|
+| 01 | [A2A Protocol Engineering Fundamentals](a2a-engineering/01-a2a-protocol-engineering-fundamentals.md) |
+| 02 | [Agent Cards, Discovery & Interoperability](a2a-engineering/02-a2a-agent-cards-discovery-interoperability.md) |
+| 03 | [Building A2A Agents & Clients](a2a-engineering/03-building-a2a-agents-and-clients.md) |
+| 04 | [Messages, Tasks & Execution Lifecycle](a2a-engineering/04-a2a-messages-tasks-and-execution-lifecycle.md) |
+| 05 | [Streaming & Asynchronous Communication](a2a-engineering/05-a2a-streaming-and-asynchronous-communication.md) |
+| 06 | [Security, Testing & Production Operations](a2a-engineering/06-a2a-security-testing-production-operations.md) |
+| 07 | [Enterprise A2A Architecture & Design Patterns](a2a-engineering/07-enterprise-a2a-architecture-and-design-patterns.md) |
+
+MCP and A2A solve different integration problems: MCP connects an application or agent to tools and contextual capabilities; A2A enables communication and task interaction between agents. The implementation chapters keep those responsibilities distinct.
+
+## 6. CrewAI Engineering
+
+> Build role-oriented agent teams and combine collaborative tasks with structured application workflows.
+
+**Status:** Completed · 3 chapters
+
+| Chapter | Topic |
+|---|---|
+| 01 | [CrewAI Architecture & Core Concepts](crewai-engineering/01-crewai-architecture-and-core-concepts.md) |
+| 02 | [Building Multi-Agent Systems with CrewAI](crewai-engineering/02-building-multi-agent-systems-with-crewai.md) |
+| 03 | [CrewAI Advanced Engineering](crewai-engineering/03-crewai-advanced-engineering.md) |
+
+## 7. AutoGen / AG2 Engineering
+
+> Explore conversational multi-agent systems, coordination patterns, tool integration and production-oriented implementation.
+
+**Status:** Completed · 4 chapters
+
+| Chapter | Topic |
+|---|---|
+| 01 | [AutoGen / AG2 Architecture & Core Concepts](autogen-engineering/01-autogen-ag2-architecture-and-core-concepts.md) |
+| 02 | [Building Conversational Multi-Agent Systems](autogen-engineering/02-building-conversational-multi-agent-systems.md) |
+| 03 | [Advanced Agent Orchestration & Workflow Design](autogen-engineering/03-advanced-agent-orchestration-and-workflow-design.md) |
+| 04 | [AG2 Tools, Structured Outputs & Production Engineering](autogen-engineering/04-ag2-tools-structured-outputs-and-production-engineering.md) |
+
+The AG2 material follows the API generation documented in its chapters. Check compatibility and migration guidance before treating newer AG2 releases as drop-in replacements for older Classic-style examples.
+
+## 8. BeeAI Engineering
+
+> Build provider-flexible agents with tools, execution requirements, multi-agent handoffs and production runtime capabilities.
+
+**Status:** Completed · 3 chapters
+
+| Chapter | Topic |
+|---|---|
+| 01 | [BeeAI Architecture & Agent Development](beeai-engineering/01-beeai-architecture-agent-development.md) |
+| 02 | [BeeAI Agent Control, Tools & Multi-Agent Integration](beeai-engineering/02-beeai-agent-control-tools-multi-agent-integration.md) |
+| 03 | [BeeAI Production Engineering, Runtime & Deployment](beeai-engineering/03-beeai-production-engineering-runtime-deployment.md) |
+
+## 9. Enterprise AI Framework Comparison
+
+> Step back from individual APIs and compare the execution models, architectural trade-offs and enterprise fit of the frameworks covered in this part.
+
+**Status:** Chapter 54 · Available
+
+[01. Enterprise AI Framework Comparison](01-enterprise-ai-framework-comparison.md)
+
+The comparison covers:
+
+- LangChain vs LangGraph
+- LangGraph vs CrewAI
+- CrewAI vs AutoGen / AG2
+- BeeAI vs other agent frameworks
+- Framework abstraction models
+- Workflow and agent orchestration
+- State and memory management
+- Tool integration and protocol support
+- Production readiness
+- Enterprise framework selection
+
+The goal is not to crown a winner, but to identify which abstraction fits a workload, what trade-offs it introduces and what to validate before adoption.
 
 ---
 
-# 🔬 Production Engineering Focus
+## 🔭 Planned additions
 
-Every framework chapter in this module should go beyond basic API usage.
+The current framework and protocol sections above reflect the repository structure. The following areas remain candidates for future expansion:
 
-Each framework note should cover:
+| Area | Planned focus |
+|---|---|
+| **Microsoft Semantic Kernel** | Kernel architecture, plugins, orchestration and enterprise integration |
+| **DSPy** | Declarative AI programming, signatures, modules and evaluation-driven optimisation |
+| **Haystack** | Pipelines, retrieval, components and production RAG architectures |
+| **OpenAI SDK** | Responses API, tools, structured outputs, streaming and agent capabilities |
+| **Anthropic SDK** | Messages API, tool use, structured outputs and provider-specific features |
+| **Google GenAI SDK** | Gemini APIs, multimodal capabilities, tools and application integration |
 
-## Architecture
-
-```text
-How is the framework structured?
-```
-
-## Core Abstractions
-
-```text
-What concepts does the framework introduce?
-```
-
-## Sample Code
-
-Each note should contain practical implementation examples.
-
-Example:
-
-```python
-from framework import Model
-
-model = Model(
-    model="example-model"
-)
-
-response = model.invoke(
-    "Explain enterprise AI architecture."
-)
-
-print(response)
-```
-
-The exact API will depend on the framework being discussed.
+These are planned additions, not completed chapters. Their placement and chapter numbering can be finalised when the corresponding engineering sections are ready.
 
 ---
 
-## Mermaid Architecture
+## 🏢 The enterprise architecture perspective
 
-Framework notes should include architecture diagrams where they improve understanding.
+Frameworks should make an architecture easier to implement—not dictate the architecture by default.
 
-Example:
-
-```mermaid
-flowchart LR
-
-    A[Application] --> B[Framework]
-    B --> C[Model]
-    B --> D[Tools]
-    B --> E[Retrieval]
-    B --> F[State]
-```
-
----
-
-## Sample / Worked Example
-
-Each major concept should include a realistic example such as:
-
-```text
-Customer Support Agent
-        ↓
-Retrieve Customer Context
-        ↓
-Call Order Service
-        ↓
-Generate Response
-        ↓
-Audit Interaction
-```
-
----
-
-## Graph / Visual Representation
-
-Where useful, framework notes should include graphs or visual representations for:
-
-- Execution flow
-- State transitions
-- Retrieval pipelines
-- Agent workflows
-- Tool invocation
-- Framework architecture
-- Performance characteristics
-- Component relationships
-
----
-
-## Text Flow
-
-Simple concepts can use text diagrams when they communicate the architecture more clearly:
-
-```text
-Request
-  ↓
-Framework
-  ↓
-Prompt
-  ↓
-Model
-  ↓
-Tool
-  ↓
-Response
-```
-
----
-
-# 🧪 Testing & Evaluation
-
-Framework chapters should also cover how the framework integrates with:
-
-```text
-Unit Testing
-      ↓
-Integration Testing
-      ↓
-AI Evaluation
-      ↓
-Regression Testing
-      ↓
-Production Monitoring
-```
-
-Where applicable, examples should demonstrate:
-
-- Mock models
-- Mock tools
-- Deterministic tests
-- Integration tests
-- Evaluation datasets
-- Output validation
-- Failure testing
-
----
-
-# ⚡ Performance & Optimization
-
-Framework notes should address production performance where relevant.
-
-Areas include:
-
-- Latency
-- Token usage
-- Concurrency
-- Streaming
-- Batching
-- Caching
-- Connection reuse
-- Async execution
-- Retrieval performance
-- Tool execution overhead
-- Framework overhead
-
-Example production flow:
-
-```mermaid
-flowchart LR
-
-    A[Request] --> B[Framework Runtime]
-    B --> C[Optimization Layer]
-    C --> D[Model]
-    C --> E[Cache]
-    C --> F[Tools]
-
-    D --> G[Response]
-    E --> G
-    F --> G
-```
-
----
-
-# ⚠️ Common Pitfalls
-
-Framework notes should identify common problems such as:
-
-- Excessive abstraction
-- Framework lock-in
-- Hidden network calls
-- Uncontrolled retries
-- Poor error handling
-- State management issues
-- Difficult debugging
-- Dependency complexity
-- Version compatibility problems
-- Production observability gaps
-- Excessive framework coupling
-
----
-
-# 🧭 Relationship With Previous Parts
-
-Part VIII builds on the engineering concepts covered earlier in the handbook.
-
-```mermaid
-flowchart LR
-
-    A[Part III<br/>Foundation Models & LLMs]
-        --> B[Part IV<br/>Generative AI]
-
-    B --> C[Part V<br/>Production RAG Engineering]
-
-    C --> D[Part VI<br/>AI Agents]
-
-    D --> E[Part VII<br/>Agentic AI & Multi-Agent Systems]
-
-    E --> F[Part VIII<br/>AI Engineering Frameworks & Tooling]
-```
-
-The distinction is important.
-
-Earlier parts explain primarily:
-
-```text
-WHAT
-+
-WHY
-```
-
-Part VIII focuses more heavily on:
-
-```text
-HOW
-```
-
-using modern AI engineering frameworks and SDKs.
-
----
-
-# 📚 Part VIII Technology Map
+A maintainable application keeps business rules and domain models separate from framework-specific objects. Where portability matters, define small capability interfaces around the dependencies that genuinely need to be replaceable.
 
 ```mermaid
 flowchart TD
-
-    A[Part VIII<br/>AI Engineering Frameworks & Tooling]
-
-    A --> B[Application Frameworks]
-    A --> C[Agent Frameworks]
-    A --> D[RAG / Data Frameworks]
-    A --> E[AI Programming]
-    A --> F[Provider SDKs]
-    A --> G[Framework Comparisons]
-
-    B --> B1[LangChain]
-    B --> B2[Semantic Kernel]
-
-    C --> C1[LangGraph]
-    C --> C2[CrewAI]
-    C --> C3[AutoGen]
-
-    D --> D1[LlamaIndex]
-    D --> D2[Haystack]
-
-    E --> E1[DSPy]
-
-    F --> F1[OpenAI SDK]
-    F --> F2[Anthropic SDK]
-    F --> F3[Google GenAI SDK]
-
-    G --> G1[Framework Selection]
-    G --> G2[Framework vs SDK]
-    G --> G3[Production Architecture]
+    A["Business Application"] --> B["AI Application Services"]
+    B --> C["Capability Interfaces"]
+    C --> D["Model Adapter"]
+    C --> E["Retrieval Adapter"]
+    C --> F["Agent / Workflow Adapter"]
+    C --> G["Tool Integration"]
+    D --> H["Provider SDK"]
+    E --> I["Data & Vector Infrastructure"]
+    F --> J["Selected Framework Runtime"]
+    G --> K["Enterprise APIs / MCP"]
+    J --> L["Agent Collaboration / A2A"]
 ```
 
----
+This is an option, not a requirement to wrap every framework class. Add an abstraction when it protects a boundary or creates a useful testing or replacement seam—not when it merely renames an API.
 
-# 🚦 Current Development Status
+## 🧪 What production-focused chapters should address
 
-## ✅ Completed
+Framework-specific implementation details differ, but the engineering questions are familiar:
 
-### LangChain
+- **Architecture:** What runs in-process, what is external, and where are the boundaries?
+- **Execution:** How are steps, tool calls, retries, cancellation and timeouts controlled?
+- **State:** What is transient context, what is persisted, and who owns durable business data?
+- **Integration:** How are models, tools, retrieval systems and protocols connected?
+- **Testing:** Can core behaviour be tested with deterministic fixtures as well as live providers?
+- **Evaluation:** Are task quality, groundedness and regression behaviour measured?
+- **Operations:** Can teams trace failures, manage capacity and deploy compatible versions safely?
+- **Security:** Are identity, permissions, secrets and tenant boundaries enforced by the application?
 
-- LangChain Fundamentals
-- LangChain Models & Prompts
-- LangChain Tools & Function Calling
-- LangChain Retrieval & RAG
-- LangChain Memory & State
-- LangChain Agents
-- LangChain Production Patterns
-- LangChain Limitations & Trade-offs
+Address these concerns where relevant; avoid repeating the same generic checklist in every chapter.
 
-### LlamaIndex
+## 🔗 How Part VIII fits into the handbook
 
-- LlamaIndex Fundamentals
-- LlamaIndex Data & Document Ingestion
-- LlamaIndex Indexes & Retrieval
-- LlamaIndex RAG Pipelines
-- LlamaIndex Agents & Tools
-- LlamaIndex Workflows
-- LlamaIndex Production Patterns
-- LlamaIndex Limitations & Trade-offs
-
-### LangGraph
-
-- LangGraph Fundamentals
-- Graph-Based Agent Architecture
-- LangGraph State & Checkpointing
-- LangGraph Nodes, Edges & Routing
-- LangGraph Human-in-the-Loop
-- LangGraph Tool Execution
-- LangGraph Agent Workflows
-- LangGraph Memory & Persistence
-- LangGraph Production Patterns
-- LangGraph Limitations & Trade-offs
-
----
-
-## 🚧 Planned
-
-The following areas remain under development:
-
-### Enterprise AI Frameworks
-
-- Semantic Kernel
-- CrewAI
-- AutoGen
-- Haystack
-
-### AI Programming & Optimization
-
-- DSPy
-
-### Provider SDKs
-
-- OpenAI SDK
-- Anthropic SDK
-- Google GenAI SDK
-
-### Framework Comparisons
-
-- Framework Architecture Comparison
-- LangChain vs LlamaIndex vs LangGraph
-- AI Agent Framework Comparison
-- RAG Framework Comparison
-- Framework vs Direct SDK
-- AI Framework Selection Guide
-- Production AI Framework Architecture
-
----
-
-# 🏢 Enterprise AI Engineering Principle
-
-Frameworks should be treated as **engineering tools**, not architectural dependencies that automatically define the entire system.
-
-A strong enterprise architecture should follow:
+The earlier parts establish the concepts and architecture; Part VIII focuses on implementation.
 
 ```mermaid
-flowchart TD
-
-    A[Business Requirements]
-        --> B[Architecture]
-
-    B --> C[AI Capabilities]
-
-    C --> D[Framework / SDK Selection]
-
-    D --> E[Implementation]
-
-    E --> F[Testing]
-
-    F --> G[Evaluation]
-
-    G --> H[Production Deployment]
-
-    H --> I[Observability]
-
-    I --> J[Continuous Improvement]
+flowchart LR
+    A["Part V<br/>Advanced RAG"] --> B["Part VI<br/>AI Agents"]
+    B --> C["Part VII<br/>Agentic AI & Multi-Agent Systems"]
+    C --> D["Part VIII<br/>Frameworks, SDKs & Protocol Engineering"]
+    D --> E["Production Enterprise AI Systems"]
 ```
 
-The framework should serve the architecture.
+- **Part V** explains how to retrieve and ground knowledge.
+- **Part VI** focuses on engineering individual AI agents.
+- **Part VII** explores autonomous systems, collaboration, orchestration and protocol architecture.
+- **Part VIII** implements those ideas using frameworks, SDKs and integration protocols.
 
-The architecture should not be forced to serve the framework.
+In short: earlier parts establish the **what** and **why**; this part concentrates on the **how**.
+
+## 🚀 Where to begin
+
+If you are new to this part, start with [LangChain Fundamentals](langchain/01-langchain-fundamentals.md), then explore the sections according to the system you want to build:
+
+- Working with enterprise data and retrieval? Start with **LlamaIndex**.
+- Need explicit, stateful workflow control? Explore **LangGraph**.
+- Connecting applications to external tools? Explore **MCP Engineering**.
+- Connecting independently deployed agents? Explore **A2A Engineering**.
+- Building specialist agent teams? Explore **CrewAI** or **AutoGen / AG2**.
+- Looking for provider-flexible agents with execution requirements? Explore **BeeAI**.
+- Comparing the architectural trade-offs? Read [Enterprise AI Framework Comparison](01-enterprise-ai-framework-comparison.md).
+
+Follow the path that answers a real engineering question, not necessarily the one with the most frameworks.
 
 ---
 
-# 🚀 Start Learning
-
-The framework journey begins with the completed LangChain section:
-
-➡️ **[01. LangChain Fundamentals](01-langchain-fundamentals.md)**
-
-The completed learning path is:
-
-```text
-LangChain
-    ↓
-LlamaIndex
-    ↓
-LangGraph
-```
-
-The future learning path will continue with:
-
-```text
-Semantic Kernel
-    ↓
-CrewAI
-    ↓
-AutoGen
-    ↓
-DSPy
-    ↓
-Haystack
-    ↓
-OpenAI SDK
-    ↓
-Anthropic SDK
-    ↓
-Google GenAI SDK
-    ↓
-Framework Comparisons
-```
-
----
-
-## 🚧 Module Status
-
-> **Status:** 🚧 **Under Active Development**
-
-The roadmap for this module has been finalized, with the **LangChain, LlamaIndex, and LangGraph sections completed**.
-
-The remaining frameworks, SDKs, and comparison chapters will be developed progressively.
-
-### Each chapter will include
-
-- 📖 Production-focused explanations
-- 🏗️ Enterprise architecture diagrams
-- 🔷 Mermaid architecture and workflow diagrams
-- 💻 Sample implementation code
-- 🧪 Testing and evaluation examples
-- 📊 Graphs / visual representations where useful
-- 🔄 Text-based execution flows where appropriate
-- ⚡ Best practices & optimization techniques
-- ⚠️ Common pitfalls & troubleshooting guidance
-- 🏢 Enterprise architecture considerations
-- ❓ Interview questions
-- 📝 Quick revision notes
-- 📚 References & further reading
-
----
-
-> **Enterprise AI Engineering Handbook**  
+> **Enterprise AI Engineering Handbook**
+>
 > *Building Production-Grade Enterprise AI Systems — One Chapter at a Time.*
+
+---

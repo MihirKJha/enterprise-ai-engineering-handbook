@@ -443,36 +443,38 @@ nav:
         - 03-agent-scaling-and-resilience: 06-ai-agents/06-agent-deployment/03-agent-scaling-and-resilience.md
         - 04-production-agent-deployment: 06-ai-agents/06-agent-deployment/04-production-agent-deployment.md
     
-  - Part VII - Agentic AI & Multi-Agent Systems:
+     
+
+- Part VII - Agentic AI & Multi-Agent Systems:
     - 07-agentic-ai/index.md
 
     - Foundations:
-        - 07-agentic-ai/01-agentic-ai-fundamentals.md
-        - 07-agentic-ai/02-multi-agent-systems-architecture.md
+        - 01-agentic-ai-fundamentals: 07-agentic-ai/01-agentic-ai-fundamentals.md
+        - 02-multi-agent-systems-architecture: 07-agentic-ai/02-multi-agent-systems-architecture.md
 
     - Workflow and Coordination Patterns:
-        - 07-agentic-ai/03-agentic-workflow-design-patterns.md
-        - 07-agentic-ai/04-multi-agent-communication-coordination.md
-        - 07-agentic-ai/05-agent-orchestration-supervisor-patterns.md
-        - 07-agentic-ai/06-hierarchical-agents-task-delegation.md
-        - 07-agentic-ai/07-collaborative-agents-swarm-architectures.md
+        - 03-agentic-workflow-design-patterns: 07-agentic-ai/03-agentic-workflow-design-patterns.md
+        - 04-multi-agent-communication-coordination: 07-agentic-ai/04-multi-agent-communication-coordination.md
+        - 05-agent-orchestration-supervisor-patterns: 07-agentic-ai/05-agent-orchestration-supervisor-patterns.md
+        - 06-hierarchical-agents-task-delegation: 07-agentic-ai/06-hierarchical-agents-task-delegation.md
+        - 07-collaborative-agents-swarm-architectures: 07-agentic-ai/07-collaborative-agents-swarm-architectures.md
 
     - Human Oversight and Reliability:
-        - 07-agentic-ai/08-human-in-the-loop-agentic-workflows.md
-        - 07-agentic-ai/09-long-running-agentic-workflows-durable-execution.md
-        - 07-agentic-ai/10-agentic-workflow-evaluation-and-reliability.md
+        - 08-human-in-the-loop-agentic-workflows: 07-agentic-ai/08-human-in-the-loop-agentic-workflows.md
+        - 09-long-running-agentic-workflows-durable-execution: 07-agentic-ai/09-long-running-agentic-workflows-durable-execution.md
+        - 10-agentic-workflow-evaluation-and-reliability: 07-agentic-ai/10-agentic-workflow-evaluation-and-reliability.md
 
     - Retrieval and Communication:
-        - 07-agentic-ai/11-agentic-rag.md
-        - 07-agentic-ai/12-agent-communication-and-integration-protocols.md
-        - 07-agentic-ai/13-mcp-architecture-and-concepts.md
-        - 07-agentic-ai/14-a2a-architecture-and-concepts.md
+        - 11-agentic-rag: 07-agentic-ai/11-agentic-rag.md
+        - 12-agent-communication-and-integration-protocols: 07-agentic-ai/12-agent-communication-and-integration-protocols.md
+        - 13-mcp-architecture-and-concepts: 07-agentic-ai/13-mcp-architecture-and-concepts.md
+        - 14-a2a-architecture-and-concepts: 07-agentic-ai/14-a2a-architecture-and-concepts.md
 
     - Enterprise Platforms:
-        - 07-agentic-ai/15-enterprise-agent-platforms.md
-        
+        - 15-enterprise-agent-platforms: 07-agentic-ai/15-enterprise-agent-platforms.md
   
-  - Part VIII - AI Engineering Frameworks & Tooling:
+  
+- Part VIII - AI Engineering Frameworks & Tooling:
     - 08-ai-engineering-frameworks/index.md
 
     - LangChain:
@@ -506,7 +508,49 @@ nav:
         - 08-langgraph-memory-and-persistence: 08-ai-engineering-frameworks/langgraph/08-langgraph-memory-and-persistence.md
         - 09-langgraph-production-patterns: 08-ai-engineering-frameworks/langgraph/09-langgraph-production-patterns.md
         - 10-langgraph-limitations-and-tradeoffs: 08-ai-engineering-frameworks/langgraph/10-langgraph-limitations-and-tradeoffs.md
-  
+
+    - MCP Engineering:
+        - 01-mcp-engineering-fundamentals: 08-ai-engineering-frameworks/mcp-engineering/01-mcp-engineering-fundamentals.md
+        - 02-building-mcp-servers: 08-ai-engineering-frameworks/mcp-engineering/02-building-mcp-servers.md
+        - 03-building-mcp-clients: 08-ai-engineering-frameworks/mcp-engineering/03-building-mcp-clients.md
+        - 04-mcp-multi-server-integration: 08-ai-engineering-frameworks/mcp-engineering/04-mcp-multi-server-integration.md
+        - 05-advanced-mcp-capabilities: 08-ai-engineering-frameworks/mcp-engineering/05-advanced-mcp-capabilities.md
+        - 06-mcp-integration-with-rag-systems: 08-ai-engineering-frameworks/mcp-engineering/06-mcp-integration-with-rag-systems.md
+        - 07-mcp-integration-with-ai-frameworks: 08-ai-engineering-frameworks/mcp-engineering/07-mcp-integration-with-ai-frameworks.md
+        - 08-mcp-security-production-engineering: 08-ai-engineering-frameworks/mcp-engineering/08-mcp-security-production-engineering.md
+        - 09-mcp-testing-debugging-observability: 08-ai-engineering-frameworks/mcp-engineering/09-mcp-testing-debugging-observability.md
+        - 10-enterprise-mcp-architecture-design-patterns: 08-ai-engineering-frameworks/mcp-engineering/10-enterprise-mcp-architecture-design-patterns.md
+
+    - A2A Protocol Engineering:
+        - 01-a2a-protocol-engineering-fundamentals: 08-ai-engineering-frameworks/a2a-engineering/01-a2a-protocol-engineering-fundamentals.md
+        - 02-a2a-agent-cards-discovery-interoperability: 08-ai-engineering-frameworks/a2a-engineering/02-a2a-agent-cards-discovery-interoperability.md
+        - 03-building-a2a-agents-and-clients: 08-ai-engineering-frameworks/a2a-engineering/03-building-a2a-agents-and-clients.md
+        - 04-a2a-messages-tasks-and-execution-lifecycle: 08-ai-engineering-frameworks/a2a-engineering/04-a2a-messages-tasks-and-execution-lifecycle.md
+        - 05-a2a-streaming-and-asynchronous-communication: 08-ai-engineering-frameworks/a2a-engineering/05-a2a-streaming-and-asynchronous-communication.md
+        - 06-a2a-security-testing-production-operations: 08-ai-engineering-frameworks/a2a-engineering/06-a2a-security-testing-production-operations.md
+        - 07-enterprise-a2a-architecture-and-design-patterns: 08-ai-engineering-frameworks/a2a-engineering/07-enterprise-a2a-architecture-and-design-patterns.md
+
+    - CrewAI Engineering:
+        - 01-crewai-architecture-and-core-concepts: 08-ai-engineering-frameworks/crewai-engineering/01-crewai-architecture-and-core-concepts.md
+        - 02-building-multi-agent-systems-with-crewai: 08-ai-engineering-frameworks/crewai-engineering/02-building-multi-agent-systems-with-crewai.md
+        - 03-crewai-advanced-engineering: 08-ai-engineering-frameworks/crewai-engineering/03-crewai-advanced-engineering.md
+
+    - AutoGen AG2 Engineering:
+        - 01-autogen-ag2-architecture-and-core-concepts: 08-ai-engineering-frameworks/autogen-engineering/01-autogen-ag2-architecture-and-core-concepts.md
+        - 02-building-conversational-multi-agent-systems: 08-ai-engineering-frameworks/autogen-engineering/02-building-conversational-multi-agent-systems.md
+        - 03-advanced-agent-orchestration-and-workflow-design: 08-ai-engineering-frameworks/autogen-engineering/03-advanced-agent-orchestration-and-workflow-design.md
+        - 04-ag2-tools-structured-outputs-and-production-engineering: 08-ai-engineering-frameworks/autogen-engineering/04-ag2-tools-structured-outputs-and-production-engineering.md
+
+    - BeeAI Engineering:
+        - 01-beeai-architecture-agent-development: 08-ai-engineering-frameworks/beeai-engineering/01-beeai-architecture-agent-development.md
+        - 02-beeai-agent-control-tools-multi-agent-integration: 08-ai-engineering-frameworks/beeai-engineering/02-beeai-agent-control-tools-multi-agent-integration.md
+        - 03-beeai-production-engineering-runtime-deployment: 08-ai-engineering-frameworks/beeai-engineering/03-beeai-production-engineering-runtime-deployment.md
+
+    - Framework Architecture & Comparison:
+        - 01-enterprise-ai-framework-comparison: 08-ai-engineering-frameworks/01-enterprise-ai-framework-comparison.md
+
+
+
   - Part IX - MLOps, LLMOps & AIOps: 09-mlops/index.md
   
   - Part X - Cloud AI Engineering: 
