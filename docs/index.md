@@ -1,793 +1,223 @@
 ---
-title: "Enterprise AI Engineering Handbook: Machine Learning, LLMs, RAG, AI Agents, MLOps and Cloud AI"
-description: "A production-focused Enterprise AI Engineering Handbook for backend engineers, cloud engineers, software architects, and AI engineers. Learn Machine Learning, Deep Learning, Foundation Models, LLMs, Generative AI, RAG, AI Agents, Agentic AI, MLOps, LLMOps, Cloud AI, and enterprise AI architecture."
+title: "Enterprise AI Engineering Handbook"
+description: "A practical guide to building production-ready AI systems, from Machine Learning and LLMs to RAG, AI agents, MLOps, cloud platforms, and enterprise architecture."
 keywords:
   - Enterprise AI Engineering
-  - Enterprise AI Engineering Handbook
-  - Enterprise AI
-  - AI Engineering
-  - Production AI Engineering
-  - Enterprise AI Systems
-  - Production AI Systems
   - Enterprise AI Architecture
-  - Production AI Architecture
-  - AI System Design
-  - AI Architecture
-  - Enterprise AI Platform
-  - AI Engineering Handbook
-  - AI Engineering Learning Path
-  - Enterprise AI Learning Path
-  - Production AI Learning Path
-  - AI for Backend Engineers
-  - AI for Cloud Engineers
-  - AI for Software Architects
-  - AI for AI Engineers
-  - Backend AI Engineering
-  - Cloud AI Engineering
-  - Software Architecture for AI
+  - Production AI Systems
   - Machine Learning
-  - Machine Learning Fundamentals
-  - Production Machine Learning
-  - Enterprise Machine Learning
-  - ML Systems
-  - Supervised Learning
-  - Unsupervised Learning
-  - Regression
-  - Classification
-  - Clustering
-  - Dimensionality Reduction
-  - Feature Engineering
-  - Model Evaluation
-  - Model Validation
-  - Regularization
-  - Production ML Systems
   - Deep Learning
-  - Deep Learning Fundamentals
-  - Neural Networks
-  - Backpropagation
-  - Deep Learning Optimization
-  - TensorFlow
-  - Keras
-  - PyTorch
-  - GPU-Accelerated Training
-  - Computer Vision
-  - CNN
-  - Convolutional Neural Networks
-  - Transfer Learning
-  - ResNet
-  - Vision Transformers
-  - RNN
-  - LSTM
-  - GRU
-  - Attention Mechanism
-  - Transformer Architecture
-  - Autoencoders
-  - GANs
-  - Diffusion Models
-  - Reinforcement Learning
-  - Deep Q Networks
-  - Production Deep Learning
   - Foundation Models
   - Large Language Models
-  - LLMs
   - Generative AI
-  - GPT
-  - BERT
-  - Word Embeddings
-  - Language Modeling
-  - Hugging Face
-  - Hugging Face Transformers
-  - LLM Data Preparation
-  - LLM Training
-  - LLM Fine-Tuning
-  - Supervised Fine-Tuning
-  - SFT
-  - Parameter-Efficient Fine-Tuning
-  - PEFT
-  - LoRA
-  - QLoRA
-  - Model Quantization
-  - LLM Generation
-  - LLM Evaluation
-  - Instruction Tuning
-  - Reward Modeling
-  - AI Alignment
-  - RLHF
-  - Reinforcement Learning from Human Feedback
-  - PPO
-  - Direct Preference Optimization
-  - DPO
-  - Hugging Face TRL
-  - Production LLM Systems
-  - Prompt Engineering
-  - Advanced Prompt Engineering
-  - Prompt Design Patterns
-  - Zero-Shot Prompting
-  - One-Shot Prompting
-  - Few-Shot Prompting
-  - Chain-of-Thought
-  - ReAct
-  - Structured Outputs
-  - Output Parsing
-  - Function Calling
-  - Tool Calling
-  - Embeddings
-  - Semantic Search
-  - Document Processing
-  - Document Chunking
-  - Vector Database
-  - Similarity Search
   - Retrieval-Augmented Generation
-  - RAG
-  - RAG Fundamentals
-  - RAG Pipeline
-  - Retrieval Pipeline
-  - RAG Evaluation
-  - Enterprise RAG
-  - Gradio AI Applications
-  - Flask AI Applications
-  - AI API Development
-  - Advanced RAG
-  - Retrieval Engineering
-  - Advanced Retrieval
-  - VectorStore Retrieval
-  - Multi-Query Retrieval
-  - Self-Query Retrieval
-  - Parent-Document Retrieval
-  - Contextual Compression
-  - Ensemble Retrieval
-  - Multi-Vector Retrieval
-  - Time-Weighted Retrieval
-  - Hybrid Search
-  - HyDE
-  - Router Retrieval
-  - Multi-Stage Retrieval
-  - Agentic Retrieval
-  - Reranking
-  - MMR
-  - Metadata-Aware Retrieval
-  - Query Rewriting
-  - LlamaIndex
-  - LlamaIndex Retrieval Engineering
-  - Vector Index Retrieval
-  - BM25
-  - Document Summary Retrieval
-  - Recursive Retrieval
-  - Query Fusion
-  - Auto-Merging Retrieval
-  - FAISS
-  - HNSW
-  - Vector Index Selection
-  - ChromaDB
-  - Milvus
-  - Graph RAG
-  - Knowledge Graph RAG
-  - SQL RAG
-  - Multimodal RAG
-  - Agentic RAG
-  - Context Engineering
-  - Response Validation
-  - Citation and Source Attribution
-  - RAG Observability
-  - RAG Performance Optimization
-  - RAG Cost Optimization
-  - Production RAG
-  - Production RAG Architecture
-  - RAG Deployment
-  - RAG Caching
-  - Multi-Tenant RAG
-  - RAG Testing
-  - RAG Failure Patterns
   - AI Agents
-  - Enterprise AI Agents
-  - Production AI Agents
-  - AI Agent Architecture
-  - Agent Runtime
-  - Agent Execution
-  - AI Assistants
-  - AI Workflows
-  - Agent Planning
-  - Task Decomposition
-  - Agent Reasoning
-  - Agent Memory
-  - Agent Tool Calling
-  - Agent Reflection
-  - Agent Authorization
-  - AI Agent Security
-  - Secrets Management
-  - AI Data Privacy
-  - Agent Sandboxing
-  - AI Guardrails
-  - Agent Risk Management
-  - Agent Scaling
-  - AI Agent Resilience
-  - Agent Deployment
-  - Agent Evaluation
-  - Agent Observability
   - Agentic AI
-  - Multi-Agent Systems
-  - Multi-Agent Architecture
-  - Supervisor Pattern
-  - Hierarchical Agents
-  - Swarm Intelligence
-  - Collaborative Agents
-  - Human-in-the-Loop
-  - Long-Running Agents
-  - Enterprise Agent Platforms
-  - Model Context Protocol
-  - MCP
-  - Agent2Agent
-  - A2A
-  - AI Agent Protocols
   - AI Engineering Frameworks
-  - AI Engineering Tooling
-  - LangChain
-  - LangGraph
-  - LlamaIndex Framework
-  - Semantic Kernel
-  - CrewAI
-  - AutoGen
-  - DSPy
-  - Haystack
-  - OpenAI SDK
-  - Anthropic SDK
-  - Google GenAI SDK
-  - AI Framework Comparison
   - MLOps
-  - LLMOps
-  - AIOps
-  - Experiment Tracking
-  - Model Registry
-  - AI CI/CD
-  - Feature Stores
-  - Prompt Management
-  - Model Serving
-  - AI Monitoring
-  - AI Guardrails
-  - Continuous Training
-  - Continuous Fine-Tuning
-  - AI Governance
-  - Production AI Operations
-  - Cloud AI
   - Cloud AI Engineering
-  - AWS AI
-  - Azure AI
-  - Google Cloud AI
-  - AI Infrastructure
-  - GPU Computing
-  - Serverless AI
-  - Cloud-Native AI
-  - Enterprise AI Platforms
-  - Cloud AI Architecture
-  - Multi-Cloud AI
-  - Enterprise AI Design Patterns
-  - AI Architecture Patterns
-  - Scalable AI Systems
-  - Distributed AI Systems
-  - Event-Driven AI
-  - AI Security
-  - AI Reliability
-  - AI Observability
-  - AI Infrastructure Architecture
-  - Enterprise Design Patterns
-  - AI Interview Preparation
-  - AI System Design Interviews
-  - AI Architecture Interviews
-  - Production AI Best Practices
-  - Enterprise AI Security
-  - Enterprise AI Observability
-  - Scalable AI Architecture
-  - Cloud-Native Enterprise AI
-  - AI Microservices
-  - AI Platform Engineering
-  - Production-Grade AI Systems enterprise architecture.
-hide:
-  - toc  
+  - AI System Design
 ---
 
-# 📘 Enterprise AI Engineering Handbook
+# Enterprise AI Engineering Handbook
 
 <p align="center">
   <img src="assets/banners/handbook-banner.png"
        alt="Enterprise AI Engineering Handbook">
 </p>
 
-> **A production-focused handbook for Backend Engineers, Cloud Engineers, Software Architects, and AI Engineers who want to design, build, deploy, and operate Enterprise AI systems.**
+> **Learn the models. Engineer the systems. Build for production.**
+>
+> A practical handbook for software engineers and architects moving from AI concepts to reliable, scalable enterprise AI systems.
 
 ---
 
-# 👋 Welcome
+## Welcome
 
-Welcome to the **Enterprise AI Engineering Handbook**.
+There is no shortage of material explaining what an LLM is or how to send it a prompt. The harder questions begin when you need to turn that capability into a system people can depend on.
 
-This handbook is a comprehensive, production-oriented learning resource covering the complete Enterprise AI ecosystem—from Machine Learning fundamentals to Enterprise AI Agents, Agentic AI, MLOps, Cloud AI, and AI System Design.
+How should information be retrieved? Where do agents fit? How do you control access to tools and data? What needs to be monitored? How do you keep latency, reliability, and cost under control?
 
-Unlike traditional AI tutorials, this handbook focuses on **real-world engineering**, emphasizing scalable architectures, production best practices, enterprise security, observability, cloud-native deployments, and system design.
+This handbook explores those questions from an engineering perspective.
 
-Whether you're preparing for interviews, building production AI applications, or transitioning into AI Engineering, this handbook provides a structured roadmap.
+It starts with Machine Learning and Deep Learning, moves into Foundation Models and Generative AI, and then follows the path toward retrieval, agents, frameworks, operations, cloud infrastructure, and enterprise architecture. The aim is to connect the underlying concepts with the design decisions involved in building real systems.
 
----
+## Who will find it useful?
 
-# 🎯 Who Is This Handbook For?
+The handbook is written primarily for people who build or design software systems:
 
-This handbook is designed for:
+- Backend and full-stack engineers, including Java and Spring Boot developers
+- Cloud, DevOps, and platform engineers
+- Software and solution architects
+- AI and Machine Learning engineers
+- Technical leads and engineering managers
 
-- Backend Engineers
-- Java & Spring Boot Developers
-- Cloud Engineers
-- Software Architects
-- AI / ML Engineers
-- Full Stack Engineers
-- DevOps & Platform Engineers
-- Technical Leads
-- Engineering Managers
+You do not have to start at Part I. If you already understand the fundamentals, jump to the area that matches the problem you're working on and use the earlier parts as reference.
 
 ---
 
-# 📖 Table of Contents
+## Explore the handbook
+
+The twelve parts are grouped below by the kind of engineering problem they address.
+
+### 1. Understand the models
+
+Start with the foundations behind modern AI: how models learn, how neural networks work, and how today's language models are built.
+
+#### [Part I — Machine Learning](https://enterpriseai.handbook.mihirkjha.com/01-machine-learning/)
+
+The core concepts behind learning from data.
+
+*Topics:* supervised and unsupervised learning, regression, classification, clustering, feature engineering, dimensionality reduction, model evaluation, validation, and production ML.
+
+#### [Part II — Deep Learning](https://enterpriseai.handbook.mihirkjha.com/02-deep-learning/)
+
+How neural networks learn, and how deep learning architectures are trained and applied.
+
+*Topics:* neural networks, training and optimization, TensorFlow, Keras, PyTorch, computer vision, CNNs, sequence models, Transformers, generative models, reinforcement learning, and production systems.
+
+#### [Part III — Foundation Models, Large Language Models & Generative AI](https://enterpriseai.handbook.mihirkjha.com/03-generative-ai/)
+
+The evolution from language modeling and Transformers to modern Foundation Models and LLM engineering.
+
+*Topics:* embeddings, GPT and BERT, Hugging Face, data preparation, fine-tuning, SFT, PEFT, LoRA, QLoRA, quantization, generation, evaluation, and alignment.
+
+### 2. Build LLM-powered applications
+
+Move beyond the model itself. Learn how to guide its behavior and connect it to relevant, trustworthy information.
+
+#### [Part IV — Prompt Engineering & RAG Fundamentals](https://enterpriseai.handbook.mihirkjha.com/04-retrieval-augmented-generation/)
+
+Design prompts and build the foundations of Retrieval-Augmented Generation.
+
+*Topics:* prompt patterns, structured outputs, function and tool calling, embeddings, semantic search, document processing, chunking, vector databases, retrieval pipelines, RAG evaluation, and application deployment with Gradio and Flask.
+
+#### [Part V — Advanced Retrieval-Augmented Generation](https://enterpriseai.handbook.mihirkjha.com/05-advanced-retrieval-augmented-generation/)
+
+Explore the retrieval strategies and system design choices behind enterprise RAG.
+
+*Topics:* hybrid and multi-stage retrieval, query rewriting, reranking, LlamaIndex, vector indexes, Graph RAG, SQL RAG, multimodal and agentic retrieval, context engineering, evaluation, observability, optimization, testing, and production architecture.
+
+### 3. Design agents and orchestrate work
+
+Move from individual model interactions to agents that use tools, manage tasks, and work together.
+
+#### [Part VI — AI Agents](https://enterpriseai.handbook.mihirkjha.com/06-ai-agents/)
+
+The engineering foundations of an individual AI agent.
+
+*Topics:* agent architecture and runtime, planning, task decomposition, reasoning, memory, tool use, authorization, privacy, sandboxing, guardrails, resilience, deployment, evaluation, and observability.
+
+#### [Part VII — Agentic AI & Multi-Agent Systems](https://enterpriseai.handbook.mihirkjha.com/07-agentic-ai/)
+
+Patterns for coordinating agents and building workflows that handle more complex tasks.
+
+*Topics:* orchestration, supervisor and hierarchical patterns, collaboration and swarms, human-in-the-loop workflows, durable execution, evaluation, Agentic RAG, communication protocols, MCP and A2A architecture, and enterprise agent platforms.
+
+#### [Part VIII — AI Engineering Frameworks & Tooling](https://enterpriseai.handbook.mihirkjha.com/08-ai-engineering-frameworks/)
+
+Put the concepts into practice with the frameworks, SDKs, and protocols used to build AI applications.
+
+*Topics:* LangChain, LangGraph, MCP engineering, LlamaIndex, Semantic Kernel, CrewAI, AutoGen/AG2, BeeAI, DSPy, Haystack, OpenAI and Anthropic SDKs, Google GenAI SDK, and framework comparisons.
+
+### 4. Run and scale AI in the enterprise
+
+A working prototype is only the beginning. These parts focus on the operational, infrastructure, and architectural concerns that emerge at production scale.
+
+#### [Part IX — MLOps, LLMOps & AIOps](https://enterpriseai.handbook.mihirkjha.com/09-mlops/)
+
+**Status: Coming soon**
+
+The practices and platforms used to ship, operate, monitor, and govern AI systems.
+
+*Planned topics:* experiment tracking, model registries, CI/CD, feature stores, prompt management, model serving, evaluation, monitoring, guardrails, continuous training, and AI governance.
+
+#### [Part X — Cloud AI Engineering](https://enterpriseai.handbook.mihirkjha.com/10-cloud-ai-engineering/)
+
+Cloud platforms and infrastructure for modern AI workloads.
+
+*Topics:* AWS AI, Azure AI, Google Cloud AI, GPU computing, serverless AI, cloud-native infrastructure, enterprise AI platforms, and multi-cloud architecture.
+
+#### [Part XI — Enterprise AI Architecture & Design Patterns](https://enterpriseai.handbook.mihirkjha.com/11-enterprise-ai-architecture/)
+
+Bring models, data, applications, and infrastructure together into secure and resilient enterprise systems.
+
+**Status: Coming soon**
+
+*Planned topics:* AI architecture patterns, system design, distributed and event-driven systems, security, reliability, observability, infrastructure, and enterprise design patterns.
+
+#### [Part XII — Interview Preparation](https://enterpriseai.handbook.mihirkjha.com/12-interview-preparation/)
+
+Prepare to discuss, design, and explain AI systems with confidence.
+
+**Status: Coming soon**
+
+*Planned topics:* AI interview questions, system design, architecture discussions, coding exercises, and behavioral interviews.
 
 ---
 
-# [Part I — Machine Learning](https://enterpriseai.handbook.mihirkjha.com/01-machine-learning/)
+## Where should you start?
 
-Build a strong foundation in Machine Learning.
-
-Topics include:
-
-- Machine Learning Fundamentals
-- Regression
-- Classification
-- Supervised Learning
-- Unsupervised Learning
-- Clustering
-- Dimensionality Reduction
-- Feature Engineering
-- Model Evaluation & Validation
-- Regularization Techniques
-- Production Machine Learning
-
----
-
-# [Part II — Deep Learning](https://enterpriseai.handbook.mihirkjha.com/02-deep-learning/)
-
-
-Master Deep Learning fundamentals and learn how modern neural networks are trained, optimized, evaluated, and applied to production AI systems.
-
-Topics include:
-
-- Deep Learning & Neural Network Fundamentals
-- Mathematical Foundations, Activation & Loss Functions
-- Forward Propagation, Backpropagation & Optimization
-- Regularization, Generalization & Hyperparameter Tuning
-- TensorFlow & Keras
-- PyTorch & GPU-Accelerated Training
-- Computer Vision & CNNs
-- Transfer Learning, ResNet & Vision Transformers
-- RNNs, LSTMs & GRUs
-- Attention Mechanism & Positional Encoding
-- Transformer Architecture & Applications
-- Autoencoders & Representation Learning
-- GANs & Diffusion Models
-- Reinforcement Learning & Deep Q Networks
-- Production Deep Learning Systems
-
----
-
-# [Part III — Foundation Models, Large Language Models & Generative AI](https://enterpriseai.handbook.mihirkjha.com/03-generative-ai/)
-
-Understand modern Foundation Models, Large Language Models (LLMs), Generative AI, and the engineering workflows used to train, fine-tune, align, evaluate, and optimize them.
-
-Topics include:
-
-- Generative AI Fundamentals
-- Language Understanding Fundamentals
-- Word Embeddings & Language Modeling
-- GPT & BERT Architectures
-- Foundation Models & Large Language Models
-- Hugging Face Transformers Ecosystem
-- LLM Data Preparation
-- Hugging Face Training Workflows
-- Transformer Fine-Tuning
-- Supervised Fine-Tuning (SFT)
-- Parameter-Efficient Fine-Tuning (PEFT)
-- LoRA & QLoRA
-- Model Quantization
-- LLM Generation Strategies
-- LLM Evaluation
-- Instruction Tuning
-- Reward Modeling
-- LLMs as Policies
-- Reinforcement Learning from Human Feedback (RLHF)
-- Proximal Policy Optimization (PPO)
-- Direct Preference Optimization (DPO)
-- Hugging Face TRL
-- Production LLM Systems
-
----
-
-# [Part IV — Prompt Engineering & RAG Fundamentals](https://enterpriseai.handbook.mihirkjha.com/04-retrieval-augmented-generation/)
-
-Learn how to effectively interact with Large Language Models (LLMs), design reliable prompts, and build foundational Retrieval-Augmented Generation (RAG) applications for enterprise use cases.
-
-Topics include:
-
-- Prompt Engineering Fundamentals
-- Advanced Prompt Engineering & Prompt Design Patterns
-- Zero-shot, One-shot & Few-shot Prompting
-- Chain-of-Thought & ReAct
-- Structured Outputs & Output Parsing
-- Function Calling & Tool Calling
-- Embeddings & Semantic Search
-- Document Processing & Vectorization
-- Document Chunking Strategies
-- Vector Database Fundamentals
-- Similarity Search
-- RAG Pipeline Components
-- Retrieval & Generation Pipelines
-- Building Foundational RAG Applications
-- RAG Evaluation Fundamentals
-- Enterprise Generative AI Application Architecture
-- Deploying AI Applications with Gradio
-- Deploying AI Applications with Flask
-
----
-
-# [Part V — Advanced Retrieval-Augmented Generation](https://enterpriseai.handbook.mihirkjha.com/05-advanced-retrieval-augmented-generation/)
-
-Build enterprise-grade Retrieval-Augmented Generation (RAG) systems — from advanced retrieval strategies to production-ready, scalable, observable, secure, and resilient RAG architectures.
-
-Topics include:
-
-- Core Retrieval Engineering
-- VectorStore Retrieval
-- Multi-Query Retrieval
-- Self-Query Retrieval
-- Parent-Document Retrieval
-- Retriever Comparison
-- Contextual Compression
-- Ensemble Retrieval
-- Multi-Vector Retrieval
-- Time-Weighted Retrieval
-- Hybrid Search
-- HyDE Retrieval
-- Router Retrieval
-- Multi-Stage Retrieval
-- Agentic Retrieval
-- Re-ranking Techniques
-- MMR & Diversity-Aware Retrieval
-- Metadata-Aware Retrieval
-- Advanced Query Rewriting
-- LlamaIndex Retrieval Engineering
-- LlamaIndex Indexes
-- Vector Index Retrieval
-- BM25 Retrieval
-- Document Summary Retrieval
-- Recursive Retrieval
-- Query Fusion
-- Auto-Merging Retrieval
-- FAISS Fundamentals
-- FAISS Indexes
-- HNSW & Vector Index Selection
-- FAISS vs ChromaDB vs Milvus
-- Advanced RAG Architecture
-- Graph RAG
-- Knowledge Graphs for RAG
-- SQL RAG
-- Multimodal RAG
-- Agentic RAG
-- Prompt Assembly
-- Context Selection & Context Engineering
-- Response Validation
-- Citation & Source Attribution
-- Enterprise Response
-- RAG Evaluation & Benchmarking
-- RAG Observability
-- RAG Performance Optimization
-- RAG Cost Optimization
-- Production Retrieval Architecture
-- Building Production RAG Systems
-- RAG Deployment Patterns
-- RAG Caching Strategies
-- Multi-Tenant RAG
-- RAG Testing Frameworks
-- RAG Failure Patterns
-
----
-
-# [Part VI — AI Agents](https://enterpriseai.handbook.mihirkjha.com/06-ai-agents/)
-
-Learn how intelligent AI Agents are designed, built, secured, deployed, and operated as production-grade enterprise systems.
-
-Topics include:
-
-- Agent Fundamentals
-- AI Assistants vs AI Workflows vs AI Agents
-- Agent Architecture
-- Agent Runtime & Execution
-- Planning & Task Decomposition
-- Agent Reasoning
-- Agent Memory
-- Tool Calling
-- Function Calling
-- Reflection & Self-Correction
-- Agent Authorization
-- Secrets Management
-- Data Privacy
-- Agent Sandboxing
-- Agent Guardrails
-- Agent Risk Management
-- Agent Scaling & Resilience
-- Agent Deployment
-- Production Agent Deployment
-- Agent Evaluation
-- Agent Observability
-- Production AI Agent Engineering
-
----
-
-# [Part VII — Agentic AI & Multi-Agent Systems](https://enterpriseai.handbook.mihirkjha.com/07-agentic-ai/)
-
-Build enterprise-grade autonomous AI systems capable of planning, coordinating, collaborating, communicating, and executing complex tasks.
-
-Topics include:
-
-- Agentic AI Fundamentals
-- Multi-Agent Systems Architecture
-- Agentic Workflow Design Patterns
-- Multi-Agent Communication & Coordination
-- Agent Orchestration & Supervisor Patterns
-- Hierarchical Agents & Task Delegation
-- Collaborative Agents & Swarm Architectures
-- Human-in-the-Loop Agentic Workflows
-- Long-Running Agentic Workflows & Durable Execution
-- Agentic Workflow Evaluation & Reliability
-- Agentic RAG
-- Agent Communication & Integration Protocols
-- Model Context Protocol (MCP) — Architecture & Concepts
-- Enterprise Agent Platforms
-
-### Protocols
-
-- Model Context Protocol (MCP) 
-- Agent2Agent (A2A)
-- Future Agent Protocols
-
----
-
-# [Part VIII — AI Engineering Frameworks & Tooling](https://enterpriseai.handbook.mihirkjha.com/08-ai-engineering-frameworks/)
-
-Build enterprise AI applications using modern AI engineering frameworks, agent development platforms, integration protocols and SDKs.
-
-Planned topics include:
-
-- LangChain
-- LangGraph
-- MCP Engineering
-- LlamaIndex
-- Semantic Kernel
-- CrewAI
-- AutoGen / AG2
-- BeeAI
-- DSPy
-- Haystack
-- OpenAI SDK
-- Anthropic SDK
-- Google GenAI SDK
-- AI Framework & Platform Comparisons
-
----
-
-# [Part IX — MLOps, LLMOps & AIOps](https://enterpriseai.handbook.mihirkjha.com/09-mlops/)
-
-> 🚧 **Coming Soon**
-
-Deploy, operate, monitor, and govern AI systems in production.
-
-Planned topics include:
-
-- Experiment Tracking
-- Model Registry
-- CI/CD
-- Feature Stores
-- Prompt Management
-- Model Serving
-- LLM Evaluation
-- AI Monitoring
-- Guardrails
-- Continuous Training
-- Continuous Fine-Tuning
-- AI Governance
-
----
-
-# [Part X — Cloud AI Engineering](https://enterpriseai.handbook.mihirkjha.com/10-cloud-ai-engineering/)
-
-> 🚧 **Coming Soon**
-
-Build cloud-native AI applications.
-
-Planned topics include:
-
-- AWS AI
-- Azure AI
-- Google Cloud AI
-- AI Infrastructure
-- GPU Computing
-- Serverless AI
-- Enterprise AI Platforms
-- Cloud AI Architecture
-- Multi-Cloud AI
-
----
-
-# [Part XI — Enterprise AI Architecture & Design Patterns](https://enterpriseai.handbook.mihirkjha.com/11-enterprise-ai-architecture/)
-
-> 🚧 **Coming Soon**
-
-Design scalable, secure, and production-ready Enterprise AI systems.
-
-Planned topics include:
-
-- AI Architecture Patterns
-- AI System Design
-- Scalable AI Systems
-- Distributed AI
-- Event-Driven AI
-- AI Security
-- AI Reliability
-- AI Observability
-- AI Infrastructure
-- Enterprise Design Patterns
-
----
-
-# [Part XII — Interview Preparation](https://enterpriseai.handbook.mihirkjha.com/12-interview-preparation/)
-
-> 🚧 **Coming Soon**
-
-Prepare for Enterprise AI interviews.
-
-Planned topics include:
-
-- AI Interview Questions
-- AI System Design Interviews
-- Architecture Discussions
-- Coding Discussions
-- Behavioral Interviews
-
----
-
-# ⭐ What Makes This Handbook Different?
-
-Unlike most AI learning resources, this handbook focuses on **Production AI Engineering**.
-
-Every chapter includes:
-
-- Enterprise Architecture Diagrams
-- Production Workflows
-- Real-World Enterprise Use Cases
-- Multiple Code Examples
-- Framework Comparisons
-- Production Best Practices
-- Common Mistakes
-- Interview Questions
-- Quick Revision Notes
-- References
-- Further Reading
-
----
-
-## 🚀 Recommended Learning Path
+If you're new to AI engineering, the sequence below gives you a solid progression. If you're already an experienced software or cloud engineer, you can enter at the point most relevant to your work.
 
 ```mermaid
-%%{init: {
-  "flowchart": {
-    "nodeSpacing": 40,
-    "rankSpacing": 60,
-    "padding": 20
-  },
-  "themeVariables": {
-    "fontSize": "22px"
-  }
-}}%%
-
 flowchart TD
-
-ML["📘 <b>Part I</b><br/><br/>Machine Learning"]
-
-DL["🧠 <b>Part II</b><br/><br/>Deep Learning"]
-
-FM["🤖 <b>Part III</b><br/><br/>Foundation Models<br/>LLMs & Generative AI"]
-
-PR["💬 <b>Part IV</b><br/><br/>Prompt Engineering<br/>& RAG Fundamentals"]
-
-AR["🔍 <b>Part V</b><br/><br/>Advanced RAG"]
-
-AG["🤖 <b>Part VI</b><br/><br/>AI Agents"]
-
-AA["🧩 <b>Part VII</b><br/><br/>Agentic AI &<br/>Multi-Agent Systems"]
-
-FW["🛠️ <b>Part VIII</b><br/><br/>AI Engineering<br/>Frameworks & Tooling"]
-
-OPS["⚙️ <b>Part IX</b><br/><br/>MLOps<br/>LLMOps & AIOps"]
-
-CA["☁️ <b>Part X</b><br/><br/>Cloud AI Engineering"]
-
-EA["🏛️ <b>Part XI</b><br/><br/>Enterprise AI Architecture<br/>& Design Patterns"]
-
-INT["🎯 <b>Part XII</b><br/><br/>Interview Preparation"]
-
-ML --> DL
-DL --> FM
-FM --> PR
-PR --> AR
-AR --> AG
-AG --> AA
-AA --> FW
-FW --> OPS
-OPS --> CA
-CA --> EA
-EA --> INT
+    A["I. Machine Learning"] --> B["II. Deep Learning"]
+    B --> C["III. Foundation Models & LLMs"]
+    C --> D["IV. Prompt Engineering & RAG"]
+    D --> E["V. Advanced RAG"]
+    E --> F["VI. AI Agents"]
+    F --> G["VII. Agentic AI"]
+    G --> H["VIII. Frameworks & Tooling"]
+    H --> I["IX. MLOps & LLMOps"]
+    I --> J["X. Cloud AI"]
+    J --> K["XI. Enterprise Architecture"]
+    K --> L["XII. Interview Preparation"]
 ```
 
+This is a suggested route, not a prerequisite chain. For example, a backend engineer building a knowledge assistant may want to begin with Part IV, while an engineer exploring autonomous workflows may start with Parts VI and VII.
+
+## What you'll find in the chapters
+
+The handbook aims to go beyond definitions and isolated demos. Depending on the topic, chapters use:
+
+- Explanations of core concepts, architecture, and engineering trade-offs
+- Diagrams that make components and data flows easier to follow
+- Practical code examples and implementation workflows
+- Enterprise use cases and production considerations
+- Common failure patterns and engineering best practices
+- Review questions, references, and further reading
+
+The format is adapted to the subject rather than forcing every topic into the same template.
+
 ---
 
-# 🤝 Contributing
+## About the author
 
-Contributions, corrections, suggestions, and improvements are welcome.
-
-If you find an issue or would like to improve this handbook, please open an Issue or submit a Pull Request.
-
----
-
-# 👨‍💻 Author
-
-## Mihir Jha
+### Mihir Jha
 
 **Software Architect | Enterprise AI Engineer | Cloud-Native & Multi-Cloud Solutions**
 
-Passionate about designing intelligent, scalable, and resilient applications that combine **Cloud-Native Architecture**, **Generative AI**, and **Enterprise AI Engineering**.
+I'm interested in the engineering work that turns AI capabilities into dependable software: backend integration, cloud-native architecture, retrieval systems, LLM applications, and agent-based workflows.
 
-If you're interested in **Enterprise AI Engineering**, **Cloud Architecture**, **Large Language Models (LLMs)**, **Retrieval-Augmented Generation (RAG)**, **AI Agents**, **Agentic AI**, or **Production AI Systems**, feel free to explore this repository, share your feedback, or connect with me.
+This handbook is an ongoing effort to organise those ideas into a practical resource. If you spot an error, have a useful suggestion, or want to contribute, your feedback is welcome.
 
----
+## Connect
 
-## 🌐 Connect With Me
-
-- 🌍 **Documentation Website**  
-  [Enterprise AI Engineering Handbook](https://enterpriseai.handbook.mihirkjha.com/)
-  [Enterprise AI Engineering Blog](https://enterpriseai.blog.mihirkjha.com/)
-
-- 💻 **GitHub**  
-  [MihirKJha](https://github.com/MihirKJha)
-
-- 💼 **LinkedIn**  
-  [Mihir Jha](https://www.linkedin.com/in/mihirkrjha/)
-
-- 📰 **Newsletter – Enterprise AI Engineering**  
-  [Read on LinkedIn](https://www.linkedin.com/newsletters/enterprise-ai-engineering-7479222208079319041/)
+- **Handbook:** [Enterprise AI Engineering Handbook](https://enterpriseai.handbook.mihirkjha.com/)
+- **Blog:** [Enterprise AI Engineering Blog](https://enterpriseai.blog.mihirkjha.com/)
+- **Medium:** [Read my Medium stories](https://medium.com/@mihir.iiest)
+- **GitHub:** [MihirKJha](https://github.com/MihirKJha)
+- **LinkedIn:** [Mihir Jha](https://www.linkedin.com/in/mihirkrjha/)
+- **Newsletter:** [Enterprise AI Engineering](https://www.linkedin.com/newsletters/enterprise-ai-engineering-7479222208079319041/)
+- **Topmate:** [1:1 Consultations on Topmate](https://topmate.io/mihir_jha)
 
 ---
 
-## 📬 About the Newsletter
+If you find the handbook useful, consider giving the repository a ⭐ or sharing it with another engineer.
 
-**Enterprise AI Engineering** is a technical newsletter where I share practical, production-focused insights on:
-
-- Enterprise AI Engineering
-- Cloud Architecture
-- Backend Engineering
-- Large Language Models (LLMs)
-- Retrieval-Augmented Generation (RAG)
-- AI Agents & Agentic AI
-- MLOps & Cloud AI
-- Production-Ready AI Systems
-- AI System Design & Best Practices
+> **Enterprise AI Engineering Handbook**
+>
+> *Building Production-Grade Enterprise AI Systems — One Chapter at a Time.*
 
 ---
-
-⭐ **If you find this handbook useful, please consider giving it a ⭐ Star and sharing it with others.**
-
-
----
-
-> **Building Production-Grade Enterprise AI Systems, One Chapter at a Time.**
