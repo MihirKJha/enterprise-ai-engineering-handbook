@@ -1,4 +1,4 @@
-                                                            ---
+---                                                            ---
 description: A comprehensive guide to Agentic AI covering the evolution
   from LLM applications to agentic systems, compound AI systems, AI
   workflows, goal-oriented execution, autonomous decision-making,
@@ -1178,6 +1178,20 @@ The learning progression continues:
 The broader objective is to progress from understanding individual
 agentic systems to designing coordinated, reliable, and production-grade
 enterprise architectures.
+
+
+---
+
+## 🧭 Chapter Navigation
+
+⬅️ **Previous:** [AI Agents: Enterprise Architecture, Memory, Tools, Security, Observability, and Production Deployment](../06-ai-agents/index.md)
+
+📚 **Part:** [Agentic AI: Multi-Agent Systems Architecture, Orchestration, Collaboration](../index.md)
+
+➡️ **Next:** [02-Multi-Agent Systems Architecture](02-multi-agent-systems-architecture.md)
+
+---
+
 
 > **Enterprise AI Engineering Handbook**\
 > *Building Production-Grade Enterprise AI Systems --- One Chapter at a

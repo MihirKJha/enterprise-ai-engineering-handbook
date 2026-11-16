@@ -11,7 +11,7 @@ keywords:
   - A2A interoperability
 ---
 
-# 38. A2A Agent Cards, Discovery & Interoperability
+# 02. A2A Agent Cards, Discovery & Interoperability
 
 A production agent network needs more than agents and endpoints. It needs a reliable answer to three questions:
 
@@ -303,11 +303,11 @@ During migration, expose multiple interfaces only when each is implemented and t
 
 ## 🧭 Chapter Navigation
 
-⬅️ **Previous:** [37. A2A Protocol Engineering Fundamentals](37-a2a-protocol-engineering-fundamentals-optimised.md)
+⬅️ **Previous:** [01. A2A Protocol Engineering Fundamentals](01-a2a-protocol-engineering-fundamentals.md)
 
-📚 **Part:** [AI Engineering Frameworks & Tooling](index.md)
+📚 **Part:** [AI Engineering Frameworks & Tooling](../index.md)
 
-➡️ **Next:** [39. Building A2A Agents & Servers](39-building-a2a-agents-and-servers.md)
+➡️ **Next:** [03. Building A2A Agents & Servers](03-building-a2a-agents-and-clients.md)
 
 ---
 

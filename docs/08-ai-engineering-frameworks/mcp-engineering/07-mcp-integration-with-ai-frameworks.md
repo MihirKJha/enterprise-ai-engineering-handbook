@@ -14,7 +14,7 @@ keywords:
   - MCP developer tools
 ---
 
-# 33. MCP Integration with AI Frameworks
+# 07. MCP Integration with AI Frameworks
 
 Your agent can reason beautifully and still get stuck at the edge of your application. It needs a way to search documentation, inspect a service or call an internal capability. You could write a custom integration for every framework—or let MCP provide the common connection contract.
 
@@ -250,11 +250,11 @@ This is a useful feedback loop, not an automatic correctness guarantee. Document
 
 ## 🧭 Chapter Navigation
 
-⬅️ **Previous:** [32. MCP Integration with RAG Systems](32-mcp-integration-with-rag-systems.md)
+⬅️ **Previous:** [06. MCP Integration with RAG Systems](06-mcp-integration-with-rag-systems.md)
 
-📚 **Part:** [AI Engineering Frameworks & Tooling](index.md)
+📚 **Part:** [AI Engineering Frameworks & Tooling](../index.md)
 
-➡️ **Next:** [34. MCP Security & Production Engineering](34-mcp-security-production-engineering.md)
+➡️ **Next:** [08. MCP Security & Production Engineering](08-mcp-security-production-engineering.md)
 
 ---
 

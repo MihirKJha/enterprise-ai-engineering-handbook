@@ -11,7 +11,7 @@ keywords:
   - A2A HTTP server
 ---
 
-# 39. Building A2A Agents & Clients
+# 03. Building A2A Agents & Clients
 
 An agent is not part of an agent network just because it has a clever prompt. It needs a service boundary: something that receives a request, invokes its own logic and returns a response in a form another agent can understand.
 
@@ -320,11 +320,11 @@ Keep retry behaviour conservative. A timeout does not prove the remote agent fai
 
 ## 🧭 Chapter Navigation
 
-⬅️ **Previous:** [38. A2A Agent Cards, Discovery & Interoperability](38-a2a-agent-cards-discovery-interoperability-optimised.md)
+⬅️ **Previous:** [02. A2A Agent Cards, Discovery & Interoperability](02-a2a-agent-cards-discovery-interoperability.md)
 
-📚 **Part:** [AI Engineering Frameworks & Tooling](index.md)
+📚 **Part:** [AI Engineering Frameworks & Tooling](../index.md)
 
-➡️ **Next:** [40. A2A Messaging, Tasks & Streaming](40-a2a-messaging-tasks-and-streaming.md)
+➡️ **Next:** [04. A2A Messaging, Tasks & Streaming](04-a2a-messages-tasks-and-execution-lifecycle.md)
 
 ---
 

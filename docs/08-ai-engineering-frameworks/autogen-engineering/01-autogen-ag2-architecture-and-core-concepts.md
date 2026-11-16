@@ -13,7 +13,7 @@ keywords:
   - human-in-the-loop AI
 ---
 
-# 47. AutoGen / AG2 Architecture & Core Concepts
+# 01. AutoGen / AG2 Architecture & Core Concepts
 
 ## Introduction
 
@@ -239,11 +239,11 @@ This chapter established the vocabulary; the next step is to put it to work. **C
 
 ## 🧭 Chapter Navigation
 
-⬅️ **Previous:** [46. CrewAI Advanced Engineering](46-crewai-advanced-engineering.md)
+⬅️ **Previous:** [03. CrewAI Advanced Engineering](../crewai-engineering/03-crewai-advanced-engineering.md)
 
-📚 **Part:** [AI Engineering Frameworks & Tooling](index.md)
+📚 **Part:** [AI Engineering Frameworks & Tooling](../index.md)
 
-➡️ **Next:** [48. Building Conversational Multi-Agent Systems](48-building-conversational-multi-agent-systems-optimised-v2.md)
+➡️ **Next:** [02. Building Conversational Multi-Agent Systems](02-building-conversational-multi-agent-systems.md)
 
 
 ---

@@ -258,6 +258,18 @@ This chapter explored how agents exchange information and coordinate their work.
 - [LangGraph documentation](https://docs.langchain.com/oss/python/langgraph/overview)
 - [Pydantic documentation](https://docs.pydantic.dev/)
 
+---
+
+## 🧭 Chapter Navigation
+
+⬅️ **Previous:** [03—Agentic Workflow Design Patterns](03-agentic-workflow-design-patterns.md)
+
+📚 **Part:** [Agentic AI: Multi-Agent Systems Architecture, Orchestration, Collaboration](../index.md)
+
+➡️ **Next:** [05—Agent Orchestration & Supervisor Patterns](05-agent-orchestration-supervisor-patterns.md)
+
+---
+
 > **Enterprise AI Engineering Handbook**
 >
 > *Building Production-Grade Enterprise AI Systems — One Chapter at a Time.*

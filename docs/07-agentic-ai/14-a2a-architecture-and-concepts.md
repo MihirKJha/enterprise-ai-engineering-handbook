@@ -16,7 +16,7 @@ keywords:
 title: Agent2Agent (A2A) Protocol — Architecture & Concepts
 ---
 
-# Agent2Agent (A2A) Protocol: Architecture & Concepts
+# 14. Agent2Agent (A2A) Protocol: Architecture & Concepts
 
 ## 1. Why Do Independent Agents Need A2A?
 
@@ -271,6 +271,18 @@ For hands-on implementation, SDK usage, client and server development, and pract
 - [A2A Protocol — v1.0.0 Specification](https://a2a-protocol.org/v1.0.0/specification/)
 - [A2A Protocol — Official Documentation](https://a2a-protocol.org/v1.0.0/)
 - [A2A Protocol — GitHub Repository](https://github.com/a2aproject/A2A)
+
+---
+
+---
+
+## 🧭 Chapter Navigation
+
+⬅️ **Previous:** [13-Model Context Protocol (MCP) — Architecture & Concepts](13-mcp-architecture-and-concepts.md)
+
+📚 **Part:** [Agentic AI: Multi-Agent Systems Architecture, Orchestration, Collaboration](../index.md)
+
+➡️ **Next:** [15-Enterprise Agent Platforms: Architecture & Concepts](15-enterprise-agent-platforms.md)
 
 ---
 

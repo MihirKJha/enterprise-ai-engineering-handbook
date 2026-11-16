@@ -17,7 +17,7 @@ keywords:
   - multi-agent AI workflows
 ---
 
-# 44. CrewAI Architecture & Core Concepts
+# 01. CrewAI Architecture & Core Concepts
 
 > A team of agents is not automatically a smart team. Without clear ownership, useful tools, and a sensible workflow, it is just several LLM calls wearing different name badges.
 
@@ -379,11 +379,11 @@ CrewAI organises collaboration around defined roles, assignments, and a manager 
 
 ## 🧭 Chapter Navigation
 
-⬅️ **Previous:** [43. Enterprise A2A Architecture & Design Patterns](43-enterprise-a2a-architecture-and-design-patterns-optimised.md)
+⬅️ **Previous:** [07. Enterprise A2A Architecture & Design Patterns](../a2a-engineering/07-enterprise-a2a-architecture-and-design-patterns.md)
 
-📚 **Part:** [AI Engineering Frameworks & Tooling](index.md)
+📚 **Part:** [AI Engineering Frameworks & Tooling](../index.md)
 
-➡️ **Next:** [45. Building Multi-Agent Systems with CrewAI](45-building-multi-agent-systems-with-crewai.md)
+➡️ **Next:** [02. Building Multi-Agent Systems with CrewAI](02-building-multi-agent-systems-with-crewai.md)
 
 ---
 

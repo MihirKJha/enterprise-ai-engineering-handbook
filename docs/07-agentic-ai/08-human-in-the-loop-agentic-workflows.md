@@ -259,6 +259,19 @@ Chapter 09 — **Long-Running Agentic Workflows & Durable Execution** — explor
 - [LangGraph documentation](https://docs.langchain.com/oss/python/langgraph/overview)
 - [Pydantic documentation](https://docs.pydantic.dev/)
 
+
+---
+
+## 🧭 Chapter Navigation
+
+⬅️ **Previous:** [07—Collaborative Agents & Swarm Architectures](07-collaborative-agents-swarm-architectures.md)
+
+📚 **Part:** [Agentic AI: Multi-Agent Systems Architecture, Orchestration, Collaboration](../index.md)
+
+➡️ **Next:** [09—Long-Running Agentic Workflows & Durable Execution](09-long-running-agentic-workflows-durable-execution.md)
+
+---
+
 > **Enterprise AI Engineering Handbook**
 >
 > *Building Production-Grade Enterprise AI Systems — One Chapter at a Time.*

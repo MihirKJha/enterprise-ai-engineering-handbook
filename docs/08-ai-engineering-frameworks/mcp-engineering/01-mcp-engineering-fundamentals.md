@@ -12,7 +12,7 @@ keywords:
   - MCP development environment
 ---
 
-# 27. MCP Engineering Fundamentals
+# 01. MCP Engineering Fundamentals
 
 ## 1. Your first MCP integration should be small
 
@@ -264,11 +264,11 @@ When the connection behaves unexpectedly, MCP Inspector can help visualise messa
 
 ## 🧭 Chapter Navigation
 
-⬅️ **Previous:** [26. LangGraph Limitations and Trade-offs](26-langgraph-limitations-and-tradeoffs.md)
+⬅️ **Previous:** [10. LangGraph Limitations and Trade-offs](../langgraph/10-langgraph-limitations-and-tradeoffs.md)
 
-📚 **Part:** [AI Engineering Frameworks & Tooling](index.md)
+📚 **Part:** [AI Engineering Frameworks & Tooling](../index.md)
 
-➡️ **Next:** [28. Building MCP Servers](28-building-mcp-servers.md)
+➡️ **Next:** [02. Building MCP Servers](02-building-mcp-servers.md)
 
 ---
 

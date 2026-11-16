@@ -244,6 +244,17 @@ This chapter establishes the architectural foundations of the Model Context Prot
 
 For hands-on implementation, SDK usage, server and client development, and practical integration patterns, continue to **Part VIII — MCP Development & Implementation**.
 
+---
+
+## 🧭 Chapter Navigation
+
+⬅️ **Previous:** [12-Agent Communication & Integration Protocols](12-agent-communication-and-integration-protocols.md)
+
+📚 **Part:** [Agentic AI: Multi-Agent Systems Architecture, Orchestration, Collaboration](../index.md)
+
+➡️ **Next:** [14-Agent2Agent (A2A) Protocol: Architecture & Concepts](14-a2a-architecture-and-concepts.md)
+
+---
 
 **Enterprise AI Engineering Handbook**  
 *Building Production-Grade Enterprise AI Systems — One Chapter at a Time.*

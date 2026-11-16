@@ -14,7 +14,7 @@ keywords:
 title: LangGraph Fundamentals --- From State to Stateful Workflows
 ---
 
-# 17 - LangGraph Fundamentals
+# 01 - LangGraph Fundamentals
 
 A language model can write a response. An agentic application often
 needs to do considerably more: decide what to do, take an action,
@@ -347,11 +347,11 @@ none needs to be crammed into this introduction.
 
 ## 🧭 Chapter Navigation
 
-⬅️ **Previous:** [16. LlamaIndex Limitations and Trade-offs](16-llamaindex-limitations-and-tradeoffs.md)
+⬅️ **Previous:** [08. LlamaIndex Limitations and Trade-offs](../llamaindex/08-llamaindex-limitations-and-tradeoffs.md)
 
 📚 **Part VIII Index:** [AI Engineering Frameworks & Tooling](index.md)
 
-➡️ **Next:** [18. Graph Based Agent Architecture](18-graph-based-agent-architecture.md)
+➡️ **Next:** [02. Graph Based Agent Architecture](02-graph-based-agent-architecture.md)
 
 ---
 

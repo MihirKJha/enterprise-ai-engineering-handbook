@@ -237,11 +237,20 @@ Chapter 11 — **Agentic RAG** — brings retrieval and agent reasoning together
 **Enterprise engineering extensions:** business acceptance criteria, metric taxonomy and outcome classes, trace metadata/privacy, failure classification, bounded backoff, idempotency, SLOs, release gates, canary monitoring, and production-to-regression feedback. These are applied recommendations, not claims that the course implements a complete production evaluation platform.
 
 ## References
-
-- IBM course transcript: *Agentic AI with LangChain and LangGraph* — state, graph execution, testing, error handling, and LangSmith debugging.
-- IBM course transcript: *Agentic AI with LangGraph, CrewAI, AutoGen and BeeAI* — evaluator-optimizer, investment-advisor workflow, framework comparison, telemetry, and logging.
 - [LangSmith documentation](https://docs.smith.langchain.com/)
 - [LangGraph documentation](https://docs.langchain.com/oss/python/langgraph/overview)
+
+---
+
+## 🧭 Chapter Navigation
+
+⬅️ **Previous:** [09—Long-Running Agentic Workflows & Durable Execution](09-long-running-agentic-workflows-durable-execution.md)
+
+📚 **Part:** [Agentic AI: Multi-Agent Systems Architecture, Orchestration, Collaboration](../index.md)
+
+➡️ **Next:** [11-Agentic RAG](11-agentic-rag.md)
+
+---
 
 > **Enterprise AI Engineering Handbook**
 >

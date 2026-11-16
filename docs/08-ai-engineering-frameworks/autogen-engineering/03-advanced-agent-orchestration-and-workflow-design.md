@@ -12,7 +12,7 @@ keywords:
   - multi-agent workflow design
 ---
 
-# 49. Advanced Agent Orchestration & Workflow Design
+# 03. Advanced Agent Orchestration & Workflow Design
 
 ## Introduction
 
@@ -209,11 +209,11 @@ The workflow now knows how to choose its next agent and when to stop. The next e
 
 ## 🧭 Chapter Navigation
 
-⬅️ **Previous:** [48. Building Conversational Multi-Agent Systems](48-building-conversational-multi-agent-systems.md)
+⬅️ **Previous:** [02. Building Conversational Multi-Agent Systems](02-building-conversational-multi-agent-systems.md)
 
-📚 **Part:** [AI Engineering Frameworks & Tooling](index.md)
+📚 **Part:** [AI Engineering Frameworks & Tooling](../index.md)
 
-➡️ **Next:** [50. AG2 Tools, Structured Outputs & Production Engineering](50-ag2-tools-structured-outputs-and-production-engineering.md)
+➡️ **Next:** [04. AG2 Tools, Structured Outputs & Production Engineering](04-ag2-tools-structured-outputs-and-production-engineering.md)
 
 
 ---

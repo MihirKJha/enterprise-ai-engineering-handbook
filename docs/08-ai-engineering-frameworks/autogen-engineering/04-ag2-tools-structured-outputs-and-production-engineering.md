@@ -11,7 +11,7 @@ keywords:
   - secure multi-agent systems
 ---
 
-# 50. AG2 Tools, Structured Outputs & Production Engineering
+# 04. AG2 Tools, Structured Outputs & Production Engineering
 
 ## Introduction: when an agent can act, mistakes become operations
 
@@ -314,11 +314,11 @@ You have now covered the controls around AG2 tools, structured data, and product
 
 ## 🧭 Chapter Navigation
 
-⬅️ **Previous:** [49. Advanced Agent Orchestration & Workflow Design](49-advanced-agent-orchestration-and-workflow-design.md)
+⬅️ **Previous:** [03. Advanced Agent Orchestration & Workflow Design](03-advanced-agent-orchestration-and-workflow-design.md)
 
-📚 **Part:** [AI Engineering Frameworks & Tooling](index.md)
+📚 **Part:** [AI Engineering Frameworks & Tooling](../index.md)
 
-➡️ **Next:** [51. Building MCP Servers](51-building-mcp-servers.md)
+➡️ **Next:** [01. Building MCP Servers](../beeai-engineering/01-beeai-architecture-agent-development.md)
 
 ---
 

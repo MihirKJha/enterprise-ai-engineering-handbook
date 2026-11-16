@@ -14,7 +14,7 @@ keywords:
   - Kubernetes agent deployment
 ---
 
-# 43. Enterprise A2A Architecture & Design Patterns
+# 07. Enterprise A2A Architecture & Design Patterns
 
 Imagine a customer asks: **“Why is my supplier invoice on hold, and when will it be paid?”**
 
@@ -238,11 +238,11 @@ A2A gives independently operated agents a way to collaborate. The next question 
 
 ## 🧭 Chapter Navigation
 
-⬅️ **Previous:** [42. A2A Security, Testing & Production Operations](42-a2a-security-testing-production-operations-optimised.md)
+⬅️ **Previous:** [06. A2A Security, Testing & Production Operations](06-a2a-security-testing-production-operations.md)
 
-📚 **Part:** [AI Engineering Frameworks & Tooling](index.md)
+📚 **Part:** [AI Engineering Frameworks & Tooling](../index.md)
 
-➡️ **Next:** [44. CrewAI Architecture & Core Concepts](44-crewai-architecture-and-core-concepts.md)
+➡️ **Next:** [01. CrewAI Architecture & Core Concepts](../crewai-engineering/01-crewai-architecture-and-core-concepts.md)
 
 
 ---

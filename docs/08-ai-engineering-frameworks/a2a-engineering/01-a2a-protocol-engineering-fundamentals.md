@@ -13,7 +13,7 @@ keywords:
 title: A2A Protocol Engineering Fundamentals
 ---
 
-# 37. A2A Protocol Engineering Fundamentals
+# 01. A2A Protocol Engineering Fundamentals
 
 Imagine asking an AI assistant to investigate a disputed invoice. It
 finds that the answer requires finance expertise, so it contacts a
@@ -395,13 +395,13 @@ A2A provides the communication contract. It does not grant access, validate conc
 
 ## 🧭 Chapter Navigation
 
-⬅️ **Previous:** [36. Enterprise MCP Architecture & Design
-Patterns](36-enterprise-mcp-architecture-design-patterns-optimised.md)
+⬅️ **Previous:** [10. Enterprise MCP Architecture & Design
+Patterns](10-enterprise-mcp-architecture-design-patterns.md)
 
-📚 **Part:** [AI Engineering Frameworks & Tooling](index.md)
+📚 **Part:** [AI Engineering Frameworks & Tooling](../index.md)
 
-➡️ **Next:** [38. A2A Agent Cards, Discovery &
-Interoperability](38-a2a-agent-cards-discovery-interoperability.md)
+➡️ **Next:** [02. A2A Agent Cards, Discovery &
+Interoperability](02-a2a-agent-cards-discovery-interoperability.md)
 
 ---
 

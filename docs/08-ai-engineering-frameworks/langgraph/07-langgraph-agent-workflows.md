@@ -16,7 +16,7 @@ keywords:
   - Bounded Agent Workflows
 ---
 
-# 23 — LangGraph Agent Workflows
+# 07 — LangGraph Agent Workflows
 
 > A model can suggest the next step. Your workflow decides whether that step is valid, where it runs, and when the job is finished.
 
@@ -316,11 +316,11 @@ The roadmap places workflow-pattern architecture in Part VII and framework imple
 
 ## Chapter navigation
 
-⬅️ **Previous:** [22. LangGraph Tool Execution](22-langgraph-tool-execution.md)
+⬅️ **Previous:** [0. LangGraph Tool Execution](06-langgraph-tool-execution.md)
 
-📚 **Part VIII Index:** [AI Engineering Frameworks & Tooling](index.md)
+📚 **Part VIII Index:** [AI Engineering Frameworks & Tooling](../index.md)
 
-➡️ **Next:** [24. LangGraph Memory And Persistence](24-langgraph-memory-and-persistence.md)
+➡️ **Next:** [08. LangGraph Memory And Persistence](08-langgraph-memory-and-persistence.md)
 
 ---
 

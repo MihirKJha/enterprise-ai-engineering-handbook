@@ -9,7 +9,7 @@ keywords:
   - Enterprise AI Workflow Design
 ---
 
-# 20 — LangGraph Nodes, Edges and Routing
+# 04 — LangGraph Nodes, Edges and Routing
 
 ## From a sequence of functions to a controlled workflow
 
@@ -301,11 +301,11 @@ This chapter focuses on LangGraph's building blocks and control flow. Orchestrat
 
 ## 🧭 Chapter Navigation
 
-⬅️ **Previous:** [19. LangGraph State and Checkpointing](19-langgraph-state-and-checkpointing.md)
+⬅️ **Previous:** [03. LangGraph State and Checkpointing](03-langgraph-state-and-checkpointing.md)
 
-📚 **Part VIII Index:** [AI Engineering Frameworks & Tooling](index.md)
+📚 **Part VIII Index:** [AI Engineering Frameworks & Tooling](../index.md)
 
-➡️ **Next:** [21. LangGraph Human In The Loop](21-langgraph-human-in-the-loop.md)
+➡️ **Next:** [05. LangGraph Human In The Loop](05-langgraph-human-in-the-loop.md)
 
 ---
 

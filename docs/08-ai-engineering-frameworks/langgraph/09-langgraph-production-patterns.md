@@ -14,7 +14,7 @@ keywords:
   - Enterprise Agent Reliability
 ---
 
-# 25 — LangGraph Production Patterns
+# 09 — LangGraph Production Patterns
 
 > The demo worked perfectly. Then Monday morning arrived: traffic tripled, the payment provider slowed down, and support asked why one customer had received two refund notifications.
 >
@@ -261,11 +261,11 @@ Production LangGraph engineering is not about making the graph bigger. It is abo
 
 ## 🧭 Chapter Navigation
 
-⬅️ **Previous:** [24. LangGraph Memory and Persistence](24-langgraph-memory-and-persistence.md)
+⬅️ **Previous:** [08. LangGraph Memory and Persistence](08-langgraph-memory-and-persistence.md)
 
-📚 **Part VIII Index:** [AI Engineering Frameworks & Tooling](index.md)
+📚 **Part VIII Index:** [AI Engineering Frameworks & Tooling](../index.md)
 
-➡️ **Next:** [26. LangGraph Limitations and Trade-offs](26-langgraph-limitations-and-tradeoffs.md)
+➡️ **Next:** [10. LangGraph Limitations and Trade-offs](10-langgraph-limitations-and-tradeoffs.md)
 
 ---
 

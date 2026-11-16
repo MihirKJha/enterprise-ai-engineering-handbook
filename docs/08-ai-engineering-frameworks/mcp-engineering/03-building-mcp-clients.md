@@ -14,7 +14,7 @@ keywords:
   - MCP client integration
 ---
 
-# 29. Building MCP Clients
+# 03. Building MCP Clients
 
 An MCP server can expose useful capabilities, but those capabilities are only valuable when an application can connect to them and use them safely. That is the client's job.
 
@@ -290,11 +290,11 @@ A good MCP client is predictable: it connects, discovers capabilities, invokes t
 
 ## 🧭 Chapter Navigation
 
-⬅️ **Previous:** [28. Building MCP Servers](28-building-mcp-servers.md)
+⬅️ **Previous:** [02. Building MCP Servers](02-building-mcp-servers.md)
 
-📚 **Part:** [AI Engineering Frameworks & Tooling](index.md)
+📚 **Part:** [AI Engineering Frameworks & Tooling](../index.md)
 
-➡️ **Next:** [30. MCP Multi-Server Integration](30-mcp-multi-server-integration.md)
+➡️ **Next:** [04. MCP Multi-Server Integration](04-mcp-multi-server-integration.md)
 
 ---
 

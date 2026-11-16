@@ -12,7 +12,7 @@ keywords:
   - Agentic AI Governance
 ---
 
-# 21 — LangGraph Human-in-the-Loop
+# 05 — LangGraph Human-in-the-Loop
 
 > **A good agent knows when to stop, show its work and ask a person.**
 
@@ -285,11 +285,11 @@ Extend the refund workflow to support approval, rejection and modification. Add 
 
 ## 🧭 Chapter Navigation
 
-⬅️ **Previous:** [20. LangGraph Nodes, Edges and Routing](20-langgraph-nodes-edges-and-routing.md)
+⬅️ **Previous:** [04. LangGraph Nodes, Edges and Routing](04-langgraph-nodes-edges-and-routing.md)
 
-📚 **Part VIII Index:** [AI Engineering Frameworks & Tooling](index.md)
+📚 **Part VIII Index:** [AI Engineering Frameworks & Tooling](../index.md)
 
-➡️ **Next:** [22. LangGraph Tool Execution](22-langgraph-tool-execution.md)
+➡️ **Next:** [06. LangGraph Tool Execution](06-langgraph-tool-execution.md)
 
 ---
 

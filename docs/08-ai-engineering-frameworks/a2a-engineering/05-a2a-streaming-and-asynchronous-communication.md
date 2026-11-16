@@ -12,7 +12,7 @@ keywords:
   - A2A reconnection and retries
 ---
 
-# 41. A2A Streaming & Asynchronous Communication
+# 05. A2A Streaming & Asynchronous Communication
 
 Your invoice agent has been reconciling a payment for two minutes. The browser tab is gone. The API gateway has closed the connection. But the agent is still waiting for the ERP system.
 
@@ -295,11 +295,11 @@ Do not infer event order from arrival time alone. Use task state, protocol times
 
 ## 🧭 Chapter Navigation
 
-⬅️ **Previous:** [40. A2A Messages, Tasks & Execution Lifecycle](40-a2a-messages-tasks-and-execution-lifecycle-optimised.md)
+⬅️ **Previous:** [04. A2A Messages, Tasks & Execution Lifecycle](04-a2a-messages-tasks-and-execution-lifecycle.md)
 
-📚 **Part:** [AI Engineering Frameworks & Tooling](index.md)
+📚 **Part:** [AI Engineering Frameworks & Tooling](../index.md)
 
-➡️ **Next:** [42. A2A Security & Production Operations](42-a2a-security-and-production-operations.md)
+➡️ **Next:** [06. A2A Security & Production Operations](06-a2a-security-testing-production-operations.md)
 
 ---
 

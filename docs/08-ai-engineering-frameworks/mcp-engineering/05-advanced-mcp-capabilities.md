@@ -14,7 +14,7 @@ keywords:
   - MCP stateless protocol
 ---
 
-# 31. Advanced MCP Capabilities
+# 05. Advanced MCP Capabilities
 
 A tool call sounds simple: the client sends a request, the server does the work and returns a result. But what if the server reaches step three and discovers it needs the user's approval? Or a deployment region? Or a little help from a language model?
 
@@ -270,9 +270,9 @@ The key design principle is simple: **the server may ask, but the client remains
 
 ⬅️ **Previous:** [30. MCP Multi-Server Integration](30-mcp-multi-server-integration.md)
 
-📚 **Part:** [AI Engineering Frameworks & Tooling](index.md)
+📚 **Part:** [AI Engineering Frameworks & Tooling](../index.md)
 
-➡️ **Next:** [32. MCP Integration with RAG Systems](32-mcp-integration-with-rag-systems.md)
+➡️ **Next:** [06. MCP Integration with RAG Systems](06-mcp-integration-with-rag-systems.md)
 
 ---
 

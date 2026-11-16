@@ -14,7 +14,7 @@ keywords:
   - MCP failure handling
 ---
 
-# 30. MCP Multi-Server Integration
+# 04. MCP Multi-Server Integration
 
 One server gives an assistant access to a filesystem. Another searches engineering documentation. A third talks to a business API. The interesting part is not connecting each one in isolation; it is making them feel like one coherent capability layer without losing track of which server owns what.
 
@@ -262,11 +262,11 @@ Record the server ID, host alias, operation, duration, outcome and correlation I
 
 ## 🧭 Chapter Navigation
 
-⬅️ **Previous:** [29. Building MCP Clients](29-building-mcp-clients.md)
+⬅️ **Previous:** [04. Building MCP Clients](03-building-mcp-clients.md)
 
-📚 **Part:** [AI Engineering Frameworks & Tooling](index.md)
+📚 **Part:** [AI Engineering Frameworks & Tooling](../index.md)
 
-➡️ **Next:** [31. Advanced MCP Capabilities](31-advanced-mcp-capabilities.md)
+➡️ **Next:** [05. Advanced MCP Capabilities](05-advanced-mcp-capabilities.md)
 
 ---
 

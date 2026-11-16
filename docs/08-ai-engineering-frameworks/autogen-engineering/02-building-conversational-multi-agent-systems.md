@@ -11,7 +11,7 @@ keywords:
   - human-in-the-loop AI agents
 ---
 
-# 48. Building Conversational Multi-Agent Systems
+# 02. Building Conversational Multi-Agent Systems
 
 ## Introduction
 
@@ -19,7 +19,7 @@ Imagine a production incident at 2 a.m. One engineer classifies the alert, anoth
 
 Multi-agent systems apply the same idea to AI. The trick is not to create the biggest team. It is to give each agent a useful responsibility, make handoffs understandable, and know when the conversation must stop. Otherwise, you have simply created a very expensive meeting.
 
-Chapter 47 introduced AG2's conversational building blocks. This chapter puts those pieces to work in practical collaboration workflows.
+Last chapter introduced AG2's conversational building blocks. This chapter puts those pieces to work in practical collaboration workflows.
 
 > **API scope:** Examples use the AG2 Classic conversational API and its `autogen` import namespace (`GroupChat`, `GroupChatManager`, and `LocalCommandLineCodeExecutor`). The newer pattern-oriented API is a separate orchestration model covered in Chapter 49. Check imports and constructor arguments against the exact Classic release installed in your environment.
 
@@ -268,11 +268,11 @@ We have built the conversational collaboration layer: specialists can share a di
 
 ## 🧭 Chapter Navigation
 
-⬅️ **Previous:** [47. AutoGen / AG2 Architecture & Core Concepts](47-autogen-ag2-architecture-and-core-concepts.md)
+⬅️ **Previous:** [01. AutoGen / AG2 Architecture & Core Concepts](01-autogen-ag2-architecture-and-core-concepts.md)
 
-📚 **Part:** [AI Engineering Frameworks & Tooling](index.md)
+📚 **Part:** [AI Engineering Frameworks & Tooling](../index.md)
 
-➡️ **Next:** [49. Advanced Agent Orchestration & Workflow Design](49-advanced-agent-orchestration-and-workflow-design.md)
+➡️ **Next:** [03. Advanced Agent Orchestration & Workflow Design](03-advanced-agent-orchestration-and-workflow-design.md)
 
 
 ---

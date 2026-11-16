@@ -15,7 +15,7 @@ keywords:
   - CrewAI agent-centric vs task-centric tools
 ---
 
-# 46. CrewAI Advanced Engineering
+# 03. CrewAI Advanced Engineering
 
 > Your agents have produced a meal plan, shopping list, and budget estimate. Your application needs validated quantities, prices, and totals—not three paragraphs and a hopeful regex.
 
@@ -328,12 +328,11 @@ We've taken the Meal & Grocery Planner from a coordinated multi-agent workflow t
 
 ## 🧭 Chapter Navigation
 
-⬅️ **Previous:** [45. Building Multi-Agent Systems with CrewAI](45-building-multi-agent-systems-with-crewai-optimised.md)
+⬅️ **Previous:** [02. Building Multi-Agent Systems with CrewAI](02-building-multi-agent-systems-with-crewai.md)
 
-📚 **Part:** [AI Engineering Frameworks & Tooling](index.md)
+📚 **Part:** [AI Engineering Frameworks & Tooling](../index.md)
 
-➡️ **Next:** [47. AutoGen / AG2 Architecture & Core Concepts](47-autogen-ag2-architecture-and-core-concepts.md)
-
+➡️ **Next:** [01. BeeAI Architecture & Agent Development](../beeai-engineering/01-beeai-architecture-agent-development.md)
 
 ---
 

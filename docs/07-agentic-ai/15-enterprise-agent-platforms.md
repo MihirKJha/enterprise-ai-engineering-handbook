@@ -20,7 +20,7 @@ title: Enterprise Agent Platforms — Architecture & Concepts
 ---
 
 
-# Chapter 15 — Enterprise Agent Platforms: Architecture & Concepts
+# 15. Enterprise Agent Platforms: Architecture & Concepts
 
 ## 1. From an Agent Demo to an Enterprise Platform
 
@@ -316,6 +316,16 @@ Evaluate a representative workload, not just a demo. Test tool failures, unavail
 ## Further Reading
 
 This chapter explains the platform capabilities required to build and operate enterprise agents. For the communication protocols used across these architectures, see **13 — Model Context Protocol (MCP)** and **14 — Agent2Agent (A2A) Protocol**. For hands-on implementation and platform-specific development, continue to **Part VIII — MCP & Agent Protocol Development**.
+
+---
+
+## 🧭 Chapter Navigation
+
+⬅️ **Previous:** [14-Agent2Agent (A2A) Protocol: Architecture & Concepts](14-a2a-architecture-and-concepts.md)
+
+📚 **Part:** [Agentic AI: Multi-Agent Systems Architecture, Orchestration, Collaboration](../index.md)
+
+➡️ **Next:** [AI Engineering Frameworks & Tooling](../08-ai-engineering-frameworks/index.md)
 
 ---
 

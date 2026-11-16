@@ -276,6 +276,19 @@ Chapter 06 — **Hierarchical Agents & Task Delegation** — extends orchestrati
 
 - [LangGraph documentation](https://docs.langchain.com/oss/python/langgraph/overview)
 
+
+---
+
+## 🧭 Chapter Navigation
+
+⬅️ **Previous:** [04—Multi-Agent Communication & Coordination](04-multi-agent-communication-coordination.md)
+
+📚 **Part:** [Agentic AI: Multi-Agent Systems Architecture, Orchestration, Collaboration](../index.md)
+
+➡️ **Next:** [06—Hierarchical Agents & Task Delegation](06-hierarchical-agents-task-delegation.md)
+
+---
+
 > **Enterprise AI Engineering Handbook**
 >
 > *Building Production-Grade Enterprise AI Systems — One Chapter at a Time.*

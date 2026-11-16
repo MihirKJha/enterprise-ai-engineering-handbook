@@ -16,7 +16,7 @@ keywords:
   - Stateful AI Applications
 ---
 
-# 24 — LangGraph Memory and Persistence
+# 08 — LangGraph Memory and Persistence
 
 > A useful agent should remember the conversation it is having, retain only the facts worth keeping, and know which information belongs to which customer.
 
@@ -322,11 +322,11 @@ A reliable LangGraph application does not try to remember everything. It keeps t
 
 ## 🧭 Chapter Navigation
 
-⬅️ **Previous:** [23. LangGraph Agent Workflows](23-langgraph-agent-workflows.md)
+⬅️ **Previous:** [07. LangGraph Agent Workflows](07-langgraph-agent-workflows.md)
 
-📚 **Part VIII Index:** [AI Engineering Frameworks & Tooling](index.md)
+📚 **Part VIII Index:** [AI Engineering Frameworks & Tooling](../index.md)
 
-➡️ **Next:** [25. LangGraph Production Patterns ](25-langgraph-production-patterns.md)
+➡️ **Next:** [09. LangGraph Production Patterns ](09-langgraph-production-patterns.md)
 
 ---
 

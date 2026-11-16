@@ -278,6 +278,19 @@ Chapter 08 — **Human-in-the-Loop Agentic Workflows** — explores where human 
 - [AutoGen / AG2 documentation](https://docs.ag2.ai/)
 - [Pydantic documentation](https://docs.pydantic.dev/)
 
+
+---
+
+## 🧭 Chapter Navigation
+
+⬅️ **Previous:** [06—Hierarchical Agents & Task Delegation](06-hierarchical-agents-task-delegation.md)
+
+📚 **Part:** [Agentic AI: Multi-Agent Systems Architecture, Orchestration, Collaboration](../index.md)
+
+➡️ **Next:** [08—Human-in-the-Loop Agentic Workflows](08-human-in-the-loop-agentic-workflows.md)
+
+---
+
 > **Enterprise AI Engineering Handbook**
 >
 > *Building Production-Grade Enterprise AI Systems — One Chapter at a Time.*

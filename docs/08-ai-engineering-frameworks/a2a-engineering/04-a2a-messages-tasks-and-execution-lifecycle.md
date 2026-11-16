@@ -12,7 +12,7 @@ keywords:
   - A2A task cancellation
 ---
 
-# 40. A2A Messages, Tasks & Execution Lifecycle
+# 04. A2A Messages, Tasks & Execution Lifecycle
 
 A remote agent receives: “Review this invoice, explain the discrepancy, and attach a reconciliation report.”
 
@@ -321,11 +321,11 @@ A timeout is not an A2A Task state. It describes what the caller knows: the resp
 
 ## 🧭 Chapter Navigation
 
-⬅️ **Previous:** [39. Building A2A Agents & Clients](39-building-a2a-agents-and-clients-optimised.md)
+⬅️ **Previous:** [03. Building A2A Agents & Clients](03-building-a2a-agents-and-clients.md)
 
-📚 **Part:** [AI Engineering Frameworks & Tooling](index.md)
+📚 **Part:** [AI Engineering Frameworks & Tooling](../index.md)
 
-➡️ **Next:** [41. A2A Streaming & Asynchronous Communication](41-a2a-streaming-and-asynchronous-communication.md)
+➡️ **Next:** [05. A2A Streaming & Asynchronous Communication](05-a2a-streaming-and-asynchronous-communication.md)
 
 ---
 

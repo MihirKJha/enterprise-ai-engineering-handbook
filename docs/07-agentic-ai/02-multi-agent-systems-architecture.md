@@ -346,13 +346,21 @@ evaluator-optimizer patterns structure the execution of agentic tasks.
 
 ## References
 
--   IBM course transcript: *Agentic AI with LangChain and LangGraph*.
--   IBM course transcript: *Agentic AI with LangGraph, CrewAI, AutoGen,
-    and BeeAI*.
 -   [LangGraph
     documentation](https://docs.langchain.com/oss/python/langgraph/overview)
 -   [Pydantic documentation](https://docs.pydantic.dev/)
 
+---
+
+## 🧭 Chapter Navigation
+
+⬅️ **Previous:** [01. Agentic AI Fundamentals](01-agentic-ai-fundamentals.md)
+
+📚 **Part:** [Agentic AI: Multi-Agent Systems Architecture, Orchestration, Collaboration](../index.md)
+
+➡️ **Next:** [03—Agentic Workflow Design Patterns](03-agentic-workflow-design-patterns.md)
+
+---
 
 > **Enterprise AI Engineering Handbook**\
 > *Building Production-Grade Enterprise AI Systems --- One Chapter at a

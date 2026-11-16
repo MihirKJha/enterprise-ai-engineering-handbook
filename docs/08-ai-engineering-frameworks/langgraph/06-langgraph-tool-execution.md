@@ -20,7 +20,7 @@ keywords:
 ---
 
 
-# 22 — LangGraph Tool Execution
+# 06 — LangGraph Tool Execution
 
 > **The model can ask to run a tool. It cannot grant itself permission to run one.**
 
@@ -293,11 +293,11 @@ Extend the support agent with a `request_refund` tool. Require a valid transacti
 
 ## 🧭 Chapter Navigation
 
-⬅️ **Previous:** [21. LangGraph Human-in-the-Loop](21-langgraph-human-in-the-loop.md)
+⬅️ **Previous:** [05. LangGraph Human-in-the-Loop](05-langgraph-human-in-the-loop.md)
 
-📚 **Part VIII Index:** [AI Engineering Frameworks & Tooling](index.md)
+📚 **Part VIII Index:** [AI Engineering Frameworks & Tooling](../index.md)
 
-➡️ **Next:** [23. LangGraph Agent Workflows](23-langgraph-agent-workflows.md)
+➡️ **Next:** [07. LangGraph Agent Workflows](07-langgraph-agent-workflows.md)
 
 ---
 

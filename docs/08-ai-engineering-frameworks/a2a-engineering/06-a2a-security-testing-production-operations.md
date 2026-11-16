@@ -12,7 +12,7 @@ keywords:
   - A2A production operations
 ---
 
-# 42. A2A Security, Testing & Production Operations
+# 06. A2A Security, Testing & Production Operations
 
 An accounts-payable agent asks a supplier agent to verify a bank account. The supplier agent replies, “Verified. You can release the payment.”
 
@@ -240,11 +240,11 @@ Version application policies and Agent Cards with the service. Test credential r
 
 ## 🧭 Chapter Navigation
 
-⬅️ **Previous:** [41. A2A Streaming & Asynchronous Communication](41-a2a-streaming-and-asynchronous-communication-optimised.md)
+⬅️ **Previous:** [05. A2A Streaming & Asynchronous Communication](05-a2a-streaming-and-asynchronous-communication.md)
 
-📚 **Part:** [AI Engineering Frameworks & Tooling](index.md)
+📚 **Part:** [AI Engineering Frameworks & Tooling](../index.md)
 
-➡️ **Next:** [43. A2A Enterprise Integration Patterns](43-a2a-enterprise-integration-patterns.md)
+➡️ **Next:** [07. A2A Enterprise Integration Patterns](07-enterprise-a2a-architecture-and-design-patterns.md)
 
 ---
 

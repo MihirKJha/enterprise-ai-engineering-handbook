@@ -14,7 +14,7 @@ keywords:
   - enterprise MCP security
 ---
 
-# 34. MCP Security & Production Engineering
+# 08. MCP Security & Production Engineering
 
 An AI support agent receives a simple request: *“Refund order 4821.”* It discovers an MCP tool named `issue_refund`, supplies an order ID and an amount, and gets a successful response.
 
@@ -204,11 +204,11 @@ Record auditable decisions: authenticated principal, server/tool identity, targe
 
 ## 🧭 Chapter Navigation
 
-⬅️ **Previous:** [33. MCP Integration with AI Frameworks](33-mcp-integration-with-ai-frameworks.md)
+⬅️ **Previous:** [07. MCP Integration with AI Frameworks](07-mcp-integration-with-ai-frameworks.md)
 
-📚 **Part:** [AI Engineering Frameworks & Tooling](index.md)
+📚 **Part:** [AI Engineering Frameworks & Tooling](../index.md)
 
-➡️ **Next:** [35. MCP Testing, Debugging & Observability](35-mcp-testing-debugging-observability.md)
+➡️ **Next:** [09. MCP Testing, Debugging & Observability](09-mcp-testing-debugging-observability.md)
 
 ---
 

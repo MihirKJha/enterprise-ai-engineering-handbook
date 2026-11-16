@@ -13,7 +13,7 @@ keywords:
   - enterprise AI deployment
 ---
 
-# 53. BeeAI Production Engineering, Runtime & Deployment
+# 03. BeeAI Production Engineering, Runtime & Deployment
 
 > **Operating, optimising, deploying and maintaining BeeAI-based enterprise agents**
 
@@ -289,11 +289,11 @@ With BeeAI's operational lifecycle covered, the next chapter steps back from imp
 
 ## 🧭 Chapter Navigation
 
-⬅️ **Previous:** [52. BeeAI Agent Control, Tools & Multi-Agent Integration](52-beeai-agent-control-tools-multi-agent-integration.md)
+⬅️ **Previous:** [52. BeeAI Agent Control, Tools & Multi-Agent Integration](02-beeai-agent-control-tools-multi-agent-integration.md)
 
-📚 **Part:** [AI Engineering Frameworks & Tooling](index.md)
+📚 **Part:** [AI Engineering Frameworks & Tooling](../index.md)
 
-➡️ **Next:** [54. Enterprise AI Framework Comparison](54-enterprise-ai-framework-comparison.md)
+➡️ **Next:** [Enterprise AI Framework Comparison](../01-enterprise-ai-framework-comparison.md)
 
 ---
 

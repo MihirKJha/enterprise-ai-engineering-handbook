@@ -347,6 +347,16 @@ exchange messages, capabilities, and task context.
 
 ---
 
+## 🧭 Chapter Navigation
+
+⬅️ **Previous:** [10-Agentic Workflow Evaluation & Reliability](10-agentic-workflow-evaluation-and-reliability.md)
+
+📚 **Part:** [Agentic AI: Multi-Agent Systems Architecture, Orchestration, Collaboration](../index.md)
+
+➡️ **Next:** [12-Agent Communication & Integration Protocols](12-agent-communication-and-integration-protocols.md)
+
+---
+
 
 **Enterprise AI Engineering Handbook**  
 *Building Production-Grade Enterprise AI Systems — One Chapter at a Time.*

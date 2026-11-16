@@ -12,7 +12,7 @@ keywords:
 title: Graph-Based Agent Architecture — From Agent Loops to Enterprise Systems
 ---
 
-# 18 — Graph-Based Agent Architecture
+# 02 — Graph-Based Agent Architecture
 
 > **A model can suggest the next move. Your architecture decides whether it gets to make it.**
 
@@ -323,11 +323,11 @@ Next Chapters cover state, routing, human approval, tools and production operati
 
 ## 🧭 Chapter Navigation
 
-⬅️ **Previous:** [17. LangGraph Fundamentals](17-langgraph-fundamentals.md)
+⬅️ **Previous:** [01. LangGraph Fundamentals](01-langgraph-fundamentals.md)
 
 📚 **Part VIII Index:** [AI Engineering Frameworks & Tooling](index.md)
 
-➡️ **Next:** [19. LangGraph State and Checkpointing](19-langgraph-state-and-checkpointing.md)
+➡️ **Next:** [03. LangGraph State and Checkpointing](03-langgraph-state-and-checkpointing.md)
 
 ---
 

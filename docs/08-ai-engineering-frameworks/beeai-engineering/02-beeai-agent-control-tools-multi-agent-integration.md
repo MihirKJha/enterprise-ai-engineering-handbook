@@ -13,7 +13,7 @@ keywords:
   - multi-agent systems
 ---
 
-# 52. BeeAI Agent Control, Tools & Multi-Agent Integration
+# 02. BeeAI Agent Control, Tools & Multi-Agent Integration
 
 > **Agent behaviour, execution control, extensibility and interoperability**
 
@@ -396,11 +396,11 @@ We have now moved from a single agent to a controlled team of agents and externa
 
 ## 🧭 Chapter Navigation
 
-⬅️ **Previous:** [51. BeeAI Architecture & Agent Development](51-beeai-architecture-agent-development.md)
+⬅️ **Previous:** [01. BeeAI Architecture & Agent Development](01-beeai-architecture-agent-development.md)
 
-📚 **Part:** [AI Engineering Frameworks & Tooling](index.md)
+📚 **Part:** [AI Engineering Frameworks & Tooling](../index.md)
 
-➡️ **Next:** [53. BeeAI Production Engineering, Runtime & Deployment](53-beeai-production-engineering-runtime-deployment.md)
+➡️ **Next:** [03. BeeAI Production Engineering, Runtime & Deployment](03-beeai-production-engineering-runtime-deployment.md)
 
 ---
 

@@ -11,7 +11,7 @@ keywords:
   - Enterprise AI architecture
 ---
 
-# 26 — LangGraph Limitations and Trade-offs
+# 10 — LangGraph Limitations and Trade-offs
 
 A framework can be powerful and still be the wrong choice.
 
@@ -313,10 +313,11 @@ LangGraph APIs and runtime capabilities evolve. Verify version-specific behavior
 
 ## 🧭 Chapter Navigation
 
-⬅️ **Previous:** [25. LangGraph Production Patterns](25-langgraph-production-patterns.md)
+⬅️ **Previous:** [09. LangGraph Production Patterns](09-langgraph-production-patterns.md)
 
-📚 **Part VIII Index:** [AI Engineering Frameworks & Tooling](index.md)
+📚 **Part VIII Index:** [AI Engineering Frameworks & Tooling](../index.md)
 
+➡️ **Next:** [01. MCP Engineering Fundamentals](../mcp-engineering/01-mcp-engineering-fundamentals.md)
 
 ---
 

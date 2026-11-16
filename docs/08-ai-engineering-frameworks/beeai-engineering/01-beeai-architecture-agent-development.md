@@ -13,7 +13,7 @@ keywords:
   - Pydantic structured output
 ---
 
-# 51. BeeAI Architecture & Agent Development
+# 01. BeeAI Architecture & Agent Development
 
 > **Framework foundations, architecture and core agent development**
 
@@ -363,11 +363,11 @@ We now have the basic agent: a model, instructions, and memory. Next, we give it
 
 ## 🧭 Chapter Navigation
 
-⬅️ **Previous:** [50. AG2 Tools, Structured Outputs & Production Engineering](50-ag2-tools-structured-outputs-and-production-engineering.md)
+⬅️ **Previous:** [03. CrewAI Advanced Engineering](../crewai-engineering/03-crewai-advanced-engineering.md)
 
-📚 **Part:** [AI Engineering Frameworks & Tooling](index.md)
+📚 **Part:** [AI Engineering Frameworks & Tooling](../index.md)
 
-➡️ **Next:** [52. BeeAI Agent Control, Tools & Multi-Agent Integration](52-beeai-agent-control-tools-multi-agent-integration.md)
+➡️ **Next:** [02. BeeAI Agent Control, Tools & Multi-Agent Integration](02-beeai-agent-control-tools-multi-agent-integration.md)
 
 ---
 

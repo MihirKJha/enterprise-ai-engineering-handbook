@@ -289,6 +289,18 @@ Chapter 07 — **Collaborative Agents & Swarm Architectures** — moves beyond m
 - [LangGraph documentation](https://docs.langchain.com/oss/python/langgraph/overview)
 - [CrewAI documentation](https://docs.crewai.com/)
 
+---
+
+## 🧭 Chapter Navigation
+
+⬅️ **Previous:** [05—Agent Orchestration & Supervisor Patterns](05-agent-orchestration-supervisor-patterns.md)
+
+📚 **Part:** [Agentic AI: Multi-Agent Systems Architecture, Orchestration, Collaboration](../index.md)
+
+➡️ **Next:** [07—Collaborative Agents & Swarm Architectures](07-collaborative-agents-swarm-architectures.md)
+
+---
+
 > **Enterprise AI Engineering Handbook**
 >
 > *Building Production-Grade Enterprise AI Systems — One Chapter at a Time.*

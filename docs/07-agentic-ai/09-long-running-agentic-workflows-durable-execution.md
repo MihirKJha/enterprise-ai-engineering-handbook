@@ -248,6 +248,21 @@ Chapter 10 — **Agentic Workflow Evaluation & Reliability** — moves from pres
 - [LangGraph persistence concepts](https://docs.langchain.com/oss/python/langgraph/persistence)
 - [LangGraph durable execution](https://docs.langchain.com/oss/python/langgraph/durable-execution)
 
+
+
+---
+
+## 🧭 Chapter Navigation
+
+⬅️ **Previous:** [08—Human-in-the-Loop Agentic Workflows](08-human-in-the-loop-agentic-workflows.md)
+
+📚 **Part:** [Agentic AI: Multi-Agent Systems Architecture, Orchestration, Collaboration](../index.md)
+
+➡️ **Next:** [10-Agentic Workflow Evaluation & Reliability](10-agentic-workflow-evaluation-and-reliability.md)
+
+---
+
+
 > **Enterprise AI Engineering Handbook**
 >
 > *Building Production-Grade Enterprise AI Systems — One Chapter at a Time.*

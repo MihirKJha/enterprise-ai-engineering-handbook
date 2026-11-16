@@ -12,7 +12,7 @@ keywords:
 title: LangGraph State and Checkpointing — From a Simple Loop to Durable Agents
 ---
 
-# 19 — LangGraph State and Checkpointing
+# 03 — LangGraph State and Checkpointing
 
 > Your agent has done six steps, called two tools and collected the evidence. The worker restarts. Does the workflow remember where it was—or confidently start all over again?
 
@@ -316,11 +316,11 @@ A checkpoint is a snapshot of workflow execution, not proof that every fact insi
 
 ## 🧭 Chapter Navigation
 
-⬅️ **Previous:** [18. Graph-Based Agent Architecture](18-graph-based-agent-architecture.md)
+⬅️ **Previous:** [02. Graph-Based Agent Architecture](02-graph-based-agent-architecture.md)
 
-📚 **Part VIII Index:** [AI Engineering Frameworks & Tooling](index.md)
+📚 **Part VIII Index:** [AI Engineering Frameworks & Tooling](../index.md)
 
-➡️ **Next:** [20. LangGraph Nodes Edges And Routing](20-langgraph-nodes-edges-and-routing.md)
+➡️ **Next:** [04. LangGraph Nodes Edges And Routing](04-langgraph-nodes-edges-and-routing.md)
 
 ---
 

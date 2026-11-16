@@ -15,7 +15,7 @@ keywords:
   - MCP logging and tracing
 ---
 
-# 35. MCP Testing, Debugging & Observability
+# 09. MCP Testing, Debugging & Observability
 
 Your MCP server works locally. The tool appears in the client, the happy-path call returns the expected answer, and the demo looks great. Then production introduces a different client, a slow downstream API and a network proxy. Suddenly, the same tool fails in three different ways—and nobody knows which layer to blame.
 
@@ -259,11 +259,11 @@ Use MCP logging notifications where supported for client-visible diagnostics, bu
 
 ## 🧭 Chapter Navigation
 
-⬅️ **Previous:** [34. MCP Security & Production Engineering](34-mcp-security-production-engineering.md)
+⬅️ **Previous:** [08. MCP Security & Production Engineering](08-mcp-security-production-engineering.md)
 
-📚 **Part:** [AI Engineering Frameworks & Tooling](index.md)
+📚 **Part:** [AI Engineering Frameworks & Tooling](../index.md)
 
-➡️ **Next:** [36. Enterprise MCP Architecture & Design Patterns](36-enterprise-mcp-architecture-design-patterns.md)
+➡️ **Next:** [10. Enterprise MCP Architecture & Design Patterns](10-enterprise-mcp-architecture-design-patterns.md)
 
 ---
 

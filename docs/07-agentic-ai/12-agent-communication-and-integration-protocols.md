@@ -365,7 +365,20 @@ or implementation.
 -   [AP2 current specification](https://github.com/google-agentic-commerce/AP2/blob/main/docs/ap2/specification.md)
 
 ------------------------------------------------------------------------
+---
+
+## 🧭 Chapter Navigation
+
+⬅️ **Previous:** [11-Agentic RAG](11-agentic-rag.md)
+
+📚 **Part:** [Agentic AI: Multi-Agent Systems Architecture, Orchestration, Collaboration](../index.md)
+
+➡️ **Next:** [13-Model Context Protocol (MCP) — Architecture & Concepts](13-mcp-architecture-and-concepts.md)
+
+---
 
 **Enterprise AI Engineering Handbook**\
 *Building Production-Grade Enterprise AI Systems --- One Chapter at a
 Time.*
+
+---

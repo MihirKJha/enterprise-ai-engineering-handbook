@@ -14,7 +14,7 @@ keywords:
   - Model Context Protocol
 ---
 
-# 36. Enterprise MCP Architecture & Design Patterns
+# 10. Enterprise MCP Architecture & Design Patterns
 
 One team exposes CRM tools through MCP. Another publishes billing capabilities. A third connects the support platform. The first few integrations are easy. Then the inventory grows: duplicate tools appear, teams disagree about ownership, clients connect to different endpoints, and nobody knows which server is approved for production.
 
@@ -290,11 +290,11 @@ Separate development, staging and production registries. Use managed secrets, he
 
 ## 🧭 Chapter Navigation
 
-⬅️ **Previous:** [35. MCP Testing, Debugging & Observability](35-mcp-testing-debugging-observability.md)
+⬅️ **Previous:** [09. MCP Testing, Debugging & Observability](09-mcp-testing-debugging-observability.md)
 
-📚 **Part:** [AI Engineering Frameworks & Tooling](index.md)
+📚 **Part:** [AI Engineering Frameworks & Tooling](../index.md)
 
-➡️ **Next:** [37. CrewAI Architecture & Core Concepts](37-crewai-architecture-core-concepts.md)
+➡️ **Next:** [01. A2A Protocol Engineering Fundamentals](../a2a-engineering/01-a2a-protocol-engineering-fundamentals.md)
 
 ---
 

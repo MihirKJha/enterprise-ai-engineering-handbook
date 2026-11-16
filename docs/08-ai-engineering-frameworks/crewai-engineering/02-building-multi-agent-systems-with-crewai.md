@@ -15,7 +15,7 @@ keywords:
   - CrewAI guardrails
 ---
 
-# 45. Building Multi-Agent Systems with CrewAI
+# 02. Building Multi-Agent Systems with CrewAI
 
 > Five agents. One shopping list. And hopefully, no one buys twelve kilos of onions.
 
@@ -328,13 +328,11 @@ This chapter used CrewAI's task-oriented team model: specialists own defined ass
 
 ## 🧭 Chapter Navigation
 
-⬅️ **Previous:** [44. CrewAI Architecture & Core Concepts](44-crewai-architecture-and-core-concepts-optimised-v2.md)
+⬅️ **Previous:** [01. CrewAI Architecture & Core Concepts](01-crewai-architecture-and-core-concepts.md)
 
-📚 **Part:** [AI Engineering Frameworks & Tooling](index.md)
+📚 **Part:** [AI Engineering Frameworks & Tooling](../index.md)
 
-➡️ **Next:** [46. CrewAI Advanced Engineering](46-autogen-ag2-architecture-and-core-concepts.md)
-
-
+➡️ **Next:** [03. CrewAI Advanced Engineering](03-crewai-advanced-engineering.md)
 
 ---
 

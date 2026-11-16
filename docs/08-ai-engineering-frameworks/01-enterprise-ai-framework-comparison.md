@@ -11,7 +11,7 @@ keywords:
   - enterprise agent architecture
 ---
 
-# 54. Enterprise AI Framework Comparison
+# 01. Enterprise AI Framework Comparison
 
 Choosing an AI framework is an architecture decision, not a popularity contest. The right choice depends on the execution model you need: an agent loop, an explicit graph, a role-based team, agent conversations or enforced execution requirements.
 
@@ -241,11 +241,11 @@ The framework decision closes Part VIII. Next, Part IX examines how AI systems a
 
 ## 🧭 Chapter Navigation
 
-⬅️ **Previous:** [53. BeeAI Production Engineering, Runtime & Deployment](53-beeai-production-engineering-runtime-deployment.md)
+⬅️ **Previous:** [03. BeeAI Production Engineering, Runtime & Deployment](beeai-engineering/03-beeai-production-engineering-runtime-deployment.md)
 
 📚 **Part:** [AI Engineering Frameworks & Tooling](index.md)
 
-➡️ **Next:** Part IX — MLOps, LLMOps & AIOps
+➡️ **Next:** [Part IX — MLOps, LLMOps & AIOps](../09-mlops/index.md)
 
 ---
 

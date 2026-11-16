@@ -13,7 +13,7 @@ keywords:
   - Python MCP server
 ---
 
-# 32. MCP Integration with RAG Systems
+# 06. MCP Integration with RAG Systems
 
 Your company has 100,000 documents. They are parsed, chunked, embedded and indexed. The retrieval pipeline works. Now a second team wants the same knowledge in an AI assistant, and a third wants it in an IDE. Do you build another retriever for each—or expose the capability once?
 
@@ -274,11 +274,11 @@ The important outcome is not that the LLM can see a vector database. It is that 
 
 ## 🧭 Chapter Navigation
 
-⬅️ **Previous:** [31. Advanced MCP Capabilities](31-advanced-mcp-capabilities.md)
+⬅️ **Previous:** [05. Advanced MCP Capabilities](05-advanced-mcp-capabilities.md)
 
-📚 **Part:** [AI Engineering Frameworks & Tooling](index.md)
+📚 **Part:** [AI Engineering Frameworks & Tooling](../index.md)
 
-➡️ **Next:** [33. MCP Integration with AI Frameworks](33-mcp-integration-with-ai-frameworks.md)
+➡️ **Next:** [07. MCP Integration with AI Frameworks](07-mcp-integration-with-ai-frameworks.md)
 
 ---
 

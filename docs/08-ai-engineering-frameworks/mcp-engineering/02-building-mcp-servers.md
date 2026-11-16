@@ -13,7 +13,7 @@ keywords:
   - enterprise MCP development
 ---
 
-# 28. Building MCP Servers
+# 02. Building MCP Servers
 
 A useful MCP server is not a dumping ground for every function in an application. It is a clean front door to a small set of capabilities: actions a client can request, information it can read, and reusable instructions it can offer.
 
@@ -264,11 +264,11 @@ A server with three well-designed capabilities is often more useful than one wit
 
 ## 🧭 Chapter Navigation
 
-⬅️ **Previous:** [27. MCP Engineering Fundamentals](27-mcp-engineering-fundamentals-optimised.md)
+⬅️ **Previous:** [01. MCP Engineering Fundamentals](01-mcp-engineering-fundamentals.md)
 
-📚 **Part:** [AI Engineering Frameworks & Tooling](index.md)
+📚 **Part:** [AI Engineering Frameworks & Tooling](../index.md)
 
-➡️ **Next:** [29. Building MCP Clients](29-building-mcp-clients.md)
+➡️ **Next:** [03. Building MCP Clients](03-building-mcp-clients.md)
 
 ---
 

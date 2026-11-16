@@ -252,6 +252,19 @@ We will look at agent communication models, message passing, shared state and co
 - [Pydantic documentation](https://docs.pydantic.dev/)
 
 
+---
+
+## 🧭 Chapter Navigation
+
+⬅️ **Previous:** [02-Multi-Agent Systems Architecture](02-multi-agent-systems-architecture.md)
+
+📚 **Part:** [Agentic AI: Multi-Agent Systems Architecture, Orchestration, Collaboration](../index.md)
+
+➡️ **Next:** [04—Multi-Agent Communication & Coordination](04-multi-agent-communication-coordination.md)
+
+---
+
+
 > **Enterprise AI Engineering Handbook**\
 > *Building Production-Grade Enterprise AI Systems --- One Chapter at a
 > Time.*
