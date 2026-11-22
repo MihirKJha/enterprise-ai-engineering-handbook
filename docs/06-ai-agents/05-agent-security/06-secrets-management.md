@@ -2419,17 +2419,17 @@ belong in **Part VII** rather than being duplicated here.
 
 ### Next
 
-**[07. Agent Observability](07-agent-observability.md)**
+**[07. Data Privacy](07-data-privacy.md)**
 
 ### Related
 
-- [04. Agent Security & Guardrails](04-agent-security-and-guardrails.md)
-- [Agent Architecture](02-ai-agent-architecture.md)
-- [Tool Calling & Function Calling](02-tool-calling-and-function-calling.md)
-- [Planning & Task Decomposition](08-planning-and-task-decomposition.md)
-- [Agent Reasoning](09-agent-reasoning.md)
-- [Reflection & Self-Correction](10-reflection-and-self-correction.md)
-- [Agent Evaluation](10-agent-evaluation.md)
+- [Agent Security Overview](01-agent-security-overview.md)
+- [Agent Architecture](../01-ai-agent-fundamentals/07-enterprise-ai-agent-architecture.md)
+- [Tool Calling & Function Calling](../01-ai-agent-fundamentals/02-tool-calling-and-function-calling.md)
+- [Planning & Task Decomposition](../01-ai-agent-fundamentals/08-planning-and-task-decomposition.md)
+- [Agent Reasoning](../01-ai-agent-fundamentals/09-agent-reasoning.md)
+- [Reflection & Self-Correction](../01-ai-agent-fundamentals/10-reflection-and-self-correction.md)
+- [Agent Evaluation](../04-agent-observability/10-agent-evaluation.md)
 - [Agent Deployment](../06-agent-deployment/01-agent-deployment-overview.md)
 
 ---

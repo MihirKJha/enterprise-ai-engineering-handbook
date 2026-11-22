@@ -18,7 +18,7 @@ title: LangGraph State and Checkpointing — From a Simple Loop to Durable Agent
 
 That question takes us to the heart of LangGraph: **state**.
 
-In [LangGraph Fundamentals](17-langgraph-fundamentals.md) , we built a graph and learned how nodes and edges work. [Graph-Based Agent Architecture](18-graph-based-agent-architecture.md)  explored how agent behaviour fits inside a controlled graph. Here we focus on the information that travels through that graph, how it changes, and how execution progress can be saved.
+In [LangGraph Fundamentals](01-langgraph-fundamentals.md) , we built a graph and learned how nodes and edges work. [Graph-Based Agent Architecture](02-graph-based-agent-architecture.md)  explored how agent behaviour fits inside a controlled graph. Here we focus on the information that travels through that graph, how it changes, and how execution progress can be saved.
 
 We'll start with the small counter lab from the course transcript. It looks almost too simple to matter. Stay with it: the same mechanics appear later in payment investigations, document processing and long-running enterprise workflows.
 

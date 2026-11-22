@@ -11,9 +11,6 @@ site_url: https://enterpriseai.handbook.mihirkjha.com/
 repo_name: MihirJha/Enterprise-AI-Engineering-Handbook
 repo_url: https://github.com/MihirKJha/Enterprise-AI-Engineering-Handbook
 
-search:
-  boost: 1.2
-  
 hooks:
   - hooks/normalize_headings.py
 
@@ -304,7 +301,7 @@ nav:
     - 05-advanced-retrieval-augmented-generation/index.md
 
     - Core Retrieval Engineering:
-        - 01-vectostore-retriever: 05-advanced-retrieval-augmented-generation/01-core-retrieval-engineering/01-vectostore-retriever.md
+        - 01-vectorstore-retriever: 05-advanced-retrieval-augmented-generation/01-core-retrieval-engineering/01-vectorstore-retriever.md
         - 02-multi-query-retriever: 05-advanced-retrieval-augmented-generation/01-core-retrieval-engineering/02-multi-query-retriever.md
         - 03-self-query-retriever: 05-advanced-retrieval-augmented-generation/01-core-retrieval-engineering/03-self-query-retriever.md
         - 04-parent-document-retriever: 05-advanced-retrieval-augmented-generation/01-core-retrieval-engineering/04-parent-document-retriever.md
@@ -583,8 +580,8 @@ nav:
        - SageMaker Architecture:
           - SageMaker AI Platform Overview: 10-cloud-ai-engineering/02-aws-ai/sagemaker-ai-architecture/01-sagemaker-ai-platform-overview.md
           - Training, Processing, and Tuning Workflows on Amazon SageMaker AI: 10-cloud-ai-engineering/02-aws-ai/sagemaker-ai-architecture/02-training-processing-and-tuning-workflows.md
-          - Model Evaluation, Registry, and Approval on Amazon SageMaker AI: 10-cloud-ai-engineering/02-aws-ai/sagemaker-ai-architecture/03-model-evaluation-registry-and-approval
-          - Model Inference and Deployment Options: 10-cloud-ai-engineering/02-aws-ai/sagemaker-ai-architecture/04-model-inference-and-deployment-options
+          - Model Evaluation, Registry, and Approval on Amazon SageMaker AI: 10-cloud-ai-engineering/02-aws-ai/sagemaker-ai-architecture/03-model-evaluation-registry-and-approval.md
+          - Model Inference and Deployment Options: 10-cloud-ai-engineering/02-aws-ai/sagemaker-ai-architecture/04-model-inference-and-deployment-options.md
 
        - Bedrock Architecture:
           - Bedrock Platform and Model Access: 10-cloud-ai-engineering/02-aws-ai/bedrock-ai-architecture/01-bedrock-platform-and-model-access.md

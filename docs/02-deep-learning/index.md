@@ -57,20 +57,20 @@ Follow the phases in order. The first phases establish how neural networks learn
 
 | Chapter | Status |
 |---|:---:|
-| [01. Introduction to Deep Learning](1-introduction-to-deep-learning.md) | ✅ |
-| [02. Neural Network Fundamentals](2-neural-network-fundamentals.md) | ✅ |
-| [03. Shallow & Deep Neural Networks](3-shallow-and-deep-neural-networks.md) | ✅ |
-| [04. Linear & Logistic Regression for Deep Learning](4-linear-and-logistic-regression.md) | ✅ |
-| [05. Activation Functions, Probabilities & Thresholding](5-activation-functions-probabilities-and-thresholding.md) | ✅ |
-| [06. Loss Functions & Maximum Likelihood Estimation](6-loss-functions-and-maximum-likelihood.md) | ✅ |
-| [07. Forward Propagation & Backpropagation](7-forward-and-backpropagation.md) | ✅ |
+| [01. Introduction to Deep Learning](01-introduction-to-deep-learning.md) | ✅ |
+| [02. Neural Network Fundamentals](02-neural-network-fundamentals.md) | ✅ |
+| [03. Shallow & Deep Neural Networks](03-shallow-and-deep-neural-networks.md) | ✅ |
+| [04. Linear & Logistic Regression for Deep Learning](04-linear-and-logistic-regression.md) | ✅ |
+| [05. Activation Functions, Probabilities & Thresholding](05-activation-functions-probabilities-and-thresholding.md) | ✅ |
+| [06. Loss Functions & Maximum Likelihood Estimation](06-loss-functions-and-maximum-likelihood.md) | ✅ |
+| [07. Forward Propagation & Backpropagation](07-forward-and-backpropagation.md) | ✅ |
 
 ### ⚙️ Phase 2 — Training & Optimization
 
 | Chapter | Status |
 |---|:---:|
-| [08. Gradient Descent & Mini-Batch Training](8-gradient-descent-and-mini-batch-training.md) | ✅ |
-| [09. Weight Initialization & Gradient Stability](9-weight-initialization-and-gradient-stability.md) | ✅ |
+| [08. Gradient Descent & Mini-Batch Training](08-gradient-descent-and-mini-batch-training.md) | ✅ |
+| [09. Weight Initialization & Gradient Stability](09-weight-initialization-and-gradient-stability.md) | ✅ |
 | [10. Regularization & Generalization](10-regularization-and-generalization.md) | ✅ |
 | [11. Advanced Optimization Techniques](11-advanced-optimization-techniques.md) | ✅ |
 | [12. Hyperparameter Tuning & Training Strategies](12-hyperparameter-tuning-and-training-strategies.md) | ✅ |

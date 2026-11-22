@@ -5571,7 +5571,7 @@ Task Success
 - [13. LoRA and QLoRA](13-lora-and-qlora.md)
 - [14. Model Quantization](14-model-quantization.md)
 - [15. LLM Generation Strategies](15-llm-generation-strategies.md)
-- [17. Retrieval-Augmented Generation (RAG) Fundamentals](17-rag-fundamentals.md)
+- [Retrieval-Augmented Generation (RAG) Fundamentals](../04-retrieval-augmented-generation/index.md#3-rag-fundamentals)
 
 ---
 

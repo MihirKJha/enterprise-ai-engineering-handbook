@@ -3519,7 +3519,7 @@ This makes Prompt Assembly the bridge between **retrieval engineering** and **ge
 ### Part V — Advanced Retrieval-Augmented Generation
 
 **Previous:**  
-[06. Agentic RAG](../05-advanced-rag-architecture/06-agentic-rag.md)
+[06. Agentic RAG](../06-advanced-rag-architecture/06-agentic-rag.md)
 
 **Next:**  
 [02. Context Selection and Context Engineering](02-context-selection-and-context-engineering.md)

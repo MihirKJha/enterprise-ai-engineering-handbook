@@ -2902,13 +2902,13 @@ belong in the **Agentic AI & Multi-Agent Systems** module rather than being dupl
 
 ### Related
 
-- [04. Agent Security & Guardrails](04-agent-security-and-guardrails.md)
+- [Agent Security Overview](01-agent-security-overview.md)
 - [05. Agent Authorization](05-agent-authorization.md)
 - [06. Secrets Management](06-secrets-management.md)
-- [Agent Architecture](02-ai-agent-architecture.md)
-- [Tool Calling & Function Calling](02-tool-calling-and-function-calling.md)
-- [Agent Evaluation](10-agent-evaluation.md)
-- [Agent Observability](07-agent-observability.md)
+- [Agent Architecture](../01-ai-agent-fundamentals/07-enterprise-ai-agent-architecture.md)
+- [Tool Calling & Function Calling](../01-ai-agent-fundamentals/02-tool-calling-and-function-calling.md)
+- [Agent Evaluation](../04-agent-observability/10-agent-evaluation.md)
+- [Agent Observability](../04-agent-observability/01-agent-observability-overview.md)
 - [Agent Deployment](../06-agent-deployment/01-agent-deployment-overview.md)
 
 ---

@@ -536,7 +536,7 @@ This revised chapter preserves the transcript's major teaching and lab paths, wh
 ## Chapter navigation
 
 - Previous: [02. Integrating Custom Tools into AI Agents](02-integrating-custom-tools-into-ai-agents.md)
-- Next: [04. Building Knowledge-Enhanced Agents with Foundry IQ](04-building-knowledge-enhanced-agents-with-foundry-iq.md)
+- Next: [04. Ground Agent Responses in Enterprise Knowledge with Foundry IQ](04-ground-agents-with-foundry-iq.md)
 
 > **Enterprise AI Engineering Handbook**
 >

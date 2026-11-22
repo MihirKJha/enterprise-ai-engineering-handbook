@@ -268,7 +268,7 @@ The key design principle is simple: **the server may ask, but the client remains
 
 ## 🧭 Chapter Navigation
 
-⬅️ **Previous:** [30. MCP Multi-Server Integration](30-mcp-multi-server-integration.md)
+⬅️ **Previous:** [04. MCP Multi-Server Integration](04-mcp-multi-server-integration.md)
 
 📚 **Part:** [AI Engineering Frameworks & Tooling](../index.md)
 

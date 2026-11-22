@@ -75,7 +75,7 @@ The Glue Data Catalog stores metadata such as table definitions, schemas, and pa
 ### Console snapshot 2 — Glue Data Catalog table
 
 <!-- Replace this placeholder with a genuine screenshot captured from your AWS account. -->
-![AWS Glue Data Catalog table schema and partitions](images/aws-glue-data-catalog.png)
+![AWS Glue Data Catalog table schema and partitions](images/aws-glue-data-catalog-console.png)
 
 *Figure 2. Glue Data Catalog table details. Capture the table's schema/columns and partition keys, if used, preferably from the sample lab table.*
 

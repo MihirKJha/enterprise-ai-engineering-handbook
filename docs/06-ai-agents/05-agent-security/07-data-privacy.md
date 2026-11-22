@@ -2292,13 +2292,13 @@ belong in the **Agentic AI & Multi-Agent Systems** module rather than being dupl
 
 ### Related
 
-- [04. Agent Security & Guardrails](04-agent-security-and-guardrails.md)
+- [Agent Security Overview](01-agent-security-overview.md)
 - [05. Agent Authorization](05-agent-authorization.md)
 - [06. Secrets Management](06-secrets-management.md)
 - [Agent Memory](../02-agent-memory/01-agent-memory-overview.md)
-- [RAG Architecture](../05-retrieval-augmented-generation/01-advanced-rag-architecture.md)
-- [Agent Evaluation](10-agent-evaluation.md)
-- [Agent Observability](07-agent-observability.md)
+- [RAG Architecture](../../05-advanced-retrieval-augmented-generation/06-advanced-rag-architecture/01-advanced-rag-architecture.md)
+- [Agent Evaluation](../04-agent-observability/10-agent-evaluation.md)
+- [Agent Observability](../04-agent-observability/01-agent-observability-overview.md)
 
 ---
 

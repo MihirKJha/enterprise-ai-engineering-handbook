@@ -2974,9 +2974,9 @@ belong in **Part VII — Agentic AI & Multi-Agent Systems** rather than being du
 - [06. Secrets Management](06-secrets-management.md)
 - [07. Data Privacy](07-data-privacy.md)
 - [08. Agent Sandboxing](08-agent-sandboxing.md)
-- [09. Agent Reasoning](09-agent-reasoning.md)
-- [10. Reflection & Self-Correction](10-reflection-and-self-correction.md)
-- [Agent Observability](07-agent-observability.md)
+- [09. Agent Reasoning](../01-ai-agent-fundamentals/09-agent-reasoning.md)
+- [10. Reflection & Self-Correction](../01-ai-agent-fundamentals/10-reflection-and-self-correction.md)
+- [Agent Observability](../04-agent-observability/01-agent-observability-overview.md)
 
 ---
 

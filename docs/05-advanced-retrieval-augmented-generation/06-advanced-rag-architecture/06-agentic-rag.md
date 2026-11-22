@@ -3509,7 +3509,7 @@ That distinction is what separates an experimental AI agent from a **production-
 [05. Multimodal RAG](05-multimodal-rag.md)
 
 **Next:**  
-[01. Prompt Assembly](../06-production-rag-engineering/01-prompt-assembly.md)
+[01. Prompt Assembly](../07-production-rag-engineering/01-prompt-assembly.md)
 
 **Section:**  
 05 — Advanced RAG Architecture

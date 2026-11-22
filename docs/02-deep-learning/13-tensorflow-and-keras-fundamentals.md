@@ -2691,7 +2691,7 @@ The next chapter goes deeper into the two major Keras model-building approaches:
 
 ## ➡️ Next Chapter
 
-**[14. Keras Sequential and Functional API](14-keras-seequential-and-functional-api.md)**
+**[14. Keras Sequential and Functional API](14-keras-sequential-and-functional-api.md)**
 
 ---
 

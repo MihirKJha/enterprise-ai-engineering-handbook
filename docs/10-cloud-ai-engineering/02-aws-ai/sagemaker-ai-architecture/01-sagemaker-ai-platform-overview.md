@@ -251,8 +251,8 @@ Do not add every service to a proof of concept just because it exists. Start wit
 Use the generic ML notes for concepts and this AWS chapter for implementation and service boundaries.
 
 - **Feature engineering theory:** `01-feature-engineering-basics.md` is the remembered filename; confirm its location before turning it into a relative link.
-- **Data preparation and validation on AWS:** [Data Quality and Feature Engineering on AWS](../01-aws-data-architecture/03-data-quality-and-feature-engineering-on-aws.md).
-- **Processing and ETL choices:** [AWS ETL and Distributed Processing](../01-aws-data-architecture/02-aws-etl-and-distributed-processing.md).
+- **Data preparation and validation on AWS:** [Data Quality and Feature Engineering on AWS](../data-architecture/03-data-quality-and-feature-engineering-on-aws.md).
+- **Processing and ETL choices:** [AWS ETL and Distributed Processing](../data-architecture/02-aws-etl-and-distributed-processing.md).
 - **Model training and evaluation theory:** add links after confirming the generic notes' exact paths in the repository tree.
 
 ## Further reading

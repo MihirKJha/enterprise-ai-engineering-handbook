@@ -285,8 +285,8 @@ Practical controls:
 ## 9. Related handbook notes
 
 - **SageMaker AI Platform Overview:** `01-sagemaker-ai-platform-overview.md` — platform components, service boundaries, and lifecycle terminology.
-- **Data Quality and Feature Engineering on AWS:** [Data quality and feature engineering](../01-aws-data-architecture/03-data-quality-and-feature-engineering-on-aws.md).
-- **AWS ETL and Distributed Processing:** [ETL and distributed processing](../01-aws-data-architecture/02-aws-etl-and-distributed-processing.md).
+- **Data Quality and Feature Engineering on AWS:** [Data quality and feature engineering](../data-architecture/03-data-quality-and-feature-engineering-on-aws.md).
+- **AWS ETL and Distributed Processing:** [ETL and distributed processing](../data-architecture/02-aws-etl-and-distributed-processing.md).
 - **Generic ML theory:** link to the existing notes on evaluation metrics, model validation, and feature engineering using the repository's verified relative paths.
 
 ## Further reading

@@ -3001,7 +3001,7 @@ These should be covered there rather than duplicated in the foundational Agent d
 
 ### Previous
 
-**[10. Agent Risk Management](10-agent-risk-management.md)**
+**[10. Agent Risk Management](../05-agent-security/10-agent-risk-management.md)**
 
 ### Next
 
@@ -3009,14 +3009,14 @@ These should be covered there rather than duplicated in the foundational Agent d
 
 ### Related
 
-- [05. Agent Authorization](05-agent-authorization.md)
-- [06. Secrets Management](06-secrets-management.md)
-- [07. Data Privacy](07-data-privacy.md)
-- [08. Agent Sandboxing](08-agent-sandboxing.md)
-- [09. Agent Guardrails](09-agent-guardrails.md)
-- [Agent Architecture](03-ai-agent-architecture.md)
-- [Planning & Task Decomposition](08-planning-and-task-decomposition.md)
-- [Agent Evaluation](10-agent-evaluation.md)
+- [05. Agent Authorization](../05-agent-security/05-agent-authorization.md)
+- [06. Secrets Management](../05-agent-security/06-secrets-management.md)
+- [07. Data Privacy](../05-agent-security/07-data-privacy.md)
+- [08. Agent Sandboxing](../05-agent-security/08-agent-sandboxing.md)
+- [09. Agent Guardrails](../05-agent-security/09-agent-guardrails.md)
+- [Agent Architecture](../01-ai-agent-fundamentals/07-enterprise-ai-agent-architecture.md)
+- [Planning & Task Decomposition](../01-ai-agent-fundamentals/08-planning-and-task-decomposition.md)
+- [Agent Evaluation](../04-agent-observability/10-agent-evaluation.md)
 
 ---
 

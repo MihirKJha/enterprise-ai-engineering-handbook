@@ -3221,12 +3221,12 @@ belong in **Part VII — Agentic AI & Multi-Agent Systems** rather than being du
 - [05. Agent Authorization](05-agent-authorization.md)
 - [06. Secrets Management](06-secrets-management.md)
 - [07. Data Privacy](07-data-privacy.md)
-- [Agent Architecture](02-ai-agent-architecture.md)
-- [Tool Calling & Function Calling](02-tool-calling-and-function-calling.md)
-- [Planning & Task Decomposition](08-planning-and-task-decomposition.md)
-- [Agent Reasoning](09-agent-reasoning.md)
-- [Reflection & Self-Correction](10-reflection-and-self-correction.md)
-- [Agent Observability](07-agent-observability.md)
+- [Agent Architecture](../01-ai-agent-fundamentals/07-enterprise-ai-agent-architecture.md)
+- [Tool Calling & Function Calling](../01-ai-agent-fundamentals/02-tool-calling-and-function-calling.md)
+- [Planning & Task Decomposition](../01-ai-agent-fundamentals/08-planning-and-task-decomposition.md)
+- [Agent Reasoning](../01-ai-agent-fundamentals/09-agent-reasoning.md)
+- [Reflection & Self-Correction](../01-ai-agent-fundamentals/10-reflection-and-self-correction.md)
+- [Agent Observability](../04-agent-observability/01-agent-observability-overview.md)
 
 ---
 

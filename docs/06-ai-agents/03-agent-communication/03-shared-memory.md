@@ -781,6 +781,23 @@ Modern AI platforms often use **messages for coordination** and **shared memory 
 
 ---
 
+## Workflow Progress and Reusable Lessons
+
+Keep workflow progress separate from lessons retrieved for later work. A stored lesson is context for a decision, not proof that another agent finished a task or that its checks passed.
+
+For a planner, developer, and tester sharing a project:
+
+- Let the task owner publish completion only with the source revision and required check results. Protect concurrent state transitions with a transaction, conditional write, or single-writer queue; on a conflict, reread state before deciding what to do.
+- Save reusable lessons with their writer, source, and revision. Keep unresolved questions and failed checks with the handoff instead of reducing them to a success summary.
+- Enforce read and write permissions at the storage boundary. A different agent name or key prefix alone does not authorize access.
+- Recheck a lesson against current source before applying it. Changed code calls for review; it does not by itself make the lesson false.
+
+For example, a tester may retain why a parser rejects an input while the workflow records which revision passed its tests. A future task can reuse the explanation without inheriting the earlier task's completion status.
+
+One service implementation is [Loom's namespace-scoped shared memory](https://clickhouse.github.io/loom/use-cases/multi-agent/), with separate read and write roles. Its [code-linked lessons](https://clickhouse.github.io/loom/use-cases/memory-linked-to-code/) require an indexed repository. Agents still need an orchestrator to execute the workflow and enforce its checks; neither reference establishes offline synchronization or a distributed execution guarantee.
+
+---
+
 # Architecture Decision
 
 | Scenario | Recommended Shared Memory |

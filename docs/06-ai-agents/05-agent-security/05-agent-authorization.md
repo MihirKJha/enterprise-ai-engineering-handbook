@@ -2080,20 +2080,20 @@ belong in **Part VII** rather than being duplicated here.
 
 ### Previous
 
-**[04. Agent Security & Guardrails](04-agent-security-and-guardrails.md)**
+**[04. Agent Authentication](04-agent-authentication.md)**
 
 ### Next
 
-**[06. Agent Observability](06-agent-observability.md)**
+**[06. Secrets Management](06-secrets-management.md)**
 
 ### Related
 
-- [Agent Fundamentals](01-ai-agent-fundamentals.md)
-- [Agent Architecture](02-ai-agent-architecture.md)
-- [Planning & Task Decomposition](08-planning-and-task-decomposition.md)
-- [Agent Reasoning](09-agent-reasoning.md)
-- [Reflection & Self-Correction](10-reflection-and-self-correction.md)
-- [Agent Evaluation](10-agent-evaluation.md)
+- [Agent Fundamentals](../01-ai-agent-fundamentals/01-ai-agent-fundamentals.md)
+- [Agent Architecture](../01-ai-agent-fundamentals/07-enterprise-ai-agent-architecture.md)
+- [Planning & Task Decomposition](../01-ai-agent-fundamentals/08-planning-and-task-decomposition.md)
+- [Agent Reasoning](../01-ai-agent-fundamentals/09-agent-reasoning.md)
+- [Reflection & Self-Correction](../01-ai-agent-fundamentals/10-reflection-and-self-correction.md)
+- [Agent Evaluation](../04-agent-observability/10-agent-evaluation.md)
 - [Agent Memory](../02-agent-memory/01-agent-memory-overview.md)
 - [Agent Deployment](../06-agent-deployment/01-agent-deployment-overview.md)
 
