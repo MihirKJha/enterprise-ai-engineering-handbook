@@ -119,12 +119,12 @@ Explore architectures that go beyond conventional text-based vector retrieval.
 
 | Chapter | Topic |
 |---|---|
-| 01 | [Advanced RAG Architecture](6-advanced-rag-architecture/01-advanced-rag-architecture.md) |
-| 02 | [Graph RAG](6-advanced-rag-architecture/02-graph-rag.md) |
-| 03 | [Knowledge Graphs for RAG](6-advanced-rag-architecture/03-knowledge-graphs-for-rag.md) |
-| 04 | [SQL RAG](6-advanced-rag-architecture/04-sql-rag.md) |
-| 05 | [Multimodal RAG](6-advanced-rag-architecture/05-multimodal-rag.md) |
-| 06 | [Agentic RAG](6-advanced-rag-architecture/06-agentic-rag.md) |
+| 01 | [Advanced RAG Architecture](06-advanced-rag-architecture/01-advanced-rag-architecture.md) |
+| 02 | [Graph RAG](06-advanced-rag-architecture/02-graph-rag.md) |
+| 03 | [Knowledge Graphs for RAG](06-advanced-rag-architecture/03-knowledge-graphs-for-rag.md) |
+| 04 | [SQL RAG](06-advanced-rag-architecture/04-sql-rag.md) |
+| 05 | [Multimodal RAG](06-advanced-rag-architecture/05-multimodal-rag.md) |
+| 06 | [Agentic RAG](06-advanced-rag-architecture/06-agentic-rag.md) |
 
 These patterns address different kinds of knowledge and query complexity. Choose them when the data or retrieval problem calls for them—not simply to make the architecture more elaborate.
 

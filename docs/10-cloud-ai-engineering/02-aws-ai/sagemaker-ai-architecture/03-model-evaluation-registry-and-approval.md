@@ -230,7 +230,7 @@ For automated workflows, a useful rule is: **no evaluation report, no promotion*
 
 - **SageMaker AI Platform Overview:** `01-sagemaker-ai-platform-overview.md` — platform resources and lifecycle vocabulary.
 - **Training, Processing, and Tuning Workflows:** `02-training-processing-and-tuning-workflows.md` — job configuration, outputs, and tuning.
-- **Data Quality and Feature Engineering on AWS:** [Data quality and feature engineering](../01-aws-data-architecture/03-data-quality-and-feature-engineering-on-aws.md).
+- **Data Quality and Feature Engineering on AWS:** [Data quality and feature engineering](../data-architecture/03-data-quality-and-feature-engineering-on-aws.md).
 - **Generic ML metrics and validation:** add links to the existing classification metrics, regression metrics, and model-validation notes after confirming their repository paths. Avoid publishing placeholder or guessed relative links.
 
 ## Further reading

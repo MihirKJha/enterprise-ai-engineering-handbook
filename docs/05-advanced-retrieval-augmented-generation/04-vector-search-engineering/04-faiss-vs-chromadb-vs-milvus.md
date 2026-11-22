@@ -2876,7 +2876,7 @@ each technology should be used.
 [03. IVF and HNSW](03-ivf-and-hnsw.md)
 
 **Next:**  
-[01. Advanced RAG Architecture](../05-advanced-rag-architecture/01-advanced-rag-architecture.md)
+[01. Advanced RAG Architecture](../06-advanced-rag-architecture/01-advanced-rag-architecture.md)
 
 **Section:**  
 04 — Vector Search Engineering

@@ -65,15 +65,15 @@ Work through the chapters in sequence. The first group establishes the foundatio
 
 | # | Chapter | Status |
 |---:|---|:---:|
-| 01 | [Introduction to Machine Learning](1-introduction-to-machine-learning.md) | ✅ |
-| 02 | [Machine Learning Fundamentals](2-machine-learning-fundamentals.md) | ✅ |
-| 03 | [Machine Learning Lifecycle](3-machine-learning-lifecycle.md) | ✅ |
-| 04 | [Machine Learning in Practice](4-machine-learning-in-practice.md) | ✅ |
-| 05 | [Machine Learning Ecosystem and Tools](5-machine-learning-ecosystem-and-tools.md) | ✅ |
-| 06 | [Regression Fundamentals](6-regression-fundamentals.md) | ✅ |
-| 07 | [Linear Regression](7-linear-regression.md) | ✅ |
-| 08 | [Nonlinear Regression](8-nonlinear-regression.md) | ✅ |
-| 09 | [Logistic Regression](9-logistic-regression.md) | ✅ |
+| 01 | [Introduction to Machine Learning](01-introduction-to-machine-learning.md) | ✅ |
+| 02 | [Machine Learning Fundamentals](02-machine-learning-fundamentals.md) | ✅ |
+| 03 | [Machine Learning Lifecycle](03-machine-learning-lifecycle.md) | ✅ |
+| 04 | [Machine Learning in Practice](04-machine-learning-in-practice.md) | ✅ |
+| 05 | [Machine Learning Ecosystem and Tools](05-machine-learning-ecosystem-and-tools.md) | ✅ |
+| 06 | [Regression Fundamentals](06-regression-fundamentals.md) | ✅ |
+| 07 | [Linear Regression](07-linear-regression.md) | ✅ |
+| 08 | [Nonlinear Regression](08-nonlinear-regression.md) | ✅ |
+| 09 | [Logistic Regression](09-logistic-regression.md) | ✅ |
 | 10 | [Regression Model Training and Evaluation](10-training-and-evaluating-regression-models.md) | ✅ |
 | 11 | [Classification Fundamentals](11-classification-fundamentals.md) | ✅ |
 | 12 | [Decision Trees](12-decision-trees.md) | ✅ |
@@ -133,7 +133,7 @@ The appropriate algorithm depends on the problem, the available data, the cost o
 
 ## Start learning
 
-Begin with [01. Introduction to Machine Learning](1-introduction-to-machine-learning.md), then follow the chapter sequence. Each topic builds on the foundations established earlier and moves toward more practical model development and evaluation.
+Begin with [01. Introduction to Machine Learning](01-introduction-to-machine-learning.md), then follow the chapter sequence. Each topic builds on the foundations established earlier and moves toward more practical model development and evaluation.
 
 ---
 

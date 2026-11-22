@@ -396,7 +396,7 @@ A2A provides the communication contract. It does not grant access, validate conc
 ## 🧭 Chapter Navigation
 
 ⬅️ **Previous:** [10. Enterprise MCP Architecture & Design
-Patterns](10-enterprise-mcp-architecture-design-patterns.md)
+Patterns](../mcp-engineering/10-enterprise-mcp-architecture-design-patterns.md)
 
 📚 **Part:** [AI Engineering Frameworks & Tooling](../index.md)
 

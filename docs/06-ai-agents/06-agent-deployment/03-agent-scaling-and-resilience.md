@@ -3386,16 +3386,16 @@ belong primarily in Part VII.
 ### Related
 
 - [01. Agent Deployment Overview](01-agent-deployment-overview.md)
-- [05. Agent Authorization](05-agent-authorization.md)
-- [06. Secrets Management](06-secrets-management.md)
-- [07. Data Privacy](07-data-privacy.md)
-- [08. Agent Sandboxing](08-agent-sandboxing.md)
-- [09. Agent Guardrails](09-agent-guardrails.md)
-- [10. Agent Risk Management](10-agent-risk-management.md)
-- [Planning & Task Decomposition](08-planning-and-task-decomposition.md)
-- [Agent Reasoning](09-agent-reasoning.md)
-- [Reflection & Self-Correction](10-reflection-and-self-correction.md)
-- [Agent Evaluation](10-agent-evaluation.md)
+- [05. Agent Authorization](../05-agent-security/05-agent-authorization.md)
+- [06. Secrets Management](../05-agent-security/06-secrets-management.md)
+- [07. Data Privacy](../05-agent-security/07-data-privacy.md)
+- [08. Agent Sandboxing](../05-agent-security/08-agent-sandboxing.md)
+- [09. Agent Guardrails](../05-agent-security/09-agent-guardrails.md)
+- [10. Agent Risk Management](../05-agent-security/10-agent-risk-management.md)
+- [Planning & Task Decomposition](../01-ai-agent-fundamentals/08-planning-and-task-decomposition.md)
+- [Agent Reasoning](../01-ai-agent-fundamentals/09-agent-reasoning.md)
+- [Reflection & Self-Correction](../01-ai-agent-fundamentals/10-reflection-and-self-correction.md)
+- [Agent Evaluation](../04-agent-observability/10-agent-evaluation.md)
 
 ---
 

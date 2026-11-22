@@ -151,7 +151,7 @@ Record the decision, alternatives, assumptions and migration risks in an archite
 
 - [LlamaIndex documentation](https://docs.llamaindex.ai/)
 - [Chapter 01 — Fundamentals](01-llamaindex-fundamentals.md)
-- [AI Engineering Frameworks & Tooling](index.md)
+- [AI Engineering Frameworks & Tooling](../index.md)
 
 ## Chapter navigation
 

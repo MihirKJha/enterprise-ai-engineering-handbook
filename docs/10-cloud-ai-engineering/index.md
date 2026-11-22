@@ -98,7 +98,7 @@ Move from individual agent capabilities to integration, orchestration, and multi
 
 | Chapter | Focus | Status |
 |---|---|:---:|
-| [01. Autonomy of an Azure AI Agent](01-azure-ai/ai-agents/01-autonomy-of-an-azure-ai-agent.md) | Understand agent autonomy and how agents differ from request-response applications. | 📘 |
+| [01. Anatomy of an Azure AI Agent](01-azure-ai/ai-agents/01-anatomy-of-an-azure-ai-agent.md) | Understand agent autonomy and how agents differ from request-response applications. | 📘 |
 | [02. Integrating Custom Tools into AI Agents](01-azure-ai/ai-agents/02-integrating-custom-tools-into-ai-agents.md) | Extend agents with application-specific tools and controlled actions. | 📘 |
 | [03. Integrating Agents with MCP Servers](01-azure-ai/ai-agents/03-integrating-agents-with-mcp-servers.md) | Connect agents to capabilities exposed through MCP servers. | 📘 |
 | [04. Ground Agents with Foundry IQ](01-azure-ai/ai-agents/04-ground-agents-with-foundry-iq.md) | Ground agent responses in enterprise knowledge sources. | 📘 |
@@ -242,7 +242,7 @@ Use the Azure and AWS chapter tables above to navigate directly to each topic.
 Choose a track based on your immediate goal:
 
 - **Azure generative AI applications:** Begin with [Azure AI Architecture and Model Lifecycle](01-azure-ai/generative-ai/01-azure-ai-architecture-and-model-lifecycle.md), then continue with Python application development and tool calling.
-- **Azure agents:** Begin with [Autonomy of an Azure AI Agent](01-azure-ai/ai-agents/01-autonomy-of-an-azure-ai-agent.md), then follow the tools, MCP, grounding, and orchestration chapters.
+- **Azure agents:** Begin with [Anatomy of an Azure AI Agent](01-azure-ai/ai-agents/01-anatomy-of-an-azure-ai-agent.md), then follow the tools, MCP, grounding, and orchestration chapters.
 - **AWS generative AI applications:** Begin with [Bedrock Platform and Model Access](02-aws-ai/bedrock-ai-architecture/01-bedrock-platform-and-model-access.md), then continue to Knowledge Bases and agents.
 - **AWS AI data:** Start with [Data Storage and Ingestion for AI](02-aws-ai/data-architecture/01-data-storage-and-ingestion-for-ai.md), followed by ETL and data quality.
 - **AWS model operations:** Start with [SageMaker AI Platform Overview](02-aws-ai/sagemaker-ai-architecture/01-sagemaker-ai-platform-overview.md), then follow training, evaluation, and inference.

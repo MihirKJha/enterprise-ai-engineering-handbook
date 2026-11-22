@@ -103,7 +103,7 @@ Start with the agent execution model: how an agent interprets a goal, reasons ab
 | [01. AI Agent Fundamentals](01-ai-agent-fundamentals/01-ai-agent-fundamentals.md) | ✅ |
 | [02. Tool Calling & Function Calling](01-ai-agent-fundamentals/02-tool-calling-and-function-calling.md) | ✅ |
 | [03. Building & Orchestrating Tools](01-ai-agent-fundamentals/03-building-and-orchestrating-tools.md) | ✅ |
-| [04. ICL & Manual Tool Calling](01-ai-agent-fundamentals/04-icel-and-manual-tool-calling.md) | ✅ |
+| [04. LCEL & Manual Tool Calling](01-ai-agent-fundamentals/04-lcel-and-manual-tool-calling.md) | ✅ |
 | [05. LangChain Built-in Agents](01-ai-agent-fundamentals/05-langchain-built-in-agents.md) | ✅ |
 | [06. AI Agent Design Best Practices](01-ai-agent-fundamentals/06-ai-agent-design-best-practices.md) | ✅ |
 | [07. Enterprise AI Agent Architecture](01-ai-agent-fundamentals/07-enterprise-ai-agent-architecture.md) | ✅ |
@@ -320,7 +320,7 @@ Framework and protocol implementations
 
 ## Start learning
 
-Begin with [01. AI Agent Fundamentals](1-ai-agent-fundamentals/01-ai-agent-fundamentals.md), then follow the six sections in order.
+Begin with [01. AI Agent Fundamentals](01-ai-agent-fundamentals/01-ai-agent-fundamentals.md), then follow the six sections in order.
 
 > **The goal:** Design AI agents that can reason, plan, use tools, maintain memory, communicate, evaluate their results, operate securely, and run reliably as enterprise software.
 

@@ -16,7 +16,7 @@ title: Graph-Based Agent Architecture — From Agent Loops to Enterprise Systems
 
 > **A model can suggest the next move. Your architecture decides whether it gets to make it.**
 
-In [LangGraph Fundamentals](17-langgraph-fundamentals.md), we built a small LangGraph workflow and learned its basic vocabulary: state, nodes, edges, conditional routing and loops. That was the engine room.
+In [LangGraph Fundamentals](01-langgraph-fundamentals.md), we built a small LangGraph workflow and learned its basic vocabulary: state, nodes, edges, conditional routing and loops. That was the engine room.
 
 Imagine a customer tells a banking support agent:
 
@@ -325,7 +325,7 @@ Next Chapters cover state, routing, human approval, tools and production operati
 
 ⬅️ **Previous:** [01. LangGraph Fundamentals](01-langgraph-fundamentals.md)
 
-📚 **Part VIII Index:** [AI Engineering Frameworks & Tooling](index.md)
+📚 **Part VIII Index:** [AI Engineering Frameworks & Tooling](../index.md)
 
 ➡️ **Next:** [03. LangGraph State and Checkpointing](03-langgraph-state-and-checkpointing.md)
 

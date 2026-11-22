@@ -349,7 +349,7 @@ none needs to be crammed into this introduction.
 
 ⬅️ **Previous:** [08. LlamaIndex Limitations and Trade-offs](../llamaindex/08-llamaindex-limitations-and-tradeoffs.md)
 
-📚 **Part VIII Index:** [AI Engineering Frameworks & Tooling](index.md)
+📚 **Part VIII Index:** [AI Engineering Frameworks & Tooling](../index.md)
 
 ➡️ **Next:** [02. Graph Based Agent Architecture](02-graph-based-agent-architecture.md)
 
